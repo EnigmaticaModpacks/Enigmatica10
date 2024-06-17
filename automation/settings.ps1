@@ -56,9 +56,7 @@ $CLIENT_CHANGELOG = "The Changelog is currently being written."
 # @(7722) - is Minecraft 1.15.2
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
-
-# can be either 9186, 9189 or 9190 for 1.19?
-$GAME_VERSIONS = @(11457) # Or was it '11458'?
+$GAME_VERSIONS = @(11457) 
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "alpha"
@@ -80,12 +78,7 @@ $MODLIST_CREATOR_JAR = "ModListCreator-4.0.3-fatjar.jar"
 $CLIENT_FILE_AUTHOR = "EnigmaticaModpacks"
 
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @("config",
-	"defaultconfigs",
-	"kubejs",
-	"local",
-	"packmenu",
-	"patchouli_books",
-	"schematics")
+	"defaultconfigs")
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"InventoryHUD/curios.json",
