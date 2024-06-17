@@ -179,7 +179,15 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"theoneprobe-client.toml",
 	"sidebar_buttons.json",
 	"compressedcreativity-client.toml",
-	"AdvancedBackups-client.properties"
+	"AdvancedBackups-client.properties",
+	"cosmeticarmorreworked-client.toml",
+	"appleskin-client.toml",
+	"embeddium-fingerprint.json",
+	"embeddium-options.json",
+	"jei/blacklist.cfg",
+	"measurements-client.toml",
+	"Mekanism/client.toml",
+	"modularrouters-client.toml"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt", "resourcepacks")

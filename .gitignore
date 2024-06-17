@@ -176,6 +176,7 @@ config/travel_anchors-client.toml
 config/twilightforest-client.toml
 config/upgrade_aquatic-client.toml
 rhino.local.properties
+config/cosmeticarmorreworked-client.toml
 
 # GDLauncher
 config.json
@@ -188,71 +189,6 @@ config.json
 # MultiMC
 icon.png
 
-# EmendatusEnigmatica deposit configs // Those are handled by configswapper! For editing values for those files you should go to `config/configswapper/{mode}/config/emendatusenigmatica/deposit/`
-config/emendatusenigmatica/deposit/dense/coal/coal_diamond.json
-config/emendatusenigmatica/deposit/dense/osmium/osmium_tin_nether.json
-config/emendatusenigmatica/deposit/dense/quartz/quartz_nether.json
-config/emendatusenigmatica/deposit/dense/tin/tin_quartz.json
-config/emendatusenigmatica/deposit/dikes/dike_sulfur_nether_brimstone.json
-config/emendatusenigmatica/deposit/geodes/dimensional_geode.json
-config/emendatusenigmatica/deposit/geodes/emerald_geode_dripstone_caves.json
-config/emendatusenigmatica/deposit/geodes/emerald_geode_hills_high.json
-config/emendatusenigmatica/deposit/geodes/emerald_geode_hills_low.json
-config/emendatusenigmatica/deposit/geodes/emerald_geode_swamp.json
-config/emendatusenigmatica/deposit/geodes/fluorite_geode.json
-config/emendatusenigmatica/deposit/geodes/fluorite_geode_nether.json
-config/emendatusenigmatica/deposit/geodes/ocean_geode.json
-config/emendatusenigmatica/deposit/geodes/redstone_geode.json
-config/emendatusenigmatica/deposit/geodes/sulfur_geode_air.json
-config/emendatusenigmatica/deposit/geodes/sulfur_geode_nether.json
-config/emendatusenigmatica/deposit/geodes/sulfur_geode_water.json
-config/emendatusenigmatica/deposit/vanilla/aluminum/vanilla_aluminum_high.json
-config/emendatusenigmatica/deposit/vanilla/aluminum/vanilla_aluminum_low.json
-config/emendatusenigmatica/deposit/vanilla/aluminum/vanilla_aluminum_nether.json
-config/emendatusenigmatica/deposit/vanilla/apatite/vanilla_apatite.json
-config/emendatusenigmatica/deposit/vanilla/bitumen/bitumen_sandstone.json
-config/emendatusenigmatica/deposit/vanilla/coal/vanilla_coal_high.json
-config/emendatusenigmatica/deposit/vanilla/coal/vanilla_coal_low.json
-config/emendatusenigmatica/deposit/vanilla/coal/vanilla_coal_medium.json
-config/emendatusenigmatica/deposit/vanilla/coal/vanilla_coal_nether.json
-config/emendatusenigmatica/deposit/vanilla/copper/vanilla_copper_high.json
-config/emendatusenigmatica/deposit/vanilla/copper/vanilla_copper_low.json
-config/emendatusenigmatica/deposit/vanilla/copper/vanilla_copper_medium.json
-config/emendatusenigmatica/deposit/vanilla/diamond/vanilla_diamond_low.json
-config/emendatusenigmatica/deposit/vanilla/diamond/vanilla_diamond_nether.json
-config/emendatusenigmatica/deposit/vanilla/emerald/vanilla_emerald_high.json
-config/emendatusenigmatica/deposit/vanilla/gold/vanilla_gold_low.json
-config/emendatusenigmatica/deposit/vanilla/gold/vanilla_gold_medium.json
-config/emendatusenigmatica/deposit/vanilla/gold/vanilla_gold_nether.json
-config/emendatusenigmatica/deposit/vanilla/iron/vanilla_iron_high.json
-config/emendatusenigmatica/deposit/vanilla/iron/vanilla_iron_low.json
-config/emendatusenigmatica/deposit/vanilla/iron/vanilla_iron_medium.json
-config/emendatusenigmatica/deposit/vanilla/iron/vanilla_iron_nether.json
-config/emendatusenigmatica/deposit/vanilla/lapis/vanilla_lapis_low.json
-config/emendatusenigmatica/deposit/vanilla/lapis/vanilla_lapis_medium.json
-config/emendatusenigmatica/deposit/vanilla/lead/vanilla_lead_low.json
-config/emendatusenigmatica/deposit/vanilla/lead/vanilla_lead_medium.json
-config/emendatusenigmatica/deposit/vanilla/lead/vanilla_lead_nether.json
-config/emendatusenigmatica/deposit/vanilla/nickel/vanilla_nickel_high.json
-config/emendatusenigmatica/deposit/vanilla/nickel/vanilla_nickel_low.json
-config/emendatusenigmatica/deposit/vanilla/osmium/vanilla_osmium_high.json
-config/emendatusenigmatica/deposit/vanilla/osmium/vanilla_osmium_low.json
-config/emendatusenigmatica/deposit/vanilla/quartz/vanilla_quartz_nether.json
-config/emendatusenigmatica/deposit/vanilla/redstone/vanilla_redstone_low.json
-config/emendatusenigmatica/deposit/vanilla/redstone/vanilla_redstone_medium.json
-config/emendatusenigmatica/deposit/vanilla/silver/vanilla_silver_high.json
-config/emendatusenigmatica/deposit/vanilla/silver/vanilla_silver_low.json
-config/emendatusenigmatica/deposit/vanilla/silver/vanilla_silver_medium.json
-config/emendatusenigmatica/deposit/vanilla/tin/vanilla_tin_high.json
-config/emendatusenigmatica/deposit/vanilla/tin/vanilla_tin_low.json
-config/emendatusenigmatica/deposit/vanilla/tin/vanilla_tin_medium.json
-config/emendatusenigmatica/deposit/vanilla/uranium/vanilla_uranium_high.json
-config/emendatusenigmatica/deposit/vanilla/uranium/vanilla_uranium_low.json
-config/emendatusenigmatica/deposit/vanilla/uranium/vanilla_uranium_nether.json
-config/emendatusenigmatica/deposit/vanilla/zinc/vanilla_zinc_high.json
-config/emendatusenigmatica/deposit/vanilla/zinc/vanilla_zinc_low.json
-config/emendatusenigmatica/deposit/vanilla/zinc/vanilla_zinc_medium.json
-
 # Random stuff to ignore
 biomeidfixer.temp
 config/PregenConfig.toml
@@ -263,3 +199,11 @@ config/emi.css
 emi.json
 config/compressedcreativity-client.toml
 config/AdvancedBackups-client.properties
+config/appleskin-client.toml
+config/embeddium-fingerprint.json
+config/embeddium-options.json
+config/jei/blacklist.cfg
+config/measurements-client.toml
+config/Mekanism/client.toml
+config/modularrouters-client.toml
+config/theurgy-client.toml
