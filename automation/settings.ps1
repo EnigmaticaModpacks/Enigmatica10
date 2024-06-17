@@ -16,7 +16,7 @@ $CURSEFORGE_USER = "NillerMedDild"
 # $CURSEFORGE_TOKEN = 
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 632239
+$CURSEFORGE_PROJECT_ID = 1038391
 
 # =====================================================================//
 #  MAIN MODPACK SETTINGS
@@ -45,7 +45,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "The Changelog is currently being written, it should be done soon."
+$CLIENT_CHANGELOG = "The Changelog is currently being written."
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
@@ -58,7 +58,7 @@ $CLIENT_CHANGELOG = "The Changelog is currently being written, it should be done
 # More can be found by running GetGameVersions
 
 # can be either 9186, 9189 or 9190 for 1.19?
-$GAME_VERSIONS = @(9366)
+$GAME_VERSIONS = @(11457) # Or was it '11458'?
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "alpha"
@@ -187,7 +187,9 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"jei/blacklist.cfg",
 	"measurements-client.toml",
 	"Mekanism/client.toml",
-	"modularrouters-client.toml"
+	"modularrouters-client.toml",
+	"theurgy-client.toml",
+	"fpsreducer/fpsreducer-client.toml"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt", "resourcepacks")
