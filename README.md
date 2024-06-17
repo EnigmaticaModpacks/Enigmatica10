@@ -27,7 +27,7 @@ You're done!
 
 ## Links
 
-- [Enigmatica 10 on CurseForge (WIP)](https://www.curseforge.com/minecraft/modpacks/enigmatica10)
+- [Enigmatica 10 on CurseForge](https://www.curseforge.com/minecraft/modpacks/enigmatica10)
 
 - [Enigmatica Discord](https://discord.gg/HnWNd7X)
 
