@@ -63,7 +63,6 @@
   * [Structory_1.21_v1.3.5.jar](https://www.curseforge.com/minecraft/mc-mods/structory/files/5424923) (by [botanydev](https://www.curseforge.com/members/botanydev/projects))
   * [Structory_Towers_1.21_v1.0.7.jar](https://www.curseforge.com/minecraft/mc-mods/structory-towers/files/5424926) (by [botanydev](https://www.curseforge.com/members/botanydev/projects))
   * [Terralith_1.21_v2.5.3.jar](https://www.curseforge.com/minecraft/mc-mods/terralith/files/5427844) (by [Starmute](https://www.curseforge.com/members/Starmute/projects))
-  * [the_bumblezone-7.6.1+1.21-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge/files/5443237) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
   * [theurgy-1.21-neoforge-1.22.3.jar](https://www.curseforge.com/minecraft/mc-mods/theurgy/files/5444060) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
   * [TipTheScales-neoforge-1.21-15.0.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/tipthescales/files/5430372) (by [Jaredlll08](https://www.curseforge.com/members/Jaredlll08/projects))
   * [trashslot-neoforge-1.21-21.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/trashslot/files/5441050) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))

@@ -10,7 +10,6 @@
   * [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) (by [techbrew](https://www.curseforge.com/members/techbrew/projects))
   * [Macaw's Fences and Walls](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
   * [Searchables](https://www.curseforge.com/minecraft/mc-mods/searchables) (by [Jaredlll08](https://www.curseforge.com/members/Jaredlll08/projects))
-  * [The Bumblezone (NeoForge/Forge)](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
 
 ### Changed
 
