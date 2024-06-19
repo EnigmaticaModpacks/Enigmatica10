@@ -200,3 +200,4 @@ config/measurements-client.toml
 config/Mekanism/client.toml
 config/modularrouters-client.toml
 config/theurgy-client.toml
+config/NoChatReports/NCR-Client.json
