@@ -182,7 +182,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"Mekanism/client.toml",
 	"modularrouters-client.toml",
 	"theurgy-client.toml",
-	"fpsreducer/fpsreducer-client.toml"
+	"fpsreducer/fpsreducer-client.toml",
+	"NoChatReports/NCR-Client.json"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt", "resourcepacks")
