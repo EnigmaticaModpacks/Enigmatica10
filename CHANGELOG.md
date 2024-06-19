@@ -1,3 +1,13 @@
+### Enigmatica 10 v1.1.0
+
+---
+
+🚀 NeoForge-1.21.0-21.0.12 | [📜 Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.1.0.md) | [📋 Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.1.0.md)
+
+#### ✔️ Added Mods
+
+---
+
 ### Enigmatica 10 v1.0.1
 
 ---
