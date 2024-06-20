@@ -71,6 +71,10 @@
     "block_properties": false,
     "mod_name": true
   },
+  "modern_industrialization": {
+    "overclock": true,
+    "pipe": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

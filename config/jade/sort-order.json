@@ -66,6 +66,9 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "modern_industrialization:machine": null,
+  "modern_industrialization:overclock": null,
+  "modern_industrialization:pipe": null,
   "modularrouters:router": null,
   "theurgy:mercury_flux": null
 }
