@@ -26,6 +26,7 @@
   * Sal Ammoniac Accumulator won't accept water [(\#4)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/4)
   * Armor and hunger bar still show in F1 mode [(\#3)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/3)
   * Waystones don't have a texture assigned when breaking [(\#2)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/2)
+  * Cobblestone can't be piped into Mercury Distiller [(\#5)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/5)
 
 ---
 
