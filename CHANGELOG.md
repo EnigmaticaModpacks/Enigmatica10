@@ -21,6 +21,10 @@
   * [Resourceful Config](https://www.curseforge.com/minecraft/mc-mods/resourceful-config) (by [ThatGravyBoat](https://www.curseforge.com/members/ThatGravyBoat/projects))
   * [The Bumblezone (NeoForge/Forge)](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
   
+#### ⭐ Improvements
+
+  * Disable tool requirement for Right Click Harvest [\#6](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/6)
+
 #### 🦟 Bugs Fixed
 
   * Sal Ammoniac Accumulator won't accept water [(\#4)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/4)
