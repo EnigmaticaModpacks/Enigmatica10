@@ -1,10 +1,10 @@
 {
-	// - default: true
-	requireHoe: true,
-	// - default: true
-	harvestInRadius: true,
-	/* - default: NORMAL
+    // - default: true
+    requireHoe: false,
+    // - default: true
+    harvestInRadius: false,
+    /* - default: NORMAL
 	   - must be one of: NONE, LOW, NORMAL, HIGH
 	*/
-	hungerLevel: "NORMAL"
+    hungerLevel: 'NORMAL'
 }
