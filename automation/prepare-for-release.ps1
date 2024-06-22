@@ -11,23 +11,38 @@ function Validate-SecretsFile {
 . "$PSScriptRoot\settings.ps1"
 . "$PSScriptRoot\secrets.ps1"
 
-function Get-ModloaderVersion {
-    # Define the path to your YAML file
-    $settingsPath = "$PSScriptRoot\settings.cfg"
+function Set-NeoForgeVersion {
+    # Read the JSON content from the file
+    $jsonContent = Get-Content -Path "$INSTANCE_ROOT/minecraftinstance.json" -Raw
 
-    # Load the YAML content from the file
-    $fileContent = Get-Content -Path $settingsPath -Raw
+    # Parse the JSON content
+    $jsonObject = $jsonContent | ConvertFrom-Json
 
-    # Use regex to extract the loaderVersion
-    if ($fileContent -match "FORGEVER=\s*([^\s]+)") {
-        $loaderVersion = $matches[1] -replace ";"
-        Write-Output "loaderVersion: $loaderVersion"
-        return $loaderVersion
+    # Extract the version number
+    $version = $jsonObject.baseModLoader.forgeVersion
+
+    # Extract the version part (excluding the beta part)
+    $pureVersion = $version -replace '-beta', ''
+
+    $paths = @("$PSScriptRoot/settings.cfg", "$INSTANCE_ROOT/server_files/server-setup-config.yaml")
+
+    $paths | ForEach-Object {
+        $contents = [System.IO.File]::ReadAllText($_) -replace "21.0.\d+", $pureVersion
+        [System.IO.File]::WriteAllText($_, $contents)
     }
-    else {
-        throw "loaderVersion not found."
-    }
+    
+    return $pureVersion
 }
+
+function Set-BetterCompatibilityCheckerVersion {
+    $configPath = "$INSTANCE_ROOT/config/bcc-common.toml"
+
+    # Replace anything that matches semver of the type 1.0.0 with $MODPACK_VERSION
+    $contents = [System.IO.File]::ReadAllText($configPath) -replace "\d+\.\d+\.\d+", $MODPACK_VERSION
+
+    [System.IO.File]::WriteAllText($configPath, $contents)
+}
+
 function Close-FixedIssues {
     $base64Token = [System.Convert]::ToBase64String([char[]]$GITHUB_TOKEN);
     
@@ -57,7 +72,8 @@ function Close-FixedIssues {
         Invoke-RestMethod -Headers $headers -Uri $uri -Body $body -Method Patch | Out-Null
     }
 
-    $modloaderVersion = Get-ModloaderVersion
+    Set-BetterCompatibilityCheckerVersion
+    $modloaderVersion = Set-NeoForgeVersion
 
     Write-Host "-----"
     Write-Host
