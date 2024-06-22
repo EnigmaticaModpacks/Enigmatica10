@@ -4,20 +4,26 @@
 
 #### ✔️ Added Mods
 
- * [Charging Gadgets](https://www.curseforge.com/minecraft/mc-mods/charging-gadgets) (by [Direwolf20](https://www.curseforge.com/members/Direwolf20/projects))
+  * [Advanced Backups](https://www.curseforge.com/minecraft/mc-mods/advanced-backups) (by [HeatherWhite](https://www.curseforge.com/members/HeatherWhite/projects))
+  * [Charging Gadgets](https://www.curseforge.com/minecraft/mc-mods/charging-gadgets) (by [Direwolf20](https://www.curseforge.com/members/Direwolf20/projects))
   * [Cloth Config API (Fabric/Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
   * [Creeper Overhaul](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul) (by [joosh_7889](https://www.curseforge.com/members/joosh_7889/projects))
   * [Curios API Continuation](https://www.curseforge.com/minecraft/mc-mods/curios-continuation) (by [SSKirillSS](https://www.curseforge.com/members/SSKirillSS/projects))
   * [FTB Chunks (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge) (by [FTB](https://www.curseforge.com/members/FTB/projects))
   * [FTB Library (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) (by [FTB](https://www.curseforge.com/members/FTB/projects))
+  * [FTB Quests (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) (by [FTB](https://www.curseforge.com/members/FTB/projects))
   * [FTB Ranks (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-forge) (by [FTB](https://www.curseforge.com/members/FTB/projects))
   * [FTB Teams (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) (by [FTB](https://www.curseforge.com/members/FTB/projects))
+  * [Just Enough Breeding (JEBr)](https://www.curseforge.com/minecraft/mc-mods/justenoughbreeding) (by [Christofmeg](https://www.curseforge.com/members/Christofmeg/projects))
+  * [Just Enough Mekanism Multiblocks](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks) (by [gisellevonbingen](https://www.curseforge.com/members/gisellevonbingen/projects))
   * [LaserIO](https://www.curseforge.com/minecraft/mc-mods/laserio) (by [Direwolf20](https://www.curseforge.com/members/Direwolf20/projects))
   * [Macaw's Lights and Lamps](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
   * [Mining Gadgets](https://www.curseforge.com/minecraft/mc-mods/mining-gadgets) (by [Direwolf20](https://www.curseforge.com/members/Direwolf20/projects))
   * [Modern Industrialization](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization) (by [thetechnici4n](https://www.curseforge.com/members/thetechnici4n/projects))
+  * [Modular Force Field Systems (MFFS)](https://www.curseforge.com/minecraft/mc-mods/mffs) (by [QueenOfMissiles](https://www.curseforge.com/members/QueenOfMissiles/projects))
+  * [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) (by [Chaosyr](https://www.curseforge.com/members/Chaosyr/projects))
+  * [Noisium](https://www.curseforge.com/minecraft/mc-mods/noisium) (by [Steveplays28](https://www.curseforge.com/members/Steveplays28/projects))
   * [OctoLib](https://www.curseforge.com/minecraft/mc-mods/octo-lib) (by [SSKirillSS](https://www.curseforge.com/members/SSKirillSS/projects))
-  * [Relics](https://www.curseforge.com/minecraft/mc-mods/relics-mod) (by [SSKirillSS](https://www.curseforge.com/members/SSKirillSS/projects))
   * [Resourceful Config](https://www.curseforge.com/minecraft/mc-mods/resourceful-config) (by [ThatGravyBoat](https://www.curseforge.com/members/ThatGravyBoat/projects))
   * [The Bumblezone (NeoForge/Forge)](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
   
@@ -31,6 +37,7 @@
   * Armor and hunger bar still show in F1 mode [(\#3)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/3)
   * Waystones don't have a texture assigned when breaking [(\#2)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/2)
   * Cobblestone can't be piped into Mercury Distiller [(\#5)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/5)
+  * Crash when uses for quartz [(\#7)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/7)
 
 ---
 
