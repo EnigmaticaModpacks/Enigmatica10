@@ -27,10 +27,12 @@
 				id: "54D4D90621C89634"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: -3.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["2A83BC699BE18F3A"]
+			hide_dependency_lines: true
 			id: "212EB5AFECD2A6E8"
 			rewards: [{
 				id: "0986788DA599C834"
@@ -45,7 +47,7 @@
 				item: { count: 1, id: "modern_industrialization:forge_hammer" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -96,7 +98,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
@@ -115,7 +117,7 @@
 				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -155,7 +157,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -166,7 +168,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -186,7 +188,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -223,7 +225,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -271,7 +273,7 @@
 				item: { count: 1, id: "modern_industrialization:fluid_pipe" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -282,7 +284,7 @@
 				item: { count: 1, id: "modern_industrialization:bronze_cutting_machine" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -500,7 +502,7 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -511,7 +513,7 @@
 				item: { count: 1, id: "modern_industrialization:assembler" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -568,7 +570,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -588,7 +590,7 @@
 				item: { count: 1, id: "modern_industrialization:polarizer" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -635,7 +637,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -665,7 +667,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -708,7 +710,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 11.0d
 			y: 2.0d
 		}
 		{
@@ -739,7 +741,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 11.0d
 			y: 3.0d
 		}
 		{
@@ -750,7 +752,7 @@
 				item: { count: 1, id: "modern_industrialization:centrifuge" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 1.5d
 		}
 		{
@@ -781,7 +783,7 @@
 				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -843,7 +845,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 14.0d
 			y: -0.5d
 		}
 		{
@@ -854,7 +856,7 @@
 				item: { count: 1, id: "modern_industrialization:distillery" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 1.5d
 		}
 		{
@@ -865,7 +867,7 @@
 				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 2.5d
 		}
 		{
@@ -933,7 +935,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -953,7 +955,7 @@
 				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -964,7 +966,7 @@
 				item: { count: 1, id: "modern_industrialization:electrolyzer" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 2.5d
 		}
 	]

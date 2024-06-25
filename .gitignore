@@ -201,3 +201,4 @@ config/Mekanism/client.toml
 config/modularrouters-client.toml
 config/theurgy-client.toml
 config/NoChatReports/NCR-Client.json
+command_history.txt

@@ -1,18 +1,18 @@
 {
-	chapter.0095002B3E34FD9A.title: "Occultism"
-	chapter.0E9796448AFA83CD.title: "Storage"
-	chapter.0EFE9E753A92388D.title: "Building"
-	chapter.1A29B498BD263BEF.title: "Redstone"
-	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
-	chapter.3676C6A060A63447.title: "Theurgy"
-	chapter.402AE6264B81A84B.title: "Logistics"
-	chapter.47870879D8E3742D.title: "Getting Started"
-	chapter.4D1E38918B64CD4E.title: "Mekanism"
-	chapter.777EE0C4949DFE12.title: "Applied Energistics"
-	chapter_group.1C7CD605A8DD7732.title: "Discovery"
-	chapter_group.264B8D62983BEFB4.title: "Learning - Technology"
-	chapter_group.440488E780593120.title: "Learning - Magic"
-	file.0000000000000001.title: "Enigmatica 10"
+	chapter.0095002B3E34FD9A.title: "&9Occultism&r"
+	chapter.0E9796448AFA83CD.title: "&9Storage&r"
+	chapter.0EFE9E753A92388D.title: "&9Building&r"
+	chapter.1A29B498BD263BEF.title: "&9Redstone&r"
+	chapter.2F5B4621D5F0381A.title: "&9Modern Industrialization&r"
+	chapter.3676C6A060A63447.title: "&9Theurgy&r"
+	chapter.402AE6264B81A84B.title: "&9Logistics&r"
+	chapter.47870879D8E3742D.title: "&9Getting Started&r"
+	chapter.4D1E38918B64CD4E.title: "&9Mekanism&r"
+	chapter.777EE0C4949DFE12.title: "&9Applied Energistics&r"
+	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery&r"
+	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology&r"
+	chapter_group.440488E780593120.title: "&aLearning - Magic&r"
+	file.0000000000000001.title: "&n&3Enigmatica 10&r&r"
 	quest.09EE2DE8B55928C2.quest_desc: [
 		"New technology often means new efficiencies in Modern Industrialization. In this case, the Bronze Compressor allows converting Ingots to Plates  at a 1:1 ratio, instead of the former 2:1 ratio."
 		""
@@ -125,6 +125,26 @@
 		"In the meantime, check out the Advancements for a guide to help you get started."
 	]
 	quest.2A83BC699BE18F3A.title: "Modern Industrialization"
+	quest.2AF1CE73E140D685.quest_desc: [
+		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained. "
+		""
+		"Charge some Certus Quartz and use it to craft a Flawed Budding Certus Quartz block."
+		""
+		"Place this block in the world and wait for buds to grow. Once they’ve transitioned from Bud to Cluster, they’re ready to break. Using Fortune will result in more output!"
+		""
+		"This process can be slow at the start and is something you’ll surely wish to automate. You’ll be able to do that later with Applied Energistics’ Annihilation and Formation Planes, but perhaps consider looking into Modular Routers or Just Dire Things for alternative block breakers."
+		""
+		"Modular Routers - The Break Module may be filtered to only break fully grown crystals by setting the Whitelist to Certus Quartz Crystals"
+		""
+		"Just Dire Things - The Advanced Block Breaker can also be filtered, but may be a little harder to craft."
+		""
+		"For an example of how to do this purely with Applied Energistics, check out the YouTube tutorial below."
+		""
+		"{ \"text\": \"Certus Quartz Farm\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.youtube.com/watch?v=ay0Js2TkI1E&t=2941s\" } }"
+		""
+		"&6⚠ Note: Budding Certus blocks do degrade over time and need to be repaired unless you succeed in moving a Flawless Budding Certus Quartz.&r"
+	]
+	quest.2AF1CE73E140D685.title: "Farming Certus"
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
 		""
@@ -163,6 +183,16 @@
 		""
 		"Having machines dedicated to a given recipe will become more and more relevant as you progress, so keep this in mind when designing new processing lines. "
 	]
+	quest.3E622F93756E9BFA.quest_desc: [
+		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
+		""
+		"Certus Quartz, a fantastical material formed in deep space, is only found in crashed meteorites here on the surface. "
+		""
+		"Prepare yourself for a trek as you follow a Meteorite Compass to one such location. There you’ll dig through the tough outer layer of the meteorite to discover both Certus Quartz, and the tools you’ll need to begin working with it."
+		""
+		"Inside the Meteorite, you will also find a Mysterious Cube. Break it to obtain all four Circuit Presses."
+	]
+	quest.3E622F93756E9BFA.title: "Getting Started"
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.42F410023D62E6CB.quest_desc: [
 		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
@@ -298,9 +328,9 @@
 		" "
 		"Quests are divided into two types:"
 		""
-		"{ \"text\": \"Discovering Enigmatica\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" } }"
+		"{ \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" } }"
 		""
-		"{ \"text\": \"Learning Mods\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" } }"
+		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" } }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
 	quest.6E9C0B091D9F258A.quest_desc: [
@@ -309,6 +339,13 @@
 		"In particular, crushing Coal and Lignite Coal will produce ample fuel to run your Steam Mining Drill and Boiler. "
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+	]
+	quest.7220A9770C3E1C6F.quest_desc: [
+		"Inscriber will be the primary machine you’ll be working with to produce crafting components. The various Processors are used extensively. "
+		""
+		"You may wish to automate them at some point, that is the point of Applied Energistics afterall. However, for now it is easy enough to batch craft in the Inscriber. Items can be input with pipes or hoppers and the machine itself can be set to Auto-Output to an adjacent inventory."
+		""
+		"&a🛈 Tip: The Inscriber can be powered directly from any source of FE or EU.&r"
 	]
 	quest.730D1F506B88FEEF.quest_desc: [
 		"Steam is likely in short supply again with a Quarry running and will soon be in even shorter supply running turbines for power. Upgrading to a Large Steam Boiler now will save headaches down the road."
@@ -321,7 +358,7 @@
 	quest.7D82585D50D7207A.quest_desc: [
 		"Work in progress."
 		""
-		"Content coming Soon™!"
+		"More content coming Soon™!"
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
 	task.00949868DFB9A0FD.title: "WIP"
