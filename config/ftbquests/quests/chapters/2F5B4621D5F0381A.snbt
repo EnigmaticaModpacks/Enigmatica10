@@ -3,8 +3,30 @@
 	default_quest_shape: ""
 	filename: "2F5B4621D5F0381A"
 	group: "264B8D62983BEFB4"
+	icon: {
+		id: "modern_industrialization:guidebook"
+	}
 	id: "2F5B4621D5F0381A"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "2A83BC699BE18F3A"
+		rewards: [{
+			id: "1BA1ACA9EC5E3543"
+			item: {
+				count: 1
+				id: "modern_industrialization:guidebook"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "54D4D90621C89634"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
 }

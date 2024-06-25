@@ -3,8 +3,22 @@
 	default_quest_shape: ""
 	filename: "4D1E38918B64CD4E"
 	group: "264B8D62983BEFB4"
+	icon: {
+		id: "mekanism:dictionary"
+	}
 	id: "4D1E38918B64CD4E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "4A05A84FBF5CCD21"
+		tasks: [{
+			id: "00949868DFB9A0FD"
+			type: "checkmark"
+		}]
+		x: 2.0d
+		y: 0.5d
+	}]
 }

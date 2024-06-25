@@ -1,0 +1,3 @@
+/tellraw @p [{"text":"test"},{"keybind":"key.sneak"},{"text":"test"}]
+/tellraw @p [{"text":"Follow the advancements ("},{"keybind":"key.advancements"},{"text":") for now."}]
+/tellraw @p [{"text":"Follow the advancements ("},{"color":"green","keybind":"key.advancements"},{"text":") for now."}]

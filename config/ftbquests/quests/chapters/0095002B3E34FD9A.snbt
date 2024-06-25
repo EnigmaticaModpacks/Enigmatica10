@@ -3,8 +3,36 @@
 	default_quest_shape: ""
 	filename: "0095002B3E34FD9A"
 	group: "440488E780593120"
+	icon: {
+		components: {
+			"modonomicon:book_id": "occultism:dictionary_of_spirits"
+		}
+		id: "occultism:dictionary_of_spirits"
+	}
 	id: "0095002B3E34FD9A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "5DF2A3E977D4C11B"
+		rewards: [{
+			id: "570E0D6FE0E6F09F"
+			item: {
+				components: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+				count: 1
+				id: "occultism:dictionary_of_spirits"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "378CFFDB81ED7781"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
 }

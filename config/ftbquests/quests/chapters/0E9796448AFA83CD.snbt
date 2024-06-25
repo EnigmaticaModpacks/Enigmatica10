@@ -3,8 +3,22 @@
 	default_quest_shape: ""
 	filename: "0E9796448AFA83CD"
 	group: "1C7CD605A8DD7732"
+	icon: {
+		id: "minecraft:plenty_pottery_sherd"
+	}
 	id: "0E9796448AFA83CD"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "4B66ECA9D6797B80"
+		tasks: [{
+			id: "6048D8E4ED195229"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -1.0d
+	}]
 }

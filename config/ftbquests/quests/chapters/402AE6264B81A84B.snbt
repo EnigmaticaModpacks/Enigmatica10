@@ -1,10 +1,25 @@
 {
+	autofocus_id: "2150EE8D0B1474CE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "402AE6264B81A84B"
 	group: "1C7CD605A8DD7732"
+	icon: {
+		id: "minecraft:friend_pottery_sherd"
+	}
 	id: "402AE6264B81A84B"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "2150EE8D0B1474CE"
+		tasks: [{
+			id: "15439BEDE1457557"
+			type: "checkmark"
+		}]
+		x: 1.5d
+		y: -1.5d
+	}]
 }

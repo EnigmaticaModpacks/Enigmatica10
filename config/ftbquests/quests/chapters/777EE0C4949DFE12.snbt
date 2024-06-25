@@ -3,8 +3,30 @@
 	default_quest_shape: ""
 	filename: "777EE0C4949DFE12"
 	group: "264B8D62983BEFB4"
+	icon: {
+		id: "ae2:guide"
+	}
 	id: "777EE0C4949DFE12"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "7D82585D50D7207A"
+		rewards: [{
+			id: "5F11EC36E648C2B9"
+			item: {
+				count: 1
+				id: "ae2:guide"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "0B20CB3AECE5EC6E"
+			type: "checkmark"
+		}]
+		x: 2.0d
+		y: 0.0d
+	}]
 }
