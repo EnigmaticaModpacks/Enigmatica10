@@ -13,6 +13,20 @@
 	chapter_group.264B8D62983BEFB4.title: "Learning - Technology"
 	chapter_group.440488E780593120.title: "Learning - Magic"
 	file.0000000000000001.title: "Enigmatica 10"
+	quest.09EE2DE8B55928C2.quest_desc: [
+		"New technology often means new efficiencies in Modern Industrialization. In this case, the Bronze Compressor allows converting Ingots to Plates  at a 1:1 ratio, instead of the former 2:1 ratio."
+		""
+		"Don’t throw out that Forge Hammer just yet, however. The Bronze Compressor is certainly better at the things it does, but some components, like Rods will need another machine."
+		""
+		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+	]
+	quest.12903CD319AE35B9.quest_desc: [
+		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
 	quest.13B5382C24CB79B3.quest_desc: [
 		"Work in progress."
 		""
@@ -25,28 +39,125 @@
 		"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
 	]
 	quest.16C7D5478BF3D449.title: "Learning Mods"
+	quest.1A0A7309D9B2F4FF.quest_desc: [
+		"Tired of mining yet? Look no further. "
+		""
+		"The design concept of Modern Industrialization is to minimize manual labor, including mining. There will be times where it is required to move forward, but rest assured, there’s an automated method coming soon after. "
+		""
+		"With the Steam Quarry, basic materials such as Iron, Copper, Tin, Coal, and more may be collected automatically. The results of an operation depend on the Drill installed; at this point only Copper and Bronze drills are available. "
+		""
+		"Drills do break over time, so setting up a production line for them will be important. "
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		""
+		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
+	]
+	quest.212EB5AFECD2A6E8.quest_desc: [
+		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
+		""
+		"Begin by crafting a Forge Hammer. This device functions much like a Stone Cutter, allowing you to manually re-shape materials, such as Ingots into Plates. It can also be used as rudimentary ore processing, converting Raw Ore and Ore into dusts."
+		""
+		"Using Forge Hammer Tools, such as an Iron Hammer can also make the process more efficient. For example, a Plate may cost two Ingots without a hammer, but only one Ingot with the hammer. Hammers have durability and do wear out rather quickly, however, so use them wisely. "
+	]
 	quest.2150EE8D0B1474CE.quest_desc: [
 		"Work in progress."
 		""
 		"Content coming Soon™!"
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
+	quest.235AA993029F7277.quest_desc: [
+		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
+		""
+		"This is another material that will be used extensively, so setting up a dedicated production line would be a good use of one’s time. In particular, a new Steam Blast Furnace will be recommended for creating Synthetic Oil."
+	]
+	quest.24C8B386C675F3E1.quest_desc: [
+		"Building a factory is no simple task, and truly enormous quantities of materials will be required. "
+		""
+		"Having good tools makes the work easy-ish!"
+		"&n                                                  &r"
+		""
+		"The Steam Mining Drill is an unbreakable, coal powered, 3x3, Silk Touch mining machine. "
+		""
+		"Fuel, such as Coal or Lignite Coal can be fed into it by picking up the fuel and Right-Clicking it on the Drill itself. It also requires water and can be filled by Right-Clicking the Drill into flowing water. "
+		""
+		"Consider spending those first couple of diamonds on this drill to make life simpler!"
+		""
+		"&a🛈 Tip: The Drill will endlessly fill itself from a Water Bucket in your inventory. &r"
+	]
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Work in progress."
 		""
-		"Content coming Soon™!"
+		"More content coming Soon™!"
 		""
-		"Note: The MI Guidebook is unfortunately not currently functional. This chapter will be a priority to help people discovery this exciting mod."
+		"Note: The MI Guidebook is unfortunately not currently functional. This chapter will be a priority to help people discover this exciting mod."
 		""
 		"In the meantime, check out the Advancements for a guide to help you get started."
 	]
 	quest.2A83BC699BE18F3A.title: "Modern Industrialization"
+	quest.2C84374CBB186FE2.quest_desc: [
+		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
+		""
+		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+	]
+	quest.3AD70D3BEF01A693.quest_desc: [
+		"The Coke Oven will be the first of many multi-block machines."
+		""
+		"Every multiblock in Modern Industrialization will require input and output hatches commensurate with the recipes it handles."
+		""
+		"In this case, the Coke Oven requires both Item and Fluid inputs and outputs. Steam and Coal in, Coke and Creosote out."
+		""
+		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Coke Oven block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
+	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
+	quest.3D4F8ED65C176071.quest_desc: [
+		"Steam Turbines usher in a new age of power and productivity. "
+		""
+		"LV Tier machines can operate faster than Steel Tier, and introduce an Efficiency mechanic that allows them to run very fast over time; the longer they run the same recipe uninterrupted, the faster they’ll process. "
+		""
+		"Having machines dedicated to a given recipe will become more and more relevant as you progress, so keep this in mind when designing new processing lines. "
+	]
+	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.44BD4C393C59F1CB.quest_desc: [
 		"The Discovery questline's purpose is to show what's available in the pack."
 		""
 		"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
+	quest.4685E3B748A76726.quest_desc: [
+		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
+		""
+		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+	]
+	quest.4800EBB1FB34B26C.quest_desc: [
+		"Is it really a factory without steam?"
+		""
+		"Crafting at the Forge Hammer can quickly grow tiresome, so let's focus on getting some machines up and running to make things simpler. "
+		"&n                                                  &r"
+		""
+		"Steam power will be used extensively throughout the early stages of the mod, and while we’ll start with a humble little Bronze Boiler, we’ll soon graduate to bigger and better options."
+		""
+		"Place the Bronze Water Pump touching a Water Source block, the more the better. Then place the Bronze Boiler next to it. Use some pipes to connect the two to keep water fed into the Boiler."
+		""
+		"&a🛈 Tip: The Boiler will automatically push Steam to adjacent blocks.&r"
+	]
+	quest.4800EBB1FB34B26C.title: "Steam Powered"
+	quest.487C1E9850772F38.quest_desc: [
+		"At this point, you may be feeling the heat a bit, noticing your Boiler can’t keep up. Building more is an option, but upgrading infrastructure periodically will be more efficient in the long run. "
+		""
+		"Build an upgrade kit for each Bronze machine and install them via Sneak Right-Click; there’s no need to pick up the machine to upgrade them!"
+		""
+		"Hatches should also be upgraded to Steel. Having at least one Steel Hatch installed in a multiblock will upgrade its tier to Steel. Hatches must be picked up to upgrade them."
+		""
+		"&a🛈 Tip: Steel Tier Machines run faster than their Bronze counterparts.&r"
+	]
+	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Work in progress."
 		""
@@ -67,6 +178,23 @@
 		"Content coming Soon™!"
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.6133CA58FE668DA6.quest_desc: [
+		"Analog Circuits will soon enable us to jump to the next tier of machines running on LV electricity. Making the components right now is a little costly, but once we can make an Assembler, the crafts will be much more efficient. "
+		""
+		"Consider making a small batch here and automating later."
+	]
+	quest.63DDC1FFF52DC39F.quest_desc: [
+		"Modern Industrialization includes a robust system of pipes for carrying items, fluids, and electrical power. "
+		""
+		"These pipes can share a block space, allowing up to three different lines to run through a block. This could be one of each type, or multiple of the same type, but different color, pipes. "
+		""
+		"They also boast a large built in filter and a priority system to help route things where they are needed. Right-Click a connection with an empty hand to access these options."
+		""
+		"The Wrench can be used to quickly switch a connection’s mode, or remove the connection entirely. Sneak Right-Clicking a Pipe with the Wrench will immediately remove the pipe section."
+		""
+		"&a🛈 Tip: Sneak Right-Click a pipe against a machine or pipe to easily create a connection.&r"
+	]
+	quest.63DDC1FFF52DC39F.title: "Pipes"
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Work in progress."
 		""
@@ -89,6 +217,20 @@
 		"{ \"text\": \"Learning Mods\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" } }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
+	quest.6E9C0B091D9F258A.quest_desc: [
+		"Material costs getting you down? Now would be a great time to set up some simple ore processing. Crush twice, smelt once. "
+		""
+		"In particular, crushing Coal and Lignite Coal will produce ample fuel to run your Steam Mining Drill and Boiler. "
+		""
+		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+	]
+	quest.730D1F506B88FEEF.quest_desc: [
+		"Steam is likely in short supply again with a Quarry running and will soon be in even shorter supply running turbines for power. Upgrading to a Large Steam Boiler now will save headaches down the road."
+		""
+		"Just like the smaller boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust, which is undoubtedly in great supply at this point. It's used for little else, so you may as well use it for fuel."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+	]
 	quest.7D82585D50D7207A.quest_desc: [
 		"Work in progress."
 		""
