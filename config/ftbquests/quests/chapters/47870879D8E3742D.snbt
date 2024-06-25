@@ -13,6 +13,48 @@
 	quests: [
 		{
 			id: "6DE4258F18A7A321"
+			rewards: [
+				{
+					id: "77384B0A99236E78"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_paxel"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD47CFEEC9FC796"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "104800DFAA34EA66"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "606456A6443027A7"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "18E03E060EA1712D"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_boots"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: {

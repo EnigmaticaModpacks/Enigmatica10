@@ -20,10 +20,24 @@
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
 	]
+	quest.0D80520D08A5C287.quest_desc: [
+		"MV Steam Turbines make more energy, but also consume steam faster. Upgrading to an Advanced Large Steam Boiler sooner, rather than later, will make life easier. "
+		""
+		"Just like with previous boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+	]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
 		""
 		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
+	quest.1386A595D84FE6FC.quest_desc: [
+		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
+		""
+		"Consider setting up a few to continuously process materials like Lava, Redstone, and Raw Iron to obtain some very useful byproducts."
 		""
 		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
 	]
@@ -53,6 +67,21 @@
 		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
 		""
 		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
+	]
+	quest.1A650F4235F6204A.quest_desc: [
+		"Upgrade time again!"
+		""
+		"As usual, when changing tiers it is a good idea to sit back and review your machines. Upgrading to LV Electric Tier is going to speed up many processes. It may also enable recipes that lower tier machines couldn’t handle at all. "
+		""
+		"Since Tin Cables can occupy the same space as Fluid Pipes, this upgrade process shouldn’t be too daunting. Just lay some Tin Cables along your Steam Fluid Pipes and you can start swapping out machines as you’re able to craft them. "
+		""
+		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable against a machine or another Pipe to easily create a connection.&r"
+	]
+	quest.1A650F4235F6204A.title: "Upgrade Electric"
+	quest.20877ECE7619845D.quest_desc: [
+		"Fully converting over to MV may take a little longer than the conversion from Steam to LV. "
+		""
+		"It’s good to start with the power infrastructure, however. Consider building some MV Turbines and down converting the power from MV to LV for now with a Transformer."
 	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
@@ -101,6 +130,18 @@
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
 	]
+	quest.2F797BC2E447F9BF.quest_desc: [
+		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
+	quest.349B97172AB3E56E.quest_desc: [
+		"Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
 	quest.3AD70D3BEF01A693.quest_desc: [
 		"The Coke Oven will be the first of many multi-block machines."
 		""
@@ -123,6 +164,19 @@
 		"Having machines dedicated to a given recipe will become more and more relevant as you progress, so keep this in mind when designing new processing lines. "
 	]
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
+	quest.42F410023D62E6CB.quest_desc: [
+		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
+		""
+		"Setting up an Oil Drilling Rig or two will open the door to those materials so that we may continue our trek into ever more advanced technology."
+		""
+		"Similar to the Quarry, the Oil Drilling Rig consumes Drills to produce its outputs."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		""
+		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
+	]
 	quest.44BD4C393C59F1CB.quest_desc: [
 		"The Discovery questline's purpose is to show what's available in the pack."
 		""
@@ -157,6 +211,13 @@
 		"&a🛈 Tip: Steel Tier Machines run faster than their Bronze counterparts.&r"
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.49AB17BF4F020F89.quest_desc: [
+		"As you expand your MV power grid, your existing LV machines can be easily upgraded to run on MV instead. "
+		""
+		"Craft some Advanced Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot. "
+		""
+		"&6⚠ Note: Machines &ldo not&r &6explode if given the wrong tier of power. They simply don’t run.&r"
+	]
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Work in progress."
@@ -166,12 +227,35 @@
 		"{ \"text\": \"Mekanism Wiki\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com\" } }"
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
+	quest.4A8EF3D657CEAED5.quest_desc: [
+		"All those batteries are looking pretty costly by now. With no Lead or Antimony from the Steam Quarry, you’re probably back to manual mining again, right?"
+		""
+		"The Electric Quarry is the answer to this very issue. "
+		""
+		"With it, more advanced materials such as Lead, Antimony, Bauxite, and various gems may be collected automatically. As with the Steam Quarry, the results of an operation depend on the Drill installed. The Electric Quarry can use the same Bronze and Copper Drills as the Steam Quarry, in addition to others; notably Gold and Steel Drills. "
+		""
+		"Upgrading to Electric is as simple as swapping the controller block and replacing the Steam Hatch with an LV Hatch."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		""
+		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
+	]
 	quest.4B66ECA9D6797B80.quest_desc: [
 		"Work in progress."
 		""
 		"Content coming Soon™!"
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
+	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.577377C909FF0001.quest_desc: [
+		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
+		""
+		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
 	quest.5DF2A3E977D4C11B.quest_desc: [
 		"Work in progress."
 		""
@@ -192,7 +276,7 @@
 		""
 		"The Wrench can be used to quickly switch a connection’s mode, or remove the connection entirely. Sneak Right-Clicking a Pipe with the Wrench will immediately remove the pipe section."
 		""
-		"&a🛈 Tip: Sneak Right-Click a pipe against a machine or pipe to easily create a connection.&r"
+		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable against a machine or another Pipe to easily create a connection.&r"
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
 	quest.6538BD86D9419DD4.quest_desc: [
@@ -209,6 +293,8 @@
 	quest.6AFCA9F187AE6EB2.title: "Building"
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to Enigmatica 10! We hope you enjoy your time here! :D"
+		""
+		"It's dangerous to go alone. Take these to get you started!"
 		" "
 		"Quests are divided into two types:"
 		""
@@ -231,6 +317,7 @@
 		""
 		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
 	]
+	quest.7BEE7FAD21AFEB68.quest_desc: ["With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "]
 	quest.7D82585D50D7207A.quest_desc: [
 		"Work in progress."
 		""
