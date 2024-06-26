@@ -25,6 +25,9 @@
 		}
 		{
 			dependencies: ["2150EE8D0B1474CE"]
+			icon: {
+				id: "minecraft:redstone_block"
+			}
 			id: "235D7EF41916E480"
 			tasks: [{
 				id: "0154B37E4620A081"
@@ -35,6 +38,9 @@
 		}
 		{
 			dependencies: ["2150EE8D0B1474CE"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
 			id: "04CE3E8B1DF8B441"
 			tasks: [{
 				id: "08E7737686B2FDBA"
@@ -45,6 +51,9 @@
 		}
 		{
 			dependencies: ["2150EE8D0B1474CE"]
+			icon: {
+				id: "mekanism:upgrade_gas"
+			}
 			id: "760910BF48876D8E"
 			tasks: [{
 				id: "6D81EBC223A69B2D"
@@ -160,6 +169,9 @@
 		}
 		{
 			dependencies: ["2150EE8D0B1474CE"]
+			icon: {
+				id: "minecraft:hopper"
+			}
 			id: "752888EAF2861EB4"
 			tasks: [{
 				id: "79BCE24E6537B689"
