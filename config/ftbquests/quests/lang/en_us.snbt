@@ -13,6 +13,18 @@
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology&r"
 	chapter_group.440488E780593120.title: "&aLearning - Magic&r"
 	file.0000000000000001.title: "&n&aEnigmatica 10&r&r"
+	quest.0071209841FB1C23.quest_desc: ["Combined storage and remote power transfer. The Cell is the heart of the network and holds the energy, while Gates can be installed remotely to transfer into or out of the network."]
+	quest.015857940250CE8D.quest_desc: [
+		"Fluid Modules for Modular Routers allows a router to transfer fluid bi-directionally. They can also be used to place fluid in the world. "
+		""
+		"The router needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
+	]
+	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in E10."]
+	quest.09E7D266A7724F09.quest_desc: [
+		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. The more there are in a network, the more fluid they can transfer per tick."
+		""
+		"Higher tiers are available."
+	]
 	quest.09EE2DE8B55928C2.quest_desc: [
 		"New technology often means new efficiencies in Modern Industrialization. In this case, the Bronze Compressor allows converting Ingots to Plates  at a 1:1 ratio, instead of the former 2:1 ratio."
 		""
@@ -43,6 +55,16 @@
 		""
 		"&a🛈 Tip: Destinations must be chunk loaded. Install an Anchor Card to ensure the Teleporter is always accessible!&r"
 	]
+	quest.0D32F25CCBC9B192.quest_desc: [
+		"Simple power cables for transferring Modern Industrialization’s EU power. They can power blocks that use FE, but can only accept power from Modern Industrialization."
+		""
+		"Higher tiers are available."
+	]
+	quest.0D65061DFD04B301.quest_desc: [
+		"Item Modules for Modular Routers allow the Router to send to, or pull from an inventory. Different Tiers have different ranges."
+		""
+		"Distributor Modules can pull from or send to a maximum of up to 8 inventories per module, making them perfect for distributed crafts or collecting from many machines."
+	]
 	quest.0D80520D08A5C287.quest_desc: [
 		"MV Steam Turbines make more energy, but also consume steam faster. Upgrading to an Advanced Large Steam Boiler sooner, rather than later, will make life easier. "
 		""
@@ -50,6 +72,7 @@
 		""
 		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
 	]
+	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
@@ -130,6 +153,11 @@
 		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable against a machine or another Pipe to easily create a connection.&r"
 	]
 	quest.1A650F4235F6204A.title: "Upgrade Electric"
+	quest.1D3ECD980E15451B.quest_desc: [
+		"Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."
+		""
+		"Higher tiers are available."
+	]
 	quest.1D4634BB3AF725EC.quest_desc: ["An all-purpose crushing machine used to process ores and other materials. Using it to produce Biofuel is a great way to get some power out of growing crops. "]
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
@@ -155,11 +183,13 @@
 		"Content coming Soon™!"
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
+	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.235AA993029F7277.quest_desc: [
 		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
 		""
 		"This is another material that will be used extensively, so setting up a dedicated production line would be a good use of one’s time. In particular, a new Steam Blast Furnace will be recommended for creating Synthetic Oil."
 	]
+	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in E10."]
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
 		""
@@ -251,6 +281,7 @@
 		""
 		"&a🛈 Tip: Generates extra power in The Nether.&r"
 	]
+	quest.3A078285904792A2.quest_desc: ["Simple item pipes for moving things around. They can be filtered and accept Motors as upgrades to speed them up."]
 	quest.3AD70D3BEF01A693.quest_desc: [
 		"The Coke Oven will be the first of many multi-block machines."
 		""
@@ -303,6 +334,11 @@
 		""
 		"&a🛈 Tip: Sneak Right-Click with a Configurator to set the tank to auto output out the bottom.&r"
 	]
+	quest.4229112D97BB45E6.quest_desc: [
+		"Power cables that double as limited storage, keeping a buffer of power in each block space. The more there are in a network, the more power they can transfer per tick. "
+		""
+		"Higher tiers are available."
+	]
 	quest.42F410023D62E6CB.quest_desc: [
 		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
 		""
@@ -337,6 +373,11 @@
 		"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
+	quest.45121907B7F8DFD1.quest_desc: [
+		"Simple power cables to get energy from one place to another."
+		""
+		"Higher tiers are available."
+	]
 	quest.4685E3B748A76726.quest_desc: [
 		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
 		""
@@ -443,6 +484,13 @@
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
 		""
 		"Be sure to stock up!"
+	]
+	quest.5678189CDBAF373C.quest_desc: [
+		"Simple item pipes for moving things around. They can have a simple color coded routing system they can use to determine where things will go. "
+		""
+		"Mekanism machines pushing into them can natively color-code items, or a Logistical Sorter can be used to pull from any inventory and color-code items appropriately."
+		""
+		"Higher tiers are available."
 	]
 	quest.577377C909FF0001.quest_desc: [
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
@@ -592,6 +640,8 @@
 		""
 		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
 	]
+	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in E10."]
+	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."
 		""
@@ -626,6 +676,8 @@
 	]
 	quest.7D82585D50D7207A.title: "Applied Energistics"
 	task.00949868DFB9A0FD.title: "WIP"
+	task.0154B37E4620A081.title: "Power"
+	task.08E7737686B2FDBA.title: "Fluid"
 	task.090E0C6E2CA23325.title: "WIP"
 	task.0B20CB3AECE5EC6E.title: "WIP"
 	task.0F6FA4BBA3B59771.title: "WIP"
@@ -636,6 +688,8 @@
 	task.6048D8E4ED195229.title: "WIP"
 	task.60A9BAF8F0F3CD5D.title: "Bulk Item Storage"
 	task.648DAF2545E330F5.title: "Storage Systems"
+	task.6D81EBC223A69B2D.title: "Chemical"
 	task.73D7073169A23821.title: "WIP"
+	task.79BCE24E6537B689.title: "Item"
 	task.7CAA73892F94E9C5.title: "Fluid Storage"
 }
