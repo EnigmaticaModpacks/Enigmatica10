@@ -9,16 +9,232 @@
 	id: "0E9796448AFA83CD"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "handcrafted:hammer"
+	quests: [
+		{
+			icon: {
+				id: "handcrafted:hammer"
+			}
+			id: "4B66ECA9D6797B80"
+			tasks: [{
+				id: "6048D8E4ED195229"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
 		}
-		id: "4B66ECA9D6797B80"
-		tasks: [{
-			id: "6048D8E4ED195229"
-			type: "checkmark"
-		}]
-		x: -0.5d
-		y: -1.0d
-	}]
+		{
+			dependencies: ["0B04BC5F88746182"]
+			id: "14D5764532C5EEB0"
+			tasks: [{
+				id: "28C8AF3BACD95F6C"
+				item: { count: 1, id: "mekanism:qio_drive_array" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			icon: {
+				id: "occultism:storage_remote"
+			}
+			id: "684A0E52D7BAC37C"
+			tasks: [
+				{
+					id: "59D5FAADEACD0F56"
+					item: { count: 1, id: "occultism:storage_controller" }
+					type: "item"
+				}
+				{
+					id: "3C62B793851D88DA"
+					item: { count: 1, id: "occultism:stable_wormhole" }
+					type: "item"
+				}
+				{
+					id: "31F638752E07E05F"
+					item: { count: 1, id: "occultism:storage_remote" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			id: "3FF6566453299DC1"
+			tasks: [{
+				id: "51B274B45F53160C"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5047A6F1EF472407"]
+			id: "526FB82B8D47EAA4"
+			tasks: [{
+				id: "6F72D2074543BF23"
+				item: { count: 1, id: "mekanism:basic_bin" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B66ECA9D6797B80"]
+			id: "4943A39E231BECD3"
+			tasks: [{
+				id: "6027AC1B0AF39BC3"
+				item: { count: 1, id: "minecraft:chest" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4943A39E231BECD3"]
+			id: "5047A6F1EF472407"
+			tasks: [{
+				id: "60A9BAF8F0F3CD5D"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4943A39E231BECD3"]
+			id: "0B04BC5F88746182"
+			tasks: [{
+				id: "648DAF2545E330F5"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4943A39E231BECD3"]
+			id: "0FCC51B49080984E"
+			tasks: [{
+				id: "7CAA73892F94E9C5"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCC51B49080984E"]
+			id: "40EECBD3D00B9575"
+			tasks: [{
+				id: "0164AF75B5EA3F49"
+				item: { count: 1, id: "mekanism:basic_fluid_tank" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCC51B49080984E"]
+			icon: {
+				id: "mekanism:dynamic_tank"
+			}
+			id: "7501455F3C24E4E9"
+			tasks: [
+				{
+					id: "43647F668D94E838"
+					item: { count: 1, id: "mekanism:dynamic_tank" }
+					type: "item"
+				}
+				{
+					id: "38526FE1D67D08FE"
+					item: { count: 1, id: "mekanism:dynamic_valve" }
+					type: "item"
+				}
+				{
+					id: "1C99654CCEE7228A"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCC51B49080984E"]
+			id: "4333255C930D2BE0"
+			tasks: [{
+				id: "213012F4279A21AF"
+				item: { count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCC51B49080984E"]
+			icon: {
+				id: "modern_industrialization:large_tank"
+			}
+			id: "23FF0CA316B2CB5D"
+			tasks: [
+				{
+					id: "563E5298A05B0802"
+					item: { count: 1, id: "modern_industrialization:large_tank" }
+					type: "item"
+				}
+				{
+					id: "2A73FEDA071161E0"
+					item: { count: 1, id: "modern_industrialization:large_tank_hatch" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "06D2B28D60736F5C"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7C4D9E66B83125D4"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCC51B49080984E"]
+			id: "60EECBF540C75C09"
+			tasks: [{
+				id: "7E47FB0D32A9C1AC"
+				item: { count: 1, id: "modern_industrialization:bronze_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCC51B49080984E"]
+			id: "0CBF7D8E39F0B25A"
+			tasks: [{
+				id: "71D8EE481655AADE"
+				item: { count: 1, id: "modern_industrialization:configurable_tank" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5047A6F1EF472407"]
+			id: "62BDFBDD13019EFB"
+			tasks: [{
+				id: "55B9FFFEDC6313BF"
+				item: { count: 1, id: "modern_industrialization:configurable_chest" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+	]
 }

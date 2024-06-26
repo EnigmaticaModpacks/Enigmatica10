@@ -20,6 +20,7 @@
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
 	]
+	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B27453EDEC089EB.quest_desc: [
 		"The Pigment Extractor, Pigment Mixer, and Painting Machine all work in tandem to more efficiently produce dyes. "
 		""
@@ -32,6 +33,7 @@
 		"&a🛈 Tip: Consider making a Sheep farm of all dye colors for an easy and renewable source of dyes!.&r"
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
+	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
 	quest.0D236C298CFF8365.quest_desc: [
 		"Teleporters are a wonderful way to get around your world, or even your base. "
 		""
@@ -48,6 +50,7 @@
 		""
 		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
 	]
+	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
 		""
@@ -76,6 +79,11 @@
 		"Content coming Soon™!"
 	]
 	quest.13B5382C24CB79B3.title: "Redstone"
+	quest.14D5764532C5EEB0.quest_desc: [
+		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
+		""
+		"The system can be accessed remotely through a QIO Dashboard to manually craft or just for accessing materials. Keep one with you and place it down whenever you want to access the network."
+	]
 	quest.16A5D60F0825B318.quest_desc: [
 		"The Quantum Entangloporter acts as a cross-dimensional hub for transferring materials and energy. It supports moving just about anything aside from radioactive materials."
 		""
@@ -158,6 +166,11 @@
 		"This same machine will be used to create several more tiered materials that are used either for upgrading existing machines or accessing more advanced machines. With Infused Alloy, for example, we can already create better power generators."
 		""
 		"&a🛈 Tip: It is often easiest to dedicate an Infuser to a given Infuse Material such as Coal or Redstone.&r"
+	]
+	quest.23FF0CA316B2CB5D.quest_desc: [
+		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
 	]
 	quest.24C8B386C675F3E1.quest_desc: [
 		"Building a factory is no simple task, and truly enormous quantities of materials will be required. "
@@ -277,6 +290,19 @@
 		""
 		"&a🛈 Tip: Use a Filter Upgrade in an Electric Pump to produce Heavy Water.&r"
 	]
+	quest.3FF6566453299DC1.quest_desc: [
+		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
+		""
+		""
+		"Read more about this system in the dedicated Applied Energistics chapter. "
+		""
+		"{ \"text\": \"Applied Energistics\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" } }"
+	]
+	quest.40EECBD3D00B9575.quest_desc: [
+		"Fluid Tanks come in various sizes and are used for any kind of fluid. "
+		""
+		"&a🛈 Tip: Sneak Right-Click with a Configurator to set the tank to auto output out the bottom.&r"
+	]
 	quest.42F410023D62E6CB.quest_desc: [
 		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
 		""
@@ -290,6 +316,7 @@
 		""
 		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
 	]
+	quest.4333255C930D2BE0.quest_desc: ["Chemical Tanks come in various sizes and are used for storing Mekanism’s gasses and other chemicals. They have the ability to auto input/output, as well as voiding excess. "]
 	quest.434D90BB00EE7F7C.quest_desc: [
 		"After Tier Installers, Upgrade cards are the best way to enhance a machine. These can all be installed into machines by Sneak Right-Clicking them onto a machine. Alternatively, open the GUI and insert them directly in the Upgrade window."
 		""
@@ -348,6 +375,8 @@
 		"&a🛈 Tip: Steel Tier Machines run faster than their Bronze counterparts.&r"
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.4943A39E231BECD3.quest_desc: ["Looking for something a little more substantial to hold all your stuff in? The following quests will highlight some of the options available in Enigmatica 10 so you can find the right tool for the job."]
+	quest.4943A39E231BECD3.title: "Storage"
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -389,10 +418,20 @@
 	quest.4B66ECA9D6797B80.quest_desc: [
 		"Work in progress."
 		""
-		"Content coming Soon™!"
+		"More content coming Soon™!"
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
+	quest.526FB82B8D47EAA4.quest_desc: [
+		"Mekanism’s Bins are cheap and effective mass storage blocks. They only hold one type of item, but they hold a lot!"
+		""
+		"Right-Click inserts items."
+		"Left-Click extracts a single item."
+		"Sneak Right-Click extracts a full stack."
+		""
+		"&a🛈 Tip: Bins can be locked by Sneak Right-Clicking with an empty hand!&r"
+	]
 	quest.5386C6E2FDA6BA50.quest_desc: [
 		"Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors may all be upgraded in-situ by Right-Clicking them with the appropriate tier Alloy. Each Alloy will upgrade up to 8 connected pipes."
 		""
@@ -446,6 +485,7 @@
 		"Content coming Soon™!"
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.6133CA58FE668DA6.quest_desc: [
 		"Analog Circuits will soon enable us to jump to the next tier of machines running on LV electricity. Making the components right now is a little costly, but once we can make an Assembler, the crafts will be much more efficient. "
 		""
@@ -462,6 +502,7 @@
 		""
 		"&c⚠ Warning: Fission Reactors &lcan melt down&r &cif not properly cooled, destroying the Reactor and irradiating the area!&r"
 	]
+	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.63DDC1FFF52DC39F.quest_desc: [
 		"Modern Industrialization includes a robust system of pipes for carrying items, fluids, and electrical power. "
 		""
@@ -487,6 +528,15 @@
 	]
 	quest.67782CB855950CD6.quest_desc: ["Another milestone material like Steel, HDPE is produced from Ethene and is used to craft many advanced machines as well as upgrades for the Meka-Suit. "]
 	quest.67782CB855950CD6.title: "HDPE"
+	quest.684A0E52D7BAC37C.quest_desc: [
+		"A mass item storage solution with an integrated crafting table, making it simple to keep everything at hand for crafting."
+		""
+		"Stabilized Wormholes offer remote access so items can be piped in from remote farms."
+		""
+		"A Storage Accessor grants personal access to the storage from anywhere at all. "
+		""
+		"&a🛈 Tip: Sneak Right-Click Stabilized Wormholes and Storage Accessors on the Actuator to link them.&r"
+	]
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"Work in progress."
 		""
@@ -533,6 +583,15 @@
 		""
 		"As machines begin using more power, this can be a nice intermediate step up from passive power generation."
 	]
+	quest.7501455F3C24E4E9.quest_desc: [
+		"The Dynamic Tank is a simple multi-block tank capable of holding any fluid, including Mekanism’s gasses. "
+		""
+		"The Tank itself is a massive free-form multiblock. There are a few rules on placement and restrictions on maximum size, however, which can be discovered by visiting the Dynamic Tank page on their wiki:"
+		""
+		"{ \"text\": \"Mekanism Wiki: Dynamic Tank\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Dynamic_Tank\" } }"
+		""
+		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
+	]
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."
 		""
@@ -575,5 +634,8 @@
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
 	task.54D4D90621C89634.title: "WIP"
 	task.6048D8E4ED195229.title: "WIP"
+	task.60A9BAF8F0F3CD5D.title: "Bulk Item Storage"
+	task.648DAF2545E330F5.title: "Storage Systems"
 	task.73D7073169A23821.title: "WIP"
+	task.7CAA73892F94E9C5.title: "Fluid Storage"
 }
