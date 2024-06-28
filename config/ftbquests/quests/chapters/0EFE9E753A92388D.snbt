@@ -1,0 +1,25 @@
+{
+	autofocus_id: "6AFCA9F187AE6EB2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0EFE9E753A92388D"
+	group: "1C7CD605A8DD7732"
+	icon: {
+		id: "minecraft:shelter_pottery_sherd"
+	}
+	id: "0EFE9E753A92388D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "6AFCA9F187AE6EB2"
+		tasks: [{
+			id: "0F6FA4BBA3B59771"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -2.5d
+	}]
+}

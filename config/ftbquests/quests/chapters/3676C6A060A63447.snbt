@@ -1,0 +1,39 @@
+{
+	autofocus_id: "6538BD86D9419DD4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3676C6A060A63447"
+	group: "440488E780593120"
+	icon: {
+		components: {
+			"modonomicon:book_id": "theurgy:the_hermetica"
+		}
+		id: "modonomicon:modonomicon"
+	}
+	id: "3676C6A060A63447"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "handcrafted:hammer"
+		}
+		id: "6538BD86D9419DD4"
+		rewards: [{
+			id: "221AAE9CFC496437"
+			item: {
+				components: {
+					"modonomicon:book_id": "theurgy:the_hermetica"
+				}
+				count: 1
+				id: "modonomicon:modonomicon"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "090E0C6E2CA23325"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+}

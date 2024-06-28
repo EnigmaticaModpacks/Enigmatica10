@@ -1,0 +1,88 @@
+{
+	autofocus_id: "6DE4258F18A7A321"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "47870879D8E3742D"
+	group: ""
+	icon: {
+		id: "minecraft:sheaf_pottery_sherd"
+	}
+	id: "47870879D8E3742D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6DE4258F18A7A321"
+			rewards: [
+				{
+					id: "77384B0A99236E78"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_paxel"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD47CFEEC9FC796"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "104800DFAA34EA66"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "606456A6443027A7"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "18E03E060EA1712D"
+					item: {
+						count: 1
+						id: "minecraft:chainmail_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:oak_sapling"
+				}
+				id: "42EE7B1C5F75BCAF"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DE4258F18A7A321"]
+			icon: {
+				id: "minecraft:recovery_compass"
+			}
+			id: "44BD4C393C59F1CB"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6DE4258F18A7A321"]
+			icon: {
+				id: "minecraft:calibrated_sculk_sensor"
+			}
+			id: "16C7D5478BF3D449"
+			x: -4.5d
+			y: 5.0d
+		}
+	]
+}

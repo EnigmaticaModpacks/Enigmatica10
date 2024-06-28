@@ -1,0 +1,187 @@
+{
+	autofocus_id: "3E622F93756E9BFA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "777EE0C4949DFE12"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "ae2:guide"
+	}
+	id: "777EE0C4949DFE12"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "handcrafted:hammer"
+			}
+			id: "7D82585D50D7207A"
+			rewards: [
+				{
+					id: "5F11EC36E648C2B9"
+					item: {
+						count: 1
+						id: "ae2:guide"
+					}
+					type: "item"
+				}
+				{
+					id: "08A3A0E87CC9C2D6"
+					item: {
+						count: 1
+						id: "ae2:meteorite_compass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B20CB3AECE5EC6E"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D82585D50D7207A"]
+			icon: {
+				id: "ae2:mysterious_cube"
+			}
+			id: "3E622F93756E9BFA"
+			rewards: [{
+				count: 4
+				id: "497A7CC28F66D662"
+				item: {
+					count: 1
+					id: "ae2:quartz_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "008B08A2A1707F47"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "3858182FD578C2EC"
+					item: { count: 1, id: "ae2:calculation_processor_press" }
+					type: "item"
+				}
+				{
+					id: "6F69EA8FD212B817"
+					item: { count: 1, id: "ae2:engineering_processor_press" }
+					type: "item"
+				}
+				{
+					id: "446004C2C777287E"
+					item: { count: 1, id: "ae2:logic_processor_press" }
+					type: "item"
+				}
+				{
+					id: "4BA54DBB21512B4C"
+					item: { count: 1, id: "ae2:silicon_press" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E622F93756E9BFA"]
+			icon: {
+				id: "ae2:flawed_budding_quartz"
+			}
+			id: "2AF1CE73E140D685"
+			min_width: 300
+			rewards: [{
+				id: "0F117F72F5155009"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "45BEB4E841507571"
+					item: { count: 1, id: "ae2:flawed_budding_quartz" }
+					type: "item"
+				}
+				{
+					id: "5FAA362962D45681"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E622F93756E9BFA"]
+			icon: {
+				id: "ae2:inscriber"
+			}
+			id: "7220A9770C3E1C6F"
+			rewards: [
+				{
+					count: 8
+					id: "691B36FF73DEACD1"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2DA0175EE9A6BA4B"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73A2B50C4D86814A"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "335D72B6F625D256"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+				{
+					id: "65618B512B4B2994"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					id: "06D17BC1825AB51A"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "2A664C84ED15F82E"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+}
