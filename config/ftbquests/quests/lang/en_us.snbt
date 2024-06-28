@@ -102,6 +102,13 @@
 		"Content coming Soon™!"
 	]
 	quest.13B5382C24CB79B3.title: "Redstone"
+	quest.13D810A6AB4FACC0.quest_desc: [
+		"The next big material advance will be Stainless Steel, made in the Vacuum Freezer. This machine will be key for several other materials going forward."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
 	quest.14D5764532C5EEB0.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""
@@ -128,6 +135,24 @@
 		"&a🛈 Tip: Only store Spent Nuclear Waste in Waste Barrels as it has no other use.&r"
 	]
 	quest.176DAF596793D4FF.title: "Waste Management"
+	quest.1824109EF4F096A1.quest_desc: [
+		"Power requirements are going to rapidly increase in this stage. Setting up some extra boilers in advance will save you trouble down the road. "
+		""
+		"Of course, transferring all that extra power is going to need something better than MV cables. "
+		""
+		"Transforming to HV will allow you to carry much more power along a trunk line which can then be transformed it back to MV at an isolated cluster of machines."
+		""
+		"Consider multiple setups like this:"
+		""
+		"&eAdvanced Boiler&r"
+		"  ↳ &38x MV Turbines&r"
+		"  ↳ &aMV to HV Transformer&r"
+		"&bAluminum Cable&r"
+		"  ↳ &aHV to MV Transformer&r"
+		"  ↳ &3Cluster of Machines&r"
+		""
+		"&6⚠ Note: Be sure your MV power networks remain separate or they’ll all be limited by the max transfer rate.&r"
+	]
 	quest.1A0A7309D9B2F4FF.quest_desc: [
 		"Tired of mining yet? Look no further. "
 		""
@@ -290,6 +315,13 @@
 		"In this case, the Coke Oven requires both Item and Fluid inputs and outputs. Steam and Coal in, Coke and Creosote out."
 		""
 		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Coke Oven block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		""
+		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
+	quest.3C169A2002B47DC5.quest_desc: [
+		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
 		""
 		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
 		""
@@ -591,6 +623,11 @@
 		"Content coming Soon™!"
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
+	quest.6B6898F3520BA8F7.quest_desc: [
+		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
+		""
+		"&a🛈 Tip: Upgrades are only effective in machines that are running constantly. Processing large batches or passively producing materials constantly is the best way to make use of them.&r"
+	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to Enigmatica 10! We hope you enjoy your time here! :D"
 		""

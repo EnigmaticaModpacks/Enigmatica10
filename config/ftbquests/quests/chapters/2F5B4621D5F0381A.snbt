@@ -748,6 +748,15 @@
 		{
 			dependencies: ["4A8EF3D657CEAED5"]
 			id: "1386A595D84FE6FC"
+			rewards: [{
+				count: 4
+				id: "2B0DD8CC967AE27F"
+				item: {
+					count: 1
+					id: "modern_industrialization:basic_upgrade"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "12C5F9CC77B2C9C1"
 				item: { count: 1, id: "modern_industrialization:centrifuge" }
@@ -852,6 +861,15 @@
 		{
 			dependencies: ["42F410023D62E6CB"]
 			id: "577377C909FF0001"
+			rewards: [{
+				count: 4
+				id: "45ABB3F7E222D568"
+				item: {
+					count: 1
+					id: "modern_industrialization:basic_upgrade"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E3A6053685AB6FC"
 				item: { count: 1, id: "modern_industrialization:distillery" }
@@ -863,6 +881,15 @@
 		{
 			dependencies: ["577377C909FF0001"]
 			id: "4EC7DD1B35F0B6B5"
+			rewards: [{
+				count: 4
+				id: "56C92D82DE959163"
+				item: {
+					count: 1
+					id: "modern_industrialization:basic_upgrade"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B2E0962DC146C74"
 				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
@@ -962,6 +989,15 @@
 		{
 			dependencies: ["1386A595D84FE6FC"]
 			id: "349B97172AB3E56E"
+			rewards: [{
+				count: 4
+				id: "31FE218AF00A9985"
+				item: {
+					count: 1
+					id: "modern_industrialization:basic_upgrade"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C0CCCF1BE1B235B"
 				item: { count: 1, id: "modern_industrialization:electrolyzer" }
@@ -969,6 +1005,98 @@
 			}]
 			x: 16.0d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4EC7DD1B35F0B6B5"
+				"349B97172AB3E56E"
+			]
+			id: "6B6898F3520BA8F7"
+			rewards: [{
+				count: 32
+				id: "4E6869292B447A20"
+				item: {
+					count: 1
+					id: "modern_industrialization:advanced_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "038BA788A274DC40"
+				item: { count: 1, id: "modern_industrialization:advanced_upgrade" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["20877ECE7619845D"]
+			id: "1824109EF4F096A1"
+			rewards: [{
+				count: 16
+				id: "72B4BB4BD0C3E909"
+				item: {
+					count: 1
+					id: "modern_industrialization:aluminum_cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB70521AD897BDC"
+				item: { count: 1, id: "modern_industrialization:mv_hv_transformer" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"349B97172AB3E56E"
+				"4EC7DD1B35F0B6B5"
+			]
+			id: "13D810A6AB4FACC0"
+			tasks: [{
+				id: "39A3DA51510E59D3"
+				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13D810A6AB4FACC0"]
+			icon: {
+				id: "modern_industrialization:distillation_tower"
+			}
+			id: "3C169A2002B47DC5"
+			rewards: [{
+				count: 16
+				id: "07A41CC3F23F9D04"
+				item: {
+					count: 1
+					id: "modern_industrialization:clean_stainless_steel_machine_casing"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26D1474EF7F5F707"
+					item: { count: 1, id: "modern_industrialization:distillation_tower" }
+					type: "item"
+				}
+				{
+					id: "07B2A473EFBFA27A"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "28DB443940CD79C7"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 4.5d
 		}
 	]
 }
