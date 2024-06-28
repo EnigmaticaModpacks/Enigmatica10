@@ -1,0 +1,25 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/farmers_delight"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "00540CF744EBCDCA"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 8, item: { count: 1, id: "minecraft:cooked_cod" } }
+		{ count: 8, item: { count: 1, id: "minecraft:cooked_salmon" } }
+		{ count: 8, item: { count: 1, id: "minecraft:bread" } }
+		{ count: 4, item: { count: 1, id: "minecraft:golden_carrot" } }
+		{ count: 8, item: { count: 1, id: "minecraft:baked_potato" } }
+		{ count: 4, item: { count: 1, id: "minecraft:cooked_beef" } }
+		{ count: 4, item: { count: 1, id: "minecraft:cooked_porkchop" } }
+		{ count: 4, item: { count: 1, id: "minecraft:cooked_mutton" } }
+		{ count: 4, item: { count: 1, id: "minecraft:cooked_chicken" } }
+		{ count: 4, item: { count: 1, id: "minecraft:cooked_rabbit" } }
+	]
+	use_title: true
+}

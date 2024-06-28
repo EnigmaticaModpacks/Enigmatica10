@@ -10,16 +10,78 @@
 	id: "0EFE9E753A92388D"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "handcrafted:hammer"
+	quests: [
+		{
+			icon: {
+				id: "handcrafted:hammer"
+			}
+			id: "6AFCA9F187AE6EB2"
+			tasks: [{
+				id: "0F6FA4BBA3B59771"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
 		}
-		id: "6AFCA9F187AE6EB2"
-		tasks: [{
-			id: "0F6FA4BBA3B59771"
-			type: "checkmark"
-		}]
-		x: -0.5d
-		y: -2.5d
-	}]
+		{
+			id: "1D5616DFA428D46F"
+			tasks: [{
+				id: "0D69A3BEAFD0E798"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "220509A9D771146D"
+			tasks: [{
+				id: "4AFAF8F056141A59"
+				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "55670078C93E6473"
+			tasks: [{
+				id: "53D4F5D2D9C2E501"
+				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "3CB9D19DA1A429CD"
+			tasks: [{
+				id: "5670BF0B71A7B4ED"
+				item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "681CE679F45AC45A"
+			tasks: [{
+				id: "4118203ADE0F199C"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "15D13C0DCFEF9146"
+			tasks: [{
+				id: "3324549362ED0CEF"
+				item: { count: 1, id: "buildinggadgets2:template_manager" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+	]
 }
