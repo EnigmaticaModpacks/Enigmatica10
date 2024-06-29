@@ -1,0 +1,24 @@
+{
+	hide_tooltip: true
+	id: "65B36FE5D4A2DE53"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: { count: 1, id: "minecraft:white_bed" } }
+		{ item: { count: 1, id: "minecraft:light_gray_bed" } }
+		{ item: { count: 1, id: "minecraft:gray_bed" } }
+		{ item: { count: 1, id: "minecraft:black_bed" } }
+		{ item: { count: 1, id: "minecraft:brown_bed" } }
+		{ item: { count: 1, id: "minecraft:red_bed" } }
+		{ item: { count: 1, id: "minecraft:orange_bed" } }
+		{ item: { count: 1, id: "minecraft:yellow_bed" } }
+		{ item: { count: 1, id: "minecraft:lime_bed" } }
+		{ item: { count: 1, id: "minecraft:green_bed" } }
+		{ item: { count: 1, id: "minecraft:cyan_bed" } }
+		{ item: { count: 1, id: "minecraft:blue_bed" } }
+		{ item: { count: 1, id: "minecraft:purple_bed" } }
+		{ item: { count: 1, id: "minecraft:magenta_bed" } }
+		{ item: { count: 1, id: "minecraft:pink_bed" } }
+	]
+	use_title: true
+}

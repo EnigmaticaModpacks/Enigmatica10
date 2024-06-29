@@ -72,6 +72,15 @@
 				id: "minecraft:recovery_compass"
 			}
 			id: "44BD4C393C59F1CB"
+			rewards: [{
+				id: "34CE01457EC3BF54"
+				table_id: 7328324051567566419L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DE0A9A5505F1850"
+				type: "checkmark"
+			}]
 			x: -5.5d
 			y: 5.0d
 		}
@@ -81,6 +90,15 @@
 				id: "minecraft:calibrated_sculk_sensor"
 			}
 			id: "16C7D5478BF3D449"
+			rewards: [{
+				id: "3B91D6510485CE40"
+				table_id: 23658154196454858L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C0E5A805AE1132B"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 5.0d
 		}

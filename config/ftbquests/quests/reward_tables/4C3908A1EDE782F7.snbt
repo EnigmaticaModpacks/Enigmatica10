@@ -1,0 +1,14 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/alchemists_delight"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4C3908A1EDE782F7"
+	loot_size: 1
+	order_index: 2
+	rewards: [ ]
+	use_title: true
+}

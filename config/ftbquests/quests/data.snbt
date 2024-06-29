@@ -10,7 +10,10 @@
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	icon: {
-		id: "minecraft:cherry_sapling"
+		components: {
+			"ftbquests:icon": "kubejs:item/enigmatica_tree"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {
