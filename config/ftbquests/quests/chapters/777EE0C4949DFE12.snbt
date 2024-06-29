@@ -47,15 +47,25 @@
 				id: "ae2:mysterious_cube"
 			}
 			id: "3E622F93756E9BFA"
-			rewards: [{
-				count: 4
-				id: "497A7CC28F66D662"
-				item: {
-					count: 1
-					id: "ae2:quartz_block"
+			rewards: [
+				{
+					count: 4
+					id: "497A7CC28F66D662"
+					item: {
+						count: 1
+						id: "ae2:quartz_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "44A2B62489F129D4"
+					item: {
+						count: 1
+						id: "ae2:charger"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "008B08A2A1707F47"
@@ -129,6 +139,7 @@
 				id: "ae2:inscriber"
 			}
 			id: "7220A9770C3E1C6F"
+			min_width: 250
 			rewards: [
 				{
 					count: 8
@@ -182,6 +193,54 @@
 			]
 			x: 3.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["7220A9770C3E1C6F"]
+			icon: {
+				id: "ae2:crystal_resonance_generator"
+			}
+			id: "3A7AD25302240A1B"
+			min_width: 250
+			rewards: [
+				{
+					count: 6
+					id: "08FB1C3FA7EF63AF"
+					item: {
+						count: 1
+						id: "minecraft:barrel"
+					}
+					type: "item"
+				}
+				{
+					id: "0661EF35B5B11A95"
+					item: {
+						count: 1
+						id: "ae2:crafting_terminal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "676C8DE6C246D422"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ae2:energy_acceptor)item(ae2:crystal_resonance_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0BAD3EF1995716FD"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "04329B80B191440C"
+					item: { count: 1, id: "ae2:storage_bus" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
 		}
 	]
 }

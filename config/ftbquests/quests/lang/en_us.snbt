@@ -352,6 +352,28 @@
 		"&a🛈 Tip: Generates extra power in The Nether.&r"
 	]
 	quest.3A078285904792A2.quest_desc: ["Simple item pipes for moving things around. They can be filtered and accept Motors as upgrades to speed them up."]
+	quest.3A7AD25302240A1B.quest_desc: [
+		"Ad-Hoc Networks are the simplest form of network in Applied Energistic; it consists of a length of Fluix Cable and some connected devices such as Storage Busses and Terminals."
+		""
+		"The system will need some power too. This can be provided passively by a Crystal Resonance Generator, or more actively with an Energy Acceptor, which accepts either EU or FE."
+		"&n                                                            &r"
+		""
+		"Set up a simple Ad-Hoc Network using the items you’ve gathered and the rewards from this quest. "
+		""
+		"1. Place a Storage Bus against each Barrel and "
+		"   connect them all with Fluix Cables. "
+		""
+		"2. Place the Crafting Terminal anywhere on the "
+		"   Fluix Cables."
+		""
+		"3. Finally, attach your preferred source of "
+		"   power. "
+		""
+		"If done correctly, you should now have access to the contents of all six chests and be able to craft from them in the Terminal."
+		""
+		"&6⚠ Note: An Ad-Hoc Network can have up to 8 connections in total.&r"
+	]
+	quest.3A7AD25302240A1B.title: "Ad-Hoc Networks"
 	quest.3AD70D3BEF01A693.quest_desc: [
 		"The Coke Oven will be the first of many multi-block machines."
 		""
@@ -872,6 +894,7 @@
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.648DAF2545E330F5.title: "Storage Systems"
+	task.676C8DE6C246D422.title: "AE Power"
 	task.6D81EBC223A69B2D.title: "Chemicals and Gasses"
 	task.73D7073169A23821.title: "WIP"
 	task.75050C1ED68FA527.title: "Building Gadgets"
