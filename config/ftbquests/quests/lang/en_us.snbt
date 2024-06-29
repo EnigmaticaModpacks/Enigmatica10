@@ -9,17 +9,18 @@
 	chapter.47870879D8E3742D.title: "Getting Started"
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
-	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery&r"
-	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology&r"
-	chapter_group.440488E780593120.title: "&aLearning - Magic&r"
-	file.0000000000000001.title: "&n&6Enigmatica 10&r&r"
+	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
+	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
+	chapter_group.440488E780593120.title: "&aLearning - Magic"
+	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.0071209841FB1C23.quest_desc: ["Combined storage and remote power transfer. The Cell is the heart of the network and holds the energy, while Gates can be installed remotely to transfer into or out of the network."]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
 		""
-		"&a🛈 Tip: Search &3@chisel&r &ain EMI to discover more.&r"
+		"&a🛈 Tip: Search &3@chisel&r &ain EMI to "
+		"&a        discover more."
 	]
 	quest.015857940250CE8D.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer fluid bi-directionally. They can also be used to place fluid in the world. "
@@ -37,7 +38,9 @@
 		""
 		"Don’t throw out that Forge Hammer just yet, however. The Bronze Compressor is certainly better at the things it does, but some components, like Rods will need another machine."
 		""
-		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+		"&a🛈 Tip: Right-Clicking many Bronze Tier"
+		"&a        machines with Gunpowder will "
+		"&a        briefly speed them up."
 	]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B27453EDEC089EB.quest_desc: [
@@ -49,7 +52,9 @@
 		""
 		"Lastly, the Pigment Mixer can easily produce mixed colors such as Pink from Red and White Pigments, precluding the need to farm those pigments directly."
 		""
-		"&a🛈 Tip: Consider making a Sheep farm of all dye colors for an easy and renewable source of dyes!.&r"
+		"&a🛈 Tip: Consider making a Sheep farm of"
+		"&a        all dye colors for an easy and "
+		"&a        renewable source of dyes!"
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
@@ -60,7 +65,9 @@
 		""
 		"With a Frame installed, other entities may be sent through, such as Villagers or even Minecarts!"
 		""
-		"&a🛈 Tip: Destinations must be chunk loaded. Install an Anchor Card to ensure the Teleporter is always accessible!&r"
+		"&a🛈 Tip: Destinations must be loaded. "
+		"&a        Install an Anchor Card so the "
+		"&a        Teleporter is always accessible!"
 	]
 	quest.0D32F25CCBC9B192.quest_desc: [
 		"Simple power cables for transferring Modern Industrialization’s EU power. They can power blocks that use FE, but can only accept power from Modern Industrialization."
@@ -77,16 +84,20 @@
 		""
 		"Just like with previous boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 	]
 	quest.12B89E4EF7282B86.quest_desc: [
 		"Mekanism machines may be upgraded through several methods. "
@@ -100,8 +111,6 @@
 		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
 		""
 		"Consider setting up a few to continuously process materials like Lava, Redstone, and Raw Iron to obtain some very useful byproducts."
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
 	]
 	quest.13B5382C24CB79B3.quest_desc: [
 		"Work in progress."
@@ -112,9 +121,10 @@
 	quest.13D810A6AB4FACC0.quest_desc: [
 		"The next big material advance will be Stainless Steel, made in the Vacuum Freezer. This machine will be key for several other materials going forward."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 	]
 	quest.14D5764532C5EEB0.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
@@ -128,13 +138,18 @@
 		""
 		"Don’t worry, there’s no difference between the different models, pick your favorite. "
 		""
-		"&a🛈 Tip: Search &3@mininggadgets&r &ain EMI to discover more.&r"
+		"&a🛈 Tip: Search &3@mininggadgets&r &ain EMI to"
+		"&a        discover more."
 	]
 	quest.15CECF38FB6CEADE.title: "Mining Gadgets"
 	quest.16A5D60F0825B318.quest_desc: [
-		"The Quantum Entangloporter acts as a cross-dimensional hub for transferring materials and energy. It supports moving just about anything aside from radioactive materials."
+		"The Quantum Entangloporter acts as a cross-dimensional hub for moving materials and energy. "
 		""
-		"&a🛈 Tip: Set up multiple channels to keep organized and avoid cross contamination!&r"
+		"It supports moving just about anything aside from radioactive materials."
+		""
+		"&a🛈 Tip: Set up multiple channels to keep"
+		"&a        organized and avoid cross "
+		"&a        contamination!"
 	]
 	quest.16C7D5478BF3D449.quest_desc: [
 		"The Learning Mods chapters are designed to help you get started with large content mods. These are broken up into Technology and Magic sections and will explain roughly how to progress through the mod as well as provide tips on how to use different features of the mod."
@@ -149,7 +164,9 @@
 		""
 		"Alternatively, Waste can be reprocessed back into Fissile Fuel and sent back through the Reactor, greatly increasing the system’s fuel efficiency."
 		""
-		"&a🛈 Tip: Only store Spent Nuclear Waste in Waste Barrels as it has no other use.&r"
+		"&a🛈 Tip: Only store Spent Nuclear Waste"
+		"&a        in Waste Barrels as it has no "
+		"&a        other use."
 	]
 	quest.176DAF596793D4FF.title: "Waste Management"
 	quest.1824109EF4F096A1.quest_desc: [
@@ -161,14 +178,16 @@
 		""
 		"Consider multiple setups like this:"
 		""
-		"&eAdvanced Boiler&r"
-		"  &e╰┈➤ &3MV Turbine Cluster&r"
-		"  &3╰┈➤ &aMV to HV Transformer&r"
-		"  &a╰┈➤ &bAluminum Cables&r"
-		"  &b╰┈➤ &aHV to MV Transformer&r"
-		"  &a╰┈➤ &3Machine Cluster&r"
+		"&eAdvanced Boiler"
+		"  &e╰┈➤ &3MV Turbine Cluster"
+		"  &3╰┈➤ &aMV to HV Transformer"
+		"  &a╰┈➤ &bAluminum Cables"
+		"  &b╰┈➤ &aHV to MV Transformer"
+		"  &a╰┈➤ &3Machine Cluster"
 		""
-		"&6⚠ Note: Be sure your MV power networks remain separate or they’ll all be limited by the max transfer rate.&r"
+		"&6⚠ Note: Keep your HV subnetworks "
+		"&6        separate so the aren't limited"
+		"&6        by the max transfer rate."
 	]
 	quest.1A0A7309D9B2F4FF.quest_desc: [
 		"Tired of mining yet? Look no further. "
@@ -179,18 +198,22 @@
 		""
 		"Drills do break over time, so setting up a production line for them will be important. "
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
-		""
-		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
+		"&c⚠ Warning: Outputs will be voided if"
+		"&c        there are insufficient Hatches"
+		"&c        available to receive the items!"
 	]
 	quest.1A4123560ACEE02C.quest_desc: [
 		"Time enough at last!"
 		""
 		"Carry a Time in a Bottle with you everywhere you go to store up all that time you’re using doing other things. When you grow impatient for some machine to run, just Sneak Right-Click it a few times with the bottle to spend some of that time speeding it up."
 		""
-		"&a🛈 Tip: You may only have one Time in a Bottle at a time.&r"
+		"&a🛈 Tip: You may only have a single "
+		"&a        Time in a Bottle at a time."
 	]
 	quest.1A650F4235F6204A.quest_desc: [
 		"Upgrade time again!"
@@ -199,7 +222,9 @@
 		""
 		"Since Tin Cables can occupy the same space as Fluid Pipes, this upgrade process shouldn’t be too daunting. Just lay some Tin Cables along your Steam Fluid Pipes and you can start swapping out machines as you’re able to craft them. "
 		""
-		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable against a machine or another Pipe to easily create a connection.&r"
+		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable "
+		"&a        against a machine to easily "
+		"&a        create a connection."
 	]
 	quest.1A650F4235F6204A.title: "Upgrade Electric"
 	quest.1D3ECD980E15451B.quest_desc: [
@@ -213,13 +238,15 @@
 		""
 		"If you’re looking to build a massive base, Building Gadgets likely has a tool to help. "
 		""
-		"&a🛈 Tip: Search &3@buildinggadgets&r &ain EMI to discover more.&r"
+		"&a🛈 Tip: Search &3@buildinggadgets&r &ain EMI"
+		"&a        to discover more."
 	]
 	quest.1D5616DFA428D46F.title: "Building Gadgets"
 	quest.1D5E773A3A547A2C.quest_desc: [
 		"If you’re into Cottagecore or just want some knicknacks to fill your shelves with, Handcrafted is the place to start. It’s loaded with comfy chairs and interior decorations."
 		""
-		"&a🛈 Tip: Search &3@handcrafted&r &ain EMI to discover more.&r"
+		"&a🛈 Tip: Search &3@handcrafted&r &ain EMI to "
+		"&a        discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
 	quest.1E2327FB6801D209.quest_desc: [
@@ -258,18 +285,22 @@
 		""
 		"This same machine will be used to create several more tiered materials that are used either for upgrading existing machines or accessing more advanced machines. With Infused Alloy, for example, we can already create better power generators."
 		""
-		"&a🛈 Tip: It is often easiest to dedicate an Infuser to a given Infuse Material such as Coal or Redstone.&r"
+		"&a🛈 Tip: It is often easiest to dedicate an"
+		"&a        Infuser to an Infuse Material."
 	]
 	quest.23FF0CA316B2CB5D.quest_desc: [
 		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 	]
 	quest.24C8B386C675F3E1.quest_desc: [
 		"Building a factory is no simple task, and truly enormous quantities of materials will be required. "
 		""
 		"Having good tools makes the work easy-ish!"
-		"&n                                                  &r"
+		"&n                                                  "
 		""
 		"The Steam Mining Drill is an unbreakable, coal powered, 3x3, Silk Touch mining machine. "
 		""
@@ -277,7 +308,8 @@
 		""
 		"Consider spending those first couple of diamonds on this drill to make life simpler!"
 		""
-		"&a🛈 Tip: The Drill will endlessly fill itself from a Water Bucket in your inventory. &r"
+		"&a🛈 Tip: The Drill will never dry up with a"
+		"&a        Water Bucket in your inventory!"
 	]
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
@@ -286,7 +318,8 @@
 		""
 		"{ \"text\": \"Mekanism Wiki: Fusion Reactor\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Fusion_Reactor\" } }"
 		""
-		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
+		"&a🛈 Tip: E10 includes a Mekanism Multi-"
+		"&a        Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
 	quest.2A83BC699BE18F3A.quest_desc: [
@@ -300,63 +333,62 @@
 	]
 	quest.2A83BC699BE18F3A.title: "Modern Industrialization"
 	quest.2AF1CE73E140D685.quest_desc: [
-		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained. "
+		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained."
 		""
 		"Charge some Certus Quartz and use it to craft a Flawed Budding Certus Quartz block."
 		""
 		"Place this block in the world and wait for buds to grow. Once they’ve transitioned from Bud to Cluster, they’re ready to break. Using Fortune will result in more output!"
 		""
-		"This process can be slow at the start and is something you’ll surely wish to automate. You’ll be able to do that later with Applied Energistics’ Annihilation and Formation Planes, but perhaps consider looking into Modular Routers or Just Dire Things for alternative block breakers."
+		"This process can be slow at the start and is something you’ll surely wish to automate."
 		""
-		"Modular Routers - The Break Module may be filtered to only break fully grown crystals by setting the Whitelist to Certus Quartz Crystals"
+		"&a🛈 Tip: The AE Guide book has an excellent chapter on"
+		"&a        automating Certus Quartz:"
+		"&a         ╰┈➤ &3Example Setups > Simple Certus Farm"
 		""
-		"Just Dire Things - The Advanced Block Breaker can also be filtered, but may be a little harder to craft."
-		""
-		"For an example of how to do this purely with Applied Energistics, check out the YouTube tutorial below."
-		""
-		"{ \"text\": \"Certus Quartz Farm\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.youtube.com/watch?v=ay0Js2TkI1E&t=2941s\" } }"
-		""
-		"&6⚠ Note: Budding Certus blocks do degrade over time and need to be repaired unless you succeed in moving a Flawless Budding Certus Quartz.&r"
+		"&6⚠ Note: Budding Certus blocks do degrade over time and"
+		"&6        must be repaired unless you succeed at moving a"
+		"&6        Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
 		""
-		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+		"&a🛈 Tip: Right-Clicking many Bronze Tier"
+		"&a        machines with Gunpowder will "
+		"&a        briefly speed them up."
 	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
-	quest.349B97172AB3E56E.quest_desc: [
-		"Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
-	]
+	quest.349B97172AB3E56E.quest_desc: ["Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."]
 	quest.35F1E0745E3EA61F.quest_desc: [
 		"As you expand your HV power grid, your existing MV machines can be easily upgraded to run on HV instead."
 		""
 		"Craft some Turbo Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot."
 		""
-		"&6⚠ Note: Machines &ldo not&r &6explode if given the wrong tier of power. They simply don’t run.&r"
+		"&6⚠ Note: Machines simply do not run if"
+		"&6        given the wrong tier of power."
 	]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
 		""
 		"The Heat Generator can work passively by surrounding it with Lava; the more sides covered, the more it generates. It can also accept Lava or Furnace Fuel piped into to generate power faster."
 		""
-		"&a🛈 Tip: Generates extra power in The Nether.&r"
+		"&a🛈 Tip: Generates extra power in "
+		"&a        The Nether."
 	]
 	quest.3A078285904792A2.quest_desc: ["Simple item pipes for moving things around. They can be filtered and accept Motors as upgrades to speed them up."]
 	quest.3A7AD25302240A1B.quest_desc: [
 		"Ad-Hoc Networks are the simplest form of network in Applied Energistic; it consists of a length of Fluix Cable and some connected devices such as Storage Busses and Terminals."
 		""
 		"The system will need some power too. This can be provided passively by a Crystal Resonance Generator, or more actively with an Energy Acceptor, which accepts either EU or FE."
-		"&n                                                            &r"
+		"&n                                                            "
 		""
 		"Set up a simple Ad-Hoc Network using the items you’ve gathered and the rewards from this quest. "
 		""
@@ -371,7 +403,8 @@
 		""
 		"If done correctly, you should now have access to the contents of all six chests and be able to craft from them in the Terminal."
 		""
-		"&6⚠ Note: An Ad-Hoc Network can have up to 8 connections in total.&r"
+		"&6⚠ Note: An Ad-Hoc Network can have up to "
+		"&6        eight connections in total."
 	]
 	quest.3A7AD25302240A1B.title: "Ad-Hoc Networks"
 	quest.3AD70D3BEF01A693.quest_desc: [
@@ -383,16 +416,18 @@
 		""
 		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Coke Oven block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 	]
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
 	quest.3D4F8ED65C176071.quest_desc: [
@@ -418,7 +453,7 @@
 		""
 		"Conversely, the Electric Pump is a simple and effective way to produce water for machines. Place it over a standard infinite water source (2x2 or 1x3 area of Water) and provide it power. "
 		""
-		"&a🛈 Tip: Use a Filter Upgrade in an Electric Pump to produce Heavy Water.&r"
+		"&a🛈 Tip: Use a Filter Upgrade in an Electric Pump to produce Heavy Water."
 	]
 	quest.3FF6566453299DC1.quest_desc: [
 		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
@@ -431,7 +466,7 @@
 	quest.40EECBD3D00B9575.quest_desc: [
 		"Fluid Tanks come in various sizes and are used for any kind of fluid. "
 		""
-		"&a🛈 Tip: Sneak Right-Click with a Configurator to set the tank to auto output out the bottom.&r"
+		"&a🛈 Tip: Sneak Right-Click with a Configurator to set the tank to auto output out the bottom."
 	]
 	quest.4229112D97BB45E6.quest_desc: [
 		"Power cables that double as limited storage, keeping a buffer of power in each block space. The more there are in a network, the more power they can transfer per tick. "
@@ -450,7 +485,7 @@
 		"  speed boost in the direction you’re "
 		"  looking."
 		""
-		"&c⚠ Warning: Not for indoor use.&r"
+		"&c⚠ Warning: Not for indoor use."
 	]
 	quest.42F410023D62E6CB.quest_desc: [
 		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
@@ -459,31 +494,44 @@
 		""
 		"Similar to the Quarry, the Oil Drilling Rig consumes Drills to produce its outputs."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
-		""
-		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
+		"&c⚠ Warning: Outputs will be voided if"
+		"&c        there are insufficient Hatches"
+		"&c        available to receive the items!"
 	]
 	quest.4333255C930D2BE0.quest_desc: ["Chemical Tanks come in various sizes and are used for storing Mekanism’s gasses and other chemicals. They have the ability to auto input/output, as well as voiding excess. "]
 	quest.434D90BB00EE7F7C.quest_desc: [
 		"After Tier Installers, Upgrade cards are the best way to enhance a machine. These can all be installed into machines by Sneak Right-Clicking them onto a machine. Alternatively, open the GUI and insert them directly in the Upgrade window."
 		""
-		"Energy Upgrades increase the amount of energy the machine can hold and also reduce the operating cost, making machines run more efficiently. "
+		"• Energy Upgrades increase the "
+		"  amount of energy the machine can "
+		"  hold and also reduce the operating "
+		"  cost, making machines more efficient. "
 		""
-		"Speed Upgrades decrease processing time, allowing the machines to operate much more quickly. They also significantly increase energy consumption. "
+		"• Speed Upgrades allow the machines"
+		"  to operate quicker. They also "
+		"  increase energy consumption. "
 		""
-		"Muffling Upgrades reduce the amount of noise a machine makes in case you find them a little hard on the ears."
+		"• Muffling Upgrades reduce the amount"
+		"  of noise a machine makes in case you"
+		"  find them a little hard on the ears."
 		""
 		"Other upgrades exist but are used in only a few machines. They'll be mentioned in quests dealing with those machines."
 		""
-		"&6⚠ Note: Machines with all Speed and no Energy upgrades may not operate at all!.&r"
+		"&6⚠ Note: Machines with Speed Upgrades "
+		"&6        but without Energy Upgrades "
+		"&6        may not operate at all!"
 	]
 	quest.434D90BB00EE7F7C.title: "Upgrade Cards"
 	quest.44037DC8E8D493BC.quest_desc: [
 		"Despite the name, Iron Chests offers more than just Iron Chests. In fact, it has multiple tiers of chests, each bigger than the last. "
 		""
-		"&a🛈 Tip: Install upgrades by Right-Clicking them onto chests in-world.&r"
+		"&a🛈 Tip: Install upgrades by Right-"
+		"&a        Clicking them onto chests."
 	]
 	quest.44037DC8E8D493BC.title: "Iron Chests"
 	quest.44BD4C393C59F1CB.quest_desc: [
@@ -500,19 +548,22 @@
 	quest.4685E3B748A76726.quest_desc: [
 		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
 		""
-		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+		"&a🛈 Tip: Right-Clicking many Bronze Tier"
+		"&a        machines with Gunpowder will "
+		"&a        briefly speed them up."
 	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
 		""
 		"Crafting at the Forge Hammer can quickly grow tiresome, so let's focus on getting some machines up and running to make things simpler. "
-		"&n                                                  &r"
+		"&n                                                  "
 		""
 		"Steam power will be used extensively throughout the early stages of the mod, and while we’ll start with a humble little Bronze Boiler, we’ll soon graduate to bigger and better options."
 		""
 		"Place the Bronze Water Pump touching a Water Source block, the more the better. Then place the Bronze Boiler next to it. Use some pipes to connect the two to keep water fed into the Boiler."
 		""
-		"&a🛈 Tip: The Boiler will automatically push Steam to adjacent blocks.&r"
+		"&a🛈 Tip: The Boiler will automatically push "
+		"&a        Steam to adjacent blocks."
 	]
 	quest.4800EBB1FB34B26C.title: "Steam Powered"
 	quest.4840F7361DF70516.quest_desc: [
@@ -532,7 +583,8 @@
 		""
 		"Hatches should also be upgraded to Steel. Having at least one Steel Hatch installed in a multiblock will upgrade its tier to Steel. Hatches must be picked up to upgrade them."
 		""
-		"&a🛈 Tip: Steel Tier Machines run faster than their Bronze counterparts.&r"
+		"&a🛈 Tip: Steel Tier Machines run faster"
+		"&a        than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
 	quest.4943A39E231BECD3.quest_desc: [
@@ -544,14 +596,15 @@
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
-		"&a🛈 Tip: Requires a clear view of the sky.&r"
+		"&a🛈 Tip: Requires a clear view of the sky."
 	]
 	quest.49AB17BF4F020F89.quest_desc: [
 		"As you expand your MV power grid, your existing LV machines can be easily upgraded to run on MV instead. "
 		""
 		"Craft some Advanced Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot. "
 		""
-		"&6⚠ Note: Machines &ldo not&r &6explode if given the wrong tier of power. They simply don’t run.&r"
+		"&6⚠ Note: Machines simply do not run if"
+		"&6        given the wrong tier of power."
 	]
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
@@ -573,11 +626,14 @@
 		""
 		"Upgrading to Electric is as simple as swapping the controller block and replacing the Steam Hatch with an LV Hatch."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		"&a🛈 Tip: Place the controller block, then "
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places "
+		"&a        for hatches."
 		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
-		""
-		"&c⚠ Warning: Outputs will be voided if there are insufficient Output Hatches available to receive the items!&r"
+		"&c⚠ Warning: Outputs will be voided if"
+		"&c        there are insufficient Hatches"
+		"&c        available to receive the items!"
 	]
 	quest.4B66ECA9D6797B80.quest_desc: [
 		"Work in progress."
@@ -592,7 +648,8 @@
 		""
 		"Arts and Crafts allows you to craft paint brushes to rapidly re-color blocks such as Wool, Terracotta, or any of the many blocks added by the mod itself. "
 		""
-		"&a🛈 Tip: Search &3@arts&r &ain EMI to discover more.&r"
+		"&a🛈 Tip: Search &3@arts&r &ain EMI to "
+		"&a        discover more."
 	]
 	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
@@ -603,7 +660,8 @@
 		"Left-Click extracts a single item."
 		"Sneak Right-Click extracts a full stack."
 		""
-		"&a🛈 Tip: Bins can be locked by Sneak Right-Clicking with an empty hand!&r"
+		"&a🛈 Tip: Bins can be locked by Sneak "
+		"&a        Right-Clicking with an empty hand!"
 	]
 	quest.5362D855D207F79A.quest_desc: [
 		"With a Distillery up and running, it should be possible to offset some energy costs by running some Diesel Generators. "
@@ -615,7 +673,9 @@
 		""
 		"This can be a great way to upgrade a pipe network without worrying about re-configuring connections or filters. The contents of the pipes are similarly retained."
 		""
-		"&6⚠ Note: Right-Clicking repeatedly in the same spot will upgrade pipes further along the network!&r"
+		"&a🛈 Tip: Right-Clicking repeatedly in the"
+		"&a        same spot will upgrade pipes "
+		"&a        further along the network!"
 	]
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
@@ -633,15 +693,15 @@
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
 		""
 		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
-		""
-		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
 	]
 	quest.5CC1D814819E3044.quest_desc: [
 		"The Digital Miner is a targeted quarrying device that mines blocks out of the world. By setting the filters, you can target exactly what you need, making it a great way to top up on Diamonds or Ancient Debris. "
 		""
 		"The Miner does not apply Fortune, so it may be best to use the Silk Touch option for precious materials, then break them down manually later. "
 		""
-		"&a🛈 Tip: Use a Stone Generator Upgrade to automatically replace mined blocks with Stone!&r"
+		"&a🛈 Tip: Use a Stone Generator Upgrade "
+		"&a        to automatically replace mined "
+		"&a        blocks with Stone!"
 	]
 	quest.5D52341DC77AFE8D.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
@@ -650,14 +710,16 @@
 		""
 		"Consider multiple setups like this:"
 		""
-		"&eAdvanced Boiler&r"
-		"  &e╰┈➤ &3HV Turbine Cluster&r"
-		"  &3╰┈➤ &aHV to EV Transformer&r"
-		"  &a╰┈➤ &bAnnealed Copper Cables&r"
-		"  &b╰┈➤ &aEV to HV Transformer&r"
-		"  &a╰┈➤ &3Machine Cluster&r"
+		"&eAdvanced Boiler"
+		"  &e╰┈➤ &3HV Turbine Cluster"
+		"  &3╰┈➤ &aHV to EV Transformer"
+		"  &a╰┈➤ &bAnnealed Copper Cables"
+		"  &b╰┈➤ &aEV to HV Transformer"
+		"  &a╰┈➤ &3Machine Cluster"
 		""
-		"&6⚠ Note: Be sure your HV power networks remain separate or they’ll all be limited by the max transfer rate.&r"
+		"&6⚠ Note: Keep your HV subnetworks "
+		"&6        separate so the aren't limited"
+		"&6        by the max transfer rate."
 	]
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
@@ -668,9 +730,13 @@
 		""
 		"{ \"text\": \"Mekanism Wiki: Industrial Turbine\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Industrial_Turbine\" } }"
 		""
-		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
+		"&a🛈 Tip: E10 includes a Mekanism Multi-"
+		"&a        Block planner in EMI! "
 		""
-		"&c⚠ Warning: Turbines stop recycling water if their internal power buffer fills up. This is the leading cause of Reactors melting down as the cooling loop stops!&r"
+		"&c⚠ Warning: Turbines stop operating if "
+		"&c        their power buffer fills up. This "
+		"&c        is the leading cause of Reactors"
+		"&c        melting down as cooling stops!"
 	]
 	quest.5DB469A00A023DCF.title: "Industrial Turbine"
 	quest.5DE688C9457D18DF.quest_desc: [
@@ -678,7 +744,7 @@
 		""
 		"Of course, then you need to get the power down from there!"
 		""
-		"&a🛈 Tip: Requires a clear view of the sky.&r"
+		"&a🛈 Tip: Requires a clear view of the sky."
 	]
 	quest.5DF2A3E977D4C11B.quest_desc: [
 		"Work in progress."
@@ -699,9 +765,11 @@
 		""
 		"{ \"text\": \"Mekanism Wiki: Fission Reactor\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Fission_Reactor\" } }"
 		""
-		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
+		"&a🛈 Tip: E10 includes a Mekanism Multi-"
+		"&a        Block planner in EMI! "
 		""
-		"&c⚠ Warning: Fission Reactors &lcan melt down&r &cif not properly cooled, destroying the Reactor and irradiating the area!&r"
+		"&c⚠ Warning: Fission Reactors will "
+		"&c        explode if improperly cooled!"
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.63DDC1FFF52DC39F.quest_desc: [
@@ -713,7 +781,9 @@
 		""
 		"The Wrench can be used to quickly switch a connection’s mode, or remove the connection entirely. Sneak Right-Clicking a Pipe with the Wrench will immediately remove the pipe section."
 		""
-		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable against a machine or another Pipe to easily create a connection.&r"
+		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable "
+		"&a        against a machine to easily "
+		"&a        create a connection."
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
 	quest.6538BD86D9419DD4.quest_desc: [
@@ -736,7 +806,9 @@
 		""
 		"A Storage Accessor grants personal access to the storage from anywhere at all. "
 		""
-		"&a🛈 Tip: Sneak Right-Click Stabilized Wormholes and Storage Accessors on the Actuator to link them.&r"
+		"&a🛈 Tip: Sneak Right-Click a Stabilized "
+		"&a        Wormhole or Storage Accessor"
+		"&a        on the Actuator to link them."
 	]
 	quest.69AAE7C502629B3E.quest_desc: [
 		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
@@ -753,7 +825,10 @@
 	quest.6B6898F3520BA8F7.quest_desc: [
 		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
 		""
-		"&a🛈 Tip: Upgrades are only effective in machines that are running constantly. Processing large batches or passively producing materials constantly is the best way to make use of them.&r"
+		"&a🛈 Tip: Upgrades are only effective in"
+		"&a        machines that run constantly. "
+		"&a        Process large batches to make "
+		"&a        the most of them."
 	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to Enigmatica 10! We hope you enjoy your time here! :D"
@@ -772,7 +847,9 @@
 		""
 		"In particular, crushing Coal and Lignite Coal will produce ample fuel to run your Steam Mining Drill and Boiler. "
 		""
-		"&a🛈 Tip: Right-Clicking many Bronze tier machines with Gunpowder will briefly speed them up.&r"
+		"&a🛈 Tip: Right-Clicking many Bronze Tier"
+		"&a        machines with Gunpowder will "
+		"&a        briefly speed them up."
 	]
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
@@ -781,14 +858,18 @@
 		""
 		"However, for now it is easy enough to batch craft in the Inscriber. Items can be input with pipes or hoppers and the machine itself can be set to Auto-Output to an adjacent inventory."
 		""
-		"&a🛈 Tip: The Inscriber can be powered directly from any source of FE or EU.&r"
+		"&a🛈 Tip: The Inscriber can be powered directly "
+		"&a        from any source of FE or EU."
 	]
 	quest.730D1F506B88FEEF.quest_desc: [
 		"Steam is likely in short supply again with a Quarry running and will soon be in even shorter supply running turbines for power. Upgrading to a Large Steam Boiler now will save headaches down the road."
 		""
 		"Just like the smaller boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust, which is undoubtedly in great supply at this point. It's used for little else, so you may as well use it for fuel."
 		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+		"&a🛈 Tip: Place the controller block, then"
+		"&a        hold a Wrench or Hatch to see"
+		"&a        the structure or valid places"
+		"&a        for hatches."
 	]
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
@@ -802,7 +883,8 @@
 		""
 		"{ \"text\": \"Mekanism Wiki: Dynamic Tank\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Dynamic_Tank\" } }"
 		""
-		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
+		"&a🛈 Tip: E10 includes a Mekanism Multi-"
+		"&a        Block planner in EMI! "
 	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in E10."]
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
@@ -816,7 +898,8 @@
 		"• Macaw’s Paths and Pavings"
 		"• Macaw’s Trapdoors"
 		""
-		"&a🛈 Tip: Search &3@mcw&r &ain EMI to discover more.&r"
+		"&a🛈 Tip: Search &3@mcw&r &ain EMI to"
+		"&a        discover more."
 	]
 	quest.77A66ADAB0845804.title: "Macaw's Mods"
 	quest.78D83E33F82D6015.quest_desc: [
@@ -837,7 +920,8 @@
 		""
 		"{ \"text\": \"Mekanism Wiki: Supercritical Phase Shifter\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Supercritical_Phase_Shifter\" } }"
 		""
-		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
+		"&a🛈 Tip: E10 includes a Mekanism Multi-"
+		"&a        Block planner in EMI! "
 	]
 	quest.7992122E44D163DB.title: "Supercritical Phase Shifter"
 	quest.7B5EB5D6F749520F.quest_desc: [
@@ -849,7 +933,8 @@
 		""
 		"{ \"text\": \"Mekanism Wiki: Thermoelectric Boiler\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Thermoelectric_Boiler\" } }"
 		""
-		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
+		"&a🛈 Tip: E10 includes a Mekanism Multi-"
+		"&a        Block planner in EMI! "
 	]
 	quest.7B5EB5D6F749520F.title: "Thermoelectric Boiler"
 	quest.7BEE7FAD21AFEB68.quest_desc: ["With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "]
@@ -863,7 +948,8 @@
 	quest.7F237202A5D7EFBD.quest_desc: [
 		"The hammers and shovels added by Vanilla Plus Tools break their respective blocks in a 3x3 area, making them an easy choice for early mining."
 		""
-		"&a🛈 Tip: Search &3@vanillaplus&r &ain EMI to discover more.&r"
+		"&a🛈 Tip: Search &3@vanillaplus&r &ain EMI to"
+		"&a        discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
 	reward.34CE01457EC3BF54.title: "Bed"
