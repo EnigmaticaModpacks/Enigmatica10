@@ -27,7 +27,7 @@
 			id: "1D5616DFA428D46F"
 			tasks: [{
 				id: "75050C1ED68FA527"
-				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -73,8 +73,9 @@
 				xp: 50
 			}]
 			tasks: [{
-				id: "65CD5DCB89868DA6"
-				type: "checkmark"
+				id: "0CB92589AF70B557"
+				item: { components: { "ftbfiltersystem:filter": "mod(handcrafted)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 1.0d
 			y: -1.5d
@@ -90,8 +91,9 @@
 				xp: 50
 			}]
 			tasks: [{
-				id: "2346FB844A4C5A75"
-				type: "checkmark"
+				id: "60BB29288D966B49"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(mcwbridges)mod(mcwdoors)mod(mcwfences)mod(mcwlights)mod(mcwpaths)mod(mcwtrpdoors))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: -0.5d
@@ -102,8 +104,9 @@
 			}
 			id: "4FEA49AD05720ED7"
 			tasks: [{
-				id: "56DCD9ACA7D81715"
-				type: "checkmark"
+				id: "3EAFB384DAB520FD"
+				item: { components: { "ftbfiltersystem:filter": "mod(arts_and_crafts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 1.0d
 			y: -0.5d
@@ -131,18 +134,11 @@
 				table_id: 310519013727846436L
 				type: "loot"
 			}]
-			tasks: [
-				{
-					id: "59F7AD4F3E7732A2"
-					item: { count: 1, id: "vanillaplustools:iron_hammer" }
-					type: "item"
-				}
-				{
-					id: "4D29C7A5373C86EA"
-					item: { count: 1, id: "vanillaplustools:iron_shovel" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5AB2F86A6AC8271E"
+				item: { components: { "ftbfiltersystem:filter": "mod(vanillaplustools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -3.0d
 			y: -1.5d
 		}
@@ -163,11 +159,18 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "70A1A6D22D654CDD"
-				item: { count: 1, id: "mininggadgets:modificationtable" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70A1A6D22D654CDD"
+					item: { count: 1, id: "mininggadgets:modificationtable" }
+					type: "item"
+				}
+				{
+					id: "4775BC243353527B"
+					item: { components: { "ftbfiltersystem:filter": "or(item(mininggadgets:mininggadget_simple)item(mininggadgets:mininggadget_fancy)item(mininggadgets:mininggadget))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -0.5d
 		}
