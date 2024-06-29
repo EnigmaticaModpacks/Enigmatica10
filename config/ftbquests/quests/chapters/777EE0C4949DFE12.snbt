@@ -47,25 +47,15 @@
 				id: "ae2:mysterious_cube"
 			}
 			id: "3E622F93756E9BFA"
-			rewards: [
-				{
-					count: 4
-					id: "497A7CC28F66D662"
-					item: {
-						count: 1
-						id: "ae2:quartz_block"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "497A7CC28F66D662"
+				item: {
+					count: 1
+					id: "ae2:quartz_block"
 				}
-				{
-					id: "44A2B62489F129D4"
-					item: {
-						count: 1
-						id: "ae2:charger"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "008B08A2A1707F47"
@@ -104,24 +94,17 @@
 			id: "2AF1CE73E140D685"
 			min_width: 300
 			rewards: [{
-				id: "0F117F72F5155009"
+				id: "66770B9EE7176E1E"
 				item: {
-					components: {
-						"minecraft:stored_enchantments": {
-							levels: {
-								"minecraft:fortune": 3
-							}
-						}
-					}
 					count: 1
-					id: "minecraft:enchanted_book"
+					id: "ae2:fluix_pickaxe"
 				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "45BEB4E841507571"
-					item: { count: 1, id: "ae2:flawed_budding_quartz" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ae2:flawed_budding_quartz)item(ae2:chipped_budding_quartz)item(ae2:damaged_budding_quartz))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{

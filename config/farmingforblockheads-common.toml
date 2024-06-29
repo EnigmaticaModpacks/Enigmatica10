@@ -1,7 +1,7 @@
 #List of default presets to disable.
 disabledDefaultPresets = []
 #List of optional presets to enable.
-enabledOptionalPresets = []
+enabledOptionalPresets = ["minecraft:flowers", "minecraft:mushrooms"]
 #List of names the merchant can have.
 merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson"]
 #The range within animals can be fed by the feeding trough.
