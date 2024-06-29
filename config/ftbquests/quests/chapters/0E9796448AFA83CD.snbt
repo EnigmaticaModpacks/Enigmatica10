@@ -95,6 +95,9 @@
 		}
 		{
 			dependencies: ["4943A39E231BECD3"]
+			icon: {
+				id: "minecraft:barrel"
+			}
 			id: "5047A6F1EF472407"
 			tasks: [{
 				id: "60A9BAF8F0F3CD5D"
@@ -105,6 +108,9 @@
 		}
 		{
 			dependencies: ["4943A39E231BECD3"]
+			icon: {
+				id: "minecraft:hopper"
+			}
 			id: "0B04BC5F88746182"
 			tasks: [{
 				id: "648DAF2545E330F5"
@@ -115,6 +121,9 @@
 		}
 		{
 			dependencies: ["4943A39E231BECD3"]
+			icon: {
+				id: "minecraft:bucket"
+			}
 			id: "0FCC51B49080984E"
 			tasks: [{
 				id: "7CAA73892F94E9C5"
@@ -235,6 +244,20 @@
 				type: "item"
 			}]
 			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5047A6F1EF472407"]
+			icon: {
+				id: "ironchest:iron_chest"
+			}
+			id: "44037DC8E8D493BC"
+			tasks: [{
+				id: "0459BF27966A67E4"
+				item: { count: 1, id: "ironchest:wood_to_iron_chest_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
 			y: 2.0d
 		}
 	]
