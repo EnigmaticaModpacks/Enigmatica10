@@ -1,9 +1,9 @@
 enableNoEmiMessage = true
-spawnWithGuideBook = true
-respawnWithGuideBook = true
+spawnWithGuideBook = false
+respawnWithGuideBook = false
 disableFuelTooltips = false
 disableItemTagTooltips = true
-newVersionMessage = true
+newVersionMessage = false
 enableHatchPlacementOverlay = true
 enableBarrelContentRendering = true
 colorWaterLava = true

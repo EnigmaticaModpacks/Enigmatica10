@@ -203,3 +203,6 @@ config/theurgy-client.toml
 config/NoChatReports/NCR-Client.json
 command_history.txt
 /.probe
+.vscode/settings.json
+.vscode/recipe.json
+.vscode/probe.code-snippets

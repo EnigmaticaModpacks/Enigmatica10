@@ -1,0 +1,3 @@
+#If true then a slime sound will be played when an entity bounces on the bounce pad
+bounceSound = true
+

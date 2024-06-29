@@ -1,0 +1,338 @@
+{
+  "BLACK": {
+	"GOLD, PINK, RED": [
+	  {
+		"childColor": "GOLD",
+		"conditions": "bothParentsFedGold",
+		"random": "above 90"
+	  }
+	],
+	"WHITE": [
+	  {
+		"childColor": "GOLD",
+		"conditions": "bothParentsFedGold",
+		"random": "above 50"
+	  },
+	  {
+		"childColor": "WHITE",
+		"conditions": "bothParentsFedGold",
+		"random": "above 25"
+	  },
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "above 75"
+	  },
+	  {
+		"childColor": "WHITE",
+		"conditions": "none",
+		"random": "above 38"
+	  }
+	],
+	"YELLOW, GREEN, BLUE": [
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "under 50"
+	  }
+	]
+  },
+  "BLUE": {
+	"BLACK, WHITE": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "bothParentsFedGold",
+		"random": "above 70"
+	  },
+	  {
+		"childColor": "secondParent",
+		"conditions": "bothParentsFedGold",
+		"random": "above 35"
+	  },
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "above 90"
+	  },
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "above 45"
+	  }
+	],
+	"BLUE": [
+	  {
+		"childColor": "WHITE",
+		"conditions": "bothParentsFedGold",
+		"random": "above 60"
+	  },
+	  {
+		"childColor": "BLUE",
+		"conditions": "bothParentsFedGold",
+		"random": "above 30"
+	  },
+	  {
+		"childColor": "WHITE",
+		"conditions": "none",
+		"random": "above 80"
+	  },
+	  {
+		"childColor": "BLUE",
+		"conditions": "none",
+		"random": "above 40"
+	  }
+	],
+	"YELLOW": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "under 50"
+	  }
+	]
+  },
+  "GOLD": {
+	"GOLD": [
+	  {
+		"childColor": "secondParent",
+		"conditions": "bothParentsFedGold",
+		"random": "none"
+	  }
+	],
+	"PINK, RED": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "bothParentsNotFedGold",
+		"random": "above 20"
+	  }
+	],
+	"YELLOW, GREEN, BLUE, WHITE, BLACK, PURPLE": [
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "none"
+	  }
+	]
+  },
+  "GREEN": {
+	"BLACK, WHITE": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "bothParentsFedGold",
+		"random": "above 70"
+	  },
+	  {
+		"childColor": "secondParent",
+		"conditions": "bothParentsFedGold",
+		"random": "above 35"
+	  },
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "above 90"
+	  },
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "above 45"
+	  }
+	],
+	"BLUE": [
+	  {
+		"childColor": "WHITE",
+		"conditions": "bothParentsFedGold",
+		"random": "above 60"
+	  },
+	  {
+		"childColor": "BLUE",
+		"conditions": "bothParentsFedGold",
+		"random": "above 30"
+	  },
+	  {
+		"childColor": "WHITE",
+		"conditions": "none",
+		"random": "above 80"
+	  },
+	  {
+		"childColor": "BLUE",
+		"conditions": "none",
+		"random": "above 40"
+	  }
+	],
+	"YELLOW": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "under 50"
+	  }
+	]
+  },
+  "PINK": {
+	"GOLD, PINK, RED": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "bothParentsNotFedGold",
+		"random": "above 20"
+	  }
+	],
+	"YELLOW, GREEN, BLUE, WHITE, BLACK, PURPLE": [
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "none"
+	  }
+	]
+  },
+  "PURPLE": {
+	"YELLOW, GREEN, BLUE, WHITE, BLACK": [
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "none"
+	  }
+	]
+  },
+  "RED": {
+	"GOLD, PINK, RED": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "bothParentsNotFedGold",
+		"random": "above 20"
+	  }
+	],
+	"YELLOW, GREEN, BLUE, WHITE, BLACK, PURPLE": [
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "none"
+	  }
+	]
+  },
+  "WHITE": {
+	"BLACK": [
+	  {
+		"childColor": "GOLD",
+		"conditions": "bothParentsFedGold",
+		"random": "above 50"
+	  },
+	  {
+		"childColor": "BLACK",
+		"conditions": "bothParentsFedGold",
+		"random": "above 25"
+	  },
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "above 75"
+	  },
+	  {
+		"childColor": "BLACK",
+		"conditions": "none",
+		"random": "above 38"
+	  }
+	],
+	"GOLD, PINK, RED": [
+	  {
+		"childColor": "GOLD",
+		"conditions": "bothParentsFedGold",
+		"random": "above 70"
+	  }
+	],
+	"GREEN, BLUE": [
+	  {
+		"childColor": "YELLOW",
+		"conditions": "bothParentsFedGold",
+		"random": "above 70"
+	  },
+	  {
+		"childColor": "secondParent",
+		"conditions": "bothParentsFedGold",
+		"random": "above 35"
+	  },
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "above 90"
+	  },
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "above 45"
+	  }
+	],
+	"YELLOW": [
+	  {
+		"childColor": "BLACK",
+		"conditions": "bothParentsFedGold",
+		"random": "above 60"
+	  },
+	  {
+		"childColor": "YELLOW",
+		"conditions": "bothParentsFedGold",
+		"random": "above 30"
+	  },
+	  {
+		"childColor": "BLACK",
+		"conditions": "none",
+		"random": "above 80"
+	  },
+	  {
+		"childColor": "YELLOW",
+		"conditions": "none",
+		"random": "above 40"
+	  }
+	]
+  },
+  "YELLOW": {
+	"GREEN, BLUE, BLACK": [
+	  {
+		"childColor": "secondParent",
+		"conditions": "none",
+		"random": "above 50"
+	  }
+	],
+	"WHITE": [
+	  {
+		"childColor": "BLACK",
+		"conditions": "bothParentsFedGold",
+		"random": "above 60"
+	  },
+	  {
+		"childColor": "WHITE",
+		"conditions": "bothParentsFedGold",
+		"random": "above 30"
+	  },
+	  {
+		"childColor": "BLACK",
+		"conditions": "none",
+		"random": "above 80"
+	  },
+	  {
+		"childColor": "WHITE",
+		"conditions": "none",
+		"random": "above 40"
+	  }
+	],
+	"YELLOW": [
+	  {
+		"childColor": "BLUE",
+		"conditions": "bothParentsFedGold",
+		"random": "above 80"
+	  },
+	  {
+		"childColor": "GREEN",
+		"conditions": "bothParentsFedGold",
+		"random": "above 60"
+	  },
+	  {
+		"childColor": "BLUE",
+		"conditions": "none",
+		"random": "above 60"
+	  },
+	  {
+		"childColor": "GREEN",
+		"conditions": "none",
+		"random": "above 20"
+	  }
+	]
+  }
+}

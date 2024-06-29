@@ -1,4 +1,6 @@
 {
-    "filters": ["/mffs.*steel/"],
-    "disable": true
+	"filters": [
+		"/mffs.*steel/"
+	],
+	"disable": true
 }
