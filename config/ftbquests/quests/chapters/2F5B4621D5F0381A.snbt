@@ -1202,14 +1202,24 @@
 				id: "modern_industrialization:heat_exchanger"
 			}
 			id: "269B8058C1161AA4"
-			rewards: [{
-				id: "4F788D7323CD8C2E"
-				item: {
-					count: 1
-					id: "modern_industrialization:hv_steam_turbine"
+			rewards: [
+				{
+					id: "4F788D7323CD8C2E"
+					item: {
+						count: 1
+						id: "modern_industrialization:hv_steam_turbine"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "596B47B0D31C701A"
+					item: {
+						count: 1
+						id: "modern_industrialization:electric_mixer"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5DEBE4AB69C4E2D4"
@@ -1268,6 +1278,33 @@
 				type: "item"
 			}]
 			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C169A2002B47DC5"]
+			id: "422F7BABAAEE92E0"
+			rewards: [{
+				id: "09631DBCA63574DD"
+				item: {
+					components: {
+						"modern_industrialization:fluid_storage": {
+							amount: 16000L
+							resource: {
+								id: "modern_industrialization:diesel"
+							}
+						}
+					}
+					count: 1
+					id: "modern_industrialization:steel_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A14A106EA94EC53"
+				item: { count: 1, id: "modern_industrialization:diesel_jetpack" }
+				type: "item"
+			}]
+			x: 14.0d
 			y: 4.5d
 		}
 	]

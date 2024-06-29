@@ -162,11 +162,11 @@
 		"Consider multiple setups like this:"
 		""
 		"&eAdvanced Boiler&r"
-		"  ↳ &38x MV Turbines&r"
-		"  ↳ &aMV to HV Transformer&r"
-		"&bAluminum Cable&r"
-		"  ↳ &aHV to MV Transformer&r"
-		"  ↳ &3Cluster of Machines&r"
+		"  &e╰┈➤ &3MV Turbine Cluster&r"
+		"  &3╰┈➤ &aMV to HV Transformer&r"
+		"  &a╰┈➤ &bAluminum Cables&r"
+		"  &b╰┈➤ &aHV to MV Transformer&r"
+		"  &a╰┈➤ &3Machine Cluster&r"
 		""
 		"&6⚠ Note: Be sure your MV power networks remain separate or they’ll all be limited by the max transfer rate.&r"
 	]
@@ -290,6 +290,8 @@
 	quest.269B8058C1161AA4.quest_desc: [
 		"The Heat Exchanger will soon become a very important part of the crafting process. For now, however, it will let us very efficiently create Steam from Lava, rather than Coal."
 		""
+		"Consider manufacturing Lava in an Electric Mixer to facilitate this!"
+		""
 		"It does require power to run, however, so consider leaving some backup infrastructure in place to kickstart it should anything happen. "
 		""
 		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
@@ -345,7 +347,7 @@
 	quest.35F1E0745E3EA61F.quest_desc: [
 		"As you expand your HV power grid, your existing MV machines can be easily upgraded to run on HV instead."
 		""
-		"Craft some Turbon Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot."
+		"Craft some Turbo Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot."
 		""
 		"&6⚠ Note: Machines &ldo not&r &6explode if given the wrong tier of power. They simply don’t run.&r"
 	]
@@ -420,6 +422,20 @@
 		"Power cables that double as limited storage, keeping a buffer of power in each block space. The more there are in a network, the more power they can transfer per tick. "
 		""
 		"Higher tiers are available."
+	]
+	quest.422F7BABAAEE92E0.quest_desc: [
+		"Well worth the effort, the Diesel Jetpack functions much like an Elytra with the Space bar controlling it."
+		""
+		"• Hold Space while on the ground to be "
+		"  propelled straight up."
+		""
+		"• Tap Space to begin gliding."
+		""
+		"• While gliding, hold Space to provide a "
+		"  speed boost in the direction you’re "
+		"  looking."
+		""
+		"&c⚠ Warning: Not for indoor use.&r"
 	]
 	quest.42F410023D62E6CB.quest_desc: [
 		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
@@ -573,6 +589,11 @@
 		""
 		"&a🛈 Tip: Bins can be locked by Sneak Right-Clicking with an empty hand!&r"
 	]
+	quest.5362D855D207F79A.quest_desc: [
+		"With a Distillery up and running, it should be possible to offset some energy costs by running some Diesel Generators. "
+		""
+		"Don’t tear down your Boilers just yet though, as Steam is required for Diesel production! "
+	]
 	quest.5386C6E2FDA6BA50.quest_desc: [
 		"Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors may all be upgraded in-situ by Right-Clicking them with the appropriate tier Alloy. Each Alloy will upgrade up to 8 connected pipes."
 		""
@@ -605,6 +626,22 @@
 		"The Miner does not apply Fortune, so it may be best to use the Silk Touch option for precious materials, then break them down manually later. "
 		""
 		"&a🛈 Tip: Use a Stone Generator Upgrade to automatically replace mined blocks with Stone!&r"
+	]
+	quest.5D52341DC77AFE8D.quest_desc: [
+		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
+		""
+		"As with the MV Tier, it’s advised to keep separate HV sub networks fed by an EV trunk line."
+		""
+		"Consider multiple setups like this:"
+		""
+		"&eAdvanced Boiler&r"
+		"  &e╰┈➤ &3HV Turbine Cluster&r"
+		"  &3╰┈➤ &aHV to EV Transformer&r"
+		"  &a╰┈➤ &bAnnealed Copper Cables&r"
+		"  &b╰┈➤ &aEV to HV Transformer&r"
+		"  &a╰┈➤ &3Machine Cluster&r"
+		""
+		"&6⚠ Note: Be sure your HV power networks remain separate or they’ll all be limited by the max transfer rate.&r"
 	]
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
