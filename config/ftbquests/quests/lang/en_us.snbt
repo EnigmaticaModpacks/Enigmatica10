@@ -215,11 +215,13 @@
 		""
 		"&a🛈 Tip: Search &3@buildinggadgets&r &ain EMI to discover more.&r"
 	]
+	quest.1D5616DFA428D46F.title: "Building Gadgets"
 	quest.1D5E773A3A547A2C.quest_desc: [
 		"If you’re into Cottagecore or just want some knicknacks to fill your shelves with, Handcrafted is the place to start. It’s loaded with comfy chairs and interior decorations."
 		""
 		"&a🛈 Tip: Search &3@handcrafted&r &ain EMI to discover more.&r"
 	]
+	quest.1D5E773A3A547A2C.title: "Handcrafted"
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
 		""
@@ -570,6 +572,7 @@
 		""
 		"&a🛈 Tip: Search &3@arts&r &ain EMI to discover more.&r"
 	]
+	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.526FB82B8D47EAA4.quest_desc: [
 		"Mekanism’s Bins are cheap and effective mass storage blocks. They only hold one type of item, but they hold a lot!"
@@ -782,9 +785,7 @@
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in E10."]
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
 	quest.77A66ADAB0845804.quest_desc: [
-		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica "
-		""
-		"10 currently has the following:"
+		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
 		"• Macaw’s Bridges"
 		"• Macaw’s Doors"
@@ -795,6 +796,7 @@
 		""
 		"&a🛈 Tip: Search &3@mcw&r &ain EMI to discover more.&r"
 	]
+	quest.77A66ADAB0845804.title: "Macaw's Mods"
 	quest.78D83E33F82D6015.quest_desc: [
 		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
 		""
@@ -854,22 +856,25 @@
 	task.08E7737686B2FDBA.title: "Fluids"
 	task.090E0C6E2CA23325.title: "WIP"
 	task.0B20CB3AECE5EC6E.title: "WIP"
+	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.0F6FA4BBA3B59771.title: "WIP"
 	task.15439BEDE1457557.title: "WIP"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
-	task.2346FB844A4C5A75.title: "Macaw's Mods"
 	task.378CFFDB81ED7781.title: "WIP"
+	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
+	task.4775BC243353527B.title: "Any Mining Gadget"
 	task.54D4D90621C89634.title: "WIP"
-	task.56DCD9ACA7D81715.title: "Arts and Crafts"
+	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
 	task.6048D8E4ED195229.title: "WIP"
 	task.60A9BAF8F0F3CD5D.title: "Bulk Item Storage"
+	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.648DAF2545E330F5.title: "Storage Systems"
-	task.65CD5DCB89868DA6.title: "Handcrafted"
 	task.6D81EBC223A69B2D.title: "Chemicals and Gasses"
 	task.73D7073169A23821.title: "WIP"
+	task.75050C1ED68FA527.title: "Building Gadgets"
 	task.79BCE24E6537B689.title: "Items"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7CAA73892F94E9C5.title: "Fluid Storage"
