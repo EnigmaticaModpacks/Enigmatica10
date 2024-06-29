@@ -287,6 +287,13 @@
 		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
+	quest.269B8058C1161AA4.quest_desc: [
+		"The Heat Exchanger will soon become a very important part of the crafting process. For now, however, it will let us very efficiently create Steam from Lava, rather than Coal."
+		""
+		"It does require power to run, however, so consider leaving some backup infrastructure in place to kickstart it should anything happen. "
+		""
+		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
+	]
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Work in progress."
 		""
@@ -334,6 +341,13 @@
 		"Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."
 		""
 		"&6⚠ Note: The outputs of this machine will be used in large quantities. Running it continuously is advised.&r"
+	]
+	quest.35F1E0745E3EA61F.quest_desc: [
+		"As you expand your HV power grid, your existing MV machines can be easily upgraded to run on HV instead."
+		""
+		"Craft some Turbon Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot."
+		""
+		"&6⚠ Note: Machines &ldo not&r &6explode if given the wrong tier of power. They simply don’t run.&r"
 	]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
@@ -671,6 +685,11 @@
 		""
 		"&a🛈 Tip: Sneak Right-Click Stabilized Wormholes and Storage Accessors on the Actuator to link them.&r"
 	]
+	quest.69AAE7C502629B3E.quest_desc: [
+		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
+		""
+		"If you’ve begun using Transformers to separate your power networks, this should be a fairly straightforward task, however."
+	]
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"Work in progress."
@@ -747,6 +766,13 @@
 		"• Macaw’s Trapdoors"
 		""
 		"&a🛈 Tip: Search &3@mcw&r &ain EMI to discover more.&r"
+	]
+	quest.78D83E33F82D6015.quest_desc: [
+		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
+		""
+		"Some machines, however, can take a very long time to get up to speed, and you may not want to wait for them just to get a process going. Right-Click a machine with a Bucket or Tank filled with Lubricant to give them an immediate boost to Efficiency! "
+		""
+		"As long as the machine never stops, this Efficiency boost persists. So this is best used on things like Quarries or production lines that are expected to run non-stop."
 	]
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."
