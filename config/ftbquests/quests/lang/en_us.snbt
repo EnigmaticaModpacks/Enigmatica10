@@ -12,7 +12,8 @@
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery&r"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology&r"
 	chapter_group.440488E780593120.title: "&aLearning - Magic&r"
-	file.0000000000000001.title: "&n&aEnigmatica 10&r&r"
+	file.0000000000000001.title: "&n&6Enigmatica 10&r&r"
+	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
 	quest.0071209841FB1C23.quest_desc: ["Combined storage and remote power transfer. The Cell is the heart of the network and holds the energy, while Gates can be installed remotely to transfer into or out of the network."]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
@@ -434,7 +435,11 @@
 		"&6⚠ Note: Machines with all Speed and no Energy upgrades may not operate at all!.&r"
 	]
 	quest.434D90BB00EE7F7C.title: "Upgrade Cards"
-	quest.44037DC8E8D493BC.quest_desc: ["Despite the name, Iron Chests offers more than just Iron Chests. In fact, it has multiple tiers of chests, each bigger than the last. "]
+	quest.44037DC8E8D493BC.quest_desc: [
+		"Despite the name, Iron Chests offers more than just Iron Chests. In fact, it has multiple tiers of chests, each bigger than the last. "
+		""
+		"&a🛈 Tip: Install upgrades by Right-Clicking them onto chests in-world.&r"
+	]
 	quest.44037DC8E8D493BC.title: "Iron Chests"
 	quest.44BD4C393C59F1CB.quest_desc: [
 		"The Discovery questline's purpose is to show what's available in the pack."
@@ -536,6 +541,7 @@
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
 	quest.4FEA49AD05720ED7.quest_desc: [
 		"Ah, the simple joys of playing with chalk outside. "
 		""
@@ -665,6 +671,7 @@
 		""
 		"&a🛈 Tip: Sneak Right-Click Stabilized Wormholes and Storage Accessors on the Actuator to link them.&r"
 	]
+	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"Work in progress."
 		""
@@ -768,6 +775,7 @@
 	]
 	quest.7B5EB5D6F749520F.title: "Thermoelectric Boiler"
 	quest.7BEE7FAD21AFEB68.quest_desc: ["With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "]
+	quest.7C71090829F8748A.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE."]
 	quest.7D82585D50D7207A.quest_desc: [
 		"Work in progress."
 		""

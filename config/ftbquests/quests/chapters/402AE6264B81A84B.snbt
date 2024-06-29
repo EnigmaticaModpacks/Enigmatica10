@@ -81,7 +81,7 @@
 				item: { count: 1, id: "powah:energy_cable_starter" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -92,7 +92,7 @@
 				item: { count: 1, id: "modern_industrialization:tin_cable" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -2.5d
 		}
 		{
@@ -103,7 +103,7 @@
 				item: { count: 1, id: "modularrouters:energy_distributor_module" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -124,7 +124,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.5d
 			y: -2.5d
 		}
 		{
@@ -135,7 +135,7 @@
 				item: { count: 1, id: "modern_industrialization:fluid_pipe" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -164,7 +164,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -199,7 +199,7 @@
 				item: { count: 1, id: "modern_industrialization:item_pipe" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -0.5d
 		}
 		{
@@ -258,8 +258,52 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["760910BF48876D8E"]
+			id: "4F5E591110C0A372"
+			tasks: [{
+				id: "63601C6250E047F5"
+				item: { count: 1, id: "laserio:card_chemical" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["752888EAF2861EB4"]
+			id: "00066BB06F509677"
+			tasks: [{
+				id: "798CCDC3F7C28F9B"
+				item: { count: 1, id: "laserio:card_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04CE3E8B1DF8B441"]
+			id: "6A94923547B93B51"
+			tasks: [{
+				id: "4B93DC5E15BBFCB8"
+				item: { count: 1, id: "laserio:card_fluid" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["235D7EF41916E480"]
+			id: "7C71090829F8748A"
+			tasks: [{
+				id: "4E6034D3238EE6F0"
+				item: { count: 1, id: "laserio:card_energy" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
 		}
 	]
 }
