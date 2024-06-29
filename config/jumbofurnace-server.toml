@@ -1,0 +1,5 @@
+
+["Construction Settings"]
+	#Shearable: Allow jumbo furnaces to be cleanly dismantled with shears
+	shearable = true
+

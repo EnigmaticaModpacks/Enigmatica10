@@ -1,0 +1,33 @@
+
+#Spawning configuration
+[spawning]
+	#Controls Chocobo Spawn Weight [Default: 10]
+	#Range: > 0
+	chocoboSpawnWeight = 10
+	#Controls Chocobo Pack Size Min [Default: 1]
+	#Range: > 0
+	chocoboPackSizeMin = 1
+	#Controls Chocobo Pack Size Max [Default: 3]
+	#Range: > 0
+	chocoboPackSizeMax = 3
+
+#Chocobo configuration
+[Chocobo]
+	#This multiplier controls the tame chance per gysahl used, so .15 results in 15% chance to tame [Default: 0.15]
+	#Range: 0.0 ~ 1.0
+	tameChance = 0.15
+	#If certain chocobos are allowed to fly [Default: true]
+	canChocobosFly = true
+	#Determines the maximum interval duration for the Chocobo's ambient sound [Default: 100]
+	#Range: > 1
+	kwehIntervalLimit = 100
+
+#Naming configuration
+[Naming]
+	#If taming a chocobo will provide them with a name (unless already named) [Default: true]
+	nameTamedChocobos = true
+	#The list of male names it can choose from if 'nameTamedChocobos' is enabled
+	maleNames = ["Arkio", "Boco", "Choco", "Patch", "Eddie", "Big Bird", "Chobi", "Horse Bird", "Mr. Yellowpuffs", "Oscar", "Wild", "Stitch", "Milo", "Lewis", "Simon", "Steed", "Bocobo", "Chobo", "Butter Fingers", "Caspar", "Chubby", "Coco", "Fuzzy", "Hulk", "Flopsy", "Lionel", "Tidus", "Cloud", "Sephiroth", "Butz", "Cecil", "Golbez", "Squall", "Zidane", "Garnet", "Kuja", "Locke", "Celes", "Crafty", "Sparky", "Skippy", "Whiskers", "Mog's Mount", "Ruffles", "Quistis", "Noctis", "Firecracker", "Ballistic", "Blizzard", "Torobo", "Leon", "Firas", "Travis", "Indigo", "Montoya", "Cobalt", "Jinx", "Komet", "Beau", "Bone", "Claw", "Duke", "Easy", "Fire", "Fury", "Idol", "Iron", "Jack", "Mars", "Noir", "Snow", "Star", "Zero", "Ace", "Air", "Ice", "Max", "Neo", "Ray", "Alpha", "Arrow", "Avian", "Black", "Blade", "Blaze", "Blitz", "Chaos", "Dandy", "Jolly", "Omega", "Pluto", "Point", "Quake", "Titan", "Hope", "Ifrit", "Shiva", "Polonium", "Radon", "Sparks", "Lunik"]
+	#The list of female names it can choose from if 'nameTamedChocobos' is enabled
+	femaleNames = ["Choco", "Patch", "Chobi", "Wild", "Chubby", "Crystal", "Coco", "Fuzzy", "Flopsy", "Lulu", "Yuna", "Cecil", "Kuja", "Terra", "Locke", "Celes", "Rikku", "Yuffie", "Selphie", "Rinoa", "Sparky", "Skippy", "Whiskers", "Pupu", "Quistis", "Noctis", "Tranquille", "Twinkling", "Capucine", "Heidi", "Danseuse", "Mercedes", "Psyche", "Victory", "Liberty", "Emma", "Fortune", "Soleil", "Luna", "Violet", "Lilith", "Lilli", "Jinx", "Coco", "Fleur", "Feder", "Flora", "Kugel", "Bleu", "Blue", "Chic", "Ciel", "Face", "Fire", "Fury", "Iris", "Jade", "Joli", "Kiku", "Lady", "Miel", "Momo", "Moon", "Nana", "Noir", "Nova", "Rain", "Rose", "Ruby", "Star", "Vega", "Air", "Aki", "Ayu", "Fee", "Sky", "Sun", "Amber", "Angel", "Azure", "Belle", "Clair", "Ebony", "Ember", "Fairy", "Flare", "Glory", "Jaune", "Jeune", "Jolly", "Lucky", "Olive", "Orange", "Venus", "Lightning", "Galindorf"]
+

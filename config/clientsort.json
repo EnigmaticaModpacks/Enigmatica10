@@ -1,0 +1,8 @@
+{
+  "options": {
+    "interactionRateServer": 10,
+    "interactionRateClient": 1,
+    "hotbarMode": "SOFT",
+    "optimizedCreativeSorting": true
+  }
+}
