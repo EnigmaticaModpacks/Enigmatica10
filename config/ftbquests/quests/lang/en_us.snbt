@@ -817,9 +817,9 @@
 	]
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AFCA9F187AE6EB2.quest_desc: [
-		"Work in progress."
+		"The Building section covers mods and tools to help you build up or tear down. "
 		""
-		"More content coming Soon™!"
+		"From mining and decoration, to destruction and more, the mods shown here will help you do it all."
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
 	quest.6B6898F3520BA8F7.quest_desc: [
@@ -966,8 +966,8 @@
 	task.0B20CB3AECE5EC6E.title: "WIP"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
-	task.0F6FA4BBA3B59771.title: "WIP"
 	task.15439BEDE1457557.title: "WIP"
+	task.1B81285E0D45A226.title: "Any Tool"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
 	task.378CFFDB81ED7781.title: "WIP"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"

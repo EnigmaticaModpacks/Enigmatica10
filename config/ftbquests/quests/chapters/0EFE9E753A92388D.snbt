@@ -13,64 +13,94 @@
 	quests: [
 		{
 			icon: {
-				id: "handcrafted:hammer"
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "6AFCA9F187AE6EB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E9130CB11BD2257"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
-				id: "0F6FA4BBA3B59771"
-				type: "checkmark"
+				id: "1B81285E0D45A226"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: -1.0d
 			y: -4.0d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			id: "1D5616DFA428D46F"
+			rewards: [{
+				id: "3766F951EB71EB36"
+				item: {
+					count: 1
+					id: "powah:battery_basic"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "75050C1ED68FA527"
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			id: "01266355AAB13C39"
 			rewards: [{
-				count: 64
-				id: "7F969D2496E92566"
-				item: {
-					count: 1
-					id: "minecraft:andesite"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "44204E5F77D8CA3E"
+				table_id: 167859363417192230L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "0E986C7F47F4C755"
 				item: { count: 1, id: "chisel:chisel" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			id: "1A4123560ACEE02C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A2792163F340847"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "625CF3D84E78B9F0"
 				item: { count: 1, id: "tiab:time_in_a_bottle" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			icon: {
 				id: "handcrafted:stackable_book"
 			}
 			id: "1D5E773A3A547A2C"
 			rewards: [{
-				id: "53E821715FBFD4F5"
-				type: "xp"
-				xp: 50
+				exclude_from_claim_all: true
+				id: "0F3F9F2BE1FA00E7"
+				table_id: 23658154196454858L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "0CB92589AF70B557"
@@ -78,17 +108,20 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			icon: {
 				id: "mcwbridges:oak_log_bridge_middle"
 			}
 			id: "77A66ADAB0845804"
 			rewards: [{
-				id: "7E6B3A6AA209D642"
-				type: "xp"
-				xp: 50
+				exclude_from_claim_all: true
+				id: "607566F345386AF2"
+				table_id: 23658154196454858L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "60BB29288D966B49"
@@ -96,27 +129,38 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			icon: {
 				id: "arts_and_crafts:purple_paintbrush"
 			}
 			id: "4FEA49AD05720ED7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62739352A8EFC47B"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3EAFB384DAB520FD"
 				item: { components: { "ftbfiltersystem:filter": "mod(arts_and_crafts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			id: "00DE313EE5B9954D"
 			rewards: [{
-				id: "748D4FE4E321F557"
-				type: "xp"
-				xp: 50
+				exclude_from_claim_all: true
+				id: "451356ADEE0AEF42"
+				table_id: 23658154196454858L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "2F0C75D71EC06217"
@@ -124,9 +168,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			id: "7F237202A5D7EFBD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -140,9 +186,11 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			hide_dependency_lines: true
 			icon: {
 				components: {
 					"mininggadgets:forge_energy": 1000000
@@ -150,15 +198,23 @@
 				id: "mininggadgets:mininggadget"
 			}
 			id: "15CECF38FB6CEADE"
-			rewards: [{
-				count: 4
-				id: "6DAA8A0C0DAD35D9"
-				item: {
-					count: 1
-					id: "mininggadgets:upgrade_empty"
+			rewards: [
+				{
+					count: 4
+					id: "6DAA8A0C0DAD35D9"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_empty"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "41D0D028845D77B4"
+					table_id: 310519013727846436L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "70A1A6D22D654CDD"
@@ -172,7 +228,7 @@
 				}
 			]
 			x: -3.0d
-			y: -0.5d
+			y: -2.5d
 		}
 	]
 }
