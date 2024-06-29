@@ -287,15 +287,6 @@
 		"&a🛈 Tip: E10 includes a Mekanism Multiblock planner in EMI to help determine the materials needed for the structure you want!&r"
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
-	quest.269B8058C1161AA4.quest_desc: [
-		"The Heat Exchanger will soon become a very important part of the crafting process. For now, however, it will let us very efficiently create Steam from Lava, rather than Coal."
-		""
-		"Consider manufacturing Lava in an Electric Mixer to facilitate this!"
-		""
-		"It does require power to run, however, so consider leaving some backup infrastructure in place to kickstart it should anything happen. "
-		""
-		"&a🛈 Tip: Place the controller block and then hold a Wrench or Hatch to visualize the structure or valid placement for hatches, respectively.&r"
-	]
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Work in progress."
 		""
