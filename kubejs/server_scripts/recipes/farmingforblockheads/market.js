@@ -23,22 +23,22 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mangrove_propagule`
         },
         {
-            category: 'farmingforblockheads:saplings',
+            category: 'farmingforblockheads:other',
             result: { count: 4, item: 'farmingforblockheads:green_fertilizer' },
             id: `${id_prefix}green_fertilizer`
         },
         {
-            category: 'farmingforblockheads:saplings',
+            category: 'farmingforblockheads:other',
             result: { count: 4, item: 'farmingforblockheads:red_fertilizer' },
             id: `${id_prefix}red_fertilizer`
         },
         {
-            category: 'farmingforblockheads:saplings',
+            category: 'farmingforblockheads:other',
             result: { count: 4, item: 'farmingforblockheads:yellow_fertilizer' },
             id: `${id_prefix}yellow_fertilizer`
         },
         {
-            category: 'farmingforblockheads:saplings',
+            category: 'farmingforblockheads:other',
             result: { count: 12, item: 'minecraft:bone_meal' },
             id: `${id_prefix}bone_meal`
         }
