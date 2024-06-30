@@ -1,3 +1,22 @@
+### Enigmatica 10 1.3.0
+
+NeoForge-1.21.0-21.0.42 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.3.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.3.0.md)
+
+#### ✔️ Added Mods
+
+#### ⭐ Improvements
+
+- Quests! [\#8](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/8) [\#10](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/10)
+- Market cleanup [\#12](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/12)
+- Allow right-click harvest without a hoe
+
+#### 🦟 Bugs Fixed
+
+* EMI showing unavailble items in the Market [(\#11)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/11)
+* Occultism pentacle recipes not showing [(\#9)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/9)
+
+---
+
 ### Enigmatica 10 1.2.0
 
 🚀 NeoForge-1.21.0-21.0.20 | [📑 Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.2.0.md) | [🧾 Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.2.0.md)
