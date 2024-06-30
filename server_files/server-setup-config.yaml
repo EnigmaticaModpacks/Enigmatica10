@@ -72,6 +72,7 @@ install:
             - 363363 # Extreme Sound Muffler
             - 901997 # No More World Settings
             - 908741 # Embeddium
+            - 1049891 # ClientSort https://www.curseforge.com/minecraft/mc-mods/clientsort
 
     # The base path where the server should be installed to, ~ for current path
     baseInstallPath: ~
