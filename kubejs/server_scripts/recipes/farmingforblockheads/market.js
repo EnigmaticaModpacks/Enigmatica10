@@ -21,6 +21,26 @@ ServerEvents.recipes((event) => {
             category: 'farmingforblockheads:saplings',
             result: { count: 1, item: 'minecraft:mangrove_propagule' },
             id: `${id_prefix}mangrove_propagule`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            result: { count: 4, item: 'farmingforblockheads:green_fertilizer' },
+            id: `${id_prefix}green_fertilizer`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            result: { count: 4, item: 'farmingforblockheads:red_fertilizer' },
+            id: `${id_prefix}red_fertilizer`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            result: { count: 4, item: 'farmingforblockheads:yellow_fertilizer' },
+            id: `${id_prefix}yellow_fertilizer`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            result: { count: 12, item: 'minecraft:bone_meal' },
+            id: `${id_prefix}bone_meal`
         }
     ];
 
@@ -28,14 +48,12 @@ ServerEvents.recipes((event) => {
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
 
-        if (!farmingforblockheads_preset_whitelist.includes(recipe.preset)) {
-            event.remove({ id: recipe_id });
-        } else {
+        if (farmingforblockheads_preset_whitelist.includes(recipe.preset)) {
             recipe.preset = 'enigmatica:market_trades';
             recipe.id = `${id_prefix}${recipe_id.split('market/').pop()}`;
-            event.remove({ id: recipe_id });
             recipes.push(recipe);
         }
+        event.remove({ id: recipe_id });
     });
 
     recipes.forEach((recipe) => {
