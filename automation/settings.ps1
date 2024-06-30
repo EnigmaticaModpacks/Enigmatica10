@@ -167,6 +167,7 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"defaultoptions/servers.dat",
 	"defaultoptions/extra",
 	"darkmodeeverywhereshaders.json",
+	"darkmodeeverywhere-client.toml",
 	"ae2/client.json",
 	"explorerscompass-client.toml",
 	"theoneprobe-client.toml",

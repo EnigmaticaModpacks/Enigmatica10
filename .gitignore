@@ -206,3 +206,4 @@ command_history.txt
 .vscode/settings.json
 .vscode/recipe.json
 .vscode/probe.code-snippets
+config/darkmodeeverywhere-client.toml
