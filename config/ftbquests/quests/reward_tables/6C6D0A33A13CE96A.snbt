@@ -1,0 +1,30 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6C6D0A33A13CE96A"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 8, item: { count: 1, id: "mekanism:basic_control_circuit" } }
+		{ count: 4, item: { count: 1, id: "mekanism:advanced_control_circuit" } }
+		{ count: 4, item: { count: 1, id: "mekanism:hdpe_sheet" } }
+		{ count: 4, item: { count: 1, id: "mekanism:alloy_infused" } }
+		{ item: { count: 1, id: "mekanism:basic_tier_installer" }, weight: 2.0f }
+		{
+			count: 4
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			weight: 2.0f
+		}
+		{ item: { count: 1, id: "mekanism:basic_chemical_tank" } }
+		{ item: { count: 1, id: "mekanism:basic_fluid_tank" } }
+	]
+	use_title: true
+}

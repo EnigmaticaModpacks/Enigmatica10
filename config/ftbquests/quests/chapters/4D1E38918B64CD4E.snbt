@@ -13,7 +13,10 @@
 	quests: [
 		{
 			icon: {
-				id: "handcrafted:hammer"
+				components: {
+					"ftbquests:icon": "mekanism:block/crusher/front_active"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "4A05A84FBF5CCD21"
 			rewards: [
@@ -35,8 +38,9 @@
 				}
 			]
 			tasks: [{
-				id: "00949868DFB9A0FD"
-				type: "checkmark"
+				id: "7D4421F5BDC35DFE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 2.0d
 			y: 2.0d
@@ -44,6 +48,12 @@
 		{
 			dependencies: ["4A05A84FBF5CCD21"]
 			id: "397D4765002935F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34CE664FF3B192FE"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2126C49918832AFE"
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
@@ -55,6 +65,12 @@
 		{
 			dependencies: ["23BC0F0C51F64721"]
 			id: "5DE688C9457D18DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17A4E458504D40E3"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7D7CED0BAFF0A8DF"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
@@ -66,6 +82,12 @@
 		{
 			dependencies: ["23BC0F0C51F64721"]
 			id: "49878D1219A63A4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F6ADF8DA058B7AA"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7ADBE5FB191EA619"
 				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
@@ -77,6 +99,12 @@
 		{
 			dependencies: ["1D4634BB3AF725EC"]
 			id: "748B07D863BF549A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D3D3ACCAB46097A"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1D8BD566372A3AFB"
 				item: { count: 1, id: "mekanismgenerators:bio_generator" }
@@ -88,6 +116,12 @@
 		{
 			dependencies: ["1E2327FB6801D209"]
 			id: "31129C8D75EFD8E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "212E6CC7124A81F8"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7085CAC3AC893657"
 				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
@@ -102,15 +136,23 @@
 				id: "mekanism:metallurgic_infuser"
 			}
 			id: "23BC0F0C51F64721"
-			rewards: [{
-				count: 8
-				id: "7EAC9828F94D2F35"
-				item: {
-					count: 1
-					id: "mekanism:enriched_carbon"
+			rewards: [
+				{
+					count: 8
+					id: "7EAC9828F94D2F35"
+					item: {
+						count: 1
+						id: "mekanism:enriched_carbon"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5AFE5A381E9BBB43"
+					table_id: 7812912145422412138L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "53E5CB511326D152"
@@ -139,6 +181,12 @@
 		{
 			dependencies: ["23BC0F0C51F64721"]
 			id: "55AFB2B88341FAB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FBA795AC7F5B082"
+				table_id: 6469769649492999651L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "26BA37ACC02A85C4"
 				item: { count: 1, id: "mekanism:steel_casing" }
@@ -150,15 +198,23 @@
 		{
 			dependencies: ["55AFB2B88341FAB5"]
 			id: "65996A36FB1B58B0"
-			rewards: [{
-				count: 8
-				id: "366CDEC6DFDA6608"
-				item: {
-					count: 1
-					id: "mekanism:enriched_redstone"
+			rewards: [
+				{
+					count: 8
+					id: "366CDEC6DFDA6608"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5CBFD5F788BE3B07"
+					table_id: 7812912145422412138L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "12A77A80190EF45A"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
@@ -170,6 +226,12 @@
 		{
 			dependencies: ["55AFB2B88341FAB5"]
 			id: "1D4634BB3AF725EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F7D2F9E2A9FEE36"
+				table_id: 7812912145422412138L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1352E02CD638FB01"
 				item: { count: 1, id: "mekanism:crusher" }
@@ -210,9 +272,6 @@
 		}
 		{
 			dependencies: ["23BC0F0C51F64721"]
-			icon: {
-				id: "mekanism:basic_tier_installer"
-			}
 			id: "12B89E4EF7282B86"
 			rewards: [{
 				id: "78AA66BA05732B37"
@@ -224,7 +283,7 @@
 			}]
 			tasks: [{
 				id: "64C50D306E73EA0A"
-				item: { count: 1, id: "mekanism:basic_tier_installer" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_tier_installer)item(mekanism:advanced_tier_installer)item(mekanism:elite_tier_installer)item(mekanism:ultimate_tier_installer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -349,14 +408,24 @@
 		{
 			dependencies: ["65996A36FB1B58B0"]
 			id: "0D236C298CFF8365"
-			rewards: [{
-				id: "7F0441668E759CDA"
-				item: {
-					count: 1
-					id: "mekanism:portable_teleporter"
+			rewards: [
+				{
+					id: "7F0441668E759CDA"
+					item: {
+						count: 1
+						id: "mekanism:portable_teleporter"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2FC7FF2AA822DD7F"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_anchor"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7743696D030735C8"
 				item: { count: 1, id: "mekanism:teleporter" }
@@ -395,13 +464,10 @@
 			dependencies: ["65996A36FB1B58B0"]
 			id: "5CC1D814819E3044"
 			rewards: [{
-				count: 64
-				id: "4EC48E306CB84D57"
-				item: {
-					count: 1
-					id: "mekanism:deepslate_uranium_ore"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "74CA2A07914ED578"
+				table_id: 310519013727846436L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "1A3A5CB2C48DC753"
@@ -465,6 +531,12 @@
 						id: "mekanism:dosimeter"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C20F74421CC3699"
+					table_id: 6469769649492999651L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -681,6 +753,12 @@
 				id: "mekanism:superheating_element"
 			}
 			id: "7B5EB5D6F749520F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12F91EAAFFE03909"
+				table_id: 6469769649492999651L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "68C8A61608678CC0"

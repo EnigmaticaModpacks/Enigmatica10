@@ -1,6 +1,6 @@
 {
 	autofocus_id: "6AFCA9F187AE6EB2"
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "0EFE9E753A92388D"
 	group: "1C7CD605A8DD7732"
@@ -14,7 +14,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
+					"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -229,6 +229,17 @@
 			]
 			x: -3.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			id: "0CCE0467AF123EAB"
+			tasks: [{
+				id: "5F727F447B0B4623"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools)mod(justdirethings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
 		}
 	]
 }

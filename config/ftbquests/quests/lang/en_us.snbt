@@ -14,7 +14,17 @@
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
-	quest.0071209841FB1C23.quest_desc: ["Combined storage and remote power transfer. The Cell is the heart of the network and holds the energy, while Gates can be installed remotely to transfer into or out of the network."]
+	quest.0071209841FB1C23.quest_desc: [
+		"Combined storage and remote power transfer. "
+		""
+		"The Ender Cell is the heart of the network and stores energy, while Gates can be installed remotely to transfer into or out of the network."
+		""
+		"By default, the Ender Cell has no actual storage. Batteries or Energy Cells must be inserted into it to expand its capacity. "
+		""
+		"&a🛈 Tip: Shift Left-Click Batteries or "
+		"&a        Energy Cells into the GUI to add "
+		"&a        capacity!"
+	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
@@ -27,11 +37,14 @@
 		""
 		"The router needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
-	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in E10."]
+	quest.0230942DF53BB9E5.quest_desc: ["The following are blocks that can be used to charge energy based items and equipment."]
+	quest.0230942DF53BB9E5.title: "Energy Chargers"
+	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of liquid transfer options available in E10."]
+	quest.04CE3E8B1DF8B441.title: "Liquids"
 	quest.09E7D266A7724F09.quest_desc: [
-		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. The more there are in a network, the more fluid they can transfer per tick."
+		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
-		"Higher tiers are available."
+		"The more there are in a network, the more fluid they can transfer per tick."
 	]
 	quest.09EE2DE8B55928C2.quest_desc: [
 		"New technology often means new efficiencies in Modern Industrialization. In this case, the Bronze Compressor allows converting Ingots to Plates  at a 1:1 ratio, instead of the former 2:1 ratio."
@@ -43,6 +56,7 @@
 		"&a        briefly speed them up."
 	]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
+	quest.0B04BC5F88746182.title: "Storage Systems"
 	quest.0B27453EDEC089EB.quest_desc: [
 		"The Pigment Extractor, Pigment Mixer, and Painting Machine all work in tandem to more efficiently produce dyes. "
 		""
@@ -58,6 +72,16 @@
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
+	quest.0CCE0467AF123EAB.quest_desc: [
+		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
+		""
+		"Higher tiers also run on FE instead of using durability!"
+		""
+		"&a🛈 Tip: Sneak Right-Click these tools to"
+		"&a        open their options menu, which"
+		"&a        describes their capabilities and "
+		"&a        allows them to be disabled."
+	]
 	quest.0D236C298CFF8365.quest_desc: [
 		"Teleporters are a wonderful way to get around your world, or even your base. "
 		""
@@ -70,15 +94,18 @@
 		"&a        Teleporter is always accessible!"
 	]
 	quest.0D32F25CCBC9B192.quest_desc: [
-		"Simple power cables for transferring Modern Industrialization’s EU power. They can power blocks that use FE, but can only accept power from Modern Industrialization."
+		"Simple power cables for transferring Modern Industrialization’s EU power. "
 		""
-		"Higher tiers are available."
+		"They can power blocks that use FE, but can only accept power from Modern Industrialization generators."
 	]
 	quest.0D65061DFD04B301.quest_desc: [
-		"Item Modules for Modular Routers allow the Router to send to, or pull from an inventory. Different Tiers have different ranges."
+		"Item Modules for Modular Routers allow the Router to send to, or pull from an inventory. "
+		""
+		"The first tier, MK1, can only send in a straight line, while MK2 can interact with any linked inventory in range. MK3 Senders are special in that they have no range limits and work across dimensions."
 		""
 		"Distributor Modules can pull from or send to a maximum of up to 8 inventories per module, making them perfect for distributed crafts or collecting from many machines."
 	]
+	quest.0D65061DFD04B301.title: "Item Modules"
 	quest.0D80520D08A5C287.quest_desc: [
 		"MV Steam Turbines make more energy, but also consume steam faster. Upgrading to an Advanced Large Steam Boiler sooner, rather than later, will make life easier. "
 		""
@@ -91,6 +118,8 @@
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
+	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
+	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
 		""
@@ -102,7 +131,9 @@
 	quest.12B89E4EF7282B86.quest_desc: [
 		"Mekanism machines may be upgraded through several methods. "
 		""
-		"The first, and perhaps most impactful are Tier Installers. Most machines will accept these and they can be Sneak Right-Clicked on the machine to install them. If a machine has a \"Factory\" version, it will accept a Tier Installer. Similarly, Tanks, Bins, and Energy Cubes can all be upgraded in-situ with Tier Installers."
+		"The first, and perhaps most impactful are Tier Installers. Most machines will accept these and they can be Sneak Right-Clicked on the machine to install them. "
+		""
+		"If a machine has a \"Factory\" version, it will accept a Tier Installer. Similarly, Tanks, Bins, and Energy Cubes can all be upgraded in-situ with Tier Installers."
 		""
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
@@ -125,6 +156,14 @@
 		"&a        hold a Wrench or Hatch to see"
 		"&a        the structure or valid places "
 		"&a        for hatches."
+	]
+	quest.14688BF9C4B5766C.quest_desc: [
+		"Player Transmitters wirelessly charge FE based items and equipment in your inventory. "
+		""
+		"Plug it in at your base and enjoy remote charging from anywhere."
+		""
+		"&a🛈 Tip: Install a Dimensional Binding Card"
+		"&a        for chargin in any dimension."
 	]
 	quest.14D5764532C5EEB0.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
@@ -227,11 +266,7 @@
 		"&a        create a connection."
 	]
 	quest.1A650F4235F6204A.title: "Upgrade Electric"
-	quest.1D3ECD980E15451B.quest_desc: [
-		"Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."
-		""
-		"Higher tiers are available."
-	]
+	quest.1D3ECD980E15451B.quest_desc: ["Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."]
 	quest.1D4634BB3AF725EC.quest_desc: ["An all-purpose crushing machine used to process ores and other materials. Using it to produce Biofuel is a great way to get some power out of growing crops. "]
 	quest.1D5616DFA428D46F.quest_desc: [
 		"Building Gadgets offer a number of FE powered tools to assist with building ranging from block placement, block replacement, copy/paste, and even straight deletion of large areas."
@@ -268,18 +303,20 @@
 		"Using Forge Hammer Tools, such as an Iron Hammer can also make the process more efficient. For example, a Plate may cost two Ingots without a hammer, but only one Ingot with the hammer. Hammers have durability and do wear out rather quickly, however, so use them wisely. "
 	]
 	quest.2150EE8D0B1474CE.quest_desc: [
-		"Work in progress."
+		"The Logistics section covers items from mods that help automate moving things around."
 		""
-		"More content coming Soon™!"
+		"From items and fluids to power and gas, the mods shown here will help move it."
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
+	quest.225A626E79D7165F.quest_desc: ["Energy Hoppers effectively turn any inventory into a rapid charging station. They’ll charge any FE based equipment stored in the inventory they’re pointed at."]
 	quest.235AA993029F7277.quest_desc: [
 		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
 		""
 		"This is another material that will be used extensively, so setting up a dedicated production line would be a good use of one’s time. In particular, a new Steam Blast Furnace will be recommended for creating Synthetic Oil."
 	]
 	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in E10."]
+	quest.235D7EF41916E480.title: "Power"
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
 		""
@@ -365,6 +402,8 @@
 		"&a        the structure or valid places "
 		"&a        for hatches."
 	]
+	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
+	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.349B97172AB3E56E.quest_desc: ["Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."]
 	quest.35F1E0745E3EA61F.quest_desc: [
@@ -383,7 +422,11 @@
 		"&a🛈 Tip: Generates extra power in "
 		"&a        The Nether."
 	]
-	quest.3A078285904792A2.quest_desc: ["Simple item pipes for moving things around. They can be filtered and accept Motors as upgrades to speed them up."]
+	quest.3A078285904792A2.quest_desc: [
+		"Simple item pipes for moving things around. "
+		""
+		"They can be filtered and accept Motors as upgrades to speed them up."
+	]
 	quest.3A7AD25302240A1B.quest_desc: [
 		"Ad-Hoc Networks are the simplest form of network in Applied Energistic; it consists of a length of Fluix Cable and some connected devices such as Storage Busses and Terminals."
 		""
@@ -453,7 +496,9 @@
 		""
 		"Conversely, the Electric Pump is a simple and effective way to produce water for machines. Place it over a standard infinite water source (2x2 or 1x3 area of Water) and provide it power. "
 		""
-		"&a🛈 Tip: Use a Filter Upgrade in an Electric Pump to produce Heavy Water."
+		"&a🛈 Tip: Use a Filter Upgrade in an "
+		"&a        Electric Pump to produce "
+		"&a        Heavy Water."
 	]
 	quest.3FF6566453299DC1.quest_desc: [
 		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
@@ -466,12 +511,14 @@
 	quest.40EECBD3D00B9575.quest_desc: [
 		"Fluid Tanks come in various sizes and are used for any kind of fluid. "
 		""
-		"&a🛈 Tip: Sneak Right-Click with a Configurator to set the tank to auto output out the bottom."
+		"&a🛈 Tip: Sneak Right-Click with the "
+		"&a        Configurator to set the tank to"
+		"&a        auto-output from the bottom."
 	]
 	quest.4229112D97BB45E6.quest_desc: [
-		"Power cables that double as limited storage, keeping a buffer of power in each block space. The more there are in a network, the more power they can transfer per tick. "
+		"Power cables that double as limited storage, keeping a buffer of power in each block space. "
 		""
-		"Higher tiers are available."
+		"The more there are in a network, the more power they can transfer per tick. "
 	]
 	quest.422F7BABAAEE92E0.quest_desc: [
 		"Well worth the effort, the Diesel Jetpack functions much like an Elytra with the Space bar controlling it."
@@ -503,7 +550,11 @@
 		"&c        there are insufficient Hatches"
 		"&c        available to receive the items!"
 	]
-	quest.4333255C930D2BE0.quest_desc: ["Chemical Tanks come in various sizes and are used for storing Mekanism’s gasses and other chemicals. They have the ability to auto input/output, as well as voiding excess. "]
+	quest.4333255C930D2BE0.quest_desc: [
+		"Chemical Tanks come in various sizes and are used for storing Mekanism’s gasses and other chemicals. "
+		""
+		"They have the ability to auto input and output, as well as to void excess. "
+	]
 	quest.434D90BB00EE7F7C.quest_desc: [
 		"After Tier Installers, Upgrade cards are the best way to enhance a machine. These can all be installed into machines by Sneak Right-Clicking them onto a machine. Alternatively, open the GUI and insert them directly in the Upgrade window."
 		""
@@ -528,7 +579,9 @@
 	]
 	quest.434D90BB00EE7F7C.title: "Upgrade Cards"
 	quest.44037DC8E8D493BC.quest_desc: [
-		"Despite the name, Iron Chests offers more than just Iron Chests. In fact, it has multiple tiers of chests, each bigger than the last. "
+		"Despite the name, Iron Chests offers more than just Iron Chests. "
+		""
+		"In fact, it has multiple tiers of chests, each bigger than the last. "
 		""
 		"&a🛈 Tip: Install upgrades by Right-"
 		"&a        Clicking them onto chests."
@@ -540,11 +593,7 @@
 		"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
-	quest.45121907B7F8DFD1.quest_desc: [
-		"Simple power cables to get energy from one place to another."
-		""
-		"Higher tiers are available."
-	]
+	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
 	quest.4685E3B748A76726.quest_desc: [
 		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
 		""
@@ -587,12 +636,6 @@
 		"&a        than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
-	quest.4943A39E231BECD3.quest_desc: [
-		"Looking for something a little more substantial to hold all your stuff in? "
-		""
-		"The following quests will highlight some of the options available in Enigmatica 10 so you can find the right tool for the job."
-	]
-	quest.4943A39E231BECD3.title: "Storage"
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -608,11 +651,13 @@
 	]
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
-		"Work in progress."
+		"Welcome to Mekanism!"
 		""
-		"More content coming Soon™!"
+		"Here-in we’ll discover how to progress through Mekanism, from the very first machines right through Fusion Reactors. "
 		""
-		"For more information, refer to Mekanism's Advancements or their Wiki at the link below."
+		"Mekanism has no in-game manual, however it does have very useful and informative Advancements. "
+		""
+		"We’ll also link you to their external Wiki below, which is an excellent source of knowledge, especially concerning their multi-block structures."
 		""
 		"{ \"text\": \"Mekanism Wiki\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com\" } }"
 	]
@@ -636,11 +681,12 @@
 		"&c        available to receive the items!"
 	]
 	quest.4B66ECA9D6797B80.quest_desc: [
-		"Work in progress."
+		"The Storage section covers items or mods that help store all the things."
 		""
-		"More content coming Soon™!"
+		"From fluids and items to centralized storage systems, you’ll find it here!"
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
+	quest.4C2A04C8A81DE383.quest_desc: ["Batteries are more about personal energy storage for increasing the effective capacity of any FE based equipment you’re using. "]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
 	quest.4FEA49AD05720ED7.quest_desc: [
@@ -653,6 +699,7 @@
 	]
 	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
+	quest.5047A6F1EF472407.title: "Bulk Item Storage"
 	quest.526FB82B8D47EAA4.quest_desc: [
 		"Mekanism’s Bins are cheap and effective mass storage blocks. They only hold one type of item, but they hold a lot!"
 		""
@@ -686,8 +733,6 @@
 		"Simple item pipes for moving things around. They can have a simple color coded routing system they can use to determine where things will go. "
 		""
 		"Mekanism machines pushing into them can natively color-code items, or a Logistical Sorter can be used to pull from any inventory and color-code items appropriately."
-		""
-		"Higher tiers are available."
 	]
 	quest.577377C909FF0001.quest_desc: [
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
@@ -815,6 +860,16 @@
 		""
 		"If you’ve begun using Transformers to separate your power networks, this should be a fairly straightforward task, however."
 	]
+	quest.69CCA30AB383ACCD.quest_desc: [
+		"Capable of storing truly absurd amounts of energy, the Induction Matrix is usually used by players who have achieved Fission of Fusion. Though, even a small one will hold far more than Energy Cubes."
+		""
+		"The Induction Matrix itself is a massive free-form multiblock. There are a few rules on placement and restrictions on maximum size, however, which can be discovered by visiting the Induction Matrix page on their wiki:"
+		""
+		"{ \"text\": \"Mekanism Wiki: Induction Matrix\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Induction_Matrix\" } }"
+		""
+		"&a🛈 Tip: E10 includes a Mekanism Multi-"
+		"&a        Block planner in EMI! "
+	]
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"The Building section covers mods and tools to help you build up or tear down. "
@@ -842,6 +897,11 @@
 		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" } }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
+	quest.6E4A0A33DB3C2B24.quest_desc: [
+		"Need to fill up that FE based tool you’ve been using? Just stand on a Chargepad. It automatically recharges all FE based equipment in your inventory so long as you’re standing on it."
+		""
+		"Mekanism’s Energy Cells and Induction Matrices can also charge items, but they don’t beat the convenience of the Chargepad."
+	]
 	quest.6E9C0B091D9F258A.quest_desc: [
 		"Material costs getting you down? Now would be a great time to set up some simple ore processing. Crush twice, smelt once. "
 		""
@@ -887,7 +947,9 @@
 		"&a        Block planner in EMI! "
 	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in E10."]
+	quest.752888EAF2861EB4.title: "Items"
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
+	quest.760910BF48876D8E.title: "Chemicals and Gas"
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
@@ -952,40 +1014,62 @@
 		"&a        discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
+	quest.7FEA11A88316FE0C.quest_desc: ["Simple energy storage with built in item charging capabilities."]
 	reward.34CE01457EC3BF54.title: "Bed"
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
 	reward_table.02545B33A0B47726.title: "Scavenger's Delight"
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
 	reward_table.4C3908A1EDE782F7.title: "Alchemist's Delight"
 	reward_table.506FFF33A24A6C87.title: "Sorcerer's Delight"
+	reward_table.59C93D37C8A23DE3.title: "Legendary Lootbox: Mekanism"
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
-	task.00949868DFB9A0FD.title: "WIP"
-	task.0154B37E4620A081.title: "Power"
-	task.08E7737686B2FDBA.title: "Fluids"
+	reward_table.6C6D0A33A13CE96A.title: "Epic Lootbox: Mekanism"
+	task.0164AF75B5EA3F49.title: "Fluid Tanks"
+	task.0459BF27966A67E4.title: "Iron Chests"
 	task.090E0C6E2CA23325.title: "WIP"
 	task.0B20CB3AECE5EC6E.title: "WIP"
+	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
-	task.15439BEDE1457557.title: "WIP"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
+	task.213012F4279A21AF.title: "Chemical Tanks"
+	task.2443C92B985E88B2.title: "Ender Cells"
+	task.24FDDE2CC71EBC7A.title: "Logisticss"
+	task.2E84D0BE1079BF3C.title: "Energy Cubes"
+	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.378CFFDB81ED7781.title: "WIP"
+	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
+	task.40F7F5B9E57315CB.title: "Energy Cables"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
+	task.4315ED9269099C81.title: "Any #c:chests"
+	task.437A0173972D42B6.title: "Induction Matrix"
+	task.44956BC067ED019C.title: "Pressurized Tubes"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4775BC243353527B.title: "Any Mining Gadget"
+	task.484FF1BEA9145D5F.title: "Puller Modules"
+	task.49C1EEBEED453B1C.title: "Mechanical Pipes"
+	task.4AAAB62A26960EFE.title: "Fluid Pipes"
+	task.4D45C5166D0700F8.title: "Item Pipes"
+	task.53537003380689AB.title: "Universal Cables"
 	task.54D4D90621C89634.title: "WIP"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
-	task.6048D8E4ED195229.title: "WIP"
-	task.60A9BAF8F0F3CD5D.title: "Bulk Item Storage"
+	task.5B601A86609CEDFF.title: "Energy Hopers"
+	task.5F727F447B0B4623.title: "Just Dire Things Tools"
+	task.5FAB53ACB4BF565C.title: "Fluid Modules"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
-	task.648DAF2545E330F5.title: "Storage Systems"
+	task.6434DA9DBF54356B.title: "Ender Gates"
+	task.64C50D306E73EA0A.title: "Tier Installers"
 	task.676C8DE6C246D422.title: "AE Power"
-	task.6D81EBC223A69B2D.title: "Chemicals and Gasses"
+	task.695AC45D6E273032.title: "Energy Cells"
+	task.6F72D2074543BF23.title: "Bins"
+	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.73D7073169A23821.title: "WIP"
 	task.75050C1ED68FA527.title: "Building Gadgets"
-	task.79BCE24E6537B689.title: "Items"
+	task.76ED4221C1C27A27.title: "Logistical Transporters"
+	task.7A9E6782E73FF106.title: "Batteries"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
-	task.7CAA73892F94E9C5.title: "Fluid Storage"
+	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 }
