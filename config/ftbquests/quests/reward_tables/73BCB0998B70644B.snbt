@@ -1,0 +1,21 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/common"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "73BCB0998B70644B"
+	loot_size: 2
+	order_index: 8
+	rewards: [
+		{ count: 4, item: { count: 1, id: "modern_industrialization:fire_clay_bricks" } }
+		{ count: 8, item: { count: 1, id: "modern_industrialization:copper_rotor" } }
+		{ count: 4, item: { count: 1, id: "modern_industrialization:bronze_machine_casing" } }
+		{ count: 8, item: { count: 1, id: "modern_industrialization:copper_gear" } }
+		{ count: 8, item: { count: 1, id: "modern_industrialization:fluid_pipe" } }
+		{ count: 8, item: { count: 1, id: "modern_industrialization:item_pipe" } }
+	]
+	use_title: true
+}
