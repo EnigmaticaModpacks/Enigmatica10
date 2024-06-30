@@ -6,6 +6,21 @@ ServerEvents.recipes((event) => {
             preset: 'occultism:market_trades',
             result: { count: 1, item: 'occultism:otherworld_sapling' },
             id: `${id_prefix}otherworld_sapling`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'occultism:datura_seeds' },
+            id: `${id_prefix}datura_seeds`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            result: { count: 1, item: 'arts_and_crafts:cork_sapling' },
+            id: `${id_prefix}cork_sapling`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            result: { count: 1, item: 'minecraft:mangrove_propagule' },
+            id: `${id_prefix}mangrove_propagule`
         }
     ];
 
