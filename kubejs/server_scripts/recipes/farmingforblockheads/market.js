@@ -13,6 +13,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}datura_seeds`
         },
         {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'minecraft:cocoa_beans' },
+            id: `${id_prefix}cocoa_beans`
+        },
+        {
             category: 'farmingforblockheads:saplings',
             result: { count: 1, item: 'arts_and_crafts:cork_sapling' },
             id: `${id_prefix}cork_sapling`
