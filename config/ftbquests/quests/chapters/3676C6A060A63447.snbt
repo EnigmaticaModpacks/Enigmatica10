@@ -30,8 +30,9 @@
 			type: "item"
 		}]
 		tasks: [{
-			id: "090E0C6E2CA23325"
-			type: "checkmark"
+			id: "2DF31416CB56A844"
+			item: { components: { "ftbfiltersystem:filter": "or(item(theurgy:sal_ammoniac_crystal)item(theurgy:sal_ammoniac_ore)item(theurgy:deepslate_sal_ammoniac_ore))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			type: "item"
 		}]
 		x: 0.0d
 		y: -1.0d
