@@ -124,8 +124,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "69A50971589342CB"
-					table_id: 8339734783499199563L
+					id: "2C885B40A6FD2512"
+					table_id: 310519013727846436L
 					type: "loot"
 				}
 			]
@@ -160,6 +160,12 @@
 						id: "modern_industrialization:wrench"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CC2982832945275"
+					table_id: 310519013727846436L
+					type: "loot"
 				}
 			]
 			tasks: [
