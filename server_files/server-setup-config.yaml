@@ -47,7 +47,7 @@ install:
 
     # Link to where the file where the modpack can be distributed
     # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-    modpackUrl: https://media.forgecdn.net/files/5460/42/Enigmatica10-1.2.0.zip
+    modpackUrl: https://media.forgecdn.net/files/5490/311/Enigmatica10-1.3.0.zip
 
     # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
     # current supported formats:
