@@ -117,6 +117,16 @@
 		"&a        for hatches."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
+	quest.0EEEA27699137B6C.quest_desc: [
+		"With the Mercury Distiller we’ll refine common materials to extract their spirit in the form of Mercury. "
+		""
+		"Mercury itself acts as energy for most processes in Theurgy, and will be critical to this process."
+		"&n                                                  &r"
+		""
+		"Place the Mercury Distiller atop the Pyromantic Brazier. Items may be Right-Clicked into the Distiller, or fed in via any sort of item logistics."
+		""
+		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
+	]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
@@ -295,6 +305,16 @@
 		""
 		"It’s good to start with the power infrastructure, however. Consider building some MV Turbines and down converting the power from MV to LV for now with a Transformer."
 	]
+	quest.2098F9F6E49956A5.quest_desc: [
+		"During the Calcination step, related materials are refined into an Alchemical Salt. "
+		""
+		"For the purpose of purifying ores, we’ll need a Mineral type Alchemical Salt. This can be obtained from a variety of materials."
+		"&n                                                  &r"
+		""
+		"Place the Calcination Oven atop the Pyromantic Brazier. Items may be Right-Clicked into the Oven, or fed in via any sort of item logistics."
+		""
+		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
+	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
 		""
@@ -359,6 +379,18 @@
 		"&a        Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
+	quest.289433DE16324150.quest_desc: [
+		"Sal Ammoniac is a powerful alchemical solvent. It can be found in the ground in crystallized form, or simply extracted from Water."
+		"&n                                                  &r"
+		""
+		"Place the Sal Ammoniac Accumulator atop the Tank. "
+		""
+		"Water can be Right-Clicked or piped into the Accumulator while the resulting Sal Ammoniac can be similarly extracted from the tank."
+		""
+		"&a🛈 Tip: Adding Sal Ammoniac Crystals to "
+		"&a        the Accumulator will greatly "
+		"&a        speed it up."
+	]
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Work in progress."
 		""
@@ -578,6 +610,18 @@
 		"&6        may not operate at all!"
 	]
 	quest.434D90BB00EE7F7C.title: "Upgrade Cards"
+	quest.4355BA27014040F6.quest_desc: [
+		"Divination Rods can be used to locate specific ores. Higher tier rods may be required for some materials, such as Ancient Debris."
+		""
+		"For example, Sneak Right-Click a Glass Divination Rod onto an Iron Ore Block to attune it to Iron Ore. Using the Rod will now help locate more Ore blocks."
+		""
+		"Right-Click and hold to locate a new block. This costs some durability."
+		""
+		"A quick Right-Click will point out the previously found block again for no durability cost."
+		""
+		"&a🛈 Tip: The Rod can be re-attuned to a"
+		"&a        new material at any time."
+	]
 	quest.44037DC8E8D493BC.quest_desc: [
 		"Despite the name, Iron Chests offers more than just Iron Chests. "
 		""
@@ -636,6 +680,17 @@
 		"&a        than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48F901DB80482CAA.quest_desc: [
+		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
+		""
+		"Alchemists have solved this through a three step process:"
+		"  • Liquefaction"
+		"  • Distillation"
+		"  • Calcination"
+		""
+		"Each of these steps, and how they come together will be discussed in the following quests."
+	]
+	quest.48F901DB80482CAA.title: "Material Processing"
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -687,6 +742,14 @@
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
 	quest.4C2A04C8A81DE383.quest_desc: ["Batteries are more about personal energy storage for increasing the effective capacity of any FE based equipment you’re using. "]
+	quest.4C745779C30B48A6.quest_desc: [
+		"With the Liquefaction Cauldron, we’ll use our solvent, Sal Ammoniac, to dissolve our ore into a purified Sulfur. "
+		"&n                                                  &r"
+		""
+		"Place the Liquefaction Cauldron atop the Pyromantic Brazier. Items may be Right-Clicked into the Cauldron, or fed in via any sort of item logistics."
+		""
+		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
+	]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
 	quest.4FEA49AD05720ED7.quest_desc: [
@@ -700,6 +763,17 @@
 	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
+	quest.51F25D35F62B37BA.quest_desc: [
+		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
+		""
+		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
+		""
+		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
+		""
+		"&a🛈 Tip: Right-Click Inserters and "
+		"&a        Extractors with a Mercurial Wand"
+		"&a        to set the side they work with."
+	]
 	quest.526FB82B8D47EAA4.quest_desc: [
 		"Mekanism’s Bins are cheap and effective mass storage blocks. They only hold one type of item, but they hold a lot!"
 		""
@@ -738,6 +812,16 @@
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
 		""
 		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
+	]
+	quest.59A56F3053A30126.quest_desc: [
+		"Finally, with the Incubator we are able to bring together our three materials to re-combine the base Sulfur into its purified form. For ores, this yields three Ingots for every Raw Material input."
+		"&n                                                  &r"
+		""
+		"The Incubator is a simple multiblock structure where the Incubator itself is placed in the center and each of the three Vessels is placed directly adjacent, as if to form a T."
+		""
+		"The Pyromantic Brazier goes directly under the Incubator."
+		""
+		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
 	quest.5CC1D814819E3044.quest_desc: [
 		"The Digital Miner is a targeted quarrying device that mines blocks out of the world. By setting the filters, you can target exactly what you need, making it a great way to top up on Diamonds or Ancient Debris. "
@@ -834,7 +918,7 @@
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Work in progress."
 		""
-		"Content coming Soon™!"
+		"More content coming Soon™!"
 	]
 	quest.6538BD86D9419DD4.title: "Theurgy"
 	quest.65996A36FB1B58B0.quest_desc: [
@@ -1039,8 +1123,8 @@
 	task.24FDDE2CC71EBC7A.title: "Logisticss"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
+	task.3153DDF073D649E4.title: "Divination Rods"
 	task.35B971D8A6CCBC94.title: "EU Cables"
-	task.378CFFDB81ED7781.title: "WIP"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
@@ -1066,6 +1150,7 @@
 	task.64C50D306E73EA0A.title: "Tier Installers"
 	task.676C8DE6C246D422.title: "AE Power"
 	task.695AC45D6E273032.title: "Energy Cells"
+	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6F72D2074543BF23.title: "Bins"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.73D7073169A23821.title: "WIP"

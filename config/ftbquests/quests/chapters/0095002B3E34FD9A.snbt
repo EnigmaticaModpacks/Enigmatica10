@@ -29,17 +29,11 @@
 			}
 			type: "item"
 		}]
-		tasks: [
-			{
-				id: "378CFFDB81ED7781"
-				type: "checkmark"
-			}
-			{
-				id: "741114ACD8AABEF6"
-				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:datura_seeds)item(occultism:datura))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}
-		]
+		tasks: [{
+			id: "741114ACD8AABEF6"
+			item: { components: { "ftbfiltersystem:filter": "or(item(occultism:datura_seeds)item(occultism:datura))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			type: "item"
+		}]
 		x: 0.5d
 		y: 0.0d
 	}]
