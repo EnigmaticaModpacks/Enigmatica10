@@ -14,6 +14,16 @@ ServerEvents.recipes((event) => {
         },
         {
             category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'chococraft:gysahl_green_seeds' },
+            id: `${id_prefix}gysahl_green_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'jags:grass_seed' },
+            id: `${id_prefix}grass_seed`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'minecraft:cocoa_beans' },
             id: `${id_prefix}cocoa_beans`
         },
