@@ -13,27 +13,134 @@
 	id: "0095002B3E34FD9A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "handcrafted:hammer"
-		}
-		id: "5DF2A3E977D4C11B"
-		rewards: [{
-			id: "570E0D6FE0E6F09F"
-			item: {
-				components: {
-					"modonomicon:book_id": "occultism:dictionary_of_spirits"
-				}
-				count: 1
-				id: "occultism:dictionary_of_spirits"
+	quests: [
+		{
+			icon: {
+				id: "handcrafted:hammer"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "378CFFDB81ED7781"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+			id: "5DF2A3E977D4C11B"
+			rewards: [{
+				id: "570E0D6FE0E6F09F"
+				item: {
+					components: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+					count: 1
+					id: "occultism:dictionary_of_spirits"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "741114ACD8AABEF6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:datura_seeds)item(occultism:datura))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DF2A3E977D4C11B"]
+			id: "66B189D0C0CFE055"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BE1D0A5E47D00C6"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "144CC1602F89BF7B"
+				item: { count: 1, id: "occultism:datura" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66B189D0C0CFE055"]
+			id: "426730088C72437A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "048E10E4FD09DBE4"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: {
+					id: "occultism:spirit_fire"
+				}
+				id: "04A7890742B7519E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["426730088C72437A"]
+			id: "5AFA08920E94A02B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E346BB4372A8EF3"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "733914EFB5DCE0A0"
+					item: { count: 1, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					id: "0B61EB594137F70D"
+					item: { count: 1, id: "occultism:otherworld_log" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AFA08920E94A02B"]
+			icon: {
+				id: "occultism:ritual_dummy/custom_ritual"
+			}
+			id: "5BD04F0109CB6704"
+			rewards: [{
+				id: "08E5CA5FFC9336AF"
+				item: {
+					count: 1
+					id: "occultism:soul_gem"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "53EE7D896F7103FA"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "348E3EFD0F24F148"
+					item: { count: 1, id: "occultism:chalk_white" }
+					type: "item"
+				}
+				{
+					id: "7C03AA0EAA201AD2"
+					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E1C0207A6C2127A"
+					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+	]
 }
