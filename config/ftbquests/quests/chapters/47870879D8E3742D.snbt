@@ -12,6 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "kubejs:item/enigmatica_tree"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "6DE4258F18A7A321"
 			rewards: [
 				{
@@ -58,7 +64,10 @@
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: {
-					id: "minecraft:oak_sapling"
+					components: {
+						"ftbquests:icon": "kubejs:item/enigmatica_tree"
+					}
+					id: "ftbquests:custom_icon"
 				}
 				id: "42EE7B1C5F75BCAF"
 				type: "dimension"
