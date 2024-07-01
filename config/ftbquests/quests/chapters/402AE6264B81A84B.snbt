@@ -368,5 +368,45 @@
 			x: 4.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["752888EAF2861EB4"]
+			icon: {
+				id: "theurgy:mercurial_wand"
+			}
+			id: "22ABFC3024E54FEA"
+			rewards: [{
+				count: 8
+				id: "3F8A2A48FE9B4BEC"
+				item: {
+					count: 1
+					id: "theurgy:copper_wire"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C4F4A535CC40BCA"
+					item: { count: 1, id: "theurgy:logistics_item_inserter" }
+					type: "item"
+				}
+				{
+					id: "2E0EEFEAF928F202"
+					item: { count: 1, id: "theurgy:logistics_item_extractor" }
+					type: "item"
+				}
+				{
+					id: "48269D18E1922641"
+					item: { count: 1, id: "theurgy:logistics_connector_node" }
+					type: "item"
+				}
+				{
+					id: "58C2FADC7139E013"
+					item: { count: 1, id: "theurgy:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -0.5d
+		}
 	]
 }

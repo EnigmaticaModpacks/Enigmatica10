@@ -330,6 +330,17 @@
 	quest.2150EE8D0B1474CE.title: "Logistics"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.225A626E79D7165F.quest_desc: ["Energy Hoppers effectively turn any inventory into a rapid charging station. They’ll charge any FE based equipment stored in the inventory they’re pointed at."]
+	quest.22ABFC3024E54FEA.quest_desc: [
+		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
+		""
+		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
+		""
+		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
+		""
+		"&a🛈 Tip: Right-Click Inserters and "
+		"&a        Extractors with a Mercurial Wand"
+		"&a        to set the side they work with."
+	]
 	quest.235AA993029F7277.quest_desc: [
 		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
 		""
@@ -566,6 +577,16 @@
 		""
 		"&c⚠ Warning: Not for indoor use."
 	]
+	quest.426730088C72437A.quest_desc: [
+		"Maybe eating it wasn’t the best approach after-all. Smoke it?"
+		"&n                                                  &r"
+		""
+		"Burn some Demon’s Dream Fruit with a Flint and Steel. "
+		""
+		"&a🛈 Tip: Burn it on Soul Sand for a fire "
+		"&a        that never goes out!"
+	]
+	quest.426730088C72437A.title: "Spirit Fire"
 	quest.42F410023D62E6CB.quest_desc: [
 		"A number of byproducts can be produced from natural oil that would be otherwise inaccessible with Synthetic Oil. "
 		""
@@ -823,6 +844,20 @@
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
+	quest.5AFA08920E94A02B.quest_desc: [
+		"The Spirit Fire will act as your primary interface to the Otherworld for now. "
+		""
+		"Toss some Andesite in and they’ll send you the Otherstone you need. "
+		""
+		"Likewise, you can trade Oak Saplings to obtain an unstable Otherworld Sapling."
+		""
+		"This sapling can be grown normally, but you’ll need to be under the effects of Demon’s Dream to harvest it."
+		""
+		"&a🛈 Tip: Buy an Otherworld Sapling from "
+		"&a        the Market to fast-track this "
+		"&a        step."
+	]
+	quest.5BD04F0109CB6704.title: "Ritual Summons"
 	quest.5CC1D814819E3044.quest_desc: [
 		"The Digital Miner is a targeted quarrying device that mines blocks out of the world. By setting the filters, you can target exactly what you need, making it a great way to top up on Diamonds or Ancient Debris. "
 		""
@@ -925,6 +960,16 @@
 		"The Enrichment Chamber is primarily used to make infusion materials stretch a bit further. "
 		""
 		"Enrich some Redstone and Coal before inserting it in a Metallurgic Infuser for a nice boost to efficiency!"
+	]
+	quest.66B189D0C0CFE055.quest_desc: [
+		"Making first contact with the Spirit Realm, also known as the Otherworld, is going to require an… altered state of consciousness, shall we say?"
+		"&n                                                  &r"
+		""
+		"Eat some Demon’s Dream Fruit. "
+		"It can't be that bad, right?"
+		""
+		"&a🛈 Tip: Demon’s Dream fruit will heal"
+		"&a        Spirits!"
 	]
 	quest.67782CB855950CD6.quest_desc: ["Another milestone material like Steel, HDPE is produced from Ethene and is used to craft many advanced machines as well as upgrades for the Meka-Suit. "]
 	quest.67782CB855950CD6.title: "HDPE"
@@ -1112,6 +1157,7 @@
 	reward_table.73BCB0998B70644B.title: "Common Lootbox: Modern Industrialization"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
 	task.0459BF27966A67E4.title: "Iron Chests"
+	task.04A7890742B7519E.title: "Spirit Fire"
 	task.0B20CB3AECE5EC6E.title: "WIP"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
@@ -1139,6 +1185,7 @@
 	task.4AAAB62A26960EFE.title: "Fluid Pipes"
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.53537003380689AB.title: "Universal Cables"
+	task.53EE7D896F7103FA.title: "Any Candle"
 	task.54D4D90621C89634.title: "WIP"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
 	task.5B601A86609CEDFF.title: "Energy Hopers"
