@@ -821,6 +821,7 @@
 		"&a    same spot will upgrade pipes"
 		"&a    further along the network!"
 	]
+	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
 		""
