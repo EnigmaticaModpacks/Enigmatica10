@@ -41,6 +41,12 @@
 		{
 			dependencies: ["5DF2A3E977D4C11B"]
 			id: "66B189D0C0CFE055"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BE1D0A5E47D00C6"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "144CC1602F89BF7B"
 				item: { count: 1, id: "occultism:datura" }
@@ -52,6 +58,12 @@
 		{
 			dependencies: ["66B189D0C0CFE055"]
 			id: "426730088C72437A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "048E10E4FD09DBE4"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				icon: {
 					id: "occultism:spirit_fire"
@@ -68,6 +80,12 @@
 		{
 			dependencies: ["426730088C72437A"]
 			id: "5AFA08920E94A02B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E346BB4372A8EF3"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "733914EFB5DCE0A0"
@@ -89,6 +107,14 @@
 				id: "occultism:ritual_dummy/custom_ritual"
 			}
 			id: "5BD04F0109CB6704"
+			rewards: [{
+				id: "08E5CA5FFC9336AF"
+				item: {
+					count: 1
+					id: "occultism:soul_gem"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -110,17 +136,6 @@
 					count: 4L
 					id: "0E1C0207A6C2127A"
 					item: { count: 1, id: "occultism:sacrificial_bowl" }
-					type: "item"
-				}
-				{
-					icon: {
-						components: {
-							"ftbquests:icon": "occultism:item/book_of_binding_bound_foliot"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "751AA6200D927FE0"
-					item: { }
 					type: "item"
 				}
 			]
