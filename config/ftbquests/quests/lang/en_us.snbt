@@ -681,7 +681,7 @@
 	quest.4840F7361DF70516.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""
-		"The system can be accessed remotely through a QIO Dashboard to manually craft or just for accessing materials. Keep one with you and place it down whenever you want to access the network."
+		"The system can be accessed remotely through a QIO Dashboard to manually craft or just for accessing materials. "
 		""
 		"The QIO Importers and Exporters can interface with the same storage, acting as wireless pipes to send materials off for processing or import the finished products. "
 		""
@@ -760,7 +760,11 @@
 		"From fluids and items to centralized storage systems, you’ll find it here!"
 	]
 	quest.4B66ECA9D6797B80.title: "Storage"
-	quest.4C2A04C8A81DE383.quest_desc: ["Batteries are more about personal energy storage for increasing the effective capacity of any FE based equipment you’re using. "]
+	quest.4C2A04C8A81DE383.quest_desc: [
+		"Batteries are more about personal energy storage for increasing the effective capacity of any FE based equipment you’re using. "
+		""
+		"They can also be inserted into an Ender Cell to increase it's capacity."
+	]
 	quest.4C745779C30B48A6.quest_desc: [
 		"With the Liquefaction Cauldron, we’ll use our solvent, Sal Ammoniac, to dissolve our ore into a purified Sulfur. "
 		"&n                                                  &r"
@@ -826,6 +830,11 @@
 		"Simple item pipes for moving things around. They can have a simple color coded routing system they can use to determine where things will go. "
 		""
 		"Mekanism machines pushing into them can natively color-code items, or a Logistical Sorter can be used to pull from any inventory and color-code items appropriately."
+	]
+	quest.56D8B0E6FD8CF048.quest_desc: [
+		"Energy Cells are all about in-situ energy storage. They're best paired with unreliable power sources, such as Solar, or slower power generators that aren't under constant load."
+		""
+		"They can also be inserted into an Ender Cell to increase it's capacity."
 	]
 	quest.577377C909FF0001.quest_desc: [
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
@@ -1227,4 +1236,5 @@
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
+	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"
 }

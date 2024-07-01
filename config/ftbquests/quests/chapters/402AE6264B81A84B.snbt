@@ -19,6 +19,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2150EE8D0B1474CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3614096AAC892C79"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "24FDDE2CC71EBC7A"
 				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:hopper)item(minecraft:bucket)item_tag(c:dusts/redstone)item_tag(c:ores/redstone)item_tag(c:storage_blocks/redstone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
