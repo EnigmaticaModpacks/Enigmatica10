@@ -9,7 +9,6 @@ NeoForge-1.21.0-21.0.42 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
   * [Arts & Crafts](https://www.curseforge.com/minecraft/mc-mods/artsandcrafts) (by [KekeCreations](https://www.curseforge.com/members/KekeCreations/projects))
   * [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked) (by [SquidDev](https://www.curseforge.com/members/SquidDev/projects))
   * [Chisel Reborn](https://www.curseforge.com/minecraft/mc-mods/chisel-reborn) (by [Slaincow](https://www.curseforge.com/members/Slaincow/projects))
-  * [ChocoCraft](https://www.curseforge.com/minecraft/mc-mods/chococraft) (by [clienthax](https://www.curseforge.com/members/clienthax/projects))
   * [Client Sort](https://www.curseforge.com/minecraft/mc-mods/clientsort) (by [NotRyken](https://www.curseforge.com/members/NotRyken/projects))
   * [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) (by [OfekN_](https://www.curseforge.com/members/OfekN_/projects))
   * [Dark Mode Everywhere](https://www.curseforge.com/minecraft/mc-mods/dark-mode-everywhere) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
