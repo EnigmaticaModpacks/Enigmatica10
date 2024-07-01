@@ -55,7 +55,8 @@ NeoForge-1.21.0-21.0.42 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 * EMI showing unavailble items in the Market [(\#11)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/11)
 * Occultism pentacle recipes not showing [(\#9)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/9)
-
+* Market doesn't drop as an item [(\#13)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/13)
+ 
 ---
 
 ### Enigmatica 10 1.2.0
