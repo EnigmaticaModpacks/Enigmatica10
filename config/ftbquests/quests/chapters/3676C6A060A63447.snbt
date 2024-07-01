@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6538BD86D9419DD4"
+	autofocus_id: "289433DE16324150"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3676C6A060A63447"
@@ -13,27 +13,272 @@
 	id: "3676C6A060A63447"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "handcrafted:hammer"
-		}
-		id: "6538BD86D9419DD4"
-		rewards: [{
-			id: "221AAE9CFC496437"
-			item: {
-				components: {
-					"modonomicon:book_id": "theurgy:the_hermetica"
-				}
-				count: 1
-				id: "modonomicon:modonomicon"
+	quests: [
+		{
+			icon: {
+				id: "handcrafted:hammer"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "090E0C6E2CA23325"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: -1.0d
-	}]
+			id: "6538BD86D9419DD4"
+			rewards: [{
+				id: "221AAE9CFC496437"
+				item: {
+					components: {
+						"modonomicon:book_id": "theurgy:the_hermetica"
+					}
+					count: 1
+					id: "modonomicon:modonomicon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF31416CB56A844"
+				item: { components: { "ftbfiltersystem:filter": "or(item(theurgy:sal_ammoniac_crystal)item(theurgy:sal_ammoniac_ore)item(theurgy:deepslate_sal_ammoniac_ore))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6538BD86D9419DD4"]
+			id: "4355BA27014040F6"
+			rewards: [
+				{
+					id: "7BDFFC77E080C42B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ore"
+					}
+					type: "item"
+				}
+				{
+					id: "4245D7D29177E56B"
+					item: {
+						count: 1
+						id: "theurgy:divination_rod_t1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3153DDF073D649E4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(theurgy:divination_rod_t1)item(theurgy:divination_rod_t2)item(theurgy:divination_rod_t3)item(theurgy:divination_rod_t4)item(theurgy:sulfur_attuned_divination_rod_abundant)item(theurgy:sulfur_attuned_divination_rod_common)item(theurgy:sulfur_attuned_divination_rod_rare)item(theurgy:sulfur_attuned_divination_rod_precious)item(theurgy:amethyst_divination_rod))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6538BD86D9419DD4"]
+			id: "48F901DB80482CAA"
+			rewards: [{
+				count: 16
+				id: "0AD6E7F2E4D7E3E0"
+				item: {
+					count: 1
+					id: "theurgy:sal_ammoniac_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B400826247EBFB3"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(theurgy:raw_materials/mercury/high)item_tag(theurgy:raw_materials/mercury/low)item_tag(theurgy:raw_materials/mercury/medium))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48F901DB80482CAA"]
+			icon: {
+				id: "theurgy:calcination_oven"
+			}
+			id: "2098F9F6E49956A5"
+			rewards: [{
+				count: 16
+				id: "008EF189A45FDFFC"
+				item: {
+					count: 1
+					id: "theurgy:alchemical_salt_mineral"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "230E45ED9BE1ABE3"
+					item: { count: 1, id: "theurgy:calcination_oven" }
+					type: "item"
+				}
+				{
+					id: "08AE029DA3AFC13B"
+					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					type: "item"
+				}
+				{
+					id: "329F6102A852BA5D"
+					item: { count: 1, id: "theurgy:alchemical_salt_mineral" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48F901DB80482CAA"]
+			icon: {
+				id: "theurgy:sal_ammoniac_accumulator"
+			}
+			id: "289433DE16324150"
+			tasks: [
+				{
+					id: "6E3A1E9839F433B5"
+					item: { count: 1, id: "theurgy:sal_ammoniac_accumulator" }
+					type: "item"
+				}
+				{
+					id: "58FCE7C907B2F9F4"
+					item: { count: 1, id: "theurgy:sal_ammoniac_tank" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["289433DE16324150"]
+			icon: {
+				id: "theurgy:liquefaction_cauldron"
+			}
+			id: "4C745779C30B48A6"
+			tasks: [
+				{
+					id: "1E67528487BE71EF"
+					item: { count: 1, id: "theurgy:liquefaction_cauldron" }
+					type: "item"
+				}
+				{
+					id: "2F253C97DA6FB6C2"
+					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48F901DB80482CAA"]
+			icon: {
+				id: "theurgy:distiller"
+			}
+			id: "0EEEA27699137B6C"
+			rewards: [{
+				count: 16
+				id: "19821E1BB382D4D9"
+				item: {
+					count: 1
+					id: "theurgy:mercury_shard"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CC48A168993213A"
+					item: { count: 1, id: "theurgy:distiller" }
+					type: "item"
+				}
+				{
+					id: "689BEE7ECE4C72CF"
+					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4C745779C30B48A6"
+				"2098F9F6E49956A5"
+				"0EEEA27699137B6C"
+			]
+			id: "59A56F3053A30126"
+			tasks: [
+				{
+					id: "1AC15BD471206B4E"
+					item: { count: 1, id: "theurgy:incubator" }
+					type: "item"
+				}
+				{
+					id: "433CCF098C293C7B"
+					item: { count: 1, id: "theurgy:incubator_mercury_vessel" }
+					type: "item"
+				}
+				{
+					id: "402BDF242839E362"
+					item: { count: 1, id: "theurgy:incubator_salt_vessel" }
+					type: "item"
+				}
+				{
+					id: "131B2EDB8B2879A5"
+					item: { count: 1, id: "theurgy:incubator_sulfur_vessel" }
+					type: "item"
+				}
+				{
+					id: "19A52481A2676466"
+					item: { count: 1, id: "theurgy:pyromantic_brazier" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6538BD86D9419DD4"]
+			icon: {
+				id: "theurgy:mercurial_wand"
+			}
+			id: "51F25D35F62B37BA"
+			rewards: [
+				{
+					id: "7A3F7605EACDF84E"
+					item: {
+						count: 1
+						id: "theurgy:mercurial_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "70EE1C4252030C6C"
+					item: {
+						count: 1
+						id: "theurgy:list_filter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DD90A4D07497650"
+					item: { count: 1, id: "theurgy:logistics_item_inserter" }
+					type: "item"
+				}
+				{
+					id: "46390DACF3B0ED8C"
+					item: { count: 1, id: "theurgy:logistics_item_extractor" }
+					type: "item"
+				}
+				{
+					id: "761118CC0E5B4472"
+					item: { count: 1, id: "theurgy:logistics_connector_node" }
+					type: "item"
+				}
+				{
+					id: "772177DC2EA99A4A"
+					item: { count: 1, id: "theurgy:copper_wire" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
 }

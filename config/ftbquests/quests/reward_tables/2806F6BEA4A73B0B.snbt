@@ -1,0 +1,48 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/common"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "2806F6BEA4A73B0B"
+	loot_size: 2
+	order_index: 10
+	rewards: [
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "occultism:taboo_book"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "occultism:purified_ink"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "occultism:awakened_feather"
+			}
+			random_bonus: 8
+		}
+		{ count: 8, item: { count: 1, id: "occultism:spirit_lantern" } }
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "occultism:candle_white"
+			}
+			random_bonus: 8
+		}
+	]
+	use_title: true
+}

@@ -190,7 +190,7 @@
 					id: "08FB1C3FA7EF63AF"
 					item: {
 						count: 1
-						id: "minecraft:barrel"
+						id: "ironchest:iron_chest"
 					}
 					type: "item"
 				}

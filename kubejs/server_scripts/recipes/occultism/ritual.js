@@ -6,6 +6,16 @@ ServerEvents.recipes((event) => {
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
 
+        if (recipe.spirit_max_age) {
+            if (recipe_id.includes('_trader')) {
+                // Remove decay from Traders
+                delete recipe.spirit_max_age;
+            } else {
+                // Reduce delay for all other spirits (weather/daytime rituals)
+                recipe.spirit_max_age = 10;
+            }
+        }
+
         // Override default craft time for all recipes
         recipe.duration = 20;
         recipe.id = recipe_id;
