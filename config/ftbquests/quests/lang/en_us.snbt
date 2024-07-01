@@ -513,6 +513,28 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.3CA4472228D0F866.quest_desc: [
+		"By adding an ME Controller to a network, we gain access to far more channels; 32 per side, in fact. "
+		""
+		"It doesn’t stop there, however. Multiple ME Controllers can be built together to form a larger multiblock structure. "
+		""
+		"Building such a multiblock must follow these rules:"
+		""
+		"  1. All controller blocks on a "
+		"     network must be connected"
+		""
+		"  2. The total size cannot exceed "
+		"     7x7x7"
+		""
+		"  3. A controller can have two "
+		"     adjacent blocks in at most 1 axis"
+		""
+		"The AE Guide goes into greater technical details for those interested and includes helpful images!"
+		""
+		"&a🛈 Tip: Use an ME Network Analyzer to "
+		"&a    debug channels on your network!"
+	]
+	quest.3CA4472228D0F866.title: "ME Networks"
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
 	quest.3D4F8ED65C176071.quest_desc: [
 		"Steam Turbines usher in a new age of power and productivity. "

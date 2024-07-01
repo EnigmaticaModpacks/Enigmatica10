@@ -225,5 +225,24 @@
 			x: 2.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["3A7AD25302240A1B"]
+			id: "3CA4472228D0F866"
+			rewards: [{
+				id: "2D44F804E1A4C9DA"
+				item: {
+					count: 1
+					id: "ae2netanalyser:network_analyser"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35AF85E2F4163497"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
 	]
 }
