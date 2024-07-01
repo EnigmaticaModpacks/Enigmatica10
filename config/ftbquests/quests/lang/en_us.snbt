@@ -52,8 +52,8 @@
 		"Don’t throw out that Forge Hammer just yet, however. The Bronze Compressor is certainly better at the things it does, but some components, like Rods will need another machine."
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
-		"&a    machines with Gunpowder will "
-		"&a    briefly speed them up."
+		"&a    machines with Gunpowder will briefly"
+		"&a    speed them up."
 	]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -110,9 +110,9 @@
 		"Just like with previous boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust."
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.0E1258E2B2C7FFD5.quest_desc: ["A module for Modular Routers that allows the Router to wirelessly power up to 8 different blocks per module. "]
 	quest.0EEEA27699137B6C.quest_desc: [
@@ -132,9 +132,9 @@
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.12B89E4EF7282B86.quest_desc: [
 		"Mekanism machines may be upgraded through several methods. "
@@ -161,9 +161,9 @@
 		"The next big material advance will be Stainless Steel, made in the Vacuum Freezer. This machine will be key for several other materials going forward."
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.14688BF9C4B5766C.quest_desc: [
 		"Player Transmitters wirelessly charge FE based items and equipment in your inventory. "
@@ -212,8 +212,8 @@
 		"Alternatively, Waste can be reprocessed back into Fissile Fuel and sent back through the Reactor, greatly increasing the system’s fuel efficiency."
 		""
 		"&a🛈 Tip: Only store Spent Nuclear Waste"
-		"&a    in Waste Barrels as it has no "
-		"&a    other use."
+		"&a    in Waste Barrels as it has no other"
+		"&a    use."
 	]
 	quest.176DAF596793D4FF.title: "Waste Management"
 	quest.1824109EF4F096A1.quest_desc: [
@@ -233,8 +233,8 @@
 		"  &a╰┈➤ &3Machine Cluster"
 		""
 		"&6⚠ Note: Keep your HV subnetworks "
-		"&6    separate so the aren't limited"
-		"&6    by the max transfer rate."
+		"&6    separate so the aren't limited by"
+		"&6    the max transfer rate."
 	]
 	quest.1A0A7309D9B2F4FF.quest_desc: [
 		"Tired of mining yet? Look no further. "
@@ -246,9 +246,9 @@
 		"Drills do break over time, so setting up a production line for them will be important. "
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 		""
 		"&c⚠ Warning: Outputs will be voided if"
 		"&c    there are insufficient Hatches"
@@ -270,8 +270,8 @@
 		"Since Tin Cables can occupy the same space as Fluid Pipes, this upgrade process shouldn’t be too daunting. Just lay some Tin Cables along your Steam Fluid Pipes and you can start swapping out machines as you’re able to craft them. "
 		""
 		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable "
-		"&a    against a machine to easily "
-		"&a    create a connection."
+		"&a    against a machine to easily create"
+		"&a    a connection."
 	]
 	quest.1A650F4235F6204A.title: "Upgrade Electric"
 	quest.1D3ECD980E15451B.quest_desc: ["Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."]
@@ -432,16 +432,16 @@
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
-		"&a    machines with Gunpowder will "
-		"&a    briefly speed them up."
+		"&a    machines with Gunpowder will briefly"
+		"&a    speed them up."
 	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
@@ -487,8 +487,8 @@
 		""
 		"If done correctly, you should now have access to the contents of all six chests and be able to craft from them in the Terminal."
 		""
-		"&6⚠ Note: An Ad-Hoc Network can have up to "
-		"&6    eight connections in total."
+		"&6⚠ Note: An Ad-Hoc Network can have up to eight"
+		"&6    connections in total."
 	]
 	quest.3A7AD25302240A1B.title: "Ad-Hoc Networks"
 	quest.3AD70D3BEF01A693.quest_desc: [
@@ -501,17 +501,17 @@
 		"Other blocks required for any structure can also be found by looking at uses for the controller block (ie. Coke Oven block) in EMI. Note that some of the blocks listed will be replaced by Hatches."
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
 	quest.3D4F8ED65C176071.quest_desc: [
@@ -538,7 +538,7 @@
 		"Conversely, the Electric Pump is a simple and effective way to produce water for machines. Place it over a standard infinite water source (2x2 or 1x3 area of Water) and provide it power. "
 		""
 		"&a🛈 Tip: Use a Filter Upgrade in an "
-		"&a    Electric Pump to produce "
+		"&a    Electric Pump to produce"
 		"&a    Heavy Water."
 	]
 	quest.3FF6566453299DC1.quest_desc: [
@@ -593,9 +593,9 @@
 		"Similar to the Quarry, the Oil Drilling Rig consumes Drills to produce its outputs."
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 		""
 		"&c⚠ Warning: Outputs will be voided if"
 		"&c    there are insufficient Hatches"
@@ -625,8 +625,8 @@
 		"Other upgrades exist but are used in only a few machines. They'll be mentioned in quests dealing with those machines."
 		""
 		"&6⚠ Note: Machines with Speed Upgrades "
-		"&6    but without Energy Upgrades "
-		"&6    may not operate at all!"
+		"&6    but without Energy Upgrades may"
+		"&6    not operate at all!"
 	]
 	quest.434D90BB00EE7F7C.title: "Upgrade Cards"
 	quest.4355BA27014040F6.quest_desc: [
@@ -661,8 +661,8 @@
 		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
-		"&a    machines with Gunpowder will "
-		"&a    briefly speed them up."
+		"&a    machines with Gunpowder will briefly"
+		"&a    speed them up."
 	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
@@ -746,9 +746,9 @@
 		"Upgrading to Electric is as simple as swapping the controller block and replacing the Steam Hatch with an LV Hatch."
 		""
 		"&a🛈 Tip: Place the controller block, then "
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places "
-		"&a    for hatches."
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 		""
 		"&c⚠ Warning: Outputs will be voided if"
 		"&c    there are insufficient Hatches"
@@ -814,7 +814,7 @@
 		"This can be a great way to upgrade a pipe network without worrying about re-configuring connections or filters. The contents of the pipes are similarly retained."
 		""
 		"&a🛈 Tip: Right-Clicking repeatedly in the"
-		"&a    same spot will upgrade pipes "
+		"&a    same spot will upgrade pipes"
 		"&a    further along the network!"
 	]
 	quest.55AFB2B88341FAB5.quest_desc: [
@@ -901,8 +901,8 @@
 		"  &a╰┈➤ &3Machine Cluster"
 		""
 		"&6⚠ Note: Keep your HV subnetworks "
-		"&6    separate so the aren't limited"
-		"&6    by the max transfer rate."
+		"&6    separate so the aren't limited by"
+		"&6    the max transfer rate."
 	]
 	quest.5DB469A00A023DCF.quest_desc: [
 		"The Fission Reactor itself doesn’t actually produce any power; that job is left to the Industrial Turbine which takes Steam from the Reactor and converts it back into Water and Energy."
@@ -917,8 +917,8 @@
 		"&a    Block planner in EMI! "
 		""
 		"&c⚠ Warning: Turbines stop operating if "
-		"&c    their power buffer fills up. This "
-		"&c    is the leading cause of Reactors"
+		"&c    their power buffer fills up. This is "
+		"&c    the leading cause of Reactors"
 		"&c    melting down as cooling stops!"
 	]
 	quest.5DB469A00A023DCF.title: "Industrial Turbine"
@@ -965,8 +965,8 @@
 		"The Wrench can be used to quickly switch a connection’s mode, or remove the connection entirely. Sneak Right-Clicking a Pipe with the Wrench will immediately remove the pipe section."
 		""
 		"&a🛈 Tip: Sneak Right-Click a Pipe or Cable "
-		"&a    against a machine to easily "
-		"&a    create a connection."
+		"&a    against a machine to easily create"
+		"&a    a connection."
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
 	quest.6538BD86D9419DD4.quest_desc: [
@@ -1056,8 +1056,8 @@
 		"In particular, crushing Coal and Lignite Coal will produce ample fuel to run your Steam Mining Drill and Boiler. "
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
-		"&a    machines with Gunpowder will "
-		"&a    briefly speed them up."
+		"&a    machines with Gunpowder will briefly"
+		"&a    speed them up."
 	]
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
@@ -1074,10 +1074,10 @@
 		""
 		"Just like the smaller boilers, this multiblock can run on solid fuel, such as Lignite Coal Dust, which is undoubtedly in great supply at this point. It's used for little else, so you may as well use it for fuel."
 		""
-		"&a🛈 Tip: Place the controller block, then"
-		"&a    hold a Wrench or Hatch to see"
-		"&a    the structure or valid places"
-		"&a    for hatches."
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
