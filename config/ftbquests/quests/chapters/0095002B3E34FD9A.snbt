@@ -91,6 +91,7 @@
 			id: "5BD04F0109CB6704"
 			tasks: [
 				{
+					count: 4L
 					id: "53EE7D896F7103FA"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -106,12 +107,13 @@
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "0E1C0207A6C2127A"
 					item: { count: 1, id: "occultism:sacrificial_bowl" }
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.5d
 			y: 1.0d
 		}
 	]
