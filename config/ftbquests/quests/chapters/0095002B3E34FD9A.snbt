@@ -112,6 +112,17 @@
 					item: { count: 1, id: "occultism:sacrificial_bowl" }
 					type: "item"
 				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "occultism:item/book_of_binding_bound_foliot"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "751AA6200D927FE0"
+					item: { }
+					type: "item"
+				}
 			]
 			x: 3.5d
 			y: 1.0d

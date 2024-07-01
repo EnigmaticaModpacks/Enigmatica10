@@ -30,7 +30,7 @@
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
 		""
 		"&a🛈 Tip: Search &3@chisel&r &ain EMI to "
-		"&a        discover more."
+		"&a    discover more."
 	]
 	quest.015857940250CE8D.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer fluid bi-directionally. They can also be used to place fluid in the world. "
@@ -78,9 +78,7 @@
 		"Higher tiers also run on FE instead of using durability!"
 		""
 		"&a🛈 Tip: Sneak Right-Click these tools to"
-		"&a        open their options menu, which"
-		"&a        describes their capabilities and "
-		"&a        allows them to be disabled."
+		"&a    open their options menu."
 	]
 	quest.0D236C298CFF8365.quest_desc: [
 		"Teleporters are a wonderful way to get around your world, or even your base. "
@@ -188,7 +186,7 @@
 		"Don’t worry, there’s no difference between the different models, pick your favorite. "
 		""
 		"&a🛈 Tip: Search &3@mininggadgets&r &ain EMI to"
-		"&a        discover more."
+		"&a    discover more."
 	]
 	quest.15CECF38FB6CEADE.title: "Mining Gadgets"
 	quest.16A5D60F0825B318.quest_desc: [
@@ -262,7 +260,7 @@
 		"Carry a Time in a Bottle with you everywhere you go to store up all that time you’re using doing other things. When you grow impatient for some machine to run, just Sneak Right-Click it a few times with the bottle to spend some of that time speeding it up."
 		""
 		"&a🛈 Tip: You may only have a single "
-		"&a        Time in a Bottle at a time."
+		"&a    Time in a Bottle at a time."
 	]
 	quest.1A650F4235F6204A.quest_desc: [
 		"Upgrade time again!"
@@ -284,14 +282,14 @@
 		"If you’re looking to build a massive base, Building Gadgets likely has a tool to help. "
 		""
 		"&a🛈 Tip: Search &3@buildinggadgets&r &ain EMI"
-		"&a        to discover more."
+		"&a    to discover more."
 	]
 	quest.1D5616DFA428D46F.title: "Building Gadgets"
 	quest.1D5E773A3A547A2C.quest_desc: [
 		"If you’re into Cottagecore or just want some knicknacks to fill your shelves with, Handcrafted is the place to start. It’s loaded with comfy chairs and interior decorations."
 		""
 		"&a🛈 Tip: Search &3@handcrafted&r &ain EMI to "
-		"&a        discover more."
+		"&a    discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
 	quest.1E2327FB6801D209.quest_desc: [
@@ -779,7 +777,7 @@
 		"Arts and Crafts allows you to craft paint brushes to rapidly re-color blocks such as Wool, Terracotta, or any of the many blocks added by the mod itself. "
 		""
 		"&a🛈 Tip: Search &3@arts&r &ain EMI to "
-		"&a        discover more."
+		"&a    discover more."
 	]
 	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
@@ -856,6 +854,27 @@
 		"&a🛈 Tip: Buy an Otherworld Sapling from "
 		"&a        the Market to fast-track this "
 		"&a        step."
+	]
+	quest.5BD04F0109CB6704.quest_desc: [
+		"With a bit of chalk and some other paraphernalia we can reach out to the Otherworld more directly, and bring some helpers to our world. "
+		""
+		"We’ll begin by summoning a Foliot Crusher."
+		"&n                                                  &r"
+		""
+		"Find Aviar’s Circle in the Dictionary of Spirits, and click the 👁 in the preview to visualize it in-world."
+		""
+		"&a🛈 Tip: The shape of individual chalk "
+		"&a    marks is random and doesn’t "
+		"&a    affect the ritual!"
+		""
+		"The Sacrificial Bowls can go in any free space in a roughly eight block radius from the Golden Sacrificial Bowl, even outside of the pentacle. "
+		""
+		"Finally, put the ingredients in the Sacrificial Bowls, as shown in EMI; their relative position do not matter, they can go in any bowl."
+		""
+		"The item in the Golden Sacrificial Bowl will go last and will trigger the ritual."
+		""
+		"&a🛈 Tip: Items can be piped into the "
+		"&a    bowls too!"
 	]
 	quest.5BD04F0109CB6704.title: "Ritual Summons"
 	quest.5CC1D814819E3044.quest_desc: [
@@ -1090,7 +1109,7 @@
 		"• Macaw’s Trapdoors"
 		""
 		"&a🛈 Tip: Search &3@mcw&r &ain EMI to"
-		"&a        discover more."
+		"&a    discover more."
 	]
 	quest.77A66ADAB0845804.title: "Macaw's Mods"
 	quest.78D83E33F82D6015.quest_desc: [
@@ -1140,7 +1159,7 @@
 		"The hammers and shovels added by Vanilla Plus Tools break their respective blocks in a 3x3 area, making them an easy choice for early mining."
 		""
 		"&a🛈 Tip: Search &3@vanillaplus&r &ain EMI to"
-		"&a        discover more."
+		"&a    discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
 	quest.7FEA11A88316FE0C.quest_desc: ["Simple energy storage with built in item charging capabilities."]
@@ -1203,6 +1222,7 @@
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
 	task.75050C1ED68FA527.title: "Building Gadgets"
+	task.751AA6200D927FE0.title: "Observe: Foliot"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
