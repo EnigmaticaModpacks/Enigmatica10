@@ -552,7 +552,7 @@
 		""
 		"Inside the Meteorite, you will also find a Mysterious Cube. Break it to obtain all four Circuit Presses."
 	]
-	quest.3E622F93756E9BFA.title: "Getting Started"
+	quest.3E622F93756E9BFA.title: "Meteor Hunting"
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
 		"The Fluidic Plenisher can be an excellent way to fill an area with fluid. Simply pipe in fluids and supply power to quickly make a lake of anything you like!"
