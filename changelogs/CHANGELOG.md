@@ -2,6 +2,6 @@
 
 ### 🌟 Improvements
 
--   Quests have been added. These are somewhat bare and will be added to over time.
+-   Quests have been added! These are somewhat bare and will be added to over time.
 
 ### 🐛 Fixed Bugs
