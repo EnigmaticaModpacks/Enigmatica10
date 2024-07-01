@@ -47,7 +47,7 @@ NeoForge-1.21.0-21.0.42 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
   * 
 #### ⭐ Improvements
 
-- Quests! [\#8](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/8) [\#10](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/10)
+- Quests have been added! These are somewhat bare and will be added to over time. [\#8](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/8) [\#10](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/10)
 - Market cleanup [\#12](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/12)
 - Allow right-click harvest without a hoe
 
