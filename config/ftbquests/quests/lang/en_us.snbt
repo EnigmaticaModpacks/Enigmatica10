@@ -795,6 +795,12 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.4C7D7FC6EEB07515.quest_desc: [
+		"Barrels hold a single item type, but will hold an absolute ton of it. "
+		""
+		"These are a great way to buffer items between machines in Modern Industrialization, or to hook up to Applied Energistics to hold all of those Copper Ingots you’re hoarding."
+	]
+	quest.4C7D7FC6EEB07515.title: "Barrels"
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
 	quest.4FEA49AD05720ED7.quest_desc: [
@@ -967,6 +973,7 @@
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
+	quest.60EECBF540C75C09.title: "Tanks"
 	quest.6133CA58FE668DA6.quest_desc: [
 		"Analog Circuits will soon enable us to jump to the next tier of machines running on LV electricity. Making the components right now is a little costly, but once we can make an Assembler, the crafts will be much more efficient. "
 		""
@@ -1215,6 +1222,7 @@
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
+	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logisticss"

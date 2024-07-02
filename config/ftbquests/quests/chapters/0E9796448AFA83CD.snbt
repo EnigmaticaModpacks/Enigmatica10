@@ -324,7 +324,7 @@
 				item: { components: { "ftbfiltersystem:filter": "mod(ironchest)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -470,6 +470,22 @@
 			}]
 			x: 2.5d
 			y: 3.0d
+		}
+		{
+			id: "4C7D7FC6EEB07515"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D779F67B41C1328"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D4765846A798B24"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:barrels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
 		}
 	]
 }
