@@ -138,6 +138,12 @@
 					item: { count: 1, id: "occultism:sacrificial_bowl" }
 					type: "item"
 				}
+				{
+					advancement: "occultism:occultism/summon_foliot_crusher"
+					criterion: ""
+					id: "0DAE4E6D7B7DC9FB"
+					type: "advancement"
+				}
 			]
 			x: 3.5d
 			y: 1.0d
