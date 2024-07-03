@@ -37,6 +37,12 @@
 		""
 		"The router needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
+	quest.0227D9EC391788D6.quest_desc: [
+		"Tired of looking at exposed cables everywhere?"
+		""
+		"Facades may be crafted from most solid blocks and act as a nice cover for cables and cable subparts, making your AE system look like an integrated part of your base."
+	]
+	quest.0227D9EC391788D6.title: "Cable Facades"
 	quest.0230942DF53BB9E5.quest_desc: ["The following are blocks that can be used to charge energy based items and equipment."]
 	quest.0230942DF53BB9E5.title: "Energy Chargers"
 	quest.036036EA25034BE8.quest_desc: [
@@ -1574,6 +1580,7 @@
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
 	task.5B601A86609CEDFF.title: "Energy Hopers"
+	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
