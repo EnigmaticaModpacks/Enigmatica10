@@ -295,6 +295,11 @@
 		"&a    a connection."
 	]
 	quest.1A650F4235F6204A.title: "Upgrade Electric"
+	quest.1BAEB780F38B1C56.quest_desc: [
+		"Connect an Access Point to your network, then place a Wireless Terminal inside it to link them and gain wireless access to the entire network."
+		""
+		"Greater range will cost more power!"
+	]
 	quest.1D3ECD980E15451B.quest_desc: ["Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."]
 	quest.1D4634BB3AF725EC.quest_desc: ["An all-purpose crushing machine used to process ores and other materials. Using it to produce Biofuel is a great way to get some power out of growing crops. "]
 	quest.1D5616DFA428D46F.quest_desc: [
@@ -420,6 +425,16 @@
 		"&a🛈 Tip: Adding Sal Ammoniac Crystals to "
 		"&a    the Accumulator will greatly "
 		"&a    speed it up."
+	]
+	quest.289A1CE4C4092687.quest_desc: [
+		"Interfaces are essentially a combined Import/Export Bus."
+		""
+		"For example, one might be used to stock coal for a power generator, while a nearby automated wheat farm might send all of its wheat back through the same interface. "
+		""
+		"Their combined nature means getting more done with a single channel."
+		""
+		"&a🛈 Tip: Cable Subparts cannot be "
+		"&a    placed on Dense Cables."
 	]
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Work in progress."
@@ -606,6 +621,11 @@
 		"Inside the Meteorite, you will also find a Mysterious Cube. Break it to obtain all four Circuit Presses."
 	]
 	quest.3E622F93756E9BFA.title: "Meteor Hunting"
+	quest.3F021EBB71F4BC70.quest_desc: [
+		"Smart Cables are identical to their covered counterparts, with one small addition: they display the number of channels passing through them directly on their surface."
+		""
+		"These are an excellent way to help you keep track of the number of channels in use, as you can visually trace back where they’re coming from. "
+	]
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
 		"The Fluidic Plenisher can be an excellent way to fill an area with fluid. Simply pipe in fluids and supply power to quickly make a lake of anything you like!"
@@ -880,6 +900,13 @@
 	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
+	quest.51233852CD921F79.quest_desc: [
+		"Drives act as compact storage capable of holding tens of thousands of items."
+		""
+		"A single drive may contain up to 10 Storage Cells, each with their own capacity and limitations. "
+		""
+		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
+	]
 	quest.51F25D35F62B37BA.quest_desc: [
 		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
 		""
@@ -900,6 +927,14 @@
 		""
 		"&a🛈 Tip: Bins can be locked by Sneak "
 		"&a    Right-Clicking with an empty hand!"
+	]
+	quest.52E79B2EB7400D13.quest_desc: [
+		"Terminals grant you visibility into the network and allow you to manually interact with the contents."
+		""
+		"Crafting Terminals also have a built in crafting grid, making them the better choice most of the time."
+		""
+		"&a🛈 Tip: Cable Subparts cannot be "
+		"&a    placed on Dense Cables."
 	]
 	quest.5362D855D207F79A.quest_desc: [
 		"With a Distillery up and running, it should be possible to offset some energy costs by running some Diesel Generators. "
@@ -931,11 +966,49 @@
 		""
 		"They can also be inserted into an Ender Cell to increase it's capacity."
 	]
+	quest.56DDD2327724F715.quest_desc: [
+		"Cables come in a variety of sizes and colors to suit your needs. "
+		""
+		"Different colors of cable will not interconnect, meaning they can be easily run alongside each other without risk. Fluix Cables, on the other hand, will connect to any other cable."
+		""
+		"Glass and Covered Cables can support up to eight channels, while Dense Cables can carry a full 32 channels. "
+		""
+		"Typically, these would be run from an ME Controller with smaller cables branching off where needed."
+		""
+		"&a🛈 Tip: Cable Anchors may be used to "
+		"&a    prevent connections between"
+		"&a    cables."
+	]
+	quest.56DDD2327724F715.title: "Cables"
 	quest.577377C909FF0001.quest_desc: [
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
 		""
 		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
 	]
+	quest.579C07CD07599438.quest_desc: [
+		"In order to autocraft anything, AE needs a CPU to manage the craft. These are multi-block constructions composed of up to three components."
+		""
+		"The multi-block itself must contain at least one Storage Unit and must be a rectangular prism."
+		""
+		"One CPU is needed for each simultaneous craft request."
+		""
+		"• Crafting Storage: Used to store all "
+		"  the items required for the craft. "
+		"  More than one may be used."
+		""
+		"• Crafting Co-Processor: Optional. "
+		"  Allows the CPU to send out batches "
+		"  more often."
+		""
+		"• Crafting Units: Optional. Cheap filler "
+		"  blocks to meet the shape "
+		"  requirements."
+		""
+		"• Crafting Monitor: Optional. Displays "
+		"  the request a CPU is currently "
+		"  handling."
+	]
+	quest.579C07CD07599438.title: "Crafting CPUs"
 	quest.59A56F3053A30126.quest_desc: [
 		"Finally, with the Incubator we are able to bring together our three materials to re-combine the base Sulfur into its purified form. For ores, this yields three Ingots for every Raw Material input."
 		"&n                                                  &r"
@@ -1069,6 +1142,32 @@
 		"&c    explode if improperly cooled!"
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
+	quest.62E2DEBF71698376.quest_desc: [
+		"Import, Export, and Storage Buses are your primary interface with the network. "
+		""
+		"Import and Export Buses act as one might expect, pulling items into, or pushing them out of the network. "
+		""
+		"Storage Buses, on the other hand, effectively make the attached inventory a part of the network; anything in it can be accessed by the network and it can be used to store anything coming into the network."
+		""
+		"&a🛈 Tip: Cable Subparts cannot be "
+		"&a    placed on Dense Cables."
+	]
+	quest.631AA5AAA6EF687C.quest_desc: [
+		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
+		""
+		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
+		""
+		"Pattern Providers are the network's means of interfacing with crafting machines. "
+		""
+		"For basic Crafting Patterns, such as you'd do at a Crafting Table, the Provider needs to be placed next to a Molecular Assembler. "
+		""
+		"For machine crafting, or Processing Patterns, the Provider should be placed facing that machine. It can also feed into any inventory and you can pipe items from there. For example, an array of Furnaces could be fed by a single Provider pushing into a chest. Pipes would then carry items and distribute them amongst the Furnaces."
+		""
+		"&n                                                  &r"
+		""
+		"We won’t fully cover Autocrafting in the quests here; it’s already explained quite well in the AE Guidebook. We will touch on a few key pieces, however."
+	]
+	quest.631AA5AAA6EF687C.title: "Autocrafting"
 	quest.63DDC1FFF52DC39F.quest_desc: [
 		"Modern Industrialization includes a robust system of pipes for carrying items, fluids, and electrical power. "
 		""
@@ -1205,6 +1304,16 @@
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
+	]
+	quest.6F8C048404EAF9FF.quest_desc: [
+		"Pattern Terminals are used to set up autocrafting within Applied Energistics."
+		""
+		"In order to craft anything automatically, the system must first be taught the pattern. These patterns are configured at the Pattern Encoding Terminal."
+		""
+		"Those Patterns must then be put into a Pattern Provider. This can be done directly at the Provider, but a Pattern Access Terminal also gives you access to all of them in a single place for easy management."
+		""
+		"&a🛈 Tip: Cable Subparts cannot be "
+		"&a    placed on Dense Cables."
 	]
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
@@ -1424,6 +1533,7 @@
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
+	task.073DDF6031485D23.title: "Covered Cables"
 	task.0B20CB3AECE5EC6E.title: "WIP"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
@@ -1433,15 +1543,18 @@
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
+	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logisticss"
+	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.35B971D8A6CCBC94.title: "EU Cables"
+	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
@@ -1458,19 +1571,23 @@
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
 	task.54D4D90621C89634.title: "WIP"
+	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
 	task.5B601A86609CEDFF.title: "Energy Hopers"
+	task.5D8E35699FF69418.title: "Interfaces"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.6434DA9DBF54356B.title: "Ender Gates"
 	task.64C50D306E73EA0A.title: "Tier Installers"
+	task.664C79E935ED1414.title: "Glass Cables"
 	task.676C8DE6C246D422.title: "AE Power"
 	task.695AC45D6E273032.title: "Energy Cells"
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6F72D2074543BF23.title: "Bins"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
+	task.70531464F6943384.title: "Pattern Terminals"
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
 	task.75050C1ED68FA527.title: "Building Gadgets"
@@ -1479,4 +1596,5 @@
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"
+	task.7FC1B66AFF268BF8.title: "Dense Covered Cables"
 }
