@@ -247,6 +247,12 @@
 		{
 			dependencies: ["56DDD2327724F715"]
 			id: "3F021EBB71F4BC70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32BFB69B6456DBDD"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "576CB5FB3B8A46A6"
@@ -268,6 +274,12 @@
 				"3A7AD25302240A1B"
 			]
 			id: "56DDD2327724F715"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "684E34325EB87D18"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "073DDF6031485D23"
@@ -291,6 +303,12 @@
 		{
 			dependencies: ["56DDD2327724F715"]
 			id: "62E2DEBF71698376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2430085A811F5E25"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3DD9754A2E3482A2"
@@ -353,6 +371,14 @@
 		{
 			dependencies: ["56DDD2327724F715"]
 			id: "6F8C048404EAF9FF"
+			rewards: [{
+				id: "3D37F2B98677931D"
+				item: {
+					count: 1
+					id: "ae2wtlib:wireless_pattern_encoding_terminal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70531464F6943384"
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:pattern_encoding_terminal)item(ae2:pattern_access_terminal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -367,6 +393,12 @@
 				id: "ae2:molecular_assembler"
 			}
 			id: "631AA5AAA6EF687C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40CBA01363F77E31"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "2EFD078D0F36514F"
@@ -414,6 +446,12 @@
 		{
 			dependencies: ["631AA5AAA6EF687C"]
 			id: "579C07CD07599438"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38AD4F7B909A13D8"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "13552D4A328B8196"
@@ -472,6 +510,14 @@
 		{
 			dependencies: ["56DDD2327724F715"]
 			id: "0227D9EC391788D6"
+			rewards: [{
+				id: "5DED4789FF725801"
+				item: {
+					count: 1
+					id: "ae2:certus_quartz_cutting_knife"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CE5C1A8B02B037B"
 				item: { components: { "ae2:facade_item": "minecraft:stone_bricks" }, count: 1, id: "ae2:facade" }
