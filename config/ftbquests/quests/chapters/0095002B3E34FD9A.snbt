@@ -16,7 +16,10 @@
 	quests: [
 		{
 			icon: {
-				id: "handcrafted:hammer"
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/robe.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "5DF2A3E977D4C11B"
 			rewards: [{
@@ -35,8 +38,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:datura_seeds)item(occultism:datura))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5DF2A3E977D4C11B"]
@@ -52,8 +55,8 @@
 				item: { count: 1, id: "occultism:datura" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66B189D0C0CFE055"]
@@ -74,8 +77,8 @@
 				to_observe: "occultism:spirit_fire"
 				type: "observation"
 			}]
-			x: 2.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["426730088C72437A"]
@@ -98,13 +101,16 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5AFA08920E94A02B"]
+			dependencies: ["66A24B8817411BBC"]
 			icon: {
-				id: "occultism:ritual_dummy/custom_ritual"
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/summoning.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "5BD04F0109CB6704"
 			rewards: [{
@@ -117,14 +123,15 @@
 			}]
 			tasks: [
 				{
+					advancement: "occultism:occultism/summon_foliot_crusher"
+					criterion: ""
+					id: "0DAE4E6D7B7DC9FB"
+					type: "advancement"
+				}
+				{
 					count: 4L
 					id: "53EE7D896F7103FA"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "348E3EFD0F24F148"
-					item: { count: 1, id: "occultism:chalk_white" }
 					type: "item"
 				}
 				{
@@ -138,15 +145,411 @@
 					item: { count: 1, id: "occultism:sacrificial_bowl" }
 					type: "item"
 				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AFA08920E94A02B"]
+			icon: {
+				id: "occultism:chalk_gold"
+			}
+			id: "73F9A5F65B350A09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FE027324D5A9926"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [
 				{
-					advancement: "occultism:occultism/summon_foliot_crusher"
-					criterion: ""
-					id: "0DAE4E6D7B7DC9FB"
-					type: "advancement"
+					id: "665D17A36F8330F1"
+					item: { count: 1, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+				{
+					id: "5E2FDB4FD0A0AA2B"
+					item: { count: 1, id: "occultism:chalk_gold" }
+					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["73F9A5F65B350A09"]
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/possession.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7D4E0F2BF07D3223"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0214C8DA015806B8"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					advancement: "occultism:occultism/possess_endermite"
+					criterion: ""
+					id: "15BDBEA7237CBB17"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					id: "6311184FD5551332"
+					item: { count: 1, id: "minecraft:end_stone" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7D4E0F2BF07D3223"
+				"5BD04F0109CB6704"
+			]
+			icon: {
+				id: "occultism:chalk_purple"
+			}
+			id: "036036EA25034BE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12CDA3C5A94CF7BF"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4CC5B2F6D92DEE32"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
+					type: "item"
+				}
+				{
+					id: "47B10D1FE912235F"
+					item: { count: 1, id: "occultism:chalk_purple" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AFA08920E94A02B"]
+			id: "66A24B8817411BBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "696AC61EE0B02A8F"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FFE7AC1B9D8A464"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["036036EA25034BE8"]
+			icon: {
+				components: {
+					"occultism:spirit_name": "(Not yet known)"
+				}
+				id: "occultism:dimensional_matrix"
+			}
+			id: "6BDA1C1BE04D541A"
+			rewards: [
+				{
+					id: "44A199DF38E88A16"
+					item: {
+						count: 1
+						id: "occultism:storage_stabilizer_tier2"
+					}
+					type: "item"
+				}
+				{
+					id: "6D6357FCD4CD48CD"
+					item: {
+						count: 1
+						id: "occultism:stable_wormhole"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2AAB10A32D2093A0"
+					item: { count: 1, id: "occultism:storage_controller" }
+					type: "item"
+				}
+				{
+					id: "1047800DF510BBDF"
+					item: { count: 1, id: "occultism:storage_stabilizer_tier1" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D4E0F2BF07D3223"]
+			icon: {
+				components: {
+					"ftbquests:icon": "relics:textures/mob_effect/vanishing.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "750FEAA1A27892FF"
+			rewards: [{
+				id: "6291FA61C2A9AC64"
+				item: {
+					count: 1
+					id: "occultism:soul_gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "occultism:occultism/familiar/root"
+				criterion: ""
+				id: "2E36960EEF1F294E"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A355C35CB5B24D8"]
+			id: "3AA1319E962A47C0"
+			rewards: [{
+				id: "3F42DE17AA909C9E"
+				item: {
+					count: 1
+					id: "occultism:divination_rod"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "729271FAB4FD2834"
+				item: { components: { "occultism:spirit_name": "(Not yet known)" }, count: 1, id: "occultism:infused_pickaxe" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["036036EA25034BE8"]
+			id: "5A355C35CB5B24D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE48D7B79BD0CBB"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "369D21C6234EAEAC"
+				item: { count: 1, id: "occultism:otherworld_goggles" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73F9A5F65B350A09"]
+			id: "375460FD4D4407FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A7B9DC05464541B"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "282157F7B5CFEF7B"
+				item: { components: { "occultism:spirit_name": "(Not yet known)" }, count: 1, id: "occultism:satchel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["036036EA25034BE8"]
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/summoning.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "79A6EED9C2D433F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A9371B8A1C14015"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "occultism:occultism/summon_djinni_crusher"
+				criterion: ""
+				id: "23F893300571CCAF"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3AA1319E962A47C0"]
+			id: "770EE92EA4CF973C"
+			rewards: [{
+				id: "6724D2E1CF4FF824"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "709F04ED6D900C8D"
+				item: { count: 1, id: "occultism:iesnium_pickaxe" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["770EE92EA4CF973C"]
+			id: "34E95009CEB72776"
+			rewards: [{
+				id: "247660BB2A435F10"
+				item: {
+					count: 1
+					id: "occultism:dimensional_mineshaft"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EBEA32607B77D3A"
+				item: { components: { "occultism:spirit_name": "(Not yet known)" }, count: 1, id: "occultism:miner_foliot_unspecialized" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["036036EA25034BE8"]
+			icon: {
+				id: "occultism:chalk_red"
+			}
+			id: "67835A69ECDC692D"
+			tasks: [
+				{
+					id: "62A49EBE1BF6548D"
+					item: { count: 1, id: "occultism:afrit_essence" }
+					type: "item"
+				}
+				{
+					id: "07004EA0DBE774C0"
+					item: { count: 1, id: "occultism:chalk_red" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67835A69ECDC692D"]
+			id: "4E7DA28C54FB8766"
+			rewards: [{
+				count: 4
+				id: "03675EADDCF0C630"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A3A95961F04C91D"
+					item: { count: 1, id: "minecraft:heart_of_the_sea" }
+					type: "item"
+				}
+				{
+					id: "0D90339E51C54FA0"
+					item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["036036EA25034BE8"]
+			id: "16F69571092CAB9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73C69C968279432A"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6767524581A2500B"
+					item: { count: 1, id: "minecraft:ghast_tear" }
+					type: "item"
+				}
+				{
+					id: "1C162B5EF18CAAFC"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					id: "56432D7C561E901B"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+				{
+					id: "32707E03AFEB44D1"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+				{
+					id: "4309F3C82AD25405"
+					item: { count: 1, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BDA1C1BE04D541A"]
+			id: "33014A99A399B607"
+			rewards: [{
+				id: "2ED235D8626727F6"
+				item: {
+					count: 1
+					id: "occultism:storage_stabilizer_tier4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C7682AB99930DAF"
+				item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 	]
 }

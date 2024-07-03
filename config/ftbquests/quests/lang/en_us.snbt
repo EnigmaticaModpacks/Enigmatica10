@@ -39,6 +39,12 @@
 	]
 	quest.0230942DF53BB9E5.quest_desc: ["The following are blocks that can be used to charge energy based items and equipment."]
 	quest.0230942DF53BB9E5.title: "Energy Chargers"
+	quest.036036EA25034BE8.quest_desc: [
+		"Our third variant of chalk, Purple Chalk grants access to some powerful binding rituals. "
+		""
+		"These are capable of handling the mighty Djinni whose control over time and weather is unrivaled."
+	]
+	quest.036036EA25034BE8.title: "Purple Chalk"
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of liquid transfer options available in E10."]
 	quest.04CE3E8B1DF8B441.title: "Liquids"
 	quest.09E7D266A7724F09.quest_desc: [
@@ -204,6 +210,21 @@
 		"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
 	]
 	quest.16C7D5478BF3D449.title: "Learning Mods"
+	quest.16F69571092CAB9A.quest_desc: [
+		"Possessed Creatures are good for obtaining other materials beyond End Stone. "
+		""
+		"A variety of possessed creatures may be summoned that will give you easy access to things like Ghast Tears, Ender Pearls, Shulker Shells, and more. "
+		""
+		"You can find the respective rituals for these by looking up the recipes for them in EMI."
+		""
+		"&6⚠ Note: These rituals often require a "
+		"&6    sacrifice. "
+		""
+		"&6    Trigger the ritual normally then kill"
+		"&6    the requested creature near the"
+		"&6    pentacle. "
+	]
+	quest.16F69571092CAB9A.title: "Uncommon Materials"
 	quest.176DAF596793D4FF.quest_desc: [
 		"While Nuclear Waste can be stored and safely disposed of in Waste Barrels, it is better off being re-processed into Polonium or Plutonium."
 		""
@@ -446,7 +467,20 @@
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
+	quest.33014A99A399B607.quest_desc: [
+		"Though no small feat to obtain, Tier 4 Dimensional Storage Stabilizers are well worth the effort. "
+		""
+		"Be prepared for a lot of exploration to get a full set! We’ll get you started with an extra to call your own, however. "
+	]
 	quest.349B97172AB3E56E.quest_desc: ["Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."]
+	quest.34E95009CEB72776.quest_desc: [
+		"A Magic Lamp provides Spirits with a comfortable interface between our world and theirs. By binding one to a lamp, they can be set to work mining for a period of time. "
+		""
+		"Place the Lamp in a Dimensional Mineshaft. It will produce materials slowly over time until the lamp eventually breaks. "
+		""
+		"&a🛈 Tip: Ore can be extracted from the "
+		"&a    bottom of the Mineshaft."
+	]
 	quest.35F1E0745E3EA61F.quest_desc: [
 		"As you expand your HV power grid, your existing MV machines can be easily upgraded to run on HV instead."
 		""
@@ -454,6 +488,11 @@
 		""
 		"&6⚠ Note: Machines simply do not run if"
 		"&6    given the wrong tier of power."
+	]
+	quest.375460FD4D4407FF.quest_desc: [
+		"A small personal pocket dimension to help keep you organized. "
+		""
+		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
@@ -491,6 +530,20 @@
 		"&6    connections in total."
 	]
 	quest.3A7AD25302240A1B.title: "Ad-Hoc Networks"
+	quest.3AA1319E962A47C0.quest_desc: [
+		"Mining Iesnium requires a Spirit infused tool. Most materials hard enough to mine with are also not capable of containing a Spirit."
+		""
+		"Spirit Attuned Gems just barely meet our criteria, but the resulting tool will be fragile indeed. "
+		"&n                                                  &r"
+		""
+		"Craft an Infused Pickaxe in preparation to go mining in The Nether. "
+		""
+		"Locating Iesnium requires some patience, as it is quite rare. However a Divination Rod will help tremendously."
+		""
+		"&a🛈 Tip: Sneak Right-Click the Divination "
+		"&a    Rod on Netherrack to attune it to "
+		"&a    Iesnium Ore."
+	]
 	quest.3AD70D3BEF01A693.quest_desc: [
 		"The Coke Oven will be the first of many multi-block machines."
 		""
@@ -801,6 +854,19 @@
 		"These are a great way to buffer items between machines in Modern Industrialization, or to hook up to Applied Energistics to hold all of those Copper Ingots you’re hoarding."
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
+	quest.4E7DA28C54FB8766.quest_desc: [
+		"These materials can frequently take a great deal of time to find by exploring alone. "
+		""
+		"With a little help from our Spirit friends, they can be brought straight to us!"
+		""
+		"&6⚠ Note: These rituals often require a "
+		"&6    sacrifice. "
+		""
+		"&6    Trigger the ritual normally then kill"
+		"&6    the requested creature near the"
+		"&6    pentacle. "
+	]
+	quest.4E7DA28C54FB8766.title: "Rare Materials"
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
 	quest.4FEA49AD05720ED7.quest_desc: [
@@ -880,6 +946,14 @@
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
+	quest.5A355C35CB5B24D8.quest_desc: [
+		"There exists a wondrous material known as Iesnium which is an ideal substance for binding Spirits, as it serves to strengthen them and grant them greater power. "
+		""
+		"This material exists only within The Nether and is quite rare. It can also only be seen by Spirits. "
+		"&n                                                  &r"
+		""
+		"Craft some Otherworld Goggles. These grant Spirit sight and allow you to see Iesnium Ore."
+	]
 	quest.5AFA08920E94A02B.quest_desc: [
 		"The Spirit Fire will act as your primary interface to the Otherworld for now. "
 		""
@@ -906,14 +980,14 @@
 		""
 		"The Sacrificial Bowls can go in any free space in a roughly eight block radius from the Golden Sacrificial Bowl, even outside of the pentacle. "
 		""
-		"Finally, put the ingredients in the Sacrificial Bowls, as shown in EMI; their relative position do not matter, they can go in any bowl."
+		"Next, put the ingredients in the Sacrificial Bowls, as shown in EMI; their relative position do not matter, they can go in any bowl."
 		""
 		"The item in the Golden Sacrificial Bowl will go last and will trigger the ritual."
 		""
 		"&a🛈 Tip: Items can be piped into the "
 		"&a    bowls too!"
 	]
-	quest.5BD04F0109CB6704.title: "Ritual Summons"
+	quest.5BD04F0109CB6704.title: "Summon: Foliot Crusher"
 	quest.5CC1D814819E3044.quest_desc: [
 		"The Digital Miner is a targeted quarrying device that mines blocks out of the world. By setting the filters, you can target exactly what you need, making it a great way to top up on Diamonds or Ancient Debris. "
 		""
@@ -967,9 +1041,11 @@
 		"&a🛈 Tip: Requires a clear view of the sky."
 	]
 	quest.5DF2A3E977D4C11B.quest_desc: [
-		"Work in progress."
+		"Welcome to Occultism, a mod all about summoning Spirits for personal gain."
 		""
-		"More content coming Soon™!"
+		"Here-in, we’ll walk you through the basic progression through Occultism, from making first contact with Spirits to Dimensional Storage and more!"
+		""
+		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
@@ -1018,6 +1094,11 @@
 		""
 		"Enrich some Redstone and Coal before inserting it in a Metallurgic Infuser for a nice boost to efficiency!"
 	]
+	quest.66A24B8817411BBC.quest_desc: [
+		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
+		""
+		"We’ll need it for summoning up some friends."
+	]
 	quest.66B189D0C0CFE055.quest_desc: [
 		"Making first contact with the Spirit Realm, also known as the Otherworld, is going to require an… altered state of consciousness, shall we say?"
 		"&n                                                  &r"
@@ -1030,6 +1111,22 @@
 	]
 	quest.67782CB855950CD6.quest_desc: ["Another milestone material like Steel, HDPE is produced from Ethene and is used to craft many advanced machines as well as upgrades for the Meka-Suit. "]
 	quest.67782CB855950CD6.title: "HDPE"
+	quest.67835A69ECDC692D.quest_desc: [
+		"Red Chalk, our final tier of chalk, is infused with the very essence of the Afrit. "
+		""
+		"As such, it can be used in rituals to bind even the most powerful of Spirits."
+		"&n                                                  &r"
+		""
+		"Set up Abra’s Open Conjure to summon an Afrit, then defeat it in combat to obtain its essence."
+		""
+		"&6⚠ Note: This ritual requires a "
+		"&6    sacrifice. "
+		""
+		"&6    Trigger the ritual normally then kill"
+		"&6    the requested creature near the"
+		"&6    pentacle. "
+	]
+	quest.67835A69ECDC692D.title: "Red Chalk"
 	quest.684A0E52D7BAC37C.quest_desc: [
 		"A mass item storage solution with an integrated crafting table, making it simple to keep everything at hand for crafting."
 		""
@@ -1070,6 +1167,18 @@
 		"&a    machines that run constantly. "
 		"&a    Process large batches to make "
 		"&a    the most of them."
+	]
+	quest.6BDA1C1BE04D541A.quest_desc: [
+		"Crafting a Dimensional Storage system is a multi-step process involving several rituals, but it is well worth the effort. "
+		""
+		"The Actuator itself holds a large number of items and integrates a crafting grid to make life easier. "
+		""
+		"It can also be remotely accessed by way of Stabilized Wormholes, meaning a remote farm can pipe items back to your storage without the need for long pipes. "
+		""
+		"Furthermore, up to six stabilizers may be added to it to increase the number of items it can hold. "
+		""
+		"&a🛈 Tip: Point Stabilizers at the crystal "
+		"&a    floating above the Actuator. "
 	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
@@ -1117,6 +1226,17 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.73F9A5F65B350A09.quest_desc: [
+		"With White Chalk, we can practice only the most basic summons. "
+		""
+		"Obtaining some Glowstone and crafting Golden Chalk will open the way to Infusion and Possession rituals, whereby Spirits will be bound into items or other entities, respectively. "
+		""
+		"Golden Chalk will also enable us to summon more powerful Spirits from the Otherworld. "
+		"&n                                                  &r"
+		""
+		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a quick bit of it."
+	]
+	quest.73F9A5F65B350A09.title: "Golden Chalk"
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
 		""
@@ -1132,10 +1252,68 @@
 		"&a🛈 Tip: E10 includes a Mekanism Multi-"
 		"&a    Block planner in EMI! "
 	]
+	quest.750FEAA1A27892FF.quest_desc: [
+		"Following on, with Hedyrin’s Lure we may also begin summoning Familiars."
+		""
+		"These helpful critters are the result of the fusion of Spirits with creatures from our world and can offer a number of very useful powers."
+		""
+		"The following pages will cover some highlights of these powers. "
+		""
+		"For full details on these and other Familiars, refer to the Dictionary of Spirits under Familiar Rituals. "
+		""
+		"&6⚠ Note: These rituals often require a "
+		"&6    sacrifice. "
+		""
+		"&6    Trigger the ritual normally then kill"
+		"&6    the requested creature near the"
+		"&6    pentacle. "
+		""
+		"{@pagebreak}"
+		"Combat"
+		"  • Mummy: Fights alongside you by "
+		"        punching the life out of things"
+		""
+		"  • Beholder: Disintegrates enemies with "
+		"        magical laser beams"
+		"{@pagebreak}"
+		"Utility"
+		"  • Guardian: Acts as a walking Totem of "
+		"        Undying, losing limbs instead of"
+		"        you losing your life"
+		""
+		"  • Greedy: Collects items like a magnet"
+		""
+		"  • Beaver: Causes you to break wood "
+		"        faster"
+		""
+		"  • Blacksmith: Repairs equipment and "
+		"        applies upgrades to familiars"
+		"{@pagebreak}"
+		"Buffs"
+		"  • Drikwing: Multi-Jump "
+		"               Jump Boost"
+		"               Slow Fall"
+		""
+		"  • Dragon: Increased XP gain"
+		""
+		"  • Bat: Night Vision"
+		""
+		"  • Cthulhu: Water Breathing"
+		""
+		"  • Deer: Step Height"
+		""
+		"  • Devil: Fire Resistance"
+	]
+	quest.750FEAA1A27892FF.title: "Familiars"
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in E10."]
 	quest.752888EAF2861EB4.title: "Items"
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
 	quest.760910BF48876D8E.title: "Chemicals and Gas"
+	quest.770EE92EA4CF973C.quest_desc: [
+		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
+		""
+		"We’ll be needing plenty more, after all, to set up a Dimensional Mineshaft."
+	]
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
@@ -1172,6 +1350,11 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.7992122E44D163DB.title: "Supercritical Phase Shifter"
+	quest.79A6EED9C2D433F1.quest_desc: [
+		"Djinni Crushers are considerably more powerful than their Foliot cousins. "
+		""
+		"As such, they’re able to work faster and more efficiently, gaining more yield from crushing ores than the Foliot."
+	]
 	quest.7B5EB5D6F749520F.quest_desc: [
 		"Using water to cool a Fission Reactor has its limits, preventing the reactor from safely running as fast as it could with a better coolant like Sodium."
 		""
@@ -1187,6 +1370,31 @@
 	quest.7B5EB5D6F749520F.title: "Thermoelectric Boiler"
 	quest.7BEE7FAD21AFEB68.quest_desc: ["With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "]
 	quest.7C71090829F8748A.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE."]
+	quest.7D4E0F2BF07D3223.quest_desc: [
+		"Making Purple Chalk will need some slightly more exotic materials. However, one needn’t run off to The End just for End Stone."
+		""
+		"With Hedyrin’s Lure, we’re able to call forth a Foliot to possess an Endermite. This Endermite, when slain, will always provide the End Stone we need."
+		"&n                                                  &r"
+		""
+		"Find Hedyrin’s Lure in the Dictionary of Spirits, and click the 👁 in the preview to visualize it in-world."
+		""
+		"&a🛈 Tip: The shape of individual chalk "
+		"&a    marks is random and doesn’t "
+		"&a    affect the ritual!"
+		""
+		"The Sacrificial Bowls can go in any free space in a roughly eight block radius from the Golden Sacrificial Bowl, even outside of the pentacle. "
+		""
+		"Next, put the ingredients in the Sacrificial Bowls, as shown in EMI; their relative position do not matter, they can go in any bowl."
+		""
+		"The item in the Golden Sacrificial Bowl will go last and will trigger the ritual."
+		""
+		"&6⚠ Note: This ritual also requires you "
+		"&6    to 'use' or throw an egg after "
+		"&6    triggering the ritual."
+		""
+		"&a🛈 Tip: Items can be piped into the "
+		"&a    bowls too! "
+	]
 	quest.7D82585D50D7207A.quest_desc: [
 		"Work in progress."
 		""
@@ -1205,7 +1413,7 @@
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
 	reward_table.02545B33A0B47726.title: "Scavenger's Delight"
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
-	reward_table.2806F6BEA4A73B0B.title: "Common Lootbox: Occultism"
+	reward_table.2806F6BEA4A73B0B.title: "Lootbox: Occultism"
 	reward_table.4AD226E979319EAB.title: "Rare Lootbox: Modern Industrialization"
 	reward_table.4C3908A1EDE782F7.title: "Alchemist's Delight"
 	reward_table.506FFF33A24A6C87.title: "Sorcerer's Delight"
@@ -1221,12 +1429,15 @@
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.213012F4279A21AF.title: "Chemical Tanks"
+	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logisticss"
+	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
