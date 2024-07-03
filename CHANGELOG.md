@@ -1,3 +1,11 @@
+### Enigmatica 10 1.4.0
+
+#### ⭐ Improvements
+
+-   More quests! [\#18](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/18)
+
+---
+
 ### Enigmatica 10 1.3.0
 
 NeoForge-1.21.0-21.0.42 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.3.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.3.0.md)
