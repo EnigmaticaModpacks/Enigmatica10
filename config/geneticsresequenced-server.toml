@@ -1,0 +1,146 @@
+
+[general]
+	#Keep genes on death
+	keepGenesOnDeath = true
+	#When a cooldown ends, it notifies the player, unless the cooldown is shorter than this value (in ticks)
+	#Range: > 1
+	minimumCooldownForNotification = 1200
+	#How far should the Antifield Block prevent Item/XP Magnet Genes from working (in blocks)
+	#Range: > 1
+	antifieldBlockRadius = 25
+
+[machines]
+	#How much energy should the Coal Generator be able to store
+	#Range: > 1
+	coalGeneratorEnergyCapacity = 100000
+	#How much energy should the Coal Generator be able to transfer per tick
+	#Range: > 1
+	coalGeneratorEnergyTransferRate = 256
+	#How much energy should the Coal Generator generate per tick (1 item takes 200 ticks to burn in a Furnace)
+	#Range: > 1
+	coalGeneratorEnergyPerTick = 6
+	#How many ticks should the Incubator take to brew a potion? A vanilla brewing stand takes 400 ticks
+	#Range: > 1
+	incubatorTicksPerBrew = 200
+	#How many times slower should the Advanced Incubator be when it's at low temperature? Default is 120, which makes it take a full Minecraft day (excluding Overclockers)
+	#Range: > 1
+	incubatorLowTempTickFactor = 120
+
+[genes]
+	#List of genes to disable.
+	#Example: ["geneticsresequenced:wooly","geneticsresequenced:lay_egg"]
+	disabledGenes = []
+	#Set true to prevent players from being given negative genes
+	disableGivingPlayersNegativeGenes = false
+	#How long should light sources from the Bioluminescence gene last (in ticks)
+	#Range: > 1
+	bioluminescenceDuration = 600
+	#How often entities with the Bioluminescence gene should emit light (in ticks)
+	#Range: > 1
+	bioluminescenceCooldown = 10
+	#How many ticks to wait before someone with the Lay Egg gene lays an egg again
+	#Range: > 1
+	eggCooldown = 6000
+	#What probability should the Claws gene have (doubled if the player has Claws 2 gene)
+	#Range: 0.0 ~ 1.0
+	clawsBaseChance = 0.33
+	#How much damage to deal when the Claws gene procs
+	#Range: 0.0 ~ 1.7976931348623157E308
+	clawsDamage = 8.0
+	#What probability should the Chill gene have
+	#Range: 0.0 ~ 1.0
+	chillChance = 0.75
+	#How long should the Chill gene slow entities down for (in ticks)
+	#Range: > 1
+	chillDuration = 300
+	#How many ticks to wait before the Emerald Heart gene can proc again
+	#Range: > 1
+	emeraldHeartCooldown = 1200
+	#What probability should there be of making a Villager sound when you send a chat message with Emerald Heart?
+	#Range: 0.0 ~ 1.0
+	emeraldHeartChatChance = 0.4
+	#How many ticks to wait before someone with the Dragon's Breath gene can breathe fire again
+	#Range: > 1
+	dragonsBreathCooldown = 100
+	#How often should the Item Magnet gene attract items (in ticks)
+	#Range: > 1
+	itemMagnetCooldown = 10
+	#How far should the Item Magnet gene attract items (in blocks)
+	#Range: 1.0 ~ 1.7976931348623157E308
+	itemMagnetRadius = 8.0
+	#How much should the Johnny gene multiply damage by, when using an Axe?
+	#Range: 0.0 ~ 1.7976931348623157E308
+	johnnyAttackMultiplier = 1.25
+	#How many ticks to wait before someone with the Meaty gene can be sheared again
+	#Range: > 1
+	meatyCooldown = 1200
+	#How many ticks to wait before someone with the Meaty 2 gene drops meat again
+	#Range: > 1
+	meaty2Cooldown = 6000
+	#How many ticks to wait before someone with the Milky gene can be milked again
+	#Range: > 1
+	milkyCooldown = 1
+	#How far from the player should Mob Sight detect entities (in blocks)
+	#Range: 1.0 ~ 1.7976931348623157E308
+	mobSightRadius = 32.0
+	#How often should the Mob Sight gene check for entities (in ticks)
+	#Range: > 1
+	mobSightCooldown = 20
+	#How often should the No Hunger gene check to reset hunger (in ticks)
+	#Range: > 1
+	noHungerCooldown = 80
+	#What's the minimum hunger level to reset to
+	#Range: 1 ~ 20
+	noHungerMinimum = 10
+	#How often should passive genes (potions, Flame, Lay Egg, Meaty 2) be checked for effects (in ticks)
+	#Range: > 1
+	passivesCheckCooldown = 40
+	#How often entities with the Photosynthesis gene should regain hunger (in ticks)
+	#Range: > 1
+	photosynthesisCooldown = 600
+	#How much hunger to regain when the Photosynthesis gene procs
+	#Range: > 0
+	photoSynthesisHungerAmount = 1
+	#How much saturation to regain when the Photosynthesis gene procs
+	#Range: 0.0 ~ 1.7976931348623157E308
+	photoSynthesisSaturationAmount = 0.5
+	#How many ticks to wait before someone with the Slimy Death gene can spawn slimes again
+	#Range: > 1
+	slimyDeathCooldown = 12000
+	#How much health should entities who survive via Slimy Death regain upon death, as a percentage of their max health
+	#Range: 0.0 ~ 1.0
+	slimyDeathHealthMultiplier = 0.5
+	#How often should Support Slimes check if they should despawn? They despawn if there's nothing to attack, or if they aren't near their owner.
+	#Range: > 1
+	slimyDeathDespawnCheckTimer = 20
+	#How long should Support Slimes have to remain in valid despawning conditions before they actually despawn?
+	#Range: > 1
+	slimyDeathDespawnTime = 200
+	#How many ticks to wait before someone with the Teleport gene can teleport again
+	#Range: > 1
+	teleportCooldown = 20
+	#How far should the Teleport gene teleport the player, at maximum
+	#Range: 1.0 ~ 1.7976931348623157E308
+	teleportDistance = 10.0
+	#What probability should the Thorns gene have
+	#Range: 0.0 ~ 1.0
+	thornsChance = 0.15
+	#How much damage to deal back to the attacker when they hit a target with the Thorns gene
+	#Range: 0.0 ~ 1.7976931348623157E308
+	thornsDamage = 1.5
+	#How much hunger to drain when the Thorns gene deals damage
+	#Range: 0.0 ~ 1.7976931348623157E308
+	thornsHungerDrain = 1.0
+	#How fast should the player climb walls with the Wall Climbing gene
+	#Range: 0.0 ~ 1.7976931348623157E308
+	wallClimbSpeed = 0.144
+	#How many ticks to wait before someone with the Wooly gene can be sheared again (skipped if they eat grass)
+	#Range: > 1
+	woolyCooldown = 1200
+	#How often should the XP Magnet gene attract XP orbs (in ticks)
+	#Range: > 1
+	xpMagnetCooldown = 10
+	#How far should the XP Magnet gene attract XP orbs (in blocks)
+	#Range: 1.0 ~ 1.7976931348623157E308
+	xpMagnetRadius = 8.0
+

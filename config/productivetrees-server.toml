@@ -1,0 +1,6 @@
+
+[General]
+	#Chance to get a pollen when using sieve upgrades in hives
+	#Range: 1 ~ 100
+	pollenChanceFromSieve = 2
+
