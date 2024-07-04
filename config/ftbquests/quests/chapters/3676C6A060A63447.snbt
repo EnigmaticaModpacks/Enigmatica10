@@ -69,6 +69,9 @@
 		}
 		{
 			dependencies: ["6538BD86D9419DD4"]
+			icon: {
+				id: "minecraft:raw_copper"
+			}
 			id: "48F901DB80482CAA"
 			rewards: [{
 				count: 16

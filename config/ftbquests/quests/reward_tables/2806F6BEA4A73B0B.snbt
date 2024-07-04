@@ -2,7 +2,7 @@
 	hide_tooltip: true
 	icon: {
 		components: {
-			"ftbquests:icon": "kubejs:item/lootbox/common"
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
 		}
 		id: "ftbquests:custom_icon"
 	}
