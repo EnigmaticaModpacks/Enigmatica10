@@ -8,7 +8,7 @@
         "screen": "options"
     },
     "icon": {
-        "texture": "enigmatica:textures/options.png",
+        "texture": "enigmatica:textures/options",
         "width": 175,
         "height": 40
     },

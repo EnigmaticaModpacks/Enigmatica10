@@ -8,7 +8,7 @@
         "url": "https://github.com/EnigmaticaModpacks/Enigmatica10/issues"
     },
     "icon": {
-        "texture": "enigmatica:textures/github.png",
+        "texture": "enigmatica:textures/github",
         "width": 175,
         "height": 40
     },

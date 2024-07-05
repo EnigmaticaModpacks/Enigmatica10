@@ -8,7 +8,7 @@
         "url": "https://twitter.com/EnigmaticaPacks"
     },
     "icon": {
-        "texture": "enigmatica:textures/twitter.png",
+        "texture": "enigmatica:icon/twitter",
         "width": 20,
         "height": 40
     },

@@ -8,7 +8,7 @@
         "url": "https://discord.gg/enigmatica"
     },
     "icon": {
-        "texture": "enigmatica:textures/discord.png",
+        "texture": "enigmatica:icon/discord",
         "width": 20,
         "height": 40
     },

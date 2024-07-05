@@ -8,7 +8,7 @@
         "url": "https://www.bisecthosting.com/enigmatica"
     },
     "icon": {
-        "texture": "enigmatica:textures/bisect.png",
+        "texture": "enigmatica:textures/bisect",
         "width": 175,
         "height": 40
     },

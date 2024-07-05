@@ -8,7 +8,7 @@
         "screen": "multiplayer"
     },
     "icon": {
-        "texture": "enigmatica:textures/multiplayer.png",
+        "texture": "enigmatica:textures/multiplayer",
         "width": 175,
         "height": 40
     },

@@ -8,7 +8,7 @@
         "screen": "language"
     },
     "icon": {
-        "texture": "enigmatica:textures/language.png",
+        "texture": "enigmatica:icon/language",
         "width": 20,
         "height": 40
     },

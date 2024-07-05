@@ -5,7 +5,7 @@
     "height": 20,
     "action": "NONE",
     "icon": {
-        "texture": "enigmatica:textures/empty.png",
+        "texture": "enigmatica:textures/empty",
         "width": 175,
         "height": 40
     },

@@ -7,7 +7,7 @@
         "type": "packmenu:quit"
     },
     "icon": {
-        "texture": "enigmatica:textures/quit.png",
+        "texture": "enigmatica:textures/quit",
         "width": 175,
         "height": 40
     },

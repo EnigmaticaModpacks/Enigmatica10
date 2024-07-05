@@ -8,7 +8,7 @@
         "screen": "singleplayer"
     },
     "icon": {
-        "texture": "enigmatica:textures/singleplayer.png",
+        "texture": "enigmatica:textures/singleplayer",
         "width": 175,
         "height": 40
     },

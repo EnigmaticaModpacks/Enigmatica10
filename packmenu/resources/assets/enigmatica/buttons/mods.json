@@ -8,7 +8,7 @@
         "screen": "mods"
     },
     "icon": {
-        "texture": "enigmatica:textures/mods.png",
+        "texture": "enigmatica:textures/mods",
         "width": 175,
         "height": 40
     },

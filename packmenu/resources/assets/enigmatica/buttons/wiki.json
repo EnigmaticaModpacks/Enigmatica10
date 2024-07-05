@@ -8,7 +8,7 @@
         "url": "https://wiki.enigmatica.net"
     },
     "icon": {
-        "texture": "enigmatica:textures/wiki.png",
+        "texture": "enigmatica:textures/wiki",
         "width": 175,
         "height": 40
     },

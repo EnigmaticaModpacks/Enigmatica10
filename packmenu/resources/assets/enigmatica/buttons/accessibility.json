@@ -8,7 +8,7 @@
         "screen": "accessibility"
     },
     "icon": {
-        "texture": "enigmatica:textures/accessibility.png",
+        "texture": "enigmatica:icon/accessibility",
         "width": 20,
         "height": 40
     },
