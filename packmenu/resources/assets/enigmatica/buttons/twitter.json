@@ -1,0 +1,16 @@
+{
+    "x": 74,
+    "y": 270,
+    "width": 20,
+    "height": 20,
+    "action": {
+        "type": "packmenu:open_url",
+        "url": "https://twitter.com/EnigmaticaPacks"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/twitter.png",
+        "width": 20,
+        "height": 40
+    },
+    "anchor": "top_left"
+}

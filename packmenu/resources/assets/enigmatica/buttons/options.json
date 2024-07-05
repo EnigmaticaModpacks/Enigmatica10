@@ -1,0 +1,19 @@
+{
+    "x": 0,
+    "y": 145,
+    "width": 175,
+    "height": 20,
+    "action": {
+        "type": "packmenu:open_screen",
+        "screen": "options"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/options.png",
+        "width": 175,
+        "height": 40
+    },
+    "anchor": "top_left",
+    "text": {
+        "key": "packmenu.enigmatica.options"
+    }
+}

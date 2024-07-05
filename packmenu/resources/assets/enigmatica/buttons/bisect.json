@@ -1,0 +1,19 @@
+{
+    "x": 0,
+    "y": 120,
+    "width": 175,
+    "height": 20,
+    "action": {
+        "type": "packmenu:open_url",
+        "url": "https://www.bisecthosting.com/enigmatica"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/bisect.png",
+        "width": 175,
+        "height": 40
+    },
+    "anchor": "top_left",
+    "text": {
+        "key": "packmenu.enigmatica.bisect"
+    }
+}

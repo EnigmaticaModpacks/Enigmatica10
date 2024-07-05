@@ -1,0 +1,19 @@
+{
+    "x": 0,
+    "y": 195,
+    "width": 175,
+    "height": 20,
+    "action": {
+        "type": "packmenu:open_url",
+        "url": "https://github.com/EnigmaticaModpacks/Enigmatica10/issues"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/github.png",
+        "width": 175,
+        "height": 40
+    },
+    "anchor": "top_left",
+    "text": {
+        "key": "packmenu.enigmatica.github"
+    }
+}

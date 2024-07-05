@@ -1,0 +1,19 @@
+{
+    "x": 0,
+    "y": 95,
+    "width": 175,
+    "height": 20,
+    "action": {
+        "type": "packmenu:open_screen",
+        "screen": "multiplayer"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/multiplayer.png",
+        "width": 175,
+        "height": 40
+    },
+    "anchor": "top_left",
+    "text": {
+        "key": "packmenu.enigmatica.multiplayer"
+    }
+}

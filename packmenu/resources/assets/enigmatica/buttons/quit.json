@@ -1,0 +1,18 @@
+{
+    "x": 0,
+    "y": 245,
+    "width": 175,
+    "height": 20,
+    "action": {
+        "type": "packmenu:quit"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/quit.png",
+        "width": 175,
+        "height": 40
+    },
+    "anchor": "top_left",
+    "text": {
+        "key": "packmenu.enigmatica.quit"
+    }
+}

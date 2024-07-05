@@ -1,0 +1,16 @@
+{
+    "x": 44,
+    "y": 270,
+    "width": 20,
+    "height": 20,
+    "action": {
+        "type": "packmenu:open_url",
+        "url": "https://discord.gg/enigmatica"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/discord.png",
+        "width": 20,
+        "height": 40
+    },
+    "anchor": "top_left"
+}

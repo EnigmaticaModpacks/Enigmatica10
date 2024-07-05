@@ -1,0 +1,19 @@
+{
+    "x": 0,
+    "y": 70,
+    "width": 175,
+    "height": 20,
+    "action": {
+        "type": "packmenu:open_screen",
+        "screen": "singleplayer"
+    },
+    "icon": {
+        "texture": "enigmatica:textures/singleplayer.png",
+        "width": 175,
+        "height": 40
+    },
+    "anchor": "top_left",
+    "text": {
+        "key": "packmenu.enigmatica.singleplayer"
+    }
+}
