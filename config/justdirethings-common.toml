@@ -141,4 +141,12 @@
 	instabreak = true
 	#eclipsegate
 	eclipsegate = true
+	#swimspeed
+	swimspeed = true
+	#groundstomp
+	groundstomp = true
+	#extinguish
+	extinguish = true
+	#stupefy
+	stupefy = true
 
