@@ -79,6 +79,7 @@ $CLIENT_FILE_AUTHOR = "EnigmaticaModpacks"
 
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @("config",
 	"defaultconfigs",
+	"packmenu",
 	"kubejs")
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(

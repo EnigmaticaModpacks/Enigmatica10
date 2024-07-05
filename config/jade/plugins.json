@@ -57,6 +57,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "apothic_spawners": {
+    "spawner": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
