@@ -1,8 +1,20 @@
 ### Enigmatica 10 1.4.0
 
+NeoForge-1.21.0-21.0.53 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.4.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.4.0.md)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
 #### ⭐ Improvements
 
 -   More quests! [\#18](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/18)
+
+#### 🦟 Bugs Fixed
+
+* KubeJS folder appears to be missing in 1.3 release [(\#21)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/21)
+* Theurgy/Occultism books large minimap [(\#17)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/17)
+
 
 ---
 
