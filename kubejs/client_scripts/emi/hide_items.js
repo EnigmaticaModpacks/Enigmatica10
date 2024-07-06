@@ -1,4 +1,4 @@
-ClientEvents.highPriorityAssets((event) => {
+ClientEvents.generateAssets('after_mods', (event) => {
     // https://github.com/emilyploszaj/emi/wiki/Hiding-and-Adding-Index-Stacks
     const payload = { hidden: { filters: [] }, disabled: { filters: [], disable: true } };
 
