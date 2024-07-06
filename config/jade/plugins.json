@@ -92,6 +92,9 @@
     "milk_jar": true,
     "toaster": true
   },
+  "functionalstorage": {
+    "drawer": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
