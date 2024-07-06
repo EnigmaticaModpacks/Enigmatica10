@@ -10,10 +10,14 @@
     "icon": {
         "texture": "enigmatica:textures/github",
         "width": 175,
-        "height": 40
+        "height": 20
     },
     "anchor": "top_left",
     "text": {
         "key": "packmenu.enigmatica.github"
+    },
+    "sprites": {
+        "enabled": "enigmatica:icon/github",
+        "enabled_focused": "enigmatica:icon/github_focused"
     }
 }

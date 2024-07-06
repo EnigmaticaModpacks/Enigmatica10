@@ -7,13 +7,12 @@
         "type": "packmenu:open_url",
         "url": "https://wiki.enigmatica.net"
     },
-    "icon": {
-        "texture": "enigmatica:textures/wiki",
-        "width": 175,
-        "height": 40
-    },
     "anchor": "top_left",
     "text": {
         "key": "packmenu.enigmatica.wiki"
+    },
+    "sprites": {
+        "enabled": "enigmatica:icon/wiki",
+        "enabled_focused": "enigmatica:icon/wiki_focused"
     }
 }

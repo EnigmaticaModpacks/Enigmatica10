@@ -6,13 +6,12 @@
     "action": {
         "type": "packmenu:quit"
     },
-    "icon": {
-        "texture": "enigmatica:textures/quit",
-        "width": 175,
-        "height": 40
-    },
     "anchor": "top_left",
     "text": {
         "key": "packmenu.enigmatica.quit"
+    },
+    "sprites": {
+        "enabled": "enigmatica:icon/quit",
+        "enabled_focused": "enigmatica:icon/quit_focused"
     }
 }

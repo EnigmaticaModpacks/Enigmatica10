@@ -7,10 +7,9 @@
         "type": "packmenu:open_screen",
         "screen": "language"
     },
-    "icon": {
-        "texture": "enigmatica:icon/language",
-        "width": 20,
-        "height": 40
-    },
-    "anchor": "top_left"
+    "anchor": "top_left",
+    "sprites": {
+        "enabled": "enigmatica:icon/language",
+        "enabled_focused": "enigmatica:icon/language_focused"
+    }
 }

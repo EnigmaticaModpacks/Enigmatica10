@@ -7,13 +7,12 @@
         "type": "packmenu:open_screen",
         "screen": "singleplayer"
     },
-    "icon": {
-        "texture": "enigmatica:textures/singleplayer",
-        "width": 175,
-        "height": 40
-    },
     "anchor": "top_left",
     "text": {
         "key": "packmenu.enigmatica.singleplayer"
+    },
+    "sprites": {
+        "enabled": "enigmatica:icon/singleplayer",
+        "enabled_focused": "enigmatica:icon/singleplayer_focused"
     }
 }

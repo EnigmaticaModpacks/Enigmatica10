@@ -7,10 +7,9 @@
         "type": "packmenu:open_url",
         "url": "https://twitter.com/EnigmaticaPacks"
     },
-    "icon": {
-        "texture": "enigmatica:icon/twitter",
-        "width": 20,
-        "height": 40
-    },
-    "anchor": "top_left"
+    "anchor": "top_left",
+    "sprites": {
+        "enabled": "enigmatica:icon/twitter",
+        "enabled_focused": "enigmatica:icon/twitter_focused"
+    }
 }

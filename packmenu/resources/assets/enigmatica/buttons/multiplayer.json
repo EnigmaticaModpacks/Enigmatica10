@@ -7,13 +7,12 @@
         "type": "packmenu:open_screen",
         "screen": "multiplayer"
     },
-    "icon": {
-        "texture": "enigmatica:textures/multiplayer",
-        "width": 175,
-        "height": 40
-    },
     "anchor": "top_left",
     "text": {
         "key": "packmenu.enigmatica.multiplayer"
+    },
+    "sprites": {
+        "enabled": "enigmatica:icon/multiplayer",
+        "enabled_focused": "enigmatica:icon/multiplayer_focused"
     }
 }

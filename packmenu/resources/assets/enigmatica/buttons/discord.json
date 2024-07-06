@@ -7,10 +7,9 @@
         "type": "packmenu:open_url",
         "url": "https://discord.gg/enigmatica"
     },
-    "icon": {
-        "texture": "enigmatica:icon/discord",
-        "width": 20,
-        "height": 40
-    },
-    "anchor": "top_left"
+    "anchor": "top_left",
+    "sprites": {
+        "enabled": "enigmatica:icon/discord",
+        "enabled_focused": "enigmatica:icon/discord_focused"
+    }
 }
