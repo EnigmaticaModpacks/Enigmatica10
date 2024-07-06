@@ -7,6 +7,11 @@
         "type": "packmenu:open_screen",
         "screen": "accessibility"
     },
+    "icon": {
+        "texture": "enigmatica:icon/accessibility",
+        "width": 20,
+        "height": 20
+    },
     "anchor": "top_left",
     "sprites": {
         "enabled": "enigmatica:icon/accessibility",
