@@ -7,11 +7,6 @@
         "type": "packmenu:open_screen",
         "screen": "mods"
     },
-    "icon": {
-        "texture": "enigmatica:textures/mods",
-        "width": 175,
-        "height": 20
-    },
     "anchor": "top_left",
     "text": {
         "key": "packmenu.enigmatica.mods"

@@ -7,11 +7,6 @@
         "type": "packmenu:open_url",
         "url": "https://www.bisecthosting.com/enigmatica"
     },
-    "icon": {
-        "texture": "enigmatica:textures/bisect",
-        "width": 175,
-        "height": 20
-    },
     "anchor": "top_left",
     "text": {
         "key": "packmenu.enigmatica.bisect"

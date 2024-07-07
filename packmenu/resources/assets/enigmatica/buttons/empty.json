@@ -7,10 +7,9 @@
         "type": "packmenu:none"
     },
     "icon": {
-        "texture": "enigmatica:textures/empty",
+        "texture": "enigmatica:icon/empty",
         "width": 175,
         "height": 20
     },
-    "anchor": "top_left",
-    "active": false
+    "anchor": "top_left"
 }
