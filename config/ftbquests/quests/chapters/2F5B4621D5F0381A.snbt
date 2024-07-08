@@ -858,13 +858,10 @@
 			dependencies: ["4A8EF3D657CEAED5"]
 			id: "1386A595D84FE6FC"
 			rewards: [{
-				count: 4
-				id: "2B0DD8CC967AE27F"
-				item: {
-					count: 1
-					id: "modern_industrialization:basic_upgrade"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1948EEA7C8188CC6"
+				table_id: 977993291969471061L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "12C5F9CC77B2C9C1"
@@ -971,13 +968,10 @@
 			dependencies: ["42F410023D62E6CB"]
 			id: "577377C909FF0001"
 			rewards: [{
-				count: 4
-				id: "45ABB3F7E222D568"
-				item: {
-					count: 1
-					id: "modern_industrialization:basic_upgrade"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2DAF3312E78645F6"
+				table_id: 977993291969471061L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "5E3A6053685AB6FC"
@@ -991,13 +985,10 @@
 			dependencies: ["577377C909FF0001"]
 			id: "4EC7DD1B35F0B6B5"
 			rewards: [{
-				count: 4
-				id: "56C92D82DE959163"
-				item: {
-					count: 1
-					id: "modern_industrialization:basic_upgrade"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "77A830644A31A332"
+				table_id: 977993291969471061L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "3B2E0962DC146C74"
@@ -1099,13 +1090,10 @@
 			dependencies: ["1386A595D84FE6FC"]
 			id: "349B97172AB3E56E"
 			rewards: [{
-				count: 4
-				id: "31FE218AF00A9985"
-				item: {
-					count: 1
-					id: "modern_industrialization:basic_upgrade"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3FED3214E019BF25"
+				table_id: 977993291969471061L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "3C0CCCF1BE1B235B"
@@ -1122,13 +1110,10 @@
 			]
 			id: "6B6898F3520BA8F7"
 			rewards: [{
-				count: 32
-				id: "4E6869292B447A20"
-				item: {
-					count: 1
-					id: "modern_industrialization:advanced_upgrade"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7D5AB3435857FA0C"
+				table_id: 977993291969471061L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "038BA788A274DC40"
@@ -1141,15 +1126,23 @@
 		{
 			dependencies: ["20877ECE7619845D"]
 			id: "1824109EF4F096A1"
-			rewards: [{
-				count: 16
-				id: "72B4BB4BD0C3E909"
-				item: {
-					count: 1
-					id: "modern_industrialization:aluminum_cable"
+			rewards: [
+				{
+					count: 16
+					id: "72B4BB4BD0C3E909"
+					item: {
+						count: 1
+						id: "modern_industrialization:aluminum_cable"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "33BA3B54F35F087A"
+					table_id: 977993291969471061L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3EB70521AD897BDC"
 				item: { count: 1, id: "modern_industrialization:mv_hv_transformer" }
@@ -1164,6 +1157,12 @@
 				"4EC7DD1B35F0B6B5"
 			]
 			id: "13D810A6AB4FACC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4104FEBDE9BB66F2"
+				table_id: 977993291969471061L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "39A3DA51510E59D3"
 				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
@@ -1178,15 +1177,23 @@
 				id: "modern_industrialization:distillation_tower"
 			}
 			id: "3C169A2002B47DC5"
-			rewards: [{
-				count: 16
-				id: "07A41CC3F23F9D04"
-				item: {
-					count: 1
-					id: "modern_industrialization:clean_stainless_steel_machine_casing"
+			rewards: [
+				{
+					count: 16
+					id: "07A41CC3F23F9D04"
+					item: {
+						count: 1
+						id: "modern_industrialization:clean_stainless_steel_machine_casing"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "12E1AEE7846D90D7"
+					table_id: 977993291969471061L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "26D1474EF7F5F707"
@@ -1308,6 +1315,12 @@
 		{
 			dependencies: ["3C169A2002B47DC5"]
 			id: "5362D855D207F79A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "758C616FE44C8E51"
+				table_id: 977993291969471061L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0DBF31DADAAF822B"
 				item: { count: 1, id: "modern_industrialization:hv_diesel_generator" }
@@ -1342,6 +1355,271 @@
 			}]
 			x: 14.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["69AAE7C502629B3E"]
+			icon: {
+				id: "modern_industrialization:large_steam_turbine"
+			}
+			id: "1E78584388808899"
+			tasks: [
+				{
+					id: "28429AC2EC135C6F"
+					item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "193C09EBB4D7521F"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "097CEAFDA1D46789"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "29A741648331AADE"
+					item: { count: 1, id: "modern_industrialization:hv_energy_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "4B9E874CCC4978D8"
+					item: { count: 1, id: "modern_industrialization:advanced_fluid_input_hatch" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35F1E0745E3EA61F"]
+			id: "6AFB99D4F0107184"
+			tasks: [{
+				id: "25630F1542E37E5E"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_drill" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35F1E0745E3EA61F"]
+			id: "3D334F8BDD0E4046"
+			rewards: [
+				{
+					id: "289CE3FB1CE732C3"
+					item: {
+						count: 1
+						id: "modern_industrialization:air_intake"
+					}
+					type: "item"
+				}
+				{
+					id: "73381D8AF539DA58"
+					item: {
+						count: 1
+						id: "modern_industrialization:centrifuge"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "594547A19A47C245"
+					item: { count: 1, id: "modern_industrialization:pressurizer" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "27A2D73E1D722F1F"
+					item: { count: 10, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "516169F8D3BCBB0A"
+					item: { count: 9, id: "modern_industrialization:titanium_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "63F9A4C6451AC97B"
+					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "18DFB09A917770E4"
+					item: { count: 1, id: "modern_industrialization:hv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "77D89BC22024EDC6"
+					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D334F8BDD0E4046"]
+			id: "5521F91C980C5007"
+			tasks: [
+				{
+					id: "546451E4D4FAE076"
+					item: { count: 1, id: "modern_industrialization:heat_exchanger" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "5FCA406D6E40052B"
+					item: { count: 21, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "61A17F48E83288C2"
+					item: { count: 9, id: "modern_industrialization:frostproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "77C739B8C1DA7495"
+					item: { count: 9, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "64BD2C1BD3259016"
+					item: { count: 2, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2CF9EF3BFCD161A0"
+					item: { count: 2, id: "modern_industrialization:advanced_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "27D7532A071A39A5"
+					item: { count: 1, id: "modern_industrialization:hv_energy_input_hatch" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5521F91C980C5007"]
+			id: "368DC26C96A32AB7"
+			tasks: [
+				{
+					id: "496CA894C1437908"
+					item: { count: 1, id: "modern_industrialization:high_pressure_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "78E3973B7BF97288"
+					item: { count: 24, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0B37160E1DCF981E"
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "56B3B06F632E85B4"
+					item: { count: 2, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "444CB85ABC35AA64"
+					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "2432F12BBD86BCA5"
+					item: { count: 1, id: "modern_industrialization:advanced_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "68F8AB2C2B9B3736"
+					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D334F8BDD0E4046"]
+			icon: {
+				id: "modern_industrialization:processing_unit"
+			}
+			id: "0BA9F73FFBAAB6E7"
+			tasks: [
+				{
+					id: "05CBF0FE66AEEF91"
+					item: { count: 1, id: "modern_industrialization:processing_unit" }
+					type: "item"
+				}
+				{
+					id: "7BC88C309434A2E0"
+					item: { count: 1, id: "modern_industrialization:memory_management_unit" }
+					type: "item"
+				}
+				{
+					id: "44CA15CEC1AFF624"
+					item: { count: 1, id: "modern_industrialization:random_access_memory" }
+					type: "item"
+				}
+				{
+					id: "2E0F2D8CDD7EDC1A"
+					item: { count: 1, id: "modern_industrialization:arithmetic_logic_unit" }
+					type: "item"
+				}
+				{
+					id: "009A80D273FDE292"
+					item: { count: 1, id: "modern_industrialization:large_advanced_motor" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D334F8BDD0E4046"]
+			icon: {
+				id: "modern_industrialization:implosion_compressor"
+			}
+			id: "4CB37C07E76303A6"
+			tasks: [
+				{
+					id: "1C272CE7B5A54E18"
+					item: { count: 1, id: "modern_industrialization:implosion_compressor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1562C6A865CE05D6"
+					item: { count: 1, id: "modern_industrialization:blastproof_casing" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "385FFFEC651B4648"
+					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
 		}
 	]
 }

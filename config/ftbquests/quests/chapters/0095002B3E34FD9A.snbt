@@ -258,9 +258,6 @@
 		{
 			dependencies: ["036036EA25034BE8"]
 			icon: {
-				components: {
-					"occultism:spirit_name": "(Not yet known)"
-				}
 				id: "occultism:dimensional_matrix"
 			}
 			id: "6BDA1C1BE04D541A"
@@ -336,7 +333,7 @@
 			}]
 			tasks: [{
 				id: "729271FAB4FD2834"
-				item: { components: { "occultism:spirit_name": "(Not yet known)" }, count: 1, id: "occultism:infused_pickaxe" }
+				item: { count: 1, id: "occultism:infused_pickaxe" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -370,7 +367,7 @@
 			}]
 			tasks: [{
 				id: "282157F7B5CFEF7B"
-				item: { components: { "occultism:spirit_name": "(Not yet known)" }, count: 1, id: "occultism:satchel" }
+				item: { count: 1, id: "occultism:satchel" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -439,7 +436,7 @@
 			}]
 			tasks: [{
 				id: "3EBEA32607B77D3A"
-				item: { components: { "occultism:spirit_name": "(Not yet known)" }, count: 1, id: "occultism:miner_foliot_unspecialized" }
+				item: { count: 1, id: "occultism:miner_foliot_unspecialized" }
 				type: "item"
 			}]
 			x: 7.5d

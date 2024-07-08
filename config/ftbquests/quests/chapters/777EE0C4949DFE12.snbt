@@ -526,5 +526,39 @@
 			x: 2.0d
 			y: 6.5d
 		}
+		{
+			dependencies: ["52E79B2EB7400D13"]
+			icon: {
+				id: "ae2wtlib:quantum_bridge_card"
+			}
+			id: "3456EED039818662"
+			rewards: [{
+				id: "42A8BAC538204485"
+				item: {
+					count: 1
+					id: "ae2:singularity"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "395A9D55D1B07A35"
+					item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
+					type: "item"
+				}
+				{
+					id: "12F8E6E8936A57A3"
+					item: { count: 1, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "4661521EFFC40133"
+					item: { count: 1, id: "ae2:quantum_link" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
+		}
 	]
 }
