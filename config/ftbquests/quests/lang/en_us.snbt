@@ -83,6 +83,11 @@
 		"&a    renewable source of dyes!"
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
+	quest.0BA9F73FFBAAB6E7.quest_desc: [
+		"As in previous tiers, our efforts have opened up new technology, this time in the form of advanced computer components. "
+		""
+		"Once you’re able to reliably craft these components, you should be ready to proceed on to the EV Tier."
+	]
 	quest.0BA9F73FFBAAB6E7.title: "Advanced Computing"
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
