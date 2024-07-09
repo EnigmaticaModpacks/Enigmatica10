@@ -19,7 +19,7 @@
     },
     "hover_text": {
         "key": "packmenu.enigmatica.wiki",
-        "y_offset": -3,
+        "y_offset": 1,
         "x_offset": 11
     },
     "sprites": {

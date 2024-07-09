@@ -18,7 +18,7 @@
     },
     "hover_text": {
         "key": "packmenu.enigmatica.quit",
-        "y_offset": -3,
+        "y_offset": 1,
         "x_offset": 11
     },
     "sprites": {
