@@ -1,15 +1,25 @@
 {
-    "x": 115,
+    "x": 95,
     "y": 270,
-    "width": 20,
+    "width": 22,
     "height": 20,
     "action": {
         "type": "packmenu:open_screen",
         "screen": "accessibility"
     },
+    "icon": {
+        "texture": "enigmatica:icon/accessibility",
+        "width": 22,
+        "height": 20
+    },
+    "hover_icon": {
+        "texture": "enigmatica:icon/accessibility_hover",
+        "width": 22,
+        "height": 20
+    },
     "anchor": "top_left",
     "sprites": {
-        "enabled": "enigmatica:icon/accessibility",
-        "enabled_focused": "enigmatica:icon/accessibility_focused"
+        "enabled": "enigmatica:widget/small_button_normal",
+        "enabled_focused": "enigmatica:widget/small_button_hover"
     }
 }

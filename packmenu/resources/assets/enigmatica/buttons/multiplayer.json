@@ -1,18 +1,29 @@
 {
-    "x": 0,
+    "x": 20,
     "y": 95,
-    "width": 175,
+    "width": 170,
     "height": 20,
+    "icon": {
+        "texture": "enigmatica:icon/multiplayer",
+        "width": 170,
+        "height": 20
+    },
     "action": {
         "type": "packmenu:open_screen",
         "screen": "multiplayer"
     },
     "anchor": "top_left",
     "text": {
-        "key": "packmenu.enigmatica.multiplayer"
+        "key": "packmenu.enigmatica.multiplayer",
+        "x_offset": 11
+    },
+    "hover_text": {
+        "key": "packmenu.enigmatica.multiplayer",
+        "y_offset": 1,
+        "x_offset": 11
     },
     "sprites": {
-        "enabled": "enigmatica:icon/multiplayer",
-        "enabled_focused": "enigmatica:icon/multiplayer_focused"
+        "enabled": "enigmatica:widget/button_normal",
+        "enabled_focused": "enigmatica:widget/button_hover"
     }
 }

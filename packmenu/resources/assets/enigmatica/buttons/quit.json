@@ -1,17 +1,28 @@
 {
-    "x": 0,
+    "x": 20,
     "y": 245,
-    "width": 175,
+    "width": 170,
     "height": 20,
+    "icon": {
+        "texture": "enigmatica:icon/quit",
+        "width": 170,
+        "height": 20
+    },
     "action": {
         "type": "packmenu:quit"
     },
     "anchor": "top_left",
     "text": {
-        "key": "packmenu.enigmatica.quit"
+        "key": "packmenu.enigmatica.quit",
+        "x_offset": 11
+    },
+    "hover_text": {
+        "key": "packmenu.enigmatica.quit",
+        "y_offset": 1,
+        "x_offset": 11
     },
     "sprites": {
-        "enabled": "enigmatica:icon/quit",
-        "enabled_focused": "enigmatica:icon/quit_focused"
+        "enabled": "enigmatica:widget/button_normal",
+        "enabled_focused": "enigmatica:widget/button_hover"
     }
 }

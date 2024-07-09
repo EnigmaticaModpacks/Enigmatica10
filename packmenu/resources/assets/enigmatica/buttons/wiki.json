@@ -1,18 +1,29 @@
 {
-    "x": 0,
+    "x": 20,
     "y": 220,
-    "width": 175,
+    "width": 170,
     "height": 20,
+    "icon": {
+        "texture": "enigmatica:icon/wiki",
+        "width": 170,
+        "height": 20
+    },
     "action": {
         "type": "packmenu:open_url",
         "url": "https://wiki.enigmatica.net"
     },
     "anchor": "top_left",
     "text": {
-        "key": "packmenu.enigmatica.wiki"
+        "key": "packmenu.enigmatica.wiki",
+        "x_offset": 11
+    },
+    "hover_text": {
+        "key": "packmenu.enigmatica.wiki",
+        "y_offset": 1,
+        "x_offset": 11
     },
     "sprites": {
-        "enabled": "enigmatica:icon/wiki",
-        "enabled_focused": "enigmatica:icon/wiki_focused"
+        "enabled": "enigmatica:widget/button_normal",
+        "enabled_focused": "enigmatica:widget/button_hover"
     }
 }
