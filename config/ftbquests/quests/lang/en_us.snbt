@@ -83,6 +83,12 @@
 		"&a    renewable source of dyes!"
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
+	quest.0BA9F73FFBAAB6E7.quest_desc: [
+		"As in previous tiers, our efforts have opened up new technology, this time in the form of advanced computer components. "
+		""
+		"Once you’re able to reliably craft these components, you should be ready to proceed on to the EV Tier."
+	]
+	quest.0BA9F73FFBAAB6E7.title: "Advanced Computing"
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
@@ -330,6 +336,11 @@
 		"Later, both of these machines will find use in more advanced processes, including more advanced ore processing and nuclear energy!"
 	]
 	quest.1E2327FB6801D209.title: "Ethene"
+	quest.1E78584388808899.quest_desc: [
+		"Finally a multiblock to replace all of those individual turbines you’ve been using. "
+		""
+		"The Large Steam Turbine will be somewhat limited right now, seeing as the best we can do is an HV Energy Hatch, but it will be able to grow as your base grows. "
+	]
 	quest.20877ECE7619845D.quest_desc: [
 		"Fully converting over to MV may take a little longer than the conversion from Steam to LV. "
 		""
@@ -493,6 +504,18 @@
 		""
 		"Be prepared for a lot of exploration to get a full set! We’ll get you started with an extra to call your own, however. "
 	]
+	quest.3456EED039818662.quest_desc: [
+		"The Quantum Bridge is a multiblock used for expanding your network cross-dimensionally. It consists of a ring of eight Quantum Rings and a Quantum Link Chamber set in the center."
+		""
+		"In most cases, you’ll need one at both ends with a linked pair of Entangled Singularities in each. However, there exists the very handy Quantum Bridge Card which may be installed in your Wireless Terminal, allowing it to link up to a Quantum Bridge as well. "
+		""
+		"This means infinite cross-dimensional access to your home network at the tips of your fingers!"
+		""
+		"&a🛈 Tip: Name your Entangled "
+		"&a    Singularities to help you remember "
+		"&a    which ones go where."
+	]
+	quest.3456EED039818662.title: "Quantum Bridge"
 	quest.349B97172AB3E56E.quest_desc: ["Like the Centrifuge, the Electrolyzer helps us break down materials into others, such as recovering some aluminum from Lapis and Emerald Dusts. It will also find use in various fluid transformations very soon."]
 	quest.34E95009CEB72776.quest_desc: [
 		"A Magic Lamp provides Spirits with a comfortable interface between our world and theirs. By binding one to a lamp, they can be set to work mining for a period of time. "
@@ -509,6 +532,14 @@
 		""
 		"&6⚠ Note: Machines simply do not run if"
 		"&6    given the wrong tier of power."
+	]
+	quest.368DC26C96A32AB7.quest_desc: [
+		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
+		""
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
 	]
 	quest.375460FD4D4407FF.quest_desc: [
 		"A small personal pocket dimension to help keep you organized. "
@@ -582,6 +613,8 @@
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
 		""
+		"Ultimately, you will need five of these. It is recommended to start off with four right now, however, as the fifth will require more precious materials to operate."
+		""
 		"&a🛈 Tip: Place the controller block, then "
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
@@ -610,6 +643,16 @@
 	]
 	quest.3CA4472228D0F866.title: "ME Networks"
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
+	quest.3D334F8BDD0E4046.quest_desc: [
+		"The Pressurizer should be the first stop after manufacturing Titanium. "
+		""
+		"It’ll be used to upgrade our power generation, as well as granting access to new materials. Notably, Liquid Air which will be centrifuged for Argon and Nitrogen; both of which are used to enable more advanced electronics."
+		""
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
+	]
 	quest.3D4F8ED65C176071.quest_desc: [
 		"Steam Turbines usher in a new age of power and productivity. "
 		""
@@ -880,6 +923,18 @@
 		"These are a great way to buffer items between machines in Modern Industrialization, or to hook up to Applied Energistics to hold all of those Copper Ingots you’re hoarding."
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
+	quest.4CB37C07E76303A6.quest_desc: [
+		"Crafting the Implosion Compressor is going to require a new alloy, Blastproof Alloy. Once the machine is built it can be used to greatly simplify the process. For now, however, you’ll need to do things the hard way."
+		""
+		"Titanium and Stainless Steel shouldn’t be an issue at this point, but Tungsten will be. "
+		""
+		"For now, the best way to obtain it will be by the nugget: Tiny Tungsten Dust can be compressed in an Electric Compressor to obtain Tungsten Nuggets. These can then be crafted into the Ingots you’ll need."
+		""
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
+	]
 	quest.4E7DA28C54FB8766.quest_desc: [
 		"These materials can frequently take a great deal of time to find by exploring alone. "
 		""
@@ -957,6 +1012,22 @@
 		"&a    further along the network!"
 	]
 	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
+	quest.5521F91C980C5007.quest_desc: [
+		"The Heat Exchanger will soon replace the Vacuum Freezer for many recipes which require cooling. However, it plays a critical role in expanding our current power generation capabilities."
+		""
+		"First, use a Pressurizer to obtain some High Pressure Water. This process is slow, but the HP Water will be recycled during this process."
+		""
+		"Next, the HP Water will be input into a High Pressure Large Steam Boiler; it won’t accept regular water. This results in High Pressure Steam."
+		""
+		"Now the HP Steam and normal Water may be input into the Heat Exchanger. Those will result in HP Water and a bunch of regular Steam to turn a Turbine."
+		""
+		"Finally, the resulting HP Water can be looped back to the HP Large Steam Boiler.This entire loop should be lossless, so the Pressurizer will only be required to get it started."
+		""
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
+	]
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
 		""
@@ -1134,6 +1205,7 @@
 		""
 		"Consider making a small batch here and automating later."
 	]
+	quest.6133CA58FE668DA6.title: "Analog Circuitry"
 	quest.626E31B97CA1F815.quest_desc: [
 		"While capable of producing enormous power, the allure of Fission Reactors within Mekanism is mostly to process Uranium into more useful materials, like Plutonium and Polonium. "
 		""
@@ -1259,6 +1331,13 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
+	quest.6AFB99D4F0107184.quest_desc: [
+		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
+		""
+		"The ores mined with it in the Quarry are vital to this stage of production, so that should be a priority."
+		""
+		"They also allow us to obtain Shale Oil, which would be used in that 5th refinery, however this won’t give us access to anything new, just an alternate source of Helium."
+	]
 	quest.6AFCA9F187AE6EB2.quest_desc: [
 		"The Building section covers mods and tools to help you build up or tear down. "
 		""
@@ -1483,7 +1562,12 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.7B5EB5D6F749520F.title: "Thermoelectric Boiler"
-	quest.7BEE7FAD21AFEB68.quest_desc: ["With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "]
+	quest.7BEE7FAD21AFEB68.quest_desc: [
+		"With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. "
+		""
+		"As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "
+	]
+	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
 	quest.7C71090829F8748A.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE."]
 	quest.7D4E0F2BF07D3223.quest_desc: [
 		"Making Purple Chalk will need some slightly more exotic materials. However, one needn’t run off to The End just for End Stone."
@@ -1528,6 +1612,7 @@
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
 	reward_table.02545B33A0B47726.title: "Scavenger's Delight"
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
+	reward_table.0D9287B7A88E2255.title: "Epic Lootbox: Modern Industrialization"
 	reward_table.2806F6BEA4A73B0B.title: "Lootbox: Occultism"
 	reward_table.4AD226E979319EAB.title: "Rare Lootbox: Modern Industrialization"
 	reward_table.4C3908A1EDE782F7.title: "Alchemist's Delight"
