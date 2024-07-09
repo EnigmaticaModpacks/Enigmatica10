@@ -1,23 +1,29 @@
 {
-    "x": 0,
+    "x": 20,
     "y": 70,
-    "width": 175,
+    "width": 170,
     "height": 20,
+    "icon": {
+        "texture": "enigmatica:icon/singleplayer",
+        "width": 170,
+        "height": 20
+    },
     "action": {
         "type": "packmenu:open_screen",
         "screen": "singleplayer"
     },
-    "icon": {
-        "texture": "enigmatica:textures/singleplayer",
-        "width": 175,
-        "height": 20
-    },
     "anchor": "top_left",
     "text": {
-        "key": "packmenu.enigmatica.singleplayer"
+        "key": "packmenu.enigmatica.singleplayer",
+        "x_offset": 11
+    },
+    "hover_text": {
+        "key": "packmenu.enigmatica.singleplayer",
+        "y_offset": -3,
+        "x_offset": 11
     },
     "sprites": {
-        "enabled": "enigmatica:icon/singleplayer",
-        "enabled_focused": "enigmatica:icon/singleplayer_focused"
+        "enabled": "enigmatica:widget/button_normal",
+        "enabled_focused": "enigmatica:widget/button_hover"
     }
 }

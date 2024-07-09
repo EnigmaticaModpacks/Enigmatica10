@@ -1,23 +1,29 @@
 {
-    "x": 0,
+    "x": 20,
     "y": 145,
-    "width": 175,
+    "width": 170,
     "height": 20,
+    "icon": {
+        "texture": "enigmatica:icon/options",
+        "width": 170,
+        "height": 20
+    },
     "action": {
         "type": "packmenu:open_screen",
         "screen": "options"
     },
-    "icon": {
-        "texture": "enigmatica:textures/options",
-        "width": 175,
-        "height": 20
-    },
     "anchor": "top_left",
     "text": {
-        "key": "packmenu.enigmatica.options"
+        "key": "packmenu.enigmatica.options",
+        "x_offset": 11
+    },
+    "hover_text": {
+        "key": "packmenu.enigmatica.options",
+        "y_offset": -3,
+        "x_offset": 11
     },
     "sprites": {
-        "enabled": "enigmatica:icon/options",
-        "enabled_focused": "enigmatica:icon/options_focused"
+        "enabled": "enigmatica:widget/button_normal",
+        "enabled_focused": "enigmatica:widget/button_hover"
     }
 }
