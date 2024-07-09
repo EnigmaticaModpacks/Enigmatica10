@@ -1,16 +1,11 @@
 {
-    "x": 134,
+    "x": 115,
     "y": 270,
     "width": 20,
     "height": 20,
     "action": {
         "type": "packmenu:open_screen",
         "screen": "accessibility"
-    },
-    "icon": {
-        "texture": "enigmatica:icon/accessibility",
-        "width": 20,
-        "height": 20
     },
     "anchor": "top_left",
     "sprites": {
