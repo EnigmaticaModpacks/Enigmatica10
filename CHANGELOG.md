@@ -4,7 +4,7 @@ NeoForge-1.21.0-21.0.53 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### ✔️ Added Mods
 
-* [Apothic Spawners](https://www.curseforge.com/minecraft/mc-mods/apothic-spawners) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+  * [Apothic Spawners](https://www.curseforge.com/minecraft/mc-mods/apothic-spawners) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
   * [Chipped](https://www.curseforge.com/minecraft/mc-mods/chipped) (by [terrariumearth](https://www.curseforge.com/members/terrariumearth/projects))
   * [ChocoCraft](https://www.curseforge.com/minecraft/mc-mods/chococraft) (by [clienthax](https://www.curseforge.com/members/clienthax/projects))
   * [Comforts (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/comforts) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
