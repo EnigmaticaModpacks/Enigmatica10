@@ -1,23 +1,29 @@
 {
-    "x": 0,
+    "x": 20,
     "y": 120,
-    "width": 175,
+    "width": 170,
     "height": 20,
+    "icon": {
+        "texture": "enigmatica:icon/server",
+        "width": 170,
+        "height": 20
+    },
     "action": {
         "type": "packmenu:open_url",
         "url": "https://www.bisecthosting.com/enigmatica"
     },
-    "icon": {
-        "texture": "enigmatica:textures/bisect",
-        "width": 175,
-        "height": 20
-    },
     "anchor": "top_left",
     "text": {
-        "key": "packmenu.enigmatica.bisect"
+        "key": "packmenu.enigmatica.bisect",
+        "x_offset": 11
+    },
+    "hover_text": {
+        "key": "packmenu.enigmatica.bisect",
+        "y_offset": -3,
+        "x_offset": 11
     },
     "sprites": {
-        "enabled": "enigmatica:icon/bisect",
-        "enabled_focused": "enigmatica:icon/bisect_focused"
+        "enabled": "enigmatica:widget/button_normal",
+        "enabled_focused": "enigmatica:widget/button_hover"
     }
 }
