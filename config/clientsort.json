@@ -3,6 +3,10 @@
     "interactionRateServer": 10,
     "interactionRateClient": 1,
     "hotbarMode": "SOFT",
+    "sortModeStr": "creative",
+    "shiftSortModeStr": "quantity",
+    "ctrlSortModeStr": "alphabet",
+    "altSortModeStr": "raw_id",
     "optimizedCreativeSorting": true
   }
 }
