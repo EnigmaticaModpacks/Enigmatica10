@@ -128,7 +128,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["397D4765002935F2"]
@@ -268,7 +268,7 @@
 				}
 			]
 			x: 3.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["23BC0F0C51F64721"]
@@ -337,7 +337,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["67782CB855950CD6"]
@@ -372,7 +372,7 @@
 				}
 			]
 			x: 5.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["434D90BB00EE7F7C"]
@@ -572,7 +572,7 @@
 				}
 			]
 			x: 3.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["65996A36FB1B58B0"]
@@ -676,7 +676,7 @@
 				}
 			]
 			x: 3.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["626E31B97CA1F815"]
@@ -745,7 +745,7 @@
 				}
 			]
 			x: 1.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5DB469A00A023DCF"]
@@ -787,7 +787,7 @@
 				}
 			]
 			x: 1.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["176DAF596793D4FF"]
@@ -827,7 +827,7 @@
 				}
 			]
 			x: 4.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["176DAF596793D4FF"]
@@ -863,7 +863,46 @@
 				}
 			]
 			x: 2.0d
-			y: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["65996A36FB1B58B0"]
+			icon: {
+				id: "mekanism:thermal_evaporation_controller"
+			}
+			id: "48198EAAB356C92C"
+			rewards: [{
+				id: "7BD07AF9636EF382"
+				item: {
+					count: 1
+					id: "mekanism:resistive_heater"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F31C17E41769853"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					id: "70BB542653B6BA82"
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					id: "564CD63CB474D6F4"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					id: "276A25EDC3D7023A"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.0d
 		}
 	]
 }

@@ -81,29 +81,8 @@
 					type: "item"
 				}
 				{
-					count: 20L
 					id: "39F349883C884A43"
 					item: { count: 1, id: "minecraft:bricks" }
-					type: "item"
-				}
-				{
-					id: "553E25322A790042"
-					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "21C1B8FE7BFB5CF9"
-					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
-					type: "item"
-				}
-				{
-					id: "7D9F6A5102E04534"
-					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
-					type: "item"
-				}
-				{
-					id: "2EF1717F1291EB34"
-					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
 					type: "item"
 				}
 			]
@@ -356,24 +335,8 @@
 					type: "item"
 				}
 				{
-					count: 29L
 					id: "701146CFFD6D94CA"
 					item: { count: 32, id: "modern_industrialization:fire_clay_bricks" }
-					type: "item"
-				}
-				{
-					id: "50E4677D05C77D61"
-					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "633005C898E9C7EC"
-					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
-					type: "item"
-				}
-				{
-					id: "6C6DD2A732A140AA"
-					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
 					type: "item"
 				}
 			]
@@ -451,37 +414,18 @@
 					type: "item"
 				}
 				{
-					count: 4L
 					id: "028E8345B00CE757"
 					item: { count: 4, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
-					count: 10L
 					id: "12416902271EF338"
 					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
 					type: "item"
 				}
 				{
-					count: 6L
 					id: "2EAD95D10A763D23"
 					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
-					type: "item"
-				}
-				{
-					id: "405C243C94CCA478"
-					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0D9BB452069E8816"
-					item: { count: 4, id: "modern_industrialization:steel_item_output_hatch" }
-					type: "item"
-				}
-				{
-					id: "58B37CCCE0926B85"
-					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
 					type: "item"
 				}
 			]
@@ -627,36 +571,18 @@
 					type: "item"
 				}
 				{
-					count: 2L
 					id: "7F09B6778FE414A6"
-					item: { count: 2, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
-					count: 24L
 					id: "17E35271C6220DAF"
-					item: { count: 24, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
-					count: 6L
 					id: "539D2A198E81A177"
-					item: { count: 6, id: "modern_industrialization:heatproof_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "2394A9D237C37926"
-					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "4DD9E98EAB7D70B5"
-					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "3238695AEF67C42A"
-					item: { count: 1, id: "modern_industrialization:steel_fluid_output_hatch" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -753,18 +679,11 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "1156B9E640E13F73"
-					item: { count: 1, id: "modern_industrialization:electric_quarry" }
-					type: "item"
-				}
-				{
-					id: "34714291199ECE5B"
-					item: { count: 1, id: "modern_industrialization:mv_energy_input_hatch" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1156B9E640E13F73"
+				item: { count: 1, id: "modern_industrialization:electric_quarry" }
+				type: "item"
+			}]
 			x: 14.5d
 			y: 0.5d
 		}
@@ -796,21 +715,6 @@
 					count: 14L
 					id: "0D1F5A62CFADE179"
 					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "74C686F61A599092"
-					item: { count: 1, id: "modern_industrialization:lv_energy_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "3AA6E391E406BDEF"
-					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "50583AD666E1FBD8"
-					item: { count: 1, id: "modern_industrialization:steel_item_output_hatch" }
 					type: "item"
 				}
 			]
@@ -934,39 +838,19 @@
 				{
 					count: 3L
 					id: "5C8B3EF30A8E2837"
-					item: { count: 3, id: "modern_industrialization:bronze_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "34B23E79AC558295"
-					item: { count: 32, id: "modern_industrialization:bronze_plated_bricks" }
+					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "72AE860FE04F9AB3"
-					item: { count: 6, id: "modern_industrialization:heatproof_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "076DA21D1341120B"
-					item: { count: 1, id: "modern_industrialization:mv_energy_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "0304D5EEDB9D365D"
-					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "1FE35290205A9413"
-					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "370635316199235B"
-					item: { count: 1, id: "modern_industrialization:steel_fluid_output_hatch" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -1039,36 +923,18 @@
 					type: "item"
 				}
 				{
-					count: 18L
 					id: "039316D1F2EEC71A"
-					item: { count: 18, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
-					count: 6L
 					id: "47818B63C77A51F6"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
-					count: 33L
 					id: "6FCAD97D637E0502"
 					item: { count: 1, id: "modern_industrialization:steel_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "2095C5D96616293F"
-					item: { count: 1, id: "modern_industrialization:mv_energy_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "22B704809B5E9477"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
-					type: "item"
-				}
-				{
-					id: "579EB512FA47B928"
-					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
 					type: "item"
 				}
 			]
@@ -1347,25 +1213,13 @@
 					type: "item"
 				}
 				{
-					count: 15L
 					id: "193C09EBB4D7521F"
 					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
-					count: 18L
 					id: "097CEAFDA1D46789"
 					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
-					type: "item"
-				}
-				{
-					id: "29A741648331AADE"
-					item: { count: 1, id: "modern_industrialization:hv_energy_output_hatch" }
-					type: "item"
-				}
-				{
-					id: "4B9E874CCC4978D8"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_input_hatch" }
 					type: "item"
 				}
 			]
@@ -1414,30 +1268,13 @@
 					type: "item"
 				}
 				{
-					count: 10L
 					id: "27A2D73E1D722F1F"
-					item: { count: 10, id: "modern_industrialization:solid_titanium_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:solid_titanium_machine_casing" }
 					type: "item"
 				}
 				{
-					count: 9L
 					id: "516169F8D3BCBB0A"
-					item: { count: 9, id: "modern_industrialization:titanium_machine_casing_pipe" }
-					type: "item"
-				}
-				{
-					id: "63F9A4C6451AC97B"
-					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "18DFB09A917770E4"
-					item: { count: 1, id: "modern_industrialization:hv_energy_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "77D89BC22024EDC6"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					item: { count: 1, id: "modern_industrialization:titanium_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -1457,38 +1294,18 @@
 					type: "item"
 				}
 				{
-					count: 21L
 					id: "5FCA406D6E40052B"
-					item: { count: 21, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
 					type: "item"
 				}
 				{
-					count: 9L
 					id: "61A17F48E83288C2"
-					item: { count: 9, id: "modern_industrialization:frostproof_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
 					type: "item"
 				}
 				{
-					count: 9L
 					id: "77C739B8C1DA7495"
-					item: { count: 9, id: "modern_industrialization:heatproof_machine_casing" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "64BD2C1BD3259016"
-					item: { count: 2, id: "modern_industrialization:advanced_fluid_output_hatch" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "2CF9EF3BFCD161A0"
-					item: { count: 2, id: "modern_industrialization:advanced_fluid_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "27D7532A071A39A5"
-					item: { count: 1, id: "modern_industrialization:hv_energy_input_hatch" }
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 			]
@@ -1508,36 +1325,18 @@
 					type: "item"
 				}
 				{
-					count: 24L
 					id: "78E3973B7BF97288"
-					item: { count: 24, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
-					count: 6L
 					id: "0B37160E1DCF981E"
 					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
-					count: 2L
 					id: "56B3B06F632E85B4"
-					item: { count: 2, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
-					type: "item"
-				}
-				{
-					id: "444CB85ABC35AA64"
-					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "2432F12BBD86BCA5"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_input_hatch" }
-					type: "item"
-				}
-				{
-					id: "68F8AB2C2B9B3736"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
 					type: "item"
 				}
 			]
