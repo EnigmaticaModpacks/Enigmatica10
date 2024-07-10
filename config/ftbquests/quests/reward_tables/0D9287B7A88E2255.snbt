@@ -7,42 +7,14 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "0D9287B7A88E2255"
-	loot_size: 4
+	loot_size: 2
 	order_index: 11
 	rewards: [
 		{ count: 8, item: { count: 1, id: "modern_industrialization:advanced_upgrade" } }
-		{
-			count: 16
-			item: {
-				count: 1
-				id: "modern_industrialization:electronic_circuit"
-			}
-			random_bonus: 16
-		}
-		{
-			count: 8
-			item: {
-				count: 1
-				id: "modern_industrialization:aluminum_rotor"
-			}
-			random_bonus: 8
-		}
-		{
-			count: 4
-			item: {
-				count: 1
-				id: "modern_industrialization:advanced_machine_hull"
-			}
-			random_bonus: 4
-		}
-		{
-			count: 16
-			item: {
-				count: 1
-				id: "modern_industrialization:aluminum_cable"
-			}
-			random_bonus: 16
-		}
+		{ count: 8, item: { count: 1, id: "modern_industrialization:turbo_machine_hull" } }
+		{ count: 16, item: { count: 1, id: "modern_industrialization:aluminum_cable" } }
+		{ count: 8, item: { count: 1, id: "modern_industrialization:electronic_circuit" } }
+		{ count: 8, item: { count: 1, id: "modern_industrialization:advanced_motor" } }
 	]
 	use_title: true
 }

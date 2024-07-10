@@ -329,7 +329,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3FDE5C157D068494"
-				table_id: 8339734783499199563L
+				table_id: 5391414488118435499L
 				type: "loot"
 			}]
 			tasks: [
@@ -353,7 +353,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7760A6A3A05B3D68"
-				table_id: 8339734783499199563L
+				table_id: 5391414488118435499L
 				type: "loot"
 			}]
 			tasks: [{
@@ -370,14 +370,22 @@
 				id: "modern_industrialization:steel_upgrade"
 			}
 			id: "487C1E9850772F38"
-			rewards: [{
-				id: "26A9CAD6C71C615C"
-				item: {
-					count: 1
-					id: "modern_industrialization:steel_upgrade"
+			rewards: [
+				{
+					id: "26A9CAD6C71C615C"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_upgrade"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "50D5ABDDED4BBF69"
+					table_id: 5391414488118435499L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1F31C24E5AC06E7F"
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
@@ -409,6 +417,12 @@
 						id: "modern_industrialization:redstone_control_module"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "025DAFD16AA4E32B"
+					table_id: 5391414488118435499L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -452,7 +466,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "7EEDA3BEAC6782F3"
-					table_id: 8339734783499199563L
+					table_id: 5391414488118435499L
 					type: "loot"
 				}
 			]
@@ -473,7 +487,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2948C821A5C3AC36"
-				table_id: 5391414488118435499L
+				table_id: 5926445192543217713L
 				type: "loot"
 			}]
 			tasks: [
@@ -528,6 +542,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2B8A84A5462A8456"
+					table_id: 5926445192543217713L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "1800885FE461A754"
@@ -543,7 +563,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "54A3364EA0D98636"
-				table_id: 5391414488118435499L
+				table_id: 5926445192543217713L
 				type: "loot"
 			}]
 			tasks: [{
@@ -560,14 +580,22 @@
 				id: "modern_industrialization:large_steam_boiler"
 			}
 			id: "730D1F506B88FEEF"
-			rewards: [{
-				id: "634DD9E6F66BEC21"
-				item: {
-					count: 1
-					id: "modern_industrialization:lv_steam_turbine"
+			rewards: [
+				{
+					id: "634DD9E6F66BEC21"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_steam_turbine"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5CB0ACC24573576A"
+					table_id: 5926445192543217713L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "191F3DC98D64F912"
@@ -609,7 +637,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "702EB8E6CE7F7652"
-					table_id: 5391414488118435499L
+					table_id: 5926445192543217713L
 					type: "loot"
 				}
 			]
@@ -624,15 +652,23 @@
 		{
 			dependencies: ["3F30CC32709BE5DD"]
 			id: "1A650F4235F6204A"
-			rewards: [{
-				count: 6
-				id: "11D88E3F2E82551A"
-				item: {
-					count: 1
-					id: "modern_industrialization:basic_machine_hull"
+			rewards: [
+				{
+					count: 6
+					id: "11D88E3F2E82551A"
+					item: {
+						count: 1
+						id: "modern_industrialization:basic_machine_hull"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1904DF64EEBA2D13"
+					table_id: 5926445192543217713L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "121F16F0C2DCAA73"
@@ -674,15 +710,23 @@
 				id: "modern_industrialization:steel_drill"
 			}
 			id: "4A8EF3D657CEAED5"
-			rewards: [{
-				count: 2
-				id: "42F5FA7D0843F5FB"
-				item: {
-					count: 1
-					id: "modern_industrialization:steel_drill"
+			rewards: [
+				{
+					count: 2
+					id: "42F5FA7D0843F5FB"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_drill"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7B876966ED69FB0D"
+					table_id: 4146010247050737748L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1156B9E640E13F73"
 				item: { count: 1, id: "modern_industrialization:electric_quarry" }
@@ -700,7 +744,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "72218BFAD54FAFD0"
-				table_id: 5391414488118435499L
+				table_id: 5926445192543217713L
 				type: "loot"
 			}]
 			tasks: [
@@ -734,7 +778,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "51BD23EFFF631C84"
-				table_id: 5391414488118435499L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
 			tasks: [
@@ -768,7 +812,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1948EEA7C8188CC6"
-				table_id: 977993291969471061L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
 			tasks: [{
@@ -810,6 +854,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7B91AA6EEAA5EAE0"
+					table_id: 4146010247050737748L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "774B970BD3695655"
@@ -825,14 +875,22 @@
 				id: "modern_industrialization:advanced_large_steam_boiler"
 			}
 			id: "0D80520D08A5C287"
-			rewards: [{
-				id: "3175A49666CE731A"
-				item: {
-					count: 1
-					id: "modern_industrialization:mv_steam_turbine"
+			rewards: [
+				{
+					id: "3175A49666CE731A"
+					item: {
+						count: 1
+						id: "modern_industrialization:mv_steam_turbine"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "29202223C4DFA455"
+					table_id: 4146010247050737748L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "705A91CFD57CAFD7"
@@ -867,7 +925,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2DAF3312E78645F6"
-				table_id: 977993291969471061L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
 			tasks: [{
@@ -884,7 +942,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "77A830644A31A332"
-				table_id: 977993291969471061L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
 			tasks: [{
@@ -919,6 +977,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2309880D625DBFAD"
+					table_id: 4146010247050737748L
+					type: "loot"
+				}
 			]
 			tasks: [
 				{
@@ -951,7 +1015,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3FED3214E019BF25"
-				table_id: 977993291969471061L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
 			tasks: [{
@@ -971,7 +1035,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7D5AB3435857FA0C"
-				table_id: 977993291969471061L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
 			tasks: [{
@@ -998,7 +1062,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "33BA3B54F35F087A"
-					table_id: 977993291969471061L
+					table_id: 4146010247050737748L
 					type: "loot"
 				}
 			]
@@ -1015,18 +1079,28 @@
 				"349B97172AB3E56E"
 				"4EC7DD1B35F0B6B5"
 			]
+			icon: {
+				id: "modern_industrialization:vacuum_freezer"
+			}
 			id: "13D810A6AB4FACC0"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4104FEBDE9BB66F2"
-				table_id: 977993291969471061L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
-			tasks: [{
-				id: "39A3DA51510E59D3"
-				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "39A3DA51510E59D3"
+					item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
+					type: "item"
+				}
+				{
+					id: "4C7E83C011BB0CB4"
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 3.5d
 		}
@@ -1049,7 +1123,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "12E1AEE7846D90D7"
-					table_id: 977993291969471061L
+					table_id: 4146010247050737748L
 					type: "loot"
 				}
 			]
@@ -1131,6 +1205,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "32DB7A8340762068"
+					table_id: 977993291969471061L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "656EE38D0B267D2C"
@@ -1143,15 +1223,23 @@
 		{
 			dependencies: ["69AAE7C502629B3E"]
 			id: "5D52341DC77AFE8D"
-			rewards: [{
-				count: 16
-				id: "0F2B72717E4F292B"
-				item: {
-					count: 1
-					id: "modern_industrialization:annealed_copper_cable"
+			rewards: [
+				{
+					count: 16
+					id: "0F2B72717E4F292B"
+					item: {
+						count: 1
+						id: "modern_industrialization:annealed_copper_cable"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "11E4D3C75B4BF007"
+					table_id: 977993291969471061L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "37CF9FC4745BF665"
 				item: { count: 1, id: "modern_industrialization:hv_ev_transformer" }
@@ -1166,7 +1254,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "758C616FE44C8E51"
-				table_id: 977993291969471061L
+				table_id: 4146010247050737748L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1210,6 +1298,12 @@
 				id: "modern_industrialization:large_steam_turbine"
 			}
 			id: "1E78584388808899"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "130D837F984B6C69"
+				table_id: 977993291969471061L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "28429AC2EC135C6F"
@@ -1233,6 +1327,23 @@
 		{
 			dependencies: ["69AAE7C502629B3E"]
 			id: "6AFB99D4F0107184"
+			rewards: [
+				{
+					count: 8
+					id: "146BEACDE6FE3CE8"
+					item: {
+						count: 1
+						id: "modern_industrialization:stainless_steel_drill"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "120EE4FECD219F54"
+					table_id: 977993291969471061L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "25630F1542E37E5E"
 				item: { count: 1, id: "modern_industrialization:stainless_steel_drill" }
@@ -1264,6 +1375,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "042068891938B5A3"
+					table_id: 977993291969471061L
+					type: "loot"
+				}
 			]
 			tasks: [
 				{
@@ -1291,6 +1408,12 @@
 				id: "modern_industrialization:heat_exchanger"
 			}
 			id: "5521F91C980C5007"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CC9564218150284"
+				table_id: 977993291969471061L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "546451E4D4FAE076"
@@ -1322,6 +1445,12 @@
 				id: "modern_industrialization:high_pressure_large_steam_boiler"
 			}
 			id: "368DC26C96A32AB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5890BB137218BAE0"
+				table_id: 977993291969471061L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "496CA894C1437908"
@@ -1353,6 +1482,12 @@
 				id: "modern_industrialization:processing_unit"
 			}
 			id: "0BA9F73FFBAAB6E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F6A6AFDF44A0555"
+				table_id: 2285934173582460935L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "05CBF0FE66AEEF91"
@@ -1389,6 +1524,12 @@
 				id: "modern_industrialization:implosion_compressor"
 			}
 			id: "4CB37C07E76303A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75AD975E3D1EAA45"
+				table_id: 977993291969471061L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "1C272CE7B5A54E18"
@@ -1440,6 +1581,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1E32EA22B2684C8E"
+					table_id: 2285934173582460935L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "66A62DF74144E91E"
@@ -1452,15 +1599,23 @@
 		{
 			dependencies: ["70C8E621A4B76BD6"]
 			id: "760BD47C6B67D645"
-			rewards: [{
-				count: 16
-				id: "507D906125CAD260"
-				item: {
-					count: 1
-					id: "modern_industrialization:superconductor_cable"
+			rewards: [
+				{
+					count: 16
+					id: "507D906125CAD260"
+					item: {
+						count: 1
+						id: "modern_industrialization:superconductor_cable"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "18877954189F3BC2"
+					table_id: 2285934173582460935L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "28B8C3FB0B99EEF9"
 				item: { count: 1, id: "modern_industrialization:ev_superconductor_transformer" }
@@ -1472,15 +1627,23 @@
 		{
 			dependencies: ["70C8E621A4B76BD6"]
 			id: "0CBCE3A0D149AED0"
-			rewards: [{
-				count: 16
-				id: "4483E30CD8C65961"
-				item: {
-					count: 1
-					id: "modern_industrialization:uranium_fuel_rod"
+			rewards: [
+				{
+					count: 16
+					id: "4483E30CD8C65961"
+					item: {
+						count: 1
+						id: "modern_industrialization:uranium_fuel_rod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "4343B90B204A73B5"
+					table_id: 2285934173582460935L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "00FE2EB65118A7A9"
@@ -1561,6 +1724,12 @@
 		{
 			dependencies: ["70C8E621A4B76BD6"]
 			id: "042650AE25DAC4CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AD13DE81C074F18"
+				table_id: 2285934173582460935L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "2D420AE9F31D5BF9"

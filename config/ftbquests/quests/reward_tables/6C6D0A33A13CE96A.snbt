@@ -7,7 +7,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "6C6D0A33A13CE96A"
-	loot_size: 1
+	loot_size: 2
 	order_index: 6
 	rewards: [
 		{ count: 8, item: { count: 1, id: "mekanism:basic_control_circuit" } }

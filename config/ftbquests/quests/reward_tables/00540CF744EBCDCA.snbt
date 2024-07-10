@@ -7,7 +7,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "00540CF744EBCDCA"
-	loot_size: 1
+	loot_size: 4
 	order_index: 1
 	rewards: [
 		{ count: 8, item: { count: 1, id: "minecraft:cooked_cod" } }
