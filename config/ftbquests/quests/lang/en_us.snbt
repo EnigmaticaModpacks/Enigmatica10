@@ -3,6 +3,8 @@
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.1A29B498BD263BEF.title: "Redstone"
+	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
+	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.3676C6A060A63447.title: "Theurgy"
 	chapter.402AE6264B81A84B.title: "Logistics"
@@ -77,7 +79,7 @@
 		""
 		"This chapter will help get you familiar with the new crafting mechanics it uses, as well as describe some of the more notable blocks."
 		""
-		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=inz9Jx9K9oc\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you're feeling lost.\"]"
+		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLvGYM7MCieIomj0tKtO9T5DUhvaYFjSxA\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you need a little extra help.\"]"
 	]
 	quest.062BB5F675CF9F45.title: "Just Dire Things"
 	quest.09E7D266A7724F09.quest_desc: [

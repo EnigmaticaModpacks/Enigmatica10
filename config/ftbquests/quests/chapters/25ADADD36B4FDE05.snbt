@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "just_dire_things"
+	filename: "25ADADD36B4FDE05"
 	group: "264B8D62983BEFB4"
 	icon: {
 		id: "justdirethings:machinesettingscopier"
@@ -18,6 +18,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "062BB5F675CF9F45"
+			rewards: [{
+				id: "7E4BA095DA3D9116"
+				item: {
+					count: 1
+					id: "justdirethings:ferricore_wrench"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E77920F150C9F9A"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -293,6 +301,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["2961B707783AC925"]
 			id: "7163E7EBDB861D72"
 			tasks: [{
 				id: "3FAF9DE9DBBA6228"
@@ -316,14 +325,6 @@
 		{
 			dependencies: ["76695BF2B0E70087"]
 			id: "692EDEAEC3F4A2AD"
-			rewards: [{
-				id: "51B0C692AFF149EC"
-				item: {
-					count: 1
-					id: "justdirethings:ferricore_wrench"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				count: 2L
 				id: "373B2E8167BD1121"
@@ -342,7 +343,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11EDFB60C787114D"]
