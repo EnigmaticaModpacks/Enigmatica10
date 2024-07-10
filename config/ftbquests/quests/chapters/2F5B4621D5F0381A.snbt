@@ -1582,6 +1582,9 @@
 		}
 		{
 			dependencies: ["70C8E621A4B76BD6"]
+			icon: {
+				id: "modern_industrialization:nuclear_reactor"
+			}
 			id: "0CBCE3A0D149AED0"
 			rewards: [
 				{
@@ -1621,6 +1624,9 @@
 		}
 		{
 			dependencies: ["35700C5AA357B012"]
+			icon: {
+				id: "modern_industrialization:fusion_reactor"
+			}
 			id: "66AE19141D8F5604"
 			rewards: [{
 				id: "453086E5A3E24509"
@@ -1665,6 +1671,9 @@
 		}
 		{
 			dependencies: ["66AE19141D8F5604"]
+			icon: {
+				id: "modern_industrialization:plasma_turbine"
+			}
 			id: "4CE66DC7BB1AC84B"
 			rewards: [{
 				id: "67EEACDF32ACF3C0"
@@ -1693,6 +1702,9 @@
 		}
 		{
 			dependencies: ["70C8E621A4B76BD6"]
+			icon: {
+				id: "modern_industrialization:high_pressure_advanced_large_steam_boiler"
+			}
 			id: "042650AE25DAC4CA"
 			rewards: [{
 				id: "2AD13DE81C074F18"
