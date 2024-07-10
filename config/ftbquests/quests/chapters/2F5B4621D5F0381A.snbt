@@ -13,7 +13,10 @@
 	quests: [
 		{
 			icon: {
-				id: "handcrafted:hammer"
+				components: {
+					"ftbquests:icon": "modern_industrialization:block/machines/nuclear_reactor/overlay_front_active"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "2A83BC699BE18F3A"
 			rewards: [{
@@ -25,11 +28,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "54D4D90621C89634"
-				type: "checkmark"
+				id: "42E9F9AE06C46A76"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 11.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2A83BC699BE18F3A"]

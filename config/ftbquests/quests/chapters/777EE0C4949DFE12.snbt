@@ -13,7 +13,10 @@
 	quests: [
 		{
 			icon: {
-				id: "handcrafted:hammer"
+				components: {
+					"ftbquests:icon": "ae2:item/singularity"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "7D82585D50D7207A"
 			rewards: [
@@ -35,11 +38,12 @@
 				}
 			]
 			tasks: [{
-				id: "0B20CB3AECE5EC6E"
-				type: "checkmark"
+				id: "444ABF0F1DA7E34B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7D82585D50D7207A"]
@@ -114,7 +118,7 @@
 				}
 			]
 			x: 1.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3E622F93756E9BFA"]
@@ -174,8 +178,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 2.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7220A9770C3E1C6F"]
@@ -223,7 +227,7 @@
 				}
 			]
 			x: 2.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A7AD25302240A1B"]
@@ -242,7 +246,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -266,7 +270,7 @@
 				}
 			]
 			x: 2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -298,7 +302,7 @@
 				}
 			]
 			x: 2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -327,7 +331,7 @@
 				}
 			]
 			x: 3.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -347,7 +351,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -366,7 +370,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -385,7 +389,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6F8C048404EAF9FF"]
@@ -412,7 +416,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -441,7 +445,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["631AA5AAA6EF687C"]
@@ -475,7 +479,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["52E79B2EB7400D13"]
@@ -505,7 +509,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["56DDD2327724F715"]
@@ -524,7 +528,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["52E79B2EB7400D13"]
@@ -558,7 +562,26 @@
 				}
 			]
 			x: 1.0d
-			y: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3E622F93756E9BFA"]
+			id: "653E696688BBBB12"
+			rewards: [{
+				id: "07F08BF3060918AA"
+				item: {
+					count: 1
+					id: "ae2:annihilation_plane"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "770D072B852591BF"
+				item: { count: 1, id: "ae2:sky_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 }
