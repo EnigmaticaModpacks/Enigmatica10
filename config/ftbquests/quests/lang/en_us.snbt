@@ -1289,19 +1289,11 @@
 		"&a    placed on Dense Cables."
 	]
 	quest.631AA5AAA6EF687C.quest_desc: [
-		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
-		""
-		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
-		""
 		"Pattern Providers are the network's means of interfacing with crafting machines. "
 		""
 		"For basic Crafting Patterns, such as you'd do at a Crafting Table, the Provider needs to be placed next to a Molecular Assembler. "
 		""
 		"For machine crafting, or Processing Patterns, the Provider should be placed facing that machine. It can also feed into any inventory and you can pipe items from there. For example, an array of Furnaces could be fed by a single Provider pushing into a chest. Pipes would then carry items and distribute them amongst the Furnaces."
-		""
-		"&n                                                  &r"
-		""
-		"We won’t fully cover Autocrafting in the quests here; it’s already explained quite well in the AE Guidebook. We will touch on a few key pieces, however."
 	]
 	quest.631AA5AAA6EF687C.title: "Autocrafting"
 	quest.63DDC1FFF52DC39F.quest_desc: [
@@ -1330,9 +1322,8 @@
 		"Getting more is quite simple, in fact, and you don’t even need to leave home. Just look to the skies themselves."
 		""
 		"Place an Annihilation Plane facing up at build limit (&aY=319&r) and it will slowly produce more of this precious material!"
-		""
-		"&a🛈 Tip: Fortune will speed this up!"
 	]
+	quest.653E696688BBBB12.title: "Farming Sky Stone"
 	quest.65996A36FB1B58B0.quest_desc: [
 		"The Enrichment Chamber is primarily used to make infusion materials stretch a bit further. "
 		""
@@ -1479,11 +1470,17 @@
 		"&a    speed them up."
 	]
 	quest.6F8C048404EAF9FF.quest_desc: [
+		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
+		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
+		""
 		"Pattern Terminals are used to set up autocrafting within Applied Energistics."
 		""
 		"In order to craft anything automatically, the system must first be taught the pattern. These patterns are configured at the Pattern Encoding Terminal."
 		""
 		"Those Patterns must then be put into a Pattern Provider. This can be done directly at the Provider, but a Pattern Access Terminal also gives you access to all of them in a single place for easy management."
+		"&n                                                  &r"
+		""
+		"We won’t fully cover Autocrafting in the quests here; it’s already explained quite well in the AE Guidebook. We will touch on a few key pieces, however."
 		""
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
