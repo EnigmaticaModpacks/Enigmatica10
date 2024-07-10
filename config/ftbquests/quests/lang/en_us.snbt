@@ -1317,9 +1317,9 @@
 	]
 	quest.6538BD86D9419DD4.title: "Theurgy"
 	quest.653E696688BBBB12.quest_desc: [
-		"You will have likely mined up a decent amount of Sky Stone when you found your first Meteorite and Certus Quartz. That supply may well be dwindling now too."
+		"You will have likely mined up a decent amount of Sky Stone when you found your first Meteorite and Certus Quartz. That supply won't last forever, however."
 		""
-		"Getting more is quite simple, in fact, and you don’t even need to leave home. Just look to the skies themselves."
+		"Thankfully, getting more is quite simple, and you don’t even need to leave home. Just look to the skies themselves."
 		"&n                                                  &r"
 		""
 		"Place an Annihilation Plane facing up at build limit (&aY=319&r) and it will slowly produce more of this precious material!"
