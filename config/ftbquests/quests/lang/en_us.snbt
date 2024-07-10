@@ -9,6 +9,7 @@
 	chapter.47870879D8E3742D.title: "Getting Started"
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
+	chapter.7CFAC3316D718D25.title: "ChocoCraft"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
@@ -170,6 +171,11 @@
 	]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
+	quest.10762E4BB7F187BE.quest_desc: [
+		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
+		""
+		"Feed them a Gysahl Cake to instantly grow them to adults!"
+	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
@@ -247,6 +253,11 @@
 		"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
 	]
 	quest.16C7D5478BF3D449.title: "Learning Mods"
+	quest.16E6C8143533F2C5.quest_desc: [
+		"Tamed Chocobos will occasionally shed a feather. These are used to craft Saddles as well as some very cute armor. "
+		""
+		"Be sure to grab them when you see them!"
+	]
 	quest.16F69571092CAB9A.quest_desc: [
 		"Possessed Creatures are good for obtaining other materials beyond End Stone. "
 		""
@@ -396,6 +407,7 @@
 		""
 		"Using Forge Hammer Tools, such as an Iron Hammer can also make the process more efficient. For example, a Plate may cost two Ingots without a hammer, but only one Ingot with the hammer. Hammers have durability and do wear out rather quickly, however, so use them wisely. "
 	]
+	quest.213B163D0ED28802.quest_desc: ["A Chocobo Whistle is used to command a Chocobo to Stay, Follow, or Wander. Simply Right-Click it on a tamed Chocobo to toggle through the three options."]
 	quest.2150EE8D0B1474CE.quest_desc: [
 		"The Logistics section covers items from mods that help automate moving things around."
 		""
@@ -649,6 +661,12 @@
 		"&a    Rod on Netherrack to attune it to "
 		"&a    Iesnium Ore."
 	]
+	quest.3AB9D7E7D4205334.quest_desc: [
+		"ChocoCraft is a simple mod for anyone looking for a fun and fanciful mount to get around their world in style. "
+		""
+		"This chapter will help you discover these lovely birds, their favorite snacks, and how to obtain each variety."
+	]
+	quest.3AB9D7E7D4205334.title: "ChocoCraft"
 	quest.3AD70D3BEF01A693.quest_desc: [
 		"The Coke Oven will be the first of many multi-block machines."
 		""
@@ -696,6 +714,75 @@
 	]
 	quest.3CA4472228D0F866.title: "ME Networks"
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
+	quest.3D307863E39B9EFE.quest_desc: [
+		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
+		""
+		"For more reliable mutations, use Golden Gysahl instead. "
+		""
+		"&a🛈 Tip: These Gysahl varieties are "
+		"&a    obtained rarely when farming "
+		"&a    regular Gysahl."
+		"&n                                                  &r"
+		""
+		"Possible Mutations:"
+		"    • &eYellow&r + &eYellow&r = &2Green&r or &9Blue&r"
+		"    • &2Green&r + &9Blue&r = &7White&r"
+		"    • &eYellow&r + &7White&r = &8Black&r"
+		"    • &8Black&r + &7White&r = &6Gold&r "
+		"        &6⚠ Note: &oRequires Golden Gysahl"
+		"&n                                                  &r"
+		""
+		"&6⚠ Note: The following pages contain "
+		"&6    more information on the abilities of "
+		"&6    each of these varieties."
+		""
+		""
+		"{@pagebreak}"
+		"  • &eYellow Chocobos&r are the average"
+		"    variety. Like all Chocobos, they "
+		"    have a slow fall ability which lets "
+		"    them fall from great heights with "
+		"    little harm."
+		""
+		"  • &2Green Chocobos&r have the ability to "
+		"    climb, allowing them to ascend blocks "
+		"    with relative ease."
+		""
+		"  • &9Blue Chocobos&r excel in at swimming "
+		"    and move faster than their &2Green&r "
+		"    cousins on land."
+		"{@pagebreak}"
+		"  • &7White Chocobos&r have the climbing "
+		"    and swimming abilities of their &2Green&r "
+		"    and &9Blue&r cousins, in addition to "
+		"    being faster on land."
+		""
+		"  • &8Black Chocobos&r are excellent "
+		"    jumpers and have all the same "
+		"    capabilities as &7White Chocobos&r while"
+		"    also being faster on land."
+		""
+		"  • &6Golden Chocobos&r are the fastest "
+		"    variety and have the ability to fly "
+		"    rather than simply gliding like their "
+		"    cousins."
+		"{@pagebreak}"
+		"  • &4Red Chocobos&r are created by "
+		"    feeding Red Gysahl to a &6Golden "
+		"    &6Chocobo&r. It keeps all of the same "
+		"    abilities after this transformation."
+		""
+		"  • &dPink Chocobos&r are created by "
+		"    feeding Pink Gysahl to a &6Golden "
+		"    &6Chocobo&r. It keeps all of the same "
+		"    abilities after this transformation."
+		""
+		"  • &5Purple Chocobos&r cannot be bred. "
+		"    Instead they are found roaming "
+		"    The Nether. They can run on lava"
+		"    and are capable flyers."
+	]
+	quest.3D307863E39B9EFE.title: "Breeding and Mutations"
 	quest.3D334F8BDD0E4046.quest_desc: [
 		"The Pressurizer should be the first stop after manufacturing Titanium. "
 		""
@@ -713,6 +800,8 @@
 		""
 		"Having machines dedicated to a given recipe will become more and more relevant as you progress, so keep this in mind when designing new processing lines. "
 	]
+	quest.3D91A9DBE0B091AE.quest_desc: ["Ranking low in protection and durability, but very high in cute factor, the Chocodisguise is a suit of armor that will make you feel as if you’re one of the herd. "]
+	quest.3D91A9DBE0B091AE.title: "Chocodisguise"
 	quest.3E622F93756E9BFA.quest_desc: [
 		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
 		""
@@ -1328,6 +1417,17 @@
 		"&a    a connection."
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
+	quest.642CDBB28337670C.quest_desc: [
+		"These beautiful bipedal birds can be found in small family groups all around the world. "
+		""
+		"They adore snacking on Gysahl Greens and are quite easily tamed by being fed this tasty treat. "
+		"&n                                                  &r"
+		""
+		"Head on out and see if you can locate a few to bring home. "
+		""
+		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
+	]
+	quest.642CDBB28337670C.title: "Finding and Taming"
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Work in progress."
 		""
@@ -1493,6 +1593,12 @@
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
 	]
+	quest.6F354A767B138CA3.quest_desc: [
+		"Want to make a nice stable for your Chocobos? Be sure to cover the floor in Straw and place a Cauldron full of Water nearby. "
+		""
+		"This will count as a ‘Chocobo Pen’ and slowly heal any damaged Chocobos in the area."
+	]
+	quest.6F354A767B138CA3.title: "Chocobo Pen"
 	quest.6F8C048404EAF9FF.quest_desc: [
 		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
 		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
@@ -1777,6 +1883,7 @@
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
+	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
 	task.1D1C35B0CD86F6CC.title: "Any Fluid Drawer"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"

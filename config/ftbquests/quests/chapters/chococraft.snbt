@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chococraft"
+	group: "440488E780593120"
+	icon: {
+		id: "chococraft:chocopedia"
+	}
+	id: "7CFAC3316D718D25"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/wind_charged.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3AB9D7E7D4205334"
+			rewards: [{
+				id: "2D5714EBB0EDF8D8"
+				item: {
+					count: 1
+					id: "chococraft:chocopedia"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D3B0ABB37C04661"
+				item: { count: 1, id: "chococraft:gysahl_green_seeds" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3AB9D7E7D4205334"]
+			icon: {
+				id: "chococraft:yellow_chocobo_spawn_egg"
+			}
+			id: "642CDBB28337670C"
+			rewards: [{
+				count: 2
+				id: "11FD8E425EBAB310"
+				item: {
+					count: 1
+					id: "justdirethings:creaturecatcher"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "chococraft:item/yellow_chocobo_spawn_egg"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1B9EA0EB538823C6"
+					observe_type: 5
+					timer: 0L
+					to_observe: "chococraft:chocobo"
+					type: "observation"
+				}
+				{
+					id: "6C0C0EA5DD6952DD"
+					item: { count: 1, id: "chococraft:gysahl_green" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["642CDBB28337670C"]
+			id: "3D307863E39B9EFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16AC43E9806EEDBF"
+					table_id: 23658154196454858L
+					type: "loot"
+				}
+				{
+					id: "098C2D0612C8678C"
+					item: {
+						count: 1
+						id: "farmingforblockheads:feeding_trough"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A4E9B038040A28A"
+					item: { count: 1, id: "chococraft:gold_gysahl" }
+					type: "item"
+				}
+				{
+					id: "29E70D2EF01707CF"
+					item: { count: 1, id: "chococraft:loverly_gysahl_green" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["642CDBB28337670C"]
+			id: "16E6C8143533F2C5"
+			rewards: [{
+				id: "44E2362D32403722"
+				item: {
+					count: 1
+					id: "chococraft:chocobo_saddle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33F4946A3D450002"
+				item: { count: 1, id: "chococraft:chocobo_feather" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D307863E39B9EFE"]
+			id: "10762E4BB7F187BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12AB5346B8B86F0D"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A257B9A01B62091"
+				item: { count: 1, id: "chococraft:gysahl_cake" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D307863E39B9EFE"]
+			id: "6F354A767B138CA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11EAACB80ABFD699"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4A3EB33035C9C712"
+				item: { count: 1, id: "minecraft:cauldron" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16E6C8143533F2C5"]
+			id: "213B163D0ED28802"
+			rewards: [{
+				count: 16
+				id: "6087801AD6EA7CEB"
+				item: {
+					count: 1
+					id: "chococraft:gold_gysahl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EC4971271C7F02F"
+				item: { count: 1, id: "chococraft:chocobo_whistle" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16E6C8143533F2C5"]
+			icon: {
+				id: "chococraft:choco_disguise_helmet"
+			}
+			id: "3D91A9DBE0B091AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DFD265B31ADAD3F"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "43F9B5956F4CF094"
+					item: { count: 1, id: "chococraft:choco_disguise_helmet" }
+					type: "item"
+				}
+				{
+					id: "06CFED1017929382"
+					item: { count: 1, id: "chococraft:choco_disguise_chestplate" }
+					type: "item"
+				}
+				{
+					id: "68AC6D3F825D1F5B"
+					item: { count: 1, id: "chococraft:choco_disguise_leggings" }
+					type: "item"
+				}
+				{
+					id: "4518795C48F31ABE"
+					item: { count: 1, id: "chococraft:choco_disguise_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}
