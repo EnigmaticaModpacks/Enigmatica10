@@ -918,7 +918,7 @@
 		""
 		"[\"Mekanism has no in-game manual, however it does have very useful and informative Advancements (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Advancement Key\"}]},\"keybind\":\"key.advancements\"},\") that will help you get started.\"]"
 		""
-		"[\"Be sure to check out their online Wiki as well, as it is an excellent source of knowledge, especially concerning their multi-block structures: \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Mekanism Wiki\",\"underlined\":true}]"
+		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of knowledge, especially concerning their multi-block structures.\"]"
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
 	quest.4A8EF3D657CEAED5.quest_desc: [
