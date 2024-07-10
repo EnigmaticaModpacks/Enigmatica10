@@ -51,6 +51,13 @@
 		"These are capable of handling the mighty Djinni whose control over time and weather is unrivaled."
 	]
 	quest.036036EA25034BE8.title: "Purple Chalk"
+	quest.042650AE25DAC4CA.quest_desc: [
+		"With your Turbine upgraded, you’ll likely also need to upgrade your Steam Production. "
+		""
+		"Thankfully, there’s a similar upgrade for your Boiler. "
+		""
+		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
+	]
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of liquid transfer options available in E10."]
 	quest.04CE3E8B1DF8B441.title: "Liquids"
 	quest.09E7D266A7724F09.quest_desc: [
@@ -89,6 +96,26 @@
 		"Once you’re able to reliably craft these components, you should be ready to proceed on to the EV Tier."
 	]
 	quest.0BA9F73FFBAAB6E7.title: "Advanced Computing"
+	quest.0CBCE3A0D149AED0.quest_desc: [
+		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
+		"&n                                                  &r"
+		""
+		"Running a Nuclear Reactor will take a little more effort than most machines. Not only does it require fuel and cooling, but those materials change the way the Reactor operates depending on which hatch they go into. "
+		""
+		"The following website has a reactor planner to help with this, as well as several example builds to get you started:"
+		""
+		"{ \"text\": \"MI Reactor Planner\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/warbaque/MI-Reactor-Planner/blob/main/README.md\" } }"
+		""
+		"It may be tempting to start with a small reactor, but it will be slow and inefficient. If you have the materials, jump straight to the Extreme size."
+		""
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
+		""
+		"&6⚠ Note: Reactors cannot melt down "
+		"&6    and do not explode.&r"
+	]
 	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
@@ -345,6 +372,14 @@
 		"Fully converting over to MV may take a little longer than the conversion from Steam to LV. "
 		""
 		"It’s good to start with the power infrastructure, however. Consider building some MV Turbines and down converting the power from MV to LV for now with a Transformer."
+		"&n                                                  &r"
+		""
+		"As you expand your MV power grid, your existing LV machines can be easily upgraded to run on MV instead."
+		""
+		"Advanced Machine Hulls can be Right-Clicked onto a machine to upgrade it, or open the machine’s GUI and install it in the slot."
+		""
+		"&6⚠ Note: Machines simply do not run if"
+		"&6    given the wrong tier of power."
 	]
 	quest.2098F9F6E49956A5.quest_desc: [
 		"During the Calcination step, related materials are refined into an Alchemical Salt. "
@@ -524,14 +559,6 @@
 		""
 		"&a🛈 Tip: Ore can be extracted from the "
 		"&a    bottom of the Mineshaft."
-	]
-	quest.35F1E0745E3EA61F.quest_desc: [
-		"As you expand your HV power grid, your existing MV machines can be easily upgraded to run on HV instead."
-		""
-		"Craft some Turbo Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot."
-		""
-		"&6⚠ Note: Machines simply do not run if"
-		"&6    given the wrong tier of power."
 	]
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
@@ -858,14 +885,6 @@
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
 		"&a🛈 Tip: Requires a clear view of the sky."
-	]
-	quest.49AB17BF4F020F89.quest_desc: [
-		"As you expand your MV power grid, your existing LV machines can be easily upgraded to run on MV instead. "
-		""
-		"Craft some Advanced Machine Hulls and either Right-Click them onto the machine, or open the machine’s GUI and install it in the slot. "
-		""
-		"&6⚠ Note: Machines simply do not run if"
-		"&6    given the wrong tier of power."
 	]
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
@@ -1319,6 +1338,14 @@
 		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
 		""
 		"If you’ve begun using Transformers to separate your power networks, this should be a fairly straightforward task, however."
+		"&n                                                  &r"
+		""
+		"As you expand your HV power grid, your existing MV machines can be easily upgraded to run on HV instead."
+		""
+		"Turbo Machine Hulls can be Right-Clicked onto a machine to upgrade it, or open the machine’s GUI and install it in the slot."
+		""
+		"&6⚠ Note: Machines simply do not run if"
+		"&6    given the wrong tier of power."
 	]
 	quest.69CCA30AB383ACCD.quest_desc: [
 		"Capable of storing truly absurd amounts of energy, the Induction Matrix is usually used by players who have achieved Fission of Fusion. Though, even a small one will hold far more than Energy Cubes."
@@ -1399,6 +1426,17 @@
 		""
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
+	]
+	quest.70C8E621A4B76BD6.quest_desc: [
+		"With EV Energy Hatches, your Large Steam Turbines can be upgraded quite simply by swapping out the hatch. This will allow them to reach their full potential, and immediately double their output, assuming they have enough Steam."
+		"&n                                                  &r"
+		""
+		"As you expand your EV power grid, your existing HV machines can be easily upgraded to run on EV instead."
+		""
+		"Highly Advanced Machine Hulls can be Right-Clicked onto a machine to upgrade it, or open the machine’s GUI and install it in the slot."
+		""
+		"&6⚠ Note: Machines simply do not run if"
+		"&6    given the wrong tier of power."
 	]
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
