@@ -72,7 +72,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "23F6D8AE7CEFD36A"
 					table_id: 8339734783499199563L
 					type: "loot"
@@ -106,7 +105,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "2C885B40A6FD2512"
 					table_id: 310519013727846436L
 					type: "loot"
@@ -145,7 +143,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "1CC2982832945275"
 					table_id: 310519013727846436L
 					type: "loot"
@@ -170,7 +167,6 @@
 			dependencies: ["09EE2DE8B55928C2"]
 			id: "4685E3B748A76726"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "17E9F33F36FFC979"
 				table_id: 8339734783499199563L
 				type: "loot"
@@ -197,7 +193,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "37825800DE272C9F"
 					table_id: 8339734783499199563L
 					type: "loot"
@@ -233,7 +228,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "095D352A88502908"
 					table_id: 8339734783499199563L
 					type: "loot"
@@ -306,7 +300,6 @@
 			dependencies: ["3AD70D3BEF01A693"]
 			id: "2C84374CBB186FE2"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "4CA811EC88D16F48"
 				table_id: 8339734783499199563L
 				type: "loot"
@@ -327,7 +320,6 @@
 			}
 			id: "12903CD319AE35B9"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "3FDE5C157D068494"
 				table_id: 5391414488118435499L
 				type: "loot"
@@ -351,7 +343,6 @@
 			dependencies: ["12903CD319AE35B9"]
 			id: "3CABB289A26506BE"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "7760A6A3A05B3D68"
 				table_id: 5391414488118435499L
 				type: "loot"
@@ -380,7 +371,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "50D5ABDDED4BBF69"
 					table_id: 5391414488118435499L
 					type: "loot"
@@ -419,7 +409,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "025DAFD16AA4E32B"
 					table_id: 5391414488118435499L
 					type: "loot"
@@ -464,7 +453,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "7EEDA3BEAC6782F3"
 					table_id: 5391414488118435499L
 					type: "loot"
@@ -485,7 +473,6 @@
 			}
 			id: "6133CA58FE668DA6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2948C821A5C3AC36"
 				table_id: 5926445192543217713L
 				type: "loot"
@@ -543,7 +530,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "2B8A84A5462A8456"
 					table_id: 5926445192543217713L
 					type: "loot"
@@ -561,7 +547,6 @@
 			dependencies: ["4A020E61A5551F51"]
 			id: "3F30CC32709BE5DD"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "54A3364EA0D98636"
 				table_id: 5926445192543217713L
 				type: "loot"
@@ -590,7 +575,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "5CB0ACC24573576A"
 					table_id: 5926445192543217713L
 					type: "loot"
@@ -635,7 +619,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "702EB8E6CE7F7652"
 					table_id: 5926445192543217713L
 					type: "loot"
@@ -663,7 +646,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "1904DF64EEBA2D13"
 					table_id: 5926445192543217713L
 					type: "loot"
@@ -721,7 +703,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "7B876966ED69FB0D"
 					table_id: 4146010247050737748L
 					type: "loot"
@@ -742,7 +723,6 @@
 			}
 			id: "2F797BC2E447F9BF"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "72218BFAD54FAFD0"
 				table_id: 5926445192543217713L
 				type: "loot"
@@ -776,7 +756,6 @@
 			}
 			id: "7BEE7FAD21AFEB68"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "51BD23EFFF631C84"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -810,7 +789,6 @@
 			dependencies: ["4A8EF3D657CEAED5"]
 			id: "1386A595D84FE6FC"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "1948EEA7C8188CC6"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -855,7 +833,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "7B91AA6EEAA5EAE0"
 					table_id: 4146010247050737748L
 					type: "loot"
@@ -885,7 +862,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "29202223C4DFA455"
 					table_id: 4146010247050737748L
 					type: "loot"
@@ -923,7 +899,6 @@
 			dependencies: ["42F410023D62E6CB"]
 			id: "577377C909FF0001"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2DAF3312E78645F6"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -940,7 +915,6 @@
 			dependencies: ["577377C909FF0001"]
 			id: "4EC7DD1B35F0B6B5"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "77A830644A31A332"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -978,7 +952,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "2309880D625DBFAD"
 					table_id: 4146010247050737748L
 					type: "loot"
@@ -1013,7 +986,6 @@
 			dependencies: ["1386A595D84FE6FC"]
 			id: "349B97172AB3E56E"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "3FED3214E019BF25"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -1033,7 +1005,6 @@
 			]
 			id: "6B6898F3520BA8F7"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "7D5AB3435857FA0C"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -1060,7 +1031,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "33BA3B54F35F087A"
 					table_id: 4146010247050737748L
 					type: "loot"
@@ -1084,7 +1054,6 @@
 			}
 			id: "13D810A6AB4FACC0"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "4104FEBDE9BB66F2"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -1121,7 +1090,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "12E1AEE7846D90D7"
 					table_id: 4146010247050737748L
 					type: "loot"
@@ -1206,7 +1174,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "32DB7A8340762068"
 					table_id: 977993291969471061L
 					type: "loot"
@@ -1234,7 +1201,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "11E4D3C75B4BF007"
 					table_id: 977993291969471061L
 					type: "loot"
@@ -1252,7 +1218,6 @@
 			dependencies: ["3C169A2002B47DC5"]
 			id: "5362D855D207F79A"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "758C616FE44C8E51"
 				table_id: 4146010247050737748L
 				type: "loot"
@@ -1299,7 +1264,6 @@
 			}
 			id: "1E78584388808899"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "130D837F984B6C69"
 				table_id: 977993291969471061L
 				type: "loot"
@@ -1338,7 +1302,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "120EE4FECD219F54"
 					table_id: 977993291969471061L
 					type: "loot"
@@ -1376,7 +1339,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "042068891938B5A3"
 					table_id: 977993291969471061L
 					type: "loot"
@@ -1409,7 +1371,6 @@
 			}
 			id: "5521F91C980C5007"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "1CC9564218150284"
 				table_id: 977993291969471061L
 				type: "loot"
@@ -1446,7 +1407,6 @@
 			}
 			id: "368DC26C96A32AB7"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "5890BB137218BAE0"
 				table_id: 977993291969471061L
 				type: "loot"
@@ -1483,7 +1443,6 @@
 			}
 			id: "0BA9F73FFBAAB6E7"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "7F6A6AFDF44A0555"
 				table_id: 2285934173582460935L
 				type: "loot"
@@ -1525,7 +1484,6 @@
 			}
 			id: "4CB37C07E76303A6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "75AD975E3D1EAA45"
 				table_id: 977993291969471061L
 				type: "loot"
@@ -1582,7 +1540,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "1E32EA22B2684C8E"
 					table_id: 2285934173582460935L
 					type: "loot"
@@ -1610,7 +1567,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "18877954189F3BC2"
 					table_id: 2285934173582460935L
 					type: "loot"
@@ -1638,7 +1594,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
 					id: "4343B90B204A73B5"
 					table_id: 2285934173582460935L
 					type: "loot"
@@ -1667,6 +1622,11 @@
 		{
 			dependencies: ["35700C5AA357B012"]
 			id: "66AE19141D8F5604"
+			rewards: [{
+				id: "453086E5A3E24509"
+				table_id: 533012758886506207L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "4722D459CDA6E78E"
@@ -1684,12 +1644,17 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 2.5d
+			x: 19.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0CBCE3A0D149AED0"]
 			id: "35700C5AA357B012"
+			rewards: [{
+				id: "1840CCD880A3793F"
+				table_id: 533012758886506207L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "298AF653A0D5B5A9"
 				item: { count: 1, id: "modern_industrialization:quantum_circuit" }
@@ -1701,6 +1666,11 @@
 		{
 			dependencies: ["66AE19141D8F5604"]
 			id: "4CE66DC7BB1AC84B"
+			rewards: [{
+				id: "67EEACDF32ACF3C0"
+				table_id: 533012758886506207L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3FD62BD9CD22E914"
@@ -1725,7 +1695,6 @@
 			dependencies: ["70C8E621A4B76BD6"]
 			id: "042650AE25DAC4CA"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2AD13DE81C074F18"
 				table_id: 2285934173582460935L
 				type: "loot"
@@ -1758,32 +1727,44 @@
 		{
 			dependencies: ["35700C5AA357B012"]
 			id: "3A347A9576A5D514"
-			rewards: [{
-				id: "2AA714B88104070A"
-				item: {
-					count: 1
-					id: "modern_industrialization:quantum_machine_hull"
+			rewards: [
+				{
+					id: "2AA714B88104070A"
+					item: {
+						count: 1
+						id: "modern_industrialization:quantum_machine_hull"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "259598221C2E7128"
+					table_id: 533012758886506207L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3CF6F90ECE1991DF"
 				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 2.0d
+			x: 20.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3A347A9576A5D514"]
 			id: "5078D0CBD8AB602E"
+			rewards: [{
+				id: "7A0195E801F1BBCB"
+				table_id: 533012758886506207L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0CD5547F179BB83E"
 				item: { count: 1, id: "modern_industrialization:replicator" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 3.0d
+			x: 20.0d
+			y: 3.5d
 		}
 	]
 }
