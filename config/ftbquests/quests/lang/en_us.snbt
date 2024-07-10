@@ -114,7 +114,7 @@
 		"&6⚠ Note: Reactors cannot melt down "
 		"&6    and do not explode.&r"
 	]
-	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
+	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up to nine different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
 		""
@@ -402,6 +402,14 @@
 		"From items and fluids to power and gas, the mods shown here will help move it."
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
+	quest.21C1CAA38D040AC8.quest_desc: [
+		"Functional Storage is an expandable storage solution capable of holding all of your items and liquids. "
+		""
+		"Each drawer can hold from one to four item types, but will hold a truly astronomical amount of them. "
+		""
+		"Drawers may also be linked up to a Drawer Controller, allowing you to link all of the drawers into a single network. So, item pipes and other logistics can pipe into or out of the Controller and have access to every attached drawer."
+	]
+	quest.21C1CAA38D040AC8.title: "Functional Drawers"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.225A626E79D7165F.quest_desc: ["Energy Hoppers effectively turn any inventory into a rapid charging station. They’ll charge any FE based equipment stored in the inventory they’re pointed at."]
 	quest.22ABFC3024E54FEA.quest_desc: [
@@ -536,6 +544,16 @@
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
+	quest.3263757C9A240C70.quest_desc: [
+		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
+		""
+		"If you’d like to work on the go, the mod also offers a variety of handheld tools that work exactly like a placed Workstation."
+		""
+		"Workstation variants are aesthetic only. They can all make any Chipped block, so pick your favorite!"
+		""
+		"&a🛈 Tip: Search &3@chipped&r &ain EMI to "
+		"&a    discover more."
+	]
 	quest.33014A99A399B607.quest_desc: [
 		"Though no small feat to obtain, Tier 4 Dimensional Storage Stabilizers are well worth the effort. "
 		""
@@ -1376,6 +1394,11 @@
 		"&6    pentacle. "
 	]
 	quest.67835A69ECDC692D.title: "Red Chalk"
+	quest.68079D29B91FC30A.quest_desc: [
+		"Modern Industrialization has its own Villager which can help you dramatically in the early game, selling you Steel Hammers, Analog Circuits, and other items to get you through the first tiers quickly."
+		""
+		"Their Workbench is a Forge Hammer. Try one out and see what you’ll get!"
+	]
 	quest.684A0E52D7BAC37C.quest_desc: [
 		"A mass item storage solution with an integrated crafting table, making it simple to keep everything at hand for crafting."
 		""
@@ -1755,6 +1778,7 @@
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
+	task.1D1C35B0CD86F6CC.title: "Any Fluid Drawer"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.213012F4279A21AF.title: "Chemical Tanks"
@@ -1766,14 +1790,16 @@
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
+	task.33A6A08CB5499DE2.title: "Villagers"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
+	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
 	task.42E9F9AE06C46A76.title: "Any Pickaxe"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
-	task.4315ED9269099C81.title: "Any #c:chests"
+	task.4315ED9269099C81.title: "Any Chest"
 	task.437A0173972D42B6.title: "Induction Matrix"
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
@@ -1810,6 +1836,7 @@
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
+	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"
 	task.7FC1B66AFF268BF8.title: "Dense Covered Cables"
 }

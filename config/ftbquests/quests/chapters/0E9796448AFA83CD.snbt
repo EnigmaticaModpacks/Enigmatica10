@@ -99,6 +99,12 @@
 		{
 			dependencies: ["0B04BC5F88746182"]
 			id: "3FF6566453299DC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20AD0AD242CBDD81"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "51B274B45F53160C"
 				item: { count: 1, id: "ae2:controller" }
@@ -134,7 +140,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4B66ECA9D6797B80"]
+			dependencies: [
+				"4B66ECA9D6797B80"
+				"21C1CAA38D040AC8"
+			]
 			icon: {
 				id: "minecraft:hopper"
 			}
@@ -486,6 +495,46 @@
 			}]
 			x: 1.5d
 			y: 2.0d
+		}
+		{
+			id: "21C1CAA38D040AC8"
+			rewards: [
+				{
+					id: "16EE6501B9739BA6"
+					item: {
+						count: 1
+						id: "functionalstorage:linking_tool"
+					}
+					type: "item"
+				}
+				{
+					id: "7B09671B9635CFEB"
+					item: {
+						count: 1
+						id: "functionalstorage:configuration_tool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E422D4A867340A6"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1D1C35B0CD86F6CC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:fluid_1)item(functionalstorage:fluid_2)item(functionalstorage:fluid_4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "466DBFDDD1C1C5A6"
+					item: { count: 1, id: "functionalstorage:storage_controller" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
 		}
 	]
 }
