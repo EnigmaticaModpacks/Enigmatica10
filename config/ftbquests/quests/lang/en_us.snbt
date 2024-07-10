@@ -560,6 +560,7 @@
 		"&a🛈 Tip: Ore can be extracted from the "
 		"&a    bottom of the Mineshaft."
 	]
+	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -585,6 +586,11 @@
 		"Simple item pipes for moving things around. "
 		""
 		"They can be filtered and accept Motors as upgrades to speed them up."
+	]
+	quest.3A347A9576A5D514.quest_desc: [
+		"Quantum Upgrades unlock the greatest potential of your machines, with a single upgrade allowing it to reach its maximum potential."
+		""
+		"Be sure to combine them with Quantum Machine Hulls, as they’re going to need an enormous amount of power to run. This will allow them to accept Superconductor Power directly."
 	]
 	quest.3A7AD25302240A1B.quest_desc: [
 		"Ad-Hoc Networks are the simplest form of network in Applied Energistic; it consists of a length of Fluix Cable and some connected devices such as Storage Busses and Terminals."
@@ -954,6 +960,14 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.4CE66DC7BB1AC84B.quest_desc: [
+		"Plasma Turbines are used to convert the Helium Plasma created by the Fusion Reactor into useful EU. "
+		""
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
+	]
 	quest.4E7DA28C54FB8766.quest_desc: [
 		"These materials can frequently take a great deal of time to find by exploring alone. "
 		""
@@ -980,6 +994,13 @@
 	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
+	quest.5078D0CBD8AB602E.quest_desc: [
+		"You’ve officially reached the end of your journey through Modern Industrialization. Congratulations! "
+		""
+		"With the Replicator, you can now freely duplicate just about whatever you want."
+		""
+		"Running it is no small task, however, as the UU Matter that it operates on is exceedingly costly to create. "
+	]
 	quest.51233852CD921F79.quest_desc: [
 		"Drives act as compact storage capable of holding tens of thousands of items."
 		""
@@ -1295,6 +1316,19 @@
 		""
 		"We’ll need it for summoning up some friends."
 	]
+	quest.66AE19141D8F5604.quest_desc: [
+		"Compared to Fission, Fusion is child's play to operate. After-all, that’s why we’ve made the most powerful computers in the world."
+		""
+		"Fusion will require some power and fluids in and will generate Helium Plasma and some other byproducts.  "
+		""
+		"&a🛈 Tip: Place the controller block, then "
+		"&a    hold a Wrench or Hatch to see the "
+		"&a    structure or valid places for "
+		"&a    hatches."
+		""
+		"&6⚠ Note: Reactors cannot melt down "
+		"&6    and do not explode.&r"
+	]
 	quest.66B189D0C0CFE055.quest_desc: [
 		"Making first contact with the Spirit Realm, also known as the Otherworld, is going to require an… altered state of consciousness, shall we say?"
 		"&n                                                  &r"
@@ -1541,6 +1575,24 @@
 	quest.752888EAF2861EB4.title: "Items"
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
 	quest.760910BF48876D8E.title: "Chemicals and Gas"
+	quest.760BD47C6B67D645.quest_desc: [
+		"Ever onward the march of progress. Expect power use to grow continuously as your factory grows. "
+		""
+		"As with the HV Tier, it’s advised to keep separate EV sub networks fed by a Superconductive trunk line."
+		""
+		"Consider multiple setups like this:"
+		""
+		"&eSteam Production"
+		"  &e╰┈➤ &3Advanced Turbines"
+		"  &3╰┈➤ &aEV to Superconductor Transformer"
+		"  &a╰┈➤ &bSuperconductive Cables"
+		"  &b╰┈➤ &aSuperconductor to EV Transformer"
+		"  &a╰┈➤ &3Machine Cluster"
+		""
+		"&6⚠ Note: Keep your EV subnetworks "
+		"&6    separate so the aren't limited by"
+		"&6    the max transfer rate."
+	]
 	quest.770EE92EA4CF973C.quest_desc: [
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
 		""

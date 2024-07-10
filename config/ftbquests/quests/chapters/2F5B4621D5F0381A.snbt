@@ -1651,6 +1651,15 @@
 		{
 			dependencies: ["70C8E621A4B76BD6"]
 			id: "760BD47C6B67D645"
+			rewards: [{
+				count: 16
+				id: "507D906125CAD260"
+				item: {
+					count: 1
+					id: "modern_industrialization:superconductor_cable"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "28B8C3FB0B99EEF9"
 				item: { count: 1, id: "modern_industrialization:ev_superconductor_transformer" }
@@ -1688,7 +1697,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0CBCE3A0D149AED0"]
@@ -1699,7 +1708,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["66AE19141D8F5604"]
@@ -1710,7 +1719,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["70C8E621A4B76BD6"]
@@ -1722,6 +1731,36 @@
 			}]
 			x: 19.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["35700C5AA357B012"]
+			id: "3A347A9576A5D514"
+			rewards: [{
+				id: "2AA714B88104070A"
+				item: {
+					count: 1
+					id: "modern_industrialization:quantum_machine_hull"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CF6F90ECE1991DF"
+				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A347A9576A5D514"]
+			id: "5078D0CBD8AB602E"
+			tasks: [{
+				id: "0CD5547F179BB83E"
+				item: { count: 1, id: "modern_industrialization:replicator" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
 		}
 	]
 }
