@@ -10,6 +10,7 @@
 -   Large animals such as cows now drop bones when killed [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   All bladed weapons now count for the purpose of getting Occultism Tallow [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Chocobos drop Tallow too. Fair game, birds. [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Blaze Rods may be obtained through material transformations in addition to mob drops. [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 
 #### 🦟 Bugs Fixed
 
