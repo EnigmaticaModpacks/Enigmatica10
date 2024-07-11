@@ -7,6 +7,9 @@
 -   AE2 Recipes now accept Tin or Iron to help reduce the overwhelming reliance on Iron in recipes [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Black Dye can be made from Coals, because dye doesn't need to be hard [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Raw Meat can be digested into Rotten Flesh [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Large animals such as cows now drop bones when killed [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   All bladed weapons now count for the purpose of getting Occultism Tallow [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Chocobos drop Tallow too. Fair game, birds. [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 
 #### 🦟 Bugs Fixed
 
