@@ -26,6 +26,11 @@ ServerEvents.recipes((event) => {
                 'minecraft:short_grass'
             ],
             id: `${id_prefix}green_dye_from_short_grass`
+        },
+        {
+            output: Item.of('minecraft:black_dye', 2),
+            inputs: ['#minecraft:coals'],
+            id: `${id_prefix}black_dye_from_coal`
         }
     ];
 
