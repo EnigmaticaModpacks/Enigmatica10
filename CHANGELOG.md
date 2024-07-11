@@ -6,12 +6,15 @@
 -   Replaced Ink Sacs with Black Dye in several recipes. [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
 -   AE2 Recipes now accept Tin or Iron to help reduce the overwhelming reliance on Iron in recipes [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Black Dye can be made from Coals, because dye doesn't need to be hard [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Raw Meat can be digested into Rotten Flesh [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 
 #### 🦟 Bugs Fixed
 
 -   Gysahl Greens Seeds are back in the Market [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
 -   Fixed recipe conflicts between Functional Storage and Handcrafted [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Fixed recipe conflicts between Comforts and Handcrafted [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Add all candles to the Minecraft Candles Tag [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Fix some items not appearing in Meat tags [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 
 ---
 

@@ -1,5 +1,4 @@
 ServerEvents.tags('item', (event) => {
-    let additions = ['occultism:candle_white', /candle/];
-
+    let additions = [/candle/];
     event.get('minecraft:candles').add(additions);
 });
