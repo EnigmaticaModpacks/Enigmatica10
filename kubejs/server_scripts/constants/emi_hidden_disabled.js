@@ -1,6 +1,6 @@
 //priority: 1000
 
-// Keep updated with emi_hidden_disabled in server_scripts
+// Keep updated with emi_hidden_disabled in client_scripts
 const disabled_item_tooltip = 'This item has been disabled.';
 
 const emi = {
