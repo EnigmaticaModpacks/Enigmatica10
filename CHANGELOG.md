@@ -3,6 +3,7 @@
 #### ⭐ Improvements
 
 -   Just Dire Things and ChocoCraft quests! [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+-   replaced Ink Sacs with Black Dye in several recipes. [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
 
 #### 🦟 Bugs Fixed
 
