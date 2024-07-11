@@ -68,8 +68,8 @@
 				item: { count: 1, id: "chisel:chisel" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6AFCA9F187AE6EB2"]
@@ -240,6 +240,31 @@
 			}]
 			x: -3.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			id: "3263757C9A240C70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0426863809A1E6F4"
+				table_id: 167859363417192230L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "3DED6DAEE4419675"
+					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:carpenters_table)item(chipped:loom_table)item(chipped:mason_table)item(chipped:alchemy_bench)item(chipped:tinkering_table)item(chipped:botanist_workbench)item(chipped:glassblower))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "73C57E2AF9A1F920"
+					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:chisel)item(chipped:needles)item(chipped:saw)item(chipped:alchemy_book)item(chipped:multimeter)item(chipped:watering_can))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
 		}
 	]
 }

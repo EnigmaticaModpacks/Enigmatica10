@@ -3,12 +3,16 @@
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.1A29B498BD263BEF.title: "Redstone"
+	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
+	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.3676C6A060A63447.title: "Theurgy"
 	chapter.402AE6264B81A84B.title: "Logistics"
 	chapter.47870879D8E3742D.title: "Getting Started"
+	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
+	chapter.7CFAC3316D718D25.title: "ChocoCraft"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
@@ -60,6 +64,24 @@
 	]
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of liquid transfer options available in E10."]
 	quest.04CE3E8B1DF8B441.title: "Liquids"
+	quest.0545305EBB98A0BA.quest_desc: [
+		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
+		""
+		"This version requires energy to run but can operate in a larger area, making it more useful for farms. "
+		""
+		"&a🛈 Tip: Use the Render Area button to "
+		"&a    easily configure the working area."
+	]
+	quest.062BB5F675CF9F45.quest_desc: [
+		"Welcome to Just Dire Things!"
+		""
+		"This mod hosts a number of small utility blocks to make life simpler, doing such tasks as interacting with entities, farming crops, and more."
+		""
+		"This chapter will help get you familiar with the new crafting mechanics it uses, as well as describe some of the more notable blocks."
+		""
+		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLvGYM7MCieIomj0tKtO9T5DUhvaYFjSxA\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you need a little extra help.\"]"
+	]
+	quest.062BB5F675CF9F45.title: "Just Dire Things"
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -76,6 +98,11 @@
 	]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
+	quest.0B05FA716D7335D2.quest_desc: [
+		"The mod includes several tiers of fluid fuels to complement its power generation. These are generally crafted by placing the fluid, dropping some item in, and then collecting the result. "
+		""
+		"The Simple Dropper is an excellent tool to help automate such recipes."
+	]
 	quest.0B27453EDEC089EB.quest_desc: [
 		"The Pigment Extractor, Pigment Mixer, and Painting Machine all work in tandem to more efficiently produce dyes. "
 		""
@@ -114,7 +141,7 @@
 		"&6⚠ Note: Reactors cannot melt down "
 		"&6    and do not explode.&r"
 	]
-	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up 16 buckets of up to 9 different fluids."]
+	quest.0CBF7D8E39F0B25A.quest_desc: ["The Configurable Tank is a multi-tank that can hold up to nine different fluids."]
 	quest.0CCE0467AF123EAB.quest_desc: [
 		"Just Dire Things introduces a number of tools with special capabilities, from aoe breaking to teleportation of items to a linked inventory. "
 		""
@@ -170,6 +197,18 @@
 	]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
+	quest.10762E4BB7F187BE.quest_desc: [
+		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
+		""
+		"Feed them a Gysahl Cake to instantly grow them to adults!"
+	]
+	quest.11EDFB60C787114D.quest_desc: [
+		"Goo is used to transform other materials, and thus obtain all of the tiered crafting materials used in this mod. "
+		""
+		"We’ll begin by making some Ferricore and Primal Coal. To do so, place the Primogel Goo and then place either Coal Blocks or Iron Blocks on any of the six sides. Feel free to use all six at once."
+		""
+		"When the Coal and Iron are fully engulfed by the goo, they’ll be replaced by a crystal that can be broken to obtain the transmuted materials"
+	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
@@ -221,6 +260,14 @@
 		""
 		"The system can be accessed remotely through a QIO Dashboard to manually craft or just for accessing materials. Keep one with you and place it down whenever you want to access the network."
 	]
+	quest.157A20804F9E8F83.quest_desc: [
+		"With all this in world crafting, an Item Collector will no doubt come in handy."
+		""
+		"This Item Collector places its items into the inventory it is attached to and can be filtered in a variety of ways. "
+		""
+		"&a🛈 Tip: Use the Render Area button to "
+		"&a    easily configure the working area."
+	]
 	quest.15CECF38FB6CEADE.quest_desc: [
 		"Looking for something with a little more oomph? Mining Gadgets are an all in one modular tool system."
 		""
@@ -247,6 +294,11 @@
 		"These chapters cover a lot of ground, but they don’t cover everything. So, be sure to explore the manuals for those mods that have them."
 	]
 	quest.16C7D5478BF3D449.title: "Learning Mods"
+	quest.16E6C8143533F2C5.quest_desc: [
+		"Tamed Chocobos will occasionally shed a feather. These are used to craft Saddles as well as some very cute armor. "
+		""
+		"Be sure to grab them when you see them!"
+	]
 	quest.16F69571092CAB9A.quest_desc: [
 		"Possessed Creatures are good for obtaining other materials beyond End Stone. "
 		""
@@ -366,6 +418,13 @@
 		""
 		"The Large Steam Turbine will be somewhat limited right now, seeing as the best we can do is an HV Energy Hatch, but it will be able to grow as your base grows. "
 	]
+	quest.20454EB2C6E93573.quest_desc: [
+		"The Player Accessor allows any form of logistics to interact with your inventory as if it were a chest. "
+		""
+		"This could be used to automatically stock building materials for a large project, or automatically extract cobble and other materials while out mining, among other things. "
+		""
+		"The possibilities are quite endless!"
+	]
 	quest.20877ECE7619845D.quest_desc: [
 		"Fully converting over to MV may take a little longer than the conversion from Steam to LV. "
 		""
@@ -396,12 +455,21 @@
 		""
 		"Using Forge Hammer Tools, such as an Iron Hammer can also make the process more efficient. For example, a Plate may cost two Ingots without a hammer, but only one Ingot with the hammer. Hammers have durability and do wear out rather quickly, however, so use them wisely. "
 	]
+	quest.213B163D0ED28802.quest_desc: ["A Chocobo Whistle is used to command a Chocobo to Stay, Follow, or Wander. Simply Right-Click it on a tamed Chocobo to toggle through the three options."]
 	quest.2150EE8D0B1474CE.quest_desc: [
 		"The Logistics section covers items from mods that help automate moving things around."
 		""
 		"From items and fluids to power and gas, the mods shown here will help move it."
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
+	quest.21C1CAA38D040AC8.quest_desc: [
+		"Functional Storage is an expandable storage solution capable of holding all of your items and liquids. "
+		""
+		"Each drawer can hold from one to four item types, but will hold a truly astronomical amount of them. "
+		""
+		"Drawers may also be linked up to a Drawer Controller, allowing you to link all of the drawers into a single network. So, item pipes and other logistics can pipe into or out of the Controller and have access to every attached drawer."
+	]
+	quest.21C1CAA38D040AC8.title: "Functional Drawers"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.225A626E79D7165F.quest_desc: ["Energy Hoppers effectively turn any inventory into a rapid charging station. They’ll charge any FE based equipment stored in the inventory they’re pointed at."]
 	quest.22ABFC3024E54FEA.quest_desc: [
@@ -465,6 +533,11 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
+	quest.264783EF292A494B.quest_desc: [
+		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
+		""
+		"It does need a tool, so be sure to provide it shears for said sheep farm or a nice looting sword for killing mobs. "
+	]
 	quest.289433DE16324150.quest_desc: [
 		"Sal Ammoniac is a powerful alchemical solvent. It can be found in the ground in crystallized form, or simply extracted from Water."
 		"&n                                                  &r"
@@ -486,6 +559,25 @@
 		""
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
+	]
+	quest.289DEC367A80D718.quest_desc: [
+		"The Advanced machines operate much like their Simple counterparts, but with some added features."
+		""
+		"To begin with, they all use energy to operate. "
+		""
+		"They also have their own robust filtering systems built in, so they no longer need external sensors to control them."
+		""
+		"Lastly, they can operate in a larger area."
+		""
+		"&a🛈 Tip: Use the Render Area button to "
+		"&a    easily configure the working area."
+	]
+	quest.2961B707783AC925.quest_desc: [
+		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
+		""
+		"This tier’s coal is obtained with blocks of the previous tier’s coal, while Celestigems are transformed from Diamond Blocks."
+		""
+		"&a🛈 Tip: Higher tier Goos can do all of the lower tier’s recipes."
 	]
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Welcome to Modern Industrialization!"
@@ -536,6 +628,16 @@
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
+	quest.3263757C9A240C70.quest_desc: [
+		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
+		""
+		"If you’d like to work on the go, the mod also offers a variety of handheld tools that work exactly like a placed Workstation."
+		""
+		"Workstation variants are aesthetic only. They can all make any Chipped block, so pick your favorite!"
+		""
+		"&a🛈 Tip: Search &3@chipped&r &ain EMI to "
+		"&a    discover more."
+	]
 	quest.33014A99A399B607.quest_desc: [
 		"Though no small feat to obtain, Tier 4 Dimensional Storage Stabilizers are well worth the effort. "
 		""
@@ -631,6 +733,12 @@
 		"&a    Rod on Netherrack to attune it to "
 		"&a    Iesnium Ore."
 	]
+	quest.3AB9D7E7D4205334.quest_desc: [
+		"ChocoCraft is a simple mod for anyone looking for a fun and fanciful mount to get around their world in style. "
+		""
+		"This chapter will help you discover these lovely birds, their favorite snacks, and how to obtain each variety."
+	]
+	quest.3AB9D7E7D4205334.title: "ChocoCraft"
 	quest.3AD70D3BEF01A693.quest_desc: [
 		"The Coke Oven will be the first of many multi-block machines."
 		""
@@ -678,6 +786,75 @@
 	]
 	quest.3CA4472228D0F866.title: "ME Networks"
 	quest.3CABB289A26506BE.quest_desc: ["Electronic components will need good quality wires, something not easily crafted by hand. The Wiremill is perfectly suited to the task, however. "]
+	quest.3D307863E39B9EFE.quest_desc: [
+		"Tamed Chocobos can be bred quite readily by feeding them Loverly Gysahl Greens, however this will only rarely result in a new color variety. "
+		""
+		"For more reliable mutations, use Golden Gysahl instead. "
+		""
+		"&a🛈 Tip: These Gysahl varieties are "
+		"&a    obtained rarely when farming "
+		"&a    regular Gysahl."
+		"&n                                                  &r"
+		""
+		"Possible Mutations:"
+		"    • &eYellow&r + &eYellow&r = &2Green&r or &9Blue&r"
+		"    • &2Green&r + &9Blue&r = &7White&r"
+		"    • &eYellow&r + &7White&r = &8Black&r"
+		"    • &8Black&r + &7White&r = &6Gold&r "
+		"        &6⚠ Note: &oRequires Golden Gysahl"
+		"&n                                                  &r"
+		""
+		"&6⚠ Note: The following pages contain "
+		"&6    more information on the abilities of "
+		"&6    each of these varieties."
+		""
+		""
+		"{@pagebreak}"
+		"  • &eYellow Chocobos&r are the average"
+		"    variety. Like all Chocobos, they "
+		"    have a slow fall ability which lets "
+		"    them fall from great heights with "
+		"    little harm."
+		""
+		"  • &2Green Chocobos&r have the ability to "
+		"    climb, allowing them to ascend blocks "
+		"    with relative ease."
+		""
+		"  • &9Blue Chocobos&r excel in at swimming "
+		"    and move faster than their &2Green&r "
+		"    cousins on land."
+		"{@pagebreak}"
+		"  • &7White Chocobos&r have the climbing "
+		"    and swimming abilities of their &2Green&r "
+		"    and &9Blue&r cousins, in addition to "
+		"    being faster on land."
+		""
+		"  • &8Black Chocobos&r are excellent "
+		"    jumpers and have all the same "
+		"    capabilities as &7White Chocobos&r while"
+		"    also being faster on land."
+		""
+		"  • &6Golden Chocobos&r are the fastest "
+		"    variety and have the ability to fly "
+		"    rather than simply gliding like their "
+		"    cousins."
+		"{@pagebreak}"
+		"  • &4Red Chocobos&r are created by "
+		"    feeding Red Gysahl to a &6Golden "
+		"    &6Chocobo&r. It keeps all of the same "
+		"    abilities after this transformation."
+		""
+		"  • &dPink Chocobos&r are created by "
+		"    feeding Pink Gysahl to a &6Golden "
+		"    &6Chocobo&r. It keeps all of the same "
+		"    abilities after this transformation."
+		""
+		"  • &5Purple Chocobos&r cannot be bred. "
+		"    Instead they are found roaming "
+		"    The Nether. They can run on lava"
+		"    and are capable flyers."
+	]
+	quest.3D307863E39B9EFE.title: "Breeding and Mutations"
 	quest.3D334F8BDD0E4046.quest_desc: [
 		"The Pressurizer should be the first stop after manufacturing Titanium. "
 		""
@@ -695,6 +872,14 @@
 		""
 		"Having machines dedicated to a given recipe will become more and more relevant as you progress, so keep this in mind when designing new processing lines. "
 	]
+	quest.3D59639F51E89CF9.quest_desc: [
+		"The Advanced Clicker gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
+		""
+		"&a🛈 Tip: Use the Render Area button to "
+		"&a    easily configure the working area."
+	]
+	quest.3D91A9DBE0B091AE.quest_desc: ["Ranking low in protection and durability, but very high in cute factor, the Chocodisguise is a suit of armor that will make you feel as if you’re one of the herd. "]
+	quest.3D91A9DBE0B091AE.title: "Chocodisguise"
 	quest.3E622F93756E9BFA.quest_desc: [
 		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
 		""
@@ -705,6 +890,88 @@
 		"Inside the Meteorite, you will also find a Mysterious Cube. Break it to obtain all four Circuit Presses."
 	]
 	quest.3E622F93756E9BFA.title: "Meteor Hunting"
+	quest.3E7A4470BD04F2A1.quest_desc: [
+		"The Simple Sensor is an all purpose block and entity sensor that emits a signal according to its settings. "
+		""
+		"This can be an excellent way to control a Simple Block Breaker, for example. "
+		""
+		"Drag an item or block from EMI to the filter slot in the middle. For filtering entities, use that creature’s Spawn Egg. For fluids, use a bucket of that fluid."
+	]
+	quest.3ED6754FC6B0A36D.quest_desc: [
+		"The Tools added by this mod have a variety of interesting properties attached to them. "
+		""
+		"Each can be enabled, disabled, or otherwise configured by Sneak Right-Clicking while holding the tool. "
+		""
+		"Most of these happen automatically when enabled. However others, like Lawnmower, are activated on Right-Click."
+		""
+		"The following pages will cover what each ability does. "
+		""
+		"&a🛈 Tip: To see which of these a tool "
+		"&a    has, hold Shift while hovering "
+		"&a    over the tool in EMI. "
+		"{@pagebreak}"
+		"&7&nWeapon Abilities"
+		""
+		"Appear on Swords and Paxels."
+		""
+		" • &aMob Scanner&r: Locates nearby "
+		"   hostile mobs."
+		" • &aAuto Smoker&r: Cooks drops."
+		" • &aCauterize Wounds&r: Self-Heal at the "
+		"   cost of durability/energy."
+		" • &aMob X-Ray&r: Highlights nearby mobs."
+		""
+		"&7&nMiscellaneous Abilities"
+		""
+		"Appear on several tool types."
+		""
+		" • &aDrops Teleporter&r: Teleports drops "
+		"   to a bound inventory."
+		" • &aLava Repair&r: Repairs when dropped "
+		"   in Lava, converting the Lava to "
+		"   Obsidian."
+		" • &aHammer&r: AoE mining starting at 3x3. "
+		"   Increase with tier."
+		" • &aAuto Smelter&r: Smelts mined blocks."
+		" • &aInstant Break&r: Yep."
+		"{@pagebreak}"
+		"&7&nPickaxe Abilities"
+		""
+		"Appear on both Pickaxes and Paxels."
+		""
+		" • &aOre Miner&r: Mines all connected ore."
+		" • &aOre Scanner&r: Locates nearby ore."
+		" • &aX-Ray&r: Highlights nearby ore."
+		""
+		"&7&nShovel Abilities"
+		""
+		"Appear on both Shovels and Paxels."
+		""
+		" • &aLawnmower&r: Instantly breaks nearby"
+		"   grassand flowers."
+		" • &aSkysweeper&r: Breaks Sand and "
+		"   Gravel above the target block."
+		""
+		"&7&nAxe Abilities"
+		""
+		"Appear on both Axes and Paxels."
+		""
+		" • &aTree Feller&r: Breaks logs in an area."
+		" • &aLeaf Breaker&r: Instantly breaks "
+		"   leaves in an area."
+		"{@pagebreak}"
+		"&7&nHoe Abilities"
+		""
+		"Hoes behave a little differently from other tools in that their special ability is to create new farmland types."
+		""
+		"These farmlands all have the following abilities: "
+		""
+		" • Immune to trampling."
+		" • Boost crop growth."
+		" • Auto-harvest and replant. "
+		""
+		"For Hoes with the Drops Teleporter ability, auto-harvest drops will go to whatever inventory the Hoe was bound to at the time of tilling. "
+	]
 	quest.3F021EBB71F4BC70.quest_desc: [
 		"Smart Cables are identical to their covered counterparts, with one small addition: they display the number of channels passing through them directly on their surface."
 		""
@@ -829,6 +1096,11 @@
 		"&a    Clicking them onto chests."
 	]
 	quest.44037DC8E8D493BC.title: "Iron Chests"
+	quest.4457D6BB7AE28073.quest_desc: [
+		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
+		""
+		"The Energy Transmitter can be used to power every block in a small area. Use the Render Area button to help align the work area to cover your machines."
+	]
 	quest.44BD4C393C59F1CB.quest_desc: [
 		"The Discovery questline's purpose is to show what's available in the pack."
 		""
@@ -1035,6 +1307,16 @@
 		"&a    Extractors with a Mercurial Wand"
 		"&a    to set the side they work with."
 	]
+	quest.5203EDBBACDBA86A.quest_desc: [
+		"Some tools and blocks will require energy to operate. Though they’ll work with any Forge Energy, the mod also includes a few generators to cover that need. "
+		""
+		"The Coal Generator burns any furnace fuel, though it works best with the coals from the mod as they’re very energy dense. Higher tiers of coals not only are worth more energy, but produce more per second."
+		""
+		"Similarly, the Fuel Generator burns the mods' own fuels, which tend to be better than burning the coals they’re made from; producing more energy and faster than their solid counterparts."
+		""
+		""
+		"&a🛈 Tip: The Generators automatically power adjacent blocks."
+	]
 	quest.526FB82B8D47EAA4.quest_desc: [
 		"Mekanism’s Bins are cheap and effective mass storage blocks. They only hold one type of item, but they hold a lot!"
 		""
@@ -1113,6 +1395,19 @@
 		"&a    cables."
 	]
 	quest.56DDD2327724F715.title: "Cables"
+	quest.574555F24035E48A.quest_desc: [
+		"This collection of blocks do pretty much what their name implies; placing and picking up blocks or fluid."
+		""
+		"They cannot be filtered, but they can be controlled via redstone. "
+		""
+		"They each have a single inventory slot which behaves slightly differently for each. "
+		""
+		"The Block Breaker will break using whatever item is in this slot as its tool, so it could be used to automatically Fortune ore, for example. "
+		""
+		"The Block Placer only places the blocks in that inventory slot."
+		""
+		"Meanwhile the Fluid blocks accept a tank in those slots to hold the fluids they’ll be placing/collecting. "
+	]
 	quest.577377C909FF0001.quest_desc: [
 		"The Distillery will be our entry point into oil refining. This machine can produce multiple outputs for any given input, and must be told which to produce."
 		""
@@ -1310,6 +1605,17 @@
 		"&a    a connection."
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
+	quest.642CDBB28337670C.quest_desc: [
+		"These beautiful bipedal birds can be found in small family groups all around the world. "
+		""
+		"They adore snacking on Gysahl Greens and are quite easily tamed by being fed this tasty treat. "
+		"&n                                                  &r"
+		""
+		"Head on out and see if you can locate a few to bring home. "
+		""
+		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
+	]
+	quest.642CDBB28337670C.title: "Finding and Taming"
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Work in progress."
 		""
@@ -1376,6 +1682,17 @@
 		"&6    pentacle. "
 	]
 	quest.67835A69ECDC692D.title: "Red Chalk"
+	quest.679DACB985517C55.quest_desc: [
+		"The Advanced Dropper allows for dropping items further away and in more configurable amounts. "
+		""
+		"&a🛈 Tip: Use the Render Area button to "
+		"&a    easily configure the working area."
+	]
+	quest.68079D29B91FC30A.quest_desc: [
+		"Modern Industrialization has its own Villager which can help you dramatically in the early game, selling you Steel Hammers, Analog Circuits, and other items to get you through the first tiers quickly."
+		""
+		"Their Workbench is a Forge Hammer. Try one out and see what you’ll get!"
+	]
 	quest.684A0E52D7BAC37C.quest_desc: [
 		"A mass item storage solution with an integrated crafting table, making it simple to keep everything at hand for crafting."
 		""
@@ -1387,6 +1704,16 @@
 		"&a    Wormhole or Storage Accessor"
 		"&a    on the Actuator to link them."
 	]
+	quest.692EDEAEC3F4A2AD.quest_desc: [
+		"The Swapper is a powerful teleportation device that swaps the blocks or entities in front of it with its linked partner. "
+		""
+		"This can be a great way to get around your base, teleport long distances, move babies out of a farm, and more. "
+		""
+		"They must be set up in a linked pair and are bound to each other by using a Ferricore Wrench."
+		""
+		"Simply place them both, then Right-Click one with the Wrench. Finish by Right-Clicking the other with the Wrench. "
+	]
+	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
 	quest.69AAE7C502629B3E.quest_desc: [
 		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
 		""
@@ -1470,6 +1797,12 @@
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
 	]
+	quest.6F354A767B138CA3.quest_desc: [
+		"Want to make a nice stable for your Chocobos? Be sure to cover the floor in Straw and place a Cauldron full of Water nearby. "
+		""
+		"This will count as a ‘Chocobo Pen’ and slowly heal any damaged Chocobos in the area."
+	]
+	quest.6F354A767B138CA3.title: "Chocobo Pen"
 	quest.6F8C048404EAF9FF.quest_desc: [
 		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
 		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
@@ -1497,6 +1830,16 @@
 		"&6⚠ Note: Machines simply do not run if"
 		"&6    given the wrong tier of power."
 	]
+	quest.7163E7EBDB861D72.quest_desc: [
+		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
+		""
+		"Running a mob farm? Use a Celestigem Sword bound to a storage system; all the mob drops will be inserted automatically."
+		""
+		"Setting up a tree farm? Use a Celestigem Axe to teleport the logs to storage. "
+		""
+		"Farmland tilled with a Celestigem Hoe will self-harvest and teleport the drops to a bound storage as well. Handy!"
+	]
+	quest.7163E7EBDB861D72.title: "Advanced Item Collector?"
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
 		""
@@ -1618,6 +1961,14 @@
 		"&6    separate so the aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.76695BF2B0E70087.quest_desc: [
+		"After a quick jaunt into the Nether, you’ll be able to upgrade your Goo to a Blazebloom Goo. "
+		""
+		"This tier’s coal is obtained with blocks of the previous tier’s coal, while Blazegold Ingots are transformed from Gold Blocks."
+		""
+		"&a🛈 Tip: Higher tier Goos will do all of the "
+		"&a    lower tier’s recipes faster."
+	]
 	quest.770EE92EA4CF973C.quest_desc: [
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
 		""
@@ -1660,6 +2011,14 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.7992122E44D163DB.title: "Supercritical Phase Shifter"
+	quest.79951647661D4B52.quest_desc: [
+		"Brave the dark environs of the Ancient Cities, deep underground to obtain the materials required for this tier of Goo."
+		""
+		"This tier’s coal is obtained with blocks of the previous tier’s coal, while Eclipse Alloy Ingots are transformed from Netherite Blocks."
+		""
+		"&a🛈 Tip: Higher tier Goos will do all of the "
+		"&a    lower tier’s recipes faster."
+	]
 	quest.79A6EED9C2D433F1.quest_desc: [
 		"Djinni Crushers are considerably more powerful than their Foliot cousins. "
 		""
@@ -1754,7 +2113,9 @@
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
+	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
+	task.1D1C35B0CD86F6CC.title: "Any Fluid Drawer"
 	task.1D4765846A798B24.title: "Any Modern Industrialization Barrel"
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.213012F4279A21AF.title: "Chemical Tanks"
@@ -1766,14 +2127,19 @@
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
+	task.33A6A08CB5499DE2.title: "Villagers"
+	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
+	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
+	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
+	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
 	task.42E9F9AE06C46A76.title: "Any Pickaxe"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
-	task.4315ED9269099C81.title: "Any #c:chests"
+	task.4315ED9269099C81.title: "Any Chest"
 	task.437A0173972D42B6.title: "Induction Matrix"
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
@@ -1810,6 +2176,7 @@
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
+	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"
 	task.7FC1B66AFF268BF8.title: "Dense Covered Cables"
 }

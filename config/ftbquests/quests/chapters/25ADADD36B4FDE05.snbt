@@ -1,0 +1,482 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "25ADADD36B4FDE05"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "justdirethings:machinesettingscopier"
+	}
+	id: "4C53D082D6306BF8"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "justdirethings:block/blockbreakert1_top_active"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "062BB5F675CF9F45"
+			rewards: [{
+				id: "7E4BA095DA3D9116"
+				item: {
+					count: 1
+					id: "justdirethings:ferricore_wrench"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E77920F150C9F9A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["062BB5F675CF9F45"]
+			icon: {
+				id: "justdirethings:gooblock_tier1"
+			}
+			id: "11EDFB60C787114D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FA0B44745CD3821"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5B3080D43B5E04A8"
+					item: { count: 1, id: "justdirethings:gooblock_tier1" }
+					type: "item"
+				}
+				{
+					id: "151461D43657149E"
+					item: { count: 1, id: "justdirethings:coal_t1" }
+					type: "item"
+				}
+				{
+					id: "4E71A43B24A57704"
+					item: { count: 1, id: "justdirethings:ferricore_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11EDFB60C787114D"]
+			icon: {
+				id: "justdirethings:gooblock_tier2"
+			}
+			id: "76695BF2B0E70087"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "692DA9B20F748316"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0966C29BE5E497DD"
+					item: { count: 1, id: "justdirethings:gooblock_tier2" }
+					type: "item"
+				}
+				{
+					id: "529782C444AAE14A"
+					item: { count: 1, id: "justdirethings:coal_t2" }
+					type: "item"
+				}
+				{
+					id: "70C8B43FD2657D1B"
+					item: { count: 1, id: "justdirethings:blazegold_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76695BF2B0E70087"]
+			icon: {
+				id: "justdirethings:gooblock_tier3"
+			}
+			id: "2961B707783AC925"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31032C80E02CD937"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0D0FF78ECED181C8"
+					item: { count: 1, id: "justdirethings:gooblock_tier3" }
+					type: "item"
+				}
+				{
+					id: "4146FB49868874AF"
+					item: { count: 1, id: "justdirethings:coal_t3" }
+					type: "item"
+				}
+				{
+					id: "793EE16991F8D88C"
+					item: { count: 1, id: "justdirethings:celestigem" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2961B707783AC925"]
+			icon: {
+				id: "justdirethings:gooblock_tier4"
+			}
+			id: "79951647661D4B52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8D2232A101A7BF"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7498CEE69D043229"
+					item: { count: 1, id: "justdirethings:gooblock_tier4" }
+					type: "item"
+				}
+				{
+					id: "0BD6BA8343A4B807"
+					item: { count: 1, id: "justdirethings:coal_t4" }
+					type: "item"
+				}
+				{
+					id: "5A6D823238F1A87E"
+					item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11EDFB60C787114D"]
+			id: "574555F24035E48A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "506913711651FB64"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "449C4C7C494AB833"
+					item: { count: 1, id: "justdirethings:fluidcollectort1" }
+					type: "item"
+				}
+				{
+					id: "6348F65D8BB76397"
+					item: { count: 1, id: "justdirethings:fluidplacert1" }
+					type: "item"
+				}
+				{
+					id: "16A66EE212C39479"
+					item: { count: 1, id: "justdirethings:blockbreakert1" }
+					type: "item"
+				}
+				{
+					id: "5912DA5F746D5FF9"
+					item: { count: 1, id: "justdirethings:blockplacert1" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["574555F24035E48A"]
+			id: "3E7A4470BD04F2A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E32270EF9062ACC"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "13874372C848F0FA"
+				item: { count: 1, id: "justdirethings:sensort1" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11EDFB60C787114D"]
+			id: "157A20804F9E8F83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "568B49D84793A944"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0292635F83E6B16F"
+				item: { count: 1, id: "justdirethings:itemcollector" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11EDFB60C787114D"]
+			id: "0B05FA716D7335D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33DE159F97F05D62"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73D247A6B80B90A5"
+				item: { count: 1, id: "justdirethings:droppert1" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11EDFB60C787114D"]
+			id: "264783EF292A494B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03ABB813D51C65EB"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0491CFC022FDB133"
+				item: { count: 1, id: "justdirethings:clickert1" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11EDFB60C787114D"]
+			id: "5203EDBBACDBA86A"
+			rewards: [{
+				id: "5EF154E76ECA8BD1"
+				item: {
+					count: 1
+					id: "justdirethings:fuel_canister"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0AC4E9DFF3B4EF00"
+					item: { count: 1, id: "justdirethings:generatort1" }
+					type: "item"
+				}
+				{
+					id: "1F4DE3E14E4CC939"
+					item: { count: 1, id: "justdirethings:generatorfluidt1" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2961B707783AC925"]
+			id: "4457D6BB7AE28073"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "493D0697935AFB45"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "027ED2DA0AAFFC0F"
+				item: { count: 1, id: "justdirethings:energytransmitter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2961B707783AC925"]
+			id: "289DEC367A80D718"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68FBB46F45F17921"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6DA0EBA0077E65CB"
+					item: { count: 1, id: "justdirethings:fluidcollectort2" }
+					type: "item"
+				}
+				{
+					id: "5F4D34B1915E3599"
+					item: { count: 1, id: "justdirethings:fluidplacert2" }
+					type: "item"
+				}
+				{
+					id: "47AE193B33E573CB"
+					item: { count: 1, id: "justdirethings:blockbreakert2" }
+					type: "item"
+				}
+				{
+					id: "7482142C3D136DD3"
+					item: { count: 1, id: "justdirethings:blockplacert2" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2961B707783AC925"]
+			id: "55065F1D9C6716C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F196146590F2F80"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6D5F970768FF911B"
+				item: { count: 1, id: "justdirethings:sensort2" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2961B707783AC925"]
+			id: "679DACB985517C55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25360B12EB5D96E9"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F636BCF95A10BEB"
+				item: { count: 1, id: "justdirethings:droppert2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2961B707783AC925"]
+			id: "3D59639F51E89CF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7709CE32138B21F1"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "71FCBDC20FC280DA"
+				item: { count: 1, id: "justdirethings:clickert2" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2961B707783AC925"]
+			id: "7163E7EBDB861D72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "172006DA84D81835"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FAF9DE9DBBA6228"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:celestigem_hoe)item(justdirethings:celestigem_paxel)item(justdirethings:celestigem_sword)item(justdirethings:celestigem_pickaxe)item(justdirethings:celestigem_shovel)item(justdirethings:celestigem_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76695BF2B0E70087"]
+			id: "20454EB2C6E93573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "054F394862DFBA3E"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7478673226CDC66B"
+				item: { count: 1, id: "justdirethings:playeraccessor" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76695BF2B0E70087"]
+			id: "692EDEAEC3F4A2AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E5AD38093768A99"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "373B2E8167BD1121"
+				item: { count: 1, id: "justdirethings:blockswappert1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79951647661D4B52"]
+			id: "0545305EBB98A0BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DB22E470619568E"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27617ED5C1316B6C"
+				item: { count: 1, id: "justdirethings:blockswappert2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11EDFB60C787114D"]
+			id: "3ED6754FC6B0A36D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "641269408A7E7C16"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34E6ED3A221ADB0E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools)mod(justdirethings)not(item(justdirethings:ferricore_wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+	]
+}

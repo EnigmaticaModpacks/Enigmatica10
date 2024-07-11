@@ -40,10 +40,10 @@
 			hide_dependency_lines: true
 			id: "212EB5AFECD2A6E8"
 			rewards: [{
-				id: "0986788DA599C834"
+				id: "0C8D1BBE7EDA50C2"
 				item: {
 					count: 1
-					id: "modern_industrialization:iron_hammer"
+					id: "modern_industrialization:steel_hammer"
 				}
 				type: "item"
 			}]
@@ -1777,6 +1777,28 @@
 			}]
 			x: 20.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["212EB5AFECD2A6E8"]
+			id: "68079D29B91FC30A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FBA7F1E052BB018"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:emerald"
+				}
+				id: "33A6A08CB5499DE2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -0.5d
 		}
 	]
 }

@@ -1,22 +1,35 @@
+### Enigmatica 10 1.5.0
+
+#### ⭐ Improvements
+
+-   Just Dire Things and ChocoCraft quests! [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+-   replaced Ink Sacs with Black Dye in several recipes. [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+
+#### 🦟 Bugs Fixed
+
+-   Gysahl Greens Seeds are back in the Market [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+
+---
+
 ### Enigmatica 10 1.4.0
 
 NeoForge-1.21.0-21.0.53 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.4.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.4.0.md)
 
 #### ✔️ Added Mods
 
-  * [Apothic Spawners](https://www.curseforge.com/minecraft/mc-mods/apothic-spawners) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-  * [Chipped](https://www.curseforge.com/minecraft/mc-mods/chipped) (by [terrariumearth](https://www.curseforge.com/members/terrariumearth/projects))
-  * [ChocoCraft](https://www.curseforge.com/minecraft/mc-mods/chococraft) (by [clienthax](https://www.curseforge.com/members/clienthax/projects))
-  * [Comforts (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/comforts) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
-  * [Crafting Station](https://www.curseforge.com/minecraft/mc-mods/crafting-station) (by [tfarecnim](https://www.curseforge.com/members/tfarecnim/projects))
-  * [Functional Storage](https://www.curseforge.com/minecraft/mc-mods/functional-storage) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-  * [Genetics: Resequenced](https://www.curseforge.com/minecraft/mc-mods/genetics-resequenced) (by [aaronhowser1](https://www.curseforge.com/members/aaronhowser1/projects))
-  * [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) (by [thedarkcolour](https://www.curseforge.com/members/thedarkcolour/projects))
-  * [Let Me Despawn](https://www.curseforge.com/minecraft/mc-mods/let-me-despawn) (by [frikinjay](https://www.curseforge.com/members/frikinjay/projects))
-  * [PackMenu](https://www.curseforge.com/minecraft/mc-mods/packmenu) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-  * [Placebo](https://www.curseforge.com/minecraft/mc-mods/placebo) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-  * [Ranged Pumps](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps) (by [raoulvdberge](https://www.curseforge.com/members/raoulvdberge/projects))
-  * [Titanium](https://www.curseforge.com/minecraft/mc-mods/titanium) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Apothic Spawners](https://www.curseforge.com/minecraft/mc-mods/apothic-spawners) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [Chipped](https://www.curseforge.com/minecraft/mc-mods/chipped) (by [terrariumearth](https://www.curseforge.com/members/terrariumearth/projects))
+-   [ChocoCraft](https://www.curseforge.com/minecraft/mc-mods/chococraft) (by [clienthax](https://www.curseforge.com/members/clienthax/projects))
+-   [Comforts (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/comforts) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
+-   [Crafting Station](https://www.curseforge.com/minecraft/mc-mods/crafting-station) (by [tfarecnim](https://www.curseforge.com/members/tfarecnim/projects))
+-   [Functional Storage](https://www.curseforge.com/minecraft/mc-mods/functional-storage) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Genetics: Resequenced](https://www.curseforge.com/minecraft/mc-mods/genetics-resequenced) (by [aaronhowser1](https://www.curseforge.com/members/aaronhowser1/projects))
+-   [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) (by [thedarkcolour](https://www.curseforge.com/members/thedarkcolour/projects))
+-   [Let Me Despawn](https://www.curseforge.com/minecraft/mc-mods/let-me-despawn) (by [frikinjay](https://www.curseforge.com/members/frikinjay/projects))
+-   [PackMenu](https://www.curseforge.com/minecraft/mc-mods/packmenu) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [Placebo](https://www.curseforge.com/minecraft/mc-mods/placebo) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [Ranged Pumps](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps) (by [raoulvdberge](https://www.curseforge.com/members/raoulvdberge/projects))
+-   [Titanium](https://www.curseforge.com/minecraft/mc-mods/titanium) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
 
 #### ⭐ Improvements
 
@@ -24,9 +37,8 @@ NeoForge-1.21.0-21.0.53 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### 🦟 Bugs Fixed
 
-* KubeJS folder appears to be missing in 1.3 release [(\#21)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/21)
-* Theurgy/Occultism books large minimap [(\#17)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/17)
-
+-   KubeJS folder appears to be missing in 1.3 release [(\#21)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/21)
+-   Theurgy/Occultism books large minimap [(\#17)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/17)
 
 ---
 
