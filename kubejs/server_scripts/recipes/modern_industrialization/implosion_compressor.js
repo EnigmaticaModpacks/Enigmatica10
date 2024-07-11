@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
             item_outputs: { item: 'minecraft:blaze_rod', amount: 1 },
             eu: 1,
             duration: 10,
-            id: `${id_prefix}blaze_powder_from_coal_t2`
+            id: `${id_prefix}blaze_rod`
         }
     ];
 
