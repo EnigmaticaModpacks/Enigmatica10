@@ -4,6 +4,7 @@ ServerEvents.recipes((event) => {
     const recipes = [];
 
     event.forEachRecipe({ mod: 'handcrafted', id: /_sheet$/ }, (r) => {
+        // Convert Sheets to Shaped recipe to resolve recipe conflict with Comforts
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
 
