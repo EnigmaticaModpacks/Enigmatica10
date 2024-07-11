@@ -21,6 +21,11 @@ ServerEvents.recipes((event) => {
             filter: { output: 'minecraft:writable_book' },
             to_replace: 'minecraft:ink_sac',
             replace_with: '#c:dyes/black'
+        },
+        {
+            filter: { mod: 'ae2' },
+            to_replace: '#c:ingots/iron',
+            replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
         }
     ];
 
