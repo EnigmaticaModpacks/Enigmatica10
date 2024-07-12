@@ -28,9 +28,9 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}green_dye_from_short_grass`
         },
         {
-            output: Item.of('minecraft:black_dye', 2),
-            inputs: ['#minecraft:coals'],
-            id: `${id_prefix}black_dye_from_coal`
+            output: Item.of('minecraft:yellow_dye', 2),
+            inputs: ['#c:dusts/sulfur'],
+            id: `${id_prefix}yellow_dye_from_sulfur`
         }
     ];
 

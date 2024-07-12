@@ -72,12 +72,23 @@
 				id: "geneticsresequenced:organic_matter"
 			}
 			id: "61F55FC24EA0CD1C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77FA56ECE15E308F"
-				table_id: 23658154196454858L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77FA56ECE15E308F"
+					table_id: 23658154196454858L
+					type: "loot"
+				}
+				{
+					count: 8
+					id: "7B0A4D5266FA8219"
+					item: {
+						count: 1
+						id: "geneticsresequenced:overclocker"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "307F81EE941C9991"
@@ -145,7 +156,7 @@
 				}
 			]
 			x: 2.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2C1538BE243F0CB4"]
@@ -246,6 +257,89 @@
 			}]
 			x: 5.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["0D7B7B9CF7362FD8"]
+			id: "79FA7B5854C9606F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A7AEA6FF71CE89"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "488180E25D5B815A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(geneticsresequenced:anti_field_orb)item(geneticsresequenced:anti_field_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["529329FE6CB3D29E"]
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "geneticsresequenced:mutation"
+					}
+				}
+				id: "minecraft:potion"
+			}
+			id: "2850FCAFEEF5004C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5971C5764C986A3C"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "064076BE23259DC0"
+					item: { components: { "minecraft:potion_contents": { potion: "geneticsresequenced:mutation" } }, count: 1, id: "minecraft:potion" }
+					type: "item"
+				}
+				{
+					id: "52441B8D959E9645"
+					item: { count: 1, id: "geneticsresequenced:advanced_incubator" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2850FCAFEEF5004C"]
+			id: "7431B398FFDF3DCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B693849E7219655"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AEB168BC40CEB89"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7431B398FFDF3DCA"]
+			id: "08D496EFE575AD1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04DC06F0371B8B10"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34676A4B5287D383"
+				item: { count: 1, id: "geneticsresequenced:gmo_cell" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
 		}
 	]
 }

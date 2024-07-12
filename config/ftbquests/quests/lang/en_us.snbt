@@ -83,6 +83,11 @@
 		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLvGYM7MCieIomj0tKtO9T5DUhvaYFjSxA\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you need a little extra help.\"]"
 	]
 	quest.062BB5F675CF9F45.title: "Just Dire Things"
+	quest.08D496EFE575AD1E.quest_desc: [
+		"With any luck, you’ll have received a Genetically Modified Cell with the trait you’re after. If not, better luck next time."
+		""
+		"If you did, take that GM Cell back to the DNA Extractor and proceed from there as you would with any Cell. By the end of the process, you’ll have a blood sample with your fancy new upgraded trait."
+	]
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -554,6 +559,15 @@
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
 		"It does need a tool, so be sure to provide it shears for said sheep farm or a nice looting sword for killing mobs. "
+	]
+	quest.2850FCAFEEF5004C.quest_desc: [
+		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
+		""
+		"The results of this process are not guaranteed, but your chances may be improved."
+		""
+		"To begin, craft some Potions of Mutation and an Advanced Incubator. Then get some Cell samples from the mob that gives the basic trait. In this case, Silverfish."
+		""
+		"Brew the Cell samples with the potion of Mutation to obtain a Potion of Mutation with that mob set as the entity."
 	]
 	quest.289433DE16324150.quest_desc: [
 		"Sal Ammoniac is a powerful alchemical solvent. It can be found in the ground in crystallized form, or simply extracted from Water."
@@ -1945,6 +1959,20 @@
 		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a quick bit of it."
 	]
 	quest.73F9A5F65B350A09.title: "Golden Chalk"
+	quest.7431B398FFDF3DCA.quest_desc: [
+		"With a Potion of Mutation set to the proper mob type, you’re ready for the next step. "
+		""
+		"This potion will again be combined in the Advanced Incubator, this time with a key item. Check the uses for your Potion of Mutation to see what it needs. In our case, Silverfish need a Netherite Pickaxe."
+		""
+		"This process is slow and any attempt to speed it up will result in a lower chance of success. "
+		"Adding Chorus Fruit to the right-hand slot of the Advanced Incubator will increase your chances of success."
+		""
+		"&c⚠ Warning: Overclockers and Time in a "
+		"&c    Bottle will both drastically increase "
+		"&c    failure rates. "
+		"&c    Patience, grasshopper!"
+	]
+	quest.7431B398FFDF3DCA.title: "Mutation"
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
 		""
@@ -2098,6 +2126,11 @@
 		""
 		"As such, they’re able to work faster and more efficiently, gaining more yield from crushing ores than the Foliot."
 	]
+	quest.79FA7B5854C9606F.quest_desc: [
+		"The Anti-Field Orb and Block both function to suppress certain genes; specifically the Item Attraction and XP Attraction traits."
+		""
+		"Place the block in an area where you don’t want to be sucking up items randomly. Or carry the orb with you to enable and disable the trait at will. Just Right-Click it to toggle the feature."
+	]
 	quest.7B5EB5D6F749520F.quest_desc: [
 		"Using water to cool a Fission Reactor has its limits, preventing the reactor from safely running as fast as it could with a better coolant like Sodium."
 		""
@@ -2221,6 +2254,7 @@
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4775BC243353527B.title: "Any Mining Gadget"
 	task.484FF1BEA9145D5F.title: "Puller Modules"
+	task.488180E25D5B815A.title: "Anti-Fields"
 	task.49C1EEBEED453B1C.title: "Mechanical Pipes"
 	task.4AAAB62A26960EFE.title: "Fluid Pipes"
 	task.4D45C5166D0700F8.title: "Item Pipes"
