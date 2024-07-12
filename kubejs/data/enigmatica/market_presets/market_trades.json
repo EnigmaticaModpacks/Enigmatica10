@@ -1,4 +1,1 @@
-{
-    "enabled": true,
-    "payment": { "ingredient": { "item": "minecraft:gold_nugget" }, "count": 3 }
-}
+{}

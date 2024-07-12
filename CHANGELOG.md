@@ -3,11 +3,23 @@
 #### ⭐ Improvements
 
 -   Just Dire Things and ChocoCraft quests! [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
--   replaced Ink Sacs with Black Dye in several recipes. [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+-   Replaced Ink Sacs with Black Dye in several recipes. [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+-   AE2 Recipes now accept Tin or Iron to help reduce the overwhelming reliance on Iron in recipes [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Raw Meat can be digested into Rotten Flesh [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Large animals such as cows now drop bones when killed [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   All bladed weapons now count for the purpose of getting Occultism Tallow [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Chocobos drop Tallow too. Fair game, birds [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Blaze Rods may be obtained through material transformations in addition to mob drops [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Genetics: Resequenced quests! [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Sulfur may now be crafted into yellow dye [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 
 #### 🦟 Bugs Fixed
 
 -   Gysahl Greens Seeds are back in the Market [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+-   Fixed recipe conflicts between Functional Storage and Handcrafted [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Fixed recipe conflicts between Comforts and Handcrafted [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Add all candles to the Minecraft Candles Tag [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Fix some items not appearing in Meat tags [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 
 ---
 
