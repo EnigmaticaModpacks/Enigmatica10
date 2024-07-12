@@ -13,6 +13,7 @@
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7CFAC3316D718D25.title: "ChocoCraft"
+	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
 	chapter_group.1C7CD605A8DD7732.title: "&aDiscovery"
 	chapter_group.264B8D62983BEFB4.title: "&aLearning - Technology"
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
@@ -123,6 +124,17 @@
 		"Once you’re able to reliably craft these components, you should be ready to proceed on to the EV Tier."
 	]
 	quest.0BA9F73FFBAAB6E7.title: "Advanced Computing"
+	quest.0BF882C463675433.quest_desc: [
+		"Now that we have some DNA, we need to know what it can do. "
+		""
+		"Every mob will give Basic Genes, but others have a chance to give more specialized Genes; these are what we’re ultimately after."
+		""
+		"For example, had you started this process with a Sheep, you’d have a chance of getting the Eat Grass Gene, which could be used to give yourself the ability to Right-Click Grass to eat it."
+		""
+		"&a🛈 Tip: Check the Recipes for any given "
+		"&a    Helix in EMI to see what mobs it "
+		"&a    comes from!"
+	]
 	quest.0CBCE3A0D149AED0.quest_desc: [
 		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
 		"&n                                                  &r"
@@ -174,6 +186,11 @@
 		"Distributor Modules can pull from or send to a maximum of up to 8 inventories per module, making them perfect for distributed crafts or collecting from many machines."
 	]
 	quest.0D65061DFD04B301.title: "Item Modules"
+	quest.0D7B7B9CF7362FD8.quest_desc: [
+		"Have a trait you don’t want anymore? You can remove them by crafting an Anti-Plasmid. "
+		""
+		"Attune it to the trait you wish to remove by crafting it together with a Plasmid of that type. Then inject it into a blood sample, just as you would with a regular Plasmid."
+	]
 	quest.0D80520D08A5C287.quest_desc: [
 		"MV Steam Turbines make more energy, but also consume steam faster. Upgrading to an Advanced Large Steam Boiler sooner, rather than later, will make life easier. "
 		""
@@ -610,6 +627,15 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2C1538BE243F0CB4.quest_desc: [
+		"So you’ve found a trait you’d like to have for yourself? You’ll need to infuse it into a Plasmid. "
+		""
+		"It only takes one Helix to set the type of a Plasmid. From there you can either use more of the same type to fill it up, or Basic Genes. Either is valid, though it will take more Basic Genes to fill it."
+		""
+		"&a🛈 Tip: Use Basic Genes to craft Empty "
+		"&a    Plasmids rather than wasting useful "
+		"&a    Genes on them."
+	]
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
 		""
@@ -897,6 +923,20 @@
 		""
 		"Drag an item or block from EMI to the filter slot in the middle. For filtering entities, use that creature’s Spawn Egg. For fluids, use a bucket of that fluid."
 	]
+	quest.3EA53BBEBC32F813.quest_desc: [
+		"Welcome to Genetics: Resequenced!"
+		""
+		"This mod is all about gaining special powers, for yourself and also for other mobs. "
+		""
+		"Ever wanted to shear meat off a pig? Milk a chicken? Eat grass like a sheep? How about feed yourself directly through the power of photosynthesis?"
+		""
+		"Well now you can!"
+		""
+		"These quests will walk you through the basics of using the mod. From there it’ll be up to you to put it to use, for good or ill."
+		""
+		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/aaronhowser1/Genetics-Resequenced/wiki\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of supplemental information.\"]"
+	]
+	quest.3EA53BBEBC32F813.title: "Genetics: Resequenced"
 	quest.3ED6754FC6B0A36D.quest_desc: [
 		"The Tools added by this mod have a variety of interesting properties attached to them. "
 		""
@@ -1108,6 +1148,19 @@
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
+	quest.4613FE560EAC7695.quest_desc: [
+		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
+		""
+		"You can inject multiple traits into the same sample if you like. "
+		""
+		"Once you’re happy with your enhanced blood sample, it’s time to inject it into a creature. "
+		""
+		"[\"Many traits may be given to mobs, but not all. Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/aaronhowser1/Genetics-Resequenced/wiki/3.-Gene-List\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" if in doubt.\"]"
+		""
+		"&6⚠ Note: Some traits have prerequisites "
+		"&6    that, if not met, will cause the "
+		"&6    injection to fail. Refer to EMI."
+	]
 	quest.4685E3B748A76726.quest_desc: [
 		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
 		""
@@ -1327,6 +1380,7 @@
 		"&a🛈 Tip: Bins can be locked by Sneak "
 		"&a    Right-Clicking with an empty hand!"
 	]
+	quest.529329FE6CB3D29E.quest_desc: ["Cells may be broken down in a DNA Extractor to obtain the juicy DNA Helices. "]
 	quest.52E79B2EB7400D13.quest_desc: [
 		"Terminals grant you visibility into the network and allow you to manually interact with the contents."
 		""
@@ -1558,6 +1612,14 @@
 		"Consider making a small batch here and automating later."
 	]
 	quest.6133CA58FE668DA6.title: "Analog Circuitry"
+	quest.61F55FC24EA0CD1C.quest_desc: [
+		"To begin, we’ll need some Organic Matter samples. You’ll obtain these by using your Scraper on different mobs. "
+		""
+		"Toss those in a Cell Analyzer to obtain Cells."
+		""
+		"&a🛈 Tip: A Scraper enchanted with "
+		"&a    Delicate Touch will cause no harm."
+	]
 	quest.626E31B97CA1F815.quest_desc: [
 		"While capable of producing enormous power, the allure of Fission Reactors within Mekanism is mostly to process Uranium into more useful materials, like Plutonium and Polonium. "
 		"&n                                                 &r"
@@ -1796,6 +1858,18 @@
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
+	]
+	quest.6EB6E8DEEBB32911.quest_desc: [
+		"In order to obtain a trait, it must be injected into a blood sample. So we’ll need to get one of those first."
+		""
+		"You can obtain your own blood with an Empty Syringe; simply hold Right-Click until your vision goes dark."
+		""
+		"To obtain the blood of another creature, you’ll need an Empty Metal Syringe."
+		""
+		"Once a sample is obtained, run it through the Blood Purifier to get it ready for modification."
+		""
+		"&a🛈 Tip: You need to stand very close to "
+		"&a    a mob to extract their blood."
 	]
 	quest.6F354A767B138CA3.quest_desc: [
 		"Want to make a nice stable for your Chocobos? Be sure to cover the floor in Straw and place a Cauldron full of Water nearby. "
@@ -2111,6 +2185,7 @@
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.116CBCF6CA77E71A.title: "Syringe"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
@@ -2149,6 +2224,7 @@
 	task.49C1EEBEED453B1C.title: "Mechanical Pipes"
 	task.4AAAB62A26960EFE.title: "Fluid Pipes"
 	task.4D45C5166D0700F8.title: "Item Pipes"
+	task.51472C5BD0C05E09.title: "Kill a Mob"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
