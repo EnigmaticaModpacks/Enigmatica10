@@ -12,6 +12,9 @@
 -   Blaze Rods may be obtained through material transformations in addition to mob drops [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Genetics: Resequenced quests! [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Sulfur may now be crafted into yellow dye [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+-   Enderman can no longer pick up blocks [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
+-   Default Sleep Percent to 25% [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
+-   Default FireTick off [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 
 #### 🦟 Bugs Fixed
 
