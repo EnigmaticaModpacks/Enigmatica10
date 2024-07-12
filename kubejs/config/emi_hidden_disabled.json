@@ -1,0 +1,19 @@
+{
+    "items": {
+        "hidden": [],
+        "disabled": ["/mffs.*steel/"],
+        "added": []
+    },
+    "fluids": {
+        "hidden": []
+    },
+    "gases": {
+        "hidden": []
+    },
+    "categories": {
+        "hidden": []
+    },
+    "recipes": {
+        "hidden": []
+    }
+}
