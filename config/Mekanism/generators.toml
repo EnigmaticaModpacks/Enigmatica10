@@ -118,7 +118,7 @@
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surfaceAreaTarget = 4.0
 		#Whether catastrophic meltdowns can occur from Fission Reactors. If disabled instead of melting down the reactor will turn off and not be able to be turned back on until the damage level decreases.
-		meltdownsEnabled = true
+		meltdownsEnabled = false
 		#The radius of the explosion that occurs from a meltdown.
 		#Range: 1.0 ~ 500.0
 		meltdownRadius = 8.0
