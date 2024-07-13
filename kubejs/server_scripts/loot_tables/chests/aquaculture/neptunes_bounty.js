@@ -12,7 +12,7 @@ LootJS.modifiers((event) => {
         })
         .pool((pool) => {
             pool.rolls(1)
-                .bonusRolls(0)
+                .bonusRolls(1)
                 .addEntry(LootEntry.of('minecraft:nautilus_shell').setCount([4, 8]))
                 .addEntry(LootEntry.of('minecraft:wet_sponge').setCount([1, 4]))
                 .addEntry(LootEntry.of('minecraft:turtle_scute').setCount([1, 2]));
