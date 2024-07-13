@@ -8,8 +8,8 @@ LootJS.modifiers((event) => {
     });
 
     event.addTableModifier('aquaculture:box/neptunes_bounty_junk').pool((pool) => {
-        pool.addEntry(LootEntry.of('minecraft:nautilus_shell').setCount([1, 5]))
-            .addEntry(LootEntry.of('minecraft:wet_sponge').setCount([1, 5]))
-            .addEntry(LootEntry.of('minecraft:turtle_scute').setCount([1, 5]));
+        pool.addEntry(LootEntry.of('minecraft:nautilus_shell').setCount([2, 8]))
+            .addEntry(LootEntry.of('minecraft:wet_sponge').setCount([1, 4]))
+            .addEntry(LootEntry.of('minecraft:turtle_scute').setCount([1, 2]));
     });
 });
