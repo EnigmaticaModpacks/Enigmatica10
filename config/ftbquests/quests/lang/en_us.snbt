@@ -1356,6 +1356,14 @@
 		""
 		"Running it is no small task, however, as the UU Matter that it operates on is exceedingly costly to create. "
 	]
+	quest.5089FD9AEDB1D3D0.quest_desc: [
+		"Having trouble finding a Meteorite?"
+		""
+		"The Fluix Researcher Villager can also offer you everything you need to get started with Applied Energistics.They use a Charger as their workstation."
+		""
+		"They’ll only sell two random Presses at their Expert level, so be prepared to do a bit of trading to get them all. "
+	]
+	quest.5089FD9AEDB1D3D0.title: "Fluix Researchers"
 	quest.51233852CD921F79.quest_desc: [
 		"Drives act as compact storage capable of holding tens of thousands of items."
 		""
@@ -1769,6 +1777,7 @@
 		""
 		"Their Workbench is a Forge Hammer. Try one out and see what you’ll get!"
 	]
+	quest.68079D29B91FC30A.title: "Industrialists"
 	quest.684A0E52D7BAC37C.quest_desc: [
 		"A mass item storage solution with an integrated crafting table, making it simple to keep everything at hand for crafting."
 		""
@@ -2235,7 +2244,7 @@
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
-	task.33A6A08CB5499DE2.title: "Villagers"
+	task.33A6A08CB5499DE2.title: "Observe a Villager"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
@@ -2283,6 +2292,7 @@
 	task.741114ACD8AABEF6.title: "Demon's Dream"
 	task.75050C1ED68FA527.title: "Building Gadgets"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
+	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
