@@ -1,12 +1,4 @@
 // // https://docs.almostreliable.com/lootjs/
-LootJS.modifiers((event) => {
-    event.getGlobalModifiers().forEach((modifier) => {
-        if (modifier.match(/tallow_from/)) {
-            event.removeGlobalModifier(modifier);
-        }
-    });
-});
-
 LootJS.lootTables((event) => {
     const tables = [
         'chococraft:entities/chocobo',
@@ -23,12 +15,7 @@ LootJS.lootTables((event) => {
     ];
     tables.forEach((table) => {
         event.getLootTable(table).createPool((pool) => {
-            pool.addEntry(
-                LootEntry.of('occultism:tallow')
-                    .matchMainHand('#occultism:tools/knives')
-                    .setCount([0, 2])
-                    .applyEnchantmentBonus([0, 1])
-            );
+            pool.addEntry(LootEntry.of('minecraft:bone').setCount([0, 2]).applyEnchantmentBonus([0, 1]));
         });
     });
 });
