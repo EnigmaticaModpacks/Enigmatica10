@@ -281,6 +281,8 @@
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""
 		"The system can be accessed remotely through a QIO Dashboard to manually craft or just for accessing materials. Keep one with you and place it down whenever you want to access the network."
+		""
+		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"4D1E38918B64CD4E\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Mekanism\",\"underlined\":true},\" chapter. \"]"
 	]
 	quest.157A20804F9E8F83.quest_desc: [
 		"With all this in world crafting, an Item Collector will no doubt come in handy."
@@ -1044,10 +1046,7 @@
 	quest.3FF6566453299DC1.quest_desc: [
 		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
 		""
-		""
-		"Read more about this system in the dedicated Applied Energistics chapter. "
-		""
-		"{ \"text\": \"Applied Energistics\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" } }"
+		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Applied Energistics\",\"underlined\":true},\" chapter. \"]"
 	]
 	quest.40EECBD3D00B9575.quest_desc: [
 		"Fluid Tanks come in various sizes and are used for any kind of fluid. "
@@ -1784,6 +1783,8 @@
 		"Stabilized Wormholes offer remote access so items can be piped in from remote farms."
 		""
 		"A Storage Accessor grants personal access to the storage from anywhere at all. "
+		""
+		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"0095002B3E34FD9A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Occultism\",\"underlined\":true},\" chapter. \"]"
 		""
 		"&a🛈 Tip: Sneak Right-Click a Stabilized "
 		"&a    Wormhole or Storage Accessor"
