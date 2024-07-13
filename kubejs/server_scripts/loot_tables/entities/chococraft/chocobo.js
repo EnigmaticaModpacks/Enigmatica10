@@ -1,7 +1,6 @@
 // https://docs.almostreliable.com/lootjs/
-LootJS.modifiers((event) => {
-    event
-        .addTableModifier('chococraft:entities/chocobo')
-        .addLoot(LootEntry.of('minecraft:bone').setCount([1, 3]))
-        .addLoot(LootEntry.of('occultism:tallow').matchMainHand('#occultism:tools/knives').setCount(3));
+LootJS.lootTables((event) => {
+    event.getLootTable('chococraft:entities/chocobo').createPool((pool) => {
+        pool.addEntry(LootEntry.of('minecraft:bone').setCount([0, 2]).applyEnchantmentBonus([0, 1]));
+    });
 });

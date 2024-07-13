@@ -1,4 +1,6 @@
 // https://docs.almostreliable.com/lootjs/
-LootJS.modifiers((event) => {
-    event.addTableModifier('minecraft:entities/cow').addLoot(LootEntry.of('minecraft:bone').setCount([1, 3]));
+LootJS.lootTables((event) => {
+    event.getLootTable('minecraft:entities/cow').createPool((pool) => {
+        pool.addEntry(LootEntry.of('minecraft:bone').setCount([0, 2]).applyEnchantmentBonus([0, 1]));
+    });
 });
