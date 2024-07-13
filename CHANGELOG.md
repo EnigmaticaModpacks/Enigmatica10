@@ -18,6 +18,7 @@
 -   Neptune's bounty can now drop Blue Chocobo Eggs as well as other goodies. Happy fishing! [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Tackle Box is now cheaper [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Mekanism's Radiation and Meltdowns are disabled [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
+-   Chipped and Chiseled blocks are added to the Stonecutter, allowing them to be automated through AE2 [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 
 #### 🦟 Bugs Fixed
 
