@@ -8,6 +8,17 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: beheading_tools,
             text: ['Easily cleaves the heads from your foes!']
+        },
+        {
+            filter: [
+                'minecraft:zombie_head',
+                'minecraft:creeper_head',
+                'minecraft:piglin_head',
+                'minecraft:dragon_head',
+                'minecraft:skeleton_skull',
+                'minecraft:wither_skeleton_skull'
+            ],
+            text: ['Heads may be obtained from mobs by killing them with particularly powerful axes and paxels.']
         }
     ];
 
