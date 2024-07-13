@@ -1,3 +1,4 @@
+// https://docs.almostreliable.com/lootjs/
 LootJS.modifiers((event) => {
     event
         .addTableModifier('chococraft:entities/chocobo')
