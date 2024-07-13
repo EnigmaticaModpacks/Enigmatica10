@@ -21,6 +21,7 @@
 -   Chipped and Chiseled blocks are added to the Stonecutter, allowing them to be automated through AE2 [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   The Ender Dragon now drops eggs on death [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Mobs with heads can now be beheaded by certain tools [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
+-   Smithing Templates may be crafted through Nucleosynthesis [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 
 #### 🦟 Bugs Fixed
 
