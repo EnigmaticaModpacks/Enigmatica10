@@ -16,6 +16,7 @@
 -   Default Sleep Percent to 25% [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Default FireTick off [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Neptune's bounty can now drop Blue Chocobo Eggs as well as other goodies. Happy fishing! [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
+-   Tackle Box is now cheaper [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 
 #### 🦟 Bugs Fixed
 
