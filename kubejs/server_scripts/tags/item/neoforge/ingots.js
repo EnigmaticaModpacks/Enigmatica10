@@ -1,10 +1,11 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        uraninite: ['powah:uraninite'],
-        energized_steel: ['powah:steel_energized'],
         ferricore: ['justdirethings:ferricore_ingot'],
         blazegold: ['justdirethings:blazegold_ingot'],
-        eclipsealloy: ['justdirethings:eclipsealloy_ingot']
+        eclipsealloy: ['justdirethings:eclipsealloy_ingot'],
+
+        uraninite: ['powah:uraninite'],
+        energized_steel: ['powah:steel_energized']
     };
 
     Object.keys(additions).forEach((tag) => {

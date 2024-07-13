@@ -1,4 +1,4 @@
-ServerEvents.tags('item', (event) => {
+ServerEvents.tags('block', (event) => {
     let additions = {
         ferricore: ['justdirethings:ferricore_block'],
         blazegold: ['justdirethings:blazegold_block'],
