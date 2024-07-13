@@ -7,7 +7,6 @@ const beheading_tools = [
     'aquaculture:neptunium_axe',
     'minecraft:netherite_axe',
 
-    'justdirethings:blazegold_paxel',
     'justdirethings:celestigem_paxel',
     'justdirethings:eclipsealloy_paxel',
     'mekanismtools:netherite_paxel'
