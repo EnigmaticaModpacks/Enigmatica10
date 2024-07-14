@@ -39,42 +39,42 @@ ServerEvents.recipes((event) => {
         },
         {
             item_input: { count: 1, tag: 'c:ingots/silver' },
-            output: { count: 4, id: 'occultism:iesnium_ingot' },
+            output: { count: 1, id: 'occultism:iesnium_ingot' },
             gas_input: { amount: 1, gas: 'mekanism:antimatter' },
             duration: 250,
             id: `${id_prefix}iesnium_ingot`
         },
         {
-            item_input: { count: 1, tag: 'c:ingots/uraninite' },
-            output: { count: 4, id: 'aquaculture:neptunium_ingot' },
+            item_input: { count: 9, tag: 'c:ingots/uraninite' },
+            output: { count: 1, id: 'aquaculture:neptunium_ingot' },
             gas_input: { amount: 1, gas: 'mekanism:antimatter' },
             duration: 250,
             id: `${id_prefix}neptunium_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/iron' },
-            output: { count: 4, id: 'modern_industrialization:tungsten_ingot' },
+            output: { count: 1, id: 'modern_industrialization:tungsten_ingot' },
             gas_input: { amount: 1, gas: 'mekanism:antimatter' },
             duration: 250,
             id: `${id_prefix}tungsten_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/copper' },
-            output: { count: 4, id: 'modern_industrialization:superconductor_ingot' },
+            output: { count: 1, id: 'modern_industrialization:superconductor_ingot' },
             gas_input: { amount: 1, gas: 'mekanism:antimatter' },
             duration: 250,
             id: `${id_prefix}superconductor_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/osmium' },
-            output: { count: 4, id: 'modern_industrialization:iridium_ingot' },
+            output: { count: 1, id: 'modern_industrialization:iridium_ingot' },
             gas_input: { amount: 1, gas: 'mekanism:antimatter' },
             duration: 250,
             id: `${id_prefix}iridium_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/iridium' },
-            output: { count: 4, id: 'modern_industrialization:platinum_ingot' },
+            output: { count: 1, id: 'modern_industrialization:platinum_ingot' },
             gas_input: { amount: 1, gas: 'mekanism:antimatter' },
             duration: 250,
             id: `${id_prefix}platinum_ingot`

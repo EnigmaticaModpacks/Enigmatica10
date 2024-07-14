@@ -24,6 +24,7 @@
 -   Smithing Templates may be crafted through Nucleosynthesis [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   MI Upgrades can now be crafted through Nucleosynthesis [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Several new ingot transmutations have been added to Nucleosynthesis [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
+-   Mekanism Plutonium Pellets may be converted to MI's Plutonium Dust [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 
 #### 🦟 Bugs Fixed
 
