@@ -1603,11 +1603,6 @@
 		""
 		"&a🛈 Tip: E10 includes a Mekanism Multi-"
 		"&a    Block planner in EMI! "
-		""
-		"&c⚠ Warning: Turbines stop operating if "
-		"&c    their power buffer fills up. This is "
-		"&c    the leading cause of Reactors"
-		"&c    melting down as cooling stops!"
 	]
 	quest.5DB469A00A023DCF.title: "Industrial Turbine"
 	quest.5DE688C9457D18DF.quest_desc: [
@@ -1652,8 +1647,8 @@
 		"&a🛈 Tip: E10 includes a Mekanism Multi-"
 		"&a    Block planner in EMI! "
 		""
-		"&c⚠ Warning: Fission Reactors will "
-		"&c    explode if improperly cooled!"
+		"&6⚠ Note: Meltdowns and Radiation "
+		"&6    have been disabled!"
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
 	quest.62E2DEBF71698376.quest_desc: [
