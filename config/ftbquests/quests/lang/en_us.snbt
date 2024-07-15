@@ -1002,11 +1002,11 @@
 	]
 	quest.3EA53BBEBC32F813.title: "Genetics: Resequenced"
 	quest.3ED6754FC6B0A36D.quest_desc: [
-		"The Tools added by this mod have a variety of interesting properties attached to them. "
+		"The Tools added by this mod have a variety of interesting properties which can be attached to them; simply craft the tool and the upgrade together in a Smithing Table"
 		""
-		"Each can be enabled, disabled, or otherwise configured by Sneak Right-Clicking while holding the tool. "
+		"Once installed, each can be enabled, disabled, or otherwise configured by Sneak Right-Clicking while holding the tool. "
 		""
-		"Most of these happen automatically when enabled. However others, like Lawnmower, are activated on Right-Click."
+		"Most of these work automatically when enabled. However others, like Lawnmower, are activated on Right-Click."
 		""
 		"The following pages will cover what each ability does. "
 		""
@@ -1076,6 +1076,7 @@
 		""
 		"For Hoes with the Drops Teleporter ability, auto-harvest drops will go to whatever inventory the Hoe was bound to at the time of tilling. "
 	]
+	quest.3ED6754FC6B0A36D.title: "Just Dire Equipment"
 	quest.3F021EBB71F4BC70.quest_desc: [
 		"Smart Cables are identical to their covered counterparts, with one small addition: they display the number of channels passing through them directly on their surface."
 		""
@@ -2369,6 +2370,7 @@
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
+	task.0219421FBD8DB647.title: "Just Dire Upgrades"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
 	task.073DDF6031485D23.title: "Covered Cables"
@@ -2425,6 +2427,7 @@
 	task.5B601A86609CEDFF.title: "Energy Hopers"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
+	task.5E83BA98C6936FD9.title: "Just Dire Armor"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"

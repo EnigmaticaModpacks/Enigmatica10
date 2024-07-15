@@ -463,6 +463,16 @@
 		}
 		{
 			dependencies: ["11EDFB60C787114D"]
+			icon: {
+				components: {
+					"justdirethings:cauterizewounds_upgrade_installed": 1b
+					"justdirethings:dropteleport_upgrade_installed": 1b
+					"justdirethings:forge_energy": 500000
+					"justdirethings:glowing_upgrade_installed": 1b
+					"justdirethings:smoker_upgrade_installed": 1b
+				}
+				id: "justdirethings:eclipsealloy_sword"
+			}
 			id: "3ED6754FC6B0A36D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -470,11 +480,28 @@
 				table_id: 167859363417192230L
 				type: "loot"
 			}]
-			tasks: [{
-				id: "34E6ED3A221ADB0E"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools)mod(justdirethings)not(item(justdirethings:ferricore_wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "34E6ED3A221ADB0E"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools)mod(justdirethings)not(item(justdirethings:ferricore_wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5C006233B30BB427"
+					item: { count: 1, id: "minecraft:smithing_table" }
+					type: "item"
+				}
+				{
+					id: "0219421FBD8DB647"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(justdirethings:upgrades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5E83BA98C6936FD9"
+					item: { components: { "ftbfiltersystem:filter": "and(mod(justdirethings)item_tag(c:armors))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -0.5d
 		}
