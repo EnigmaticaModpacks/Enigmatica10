@@ -40,6 +40,11 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'handcrafted' }, { mod: 'aquaculture' }],
             to_replace: '#c:chests',
             replace_with: '#c:chests/wooden'
+        },
+        {
+            filter: [{ mod: 'mffs' }],
+            to_replace: '#c:ingots/steel',
+            replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/energized_steel'])
         }
     ];
 

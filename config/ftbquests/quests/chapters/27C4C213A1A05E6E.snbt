@@ -1,0 +1,243 @@
+{
+	autofocus_id: "205B821B10C6AC75"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "27C4C213A1A05E6E"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "mffs:remote_controller"
+	}
+	id: "27C4C213A1A05E6E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mffs:block/interdiction_matrix_vertical_active"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3D9527EAA5944C17"
+			tasks: [{
+				id: "3745AFEF378D7217"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D9527EAA5944C17"]
+			id: "205B821B10C6AC75"
+			rewards: [{
+				id: "4834928E6651F52A"
+				item: {
+					count: 1
+					id: "mffs:frequency_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "654CF29BB7D3A53D"
+				item: { count: 1, id: "mffs:coercion_deriver" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["205B821B10C6AC75"]
+			id: "516EF5AA0B699CBF"
+			rewards: [{
+				id: "4043441B046F4139"
+				item: {
+					count: 1
+					id: "mffs:capacity_module"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "518F0554ED6960A9"
+				item: { count: 1, id: "mffs:fortron_capacitor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["516EF5AA0B699CBF"]
+			id: "50BCEB07C736B906"
+			rewards: [{
+				id: "1FFD1A4C2E4922C3"
+				item: {
+					count: 1
+					id: "mffs:sphere_mode"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "648863DFC556481C"
+				item: { count: 1, id: "mffs:projector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4FF50048D23DC1A3"
+				"50BCEB07C736B906"
+			]
+			id: "4B35B8DACEE56913"
+			rewards: [{
+				id: "165165B7B3D026F9"
+				item: {
+					count: 1
+					id: "mffs:id_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C311A28B99F09CD"
+				item: { count: 1, id: "mffs:biometric_identifier" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50BCEB07C736B906"]
+			id: "156DEEC0CB40D7DB"
+			tasks: [{
+				id: "23E3773AF37ACA39"
+				item: { count: 1, id: "mffs:fusion_module" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["516EF5AA0B699CBF"]
+			id: "4FF50048D23DC1A3"
+			tasks: [{
+				id: "4681565B14E96F7E"
+				item: { count: 1, id: "mffs:interdiction_matrix" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FF50048D23DC1A3"]
+			id: "6CC9CDCCDE1426AC"
+			tasks: [{
+				id: "6E9489894DF5FFF4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mffs:confiscation_module)item(mffs:warn_module)item(mffs:block_access_module)item(mffs:block_alter_module)item(mffs:anti_friendly_module)item(mffs:anti_hostile_module)item(mffs:anti_personnel_module)item(mffs:anti_spawn_module))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69D23BB3D7670DFC"]
+			id: "0233E4C65745EEB0"
+			tasks: [{
+				id: "73E394C6ABF38967"
+				item: { count: 1, id: "mffs:stabilization_module" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50BCEB07C736B906"]
+			id: "69D23BB3D7670DFC"
+			tasks: [
+				{
+					id: "66B114AB08F2799C"
+					item: { count: 1, id: "mffs:scale_module" }
+					type: "item"
+				}
+				{
+					id: "4C4AC5AE36AE638D"
+					item: { count: 1, id: "mffs:translation_module" }
+					type: "item"
+				}
+				{
+					id: "0899D0A442390C35"
+					item: { count: 1, id: "mffs:rotation_module" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69D23BB3D7670DFC"]
+			id: "6118F241A056954F"
+			tasks: [{
+				id: "59F498678BA15240"
+				item: { count: 1, id: "mffs:sponge_module" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69D23BB3D7670DFC"]
+			icon: {
+				id: "mffs:disintegration_module"
+			}
+			id: "6D9008779F35E755"
+			tasks: [
+				{
+					id: "2DF2F7F05E34F3FA"
+					item: { count: 1, id: "mffs:disintegration_module" }
+					type: "item"
+				}
+				{
+					id: "728FDD2D9B7EF88B"
+					item: { count: 1, id: "mffs:collection_module" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69D23BB3D7670DFC"]
+			id: "441562EC913D1043"
+			tasks: [{
+				id: "1E0A1367A8B5BD38"
+				item: { count: 1, id: "mffs:shock_module" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50BCEB07C736B906"]
+			id: "15829059DE275E47"
+			tasks: [
+				{
+					id: "1F9576614F0FEAC8"
+					item: { count: 1, id: "mffs:glow_module" }
+					type: "item"
+				}
+				{
+					id: "11BC09FBA275A1DA"
+					item: { count: 1, id: "mffs:silence_module" }
+					type: "item"
+				}
+				{
+					id: "4489F471FEB8986F"
+					item: { count: 1, id: "mffs:camouflage_module" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+}

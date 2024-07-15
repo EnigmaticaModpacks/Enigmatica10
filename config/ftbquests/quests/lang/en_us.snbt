@@ -5,6 +5,7 @@
 	chapter.1A29B498BD263BEF.title: "Redstone"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
+	chapter.27C4C213A1A05E6E.title: "Modular Force Fields"
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
 	chapter.3676C6A060A63447.title: "Theurgy"
 	chapter.402AE6264B81A84B.title: "Logistics"
@@ -50,6 +51,14 @@
 	quest.0227D9EC391788D6.title: "Cable Facades"
 	quest.0230942DF53BB9E5.quest_desc: ["The following are blocks that can be used to charge energy based items and equipment."]
 	quest.0230942DF53BB9E5.title: "Energy Chargers"
+	quest.0233E4C65745EEB0.quest_desc: [
+		"The Stabilization Module effectively converts the Projector into a building guide. "
+		""
+		"Place a chest next to the Projector and fill it with blocks. "
+		""
+		"Rather than forming a force field, the blocks will be placed wherever a force field block would have been created."
+	]
+	quest.0233E4C65745EEB0.title: "Building"
 	quest.036036EA25034BE8.quest_desc: [
 		"Our third variant of chalk, Purple Chalk grants access to some powerful binding rituals. "
 		""
@@ -284,6 +293,11 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"4D1E38918B64CD4E\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Mekanism\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.156DEEC0CB40D7DB.quest_desc: [
+		"Allows multiple Force Field Projectors to work together to cover a larger area, while allowing free passage between them. "
+		""
+		"For example, a few domes could be set up and either be allowed to intersect. Wherever they intersect, the two force fields simply don’t get created, leaving the space open."
+	]
 	quest.157A20804F9E8F83.quest_desc: [
 		"With all this in world crafting, an Item Collector will no doubt come in handy."
 		""
@@ -292,6 +306,23 @@
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
+	quest.15829059DE275E47.quest_desc: [
+		"These Modules change the way the field looks."
+		""
+		"• &7Glow Modules&r set the force field "
+		"  blocks to emit light."
+		""
+		"• &7Silence Modules&r make the projector "
+		"  and other machines stop making so "
+		"  much noise. "
+		""
+		"• &7Camouflage Modules&r allow the force "
+		"  field blocks to be invisible, or to take "
+		"  on the look of another block. Place "
+		"  the desired block in another upgrade "
+		"  slot to choose the look."
+	]
+	quest.15829059DE275E47.title: "Aesthetic Upgrades"
 	quest.15CECF38FB6CEADE.quest_desc: [
 		"Looking for something with a little more oomph? Mining Gadgets are an all in one modular tool system."
 		""
@@ -448,6 +479,18 @@
 		"This could be used to automatically stock building materials for a large project, or automatically extract cobble and other materials while out mining, among other things. "
 		""
 		"The possibilities are quite endless!"
+	]
+	quest.205B821B10C6AC75.quest_desc: [
+		"The Coercion Deriver is used to convert FE or EU to Fortron, the energy used by Modular Forcefields. "
+		""
+		"Therefore, to get it started you’ll need to run some power to it. The conversion is slow, but can be sped up by feeding the machine Lapis Lazuli. Installing Speed Modules will also help it along."
+		""
+		"You’ll also want to choose a frequency; this is used to wirelessly link all MFFS machines. Any on the same frequency and within range will automatically connect and share power. "
+		""
+		"&6⚠ Note: MFFS machines are off by "
+		"&6    default. Either supply a Redstone "
+		"&6    signal or click the Torch button in "
+		"&6    the interface."
 	]
 	quest.20877ECE7619845D.quest_desc: [
 		"Fully converting over to MV may take a little longer than the conversion from Steam to LV. "
@@ -922,6 +965,11 @@
 	]
 	quest.3D91A9DBE0B091AE.quest_desc: ["Ranking low in protection and durability, but very high in cute factor, the Chocodisguise is a suit of armor that will make you feel as if you’re one of the herd. "]
 	quest.3D91A9DBE0B091AE.title: "Chocodisguise"
+	quest.3D9527EAA5944C17.quest_desc: [
+		"Welcome to Modular Force Fields!"
+		""
+		"These quests will help you discover this mod, which is largely centered around base defense, though offers some building aids as well."
+	]
 	quest.3E622F93756E9BFA.quest_desc: [
 		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
 		""
@@ -1149,6 +1197,12 @@
 		"&a    Clicking them onto chests."
 	]
 	quest.44037DC8E8D493BC.title: "Iron Chests"
+	quest.441562EC913D1043.quest_desc: [
+		"The Shock Module causes mobs in contact with the field to take damage. "
+		""
+		"Use this to encase a mob spawner to kill anything that spawns, or simply make a floor that damages anything standing on it. "
+	]
+	quest.441562EC913D1043.title: "Mob Farming"
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -1277,6 +1331,14 @@
 		"&c    there are insufficient Hatches"
 		"&c    available to receive the items!"
 	]
+	quest.4B35B8DACEE56913.quest_desc: [
+		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
+		""
+		"&6⚠ Note: MFFS machines are off by "
+		"&6    default. Either supply a Redstone "
+		"&6    signal or click the Torch button in "
+		"&6    the interface."
+	]
 	quest.4B66ECA9D6797B80.quest_desc: [
 		"The Storage section covers items or mods that help store all the things."
 		""
@@ -1346,6 +1408,16 @@
 		"&a    discover more."
 	]
 	quest.4FEA49AD05720ED7.title: "Arts and Crafts"
+	quest.4FF50048D23DC1A3.quest_desc: [
+		"The Interdiction Matrix is used to impose restrictions on anything in its field of influence. "
+		""
+		"This includes protecting blocks from being placed, broken, or accessed, as well as straight up killing unwanted intruders or preventing mob spawns. "
+		""
+		"&6⚠ Note: MFFS machines are off by "
+		"&6    default. Either supply a Redstone "
+		"&6    signal or click the Torch button in "
+		"&6    the interface."
+	]
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
 	quest.5078D0CBD8AB602E.quest_desc: [
@@ -1363,12 +1435,38 @@
 		"They’ll only sell two random Presses at their Expert level, so be prepared to do a bit of trading to get them all. "
 	]
 	quest.5089FD9AEDB1D3D0.title: "Fluix Researchers"
+	quest.50BCEB07C736B906.quest_desc: [
+		"The Force Field Projector, despite the name, can do considerably more, depending on the modules involved. At its simplest, it puts up a wall to prevent passage. However, it can also be used to damage mobs, clear blocks and fluids, or to place blocks."
+		""
+		"&6⚠ Note: MFFS machines are off by "
+		"&6    default. Either supply a Redstone "
+		"&6    signal or click the Torch button in "
+		"&6    the interface."
+	]
 	quest.51233852CD921F79.quest_desc: [
 		"Drives act as compact storage capable of holding tens of thousands of items."
 		""
 		"A single drive may contain up to 10 Storage Cells, each with their own capacity and limitations. "
 		""
 		"Cells may also be filtered in a Cell Workbench, allowing you to dictate exactly what materials will be stored on that cell. "
+	]
+	quest.516EF5AA0B699CBF.quest_desc: [
+		"Fortron Capacitors serve two purposes; energy storage and transmission."
+		""
+		"• Scale Modules allow the Capacitor to "
+		"  send to machines further away."
+		""
+		"• Capacity Modules increase their "
+		"  storage capacity."
+		""
+		"• Speed Modules increase their "
+		"  Transmission Rate. "
+		""
+		""
+		"&6⚠ Note: MFFS machines are off by "
+		"&6    default. Either supply a Redstone "
+		"&6    signal or click the Torch button in "
+		"&6    the interface."
 	]
 	quest.51F25D35F62B37BA.quest_desc: [
 		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
@@ -1622,6 +1720,13 @@
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
+	quest.6118F241A056954F.quest_desc: [
+		"The Sponge Module is perfect for clearing fluids in a large area, whether it be to make a lava free area in the Nether or to clear water from an Ocean Monument. "
+		""
+		"&c⚠ Warning: All fluids within the area of "
+		"&c    the force field are destroyed."
+	]
+	quest.6118F241A056954F.title: "Fluid Removal"
 	quest.6133CA58FE668DA6.quest_desc: [
 		"Analog Circuits will soon enable us to jump to the next tier of machines running on LV electricity. Making the components right now is a little costly, but once we can make an Assembler, the crafts will be much more efficient. "
 		""
@@ -1818,6 +1923,21 @@
 		"&a🛈 Tip: E10 includes a Mekanism Multi-"
 		"&a    Block planner in EMI! "
 	]
+	quest.69D23BB3D7670DFC.quest_desc: [
+		"When used in the Force Field Projector, these upgrades can adjust the shape and size of the field. "
+		""
+		"• &7Scale Modules&r expand the field in a "
+		"  given direction. "
+		""
+		"• &7Translation Modules&r shift the center "
+		"  of the field in a given direction by "
+		"  one block per module"
+		""
+		"• &7Rotation Modules&r rotate the field in a "
+		"  given direction by 2 degrees per "
+		"  module. "
+	]
+	quest.69D23BB3D7670DFC.title: "Shape Modification"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
@@ -1852,6 +1972,39 @@
 		"&a🛈 Tip: Point Stabilizers at the crystal "
 		"&a    floating above the Actuator. "
 	]
+	quest.6CC9CDCCDE1426AC.quest_desc: [
+		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
+		""
+		"• &7Warn Modules&r let players know when "
+		"  they’re entering a field."
+		""
+		"• &7Block Access Modules&r prevent "
+		"  players from opening blocks such as "
+		"  machines or inventories."
+		""
+		"• &7Block Alter Module&r prevents breaking "
+		"  or placing new blocks."
+		""
+		"• &7Anti-Friendly&r, &7Anti-Hostile&r, and "
+		"  &7Anti-Personnel Modules&r immediately "
+		"  kill their corresponding mob types; "
+		"  Passive, Hostile, and Players "
+		"  respectively."
+		""
+		"• &7Anti-Spawn Modules&r prevent all mob "
+		"  spawning in the area."
+		""
+		"• &7Confiscation Module&r steals all of the "
+		"  items from an intruding player’s "
+		"  inventory."
+	]
+	quest.6D9008779F35E755.quest_desc: [
+		"With a Disintegration and Collection Module installed, the Field Projector essentially becomes a quarry. It’ll mine up any blocks intersected by the field and store them in an adjacent chest. "
+		""
+		"&a🛈 Tip: Use an Inverter Module to get "
+		"&a    the blocks inside the field area!"
+	]
+	quest.6D9008779F35E755.title: "Quarry"
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
 		""
@@ -2243,6 +2396,7 @@
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
+	task.3745AFEF378D7217.title: "Any #c:ingots/steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
@@ -2281,6 +2435,7 @@
 	task.676C8DE6C246D422.title: "AE Power"
 	task.695AC45D6E273032.title: "Energy Cells"
 	task.6B400826247EBFB3.title: "Raw Materials"
+	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
 	task.6F72D2074543BF23.title: "Bins"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
