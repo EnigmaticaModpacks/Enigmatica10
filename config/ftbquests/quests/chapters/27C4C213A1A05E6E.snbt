@@ -19,9 +19,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3D9527EAA5944C17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50C3F2F247FB21E6"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3745AFEF378D7217"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:steel_energized)item(mekanism:ingot_steel)item(modern_industrialization:steel_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.5d
