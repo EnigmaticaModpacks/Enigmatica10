@@ -476,8 +476,8 @@
 			id: "3ED6754FC6B0A36D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "641269408A7E7C16"
-				table_id: 167859363417192230L
+				id: "4B40229FCC7CDB1D"
+				table_id: 5796131842680319111L
 				type: "loot"
 			}]
 			tasks: [
@@ -496,14 +496,33 @@
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(justdirethings:upgrades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
-				{
-					id: "5E83BA98C6936FD9"
-					item: { components: { "ftbfiltersystem:filter": "and(mod(justdirethings)item_tag(c:armors))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
 			]
 			x: 3.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["3ED6754FC6B0A36D"]
+			dependency_requirement: "one_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "justdirethings:item/eclipsealloy_chestplate"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0DA6F0172E06CCB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C3DBBB8E4A9297B"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "57BE29AB834A63FE"
+				item: { components: { "ftbfiltersystem:filter": "and(mod(justdirethings)item_tag(c:armors))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
 		}
 	]
 }
