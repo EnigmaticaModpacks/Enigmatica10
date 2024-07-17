@@ -27,6 +27,7 @@
 -   Mekanism Plutonium Pellets may be converted to MI's Plutonium Dust [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Modular Force Field Quests! [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 -   Energized Steel may be used in place of Steel for any Modular Force Field craft [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
+-   Guard Villagers are human too and may be sacrificed for Occultism Rituals [\#34](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/34)
 
 #### 🦟 Bugs Fixed
 
