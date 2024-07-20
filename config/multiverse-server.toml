@@ -1,0 +1,45 @@
+#Multiverse server-side configuration
+[Dimensions]
+	#This is the number of Multiverse dimensions that rifts will generate for. 
+	#Range: > 1
+	max = 25
+	#Each additional biome tag has this chance to be in new Multiverse dimensions. 
+	#Range: 0.0 ~ 1.0
+	biomeTypeChance = 0.025
+	#This is the chance that a Multiverse dimension has a random, fixed time. 
+	#Range: 0.0 ~ 1.0
+	fixedTimeChance = 0.25
+
+[KaleiditeCrossbow]
+	#This is the chance that fireworks are spawned when shooting an arrow. 
+	#Range: 0.0 ~ 1.0
+	fireworkRate = 0.2
+	#This is the chance that a spawned arrow is on fire. 
+	#Range: 0.0 ~ 1.0
+	fireRate = 0.2
+	#This is the minimum distance in blocks that a projectile can spawn from the shooter. 
+	#Range: 0.0 ~ 1.7976931348623157E308
+	minSpawnRadius = 4.0
+	#This is the maximum distance in blocks that a projectile can spawn from the shooter. This must be at least minSpawnRadius. 
+	#Range: 0.0 ~ 1.7976931348623157E308
+	maxSpawnRadius = 10.0
+	#This is the offset that projectiles are spawned relative to the direction they are shot in blocks. 
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	spawnOffset = -2.0
+	#This is the period in ticks that projectiles are spawned
+	#Range: > 1
+	spawnPeriod = 5
+	#This is the number of projectiles spawned every time the crossbow is shot. 
+	#Range: > 0
+	spawnCount = 20
+
+[Miscellaneous]
+	#This is the range that is scanned for existing rifts. 
+	#Range: > 0
+	range = 128
+	#This is the cooldown of the Boundless Blade item in ticks. 
+	#Range: > 0
+	boundlessBladeCooldown = 500
+	#This is the factor from the base that Travelers spawn
+	#Range: 0.0 ~ 1.0
+	travelerSpawnFactor = 0.01
