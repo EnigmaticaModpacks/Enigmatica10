@@ -15,7 +15,6 @@
   * [architectury-13.0.4-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/5521987) (by [shedaniel](https://www.curseforge.com/members/shedaniel/projects))
   * [arts_and_crafts-neoforge-1.21-1.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/artsandcrafts/files/5533779) (by [KekeCreations](https://www.curseforge.com/members/KekeCreations/projects))
   * [athena-neoforge-1.21-4.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/athena/files/5431579) (by [CodexAdrian](https://www.curseforge.com/members/CodexAdrian/projects))
-  * [atlantis-2024.7.10-1.21-1.0.0-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/atlantis/files/5520073) (by [mysticpasta1](https://www.curseforge.com/members/mysticpasta1/projects))
   * [balm-neoforge-1.21-21.0.14-all.jar](https://www.curseforge.com/minecraft/mc-mods/balm/files/5525369) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
   * [BetterCompatibilityChecker-neoforge-21.0.1+mc1.21.jar](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker/files/5432277) (by [Gaz_](https://www.curseforge.com/members/Gaz_/projects))
   * [buildinggadgets2-1.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/building-gadgets/files/5464117) (by [Direwolf20](https://www.curseforge.com/members/Direwolf20/projects))

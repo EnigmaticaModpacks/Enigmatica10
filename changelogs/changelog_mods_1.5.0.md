@@ -7,7 +7,6 @@
   * [AE2 Dark Mode](https://www.curseforge.com/minecraft/texture-packs/ae2-dark-mode) (by [Ridanisaurus](https://www.curseforge.com/members/Ridanisaurus/projects))
   * [AE2 Import Export Card](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card) (by [Ultramegaaa](https://www.curseforge.com/members/Ultramegaaa/projects))
   * [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics) (by [ramidzkh](https://www.curseforge.com/members/ramidzkh/projects))
-  * [Atlantis](https://www.curseforge.com/minecraft/mc-mods/atlantis) (by [mysticpasta1](https://www.curseforge.com/members/mysticpasta1/projects))
   * [Connectivity[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/connectivity) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
   * [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
   * [Cursed Earth Returns](https://www.curseforge.com/minecraft/mc-mods/cursed-earth-returns) (by [nano_nestor](https://www.curseforge.com/members/nano_nestor/projects))
