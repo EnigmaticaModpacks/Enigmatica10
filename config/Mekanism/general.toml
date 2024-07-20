@@ -96,7 +96,7 @@
 	#Radiation Settings
 	[general.radiation]
 		#Enable worldwide radiation effects. Don't be a downer and disable this.
-		radiationEnabled = true
+		radiationEnabled = false
 		#The radius of chunks checked when running radiation calculations. The algorithm is efficient, but don't abuse it by making this crazy high.
 		#Range: 1 ~ 100
 		chunkCheckRadius = 5

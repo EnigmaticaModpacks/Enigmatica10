@@ -8,6 +8,13 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 100,
             id: `${id_prefix}blaze_powder_from_coal_t2`
+        },
+        {
+            item_inputs: { tag: 'c:pellets/plutonium', amount: 1 },
+            item_outputs: { item: 'modern_industrialization:plutonium_dust', amount: 1 },
+            eu: 2,
+            duration: 800,
+            id: `${id_prefix}plutonium_dust`
         }
     ];
 

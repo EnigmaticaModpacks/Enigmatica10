@@ -583,5 +583,38 @@
 			x: 3.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["3E622F93756E9BFA"]
+			dependency_requirement: "one_started"
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "5089FD9AEDB1D3D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DAC17EF19FA2011"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:emerald"
+					}
+					id: "7866B09190F4EA23"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+				{
+					id: "335B32939CE212A8"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
 	]
 }

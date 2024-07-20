@@ -208,3 +208,4 @@ command_history.txt
 .vscode/probe.code-snippets
 config/darkmodeeverywhere-client.toml
 config/ae2-client.toml
+/debug

@@ -1780,6 +1780,9 @@
 		}
 		{
 			dependencies: ["212EB5AFECD2A6E8"]
+			icon: {
+				id: "minecraft:emerald"
+			}
 			id: "68079D29B91FC30A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1787,16 +1790,23 @@
 				table_id: 23658154196454858L
 				type: "loot"
 			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:emerald"
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:emerald"
+					}
+					id: "33A6A08CB5499DE2"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:villager"
+					type: "observation"
 				}
-				id: "33A6A08CB5499DE2"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:villager"
-				type: "observation"
-			}]
+				{
+					id: "4B53FE7D7605936F"
+					item: { count: 1, id: "modern_industrialization:forge_hammer" }
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -0.5d
 		}

@@ -31,6 +31,17 @@ ServerEvents.recipes((event) => {
             output: Item.of('minecraft:yellow_dye', 2),
             inputs: ['#c:dusts/sulfur'],
             id: `${id_prefix}yellow_dye_from_sulfur`
+        },
+        {
+            output: Item.of('minecraft:reinforced_deepslate', 1),
+            inputs: [
+                'minecraft:polished_deepslate',
+                '#c:ingots/iron',
+                '#c:ingots/iron',
+                '#c:ingots/iron',
+                '#c:ingots/iron'
+            ],
+            id: `${id_prefix}reinforced_deepslate`
         }
     ];
 
