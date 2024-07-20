@@ -1,4 +1,3 @@
-
 #General settings
 [general]
 	#The minimum tick speed machines can be set to. Defaults to 1, meaning every tick
@@ -157,4 +156,27 @@
 	elytra = true
 	#decoy
 	decoy = true
-
+	#potionarrow
+	potionarrow = true
+	#splash
+	splash = true
+	#lingering
+	lingering = true
+	#homing
+	homing = true
+	#deathprotection
+	deathprotection = true
+	#debuffremover
+	debuffremover = true
+	#earthquake
+	earthquake = true
+	#noai
+	noai = true
+	#flight
+	flight = true
+	#lavaimmunity
+	lavaimmunity = true
+	#phase
+	phase = true
+	#epicarrow
+	epicarrow = true
