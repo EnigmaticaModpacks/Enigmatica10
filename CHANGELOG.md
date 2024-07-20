@@ -1,5 +1,11 @@
 ### Enigmatica 10 1.5.0
 
+NeoForge-1.21.0-21.0.111 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.5.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.5.0.md)
+
+#### ✔️ Added Mods
+
+#### ❌ Temporarily Removed Mods
+
 #### ⭐ Improvements
 
 -   Just Dire Things and ChocoCraft quests! [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
@@ -38,7 +44,9 @@
 -   Fixed recipe conflicts between Comforts and Handcrafted [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Add all candles to the Minecraft Candles Tag [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Fix some items not appearing in Meat tags [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
-
+*   Recurring freezing with journeymap [(\#20)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/20)
+*   Foliot crusher not crushing ores [(\#19)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/19)
+*   break crafting station and get nothing back [(\#38)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/38)
 ---
 
 ### Enigmatica 10 1.4.0
