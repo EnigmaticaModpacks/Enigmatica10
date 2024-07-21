@@ -6,8 +6,8 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'justdirethings:coal_t2' },
             ignore_crushing_multiplier: true,
             result: {
-                type: 'occultism:item',
-                id: 'minecraft:blaze_powder',
+                type: 'occultism:tag',
+                tag: 'c:dusts/blaze',
                 count: 6
             },
             id: `${id_prefix}blaze_powder_from_coal_t2`
@@ -15,9 +15,10 @@ ServerEvents.recipes((event) => {
         {
             ingredient: { tag: 'c:rods/blaze' },
             ignore_crushing_multiplier: true,
+
             result: {
-                type: 'occultism:item',
-                id: 'minecraft:blaze_powder',
+                type: 'occultism:tag',
+                tag: 'c:dusts/blaze',
                 count: 4
             },
             id: `occultism:crushing/blaze_powder_from_rod`
