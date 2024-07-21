@@ -1,32 +1,38 @@
+### Enigmatica 10 1.5.1
+
+#### 🦟 Bugs Fixed
+
+-   Fixed issue with quest reward Scraper not accepting enchants [\#26](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/26)
+
 ### Enigmatica 10 1.5.0
 
 NeoForge-1.21.0-21.0.111 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.5.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.5.0.md)
 
 #### ✔️ Added Mods
 
-  * [AE2 Dark Mode](https://www.curseforge.com/minecraft/texture-packs/ae2-dark-mode) (by [Ridanisaurus](https://www.curseforge.com/members/Ridanisaurus/projects))
-  * [AE2 Import Export Card](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card) (by [Ultramegaaa](https://www.curseforge.com/members/Ultramegaaa/projects))
-  * [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics) (by [ramidzkh](https://www.curseforge.com/members/ramidzkh/projects))
-  * [Connectivity[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/connectivity) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Cursed Earth Returns](https://www.curseforge.com/minecraft/mc-mods/cursed-earth-returns) (by [nano_nestor](https://www.curseforge.com/members/nano_nestor/projects))
-  * [fix GPU memory leak[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/fix-gpu-memory-leak) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Just Enough Archaeology](https://www.curseforge.com/minecraft/mc-mods/just-enough-archaeology) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
-  * [LootJS: KubeJS Addon](https://www.curseforge.com/minecraft/mc-mods/lootjs) (by [Lytho](https://www.curseforge.com/members/Lytho/projects))
-  * [Multiverse](https://www.curseforge.com/minecraft/mc-mods/multiverse) (by [davidqf555](https://www.curseforge.com/members/davidqf555/projects))
-  * [Redstone Pen](https://www.curseforge.com/minecraft/mc-mods/redstone-pen) (by [wilechaote](https://www.curseforge.com/members/wilechaote/projects))
-  * [Server Performance - Smooth Chunk Save[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Simply Light](https://www.curseforge.com/minecraft/mc-mods/simply-light) (by [Flanks255](https://www.curseforge.com/members/Flanks255/projects))
-  * [Structure Essentials[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/structure-essentials-forge-fabric) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [AE2 Dark Mode](https://www.curseforge.com/minecraft/texture-packs/ae2-dark-mode) (by [Ridanisaurus](https://www.curseforge.com/members/Ridanisaurus/projects))
+-   [AE2 Import Export Card](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card) (by [Ultramegaaa](https://www.curseforge.com/members/Ultramegaaa/projects))
+-   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics) (by [ramidzkh](https://www.curseforge.com/members/ramidzkh/projects))
+-   [Connectivity[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/connectivity) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Cursed Earth Returns](https://www.curseforge.com/minecraft/mc-mods/cursed-earth-returns) (by [nano_nestor](https://www.curseforge.com/members/nano_nestor/projects))
+-   [fix GPU memory leak[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/fix-gpu-memory-leak) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Just Enough Archaeology](https://www.curseforge.com/minecraft/mc-mods/just-enough-archaeology) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
+-   [LootJS: KubeJS Addon](https://www.curseforge.com/minecraft/mc-mods/lootjs) (by [Lytho](https://www.curseforge.com/members/Lytho/projects))
+-   [Multiverse](https://www.curseforge.com/minecraft/mc-mods/multiverse) (by [davidqf555](https://www.curseforge.com/members/davidqf555/projects))
+-   [Redstone Pen](https://www.curseforge.com/minecraft/mc-mods/redstone-pen) (by [wilechaote](https://www.curseforge.com/members/wilechaote/projects))
+-   [Server Performance - Smooth Chunk Save[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Simply Light](https://www.curseforge.com/minecraft/mc-mods/simply-light) (by [Flanks255](https://www.curseforge.com/members/Flanks255/projects))
+-   [Structure Essentials[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/structure-essentials-forge-fabric) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
 
 #### ❌ Removed Mods
 
-  * [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked) (by [SquidDev](https://www.curseforge.com/members/SquidDev/projects)) (Temporarily)
-  * [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) (by [OfekN_](https://www.curseforge.com/members/OfekN_/projects))
-  * [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [iChun](https://www.curseforge.com/members/iChun/projects)) (Temporarily)
-  * [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) (by [bre2el](https://www.curseforge.com/members/bre2el/projects)) (Temporarily)
-  * [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil) (by [iChun](https://www.curseforge.com/members/iChun/projects)) (Temporarily)
-  * [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs) (by [Amygdaloideae](https://www.curseforge.com/members/Amygdaloideae/projects))
+-   [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked) (by [SquidDev](https://www.curseforge.com/members/SquidDev/projects)) (Temporarily)
+-   [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) (by [OfekN\_](https://www.curseforge.com/members/OfekN_/projects))
+-   [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [iChun](https://www.curseforge.com/members/iChun/projects)) (Temporarily)
+-   [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) (by [bre2el](https://www.curseforge.com/members/bre2el/projects)) (Temporarily)
+-   [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil) (by [iChun](https://www.curseforge.com/members/iChun/projects)) (Temporarily)
+-   [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs) (by [Amygdaloideae](https://www.curseforge.com/members/Amygdaloideae/projects))
 
 #### ⭐ Improvements
 
@@ -66,9 +72,11 @@ NeoForge-1.21.0-21.0.111 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 -   Fixed recipe conflicts between Comforts and Handcrafted [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Add all candles to the Minecraft Candles Tag [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
 -   Fix some items not appearing in Meat tags [\#30](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/30)
+
 *   Recurring freezing with journeymap [(\#20)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/20)
 *   Foliot crusher not crushing ores [(\#19)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/19)
 *   break crafting station and get nothing back [(\#38)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/38)
+
 ---
 
 ### Enigmatica 10 1.4.0
