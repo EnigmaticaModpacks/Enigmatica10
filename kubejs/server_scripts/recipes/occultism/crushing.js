@@ -21,6 +21,16 @@ ServerEvents.recipes((event) => {
                 count: 4
             },
             id: `occultism:crushing/blaze_powder_from_rod`
+        },
+        {
+            ingredient: { tag: 'c:ores/uraninite' },
+            ignore_crushing_multiplier: false,
+            result: {
+                type: 'occultism:item',
+                id: 'powah:uraninite_raw',
+                count: 4
+            },
+            id: `${id_prefix}uraninite_raw`
         }
     ];
 
