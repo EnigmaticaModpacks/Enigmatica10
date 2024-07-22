@@ -3,6 +3,7 @@
 #### 🦟 Bugs Fixed
 
 -   Fixed issue with quest reward Scraper not accepting enchants [\#41](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/41)
+-   Removed Chiseled/chipped stonecutter compat as it is breaking occultism. Script to be revised at a later date. [\#41](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/41)
 
 ---
 
