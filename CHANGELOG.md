@@ -3,7 +3,6 @@
 #### 🦟 Bugs Fixed
 
 -   Fixed issue with quest reward Scraper not accepting enchants [\#41](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/41)
--   Fixed issue with occultism crushing giving barrier blocks [\#41](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/41)
 
 ---
 
