@@ -1,1 +1,5 @@
-{}
+{
+    "comment": "These are no longer used. Refer to /kubejs/server_scripts/recipes/farmingforblockheads/market_presets.js",
+    "enabled": false,
+    "payment": { "ingredient": { "item": "minecraft:diamond" }, "count": 1 }
+}
