@@ -1,0 +1,224 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumblezone"
+	group: "440488E780593120"
+	icon: {
+		id: "the_bumblezone:bee_queen_spawn_egg"
+	}
+	id: "6DB48898896BFFC9"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "the_bumblezone:textures/mob_effect/protection_of_the_hive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2A2D51206676A83C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFFF690AC495C3C"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:bee_nest"
+				}
+				id: "6614885B79D0A53B"
+				observe_type: 1
+				timer: 0L
+				to_observe: "enigmatica:hives"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A2D51206676A83C"]
+			icon: {
+				id: "the_bumblezone:honey_compass"
+			}
+			id: "57E6258A93E53F95"
+			rewards: [{
+				count: 16
+				id: "68D7BCDC57EA4BDC"
+				item: {
+					count: 1
+					id: "the_bumblezone:bee_bread"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "312C7DE77D0C5301"
+					item: { count: 1, id: "the_bumblezone:honey_compass" }
+					type: "item"
+				}
+				{
+					id: "68EB8FBB7D914369"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_feedable_items)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57E6258A93E53F95"]
+			icon: {
+				components: {
+					"ftbquests:icon": "the_bumblezone:item/bee_queen_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1FC58B7D325A1AC7"
+			tasks: [{
+				icon: {
+					components: {
+						"the_bumblezone:honey_compass_base_data": {
+							compassType: "structure"
+							customDescription: "item.the_bumblezone.honey_compass_throne_description"
+							customName: "item.the_bumblezone.honey_compass_throne_structure"
+						}
+						"the_bumblezone:honey_compass_state_data": {
+							isFailed: 0b
+							isLoading: 0b
+							locatedSpecialStructure: 0b
+							locked: 1b
+						}
+						"the_bumblezone:honey_compass_target_data": {
+							targetDimension: "the_bumblezone:the_bumblezone"
+							targetPos: [I;
+								208
+								0
+								-1136
+							]
+						}
+					}
+					id: "the_bumblezone:honey_compass"
+				}
+				id: "6089903FA619D424"
+				item: { components: { "ftbfiltersystem:filter": "component(fuzzy:{\"the_bumblezone:honey_compass_base_data\":{compassType:\"structure\",customDescription:\"item.the_bumblezone.honey_compass_throne_description\",customName:\"item.the_bumblezone.honey_compass_throne_structure\"}})item(the_bumblezone:honey_compass)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FC58B7D325A1AC7"]
+			id: "407079BCE93817AC"
+			rewards: [{
+				count: 4
+				id: "0EA8A2CBB9498D8E"
+				item: {
+					count: 1
+					id: "the_bumblezone:royal_jelly_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "323FD30FACC88612"
+				item: { count: 1, id: "the_bumblezone:essence_of_the_bees" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A2D51206676A83C"]
+			id: "45896B61EC465279"
+			rewards: [{
+				id: "259A2FE69E7E7239"
+				item: {
+					components: {
+						"the_bumblezone:buzzing_briefcase_data": {
+							BeesStored: [ ]
+						}
+					}
+					count: 1
+					id: "the_bumblezone:buzzing_briefcase"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00F0190B9979CB10"
+				item: { count: 1, id: "the_bumblezone:pollen_puff" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FC58B7D325A1AC7"]
+			id: "4660608EBEE31784"
+			tasks: [{
+				id: "1A8B5C7321DB5577"
+				item: { count: 1, id: "the_bumblezone:windy_air" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57E6258A93E53F95"]
+			id: "296C31D4425DE534"
+			rewards: [{
+				count: 16
+				id: "5432A6DEA881E69C"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F44825AB393B67"
+				item: { count: 1, id: "the_bumblezone:flower_headwear" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A2D51206676A83C"]
+			id: "471571E3E382B404"
+			rewards: [{
+				count: 16
+				id: "16154E3E274109A3"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "069760235257E581"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:string_curtains)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57E6258A93E53F95"]
+			id: "69799346F7BF246C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71856B58AFD6B06A"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6B6B3241A8B2CD6A"
+				item: { count: 1, id: "the_bumblezone:crystalline_flower" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+}

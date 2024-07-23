@@ -125,6 +125,8 @@
 			}
 			random_bonus: 4
 		}
+		{ item: { count: 1, id: "multiverse:kaleidite_core" }, random_bonus: 1 }
+		{ item: { count: 1, id: "minecraft:totem_of_undying" } }
 	]
 	use_title: true
 }

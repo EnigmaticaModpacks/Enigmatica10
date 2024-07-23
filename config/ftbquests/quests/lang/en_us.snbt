@@ -12,6 +12,8 @@
 	chapter.47870879D8E3742D.title: "Getting Started"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
+	chapter.60F666DD0AC6F03F.title: "Multiverse"
+	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7CFAC3316D718D25.title: "ChocoCraft"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
@@ -32,6 +34,11 @@
 		"&a    capacity!"
 	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
+	quest.00E63585BA00E77B.quest_desc: [
+		"Cheap to craft, these little totems allow you to escape a rift rather than dying. "
+		""
+		"While one is in your inventory, any time your health is reduced to zero, you’ll instead be teleported out of the rift, back to your entry point in the Overworld."
+	]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
 		""
@@ -297,6 +304,21 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.0F04956D59A78393.quest_desc: [
+		"Legends tell of places in the world where things are stretched thin. Where people disappear unexpectedly or re-appear years later as if no time has passed. "
+		""
+		"There is truth to these legends, so keep your wits about you as you explore these lands. Fall into a Rift and you may be in for an unexpected adventure through the Multiverse."
+		"&n                                                  &r"
+		""
+		"Getting started with Multiverse will require you to find a Rift and step through it. "
+		""
+		"These can spawn anywhere, so keep your eyes open as you explore. "
+		""
+		"&a🛈 Tip: Bring your own way home, such "
+		"&a    as a Mekanism Teleporter "
+		"&a    or Warp Stone!"
+	]
+	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
 	quest.10762E4BB7F187BE.quest_desc: [
@@ -544,6 +566,8 @@
 		""
 		"The Large Steam Turbine will be somewhat limited right now, seeing as the best we can do is an HV Energy Hatch, but it will be able to grow as your base grows. "
 	]
+	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
+	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
 	quest.20454EB2C6E93573.quest_desc: [
 		"The Player Accessor allows any form of logistics to interact with your inventory as if it were a chest. "
 		""
@@ -676,6 +700,11 @@
 		""
 		"It does need a tool, so be sure to provide it shears for said sheep farm or a nice looting sword for killing mobs. "
 	]
+	quest.265FE8DFBF49A261.quest_desc: [
+		"The areas inside of a rift may very closely resemble places you’re familiar with. Perhaps the sky will be a slightly different shade, or the hills more exaggerated…"
+		""
+		"A keen eye will always be able to identify a rift by the telltale presence of Kaleidite Clusters growing from any surface."
+	]
 	quest.2850FCAFEEF5004C.quest_desc: [
 		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
 		""
@@ -726,6 +755,28 @@
 		""
 		"&a🛈 Tip: Higher tier Goos can do all of the lower tier’s recipes."
 	]
+	quest.296C31D4425DE534.quest_desc: [
+		"Flower Headwear can also be used to prevent Wrath of the Hive, allowing safer travels through a Cell Maze. "
+		""
+		"Dye it and show off your style!"
+	]
+	quest.2A2D51206676A83C.quest_desc: [
+		"We see you there, looking at that hive, wondering what might be going on inside. "
+		""
+		"Go on, take a peek. We won’t tell!"
+		"&n                                                 &r"
+		""
+		"Enter the Bumblezone either by throwing an Ender Pearl at a Hive or Nest, or by pushing your head into the block with a piston. "
+		""
+		"[\"The Bumblezone has no in-game manual, however it does have very useful and informative Advancements (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Advancement Key\"}]},\"keybind\":\"key.advancements\"},\") that will help you through every aspect of the mod.\"]"
+		""
+		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/TelepathicGrunt/Bumblezone/wiki\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" as well, which is an excellent source of knowledge.\"]"
+		""
+		"&a🛈 Tip: You can leave the Bumblezone at "
+		"&a    any time by breaking through the "
+		"&a    roof or floor of the dimension."
+	]
+	quest.2A2D51206676A83C.title: "The Bumblezone"
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Welcome to Modern Industrialization!"
 		""
@@ -834,6 +885,7 @@
 		""
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
+	quest.3840097BB3E09C9D.quest_desc: ["Equivalent to Stone Tools, Kaleidite Tools can be handy in a pinch if you happen to find yourself in a rift without your normal tools. "]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
 		""
@@ -1168,6 +1220,64 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Applied Energistics\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.407079BCE93817AC.quest_desc: [
+		"The Queen’s Desire is a series of repeatable Advancements used to obtain special boons from the Queen Bee. "
+		""
+		"[\"These are all detailed in the Advancements (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Advancement Key\"}]},\"keybind\":\"key.advancements\"},\") screen, however, for the sake of easy reference the tasks will be listed here as well.\"]"
+		""
+		"Once you've completed them all, the Advancements may be reset by Right-Clicking the Queen Bee with an empty hand, allowing you to obtain all of the rewards again."
+		"&n                                                  &r"
+		""
+		"• Craft 6 Bee Nests or Beehives"
+		""
+		"• Smash and kill 32 Spiders for their "
+		"  icky-ness (Cave Spiders don't count)."
+		""
+		"• Gulp down 8 bottles of honey!"
+		""
+		"• Throw and hit 24 entities with Pollen "
+		"  Puff. Other players count!"
+		"{@pagebreak}"
+		"• Kill 8 wriggling Silverfish crawling "
+		"  and burrowing everywhere."
+		""
+		"• Fire 32 Bee Stingers from Bows or "
+		"  Crossbows."
+		""
+		"• Breed 6 Honey Slimes (They really "
+		"  love sugar!)."
+		""
+		"• Butcher 16 Cave Spiders from the "
+		"  depths."
+		""
+		"• Save 12 bees from certain death by "
+		"  putting their stingers back on."
+		""
+		"• Spawn 8 flowers by pollinating "
+		"  flowers with Pollen Puff."
+		"{@pagebreak}"
+		"• Somehow managed to kill Wither with "
+		"  Stinger Spear..."
+		""
+		"• Satisfy the hunger of bees by "
+		"  feeding them sugar water or honey-"
+		"  like stuff 48 times! (Can be same bee "
+		"  or different bees)."
+		""
+		"• Breed Bees until a total of 8 baby "
+		"  bees are born."
+		""
+		"• Slay 4 Endermites for their "
+		"  transgression of existence."
+		""
+		"• Become legendary by slaying the "
+		"  Enderdragon with full Bee Armor on."
+		""
+		"• Trade 128 times with the Bee Queen. "
+		"  Does not need to be bonus trades. "
+		"  Any trade works!"
+	]
+	quest.407079BCE93817AC.title: "The Queen's Desire"
 	quest.40EECBD3D00B9575.quest_desc: [
 		"Fluid Tanks come in various sizes and are used for any kind of fluid. "
 		""
@@ -1287,6 +1397,18 @@
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
+	quest.45896B61EC465279.quest_desc: [
+		"Though the bane of many with seasonal allergies, Pollen Puff can be quite useful; when used on flowers, both big and small, it will spawn more of those flowers nearby. "
+		""
+		"It’ll also force a Mooshroom to sprout more mushrooms around it, assuming the mushrooms have good conditions to grow. Try while the Mooshroom is on Mycelium or Podzol."
+		""
+		"This interaction works with many mobs, so experiment and see what else you can find!"
+		"&n                                                  &r"
+		""
+		"Need more of this golden fluff? "
+		""
+		"Right-Click a pollenated bee with a Water Bucket, Water Bottle, or a Wet Sponge to obtain the pollen on its back. Maybe consider building a small farm using Just Dire Things to fully automate the process!"
+	]
 	quest.4613FE560EAC7695.quest_desc: [
 		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
 		""
@@ -1300,12 +1422,30 @@
 		"&6    that, if not met, will cause the "
 		"&6    injection to fail. Refer to EMI."
 	]
+	quest.4660608EBEE31784.quest_desc: [
+		"A special trade obtained from the Queen, Windy Air can be used to create updrafts that will lift you into the air. These can make an excellent elevator by stacking one atop the other. "
+		""
+		"Windy Air is only visible while the item is held. Otherwise only faint particle effects denote where it has been placed."
+		""
+		"&a🛈 Tip: Windy Air can also be used for "
+		"&a    lateral movement!"
+	]
 	quest.4685E3B748A76726.quest_desc: [
 		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
+	]
+	quest.471571E3E382B404.quest_desc: [
+		"String Curtains are a wonderful way to decorate your home, but they can also be quite functional!"
+		""
+		"When placed as a door, they prevent bees from passing through them. "
+		""
+		"Try using them as the door to your apiary for easy access."
+		""
+		"&a🛈 Tip: Right-Click the Curtain with String to "
+		"&a    extend it downwards."
 	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
@@ -1682,6 +1822,18 @@
 		"  handling."
 	]
 	quest.579C07CD07599438.title: "Crafting CPUs"
+	quest.57E6258A93E53F95.quest_desc: [
+		"Your first order of business here will be to locate a Cell Maze. Here, you’ll find some very important objects to guide you on your quest. "
+		""
+		"Craft a Honey Compass to locate the structure easily."
+		""
+		"Be careful, however! Stepping foot in the Cell Maze without the Protection of the Hive buff will cause nearby bees to swarm you. "
+		""
+		"This buff can be earned by Right-"
+		"Clicking bees with treats, or by doing the same to Brood Blocks. "
+		""
+		"There should be plenty of these inside the Maze to help you keep the buff up while you explore. "
+	]
 	quest.59A56F3053A30126.quest_desc: [
 		"Finally, with the Incubator we are able to bring together our three materials to re-combine the base Sulfur into its purified form. For ores, this yields three Ingots for every Raw Material input."
 		"&n                                                  &r"
@@ -1860,6 +2012,11 @@
 		"&a    a connection."
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
+	quest.641032431B7A1B0F.quest_desc: [
+		"Dropped by the Collector, these Prisms may be attached to tools to give them the ability to pierce into other dimensions. "
+		""
+		"When activated, the tool mines not only the block you're looking at, but also a block in the same location in another random dimension. "
+	]
 	quest.642CDBB28337670C.quest_desc: [
 		"These beautiful bipedal birds can be found in small family groups all around the world. "
 		""
@@ -1886,6 +2043,13 @@
 		"Place an Annihilation Plane facing up at build limit (&aY=319&r) and it will slowly produce more of this precious material!"
 	]
 	quest.653E696688BBBB12.title: "Farming Sky Stone"
+	quest.65613AB49D3D90D9.quest_desc: [
+		"The Kaleidite Core can be used both to open a new rift, or to close an existing one. "
+		""
+		"To open a rift, simply destroy the Core. This can be done by throwing it in lava, burning it with fire, or even exploding it. "
+		""
+		"To close a rift, the Core may be thrown into the rift, causing it to collapse immediately."
+	]
 	quest.65996A36FB1B58B0.quest_desc: [
 		"The Enrichment Chamber is primarily used to make infusion materials stretch a bit further. "
 		""
@@ -1972,6 +2136,20 @@
 		"Simply place them both, then Right-Click one with the Wrench. Finish by Right-Clicking the other with the Wrench. "
 	]
 	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
+	quest.69799346F7BF246C.quest_desc: [
+		"Crystalline Flowers may be used to obtain Enchanted Books. Specifically, it allows you to pick exactly what book you’ll get, removing the randomness from the process. "
+		""
+		"They may be found in several structures throughout the Bumblezone. In particular, look to the ceiling for hanging gardens. Not only are these an excellent source for other rare flowers, they’ll also have these Crystalline Flowers at their center."
+		""
+		"To get the XP they need to operate, they may be fed various items. Search &3#when_consumed&r in EMI to discover what items work."
+		""
+		"They will also absorb XP orbs that come into contact with it, or can be charged with your XP directly. "
+		""
+		"&a🛈 Tip: The Crystalline Flower may be "
+		"&a    moved, but must be placed on a "
+		"&a    crystal like Glistering Honey"
+		"&a    or Amethyst"
+	]
 	quest.69AAE7C502629B3E.quest_desc: [
 		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
 		""
@@ -2043,6 +2221,11 @@
 		""
 		"&a🛈 Tip: Point Stabilizers at the crystal "
 		"&a    floating above the Actuator. "
+	]
+	quest.6BEAFBEA127041DE.quest_desc: [
+		"Two boss mobs can be found roaming the Rift; the Traveler and the Collector. If you’re having trouble locating them, however, this treasure may be crafted to call them forth. "
+		""
+		"To use it, simply throw it on the ground and wait. One or the other will show up to claim it in short order."
 	]
 	quest.6CC9CDCCDE1426AC.quest_desc: [
 		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
@@ -2301,6 +2484,13 @@
 		"&a🛈 Tip: Higher tier Goos will do all of the "
 		"&a    lower tier’s recipes faster."
 	]
+	quest.76F0E375FC0B33DE.quest_desc: [
+		"The Multiversal Beacon is dropped by the Traveler and can be used to craft a powerful chestplate or crossbow. "
+		""
+		"While wearing the chestplate in combat, you’ll have a chance to summon a doppleganger."
+		""
+		"The crossbow, on the other hand, is the perfect tool for a late night light show; firing it will dazzle friends and enemies alike. "
+	]
 	quest.770EE92EA4CF973C.quest_desc: [
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
 		""
@@ -2444,6 +2634,7 @@
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
+	task.069760235257E581.title: "String Curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
@@ -2467,6 +2658,7 @@
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
+	task.3444EAB8952876B1.title: "Observe a Rift"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
@@ -2488,25 +2680,32 @@
 	task.484FF1BEA9145D5F.title: "Puller Modules"
 	task.488180E25D5B815A.title: "Anti-Fields"
 	task.49C1EEBEED453B1C.title: "Mechanical Pipes"
+	task.4A93D708610D3523.title: "Kaleidite Tools"
 	task.4AAAB62A26960EFE.title: "Fluid Pipes"
+	task.4D3445BCDA8E459B.title: "BumbleZone"
 	task.4D45C5166D0700F8.title: "Item Pipes"
+	task.4D5563ABAA54713A.title: "Beacon Equipment"
 	task.51472C5BD0C05E09.title: "Kill a Mob"
+	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
-	task.5B601A86609CEDFF.title: "Energy Hopers"
+	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
+	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.6434DA9DBF54356B.title: "Ender Gates"
 	task.64C50D306E73EA0A.title: "Tier Installers"
+	task.6614885B79D0A53B.title: "Observe a Beehive or Bee Nest"
 	task.664C79E935ED1414.title: "Glass Cables"
 	task.676C8DE6C246D422.title: "AE Power"
+	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
