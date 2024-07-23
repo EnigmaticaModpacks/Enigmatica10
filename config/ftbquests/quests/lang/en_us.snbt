@@ -2136,6 +2136,20 @@
 		"Simply place them both, then Right-Click one with the Wrench. Finish by Right-Clicking the other with the Wrench. "
 	]
 	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
+	quest.69799346F7BF246C.quest_desc: [
+		"Crystalline Flowers may be used to obtain Enchanted Books. Specifically, it allows you to pick exactly what book you’ll get, removing the randomness from the process. "
+		""
+		"They may be found in several structures throughout the Bumblezone. In particular, look to the ceiling for hanging gardens. Not only are these an excellent source for other rare flowers, they’ll also have these Crystalline Flowers at their center."
+		""
+		"To get the XP they need to operate, they may be fed various items. Search &3#when_consumed&r in EMI to discover what items work."
+		""
+		"They will also absorb XP orbs that come into contact with it, or can be charged with your XP directly. "
+		""
+		"&a🛈 Tip: The Crystalline Flower may be "
+		"&a    moved, but must be placed on a "
+		"&a    crystal like Glistering Honey"
+		"&a    or Amethyst"
+	]
 	quest.69AAE7C502629B3E.quest_desc: [
 		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
 		""

@@ -184,6 +184,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["2A2D51206676A83C"]
 			id: "471571E3E382B404"
 			rewards: [{
 				count: 16
@@ -199,7 +200,24 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:string_curtains)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57E6258A93E53F95"]
+			id: "69799346F7BF246C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71856B58AFD6B06A"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6B6B3241A8B2CD6A"
+				item: { count: 1, id: "the_bumblezone:crystalline_flower" }
+				type: "item"
+			}]
+			x: 3.5d
 			y: -1.5d
 		}
 	]
