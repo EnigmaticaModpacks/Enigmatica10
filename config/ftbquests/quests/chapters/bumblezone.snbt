@@ -128,5 +128,79 @@
 			x: 6.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["2A2D51206676A83C"]
+			id: "45896B61EC465279"
+			rewards: [{
+				id: "259A2FE69E7E7239"
+				item: {
+					components: {
+						"the_bumblezone:buzzing_briefcase_data": {
+							BeesStored: [ ]
+						}
+					}
+					count: 1
+					id: "the_bumblezone:buzzing_briefcase"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00F0190B9979CB10"
+				item: { count: 1, id: "the_bumblezone:pollen_puff" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FC58B7D325A1AC7"]
+			id: "4660608EBEE31784"
+			tasks: [{
+				id: "1A8B5C7321DB5577"
+				item: { count: 1, id: "the_bumblezone:windy_air" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57E6258A93E53F95"]
+			id: "296C31D4425DE534"
+			rewards: [{
+				count: 16
+				id: "5432A6DEA881E69C"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F44825AB393B67"
+				item: { count: 1, id: "the_bumblezone:flower_headwear" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "471571E3E382B404"
+			rewards: [{
+				count: 16
+				id: "16154E3E274109A3"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "069760235257E581"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:string_curtains)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
 	]
 }

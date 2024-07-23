@@ -755,6 +755,11 @@
 		""
 		"&a🛈 Tip: Higher tier Goos can do all of the lower tier’s recipes."
 	]
+	quest.296C31D4425DE534.quest_desc: [
+		"Flower Headwear can also be used to prevent Wrath of the Hive, allowing safer travels through a Cell Maze. "
+		""
+		"Dye it and show off your style!"
+	]
 	quest.2A2D51206676A83C.quest_desc: [
 		"We see you there, looking at that hive, wondering what might be going on inside. "
 		""
@@ -1392,6 +1397,18 @@
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
+	quest.45896B61EC465279.quest_desc: [
+		"Though the bane of many with seasonal allergies, Pollen Puff can be quite useful; when used on flowers, both big and small, it will spawn more of those flowers nearby. "
+		""
+		"It’ll also force a Mooshroom to sprout more mushrooms around it, assuming the mushrooms have good conditions to grow. Try while the Mooshroom is on Mycelium or Podzol."
+		""
+		"This interaction works with many mobs, so experiment and see what else you can find!"
+		"&n                                                  &r"
+		""
+		"Need more of this golden fluff? "
+		""
+		"Right-Click a pollenated bee with a Water Bucket, Water Bottle, or a Wet Sponge to obtain the pollen on its back. Maybe consider building a small farm using Just Dire Things to fully automate the process!"
+	]
 	quest.4613FE560EAC7695.quest_desc: [
 		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
 		""
@@ -1405,12 +1422,30 @@
 		"&6    that, if not met, will cause the "
 		"&6    injection to fail. Refer to EMI."
 	]
+	quest.4660608EBEE31784.quest_desc: [
+		"A special trade obtained from the Queen, Windy Air can be used to create updrafts that will lift you into the air. These can make an excellent elevator by stacking one atop the other. "
+		""
+		"Windy Air is only visible while the item is held. Otherwise only faint particle effects denote where it has been placed."
+		""
+		"&a🛈 Tip: Windy Air can also be used for "
+		"&a    lateral movement!"
+	]
 	quest.4685E3B748A76726.quest_desc: [
 		"In a similar vein to the Compressor, the Bronze Mixer also means more efficient processing, netting you more Bronze Dust per craft than doing it by hand. Quite a handy boost considering all the Bronze getting thrown around here."
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
+	]
+	quest.471571E3E382B404.quest_desc: [
+		"String Curtains are a wonderful way to decorate your home, but they can also be quite functional!"
+		""
+		"When placed as a door, they prevent bees from passing through them. "
+		""
+		"Try using them as the door to your apiary for easy access."
+		""
+		"&a🛈 Tip: Right-Click the Curtain with String to "
+		"&a    extend it downwards."
 	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
@@ -2585,6 +2620,7 @@
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
+	task.069760235257E581.title: "Any #the_bumblezone:string_curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
