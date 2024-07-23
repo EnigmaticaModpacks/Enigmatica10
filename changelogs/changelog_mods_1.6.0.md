@@ -1,0 +1,47 @@
+## Enigmatica10 - 1.5.0 -> 1.6.0
+
+### Added
+
+  * [Ars Nouveau](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
+  * [Better Advancements](https://www.curseforge.com/minecraft/mc-mods/better-advancements) (by [way2muchnoise](https://www.curseforge.com/members/way2muchnoise/projects))
+  * [Better chunk loading[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+  * [Better Fps - Render Distance[Forge]](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+  * [Clickable advancements[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/clickable-advancements) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+  * [Entangled](https://www.curseforge.com/minecraft/mc-mods/entangled) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+  * [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty) (by [andi_makes](https://www.curseforge.com/members/andi_makes/projects))
+  * [Occultism KubeJS](https://www.curseforge.com/minecraft/mc-mods/occultism-kubejs) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
+  * [SuperMartijn642's Config Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+  * [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+  * [Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+  * [Wireless Chargers](https://www.curseforge.com/minecraft/mc-mods/wireless-chargers) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+
+### Changed
+
+  * [ae2importexportcard-1.21-1.3.0.jar](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card/files/5520870) -> [ae2importexportcard-1.21-1.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card/files/5551385)
+  * [appliedenergistics2-19.0.14-alpha.jar](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/5547998) -> [appliedenergistics2-19.0.16-beta.jar](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/5552833)
+  * [architectury-13.0.4-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/5521987) -> [architectury-13.0.6-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/5553800)
+  * [arts_and_crafts-neoforge-1.21-1.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/artsandcrafts/files/5533779) -> [arts_and_crafts-neoforge-1.21-1.1.7.jar](https://www.curseforge.com/minecraft/mc-mods/artsandcrafts/files/5549879)
+  * [cloth-config-15.0.127-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/5424576) -> [cloth-config-15.0.128-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/5553805)
+  * [embeddium-1.0.6+mc1.21.jar](https://www.curseforge.com/minecraft/mc-mods/embeddium/files/5547466) -> [embeddium-1.0.7+mc1.21.jar](https://www.curseforge.com/minecraft/mc-mods/embeddium/files/5556146)
+  * [ftb-library-neoforge-2100.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/5482367) -> [ftb-library-neoforge-2100.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/5557408)
+  * [geneticsresequenced-1.21-1.1.5.jar](https://www.curseforge.com/minecraft/mc-mods/genetics-resequenced/files/5547548) -> [geneticsresequenced-1.21-1.1.7.jar](https://www.curseforge.com/minecraft/mc-mods/genetics-resequenced/files/5549691)
+  * [guardvillagers-2.2.7-1.21.jar](https://www.curseforge.com/minecraft/mc-mods/guard-villagers/files/5524290) -> [guardvillagers-2.2.8-1.21.jar](https://www.curseforge.com/minecraft/mc-mods/guard-villagers/files/5552800)
+  * [javd-neo-8.0.0+mc1.21.jar](https://www.curseforge.com/minecraft/mc-mods/javd/files/5424935) -> [javd-neo-8.0.1+mc1.21.jar](https://www.curseforge.com/minecraft/mc-mods/javd/files/5557431)
+  * [jei-1.21-neoforge-19.5.0.44.jar](https://www.curseforge.com/minecraft/mc-mods/jei/files/5547882) -> [jei-1.21-neoforge-19.5.0.48.jar](https://www.curseforge.com/minecraft/mc-mods/jei/files/5556170)
+  * [JustEnoughMekanismMultiblocks-1.21-6.2.jar](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks/files/5539244) -> [JustEnoughMekanismMultiblocks-1.21-6.3.jar](https://www.curseforge.com/minecraft/mc-mods/just-enough-mekanism-multiblocks/files/5553567)
+  * [kubejs-2100.7.0-build.94.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/5545959) -> [kubejs-neoforge-2100.7.0-build.102.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/5557407)
+  * [lootjs-neoforge-1.21-3.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/lootjs/files/5537235) -> [lootjs-neoforge-1.21-3.0.3.jar](https://www.curseforge.com/minecraft/mc-mods/lootjs/files/5554840)
+  * [Mekanism-1.21-10.6.5.52.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/5523554) -> [Mekanism-1.21-10.6.6.53.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/5552293)
+  * [MekanismGenerators-1.21-10.6.5.52.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/5523557) -> [MekanismGenerators-1.21-10.6.6.53.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/5552296)
+  * [MekanismTools-1.21-10.6.5.52.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools/files/5523558) -> [MekanismTools-1.21-10.6.6.53.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools/files/5552297)
+  * [Modern-Industrialization-2.2.9-beta.jar](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization/files/5529060) -> [Modern-Industrialization-2.2.10-beta.jar](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization/files/5549658)
+  * [modonomicon-1.21-neoforge-1.95.3.jar](https://www.curseforge.com/minecraft/mc-mods/modonomicon/files/5519525) -> [modonomicon-1.21-neoforge-1.96.1.jar](https://www.curseforge.com/minecraft/mc-mods/modonomicon/files/5557994)
+  * [occultism-1.21-neoforge-1.136.5.jar](https://www.curseforge.com/minecraft/mc-mods/occultism/files/5545389) -> [occultism-1.21-neoforge-1.139.1.jar](https://www.curseforge.com/minecraft/mc-mods/occultism/files/5557908)
+  * [polymorph-neoforge-1.0.4+1.21.jar](https://www.curseforge.com/minecraft/mc-mods/polymorph/files/5539233) -> [polymorph-neoforge-1.0.5+1.21.jar](https://www.curseforge.com/minecraft/mc-mods/polymorph/files/5550094)
+  * [Powah-6.0.2-beta.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/5462914) -> [Powah-6.0.5-beta.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/5552608)
+  * [relics-1.21-0.7.2.1.jar](https://www.curseforge.com/minecraft/mc-mods/relics-mod/files/5544686) -> [relics-1.21-0.7.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/relics-mod/files/5554968)
+  * [rhino-2100.2.5-build.41.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/5499585) -> [rhino-2100.2.5-build.44.jar](https://www.curseforge.com/minecraft/mc-mods/rhino/files/5554415)
+  * [shrink-2.0.0.42-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/shrink_/files/5502545) -> [shrink-2.0.0.43-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/shrink_/files/5550606)
+  * [the_bumblezone-7.6.17+1.21-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge/files/5546375) -> [the_bumblezone-7.6.19+1.21-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge/files/5557154)
+  * [theurgy-1.21-neoforge-1.27.2.jar](https://www.curseforge.com/minecraft/mc-mods/theurgy/files/5536668) -> [theurgy-1.21-neoforge-1.30.1.jar](https://www.curseforge.com/minecraft/mc-mods/theurgy/files/5557985)
+
