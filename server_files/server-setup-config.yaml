@@ -74,6 +74,7 @@ install:
             - 908741 # Embeddium
             - 1049891 # ClientSort https://www.curseforge.com/minecraft/mc-mods/clientsort
             - 585406 # ProbeJS https://www.curseforge.com/minecraft/mc-mods/probejs
+            - 986380 # Lighty https://www.curseforge.com/minecraft/mc-mods/lighty
 
     # The base path where the server should be installed to, ~ for current path
     baseInstallPath: ~
