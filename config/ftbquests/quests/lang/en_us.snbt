@@ -759,7 +759,7 @@
 		"We see you there, looking at that hive, wondering what might be going on inside. "
 		""
 		"Go on, take a peek. We won’t tell!"
-		"&n                                                    &r"
+		"&n                                                 &r"
 		""
 		"Enter the Bumblezone either by throwing an Ender Pearl at a Hive or Nest, or by pushing your head into the block with a piston. "
 		""
@@ -1215,6 +1215,7 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Applied Energistics\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.407079BCE93817AC.title: "The Queen's Desire"
 	quest.40EECBD3D00B9575.quest_desc: [
 		"Fluid Tanks come in various sizes and are used for any kind of fluid. "
 		""
