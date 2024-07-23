@@ -111,6 +111,15 @@
 		{
 			dependencies: ["1FC58B7D325A1AC7"]
 			id: "407079BCE93817AC"
+			rewards: [{
+				count: 4
+				id: "0EA8A2CBB9498D8E"
+				item: {
+					count: 1
+					id: "the_bumblezone:royal_jelly_bottle"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "323FD30FACC88612"
 				item: { count: 1, id: "the_bumblezone:essence_of_the_bees" }
