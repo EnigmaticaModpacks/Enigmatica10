@@ -27,6 +27,7 @@
 	"Chance to drop equipment" = 100.0
 	#This makes guards form a phalanx
 	"Have guards form a phalanx?" = true
+	"Allow the player to right click on bells to mass order guards to follow them?" = true
 
 ["raids and illagers"]
 	#This makes Illagers run from polar bears, as anyone with common sense would.

@@ -1,13 +1,10 @@
-
-[general]
-	#When a player with the Wooly gene is sheared, their outer skin layers are removed. Enable this to also remove the cape.
-	woolyRemovesCape = true
-	#Disables the narrator when a player with the Parrot gene speaks.
-	disableParrotNarrator = false
-	#Disables the change to LOLCAT language when you get the Cringe gene. This comes with a resource-reload, which may cause lag.
-	disableCringeLangChange = false
-	#Enable to render the base Slime model for Support Slime entities.
-	supportSlimeRenderDebug = false
-	#Show that an item is in the Item Magnet's blacklist in its tooltip.
-	itemMagnetBlacklistTooltip = true
-
+#When a player with the Wooly gene is sheared, their outer skin layers are removed. Enable this to also remove the cape.
+woolyRemovesCape = true
+#Disables the narrator when a player with the Parrot gene speaks.
+disableParrotNarrator = false
+#Disables the change to LOLCAT language when you get the Cringe gene. This comes with a resource-reload, which may cause lag.
+disableCringeLangChange = false
+#Enable to render the base Slime model for Support Slime entities.
+supportSlimeRenderDebug = false
+#Show that an item is in the Item Magnet's blacklist in its tooltip.
+itemMagnetBlacklistTooltip = true

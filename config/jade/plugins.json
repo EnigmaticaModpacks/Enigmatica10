@@ -3,9 +3,6 @@
     "framed_item_frame": true,
     "framed_block_generic": true
   },
-  "modularrouters": {
-    "router": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -60,12 +57,8 @@
   "apothic_spawners": {
     "spawner": true
   },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
+  "entangled": {
+    "entangled_block_component": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -82,16 +75,6 @@
     "overclock": true,
     "pipe": true
   },
-  "waystones": {
-    "waystone": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
-  },
   "functionalstorage": {
     "drawer": true
   },
@@ -106,5 +89,28 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "modularrouters": {
+    "router": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
   }
 }
