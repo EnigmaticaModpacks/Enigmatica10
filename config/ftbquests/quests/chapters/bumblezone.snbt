@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bumblezone"
+	group: "440488E780593120"
+	icon: {
+		id: "the_bumblezone:bee_queen_spawn_egg"
+	}
+	id: "6DB48898896BFFC9"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "the_bumblezone:textures/mob_effect/protection_of_the_hive.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2A2D51206676A83C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFFF690AC495C3C"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:bee_nest"
+				}
+				id: "6614885B79D0A53B"
+				observe_type: 1
+				timer: 0L
+				to_observe: "enigmatica:hives"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A2D51206676A83C"]
+			icon: {
+				id: "the_bumblezone:honey_compass"
+			}
+			id: "57E6258A93E53F95"
+			rewards: [{
+				count: 16
+				id: "68D7BCDC57EA4BDC"
+				item: {
+					count: 1
+					id: "the_bumblezone:bee_bread"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "312C7DE77D0C5301"
+					item: { count: 1, id: "the_bumblezone:honey_compass" }
+					type: "item"
+				}
+				{
+					id: "68EB8FBB7D914369"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_feedable_items)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57E6258A93E53F95"]
+			icon: {
+				components: {
+					"ftbquests:icon": "the_bumblezone:item/bee_queen_spawn_egg"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1FC58B7D325A1AC7"
+			tasks: [{
+				icon: {
+					components: {
+						"the_bumblezone:honey_compass_base_data": {
+							compassType: "structure"
+							customDescription: "item.the_bumblezone.honey_compass_throne_description"
+							customName: "item.the_bumblezone.honey_compass_throne_structure"
+						}
+						"the_bumblezone:honey_compass_state_data": {
+							isFailed: 0b
+							isLoading: 0b
+							locatedSpecialStructure: 0b
+							locked: 1b
+						}
+						"the_bumblezone:honey_compass_target_data": {
+							targetDimension: "the_bumblezone:the_bumblezone"
+							targetPos: [I;
+								208
+								0
+								-1136
+							]
+						}
+					}
+					id: "the_bumblezone:honey_compass"
+				}
+				id: "6089903FA619D424"
+				item: { components: { "ftbfiltersystem:filter": "component(fuzzy:{\"the_bumblezone:honey_compass_base_data\":{compassType:\"structure\",customDescription:\"item.the_bumblezone.honey_compass_throne_description\",customName:\"item.the_bumblezone.honey_compass_throne_structure\"}})item(the_bumblezone:honey_compass)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+	]
+}
