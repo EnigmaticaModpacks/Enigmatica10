@@ -1,4 +1,4 @@
-ItemEvents.tooltip((event) => {
+ItemEvents.modifyTooltips((event) => {
     /*
     Valid Color Codes:
     
