@@ -42,6 +42,11 @@ ServerEvents.recipes((event) => {
                 '#c:ingots/iron'
             ],
             id: `${id_prefix}reinforced_deepslate`
+        },
+        {
+            output: Item.of('minecraft:name_tag', 2),
+            inputs: ['#c:strings', 'minecraft:paper'],
+            id: `${id_prefix}name_tag`
         }
     ];
 
