@@ -1,3 +1,8 @@
+### Enigmatica 10 1.7.0
+
+WIP Note, fix up before release!
+We've added the mod [Tectonic] to amp up worldgen - Which means on the border between old and new chunks, the terrain will be inconsistent and look weird.
+
 ### Enigmatica 10 1.6.0
 
 NeoForge-1.21.0-21.0.111 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.6.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.6.0.md)
