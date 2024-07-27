@@ -33,6 +33,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}yellow_dye_from_sulfur`
         },
         {
+            output: Item.of('minecraft:yellow_dye', 1),
+            inputs: ['productivetrees:fustic'],
+            id: `${id_prefix}yellow_dye_from_fustic`
+        },
+        {
+            output: Item.of('minecraft:red_dye', 1),
+            inputs: ['productivetrees:dracaena_sap'],
+            id: `${id_prefix}red_dye_from_dracaena_sap`
+        },
+        {
             output: Item.of('minecraft:reinforced_deepslate', 1),
             inputs: [
                 'minecraft:polished_deepslate',
