@@ -1,5 +1,6 @@
 ### Enigmatica 10 1.7.0
 
+
 #### ⭐ Improvements
 
 -   Name Tags can now be crafted [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
@@ -10,6 +11,8 @@
 
 -   Removed unwanted blocks from candles tag [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
 
+WIP Note, fix up before release!
+We've added the mod [Tectonic] to amp up worldgen - Which means on the border between old and new chunks, the terrain will be inconsistent and look weird.
 ---
 
 ### Enigmatica 10 1.6.0
