@@ -140,10 +140,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4B66ECA9D6797B80"
-				"21C1CAA38D040AC8"
-			]
+			dependencies: ["4B66ECA9D6797B80"]
 			icon: {
 				id: "minecraft:hopper"
 			}
@@ -497,6 +494,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["0B04BC5F88746182"]
 			id: "21C1CAA38D040AC8"
 			rewards: [
 				{

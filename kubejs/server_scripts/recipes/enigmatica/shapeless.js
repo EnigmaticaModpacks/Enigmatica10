@@ -33,6 +33,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}yellow_dye_from_sulfur`
         },
         {
+            output: Item.of('minecraft:yellow_dye', 1),
+            inputs: ['productivetrees:fustic'],
+            id: `${id_prefix}yellow_dye_from_fustic`
+        },
+        {
+            output: Item.of('minecraft:red_dye', 1),
+            inputs: ['productivetrees:dracaena_sap'],
+            id: `${id_prefix}red_dye_from_dracaena_sap`
+        },
+        {
             output: Item.of('minecraft:reinforced_deepslate', 1),
             inputs: [
                 'minecraft:polished_deepslate',
@@ -42,6 +52,11 @@ ServerEvents.recipes((event) => {
                 '#c:ingots/iron'
             ],
             id: `${id_prefix}reinforced_deepslate`
+        },
+        {
+            output: Item.of('minecraft:name_tag', 2),
+            inputs: ['#c:strings', 'minecraft:paper'],
+            id: `${id_prefix}name_tag`
         }
     ];
 

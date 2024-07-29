@@ -19,6 +19,16 @@ ServerEvents.generateData('before_mods', (event) => {
                 },
                 count: 3
             }
+        },
+        {
+            name: 'source_gem',
+            enabled: true,
+            payment: {
+                ingredient: {
+                    item: 'ars_nouveau:source_gem'
+                },
+                count: 1
+            }
         }
     ];
 

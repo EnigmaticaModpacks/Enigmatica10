@@ -3,24 +3,37 @@
 WIP Note, fix up before release!
 We've added the mod [Tectonic] to amp up worldgen - Which means on the border between old and new chunks, the terrain will be inconsistent and look weird.
 
+#### ⭐ Improvements
+
+-   Name Tags can now be crafted [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
+-   Ars Nouveau Saplings and Fruits have been added to the Market [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
+-   Chocobo Feathers may be used in place of feathers in most recipes [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
+
+#### 🦟 Bugs Fixed
+
+-   Removed unwanted blocks from candles tag [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
+-   Fix free glowstone/redstone from chisel [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
+
+---
+
 ### Enigmatica 10 1.6.0
 
 NeoForge-1.21.0-21.0.111 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.6.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.6.0.md)
 
 #### ✔️ Added Mods
 
-  * [Ars Nouveau](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
-  * [Better Advancements](https://www.curseforge.com/minecraft/mc-mods/better-advancements) (by [way2muchnoise](https://www.curseforge.com/members/way2muchnoise/projects))
-  * [Better chunk loading[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Better Fps - Render Distance[Forge]](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Clickable advancements[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/clickable-advancements) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Entangled](https://www.curseforge.com/minecraft/mc-mods/entangled) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-  * [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty) (by [andi_makes](https://www.curseforge.com/members/andi_makes/projects))
-  * [Occultism KubeJS](https://www.curseforge.com/minecraft/mc-mods/occultism-kubejs) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
-  * [SuperMartijn642's Config Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-  * [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-  * [Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-  * [Wireless Chargers](https://www.curseforge.com/minecraft/mc-mods/wireless-chargers) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [Ars Nouveau](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
+-   [Better Advancements](https://www.curseforge.com/minecraft/mc-mods/better-advancements) (by [way2muchnoise](https://www.curseforge.com/members/way2muchnoise/projects))
+-   [Better chunk loading[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/better-chunk-loading-forge-fabric) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Better Fps - Render Distance[Forge]](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Clickable advancements[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/clickable-advancements) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Entangled](https://www.curseforge.com/minecraft/mc-mods/entangled) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [Lighty](https://www.curseforge.com/minecraft/mc-mods/lighty) (by [andi_makes](https://www.curseforge.com/members/andi_makes/projects))
+-   [Occultism KubeJS](https://www.curseforge.com/minecraft/mc-mods/occultism-kubejs) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
+-   [SuperMartijn642's Config Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [Wireless Chargers](https://www.curseforge.com/minecraft/mc-mods/wireless-chargers) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
 
 #### 🦟 Bugs Fixed
 

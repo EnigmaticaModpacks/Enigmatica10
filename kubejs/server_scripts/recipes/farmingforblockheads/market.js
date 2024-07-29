@@ -56,6 +56,54 @@ ServerEvents.recipes((event) => {
             category: 'farmingforblockheads:other',
             result: { count: 12, item: 'minecraft:bone_meal' },
             id: `${id_prefix}bone_meal`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:blue_archwood_sapling' },
+            id: `${id_prefix}blue_archwood_sapling`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:red_archwood_sapling' },
+            id: `${id_prefix}red_archwood_sapling`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:purple_archwood_sapling' },
+            id: `${id_prefix}purple_archwood_sapling`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:green_archwood_sapling' },
+            id: `${id_prefix}green_archwood_sapling`
+        },
+        {
+            category: 'farmingforblockheads:other',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:mendosteen_pod' },
+            id: `${id_prefix}mendosteen_pod`
+        },
+        {
+            category: 'farmingforblockheads:other',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:bastion_pod' },
+            id: `${id_prefix}bastion_pod`
+        },
+        {
+            category: 'farmingforblockheads:other',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:frostaya_pod' },
+            id: `${id_prefix}frostaya_pod`
+        },
+        {
+            category: 'farmingforblockheads:other',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_nouveau:bombegranate_pod' },
+            id: `${id_prefix}bombegranate_pod`
         }
     ];
 
