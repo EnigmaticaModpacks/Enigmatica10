@@ -38,9 +38,9 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:chests/wooden'
         },
         {
-            filter: [{ mod: 'mffs' }],
-            to_replace: '#c:ingots/steel',
-            replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/energized_steel'])
+            filter: {},
+            to_replace: 'minecraft:feather',
+            replace_with: '#c:feathers'
         }
     ];
 
