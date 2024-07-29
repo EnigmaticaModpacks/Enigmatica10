@@ -12,6 +12,7 @@ We've added the mod [Tectonic] to amp up worldgen - Which means on the border be
 #### 🦟 Bugs Fixed
 
 -   Removed unwanted blocks from candles tag [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
+-   Fix free glowstone/redstone from chisel [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
 
 ---
 
