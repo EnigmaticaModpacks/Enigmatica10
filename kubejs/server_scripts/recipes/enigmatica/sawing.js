@@ -6,6 +6,12 @@ ServerEvents.recipes((event) => {
             output: 'ars_nouveau:archwood_planks',
             output_count: 6,
             id: 'archwood_planks'
+        },
+        {
+            input: 'arts_and_crafts:cork_logs',
+            output: 'arts_and_crafts:cork_planks',
+            output_count: 6,
+            id: 'cork_planks'
         }
     ];
 
