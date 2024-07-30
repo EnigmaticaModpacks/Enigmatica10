@@ -1,0 +1,31 @@
+{
+    "item.minecraft.potion.effect.greater_strength": "Potion of Strength",
+    "item.minecraft.splash_potion.effect.greater_strength": "Splash Potion of Strength",
+    "item.minecraft.lingering_potion.effect.greater_strength": "Lingering Potion of Strength",
+    "item.minecraft.tipped_arrow.effect.greater_strength": "Arrow of Strength",
+
+    "item.minecraft.potion.effect.greater_regeneration": "Potion of Regeneration",
+    "item.minecraft.splash_potion.effect.greater_regeneration": "Splash Potion of Regeneration",
+    "item.minecraft.lingering_potion.effect.greater_regeneration": "Lingering Potion of Regeneration",
+    "item.minecraft.tipped_arrow.effect.greater_regeneration": "Arrow of Regeneration",
+
+    "item.minecraft.potion.effect.greater_mana_regen": "Potion of Mana Regeneration",
+    "item.minecraft.splash_potion.effect.greater_mana_regen": "Splash Potion of Mana Regeneration",
+    "item.minecraft.lingering_potion.effect.greater_mana_regen": "Lingering Potion of Mana Regeneration",
+    "item.minecraft.tipped_arrow.effect.greater_mana_regen": "Arrow of Mana Regeneration",
+
+    "item.minecraft.potion.effect.greater_spell_damage": "Potion of Spell Damage",
+    "item.minecraft.splash_potion.effect.greater_spell_damage": "Splash Potion of Spell Damage",
+    "item.minecraft.lingering_potion.effect.greater_spell_damage": "Lingering Potion of Spell Damage",
+    "item.minecraft.tipped_arrow.effect.greater_spell_damage": "Arrow of Spell Damage",
+
+    "item.minecraft.potion.effect.greater_shielding": "Potion of Shielding",
+    "item.minecraft.splash_potion.effect.greater_shielding": "Splash Potion of Shielding",
+    "item.minecraft.lingering_potion.effect.greater_shielding": "Lingering Potion of Shielding",
+    "item.minecraft.tipped_arrow.effect.greater_shielding": "Arrow of Shielding",
+
+    "item.minecraft.potion.effect.greater_recovery": "Potion of Recovery",
+    "item.minecraft.splash_potion.effect.greater_recovery": "Splash Potion of Recovery",
+    "item.minecraft.lingering_potion.effect.greater_recovery": "Lingering Potion of Recovery",
+    "item.minecraft.tipped_arrow.effect.greater_recovery": "Arrow of Recovery"
+}
