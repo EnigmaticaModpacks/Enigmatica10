@@ -14,7 +14,10 @@ ServerEvents.tags('block', (event) => {
         blazing: ['powah:blazing_crystal_block'],
         niotic: ['powah:niotic_crystal_block'],
         spirited: ['powah:spirited_crystal_block'],
-        nitro: ['powah:nitro_crystal_block']
+        nitro: ['powah:nitro_crystal_block'],
+
+        uranium: ['bigreactors:yellorium_block'],
+        raw_uranium: ['bigreactors:raw_yellorium_block']
     };
 
     Object.keys(additions).forEach((tag) => {
