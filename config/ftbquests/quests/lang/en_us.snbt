@@ -315,8 +315,8 @@
 		"These can spawn anywhere, so keep your eyes open as you explore. "
 		""
 		"&a🛈 Tip: Bring your own way home, such "
-		"&a    as a Mekanism Teleporter "
-		"&a    or Warp Stone!"
+		"&a    as a Mekanism Teleporter, Warp "
+		"&a    Stone, or Stabilized Warp Scroll!"
 	]
 	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
