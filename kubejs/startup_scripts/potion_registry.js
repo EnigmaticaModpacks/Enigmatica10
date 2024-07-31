@@ -3,8 +3,8 @@ StartupEvents.registry('potion', (event) => {
         {
             potion: 'ars_nouveau:flight',
             types: [
-                { name: 'base', duration: 180, amplifier: 0 },
-                { name: 'long', duration: 480, amplifier: 0 }
+                { name: 'base', duration: 480, amplifier: 0 },
+                { name: 'long', duration: 1080, amplifier: 0 }
             ]
         },
         {
