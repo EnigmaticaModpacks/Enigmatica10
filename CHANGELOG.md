@@ -8,6 +8,9 @@ We've added the mod [Tectonic] to amp up worldgen - Which means on the border be
 -   Name Tags can now be crafted [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
 -   Ars Nouveau Saplings and Fruits have been added to the Market [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
 -   Chocobo Feathers may be used in place of feathers in most recipes [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
+-   Add sawing compat recipes between different saws [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
+-   New potions and potion recipes! [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
+-   Uraninite may be converted to Uranium for use in other reactors [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
 
 #### 🦟 Bugs Fixed
 
