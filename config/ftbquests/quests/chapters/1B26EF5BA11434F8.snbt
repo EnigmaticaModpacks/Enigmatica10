@@ -75,22 +75,12 @@
 		{
 			dependencies: ["642CDBB28337670C"]
 			id: "3D307863E39B9EFE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "16AC43E9806EEDBF"
-					table_id: 23658154196454858L
-					type: "loot"
-				}
-				{
-					id: "098C2D0612C8678C"
-					item: {
-						count: 1
-						id: "farmingforblockheads:feeding_trough"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16AC43E9806EEDBF"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "7A4E9B038040A28A"
