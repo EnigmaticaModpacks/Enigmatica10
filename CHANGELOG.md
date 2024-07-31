@@ -11,6 +11,7 @@ We've added the mod [Tectonic] to amp up worldgen - Which means on the border be
 -   Add sawing compat recipes between different saws [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
 -   New potions and potion recipes! [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
 -   Uraninite may be converted to Uranium for use in other reactors [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
+-   Flame Chocobos may now be bred together or with Golden Chocobos to produce more [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
 
 #### 🦟 Bugs Fixed
 
