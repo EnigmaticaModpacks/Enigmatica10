@@ -28,7 +28,7 @@ MoreJS.registerPotionBrewing((event) => {
             output: 'minecraft:invisibility'
         },
         {
-            reagent: 'ars_nouveau:earth_essence',
+            reagent: 'chococraft:gysahl_green',
             input: 'minecraft:awkward',
             output: 'minecraft:regeneration'
         },
@@ -40,12 +40,38 @@ MoreJS.registerPotionBrewing((event) => {
         {
             reagent: 'chococraft:chocobo_feather',
             input: 'minecraft:awkward',
+            output: 'minecraft:slow_falling'
+        },
+        {
+            reagent: 'chococraft:gold_gysahl',
+            input: 'minecraft:slow_falling',
             output: 'kubejs:flight'
+        },
+        {
+            reagent: 'chococraft:gold_gysahl',
+            input: 'minecraft:long_slow_falling',
+            output: 'kubejs:long_flight'
         },
         {
             reagent: 'minecraft:redstone',
             input: 'kubejs:flight',
             output: 'kubejs:long_flight'
+        },
+
+        {
+            reagent: 'ars_nouveau:earth_essence',
+            input: 'minecraft:awkward',
+            output: 'kubejs:resistance'
+        },
+        {
+            reagent: 'minecraft:redstone',
+            input: 'kubejs:resistance',
+            output: 'kubejs:long_resistance'
+        },
+        {
+            reagent: 'minecraft:glowstone_dust',
+            input: 'kubejs:resistance',
+            output: 'kubejs:strong_resistance'
         }
     ];
 
@@ -84,7 +110,8 @@ MoreJS.registerPotionBrewing((event) => {
         { output: 'kubejs:greater_mana_regen', input: 'ars_nouveau:mana_regen_potion_strong' },
         { output: 'kubejs:greater_spell_damage', input: 'ars_nouveau:spell_damage_potion_strong' },
         { output: 'kubejs:greater_shielding', input: 'ars_nouveau:shielding_potion_strong' },
-        { output: 'kubejs:greater_recovery', input: 'ars_nouveau:recovery_potion_strong' }
+        { output: 'kubejs:greater_recovery', input: 'ars_nouveau:recovery_potion_strong' },
+        { output: 'kubejs:greater_resistance', input: 'kubejs:strong_resistance' }
     ];
 
     greater_potions.forEach((potion) => {

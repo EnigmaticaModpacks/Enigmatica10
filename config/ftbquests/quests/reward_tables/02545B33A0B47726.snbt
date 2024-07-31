@@ -127,6 +127,14 @@
 		}
 		{ item: { count: 1, id: "multiverse:kaleidite_core" }, random_bonus: 1 }
 		{ item: { count: 1, id: "minecraft:totem_of_undying" } }
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "ars_nouveau:warp_scroll"
+			}
+			random_bonus: 2
+		}
 	]
 	use_title: true
 }

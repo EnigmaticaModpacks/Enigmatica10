@@ -37,5 +37,25 @@
     "item.minecraft.potion.effect.long_flight": "Potion of Flight",
     "item.minecraft.splash_potion.effect.long_flight": "Splash Potion of Flight",
     "item.minecraft.lingering_potion.effect.long_flight": "Lingering Potion of Flight",
-    "item.minecraft.tipped_arrow.effect.long_flight": "Arrow of Flight"
+    "item.minecraft.tipped_arrow.effect.long_flight": "Arrow of Flight",
+
+    "item.minecraft.potion.effect.resistance": "Potion of Resistance",
+    "item.minecraft.splash_potion.effect.resistance": "Splash Potion of Resistance",
+    "item.minecraft.lingering_potion.effect.resistance": "Lingering Potion of Resistance",
+    "item.minecraft.tipped_arrow.effect.resistance": "Arrow of Resistance",
+
+    "item.minecraft.potion.effect.long_resistance": "Potion of Resistance",
+    "item.minecraft.splash_potion.effect.long_resistance": "Splash Potion of Resistance",
+    "item.minecraft.lingering_potion.effect.long_resistance": "Lingering Potion of Resistance",
+    "item.minecraft.tipped_arrow.effect.long_resistance": "Arrow of Resistance",
+
+    "item.minecraft.potion.effect.strong_resistance": "Potion of Resistance",
+    "item.minecraft.splash_potion.effect.strong_resistance": "Splash Potion of Resistance",
+    "item.minecraft.lingering_potion.effect.strong_resistance": "Lingering Potion of Resistance",
+    "item.minecraft.tipped_arrow.effect.strong_resistance": "Arrow of Resistance",
+
+    "item.minecraft.potion.effect.greater_resistance": "Potion of Resistance",
+    "item.minecraft.splash_potion.effect.greater_resistance": "Splash Potion of Resistance",
+    "item.minecraft.lingering_potion.effect.greater_resistance": "Lingering Potion of Resistance",
+    "item.minecraft.tipped_arrow.effect.greater_resistance": "Arrow of Resistance"
 }
