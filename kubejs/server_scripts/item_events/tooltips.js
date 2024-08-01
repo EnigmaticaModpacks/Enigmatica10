@@ -21,12 +21,16 @@ ItemEvents.modifyTooltips((event) => {
     .white()
     .color('#808080') //any hex color
     */
-    const recipes = [];
+    const recipes = [
+        {
+            items: ['minecraft:reinforced_deepslate', 'modularrouters:blast_upgrade'],
+            text: [Text.of('Wither Immune').lightPurple()]
+        }
+    ];
 
     recipes.forEach((recipe) => {
         event.add(recipe.items, recipe.text);
     });
-
     emi.items.disabled.forEach((item) => {
         event.add(item, [Text.of(disabled_item_tooltip).red()]);
     });
