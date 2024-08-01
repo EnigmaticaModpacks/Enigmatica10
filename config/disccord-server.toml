@@ -1,0 +1,6 @@
+#Server settings
+[server]
+	#A list of website names to show when a player tries to use an unwhitelisted URL
+	whitelistedWebsites = ["Youtube", "Discord", "GDrive", "Dropbox"]
+	#List of whitelisted URLs to allow for playing music
+	whitelistedUrls = ["https://youtu.be", "https://www.youtube.com", "https://youtube.com", "https://cdn.discordapp.com", "https://drive.google.com/uc", "https://www.dropbox.com/scl", "https://dropbox.com/scl"]

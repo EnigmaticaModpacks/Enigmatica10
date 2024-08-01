@@ -1,0 +1,11 @@
+#Client settings
+[client]
+	#Download FFmpeg executable if it's not found in the config folder. USE WITH CAUTION!
+	#(This option downloads a zip file from a third party websites:
+	#- https://evermeet.cx/ffmpeg/ffmpeg-6.1.zip (MAC OS)
+	#- https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip (Windows)
+	#)
+	downloadFFmpeg = false
+	#Download YoutubeDL executable if it's not found in the config folder. USE WITH CAUTION!
+	#(This option downloads the executable from the https://github.com/yt-dlp/yt-dlp/releases/latest/ github)
+	downloadYoutubeDL = false
