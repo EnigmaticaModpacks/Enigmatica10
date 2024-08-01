@@ -37,6 +37,12 @@
 		{
 			dependencies: ["265FE8DFBF49A261"]
 			id: "65613AB49D3D90D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "103537C599661A2F"
+				table_id: 5796131842680319111L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3DAFCC87C8ED7634"
 				item: { count: 1, id: "multiverse:kaleidite_core" }
@@ -163,6 +169,12 @@
 		{
 			dependencies: ["0F04956D59A78393"]
 			id: "265FE8DFBF49A261"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DAF5BE1A1011F2F"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7AA3F42098022B5B"
 				item: { count: 1, id: "multiverse:kaleidite_shard" }
