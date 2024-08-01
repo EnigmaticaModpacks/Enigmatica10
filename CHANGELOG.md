@@ -12,6 +12,7 @@ We've added the mod [Tectonic] to amp up worldgen - Which means on the border be
 -   New potions and potion recipes! [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
 -   Uraninite may be converted to Uranium for use in other reactors [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
 -   Flame Chocobos may now be bred together or with Golden Chocobos to produce more [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
+-   New recipes for golden fruits [\#61](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/61)
 
 #### 🦟 Bugs Fixed
 

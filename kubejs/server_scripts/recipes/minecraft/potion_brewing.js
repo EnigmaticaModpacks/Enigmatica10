@@ -72,6 +72,21 @@ MoreJS.registerPotionBrewing((event) => {
             reagent: 'minecraft:glowstone_dust',
             input: 'kubejs:resistance',
             output: 'kubejs:strong_resistance'
+        },
+        {
+            reagent: 'ars_nouveau:wilden_horn',
+            input: 'minecraft:water',
+            output: 'minecraft:strength'
+        },
+        {
+            reagent: 'ars_nouveau:wilden_spike',
+            input: 'minecraft:water',
+            output: 'minecraft:long_water_breathing'
+        },
+        {
+            reagent: 'ars_nouveau:wilden_wing',
+            input: 'minecraft:water',
+            output: 'minecraft:leaping'
         }
     ];
 
