@@ -21,5 +21,5 @@ function compareIndices(a, b, tag) {
 }
 
 function onlyDrygmy(event, entity) {
-    return event.addEntityModifier(entity).matchAttackerCustom((attacker) => attacker.uuid == DRYGMY_UUID.toString());
+    return event.addEntityModifier(entity).matchAttackerCustom((attacker) => attacker.uuid.toString() == DRYGMY_UUID);
 }
