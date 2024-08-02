@@ -1,3 +1,11 @@
+### Enigmatica 10 1.8.0
+
+#### ⭐ Improvements
+
+-   Drygmies may now farm Dragon Heads [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
+
+---
+
 ### Enigmatica 10 1.7.0
 
 NeoForge-1.21.0-21.0.148 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.7.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.7.0.md)
@@ -8,19 +16,19 @@ We've added the mod [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tect
 
 #### ✔️ Added Mods
 
-  * [Cat Jammies](https://www.curseforge.com/minecraft/mc-mods/cat-jammies) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-  * [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked) (by [SquidDev](https://www.curseforge.com/members/SquidDev/projects))
-  * [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [iChun](https://www.curseforge.com/members/iChun/projects))
-  * [DiscCord](https://www.curseforge.com/minecraft/mc-mods/disccord) (by [Mrbysco](https://www.curseforge.com/members/Mrbysco/projects))
-  * [Extended Industrialization](https://www.curseforge.com/minecraft/mc-mods/extended-industrialization) (by [swedzish](https://www.curseforge.com/members/swedzish/projects))
-  * [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) (by [bre2el](https://www.curseforge.com/members/bre2el/projects))
-  * [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil) (by [iChun](https://www.curseforge.com/members/iChun/projects))
-  * [MoreJS](https://www.curseforge.com/minecraft/mc-mods/morejs) (by [Lytho](https://www.curseforge.com/members/Lytho/projects))
-  * [Productive Trees](https://www.curseforge.com/minecraft/mc-mods/productivetrees) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
-  * [Repeatable Trial Vaults](https://www.curseforge.com/minecraft/mc-mods/repeatable-trial-vaults) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-  * [Server Started!](https://www.curseforge.com/minecraft/mc-mods/server-started) (by [HeatherWhite](https://www.curseforge.com/members/HeatherWhite/projects))
-  * [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic) (by [Apollo](https://www.curseforge.com/members/Apollo/projects))
-  * [Tesseract API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/tesseract-api-neoforge) (by [swedzish](https://www.curseforge.com/members/swedzish/projects))
+-   [Cat Jammies](https://www.curseforge.com/minecraft/mc-mods/cat-jammies) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked) (by [SquidDev](https://www.curseforge.com/members/SquidDev/projects))
+-   [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [iChun](https://www.curseforge.com/members/iChun/projects))
+-   [DiscCord](https://www.curseforge.com/minecraft/mc-mods/disccord) (by [Mrbysco](https://www.curseforge.com/members/Mrbysco/projects))
+-   [Extended Industrialization](https://www.curseforge.com/minecraft/mc-mods/extended-industrialization) (by [swedzish](https://www.curseforge.com/members/swedzish/projects))
+-   [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) (by [bre2el](https://www.curseforge.com/members/bre2el/projects))
+-   [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil) (by [iChun](https://www.curseforge.com/members/iChun/projects))
+-   [MoreJS](https://www.curseforge.com/minecraft/mc-mods/morejs) (by [Lytho](https://www.curseforge.com/members/Lytho/projects))
+-   [Productive Trees](https://www.curseforge.com/minecraft/mc-mods/productivetrees) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
+-   [Repeatable Trial Vaults](https://www.curseforge.com/minecraft/mc-mods/repeatable-trial-vaults) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Server Started!](https://www.curseforge.com/minecraft/mc-mods/server-started) (by [HeatherWhite](https://www.curseforge.com/members/HeatherWhite/projects))
+-   [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic) (by [Apollo](https://www.curseforge.com/members/Apollo/projects))
+-   [Tesseract API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/tesseract-api-neoforge) (by [swedzish](https://www.curseforge.com/members/swedzish/projects))
 
 #### ⭐ Improvements
 
@@ -37,7 +45,7 @@ We've added the mod [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tect
 
 -   Removed unwanted blocks from candles tag [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
 -   Fix free glowstone/redstone from chisel [\#54](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/54)
--   Breaking "Containment Jar" from ars_nouveau gets me an "Connection Lost" [(\#55)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/55) 
+-   Breaking "Containment Jar" from ars_nouveau gets me an "Connection Lost" [(\#55)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/55)
 
 ---
 
