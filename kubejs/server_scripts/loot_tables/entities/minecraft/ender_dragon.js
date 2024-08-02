@@ -7,4 +7,5 @@ LootJS.lootTables((event) => {
 
 LootJS.modifiers((event) => {
     onlyDrygmy(event, 'minecraft:ender_dragon').addLoot('minecraft:dragon_head');
+    onlyDrygmy(event, 'minecraft:ender_dragon').setCount([1, 8]).addLoot('minecraft:dragon_breath');
 });

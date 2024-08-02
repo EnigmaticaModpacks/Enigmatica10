@@ -2,7 +2,8 @@
 
 #### ⭐ Improvements
 
--   Drygmies may now farm Dragon Heads [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
+-   Drygmies may now farm Dragon Heads and Dragon Breath [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
+-   Amethyst Golems may now work with Budding Certus Quartz [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
 
 ---
 
