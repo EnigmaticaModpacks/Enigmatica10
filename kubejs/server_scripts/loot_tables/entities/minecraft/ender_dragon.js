@@ -4,3 +4,12 @@ LootJS.lootTables((event) => {
         pool.addEntry(LootEntry.of('minecraft:dragon_egg').setCount(1));
     });
 });
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityModifier('minecraft:ender_dragon')
+        .matchAttackerCustom((attacker) => {
+            return attacker.uuid == DRYGMY_UUID.toString();
+        })
+        .addLoot('minecraft:dragon_head');
+});
