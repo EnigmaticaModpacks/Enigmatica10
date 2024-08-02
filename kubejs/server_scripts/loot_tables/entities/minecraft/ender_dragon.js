@@ -6,10 +6,5 @@ LootJS.lootTables((event) => {
 });
 
 LootJS.modifiers((event) => {
-    event
-        .addEntityModifier('minecraft:ender_dragon')
-        .matchAttackerCustom((attacker) => {
-            return attacker.uuid == DRYGMY_UUID.toString();
-        })
-        .addLoot('minecraft:dragon_head');
+    onlyDrygmy(event, 'minecraft:ender_dragon').addLoot('minecraft:dragon_head');
 });
