@@ -18,11 +18,11 @@ StartupEvents.registry('potion', (event) => {
         },
         {
             potion: 'minecraft:strength',
-            types: [{ name: 'greater', duration: 90, amplifier: 3 }]
+            types: [{ name: 'greater', duration: 180, amplifier: 3 }]
         },
         {
             potion: 'minecraft:regeneration',
-            types: [{ name: 'greater', duration: 22, amplifier: 3 }]
+            types: [{ name: 'greater', duration: 180, amplifier: 3 }]
         },
         {
             potion: 'ars_nouveau:mana_regen',
