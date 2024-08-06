@@ -263,8 +263,9 @@ ServerEvents.generateData('before_mods', (event) => {
             entities: ['ars_nouveau:wilden_guardian'],
             genes: {
                 'geneticsresequenced:basic': 5,
-                'geneticsresequenced:mob_sight': 3,
-                'geneticsresequenced:chilling': 2
+                'geneticsresequenced:chilling': 2,
+                'geneticsresequenced:thorns': 2,
+                'geneticsresequenced:claws': 1
             }
         },
         {
@@ -272,27 +273,29 @@ ServerEvents.generateData('before_mods', (event) => {
             genes: {
                 'geneticsresequenced:basic': 5,
                 'geneticsresequenced:speed': 2,
-                'geneticsresequenced:night_vision': 3,
-                'geneticsresequenced:no_hunger': 1
+                'geneticsresequenced:night_vision': 1,
+                'geneticsresequenced:no_hunger': 1,
+                'geneticsresequenced:claws': 1
             }
         },
         {
             entities: ['ars_nouveau:wilden_stalker'],
             genes: {
-                'geneticsresequenced:basic': 4,
+                'geneticsresequenced:basic': 5,
                 'geneticsresequenced:night_vision': 1,
-                'geneticsresequenced:mob_sight': 3,
-                'geneticsresequenced:no_fall_damage': 1
+                'geneticsresequenced:no_fall_damage': 1,
+                'geneticsresequenced:claws': 1
             }
         },
         {
             entities: ['ars_nouveau:wilden_boss'],
             genes: {
-                'geneticsresequenced:basic': 4,
-                'geneticsresequenced:mob_sight': 3,
-                'geneticsresequenced:night_vision': 3,
-                'geneticsresequenced:speed': 2,
-                'geneticsresequenced:flight': 1
+                'geneticsresequenced:basic': 5,
+                'geneticsresequenced:mob_sight': 1,
+                'geneticsresequenced:speed': 1,
+                'geneticsresequenced:flight': 1,
+                'geneticsresequenced:thorns': 1,
+                'geneticsresequenced:claws': 1
             }
         },
         {
