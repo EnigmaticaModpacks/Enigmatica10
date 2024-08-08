@@ -19,3 +19,7 @@ function compareIndices(a, b, tag) {
     console.error('[' + a + ', ' + b + '] were both unaccounted for in mod unification' + (tag ? ' for ' + tag : '!'));
     return 0;
 }
+
+function onlyDrygmy(event, entity) {
+    return event.addEntityModifier(entity).matchAttackerCustom((attacker) => attacker.uuid.toString() == DRYGMY_UUID);
+}
