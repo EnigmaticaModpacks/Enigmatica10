@@ -81,6 +81,12 @@
   "modern_industrialization:overclock": null,
   "modern_industrialization:pipe": null,
   "modularrouters:router": null,
+  "pneumaticcraft:camo": null,
+  "pneumaticcraft:entity": null,
+  "pneumaticcraft:pneumatic": null,
+  "pneumaticcraft:redstone": null,
+  "pneumaticcraft:semiblock": null,
+  "pneumaticcraft:tube_module": null,
   "theurgy:mercury_flux": null,
   "waystones:waystone": null
 }
