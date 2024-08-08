@@ -1,3 +1,29 @@
+### Enigmatica 10 1.8.0
+
+NeoForge-1.21.0-21.0.166 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.8.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.8.0.md)
+
+#### ✔️ Added Mods
+
+  * [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
+  * [Cyclops Core](https://www.curseforge.com/minecraft/mc-mods/cyclops-core) (by [kroeser](https://www.curseforge.com/members/kroeser/projects))
+  * [EvilCraft](https://www.curseforge.com/minecraft/mc-mods/evilcraft) (by [kroeser](https://www.curseforge.com/members/kroeser/projects))
+  * [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) (by [vectorwing](https://www.curseforge.com/members/vectorwing/projects))
+  * [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+  * [FindMe](https://www.curseforge.com/minecraft/mc-mods/findme) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+  * [Login Protection[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/login-protection) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+  * [Lootr (Forge & NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lootr) (by [Noobanidus](https://www.curseforge.com/members/Noobanidus/projects))
+  * [Macaw's Furniture](https://www.curseforge.com/minecraft/mc-mods/macaws-furniture) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+  * [Macaw's Roofs](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+  * [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+  * [PneumaticCraft: Repressurized](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized) (by [desht_08](https://www.curseforge.com/members/desht_08/projects))
+  * [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+
+#### Bugs Fixed
+
+* Occultism dimensional storage does not sync search bar with EMI [(\#64)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/64)
+
+---
+
 ### Enigmatica 10 1.7.0
 
 NeoForge-1.21.0-21.0.148 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.7.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.7.0.md)

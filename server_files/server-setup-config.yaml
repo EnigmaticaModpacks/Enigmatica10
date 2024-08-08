@@ -16,7 +16,7 @@ install:
 
     # exact version of forge or fabric that is supposed to be used
     # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-    loaderVersion: 21.0.148
+    loaderVersion: 21.0.166
 
     # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
     # supports variables: {{@loaderversion@}} and {{@mcversion@}}
@@ -47,7 +47,7 @@ install:
 
     # Link to where the file where the modpack can be distributed
     # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-    modpackUrl: https://media.forgecdn.net/files/5587/534/Enigmatica10-1.7.0.zip
+    modpackUrl: https://media.forgecdn.net/files/5608/507/Enigmatica10-1.8.0.zip
 
     # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
     # current supported formats:
