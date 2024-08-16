@@ -1,11 +1,33 @@
 ### Enigmatica 10 1.9.0
 
+NeoForge-1.21.0-21.0.166 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.9.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.9.0.md)
+
+#### ✔️ Added Mods
+
+  * [Ars Elemental](https://www.curseforge.com/minecraft/mc-mods/ars-elemental) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
+  * [Block Prints](https://www.curseforge.com/minecraft/mc-mods/block-prints) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
+  * [Seals](https://www.curseforge.com/minecraft/mc-mods/seals) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+  * [Small Ships [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/small-ships) (by [talhanation](https://www.curseforge.com/members/talhanation/projects))
+  * [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+  * [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+  * [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+
 #### ⭐ Improvements
 
 -   Drygmies may now farm Dragon Heads and Dragon Breath [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
 -   Drygmies may now farm mushrooms from mooshrooms [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
 -   Amethyst Golems may now work with Budding Certus Quartz [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
 -   Many mobs have been given Genetic Traits [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
+
+#### 🦟 Bugs Fixed
+
+* "Loot not generated yet" incorrectly showing in Jade [(\#77)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/77)
+* Genetics: Resequenced: Matching Genes in Plasmid Infuser not giving correct amount of DNA points [(\#74)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/74)
+* Chococraft: Ghysal plants not usable in vanilla Composter [(\#72)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/72)
+* Using upgrades on Pollen Sifter crashes the game [(\#71)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/71)
+* Fruit Basket not registered in kitchen (Cooking for Blockheads) [(\#70)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/70)
+* Ars stabilized warped scroll crashes game [(\#69)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/69)
+* Just Dire Things: Tree Feller affecting accelerated leaf decay [(\#84)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/84)
 
 ---
 
@@ -29,7 +51,7 @@ NeoForge-1.21.0-21.0.166 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
   * [PneumaticCraft: Repressurized](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized) (by [desht_08](https://www.curseforge.com/members/desht_08/projects))
   * [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
 
-#### Bugs Fixed
+#### 🦟 Bugs Fixed
 
 * Occultism dimensional storage does not sync search bar with EMI [(\#64)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/64)
 
