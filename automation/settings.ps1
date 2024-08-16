@@ -29,11 +29,11 @@ $MODPACK_NAME = "Enigmatica10"
 $CLIENT_NAME = "Enigmatica10"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.8.0"
+$MODPACK_VERSION = "1.9.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.7.0"
+$LAST_MODPACK_VERSION = "1.8.0"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -57,6 +57,7 @@ $CLIENT_CHANGELOG = "The Changelog is currently being written."
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
 $GAME_VERSIONS = @(11457) 
+#$GAME_VERSIONS = @(11779) 1.21.1
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "alpha"
