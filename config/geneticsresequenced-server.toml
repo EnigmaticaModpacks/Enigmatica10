@@ -23,6 +23,12 @@ antifieldBlockRadius = 25
 	#How many times slower should the Advanced Incubator be when it's at low temperature? Default is 120, which makes it take a full Minecraft day (excluding Overclockers)
 	#Range: > 1
 	incubatorLowTempTickFactor = 120
+	#How much should each Overclocker decrease the success rate of GMO recipes? Equation is `decreasedChance = geneChance * (1 - (overclockerCount * incubatorOverclockerChanceDecrease))`
+	#Range: 0.0 ~ 1.0
+	incubatorOverclockerChanceDecrease = 0.1
+	#How much should each Chorus Fruit increase the success rate of GMO recipes? Equation is `finalChance = decreasedChance 
+	#Range: 0.0 ~ 1.0
+	incubatorChorusFruitChanceIncrease = 0.1
 
 [genes]
 	#List of genes to disable.

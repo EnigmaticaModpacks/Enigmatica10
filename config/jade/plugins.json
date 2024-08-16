@@ -114,6 +114,9 @@
   "waystones": {
     "waystone": true
   },
+  "corpse": {
+    "corpse": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,
