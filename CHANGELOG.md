@@ -2,7 +2,7 @@
 
 #### ⭐ Improvements
 
--   Buff MI Fuels and add compatibility with PNC and JDT fuels [\#68](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/68)
+-   Buff MI Fuels and add compatibility with PNC and JDT fuels [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
 
 ### Enigmatica 10 1.9.0
 
