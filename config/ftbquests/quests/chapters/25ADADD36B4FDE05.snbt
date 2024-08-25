@@ -197,7 +197,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["574555F24035E48A"]
+			dependencies: ["11EDFB60C787114D"]
 			id: "3E7A4470BD04F2A1"
 			rewards: [{
 				exclude_from_claim_all: true
