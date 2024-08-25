@@ -104,6 +104,19 @@ ServerEvents.recipes((event) => {
             preset: 'enigmatica:source_gem',
             result: { count: 1, item: 'ars_nouveau:bombegranate_pod' },
             id: `${id_prefix}bombegranate_pod`
+        },
+
+        {
+            category: 'farmingforblockheads:saplings',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_elemental:yellow_archwood_sapling' },
+            id: `${id_prefix}yellow_archwood_sapling`
+        },
+        {
+            category: 'farmingforblockheads:other',
+            preset: 'enigmatica:source_gem',
+            result: { count: 1, item: 'ars_elemental:flashpine_pod' },
+            id: `${id_prefix}flashpine_pod`
         }
     ];
 
