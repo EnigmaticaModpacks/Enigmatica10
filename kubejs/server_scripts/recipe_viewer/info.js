@@ -54,7 +54,7 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'Obtaining Time Crystals is a mult-step process across multiple dimensions.',
                 ' ',
                 Text.of(
-                    'To begin, craft a Budding Time Crystal Block and place it in the Overworld; it will slowly charge up and turn a §1Blue§r color. Transfer it to The Nether where it will charge until it turns §6Orange§r, and finally to the End where it will charge until it turns §2Green§r.'
+                    'To begin, craft a Budding Time Crystal Block and place it in the Overworld; it will slowly charge up and turn a §1Blue§r color. Transfer it to The Nether where it will charge until it turns §6Orange§r, and finally to The End where it will charge until it turns §2Green§r.'
                 ),
                 ' ',
                 'Once fully charged, the Budding Time Crystal Block will begin growing Time Crystal Clusters. Fully grown Clusters may be broken to obtain Time Crystals.',
