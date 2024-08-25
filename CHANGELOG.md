@@ -4,7 +4,7 @@
 
 -   Buff MI Fuels and add compatibility with PneumaticCraft and JustDireThings fuels [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
 -   Add compatibility for JustDireThings fuels to PneumaticCraft [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
--   Add recipe support for JustDireThings fuels to Modern Industrialization [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
+-   Add recipe support for JustDireThings fuels and crafting materials to Modern Industrialization [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
 
 ### Enigmatica 10 1.9.0
 

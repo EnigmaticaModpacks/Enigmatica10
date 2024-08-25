@@ -1,5 +1,33 @@
 RecipeViewerEvents.addInformation('item', (event) => {
     // https://kubejs.com/wiki/events/RecipeViewerEvents/addInformation
+
+    /* Format Codes
+    Obfuscated      §k
+    Bold            §l
+    Strikethrough   §m
+    Underline       §n
+    Italic          §o
+    Reset format    §r
+
+    Colors:
+    Dark Red        §4
+    Red             §c
+    Gold            §6
+    Yellow          §e
+    Dark Green      §2
+    Green           §a
+    Aqua            §b
+    Dark Aqua       §3
+    Dark Blue       §1
+    Blue            §9
+    Light Purple    §d
+    Dark Purple 	§5
+    White           §f
+    Gray            §7
+    Dark Gray       §8
+    Black           §0
+
+    */
     const descriptions = [
         {
             filter: ['ae2:sky_dust'],
@@ -19,6 +47,20 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'minecraft:wither_skeleton_skull'
             ],
             text: ['Heads may be obtained from mobs by killing them with particularly powerful axes and paxels.']
+        },
+        {
+            filter: ['justdirethings:time_crystal'],
+            text: [
+                'Obtaining Time Crystals is a mult-step process across multiple dimensions.',
+                ' ',
+                Text.of(
+                    'To begin, craft a Budding Time Crystal Block and place it in the Overworld; it will slowly charge up and turn a §1Blue§r color. Transfer it to The Nether where it will charge until it turns §6Orange§r, and finally to the End where it will charge until it turns §2Green§r.'
+                ),
+                ' ',
+                'Once fully charged, the Budding Time Crystal Block will begin growing Time Crystal Clusters. Fully grown Clusters may be broken to obtain Time Crystals.',
+                ' ',
+                'Fully Charged Budding Time Crystal Blocks will slowly decay, at which point they must be transferred back to the Overworld to repeat the cycle.'
+            ]
         }
     ];
 
