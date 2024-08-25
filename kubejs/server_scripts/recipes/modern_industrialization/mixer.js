@@ -213,8 +213,8 @@ ServerEvents.recipes((event) => {
         },
         {
             item_inputs: [{ tag: 'c:sugars', amount: 1 }],
-            fluid_inputs: [{ fluid: 'minecraft:water', amount: 2000 }],
-            fluid_outputs: [{ fluid: 'modern_industrialization:sugar_solution', amount: 2000 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:sugar_solution', amount: 1000 }],
             duration: 200,
             eu: 2,
             id: `modern_industrialization:oil/mixer/sugar_solution`
