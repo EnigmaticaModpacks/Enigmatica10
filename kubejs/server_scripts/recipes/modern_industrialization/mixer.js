@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
-                { tag: 'c:storage_blocks/coal', amount: 1 }
+                { tag: 'c:gems/coal', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:coal_t1', amount: 3 },
@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
-                { item: 'justdirethings:coalblock_t1', amount: 1 }
+                { tag: 'c:gems/primal_coal', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:coal_t2', amount: 3 },
@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
-                { item: 'justdirethings:coalblock_t2', amount: 1 }
+                { tag: 'c:gems/blaze_ember', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:coal_t3', amount: 3 },
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
-                { item: 'justdirethings:coalblock_t3', amount: 1 }
+                { tag: 'c:gems/voidflame', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:coal_t4', amount: 3 },
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
-                { tag: 'c:storage_blocks/iron', amount: 1 }
+                { tag: 'c:ingots/iron', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:raw_ferricore', amount: 3 },
@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier2', amount: 1, probability: 0.0 },
-                { tag: 'c:storage_blocks/gold', amount: 1 }
+                { tag: 'c:ingots/gold', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:raw_blazegold', amount: 3 },
@@ -84,7 +84,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
-                { tag: 'c:storage_blocks/diamond', amount: 1 }
+                { tag: 'c:ingots/diamond', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:celestigem', amount: 3 },
@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier4', amount: 1, probability: 0.0 },
-                { tag: 'c:storage_blocks/netherite', amount: 1 }
+                { tag: 'c:ingots/netherite', amount: 1 }
             ],
             item_outputs: [
                 { item: 'justdirethings:raw_eclipsealloy', amount: 3 },
@@ -210,6 +210,14 @@ ServerEvents.recipes((event) => {
             duration: 100,
             eu: 8,
             id: `${id_prefix}portal_fluid_source`
+        },
+        {
+            item_inputs: [{ tag: 'c:sugars', amount: 1 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 2000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:sugar_solution', amount: 2000 }],
+            duration: 200,
+            eu: 2,
+            id: `modern_industrialization:oil/mixer/sugar_solution`
         }
     ];
 
