@@ -1,16 +1,24 @@
+### Enigmatica 10 1.10.0
+
+#### ⭐ Improvements
+
+-   Buff MI Fuels and add compatibility with PneumaticCraft and JustDireThings fuels [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
+-   Add compatibility for JustDireThings fuels to PneumaticCraft [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
+-   Add recipe support for JustDireThings fuels and crafting materials to Modern Industrialization [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
+
 ### Enigmatica 10 1.9.0
 
 NeoForge-1.21.0-21.0.166 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.9.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.9.0.md)
 
 #### ✔️ Added Mods
 
-  * [Ars Elemental](https://www.curseforge.com/minecraft/mc-mods/ars-elemental) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
-  * [Block Prints](https://www.curseforge.com/minecraft/mc-mods/block-prints) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
-  * [Seals](https://www.curseforge.com/minecraft/mc-mods/seals) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-  * [Small Ships [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/small-ships) (by [talhanation](https://www.curseforge.com/members/talhanation/projects))
-  * [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
-  * [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
-  * [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+-   [Ars Elemental](https://www.curseforge.com/minecraft/mc-mods/ars-elemental) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
+-   [Block Prints](https://www.curseforge.com/minecraft/mc-mods/block-prints) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
+-   [Seals](https://www.curseforge.com/minecraft/mc-mods/seals) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Small Ships [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/small-ships) (by [talhanation](https://www.curseforge.com/members/talhanation/projects))
+-   [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+-   [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+-   [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
 
 #### ⭐ Improvements
 
@@ -21,13 +29,13 @@ NeoForge-1.21.0-21.0.166 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### 🦟 Bugs Fixed
 
-* "Loot not generated yet" incorrectly showing in Jade [(\#77)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/77)
-* Genetics: Resequenced: Matching Genes in Plasmid Infuser not giving correct amount of DNA points [(\#74)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/74)
-* Chococraft: Ghysal plants not usable in vanilla Composter [(\#72)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/72)
-* Using upgrades on Pollen Sifter crashes the game [(\#71)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/71)
-* Fruit Basket not registered in kitchen (Cooking for Blockheads) [(\#70)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/70)
-* Ars stabilized warped scroll crashes game [(\#69)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/69)
-* Just Dire Things: Tree Feller affecting accelerated leaf decay [(\#84)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/84)
+-   "Loot not generated yet" incorrectly showing in Jade [(\#77)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/77)
+-   Genetics: Resequenced: Matching Genes in Plasmid Infuser not giving correct amount of DNA points [(\#74)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/74)
+-   Chococraft: Ghysal plants not usable in vanilla Composter [(\#72)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/72)
+-   Using upgrades on Pollen Sifter crashes the game [(\#71)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/71)
+-   Fruit Basket not registered in kitchen (Cooking for Blockheads) [(\#70)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/70)
+-   Ars stabilized warped scroll crashes game [(\#69)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/69)
+-   Just Dire Things: Tree Feller affecting accelerated leaf decay [(\#84)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/84)
 
 ---
 
@@ -37,23 +45,23 @@ NeoForge-1.21.0-21.0.166 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ✔️ Added Mods
 
-  * [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
-  * [Cyclops Core](https://www.curseforge.com/minecraft/mc-mods/cyclops-core) (by [kroeser](https://www.curseforge.com/members/kroeser/projects))
-  * [EvilCraft](https://www.curseforge.com/minecraft/mc-mods/evilcraft) (by [kroeser](https://www.curseforge.com/members/kroeser/projects))
-  * [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) (by [vectorwing](https://www.curseforge.com/members/vectorwing/projects))
-  * [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-  * [FindMe](https://www.curseforge.com/minecraft/mc-mods/findme) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-  * [Login Protection[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/login-protection) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
-  * [Lootr (Forge & NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lootr) (by [Noobanidus](https://www.curseforge.com/members/Noobanidus/projects))
-  * [Macaw's Furniture](https://www.curseforge.com/minecraft/mc-mods/macaws-furniture) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
-  * [Macaw's Roofs](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
-  * [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
-  * [PneumaticCraft: Repressurized](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized) (by [desht_08](https://www.curseforge.com/members/desht_08/projects))
-  * [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) (by [ochotonida](https://www.curseforge.com/members/ochotonida/projects))
+-   [Cyclops Core](https://www.curseforge.com/minecraft/mc-mods/cyclops-core) (by [kroeser](https://www.curseforge.com/members/kroeser/projects))
+-   [EvilCraft](https://www.curseforge.com/minecraft/mc-mods/evilcraft) (by [kroeser](https://www.curseforge.com/members/kroeser/projects))
+-   [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) (by [vectorwing](https://www.curseforge.com/members/vectorwing/projects))
+-   [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [FindMe](https://www.curseforge.com/minecraft/mc-mods/findme) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Login Protection[Forge/Fabric]](https://www.curseforge.com/minecraft/mc-mods/login-protection) (by [someaddon](https://www.curseforge.com/members/someaddon/projects))
+-   [Lootr (Forge & NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lootr) (by [Noobanidus](https://www.curseforge.com/members/Noobanidus/projects))
+-   [Macaw's Furniture](https://www.curseforge.com/minecraft/mc-mods/macaws-furniture) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+-   [Macaw's Roofs](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+-   [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+-   [PneumaticCraft: Repressurized](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized) (by [desht_08](https://www.curseforge.com/members/desht_08/projects))
+-   [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
 
 #### 🦟 Bugs Fixed
 
-* Occultism dimensional storage does not sync search bar with EMI [(\#64)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/64)
+-   Occultism dimensional storage does not sync search bar with EMI [(\#64)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/64)
 
 ---
 

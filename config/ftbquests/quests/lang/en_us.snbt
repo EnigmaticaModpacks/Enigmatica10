@@ -1118,7 +1118,9 @@
 		""
 		"This can be an excellent way to control a Simple Block Breaker, for example. "
 		""
-		"Drag an item or block from EMI to the filter slot in the middle. For filtering entities, use that creature’s Spawn Egg. For fluids, use a bucket of that fluid."
+		"Drag an item or block from EMI to the filter slot in the middle. Right-Click blocks in the filter to configure states such as waterlogged."
+		""
+		"For filtering entities, use that creature’s Spawn Egg and for fluids, use a bucket of that fluid."
 	]
 	quest.3EA53BBEBC32F813.quest_desc: [
 		"Welcome to Genetics: Resequenced!"
@@ -1745,6 +1747,12 @@
 		"&a    further along the network!"
 	]
 	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
+	quest.55065F1D9C6716C1.quest_desc: [
+		"The Advanced Sensor gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
+		""
+		"&a🛈 Tip: Use the Render Area button to "
+		"&a    easily configure the working area."
+	]
 	quest.5521F91C980C5007.quest_desc: [
 		"The Heat Exchanger will soon replace the Vacuum Freezer for many recipes which require cooling. However, it plays a critical role in expanding our current power generation capabilities."
 		""
