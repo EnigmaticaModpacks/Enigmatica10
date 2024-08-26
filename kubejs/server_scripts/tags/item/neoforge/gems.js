@@ -7,6 +7,7 @@ ServerEvents.tags('item', (event) => {
         blaze_ember: ['justdirethings:coal_t2'],
         voidflame: ['justdirethings:coal_t3'],
         eclipse_ember: ['justdirethings:coal_t4'],
+        time: ['justdirethings:time_crystal'],
 
         spirit_attuned: ['occultism:spirit_attuned_gem'],
 
