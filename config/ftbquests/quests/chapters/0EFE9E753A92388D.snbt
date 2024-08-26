@@ -37,14 +37,27 @@
 			dependencies: ["6AFCA9F187AE6EB2"]
 			hide_dependency_lines: true
 			id: "1D5616DFA428D46F"
-			rewards: [{
-				id: "3766F951EB71EB36"
-				item: {
-					count: 1
-					id: "powah:battery_basic"
+			rewards: [
+				{
+					id: "3766F951EB71EB36"
+					item: {
+						count: 1
+						id: "powah:battery_basic"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "29A50B01CD8B6B51"
+					item: {
+						components: {
+							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "75050C1ED68FA527"
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }

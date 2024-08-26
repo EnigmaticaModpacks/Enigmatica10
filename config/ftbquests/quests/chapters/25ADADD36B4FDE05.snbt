@@ -18,14 +18,27 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "062BB5F675CF9F45"
-			rewards: [{
-				id: "7E4BA095DA3D9116"
-				item: {
-					count: 1
-					id: "justdirethings:ferricore_wrench"
+			rewards: [
+				{
+					id: "7E4BA095DA3D9116"
+					item: {
+						count: 1
+						id: "justdirethings:ferricore_wrench"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "62268428E56B943C"
+					item: {
+						components: {
+							"patchouli:book": "justdirethings:justdirethingsbook"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3E77920F150C9F9A"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

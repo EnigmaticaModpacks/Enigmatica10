@@ -110,7 +110,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["235D7EF41916E480"]
+			dependencies: [
+				"235D7EF41916E480"
+				"2CA1A8A7B84FAD71"
+			]
 			id: "0E1258E2B2C7FFD5"
 			rewards: [{
 				id: "4CF25E1572944E7E"
@@ -189,8 +192,19 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["04CE3E8B1DF8B441"]
+			dependencies: [
+				"04CE3E8B1DF8B441"
+				"2CA1A8A7B84FAD71"
+			]
 			id: "015857940250CE8D"
+			rewards: [{
+				id: "65E58E03EDD92A27"
+				item: {
+					count: 1
+					id: "modularrouters:modular_router"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FAB53ACB4BF565C"
 				item: { components: { "ftbfiltersystem:filter": "or(item(modularrouters:fluid_module)item(modularrouters:fluid_module_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -268,7 +282,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["752888EAF2861EB4"]
+			dependencies: [
+				"752888EAF2861EB4"
+				"2CA1A8A7B84FAD71"
+			]
 			id: "0D65061DFD04B301"
 			rewards: [{
 				id: "7E546CA444F1E7DA"
@@ -299,7 +316,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["760910BF48876D8E"]
+			dependencies: [
+				"760910BF48876D8E"
+				"16BFB19411FE195F"
+			]
 			id: "4F5E591110C0A372"
 			rewards: [{
 				id: "264245C706E3999F"
@@ -318,7 +338,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["752888EAF2861EB4"]
+			dependencies: [
+				"752888EAF2861EB4"
+				"16BFB19411FE195F"
+			]
 			id: "00066BB06F509677"
 			rewards: [{
 				id: "2F824F8CC0DDB5CC"
@@ -337,7 +360,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["04CE3E8B1DF8B441"]
+			dependencies: [
+				"04CE3E8B1DF8B441"
+				"16BFB19411FE195F"
+			]
 			id: "6A94923547B93B51"
 			rewards: [{
 				id: "2DFA22FFA2DD3D38"
@@ -356,7 +382,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["235D7EF41916E480"]
+			dependencies: [
+				"235D7EF41916E480"
+				"16BFB19411FE195F"
+			]
 			id: "7C71090829F8748A"
 			rewards: [{
 				id: "0BDFEB89C35F8E7F"
@@ -377,18 +406,29 @@
 		{
 			dependencies: ["752888EAF2861EB4"]
 			icon: {
-				id: "theurgy:mercurial_wand"
+				id: "theurgy:logistics_item_inserter"
 			}
 			id: "22ABFC3024E54FEA"
-			rewards: [{
-				count: 8
-				id: "3F8A2A48FE9B4BEC"
-				item: {
-					count: 1
-					id: "theurgy:copper_wire"
+			rewards: [
+				{
+					count: 8
+					id: "3F8A2A48FE9B4BEC"
+					item: {
+						count: 1
+						id: "theurgy:copper_wire"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "3BAD67A66493D619"
+					item: {
+						count: 1
+						id: "theurgy:logistics_connector_node"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2C4F4A535CC40BCA"
@@ -400,19 +440,98 @@
 					item: { count: 1, id: "theurgy:logistics_item_extractor" }
 					type: "item"
 				}
+			]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2150EE8D0B1474CE"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "laserio:item/card_holder"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "16BFB19411FE195F"
+			rewards: [
 				{
-					id: "48269D18E1922641"
-					item: { count: 1, id: "theurgy:logistics_connector_node" }
+					id: "64B3801FC423DC94"
+					item: {
+						count: 1
+						id: "laserio:laser_wrench"
+					}
 					type: "item"
 				}
 				{
-					id: "58C2FADC7139E013"
-					item: { count: 1, id: "theurgy:copper_wire" }
+					id: "268B2F9A9A2022DD"
+					item: {
+						components: {
+							"patchouli:book": "laserio:laseriobook"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D3B5DD2A336CDB6"
+				item: { count: 1, id: "laserio:laser_node" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04CE3E8B1DF8B441"]
+			icon: {
+				id: "theurgy:logistics_fluid_inserter"
+			}
+			id: "7C27093E25633B9F"
+			tasks: [
+				{
+					id: "260D948C26314D8A"
+					item: { count: 1, id: "theurgy:logistics_fluid_inserter" }
+					type: "item"
+				}
+				{
+					id: "5A068020590042DC"
+					item: { count: 1, id: "theurgy:logistics_fluid_extractor" }
 					type: "item"
 				}
 			]
 			x: 7.5d
-			y: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2150EE8D0B1474CE"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modularrouters:block/modular_router_front_active"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2CA1A8A7B84FAD71"
+			rewards: [{
+				id: "03EAC532536DBA0C"
+				item: {
+					components: {
+						"patchouli:book": "modularrouters:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6476791CF0DCE7D9"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
 		}
 	]
 }

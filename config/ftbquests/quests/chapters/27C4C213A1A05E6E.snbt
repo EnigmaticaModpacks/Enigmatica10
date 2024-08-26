@@ -20,10 +20,15 @@
 			}
 			id: "3D9527EAA5944C17"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "50C3F2F247FB21E6"
-				table_id: 23658154196454858L
-				type: "loot"
+				id: "7E9F67E0C89AB749"
+				item: {
+					components: {
+						"patchouli:book": "mffs:handbook"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "3745AFEF378D7217"

@@ -69,7 +69,7 @@
 		]
 		tasks: [{
 			id: "57B6DCE4CA8A91B3"
-			item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			item: { count: 1, id: "minecraft:iron_ingot" }
 			type: "item"
 		}]
 		x: -2.5d
