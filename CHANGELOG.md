@@ -5,6 +5,13 @@
 -   Buff MI Fuels and add compatibility with PneumaticCraft and JustDireThings fuels [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
 -   Add compatibility for JustDireThings fuels to PneumaticCraft [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
 -   Add recipe support for JustDireThings fuels and crafting materials to Modern Industrialization [\#95](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/95)
+-   Amethyst Golems can now convert Certus Quartz Blocks and Time Crystals to their appropriate budding block [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+-   Copper blocks and Lightning Rods may now be used as part of an Electrostatic Grid for PneumaticCraft [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+-   Ars Elemental Saplings and Fruit now appear in the market [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+
+#### 🦟 Bugs Fixed
+
+-   Amethyst Golems now clean up after themselves [(\#97)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/97)
 
 ### Enigmatica 10 1.9.0
 
