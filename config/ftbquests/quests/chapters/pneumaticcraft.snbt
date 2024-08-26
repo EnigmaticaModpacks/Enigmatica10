@@ -55,6 +55,17 @@
 				}
 				type: "item"
 			}
+			{
+				id: "7F4F08F1AB26836D"
+				item: {
+					components: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}
 		]
 		tasks: [{
 			id: "57B6DCE4CA8A91B3"

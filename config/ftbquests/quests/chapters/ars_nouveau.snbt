@@ -18,6 +18,14 @@
 			id: "ftbquests:custom_icon"
 		}
 		id: "41614A924E5556EE"
+		rewards: [{
+			id: "0F6C9D6ED1B29251"
+			item: {
+				count: 1
+				id: "ars_nouveau:worn_notebook"
+			}
+			type: "item"
+		}]
 		tasks: [{
 			id: "37A217A1754608F6"
 			type: "checkmark"

@@ -5,7 +5,7 @@
 	filename: "evilcraft"
 	group: "440488E780593120"
 	icon: {
-		id: "evilcraft:blook"
+		id: "evilcraft:origins_of_darkness"
 	}
 	id: "603B06098A07350C"
 	order_index: 6
@@ -18,6 +18,14 @@
 			id: "ftbquests:custom_icon"
 		}
 		id: "717CCCD239144E0B"
+		rewards: [{
+			id: "38A53B82EA047D18"
+			item: {
+				count: 1
+				id: "evilcraft:origins_of_darkness"
+			}
+			type: "item"
+		}]
 		tasks: [{
 			id: "3C64E92DFA608339"
 			type: "checkmark"
