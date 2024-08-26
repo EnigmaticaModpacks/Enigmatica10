@@ -1,0 +1,28 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "440488E780593120"
+	icon: {
+		id: "ars_nouveau:worn_notebook"
+	}
+	id: "5C2F675CD8139E11"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			components: {
+				"ftbquests:icon": "ars_nouveau:block/sourceberry/sourceberry3"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "41614A924E5556EE"
+		tasks: [{
+			id: "37A217A1754608F6"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: -0.5d
+	}]
+}
