@@ -453,6 +453,7 @@
 		""
 		"If you hate fun, the Manual Compressor exists and will having you questioning your life choices in no time. "
 	]
+	quest.16A8BFECD924477D.title: "Alternative Basic Compressors"
 	quest.16BFB19411FE195F.quest_desc: [
 		"LaserIO is a catch all logistics mod capable of many things. "
 		""
@@ -1266,6 +1267,11 @@
 		""
 		"These are an excellent way to help you keep track of the number of channels in use, as you can visually trace back where they’re coming from. "
 	]
+	quest.3F11C37840644254.quest_desc: [
+		"Likely the first thing you’ll want to make with Plastic will be an Amadron Tablet, which gives you access to some high-quality trades that you may not find elsewhere. "
+		""
+		"Notable purchases to make here are the PCB Blueprint and the Drill \\& Laser Assembly Program. Grab them both and hold on to them."
+	]
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
 		"The Fluidic Plenisher can be an excellent way to fill an area with fluid. Simply pipe in fluids and supply power to quickly make a lake of anything you like!"
@@ -1880,7 +1886,7 @@
 		" "
 		"All of these compressors are capable of producing 20 bar of pressure, though each has its own operational challenges to overcome. "
 		""
-		"[\"The Advanced Air Compressor and the Advanced Liquid Compressor will both operate using the same fuels you've been using thus far but do need to be cooled down. For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\" https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
+		"[\"The Advanced Air Compressor and the Advanced Liquid Compressor will both operate using the same fuels you've been using thus far but do need to be cooled down. For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
 		""
 		"Similarly, the Flux Compressor will run using energy you may be creating for other mods such as Mekanism or Modern Industrialization. It also requires cooling, just as the two previous entries."
 		""
@@ -1947,6 +1953,7 @@
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
+	quest.5A2C9E1F74B7EC97.quest_desc: ["Finished PCBs will unlock the most powerful options within PneumaticCraft, from armor and weapons to rival Iron Man to programmable drones and advanced logistics. "]
 	quest.5A355C35CB5B24D8.quest_desc: [
 		"There exists a wondrous material known as Iesnium which is an ideal substance for binding Spirits, as it serves to strengthen them and grant them greater power. "
 		""

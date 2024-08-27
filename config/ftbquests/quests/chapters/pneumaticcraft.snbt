@@ -222,6 +222,11 @@
 					item: { count: 1, id: "pneumaticcraft:pcb_blueprint" }
 					type: "item"
 				}
+				{
+					id: "76B8E10802FA8DDB"
+					item: { count: 1, id: "pneumaticcraft:assembly_program_drill_laser" }
+					type: "item"
+				}
 			]
 			x: -2.5d
 			y: 4.0d
@@ -315,11 +320,6 @@
 				{
 					id: "71F62CC2AAEF87B7"
 					item: { count: 1, id: "pneumaticcraft:assembly_platform" }
-					type: "item"
-				}
-				{
-					id: "5E5CDC3308795695"
-					item: { count: 1, id: "pneumaticcraft:assembly_program_drill_laser" }
 					type: "item"
 				}
 			]
