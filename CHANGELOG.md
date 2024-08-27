@@ -9,6 +9,7 @@
 -   Copper blocks and Lightning Rods may now be used as part of an Electrostatic Grid for PneumaticCraft [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   Ars Elemental Saplings and Fruit now appear in the market [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   Ars Nouveau/Elemental tree pods and Source Berries may be sped up with Growth Accelerators. This in addition to them already affecting most plants. [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+-   All PNC compressors craft with a free Security Upgrade [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 
 #### 🦟 Bugs Fixed
 

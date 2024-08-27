@@ -92,6 +92,15 @@
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
+	quest.0554264AE11578D2.quest_desc: [
+		"The pressure chamber is a multiblock crafting interface that uses compressed air to operate. "
+		""
+		"Building the structure can be a little daunting at first, but the guidebook covers the requirements in detail."
+		""
+		"You’ll want to begin by building a 3x3x3 structure, as the larger ones can take a long time to fill at this stage. "
+		""
+		"This will require two Interface blocks, one Valve, and a good amount of Pressure Chamber Walls; Pressure Chamber Glass is optional, but recommended to see what's happening inside."
+	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
@@ -392,6 +401,17 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"4D1E38918B64CD4E\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Mekanism\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.1519094802A893C3.quest_desc: [
+		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
+		""
+		"It will also give you access to modify the equipment such as installing Speed and Volume Upgrades."
+		""
+		"&a🛈 Tip: A Dispenser Upgrade allows the "
+		"&a    Charging Station to charge entities "
+		"&a    standing on top of it. This can be "
+		"&a    used to recharge a Drone or to "
+		"&a    recharge all your gear at once!"
+	]
 	quest.156DEEC0CB40D7DB.quest_desc: [
 		"Allows multiple Force Field Projectors to work together to cover a larger area, while allowing free passage between them. "
 		""
@@ -594,6 +614,11 @@
 		""
 		"The Large Steam Turbine will be somewhat limited right now, seeing as the best we can do is an HV Energy Hatch, but it will be able to grow as your base grows. "
 	]
+	quest.1EBAABF6E93CFCDF.quest_desc: [
+		"Once properly prepared in the UV Light Box, Empty PCBs will need to be etched in the etching tank."
+		""
+		"You’ll need some Etching Acid in the Tank as well. Normally this isn’t consumed, but if heat is applied to the Tank it will speed up the process and slowly consume the Acid."
+	]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
 	quest.20454EB2C6E93573.quest_desc: [
@@ -748,7 +773,7 @@
 		"&6⚠ Note: The Drill \\& Laser program "
 		"&6    allows the Assembly Table to craft "
 		"&6    recipes that use either a drill or "
-		"&6    laser."
+		"&6    laser, or both."
 	]
 	quest.267FEB0BB5D9B4D9.title: "Assembly Table"
 	quest.2850FCAFEEF5004C.quest_desc: [
@@ -810,6 +835,11 @@
 		"As the name would imply, PneumaticCraft has its own power system that mimics real world pneumatics, or air power. Making that air will require some form of Compressor."
 		""
 		"As you’re just getting started, you’ll want to craft an Air Compressor as it is cheap and burns regular furnace fuels."
+		"&n                                                  &r"
+		""
+		"Machines and Tubes will burst if over pressurized! Avoid this by disabling the Compressor when it’s nearly full. "
+		""
+		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
 	quest.2A2D51206676A83C.quest_desc: [
 		"We see you there, looking at that hive, wondering what might be going on inside. "
@@ -881,6 +911,13 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.2F835F759B26FD4E.quest_desc: [
+		"The UV Light Box is a critical step to creating PCBs which are used for advanced technology and logistics. "
+		""
+		"The device is used to prepare Empty PCBs for etching. The longer the Empty PCB is allowed to cook in the UV Light Box, the better odds it has of etching properly. Leave the Threshold at 100% for now to ensure the Empty PCBs will etch during the next step."
+		""
+		"Easier methods will soon become available. For now, crafting a large batch of Empty PCBs will suffice."
+	]
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
@@ -921,7 +958,17 @@
 		"&a    bottom of the Mineshaft."
 	]
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
-	quest.358A62846D6B0004.quest_desc: ["The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining, as less useful products, like Diesel, can be converted to more useful materials such as Lubricant or LPG and therefore more Plastic."]
+	quest.358A62846D6B0004.quest_desc: [
+		"The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining. "
+		""
+		"Less useful products can be converted to more valuable materials such as making Lubricant from Diesel."
+		""
+		"The TPP is also used for the creation of Molten Plastic which is our primary goal. Get a bucket of the stuff and dump it on the ground to cool it into useful sheets."
+		""
+		"&a🛈 Tip: Plastic can also be cooled with a"
+		"&a    Heat Frame, granting better yields!"
+	]
+	quest.358A62846D6B0004.title: "Plastic"
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -1020,6 +1067,17 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.3C4305830D6978C5.quest_desc: [
+		"Looking for an upgrade to your mining?"
+		""
+		"A Pneumatic Jackhammer is an all-in-one mining tool with the ability to mine out large areas with ease. "
+		""
+		"It can even hot-swap enchantments by inserting either a Fortune or Silk Touch book in the inventory."
+		""
+		"&a🛈 Tip: An Air Canister Array acts as "
+		"&a    a portable air battery, keeping "
+		"&a    your tools running longer!"
 	]
 	quest.3CA4472228D0F866.quest_desc: [
 		"By adding an ME Controller to a network, we gain access to far more channels; 32 per side, in fact. "
@@ -1271,6 +1329,10 @@
 		"Likely the first thing you’ll want to make with Plastic will be an Amadron Tablet, which gives you access to some high-quality trades that you may not find elsewhere. "
 		""
 		"Notable purchases to make here are the PCB Blueprint and the Drill \\& Laser Assembly Program. Grab them both and hold on to them."
+		""
+		"&a🛈 Tip: Amadron allows players to "
+		"&a    create custom shops to trade "
+		"&a    with each other!"
 	]
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
@@ -2525,6 +2587,7 @@
 		""
 		"Consider setting up a full production line using Biodiesel to produce Plastic and Lubricant, as well as a decent and renewable fuel source. "
 	]
+	quest.748E8D2D5F7E2D5D.title: "Biodiesel"
 	quest.7501455F3C24E4E9.quest_desc: [
 		"The Dynamic Tank is a simple multi-block tank capable of holding any fluid, including Mekanism’s gasses. "
 		""
@@ -2797,7 +2860,6 @@
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
-	task.375C4A15A1CF4F85.title: "Basic Compressors"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
