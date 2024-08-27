@@ -100,6 +100,14 @@
 		{
 			dependencies: ["0554264AE11578D2"]
 			id: "57DA648FF73A769A"
+			rewards: [{
+				id: "1E4500A6199714CD"
+				item: {
+					count: 1
+					id: "pneumaticcraft:heat_sink"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "20482855619A976E"
 				item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
@@ -193,11 +201,11 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 4.5d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["5F7D2ECF7DA314BD"]
+			dependencies: ["486FDAA44AED23C4"]
 			icon: {
 				id: "pneumaticcraft:amadron_tablet"
 			}
@@ -214,7 +222,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -259,17 +267,6 @@
 			}]
 			x: -0.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["486FDAA44AED23C4"]
-			id: "5F7D2ECF7DA314BD"
-			tasks: [{
-				id: "1BD400B1C92A1377"
-				item: { count: 1, id: "pneumaticcraft:plastic" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["1EBAABF6E93CFCDF"]

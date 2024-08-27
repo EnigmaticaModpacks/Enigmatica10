@@ -1911,6 +1911,14 @@
 		"  handling."
 	]
 	quest.579C07CD07599438.title: "Crafting CPUs"
+	quest.57DA648FF73A769A.quest_desc: [
+		"Just a touch more expensive than other compressors, the Thermal Compressor uses heat differentials to produce compressed air up to 10 bar. This can be a great way to produce a little extra air to top off your tools, most of which can handle that much pressure."
+		""
+		"Blocks such as Lava, Magma, and even Uranium may be used to heat one side, while a Heat Sink placed opposite will be enough to produce the required differential. The heat sources will degrade over time, however."
+		""
+		"&a🛈 Tip: Look at Uses for Heat Pipes in"
+		"&a    EMI for a list of heat sources."
+	]
 	quest.57E6258A93E53F95.quest_desc: [
 		"Your first order of business here will be to locate a Cell Maze. Here, you’ll find some very important objects to guide you on your quest. "
 		""
