@@ -402,20 +402,34 @@
 		}
 		{
 			dependencies: ["0554264AE11578D2"]
-			id: "1519094802A893C3"
+			dependency_requirement: "one_started"
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "4E175A06927C3A75"
 			rewards: [{
-				id: "5504E0B42D928BA2"
-				item: {
-					count: 1
-					id: "pneumaticcraft:dispenser_upgrade"
+				exclude_from_claim_all: true
+				id: "0440FF9C46C0823A"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:emerald"
+					}
+					id: "12BDDFD0C2267B6C"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:villager"
+					type: "observation"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "793AE0EB4AFBD7DB"
-				item: { count: 1, id: "pneumaticcraft:charging_station" }
-				type: "item"
-			}]
+				{
+					id: "26302D526BD0B963"
+					item: { count: 1, id: "pneumaticcraft:charging_station" }
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 2.5d
 		}

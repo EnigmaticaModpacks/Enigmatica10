@@ -12,7 +12,7 @@
 	chapter.47870879D8E3742D.title: "Getting Started"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
-	chapter.5957A1DE2E537AC3.title: "PneumaticCraft"
+	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.603B06098A07350C.title: "EvilCraft"
 	chapter.60F666DD0AC6F03F.title: "Multiverse"
@@ -400,17 +400,6 @@
 		"The system can be accessed remotely through a QIO Dashboard to manually craft or just for accessing materials. Keep one with you and place it down whenever you want to access the network."
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"4D1E38918B64CD4E\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Mekanism\",\"underlined\":true},\" chapter. \"]"
-	]
-	quest.1519094802A893C3.quest_desc: [
-		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
-		""
-		"It will also give you access to modify the equipment such as installing Speed and Volume Upgrades."
-		""
-		"&a🛈 Tip: A Dispenser Upgrade allows the "
-		"&a    Charging Station to charge entities "
-		"&a    standing on top of it. This can be "
-		"&a    used to recharge a Drone or to "
-		"&a    recharge all your gear at once!"
 	]
 	quest.156DEEC0CB40D7DB.quest_desc: [
 		"Allows multiple Force Field Projectors to work together to cover a larger area, while allowing free passage between them. "
@@ -1729,6 +1718,21 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.4E175A06927C3A75.quest_desc: [
+		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
+		""
+		"It will also give you access to modify the equipment such as installing Speed and Volume Upgrades."
+		""
+		"Lastly, and perhaps most importantly, the Charging Station acts as the workstation for Pressure Mechanics. "
+		""
+		"These villagers can sell a number of very useful things, including Finished PCBs which will jumpstart your journey through the mod considerably."
+		""
+		"&a🛈 Tip: A Dispenser Upgrade allows the "
+		"&a    Charging Station to charge entities "
+		"&a    standing on top of it. This can be "
+		"&a    used to recharge a Drone or to "
+		"&a    recharge all your gear at once!"
+	]
 	quest.4E7DA28C54FB8766.quest_desc: [
 		"These materials can frequently take a great deal of time to find by exploring alone. "
 		""
@@ -2839,6 +2843,7 @@
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.116CBCF6CA77E71A.title: "Syringe"
+	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
