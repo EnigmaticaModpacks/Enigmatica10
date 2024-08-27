@@ -82,8 +82,8 @@
 		""
 		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
 	]
-	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of liquid transfer options available in E10."]
-	quest.04CE3E8B1DF8B441.title: "Liquids"
+	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
+	quest.04CE3E8B1DF8B441.title: "Fluids"
 	quest.0545305EBB98A0BA.quest_desc: [
 		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
 		""
@@ -92,6 +92,7 @@
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
+	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
 		""
@@ -441,7 +442,22 @@
 		"&a    organized and avoid cross "
 		"&a    contamination!"
 	]
-	quest.16BFB19411FE195F.quest_desc: ["LaserIO is a catch all logistics mod capable of many things. Check out the guidebook for more information on how to use it to your advantage!"]
+	quest.16A8BFECD924477D.quest_desc: [
+		"A few options exist for compressing air at this stage."
+		""
+		"The Liquid Compressor uses liquid fuels to run and can be a nice alternative to the Air Compressor. "
+		""
+		"The liquid fuels PNC has to offer will require a bit of progression still, but they’re very viable in the early game, with Biodiesel being an easily renewable power source. "
+		""
+		"Other mods also have liquid fuels, however, which can be used with PNC. So, if you’ve delved into Just Dire Things or Modern Industrialization, you may find some useful fuels to get you jump started here."
+		""
+		"If you hate fun, the Manual Compressor exists and will having you questioning your life choices in no time. "
+	]
+	quest.16BFB19411FE195F.quest_desc: [
+		"LaserIO is a catch all logistics mod capable of many things. "
+		""
+		"Check out the guidebook for more information on how to use it to your advantage!"
+	]
 	quest.16BFB19411FE195F.title: "LaserIO"
 	quest.16C7D5478BF3D449.quest_desc: [
 		"The Learning Mods chapters are designed to help you get started with large content mods. These are broken up into Technology and Magic sections and will explain roughly how to progress through the mod as well as provide tips on how to use different features of the mod."
@@ -662,7 +678,7 @@
 		""
 		"This is another material that will be used extensively, so setting up a dedicated production line would be a good use of one’s time. In particular, a new Steam Blast Furnace will be recommended for creating Synthetic Oil."
 	]
-	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in E10."]
+	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in Enigmatica 10."]
 	quest.235D7EF41916E480.title: "Power"
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
@@ -717,6 +733,21 @@
 		""
 		"A keen eye will always be able to identify a rift by the telltale presence of Kaleidite Clusters growing from any surface."
 	]
+	quest.267FEB0BB5D9B4D9.quest_desc: [
+		"The Assembly Table is a multiblock machine capable of more advanced crafting.             "
+		""
+		"Each piece has requirements for valid placement; refer to the PNC:R manual for the exact rules."
+		""
+		"A simple layout can be setup in a 2x3 space, however:"
+		"&a    IO Unit   Controller     IO Unit"
+		"&a    Drill      Platform        Laser"
+		""
+		"&6⚠ Note: The Drill \\& Laser program "
+		"&6    allows the Assembly Table to craft "
+		"&6    recipes that use either a drill or "
+		"&6    laser."
+	]
+	quest.267FEB0BB5D9B4D9.title: "Assembly Table"
 	quest.2850FCAFEEF5004C.quest_desc: [
 		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
 		""
@@ -771,6 +802,11 @@
 		"Flower Headwear can also be used to prevent Wrath of the Hive, allowing safer travels through a Cell Maze. "
 		""
 		"Dye it and show off your style!"
+	]
+	quest.29D1FB4380460203.quest_desc: [
+		"As the name would imply, PneumaticCraft has its own power system that mimics real world pneumatics, or air power. Making that air will require some form of Compressor."
+		""
+		"As you’re just getting started, you’ll want to craft an Air Compressor as it is cheap and burns regular furnace fuels."
 	]
 	quest.2A2D51206676A83C.quest_desc: [
 		"We see you there, looking at that hive, wondering what might be going on inside. "
@@ -829,7 +865,11 @@
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
 	]
-	quest.2CA1A8A7B84FAD71.quest_desc: ["Modular Routers is a catch all logistics mod capable of many things. Check out the guidebook for more information on how to use it to your advantage!"]
+	quest.2CA1A8A7B84FAD71.quest_desc: [
+		"Modular Routers is a catch all logistics mod capable of many things. "
+		""
+		"Check out the guidebook for more information on how to use it to your advantage!"
+	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
 		""
@@ -878,6 +918,7 @@
 		"&a    bottom of the Mineshaft."
 	]
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
+	quest.358A62846D6B0004.quest_desc: ["The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining, as less useful products, like Diesel, can be converted to more useful materials such as Lubricant or LPG and therefore more Plastic."]
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -1508,6 +1549,7 @@
 		"Coupled with a QIO Redstone Adapter, these can be used to keep stock of various products."
 	]
 	quest.4840F7361DF70516.title: "QIO System"
+	quest.486FDAA44AED23C4.title: "Refinery"
 	quest.487C1E9850772F38.quest_desc: [
 		"At this point, you may be feeling the heat a bit, noticing your Boiler can’t keep up. Building more is an option, but upgrading infrastructure periodically will be more efficient in the long run. "
 		""
@@ -1831,6 +1873,20 @@
 		""
 		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
 	]
+	quest.578401B6C9DA2747.quest_desc: [
+		"With PCBs and Plastic behind us, we can delve into High Pressure mechanics and all that comes with it. For this, we'll need to build a high-performance Compressor."
+		" "
+		"All of these compressors are capable of producing 20 bar of pressure, though each has its own operational challenges to overcome. "
+		""
+		"[\"The Advanced Air Compressor and the Advanced Liquid Compressor will both operate using the same fuels you've been using thus far but do need to be cooled down. For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\" https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
+		""
+		"Similarly, the Flux Compressor will run using energy you may be creating for other mods such as Mekanism or Modern Industrialization. It also requires cooling, just as the two previous entries."
+		""
+		"The Electrostatic Compressor can be a great set-and-forget option, since it runs passively without cooling. It runs best during stormy weather but will still output some air even during clear skies. "
+		""
+		"Lastly the Solar Compressor runs passively but requires close monitoring. It must be allowed to heat up to do anything, but overheating will cause it to break. Therefore more advanced heat management is required than what’s used for other compressors. "
+	]
+	quest.578401B6C9DA2747.title: "Advanced Compressors"
 	quest.579C07CD07599438.quest_desc: [
 		"In order to autocraft anything, AE needs a CPU to manage the craft. These are multi-block constructions composed of up to three components."
 		""
@@ -2424,11 +2480,25 @@
 		"&c    Patience, grasshopper!"
 	]
 	quest.7431B398FFDF3DCA.title: "Mutation"
+	quest.74463B3FC2D297AC.quest_desc: [
+		"Welcome to PneumaticCraft, a powerful logistics and automation mod revolving around the use of compressed air and heat to perform many different tasks."
+		""
+		"The mod comes with an extensive guidebook, which covers every aspect of the mod in detail. Therefore, the quests will be covering the highlights; getting you started and through basic progression. "
+		""
+		"&a🛈 Tip: Be sure to check tooltips often "
+		"&a    for quick reminders on how an item"
+		"&a    or block works."
+	]
 	quest.74463B3FC2D297AC.title: "PneumaticCraft"
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
 		""
 		"As machines begin using more power, this can be a nice intermediate step up from passive power generation."
+	]
+	quest.748E8D2D5F7E2D5D.quest_desc: [
+		"Primarily used for manufacturing Biodiesel, the Fluid Mixer is an integral part of renewable oil products. "
+		""
+		"Consider setting up a full production line using Biodiesel to produce Plastic and Lubricant, as well as a decent and renewable fuel source. "
 	]
 	quest.7501455F3C24E4E9.quest_desc: [
 		"The Dynamic Tank is a simple multi-block tank capable of holding any fluid, including Mekanism’s gasses. "
@@ -2493,9 +2563,9 @@
 		"  • Devil: Fire Resistance"
 	]
 	quest.750FEAA1A27892FF.title: "Familiars"
-	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in E10."]
+	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
-	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
+	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in Enigmatica 10."]
 	quest.760910BF48876D8E.title: "Chemicals and Gas"
 	quest.760BD47C6B67D645.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as your factory grows. "
@@ -2702,8 +2772,10 @@
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
+	task.375C4A15A1CF4F85.title: "Basic Compressors"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
+	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
@@ -2726,6 +2798,7 @@
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
 	task.51472C5BD0C05E09.title: "Kill a Mob"
+	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
@@ -2737,6 +2810,7 @@
 	task.5D8E35699FF69418.title: "Interfaces"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
+	task.5FD7075685BB37AD.title: "Generators"
 	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
@@ -2747,6 +2821,7 @@
 	task.676C8DE6C246D422.title: "AE Power"
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"
+	task.6A62841DDEADB7A6.title: "heat"
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
 	task.6F72D2074543BF23.title: "Bins"

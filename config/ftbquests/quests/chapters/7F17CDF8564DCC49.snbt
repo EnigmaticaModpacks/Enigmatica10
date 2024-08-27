@@ -6,12 +6,12 @@
 	group: "264B8D62983BEFB4"
 	icon: {
 		components: {
-			"ftbquests:icon": "geneticsresequenced:item/gmo_dna_helix"
+			"patchouli:book": "geneticsresequenced:guide"
 		}
-		id: "ftbquests:custom_icon"
+		id: "patchouli:guide_book"
 	}
 	id: "7F17CDF8564DCC49"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

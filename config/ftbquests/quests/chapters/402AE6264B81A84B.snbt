@@ -36,7 +36,10 @@
 		{
 			dependencies: ["2150EE8D0B1474CE"]
 			icon: {
-				id: "minecraft:redstone_block"
+				components: {
+					"ftbquests:icon": "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "235D7EF41916E480"
 			x: 2.5d
@@ -45,7 +48,10 @@
 		{
 			dependencies: ["2150EE8D0B1474CE"]
 			icon: {
-				id: "minecraft:water_bucket"
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/conduit_power.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "04CE3E8B1DF8B441"
 			x: 2.5d
@@ -54,7 +60,10 @@
 		{
 			dependencies: ["2150EE8D0B1474CE"]
 			icon: {
-				id: "mekanism:upgrade_gas"
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/wither.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "760910BF48876D8E"
 			x: 2.5d
@@ -216,7 +225,10 @@
 		{
 			dependencies: ["2150EE8D0B1474CE"]
 			icon: {
-				id: "minecraft:hopper"
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/hero_of_the_village.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "752888EAF2861EB4"
 			x: 2.5d

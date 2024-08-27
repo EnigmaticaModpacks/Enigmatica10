@@ -8,7 +8,7 @@
 		id: "ars_nouveau:worn_notebook"
 	}
 	id: "5C2F675CD8139E11"
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		icon: {
