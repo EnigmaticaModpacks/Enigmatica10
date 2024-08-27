@@ -734,7 +734,9 @@
 		"A keen eye will always be able to identify a rift by the telltale presence of Kaleidite Clusters growing from any surface."
 	]
 	quest.267FEB0BB5D9B4D9.quest_desc: [
-		"The Assembly Table is a multiblock machine capable of more advanced crafting.             "
+		"The Assembly Table is a multiblock machine capable of more advanced crafting. "
+		""
+		"In particular, it can be used to simplify the process of making more PCBs, completely bypassing the UV and Etching steps.          "
 		""
 		"Each piece has requirements for valid placement; refer to the PNC:R manual for the exact rules."
 		""
@@ -1912,9 +1914,13 @@
 	]
 	quest.579C07CD07599438.title: "Crafting CPUs"
 	quest.57DA648FF73A769A.quest_desc: [
-		"Just a touch more expensive than other compressors, the Thermal Compressor uses heat differentials to produce compressed air up to 10 bar. This can be a great way to produce a little extra air to top off your tools, most of which can handle that much pressure."
+		"Just a touch more expensive than other compressors, the Thermal Compressor uses heat differentials to produce compressed air up to 10 bar. "
 		""
-		"Blocks such as Lava, Magma, and even Uranium may be used to heat one side, while a Heat Sink placed opposite will be enough to produce the required differential. The heat sources will degrade over time, however."
+		"This can be a great way to produce a little extra air to top off your tools, most of which can handle that much pressure."
+		""
+		"Blocks such as Lava, Magma, and even Uranium may be used to heat one side, while a Heat Sink placed opposite will be enough to produce the required differential. "
+		""
+		"The heat sources will degrade over time."
 		""
 		"&a🛈 Tip: Look at Uses for Heat Pipes in"
 		"&a    EMI for a list of heat sources."
