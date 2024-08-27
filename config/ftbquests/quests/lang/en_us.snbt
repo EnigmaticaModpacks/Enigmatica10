@@ -1893,6 +1893,9 @@
 		""
 		"The Electrostatic Compressor can be a great set-and-forget option, since it runs passively without cooling. It runs best during stormy weather but will still output some air even during clear skies. "
 		""
+		"&a🛈 Tip: Search &3#electrostatic&r &ain EMI to discover valid "
+		"&a    blocks for an Electrostatic Grid."
+		""
 		"Lastly the Solar Compressor runs passively but requires close monitoring. It must be allowed to heat up to do anything, but overheating will cause it to break. Therefore more advanced heat management is required than what’s used for other compressors. "
 	]
 	quest.578401B6C9DA2747.title: "Advanced Compressors"
