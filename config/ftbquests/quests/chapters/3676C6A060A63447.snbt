@@ -16,7 +16,10 @@
 	quests: [
 		{
 			icon: {
-				id: "handcrafted:hammer"
+				components: {
+					"ftbquests:icon": "theurgy:item/niters/gems_precious"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "6538BD86D9419DD4"
 			rewards: [{
