@@ -11,6 +11,7 @@
 -   Ars Nouveau/Elemental tree pods and Source Berries may be sped up with Growth Accelerators. This in addition to them already affecting most plants. [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   All PNC compressors craft with a free Security Upgrade [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   PNC Quests! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+-   More Theurgy Quests! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 
 #### 🦟 Bugs Fixed
 
