@@ -218,6 +218,14 @@ ServerEvents.recipes((event) => {
             duration: 200,
             eu: 2,
             id: `modern_industrialization:oil/mixer/sugar_solution`
+        },
+        {
+            item_inputs: [{ tag: 'c:dusts/redstone', amount: 1 }],
+            fluid_inputs: [{ fluid: 'modern_industrialization:plant_oil', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'modern_industrialization:lubricant', amount: 1000 }],
+            duration: 200,
+            eu: 2,
+            id: `modern_industrialization:oil/mixer/lubricant_from_plant_oil`
         }
     ];
 
