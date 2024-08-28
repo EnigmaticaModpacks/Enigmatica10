@@ -133,6 +133,22 @@
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
 	]
+	quest.09F2EA329EF3650F.quest_desc: [
+		"The Mercury Catalyst and Sulfuric Flux Emitter serve a few functions in the Array. "
+		""
+		"First, and most importantly, the Sulfuric Flux Emitter binds all the previous blocks together. It also provides energy to them."
+		""
+		"The Mercury Catalyst then acts as a battery of energy. This will need to be supplied with a steady supply of Mercury Shards."
+		"&n                                                  &r"
+		""
+		"Place the Catalyst in your work area and supply it with Mercury Shards."
+		""
+		"With the Sulfuric Flux Emitter in hand, Right-Click each of the Pedestals for the Array. They'll be highlighted indicating they've been selected."
+		""
+		"Place the Sulfuric Flux Emitter on the Catalyst. The array should be fully formed and powered now. "
+		""
+		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
+	]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
 	quest.0B05FA716D7335D2.quest_desc: [
@@ -336,6 +352,18 @@
 	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
+	quest.0FE11A739BA3623E.quest_desc: [
+		"The Reformation Array itself is a freeform multiblock. It doesn’t matter where each piece goes, just that they’re somewhat close. "
+		""
+		"We won’t need a big array for this recipe, so a 5x5 area should be more than sufficient for the multiblock structure."
+		""
+		"The first piece we’ll put down is the Reformation Target Pedestal. This Pedestal informs the array of what we want to craft, in this case, more Quartz Sulfur. "
+		"&n                                                  &r"
+		""
+		"Place the Target Pedestal in your work area and Right-Click it with the Quartz Sulfur."
+		""
+		"&a🛈 Tip: The Sulfur may be extracted again via Right-Click."
+	]
 	quest.10762E4BB7F187BE.quest_desc: [
 		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
 		""
@@ -386,6 +414,8 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
+	quest.1447C4568B9A1606.title: "Incubation"
 	quest.14688BF9C4B5766C.quest_desc: [
 		"Player Transmitters wirelessly charge FE based items and equipment in your inventory. "
 		""
@@ -598,6 +628,28 @@
 		"Later, both of these machines will find use in more advanced processes, including more advanced ore processing and nuclear energy!"
 	]
 	quest.1E2327FB6801D209.title: "Ethene"
+	quest.1E2BA13C53664E50.quest_desc: [
+		"The Reformation Array is the basis for the replication of resources in Theurgy. "
+		""
+		"On the outside, the process is fairly straightforward."
+		"  "
+		"  1. Obtain a Sulfur of your desired "
+		"     material to act as a key. "
+		"     This item is not consumed."
+		"  2. Obtain an appropriate Sulfur of "
+		"     another material to transmute into "
+		"     the desired material."
+		"  3. Mix it all together in the  "
+		"     Reformation Array!"
+		""
+		"That last step is a big one though, so let’s walk through the process in a little more detail. "
+		"&n                                                  &r"
+		""
+		"For now, use Liquefaction recipes to obtain a Quartz Sulfur and some Lapis Sulfur. "
+		""
+		"We’ll be converting Lapis to Quartz at a 1:1 ratio."
+	]
+	quest.1E2BA13C53664E50.title: "Reformation"
 	quest.1E78584388808899.quest_desc: [
 		"Finally a multiblock to replace all of those individual turbines you’ve been using. "
 		""
@@ -808,6 +860,17 @@
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
+	quest.28EAC6C33A575A42.quest_desc: [
+		"Transmutation is the process of turning one item type into another. In previous sections we used Lapis, a common gem, to make more Quartz, another common gem. "
+		""
+		"What if you want to turn that abundance of gems into metal, however?"
+		""
+		"That’s where Transmutation comes in. Let’s see how that works. "
+		"&n                                                  &r"
+		""
+		"For this, we’ll be converting Quartz Sulfur to Iron Sulfur. Gather up a few of each using the Liquefaction recipes."
+	]
+	quest.28EAC6C33A575A42.title: "Transmutation"
 	quest.2961B707783AC925.quest_desc: [
 		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
 		""
@@ -876,6 +939,8 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
+	quest.2BF4F678812848FC.title: "Fermentation"
 	quest.2C1538BE243F0CB4.quest_desc: [
 		"So you’ve found a trait you’d like to have for yourself? You’ll need to infuse it into a Plasmid. "
 		""
@@ -884,6 +949,18 @@
 		"&a🛈 Tip: Use Basic Genes to craft Empty "
 		"&a    Plasmids rather than wasting useful "
 		"&a    Genes on them."
+	]
+	quest.2C7267F92822D2C1.quest_desc: [
+		"For the first step, we’ll need to ferment our Quartz Sulfur down into Common Gem Niter. "
+		""
+		"Insert the Quartz Sulfur, some Water, and some Fermentation Starter in the Barrel, then close it up with a Sneak Right-Click."
+		""
+		"The Fermentation Barrel can process up to a stack of material at a time."
+		""
+		"&a🛈 Tip: A Comparator reads the Output "
+		"&a    slot of the barrel, indicating that "
+		"&a    some or all of the material has "
+		"&a    processed."
 	]
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
@@ -1653,7 +1730,7 @@
 		""
 		"Each of these steps, and how they come together will be discussed in the following quests."
 	]
-	quest.48F901DB80482CAA.title: "Material Processing"
+	quest.48F901DB80482CAA.title: "Ore Processing"
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -1687,6 +1764,13 @@
 		"&c⚠ Warning: Outputs will be voided if"
 		"&c    there are insufficient Hatches"
 		"&c    available to receive the items!"
+	]
+	quest.4AA912FDACFC1654.quest_desc: [
+		"Next, we need to Digest our materials. When exalting to a higher tier, we also need to add Purified Gold to the mix. Refer to EMI for recipes. "
+		""
+		"The Digestion Vat works exactly as the Fermentation Vat does and can be similarly automated with Redstone. Refer to the guidebook for examples. "
+		""
+		"Our end goal here will be Rare Metal Niter."
 	]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
@@ -1740,6 +1824,21 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.4D1EE65F80F50090.quest_desc: [
+		"The Reformation Source Pedestal is used to hold our input ingredients; Lapis Sulfur for the time being."
+		""
+		"Pay close attention to the recipes in EMI. Reformation recipes can require up to eight Source Pedestals for a given recipe. "
+		""
+		"For this one, we’ll only need one. "
+		"&n                                                  &r"
+		""
+		"Place the Source Pedestal in your work area and Right-Click it with the Lapis Sulfur. "
+		""
+		"&a🛈 Tip: More input Sulfur can be "
+		"&a    provided through any form of "
+		"&a    Logistics, such as Mercurial "
+		"&a    Item Nodes!"
 	]
 	quest.4E175A06927C3A75.quest_desc: [
 		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
@@ -1841,7 +1940,7 @@
 		"&6    the interface."
 	]
 	quest.51F25D35F62B37BA.quest_desc: [
-		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
+		"The Mercurial Logistics system is a simple network for moving Items and Fluids."
 		""
 		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
 		""
@@ -1851,6 +1950,7 @@
 		"&a    Extractors with a Mercurial Wand"
 		"&a    to set the side they work with."
 	]
+	quest.51F25D35F62B37BA.title: "Mercurial Logistics"
 	quest.5203EDBBACDBA86A.quest_desc: [
 		"Some tools and blocks will require energy to operate. Though they’ll work with any Forge Energy, the mod also includes a few generators to cover that need. "
 		""
@@ -2232,9 +2332,11 @@
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
 	quest.6538BD86D9419DD4.quest_desc: [
-		"Work in progress."
+		"Welcome to Theurgy! "
 		""
-		"More content coming Soon™!"
+		"This exciting mod delves into the arts of Alchemy, allowing you to convert Lead to Gold, or just about any other material for that matter. "
+		""
+		"Be sure to refer to the guidebook as it is full of excellent examples and suggestions for automation!"
 	]
 	quest.6538BD86D9419DD4.title: "Theurgy"
 	quest.653E696688BBBB12.quest_desc: [
@@ -2286,6 +2388,12 @@
 		"&a🛈 Tip: Demon’s Dream fruit will heal"
 		"&a    Spirits!"
 	]
+	quest.673C6861CC3A781C.quest_desc: [
+		"[\"Having obtained the Rare Metal Niter we were after, we can \",{ \"text\": \"Reform\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" it into any Rare Metal Sulfur we want, like Gold Sulfur.\"]"
+		""
+		"[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"
+	]
+	quest.673C6861CC3A781C.title: "Reformation and Incubation"
 	quest.67782CB855950CD6.quest_desc: ["Another milestone material like Steel, HDPE is produced from Ethene and is used to craft many advanced machines as well as upgrades for the Meka-Suit. "]
 	quest.67782CB855950CD6.title: "HDPE"
 	quest.67835A69ECDC692D.quest_desc: [
@@ -2391,6 +2499,14 @@
 		"  module. "
 	]
 	quest.69D23BB3D7670DFC.title: "Shape Modification"
+	quest.6A3F652A680598E6.quest_desc: [
+		"Exaltation is the process by which materials are changed between different qualities. "
+		""
+		"For an example here, we’ll convert Iron Sulfur to Gold Sulfur, so gather a few of each. This process is not 1:1 and some conversions are more costly than others. "
+		""
+		"This process can go both ways, meaning a rare material can be converted into a large quantity of lower quality items."
+	]
+	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
@@ -2456,6 +2572,12 @@
 		"  items from an intruding player’s "
 		"  inventory."
 	]
+	quest.6D68D3A5BD549EA3.quest_desc: [
+		"[\"From here, the rest is simple enough; Common Gem Niter may be \",{ \"text\": \"Reformed\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" to produce Iron Sulfur, or any other Common Metal Sulfur.\"]"
+		""
+		"[\"\",{ \"text\": \"Incubate\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" those Sulfurs to produce useful ingots from them.\"]"
+	]
+	quest.6D68D3A5BD549EA3.title: "Reformation and Incubation"
 	quest.6D9008779F35E755.quest_desc: [
 		"With a Disintegration and Collection Module installed, the Field Projector essentially becomes a quarry. It’ll mine up any blocks intersected by the field and store them in an adjacent chest. "
 		""
@@ -2470,9 +2592,9 @@
 		" "
 		"Quests are divided into two types:"
 		""
-		"{ \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" } }"
+		"{ \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 		""
-		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" } }"
+		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
 	quest.6E4554D07901967C.quest_desc: [
@@ -2738,6 +2860,14 @@
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
 		""
 		"We’ll be needing plenty more, after all, to set up a Dimensional Mineshaft."
+	]
+	quest.773105FB99015746.quest_desc: [
+		"The Result Pedestal is where our output will be generated. "
+		"&n                                                  &r"
+		""
+		"Place the Result Pedestal in your work area. "
+		""
+		"Feel free to hook up any Logistics you wish to extract the result."
 	]
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
