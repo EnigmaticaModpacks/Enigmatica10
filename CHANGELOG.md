@@ -12,6 +12,7 @@
 -   All PNC compressors craft with a free Security Upgrade [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   PNC Quests! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   More Theurgy Quests! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+-   Buff Wolf Armor [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 
 #### 🦟 Bugs Fixed
 
