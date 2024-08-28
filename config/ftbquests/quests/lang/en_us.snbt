@@ -1945,10 +1945,6 @@
 		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
 		""
 		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
-		""
-		"&a🛈 Tip: Right-Click Inserters and "
-		"&a    Extractors with a Mercurial Wand"
-		"&a    to set the side they work with."
 	]
 	quest.51F25D35F62B37BA.title: "Mercurial Logistics"
 	quest.5203EDBBACDBA86A.quest_desc: [
