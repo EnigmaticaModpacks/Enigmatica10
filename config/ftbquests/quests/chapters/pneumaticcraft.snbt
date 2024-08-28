@@ -541,5 +541,49 @@
 			x: -1.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["358A62846D6B0004"]
+			id: "73D70F80C3AE999C"
+			rewards: [
+				{
+					id: "6DB56B4D70332317"
+					item: {
+						count: 1
+						id: "pneumaticcraft:gps_tool"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "681E2133444AE8F1"
+					table_id: 5549755170564644000L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4E37580706A0270B"
+				item: { count: 1, id: "pneumaticcraft:air_cannon" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["267FEB0BB5D9B4D9"]
+			id: "2AA352D00D86DCC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60BC330C52D4F5B3"
+				table_id: 6329405731623321254L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20F75EA115B82796"
+				item: { count: 1, id: "pneumaticcraft:aerial_interface" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
 	]
 }

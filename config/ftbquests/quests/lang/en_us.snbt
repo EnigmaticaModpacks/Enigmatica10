@@ -853,6 +853,11 @@
 		"In this chapter, we’ll discover the ins and outs of this expansive tech mod. Starting from the humble beginnings of a simple miner running a Steam Boiler, to a nuclear scientist transmuting energy and matter on a whim."
 	]
 	quest.2A83BC699BE18F3A.title: "Modern Industrialization"
+	quest.2AA352D00D86DCC3.quest_desc: [
+		"With an Aerial Interface, you gain remote access to your own inventory. "
+		""
+		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you and manage your XP. The sky's the limit!"
+	]
 	quest.2AF1CE73E140D685.quest_desc: [
 		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained."
 		""
@@ -2551,6 +2556,13 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.73D70F80C3AE999C.quest_desc: [
+		"Who doesn’t love yeeting things through the air? "
+		""
+		"The Air Cannon is perfect exactly that; launching items to either land in the world or be directly inserted into an inventory. "
+		""
+		"With the proper upgrades, they can also be used to launch nearby entities, or to act as a long-range Dispenser. TNT cannon, anyone?"
 	]
 	quest.73F9A5F65B350A09.quest_desc: [
 		"With White Chalk, we can practice only the most basic summons. "
