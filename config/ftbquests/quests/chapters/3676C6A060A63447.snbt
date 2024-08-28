@@ -39,7 +39,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6538BD86D9419DD4"]
@@ -68,7 +68,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6538BD86D9419DD4"]
@@ -284,7 +284,7 @@
 				}
 			]
 			x: -1.0d
-			y: 0.0d
+			y: 0.5d
 		}
 	]
 }
