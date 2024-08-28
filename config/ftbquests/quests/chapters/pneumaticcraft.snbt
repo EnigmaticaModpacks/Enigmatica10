@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pneumaticcraft"
@@ -82,6 +81,12 @@
 				id: "pneumaticcraft:air_compressor"
 			}
 			id: "29D1FB4380460203"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "593823C890FA5B45"
+				table_id: 5549755170564644000L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2CCEDCC3E39EEC85"
 				item: { count: 1, id: "pneumaticcraft:air_compressor" }
@@ -93,14 +98,22 @@
 		{
 			dependencies: ["0554264AE11578D2"]
 			id: "57DA648FF73A769A"
-			rewards: [{
-				id: "1E4500A6199714CD"
-				item: {
-					count: 1
-					id: "pneumaticcraft:heat_sink"
+			rewards: [
+				{
+					id: "1E4500A6199714CD"
+					item: {
+						count: 1
+						id: "pneumaticcraft:heat_sink"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "085ADF592CEFAF45"
+					table_id: 5549755170564644000L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "20482855619A976E"
 				item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
@@ -116,14 +129,22 @@
 			}
 			id: "578401B6C9DA2747"
 			min_width: 300
-			rewards: [{
-				id: "5319A612B3B4F0FC"
-				item: {
-					count: 1
-					id: "pneumaticcraft:regulator_tube_module"
+			rewards: [
+				{
+					id: "5319A612B3B4F0FC"
+					item: {
+						count: 1
+						id: "pneumaticcraft:regulator_tube_module"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1A464C1BA1F2DA14"
+					table_id: 700104408672187740L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "51A4E7C2E42561D2"
 				item: { components: { "ftbfiltersystem:filter": "or(item(pneumaticcraft:solar_compressor)item(pneumaticcraft:electrostatic_compressor)item(pneumaticcraft:flux_compressor)item(pneumaticcraft:advanced_liquid_compressor)item(pneumaticcraft:advanced_air_compressor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -138,6 +159,30 @@
 				id: "pneumaticcraft:pressure_chamber_interface"
 			}
 			id: "0554264AE11578D2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FB19C8571845E63"
+					table_id: 5549755170564644000L
+					type: "loot"
+				}
+				{
+					id: "142A159075D1E872"
+					item: {
+						count: 1
+						id: "pneumaticcraft:module_expansion_card"
+					}
+					type: "item"
+				}
+				{
+					id: "414D08E8B5653743"
+					item: {
+						count: 1
+						id: "pneumaticcraft:redstone_module"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "62069E59EF06C227"
@@ -215,6 +260,12 @@
 				id: "pneumaticcraft:amadron_tablet"
 			}
 			id: "3F11C37840644254"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A104980060E7C28"
+				table_id: 700104408672187740L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "6C75763216677DFD"
@@ -241,6 +292,23 @@
 				id: "pneumaticcraft:refinery"
 			}
 			id: "486FDAA44AED23C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C65408B5C54C0CF"
+					table_id: 700104408672187740L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "535F1680C284CB68"
+					item: {
+						count: 1
+						id: "pneumaticcraft:thermal_lagging"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0D869541A9899D27"
@@ -262,14 +330,22 @@
 				id: "pneumaticcraft:plastic"
 			}
 			id: "358A62846D6B0004"
-			rewards: [{
-				id: "24D17E0761CE8071"
-				item: {
-					count: 1
-					id: "pneumaticcraft:heat_frame"
+			rewards: [
+				{
+					id: "24D17E0761CE8071"
+					item: {
+						count: 1
+						id: "pneumaticcraft:heat_frame"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "702B515405CB6A10"
+					table_id: 700104408672187740L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "71D90610C3138C11"
@@ -291,6 +367,12 @@
 				id: "pneumaticcraft:biodiesel_bucket"
 			}
 			id: "748E8D2D5F7E2D5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59E13590C90B3408"
+				table_id: 700104408672187740L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "13AE238833EF1ACB"
 				item: { count: 1, id: "pneumaticcraft:fluid_mixer" }
@@ -302,6 +384,12 @@
 		{
 			dependencies: ["1EBAABF6E93CFCDF"]
 			id: "5A2C9E1F74B7EC97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D01AB72A5C09985"
+				table_id: 6329405731623321254L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "15B21794A43D966C"
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
@@ -316,6 +404,12 @@
 				id: "pneumaticcraft:assembly_controller"
 			}
 			id: "267FEB0BB5D9B4D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "746E9AB569BB161F"
+				table_id: 700104408672187740L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3E8B2603F12C5C70"
@@ -357,6 +451,12 @@
 				id: "pneumaticcraft:liquid_compressor"
 			}
 			id: "16A8BFECD924477D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14E6236BCB2B25E7"
+				table_id: 5549755170564644000L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3D1A362E43EE4BED"
 				item: { components: { "ftbfiltersystem:filter": "or(item(pneumaticcraft:manual_compressor)item(pneumaticcraft:liquid_compressor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -381,17 +481,25 @@
 				id: "pneumaticcraft:jackhammer"
 			}
 			id: "3C4305830D6978C5"
-			rewards: [{
-				id: "45A036462548C6F0"
-				item: {
-					components: {
-						"pneumaticcraft:air": 120000
+			rewards: [
+				{
+					id: "45A036462548C6F0"
+					item: {
+						components: {
+							"pneumaticcraft:air": 120000
+						}
+						count: 1
+						id: "pneumaticcraft:air_canister_array"
 					}
-					count: 1
-					id: "pneumaticcraft:air_canister_array"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "283CC41A7B5F4F0F"
+					table_id: 310519013727846436L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4E095F585A1F7507"
 				item: { count: 1, id: "pneumaticcraft:jackhammer" }

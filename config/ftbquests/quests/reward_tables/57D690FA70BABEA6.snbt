@@ -1,0 +1,50 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/legendary"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "57D690FA70BABEA6"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "pneumaticcraft:advanced_pressure_tube"
+			}
+			random_bonus: 8
+		}
+		{ item: { components: { "pneumaticcraft:potion_ammo": [{ item: { components: { "minecraft:potion_contents": { potion: "minecraft:strong_slowness" } }, count: 1, id: "minecraft:splash_potion" }, slot: 0 }] }, count: 1, id: "pneumaticcraft:gun_ammo" }, weight: 0.5f }
+		{ item: { components: { "pneumaticcraft:potion_ammo": [{ item: { components: { "minecraft:potion_contents": { potion: "kubejs:greater_instant_damage" } }, count: 1, id: "minecraft:splash_potion" }, slot: 0 }] }, count: 1, id: "pneumaticcraft:gun_ammo" }, weight: 0.5f }
+		{
+			count: 4
+			item: {
+				count: 1
+				id: "pneumaticcraft:module_expansion_card"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "pneumaticcraft:volume_upgrade"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "pneumaticcraft:speed_upgrade"
+			}
+			random_bonus: 8
+		}
+		{ item: { components: { "pneumaticcraft:main_tank": { amount: 64000, id: "pneumaticcraft:oil" } }, count: 1, id: "pneumaticcraft:large_tank" } }
+	]
+	use_title: true
+}

@@ -39,6 +39,10 @@ StartupEvents.registry('potion', (event) => {
         {
             potion: 'ars_nouveau:recovery',
             types: [{ name: 'greater', duration: 180, amplifier: 3 }]
+        },
+        {
+            potion: 'minecraft:instant_damage',
+            types: [{ name: 'greater', duration: 0, amplifier: 3 }]
         }
         // {
         //     potion: 'occultism:double_jump',
