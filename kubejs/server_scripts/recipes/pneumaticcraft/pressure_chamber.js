@@ -41,6 +41,26 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'laserio:logic_chip', count: 4 }],
             pressure: 1.0,
             id: `${id_prefix}logic_chip`
+        },
+        {
+            inputs: [
+                { tag: 'pneumaticcraft:wiring', count: 3 },
+                { tag: 'c:dusts/redstone', count: 1 },
+                { item: 'minecraft:paper', count: 3 }
+            ],
+            results: [{ id: 'modularrouters:blank_module', count: 12 }],
+            pressure: 1.0,
+            id: `${id_prefix}blank_module`
+        },
+        {
+            inputs: [
+                { tag: 'pneumaticcraft:wiring', count: 3 },
+                { tag: 'c:gems/lapis', count: 1 },
+                { item: 'minecraft:paper', count: 4 }
+            ],
+            results: [{ id: 'modularrouters:blank_upgrade', count: 8 }],
+            pressure: 1.0,
+            id: `${id_prefix}blank_upgrade`
         }
     ];
 

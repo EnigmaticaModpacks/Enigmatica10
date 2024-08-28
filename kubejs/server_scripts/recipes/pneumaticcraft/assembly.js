@@ -25,6 +25,12 @@ ServerEvents.recipes((event) => {
             result: { id: 'ae2:printed_silicon', count: 2 },
             program: 'drill',
             id: `${id_prefix}printed_silicon`
+        },
+        {
+            input: { tag: 'c:storage_blocks/iron', count: 1 },
+            result: { id: 'modularrouters:modular_router', count: 6 },
+            program: 'drill',
+            id: `${id_prefix}modular_router`
         }
     ];
 
