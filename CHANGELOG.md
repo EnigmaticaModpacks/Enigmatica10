@@ -14,6 +14,7 @@
 -   More Theurgy Quests! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   Buff Wolf Armor. Wow! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   Blacklist Mimic from spawners [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+-   Queen Bee loves music and will share her hoard for sick beats! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 
 #### 🦟 Bugs Fixed
 
