@@ -977,6 +977,7 @@
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
 	quest.3840097BB3E09C9D.quest_desc: ["Equivalent to Stone Tools, Kaleidite Tools can be handy in a pinch if you happen to find yourself in a rift without your normal tools. "]
+	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
 		""
@@ -1052,6 +1053,12 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.3BC8ED2BD4E5EEC6.quest_desc: [
+		"They may be tiny, but they pack a mighty punch. "
+		""
+		"&a🛈 Tip: Micromissiles may be restored "
+		"&a    with TNT in an Anvil!"
+	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
 		""
@@ -1073,6 +1080,7 @@
 		"&a    a portable air battery, keeping "
 		"&a    your tools running longer!"
 	]
+	quest.3C50D5FE5FA787A9.quest_desc: ["For when you just need a big fracking gun to tell the monster hordes who’s boss. "]
 	quest.3CA4472228D0F866.quest_desc: [
 		"By adding an ME Controller to a network, we gain access to far more channels; 32 per side, in fact. "
 		""
@@ -2467,6 +2475,18 @@
 		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" } }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
+	quest.6E4554D07901967C.quest_desc: [
+		"Quite possibly the last suit of armor you’ll ever need. "
+		""
+		"Self-repairing, flight-enabling, high-jumping, and so much more. "
+		""
+		"The endermen will ignore you, the pigmen will adore you, and the pillagers will abhor you. "
+		""
+		"&a🛈 Tip: Load the armor into a Charging "
+		"&a    Station to see all of the upgrades "
+		"&a    each item can accept."
+	]
+	quest.6E4554D07901967C.title: "Pneumatic Armor"
 	quest.6E4A0A33DB3C2B24.quest_desc: [
 		"Need to fill up that FE based tool you’ve been using? Just stand on a Chargepad. It automatically recharges all FE based equipment in your inventory so long as you’re standing on it."
 		""
