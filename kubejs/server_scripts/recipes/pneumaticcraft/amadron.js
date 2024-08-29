@@ -31,6 +31,22 @@ ServerEvents.recipes((event) => {
             output: { resource: { id: 'modern_industrialization:crude_oil', amount: 1000 } },
             level: 0,
             id: `${id_prefix}emerald_to_crude_oil`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 8 } },
+            output: { resource: { id: 'modern_industrialization:basic_upgrade', count: 1 } },
+            maxStock: 32,
+            static: false,
+            level: 2,
+            id: `${id_prefix}emerald_to_basic_upgrade`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 16 } },
+            output: { resource: { id: 'modern_industrialization:turbo_upgrade', count: 1 } },
+            maxStock: 16,
+            static: false,
+            level: 3,
+            id: `${id_prefix}emerald_to_turbo_upgrade`
         }
     ];
 
