@@ -136,7 +136,7 @@
 		{
 			dependencies: ["41614A924E5556EE"]
 			id: "08E99B65ABE19047"
-			min_width: 250
+			min_width: 300
 			rewards: [
 				{
 					id: "3638FD77A8101CA8"
@@ -311,6 +311,45 @@
 			}]
 			x: 5.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["309083107758B10C"]
+			id: "4C5D3AE08ACA9836"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24DFF6F00AFC0E91"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B0DB10288723806"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C5D3AE08ACA9836"]
+			id: "14CC5EDC04D6BAC7"
+			tasks: [{
+				id: "5B40918396BB221F"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14CC5EDC04D6BAC7"]
+			id: "602E1E149A49D056"
+			tasks: [{
+				id: "045965B973CBB9F7"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 }

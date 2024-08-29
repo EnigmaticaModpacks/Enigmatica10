@@ -123,9 +123,16 @@
 		"If you did, take that GM Cell back to the DNA Extractor and proceed from there as you would with any Cell. By the end of the process, you’ll have a blood sample with your fancy new upgraded trait."
 	]
 	quest.08E99B65ABE19047.quest_desc: [
-		"Spellcraft is important to any practitioner of the arcane arts. Doubly so in Ars Nouveau where spells can be used both directly from the Spell Book or imbued into a Spell Turret to fire automatically. "
+		"Spellcraft is important to any practitioner of the arcane arts. Doubly so in Ars Nouveau where spells can be used both directly from the Spell Book, imbued into a Spell Turret to fire automatically, or even enchanted directly onto equipement to trigger on a condition. "
 		""
 		"Begin by making yourself the Novice Spell Book. It comes with a few glyphs that you’ll be able to put together, but you’ll soon want to explore more glyphs to pull off ever more impressive feats."
+		""
+		"&6&nUseful Keybinds&r"
+		""
+		"[\"• Open Book (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.ars_nouveau.open_book\"},\")\"]"
+		"[\"• Selection HUD (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Selection HUD\"}]},\"keybind\":\"key.ars_nouveau.selection_hud\"},\")\"]"
+		"[\"• Next Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Next Slot\"}]},\"keybind\":\"key.ars_nouveau.next_slot\"},\")\"]"
+		"[\"• Previous Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Previous Slot\"}]},\"keybind\":\"key.ars_nouveau.previous_slot\"},\")\"]"
 		""
 		"If you're feeling a little daunted by spellcraft, that's normal. It's a huge and very powerful system. We'll try to point out useful spells to know throughout the quests, however. "
 		""
@@ -1883,6 +1890,15 @@
 		""
 		"They can also be inserted into an Ender Cell to increase it's capacity."
 	]
+	quest.4C5D3AE08ACA9836.quest_desc: [
+		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
+		""
+		"This will unlock Tier 2 Glyphs for you and really open up some wild possibilities for spells."
+		""
+		"&6⚠ Note: Any spells you’ve crafted will "
+		"&6    be transferred forward when "
+		"&6    upgrading. "
+	]
 	quest.4C745779C30B48A6.quest_desc: [
 		"With the Liquefaction Cauldron, we’ll use our solvent, Sal Ammoniac, to dissolve our ore into a purified Sulfur. "
 		"&n                                                  &r"
@@ -2563,8 +2579,8 @@
 		""
 		"Use a Dominion Wand to link Relays to other Relays or Source Jars. First Right-Click the origin, then Right-Click the destination."
 		""
-		"&a🛈 Tip: Relays may be linked to each"
-		"&a    other in a broad network!"
+		"&a🛈 Tip: You can recolor the beams shot "
+		"&a    by a Relay using the Wololo Glyph!"
 	]
 	quest.692EDEAEC3F4A2AD.quest_desc: [
 		"The Swapper is a powerful teleportation device that swaps the blocks or entities in front of it with its linked partner. "
