@@ -343,6 +343,12 @@
 		{
 			dependencies: ["4C5D3AE08ACA9836"]
 			id: "14CC5EDC04D6BAC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04D960CC4E538D07"
+				table_id: 1097567509703228045L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5B40918396BB221F"
 				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
@@ -354,6 +360,12 @@
 		{
 			dependencies: ["14CC5EDC04D6BAC7"]
 			id: "602E1E149A49D056"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C3F075EDC190D73"
+				table_id: 1097567509703228045L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "045965B973CBB9F7"
 				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }

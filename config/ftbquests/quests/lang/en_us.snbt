@@ -1914,9 +1914,8 @@
 		"    > &aDelay&r > &aCold Snap&r > &6Amplify&r"
 		"     "
 		""
-		"&6⚠ Note: Any spells you’ve crafted will "
-		"&6    be transferred forward when "
-		"&6    upgrading. "
+		"&6⚠ Note: Any spells you’ve crafted will be "
+		"&6    transferred forward when upgrading. "
 	]
 	quest.4C745779C30B48A6.quest_desc: [
 		"With the Liquefaction Cauldron, we’ll use our solvent, Sal Ammoniac, to dissolve our ore into a purified Sulfur. "
