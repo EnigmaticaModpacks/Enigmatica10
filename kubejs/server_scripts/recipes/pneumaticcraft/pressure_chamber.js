@@ -61,6 +61,15 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modularrouters:blank_upgrade', count: 8 }],
             pressure: 1.0,
             id: `${id_prefix}blank_upgrade`
+        },
+        {
+            inputs: [
+                { item: 'minecraft:snow_block', count: 1 },
+                { tag: 'c:buckets/empty', count: 1 }
+            ],
+            results: [{ id: 'minecraft:powder_snow_bucket', count: 1 }],
+            pressure: 1.0,
+            id: `${id_prefix}powder_snow_bucket`
         }
     ];
 
