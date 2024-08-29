@@ -117,6 +117,15 @@
 		""
 		"If you did, take that GM Cell back to the DNA Extractor and proceed from there as you would with any Cell. By the end of the process, you’ll have a blood sample with your fancy new upgraded trait."
 	]
+	quest.09C3C5173499DF7C.quest_desc: [
+		"To craft essences, you’ll need to place some pedestals adjacent to the Imbuement Chamber with key items installed in the pedestal. "
+		""
+		"These key items are &nnot consumed&r and are only there to set the recipe. "
+		""
+		"Valid placement is a 3x3x3 area centered on the Imbuement Chamber."
+		""
+		"&a🛈 Tip: Source is optional!"
+	]
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -2881,10 +2890,11 @@
 		"Feel free to hook up any Logistics you wish to extract the result."
 	]
 	quest.7750C6E87B1EBF43.quest_desc: [
-		""
 		"The humble Imbuement Chamber is perhaps the single most important apparatus in Ars Nouveau. "
 		""
 		"With it, you’ll be able to generate the Source Gems and Essences you’ll need for all future crafts. "
+		""
+		"For now, we'll need to start by converting some Lapis to Source Gems. "
 		""
 		"&a🛈 Tip: Source is optional!"
 	]
@@ -3032,6 +3042,7 @@
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
 	task.069760235257E581.title: "String Curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
+	task.0767C8200D0389A6.title: "Essences"
 	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
@@ -3061,9 +3072,9 @@
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
+	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
-	task.3DBE3AF880802D53.title: "Arcane Pedestals"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"

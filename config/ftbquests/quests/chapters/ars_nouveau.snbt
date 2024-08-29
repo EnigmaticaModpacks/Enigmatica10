@@ -79,13 +79,34 @@
 					type: "item"
 				}
 				{
-					id: "3DBE3AF880802D53"
-					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcane_platform)item(ars_nouveau:arcane_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "41F950FE18700674"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 			]
 			x: 0.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7750C6E87B1EBF43"]
+			icon: {
+				id: "ars_nouveau:arcane_pedestal"
+			}
+			id: "09C3C5173499DF7C"
+			tasks: [
+				{
+					id: "3898E7E189555B8C"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcane_platform)item(ars_nouveau:arcane_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0767C8200D0389A6"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:essences)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
 		}
 	]
 }
