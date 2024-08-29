@@ -153,5 +153,42 @@
 			x: 1.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["08E99B65ABE19047"]
+			icon: {
+				id: "ars_nouveau:scribes_table"
+			}
+			id: "309083107758B10C"
+			rewards: [
+				{
+					id: "5C25C64212C4C59B"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_crush"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5554DAF5CCAD1E28"
+					table_id: 8645512365595340409L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2BC7CA0B413D24B0"
+					item: { count: 1, id: "ars_nouveau:scribes_table" }
+					type: "item"
+				}
+				{
+					id: "3ADF4803B5DF4AF9"
+					item: { count: 1, id: "ars_nouveau:glyph_sensitive" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
 	]
 }

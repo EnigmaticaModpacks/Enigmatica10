@@ -1024,6 +1024,32 @@
 	]
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
+	quest.309083107758B10C.quest_desc: [
+		"Now that you’ve got your first Spell Book, let’s see about adding some extra glyphs to spice things up."
+		""
+		"To make a new glyph, simply Right-Click on the Scribe’s Table with your Spell Book. This will show all known and unknown glyphs grouped by tier. It’s also searchable, so finding the Glyph you’re after shouldn’t be hard. "
+		""
+		"Let’s start with something easy to craft: Sensitive. "
+		""
+		"This allows you to change the target of a spell, such as hitting Water instead of the blocks below. It also augments effects like Crush to work on items instead of blocks."
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Crush Items&r"
+		"    &5Projectile&r > &aCrush&r > &6Sensitive&r"
+		""
+		"&7Freeze Water&r"
+		"    &5Touch&r > &6Sensitive&r > &aFreeze&r "
+		""
+		"&a🛈 Tip: The Scribe's Table will pull from "
+		"&a    nearby inventories automatically!"
+		""
+		"&6⚠ Note: Known Glyphs are stored in "
+		"&6    your player data. Losing a book "
+		"&6    just means losing the spell combos"
+		"&6    you’ve made rather than all Glyph "
+		"&6    knowledge."
+	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.3263757C9A240C70.quest_desc: [
 		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
