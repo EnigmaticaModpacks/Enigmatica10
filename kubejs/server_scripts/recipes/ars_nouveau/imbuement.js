@@ -84,6 +84,17 @@ ServerEvents.recipes((event) => {
             ],
             source: 2000 * 3,
             id: `${id_prefix}conjuration_essence`
+        },
+        {
+            input: { tag: 'c:storage_blocks/source' },
+            output: { id: 'ars_elemental:anima_essence', count: 4 },
+            pedestalItems: [
+                { item: 'minecraft:wither_skeleton_skull' },
+                { item: 'minecraft:bone_meal' },
+                { item: 'minecraft:golden_apple' }
+            ],
+            source: 2000 * 3,
+            id: `${id_prefix}anima_essence`
         }
     ];
 
