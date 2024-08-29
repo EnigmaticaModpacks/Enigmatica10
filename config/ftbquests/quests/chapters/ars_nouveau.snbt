@@ -10,27 +10,82 @@
 	id: "5C2F675CD8139E11"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			components: {
-				"ftbquests:icon": "ars_nouveau:block/sourceberry/sourceberry3"
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ars_nouveau:block/sourceberry/sourceberry3"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			id: "ftbquests:custom_icon"
+			id: "41614A924E5556EE"
+			rewards: [
+				{
+					id: "0F6C9D6ED1B29251"
+					item: {
+						count: 1
+						id: "ars_nouveau:worn_notebook"
+					}
+					type: "item"
+				}
+				{
+					id: "393D3E6B0F90FA3E"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourceberry_bush"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AE1C3BF867DD395"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
 		}
-		id: "41614A924E5556EE"
-		rewards: [{
-			id: "0F6C9D6ED1B29251"
-			item: {
-				count: 1
-				id: "ars_nouveau:worn_notebook"
+		{
+			dependencies: ["41614A924E5556EE"]
+			icon: {
+				id: "ars_nouveau:purple_archwood_sapling"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "37A217A1754608F6"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: -0.5d
-	}]
+			id: "69A9A6E9B7CB34B4"
+			tasks: [
+				{
+					id: "07D8961C49D02845"
+					item: { components: { "ftbfiltersystem:filter": "and(item_tag(minecraft:saplings)or(mod(ars_additions)mod(ars_elemental)mod(ars_nouveau)))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "418BC399B733818A"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69A9A6E9B7CB34B4"]
+			icon: {
+				id: "ars_nouveau:imbuement_chamber"
+			}
+			id: "7750C6E87B1EBF43"
+			tasks: [
+				{
+					id: "1E094E135E6FF0F5"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					id: "3DBE3AF880802D53"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcane_platform)item(ars_nouveau:arcane_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
 }

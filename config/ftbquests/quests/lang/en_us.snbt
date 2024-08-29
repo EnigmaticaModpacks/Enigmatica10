@@ -1493,6 +1493,16 @@
 		"&a    Configurator to set the tank to"
 		"&a    auto-output from the bottom."
 	]
+	quest.41614A924E5556EE.quest_desc: [
+		"Welcome to Ars Nouveau!"
+		""
+		"This exciting mod will fulfil your every magical fantasy, from casting spells to brewing potions. "
+		""
+		"Summon magical creatures and craft magical gadgets to automagically perform nearly any task around your home!"
+		""
+		"&a🛈 Tip: Sourceberries can be planted "
+		"&a    on grass!"
+	]
 	quest.41614A924E5556EE.title: "Ars Nouveau"
 	quest.4229112D97BB45E6.quest_desc: [
 		"Power cables that double as limited storage, keeping a buffer of power in each block space. "
@@ -2457,6 +2467,11 @@
 		"&a    crystal like Glistering Honey"
 		"&a    or Amethyst"
 	]
+	quest.69A9A6E9B7CB34B4.quest_desc: [
+		"The first thing you’ll need to do to get started with Ars Nouveau is find some Archwood trees. "
+		""
+		"For now, any color will do, but you’ll eventually want to collect some saplings from each variety."
+	]
 	quest.69AAE7C502629B3E.quest_desc: [
 		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
 		""
@@ -2865,6 +2880,14 @@
 		""
 		"Feel free to hook up any Logistics you wish to extract the result."
 	]
+	quest.7750C6E87B1EBF43.quest_desc: [
+		""
+		"The humble Imbuement Chamber is perhaps the single most important apparatus in Ars Nouveau. "
+		""
+		"With it, you’ll be able to generate the Source Gems and Essences you’ll need for all future crafts. "
+		""
+		"&a🛈 Tip: Source is optional!"
+	]
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
@@ -3009,6 +3032,7 @@
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
 	task.069760235257E581.title: "String Curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
+	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
@@ -3039,11 +3063,13 @@
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
+	task.3DBE3AF880802D53.title: "Arcane Pedestals"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
+	task.418BC399B733818A.title: "Archwood"
 	task.42E9F9AE06C46A76.title: "Any Pickaxe"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
 	task.4315ED9269099C81.title: "Any Chest"
