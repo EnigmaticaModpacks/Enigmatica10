@@ -57,5 +57,10 @@
     "item.minecraft.potion.effect.greater_resistance": "Potion of Resistance",
     "item.minecraft.splash_potion.effect.greater_resistance": "Splash Potion of Resistance",
     "item.minecraft.lingering_potion.effect.greater_resistance": "Lingering Potion of Resistance",
-    "item.minecraft.tipped_arrow.effect.greater_resistance": "Arrow of Resistance"
+    "item.minecraft.tipped_arrow.effect.greater_resistance": "Arrow of Resistance",
+
+    "item.minecraft.potion.effect.greater_instant_damage": "Potion of Harming",
+    "item.minecraft.splash_potion.effect.greater_instant_damage": "Splash Potion of Harming",
+    "item.minecraft.lingering_potion.effect.greater_instant_damage": "Lingering Potion of Harming",
+    "item.minecraft.tipped_arrow.effect.greater_instant_damage": "Arrow of Harming"
 }

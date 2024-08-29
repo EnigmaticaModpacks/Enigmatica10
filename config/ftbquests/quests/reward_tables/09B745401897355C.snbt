@@ -1,0 +1,59 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "09B745401897355C"
+	loot_size: 2
+	order_index: 17
+	rewards: [
+		{ item: { components: { "pneumaticcraft:main_tank": { amount: 32000, id: "pneumaticcraft:oil" } }, count: 1, id: "pneumaticcraft:medium_tank" } }
+		{
+			count: 4
+			item: {
+				count: 1
+				id: "pneumaticcraft:speed_upgrade"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "pneumaticcraft:volume_upgrade"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 4
+			item: {
+				count: 1
+				id: "pneumaticcraft:module_expansion_card"
+			}
+			random_bonus: 4
+		}
+		{ item: { count: 1, id: "pneumaticcraft:smart_chest_kit" } }
+		{ item: { components: { "pneumaticcraft:potion_ammo": [{ item: { components: { "minecraft:potion_contents": { potion: "kubejs:greater_instant_damage" } }, count: 1, id: "minecraft:potion" }, slot: 0 }] }, count: 1, id: "pneumaticcraft:gun_ammo" }, weight: 0.5f }
+		{ item: { components: { "pneumaticcraft:potion_ammo": [{ item: { components: { "minecraft:potion_contents": { potion: "minecraft:strong_slowness" } }, count: 1, id: "minecraft:potion" }, slot: 0 }] }, count: 1, id: "pneumaticcraft:gun_ammo" }, weight: 0.5f }
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "pneumaticcraft:reinforced_pressure_tube"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 4
+			item: {
+				count: 1
+				id: "pneumaticcraft:aphorism_tile"
+			}
+			random_bonus: 4
+		}
+	]
+	use_title: true
+}

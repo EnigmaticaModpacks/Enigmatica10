@@ -126,7 +126,8 @@ MoreJS.registerPotionBrewing((event) => {
         { output: 'kubejs:greater_spell_damage', input: 'ars_nouveau:spell_damage_potion_strong' },
         { output: 'kubejs:greater_shielding', input: 'ars_nouveau:shielding_potion_strong' },
         { output: 'kubejs:greater_recovery', input: 'ars_nouveau:recovery_potion_strong' },
-        { output: 'kubejs:greater_resistance', input: 'kubejs:strong_resistance' }
+        { output: 'kubejs:greater_resistance', input: 'kubejs:strong_resistance' },
+        { output: 'kubejs:greater_instant_damage', input: 'minecraft:strong_harming' }
     ];
 
     greater_potions.forEach((potion) => {

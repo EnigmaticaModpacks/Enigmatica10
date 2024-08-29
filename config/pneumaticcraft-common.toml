@@ -9,18 +9,18 @@
 	max_programming_area = 250000
 	#Fluids at least as hot as this temperature (Kelvin) will be auto-registered as Liquid Compressor fuels, the quality being dependent on fluid temperature.
 	#Range: > 0
-	min_fluid_fuel_temperature = 373
+	min_fluid_fuel_temperature = 10000
 	#Should dyes be used up when coloring things (Drones, Logistics Modules, Redstone Modules)?
 	use_up_dyes_when_coloring = false
 	#Cooldown, in ticks, between subsequent uses of Bandages. Set to 0 to disable cooldowns entirely.
 	#Range: > 0
-	bandage_cooldown = 160
+	bandage_cooldown = 80
 	#Time, in ticks, it takes to use a bandage.
 	#Range: > 1
-	bandage_use_time = 40
+	bandage_use_time = 20
 	#Health points restored on bandage use (1 health = half a heart).
 	#Range: 1.0 ~ 1.7976931348623157E308
-	bandage_health_restored = 6.0
+	bandage_health_restored = 12.0
 	#Damage inflicted by stepping on a Plastic Construction Brick™ without any protection
 	#Range: 0.0 ~ 1.7976931348623157E308
 	plastic_brick_damage = 3.0
@@ -44,10 +44,10 @@
 	electric_compressor_efficiency = 40
 	#Base chance (1/x) per tick of a lightning strike on/around the Electrostatic Generator
 	#Range: > 0
-	electrostatic_lightning_chance = 100000
+	electrostatic_lightning_chance = 50000
 	#The max height of an elevator per stacked Elevator Base block.
 	#Range: 1 ~ 256
-	elevator_base_blocks_per_base = 6
+	elevator_base_blocks_per_base = 24
 	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
 	#Range: > 0
 	flux_compressor_efficiency = 40
@@ -147,14 +147,14 @@
 ["Micromissile Properties"]
 	#Base explosion damage (modified by missile setup)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_explosion_damage = 1.0
+	base_explosion_damage = 3.0
 	#Do micromissile explosions cause terrain damage? Note: when set to true, the 'tntExplosionDropDecay' gamerule is used to determine block drops.
 	damage_terrain = false
 	#Do micromissile explosions start fires?
 	start_fires = false
 	#Cooldown for missile firing in ticks
 	#Range: > 0
-	launch_cooldown = 15
+	launch_cooldown = 10
 	#Base fueled-flight duration in ticks. After this, missiles will drop from the sky.
 	#Range: > 0
 	lifetime = 300
@@ -174,7 +174,7 @@
 	ap_ammo_ignore_armor_chance = 100
 	#Armor Piercing Ammo cartridge size
 	#Range: 1 ~ 30000
-	armor_piercing_ammo_cartridge_size = 500
+	armor_piercing_ammo_cartridge_size = 1000
 	#Base bullet damage of the Sentry Gun, Handheld Minigun, and Drone Minigun, before ammo bonuses are considered
 	#Range: 0.0 ~ 1.7976931348623157E308
 	base_damage = 6.0
@@ -183,7 +183,7 @@
 	base_range = 50
 	#Explosive Ammo cartridge size
 	#Range: 1 ~ 30000
-	explosive_ammo_cartridge_size = 250
+	explosive_ammo_cartridge_size = 500
 	#Minigun Explosive Ammo damage multiplier (relative to standard ammo)
 	#Range: 0.0 ~ 1.7976931348623157E308
 	explosive_ammo_damage_multiplier = 0.2
@@ -272,7 +272,7 @@
 	numPeriodicOffers = 10
 	#Number of villager offers randomly selected for the 'live' offer list. Note: this a maximum, and the actual number chosen each time may be less.
 	#Range: > 0
-	numVillagerOffers = 20
+	numVillagerOffers = 40
 	#Time in ticks between each periodic offer reshuffle (24000 ticks = one Minecraft day)
 	#Range: > 1000
 	reshuffleInterval = 24000
@@ -341,7 +341,7 @@
 
 [Drones]
 	#Enable Drone Suffocation Damage
-	enable_drone_suffocation = true
+	enable_drone_suffocation = false
 	#Drones render their held item (the item in slot 0 of their inventory) ?  Note: this is in common config since if enabled, server needs to sync the item data to the client.
 	drones_render_held_item = true
 	#Are drones allowed to import Experience Orbs and convert them to Memory Essence fluid?

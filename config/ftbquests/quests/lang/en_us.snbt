@@ -12,6 +12,9 @@
 	chapter.47870879D8E3742D.title: "Getting Started"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
+	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
+	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
+	chapter.603B06098A07350C.title: "EvilCraft"
 	chapter.60F666DD0AC6F03F.title: "Multiverse"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
@@ -79,8 +82,8 @@
 		""
 		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
 	]
-	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of liquid transfer options available in E10."]
-	quest.04CE3E8B1DF8B441.title: "Liquids"
+	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
+	quest.04CE3E8B1DF8B441.title: "Fluids"
 	quest.0545305EBB98A0BA.quest_desc: [
 		"The Advanced Swapper must be bound to another Advanced, just like the Simple Swappers. "
 		""
@@ -89,6 +92,16 @@
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
+	quest.0554264AE11578D2.quest_desc: [
+		"The pressure chamber is a multiblock crafting interface that uses compressed air to operate. "
+		""
+		"Building the structure can be a little daunting at first, but the guidebook covers the requirements in detail."
+		""
+		"You’ll want to begin by building a 3x3x3 structure, as the larger ones can take a long time to fill at this stage. "
+		""
+		"This will require two Interface blocks, one Valve, and a good amount of Pressure Chamber Walls; Pressure Chamber Glass is optional, but recommended to see what's happening inside."
+	]
+	quest.0554264AE11578D2.title: "Pressure Chamber"
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
 		""
@@ -108,6 +121,8 @@
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
 		"The more there are in a network, the more fluid they can transfer per tick."
+		""
+		"[\"For more information, refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Mechanical_Pipe\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Mechanical Pipe\",\"underlined\":true},\" article in their wiki.\"]"
 	]
 	quest.09EE2DE8B55928C2.quest_desc: [
 		"New technology often means new efficiencies in Modern Industrialization. In this case, the Bronze Compressor allows converting Ingots to Plates  at a 1:1 ratio, instead of the former 2:1 ratio."
@@ -117,6 +132,22 @@
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
+	]
+	quest.09F2EA329EF3650F.quest_desc: [
+		"The Mercury Catalyst and Sulfuric Flux Emitter serve a few functions in the Array. "
+		""
+		"First, and most importantly, the Sulfuric Flux Emitter binds all the previous blocks together. It also provides energy to them."
+		""
+		"The Mercury Catalyst then acts as a battery of energy. This will need to be supplied with a steady supply of Mercury Shards."
+		"&n                                                  &r"
+		""
+		"Place the Catalyst in your work area and supply it with Mercury Shards."
+		""
+		"With the Sulfuric Flux Emitter in hand, Right-Click each of the Pedestals for the Array. They'll be highlighted indicating they've been selected."
+		""
+		"Place the Sulfuric Flux Emitter on the Catalyst. The array should be fully formed and powered now. "
+		""
+		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -321,6 +352,18 @@
 	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
+	quest.0FE11A739BA3623E.quest_desc: [
+		"The Reformation Array itself is a freeform multiblock. It doesn’t matter where each piece goes, just that they’re somewhat close. "
+		""
+		"We won’t need a big array for this recipe, so a 5x5 area should be more than sufficient for the multiblock structure."
+		""
+		"The first piece we’ll put down is the Reformation Target Pedestal. This Pedestal informs the array of what we want to craft, in this case, more Quartz Sulfur. "
+		"&n                                                  &r"
+		""
+		"Place the Target Pedestal in your work area and Right-Click it with the Quartz Sulfur."
+		""
+		"&a🛈 Tip: The Sulfur may be extracted again via Right-Click."
+	]
 	quest.10762E4BB7F187BE.quest_desc: [
 		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
 		""
@@ -371,6 +414,8 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
+	quest.1447C4568B9A1606.title: "Incubation"
 	quest.14688BF9C4B5766C.quest_desc: [
 		"Player Transmitters wirelessly charge FE based items and equipment in your inventory. "
 		""
@@ -436,6 +481,24 @@
 		"&a    organized and avoid cross "
 		"&a    contamination!"
 	]
+	quest.16A8BFECD924477D.quest_desc: [
+		"A few options exist for compressing air at this stage."
+		""
+		"The Liquid Compressor uses liquid fuels to run and can be a nice alternative to the Air Compressor. "
+		""
+		"The liquid fuels PNC has to offer will require a bit of progression still, but they’re very viable in the early game, with Biodiesel being an easily renewable power source. "
+		""
+		"Other mods also have liquid fuels, however, which can be used with PNC. So, if you’ve delved into Just Dire Things or Modern Industrialization, you may find some useful fuels to get you jump started here."
+		""
+		"If you hate fun, the Manual Compressor exists and will having you questioning your life choices in no time. "
+	]
+	quest.16A8BFECD924477D.title: "Alternative Basic Compressors"
+	quest.16BFB19411FE195F.quest_desc: [
+		"LaserIO is a catch all logistics mod capable of many things. "
+		""
+		"Check out the guidebook for more information on how to use it to your advantage!"
+	]
+	quest.16BFB19411FE195F.title: "LaserIO"
 	quest.16C7D5478BF3D449.quest_desc: [
 		"The Learning Mods chapters are designed to help you get started with large content mods. These are broken up into Technology and Magic sections and will explain roughly how to progress through the mod as well as provide tips on how to use different features of the mod."
 		""
@@ -537,7 +600,11 @@
 		""
 		"Greater range will cost more power!"
 	]
-	quest.1D3ECD980E15451B.quest_desc: ["Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."]
+	quest.1D3ECD980E15451B.quest_desc: [
+		"Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."
+		""
+		"[\"For more information, refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Pressurized_Tube\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Pressurized Tube\",\"underlined\":true},\" article in their wiki.\"]"
+	]
 	quest.1D4634BB3AF725EC.quest_desc: ["An all-purpose crushing machine used to process ores and other materials. Using it to produce Biofuel is a great way to get some power out of growing crops. "]
 	quest.1D5616DFA428D46F.quest_desc: [
 		"Building Gadgets offer a number of FE powered tools to assist with building ranging from block placement, block replacement, copy/paste, and even straight deletion of large areas."
@@ -561,10 +628,37 @@
 		"Later, both of these machines will find use in more advanced processes, including more advanced ore processing and nuclear energy!"
 	]
 	quest.1E2327FB6801D209.title: "Ethene"
+	quest.1E2BA13C53664E50.quest_desc: [
+		"The Reformation Array is the basis for the replication of resources in Theurgy. "
+		""
+		"On the outside, the process is fairly straightforward."
+		"  "
+		"  1. Obtain a Sulfur of your desired "
+		"     material to act as a key. "
+		"     This item is not consumed."
+		"  2. Obtain an appropriate Sulfur of "
+		"     another material to transmute into "
+		"     the desired material."
+		"  3. Mix it all together in the  "
+		"     Reformation Array!"
+		""
+		"That last step is a big one though, so let’s walk through the process in a little more detail. "
+		"&n                                                  &r"
+		""
+		"For now, use Liquefaction recipes to obtain a Quartz Sulfur and some Lapis Sulfur. "
+		""
+		"We’ll be converting Lapis to Quartz at a 1:1 ratio."
+	]
+	quest.1E2BA13C53664E50.title: "Reformation"
 	quest.1E78584388808899.quest_desc: [
 		"Finally a multiblock to replace all of those individual turbines you’ve been using. "
 		""
 		"The Large Steam Turbine will be somewhat limited right now, seeing as the best we can do is an HV Energy Hatch, but it will be able to grow as your base grows. "
+	]
+	quest.1EBAABF6E93CFCDF.quest_desc: [
+		"Once properly prepared in the UV Light Box, Empty PCBs will need to be etched in the etching tank."
+		""
+		"You’ll need some Etching Acid in the Tank as well. Normally this isn’t consumed, but if heat is applied to the Tank it will speed up the process and slowly consume the Acid."
 	]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
@@ -645,12 +739,13 @@
 		"&a    Extractors with a Mercurial Wand"
 		"&a    to set the side they work with."
 	]
+	quest.22ABFC3024E54FEA.title: "Mercurial Item Nodes"
 	quest.235AA993029F7277.quest_desc: [
 		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
 		""
 		"This is another material that will be used extensively, so setting up a dedicated production line would be a good use of one’s time. In particular, a new Steam Blast Furnace will be recommended for creating Synthetic Oil."
 	]
-	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in E10."]
+	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in Enigmatica 10."]
 	quest.235D7EF41916E480.title: "Power"
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
@@ -705,6 +800,23 @@
 		""
 		"A keen eye will always be able to identify a rift by the telltale presence of Kaleidite Clusters growing from any surface."
 	]
+	quest.267FEB0BB5D9B4D9.quest_desc: [
+		"The Assembly Table is a multiblock machine capable of more advanced crafting. "
+		""
+		"In particular, it can be used to simplify the process of making more PCBs, completely bypassing the UV and Etching steps.          "
+		""
+		"Each piece has requirements for valid placement; refer to the PNC:R manual for the exact rules."
+		""
+		"A simple layout can be setup in a 2x3 space, however:"
+		"&a    IO Unit   Controller     IO Unit"
+		"&a    Drill      Platform        Laser"
+		""
+		"&6⚠ Note: The Drill \\& Laser program "
+		"&6    allows the Assembly Table to craft "
+		"&6    recipes that use either a drill or "
+		"&6    laser, or both."
+	]
+	quest.267FEB0BB5D9B4D9.title: "Assembly Table"
 	quest.2850FCAFEEF5004C.quest_desc: [
 		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
 		""
@@ -748,6 +860,17 @@
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
 	]
+	quest.28EAC6C33A575A42.quest_desc: [
+		"Transmutation is the process of turning one item type into another. In previous sections we used Lapis, a common gem, to make more Quartz, another common gem. "
+		""
+		"What if you want to turn that abundance of gems into metal, however?"
+		""
+		"That’s where Transmutation comes in. Let’s see how that works. "
+		"&n                                                  &r"
+		""
+		"For this, we’ll be converting Quartz Sulfur to Iron Sulfur. Gather up a few of each using the Liquefaction recipes."
+	]
+	quest.28EAC6C33A575A42.title: "Transmutation"
 	quest.2961B707783AC925.quest_desc: [
 		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
 		""
@@ -759,6 +882,16 @@
 		"Flower Headwear can also be used to prevent Wrath of the Hive, allowing safer travels through a Cell Maze. "
 		""
 		"Dye it and show off your style!"
+	]
+	quest.29D1FB4380460203.quest_desc: [
+		"As the name would imply, PneumaticCraft has its own power system that mimics real world pneumatics, or air power. Making that air will require some form of Compressor."
+		""
+		"As you’re just getting started, you’ll want to craft an Air Compressor as it is cheap and burns regular furnace fuels."
+		"&n                                                  &r"
+		""
+		"Machines and Tubes will burst if over pressurized! Avoid this by disabling the Compressor when it’s nearly full. "
+		""
+		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
 	quest.2A2D51206676A83C.quest_desc: [
 		"We see you there, looking at that hive, wondering what might be going on inside. "
@@ -781,15 +914,13 @@
 		"Welcome to Modern Industrialization!"
 		""
 		"In this chapter, we’ll discover the ins and outs of this expansive tech mod. Starting from the humble beginnings of a simple miner running a Steam Boiler, to a nuclear scientist transmuting energy and matter on a whim."
-		""
-		"[\"In the meantime, check out the Advancements (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Advancement Key\"}]},\"keybind\":\"key.advancements\"},\") for a guide to help you get started.\"]"
-		""
-		"&6⚠ Note: The MI Guidebook is not "
-		"&6    currently available. This chapter "
-		"&6    will be a priority to help people "
-		"&6    discover this exciting mod."
 	]
 	quest.2A83BC699BE18F3A.title: "Modern Industrialization"
+	quest.2AA352D00D86DCC3.quest_desc: [
+		"With an Aerial Interface, you gain remote access to your own inventory. "
+		""
+		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you and manage your XP. The sky's the limit!"
+	]
 	quest.2AF1CE73E140D685.quest_desc: [
 		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained."
 		""
@@ -808,6 +939,8 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
+	quest.2BF4F678812848FC.title: "Fermentation"
 	quest.2C1538BE243F0CB4.quest_desc: [
 		"So you’ve found a trait you’d like to have for yourself? You’ll need to infuse it into a Plasmid. "
 		""
@@ -817,12 +950,29 @@
 		"&a    Plasmids rather than wasting useful "
 		"&a    Genes on them."
 	]
+	quest.2C7267F92822D2C1.quest_desc: [
+		"For the first step, we’ll need to ferment our Quartz Sulfur down into Common Gem Niter. "
+		""
+		"Insert the Quartz Sulfur, some Water, and some Fermentation Starter in the Barrel, then close it up with a Sneak Right-Click."
+		""
+		"The Fermentation Barrel can process up to a stack of material at a time."
+		""
+		"&a🛈 Tip: A Comparator reads the Output "
+		"&a    slot of the barrel, indicating that "
+		"&a    some or all of the material has "
+		"&a    processed."
+	]
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
 		""
 		"&a🛈 Tip: Right-Clicking many Bronze Tier"
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
+	]
+	quest.2CA1A8A7B84FAD71.quest_desc: [
+		"Modular Routers is a catch all logistics mod capable of many things. "
+		""
+		"Check out the guidebook for more information on how to use it to your advantage!"
 	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -831,6 +981,13 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.2F835F759B26FD4E.quest_desc: [
+		"The UV Light Box is a critical step to creating PCBs which are used for advanced technology and logistics. "
+		""
+		"The device is used to prepare Empty PCBs for etching. The longer the Empty PCB is allowed to cook in the UV Light Box, the better odds it has of etching properly. Leave the Threshold at 100% for now to ensure the Empty PCBs will etch during the next step."
+		""
+		"Easier methods will soon become available. For now, crafting a large batch of Empty PCBs will suffice."
 	]
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
@@ -872,6 +1029,17 @@
 		"&a    bottom of the Mineshaft."
 	]
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
+	quest.358A62846D6B0004.quest_desc: [
+		"The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining. "
+		""
+		"Less useful products can be converted to more valuable materials such as making Lubricant from Diesel."
+		""
+		"The TPP is also used for the creation of Molten Plastic which is our primary goal. Get a bucket of the stuff and dump it on the ground to cool it into useful sheets."
+		""
+		"&a🛈 Tip: Plastic can also be cooled with a"
+		"&a    Heat Frame, granting better yields!"
+	]
+	quest.358A62846D6B0004.title: "Plastic"
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -886,6 +1054,7 @@
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
 	quest.3840097BB3E09C9D.quest_desc: ["Equivalent to Stone Tools, Kaleidite Tools can be handy in a pinch if you happen to find yourself in a rift without your normal tools. "]
+	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
 		""
@@ -961,6 +1130,12 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.3BC8ED2BD4E5EEC6.quest_desc: [
+		"They may be tiny, but they pack a mighty punch. "
+		""
+		"&a🛈 Tip: Micromissiles may be restored "
+		"&a    with TNT in an Anvil!"
+	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
 		""
@@ -971,6 +1146,18 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.3C4305830D6978C5.quest_desc: [
+		"Looking for an upgrade to your mining?"
+		""
+		"A Pneumatic Jackhammer is an all-in-one mining tool with the ability to mine out large areas with ease. "
+		""
+		"It can even hot-swap enchantments by inserting either a Fortune or Silk Touch book in the inventory."
+		""
+		"&a🛈 Tip: An Air Canister Array acts as "
+		"&a    a portable air battery, keeping "
+		"&a    your tools running longer!"
+	]
+	quest.3C50D5FE5FA787A9.quest_desc: ["For when you just need a big fracking gun to tell the monster hordes who’s boss. "]
 	quest.3CA4472228D0F866.quest_desc: [
 		"By adding an ME Controller to a network, we gain access to far more channels; 32 per side, in fact. "
 		""
@@ -1217,6 +1404,15 @@
 		""
 		"These are an excellent way to help you keep track of the number of channels in use, as you can visually trace back where they’re coming from. "
 	]
+	quest.3F11C37840644254.quest_desc: [
+		"Likely the first thing you’ll want to make with Plastic will be an Amadron Tablet, which gives you access to some high-quality trades that you may not find elsewhere. "
+		""
+		"Notable purchases to make here are the PCB Blueprint and the Drill \\& Laser Assembly Program. Grab them both and hold on to them."
+		""
+		"&a🛈 Tip: Amadron allows players to "
+		"&a    create custom shops to trade "
+		"&a    with each other!"
+	]
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
 		"The Fluidic Plenisher can be an excellent way to fill an area with fluid. Simply pipe in fluids and supply power to quickly make a lake of anything you like!"
@@ -1297,10 +1493,13 @@
 		"&a    Configurator to set the tank to"
 		"&a    auto-output from the bottom."
 	]
+	quest.41614A924E5556EE.title: "Ars Nouveau"
 	quest.4229112D97BB45E6.quest_desc: [
 		"Power cables that double as limited storage, keeping a buffer of power in each block space. "
 		""
 		"The more there are in a network, the more power they can transfer per tick. "
+		""
+		"[\"For more information, refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Universal_Cable\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Universal Cable\",\"underlined\":true},\" article in their wiki.\"]"
 	]
 	quest.422F7BABAAEE92E0.quest_desc: [
 		"Well worth the effort, the Diesel Jetpack functions much like an Elytra with the Space bar controlling it."
@@ -1499,6 +1698,17 @@
 		"Coupled with a QIO Redstone Adapter, these can be used to keep stock of various products."
 	]
 	quest.4840F7361DF70516.title: "QIO System"
+	quest.486FDAA44AED23C4.quest_desc: [
+		"A small multiblock consisting of the Controller and up to four Outputs stacked atop it, the Refinery is central to the production of Plastic, Lubricant, and Fluid Fuels. "
+		""
+		"The Refinery uses Heat instead of Air, though you may wish to use a Vortex Tube to create the heat to operate it, as it needs to get quite hot. "
+		""
+		"You can make life easier by setting it up in a hot biome such as a Desert or the Nether too, as ambient heat plays a role."
+		""
+		"&a🛈 Tip: Look at Uses for Heat Pipes in"
+		"&a    EMI for a list of heat sources."
+	]
+	quest.486FDAA44AED23C4.title: "Refinery"
 	quest.487C1E9850772F38.quest_desc: [
 		"At this point, you may be feeling the heat a bit, noticing your Boiler can’t keep up. Building more is an option, but upgrading infrastructure periodically will be more efficient in the long run. "
 		""
@@ -1520,7 +1730,7 @@
 		""
 		"Each of these steps, and how they come together will be discussed in the following quests."
 	]
-	quest.48F901DB80482CAA.title: "Material Processing"
+	quest.48F901DB80482CAA.title: "Ore Processing"
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -1554,6 +1764,13 @@
 		"&c⚠ Warning: Outputs will be voided if"
 		"&c    there are insufficient Hatches"
 		"&c    available to receive the items!"
+	]
+	quest.4AA912FDACFC1654.quest_desc: [
+		"Next, we need to Digest our materials. When exalting to a higher tier, we also need to add Purified Gold to the mix. Refer to EMI for recipes. "
+		""
+		"The Digestion Vat works exactly as the Fermentation Vat does and can be similarly automated with Redstone. Refer to the guidebook for examples. "
+		""
+		"Our end goal here will be Rare Metal Niter."
 	]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
@@ -1607,6 +1824,36 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.4D1EE65F80F50090.quest_desc: [
+		"The Reformation Source Pedestal is used to hold our input ingredients; Lapis Sulfur for the time being."
+		""
+		"Pay close attention to the recipes in EMI. Reformation recipes can require up to eight Source Pedestals for a given recipe. "
+		""
+		"For this one, we’ll only need one. "
+		"&n                                                  &r"
+		""
+		"Place the Source Pedestal in your work area and Right-Click it with the Lapis Sulfur. "
+		""
+		"&a🛈 Tip: More input Sulfur can be "
+		"&a    provided through any form of "
+		"&a    Logistics, such as Mercurial "
+		"&a    Item Nodes!"
+	]
+	quest.4E175A06927C3A75.quest_desc: [
+		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
+		""
+		"It will also give you access to modify the equipment such as installing Speed and Volume Upgrades."
+		""
+		"Lastly, and perhaps most importantly, the Charging Station acts as the workstation for Pressure Mechanics. "
+		""
+		"These villagers can sell a number of very useful things, including Finished PCBs which will jumpstart your journey through the mod considerably."
+		""
+		"&a🛈 Tip: A Dispenser Upgrade allows the "
+		"&a    Charging Station to charge entities "
+		"&a    standing on top of it. This can be "
+		"&a    used to recharge a Drone or to "
+		"&a    recharge all your gear at once!"
 	]
 	quest.4E7DA28C54FB8766.quest_desc: [
 		"These materials can frequently take a great deal of time to find by exploring alone. "
@@ -1693,16 +1940,13 @@
 		"&6    the interface."
 	]
 	quest.51F25D35F62B37BA.quest_desc: [
-		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
+		"The Mercurial Logistics system is a simple network for moving Items and Fluids."
 		""
 		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
 		""
 		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
-		""
-		"&a🛈 Tip: Right-Click Inserters and "
-		"&a    Extractors with a Mercurial Wand"
-		"&a    to set the side they work with."
 	]
+	quest.51F25D35F62B37BA.title: "Mercurial Logistics"
 	quest.5203EDBBACDBA86A.quest_desc: [
 		"Some tools and blocks will require energy to operate. Though they’ll work with any Forge Energy, the mod also includes a few generators to cover that need. "
 		""
@@ -1775,9 +2019,15 @@
 		"Be sure to stock up!"
 	]
 	quest.5678189CDBAF373C.quest_desc: [
-		"Simple item pipes for moving things around. They can have a simple color coded routing system they can use to determine where things will go. "
+		"Basic item pipes for moving things around. "
+		""
+		"They have a simple color coded routing system they can use to determine where things will go. "
 		""
 		"Mekanism machines pushing into them can natively color-code items, or a Logistical Sorter can be used to pull from any inventory and color-code items appropriately."
+		""
+		"For more information on configuring these, refer to the following articles on their wiki:"
+		"[\"• \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Logistical_Transporter\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Logistical Transporter\",\"underlined\":true}]"
+		"[\"• \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com/wiki/Logistical_Sorter\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Logistical Sorter\",\"underlined\":true}]"
 	]
 	quest.56D8B0E6FD8CF048.quest_desc: [
 		"Energy Cells are all about in-situ energy storage. They're best paired with unreliable power sources, such as Solar, or slower power generators that aren't under constant load."
@@ -1816,6 +2066,24 @@
 		""
 		"The simplest way to do this is to place the machine and open the GUI. From here locate the recipe you want it to run in EMI and press the + button to set the input and output filters."
 	]
+	quest.578401B6C9DA2747.quest_desc: [
+		"With PCBs and Plastic behind us, we can delve into High Pressure mechanics and all that comes with it. For this, we'll need to build a high-performance Compressor."
+		" "
+		"All of these compressors are capable of producing 20 bar of pressure, though each has its own operational challenges to overcome. "
+		"&n                                                                          &r"
+		""
+		"[\"The Advanced Air Compressor and the Advanced Liquid Compressor both operate using the same fuels you've been using thus far but do need to be cooled down. For a step-by-step guide to cooling, refer to our \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-heating-and-cooling#advanced-compressors-1\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
+		""
+		"Similarly, the Flux Compressor will run using energy you may already be creating for other mods such as Mekanism or Modern Industrialization. It also requires cooling, just as the two previous entries."
+		""
+		"The Electrostatic Compressor can be a great set-and-forget option, since it runs passively without cooling. It runs best during stormy weather but will still output some air even during clear skies. "
+		""
+		"&a🛈 Tip: Search &3#electrostatic&r &ain EMI to discover valid "
+		"&a    blocks for an Electrostatic Grid."
+		""
+		"Lastly the Solar Compressor runs passively but requires close monitoring. It must be allowed to heat up to do anything, but overheating will cause it to break. Therefore more advanced heat management is required than what’s used for other compressors. "
+	]
+	quest.578401B6C9DA2747.title: "Advanced Compressors"
 	quest.579C07CD07599438.quest_desc: [
 		"In order to autocraft anything, AE needs a CPU to manage the craft. These are multi-block constructions composed of up to three components."
 		""
@@ -1840,6 +2108,18 @@
 		"  handling."
 	]
 	quest.579C07CD07599438.title: "Crafting CPUs"
+	quest.57DA648FF73A769A.quest_desc: [
+		"Just a touch more expensive than other compressors, the Thermal Compressor uses heat differentials to produce compressed air up to 10 bar. "
+		""
+		"This can be a great way to produce a little extra air to top off your tools, most of which can handle that much pressure."
+		""
+		"Blocks such as Lava, Magma, and even Uranium may be used to heat one side, while a Heat Sink placed opposite will be enough to produce the required differential. "
+		""
+		"The heat sources will degrade over time."
+		""
+		"&a🛈 Tip: Look at Uses for Heat Pipes in"
+		"&a    EMI for a list of heat sources."
+	]
 	quest.57E6258A93E53F95.quest_desc: [
 		"Your first order of business here will be to locate a Cell Maze. Here, you’ll find some very important objects to guide you on your quest. "
 		""
@@ -1862,6 +2142,7 @@
 		""
 		"As in the previous steps, items may be Right-Clicked into their respective Vessel, or inserted with any form of item logistics such as pipes."
 	]
+	quest.5A2C9E1F74B7EC97.quest_desc: ["Finished PCBs will unlock the most powerful options within PneumaticCraft, from armor and weapons to rival Iron Man to programmable drones and advanced logistics. "]
 	quest.5A355C35CB5B24D8.quest_desc: [
 		"There exists a wondrous material known as Iesnium which is an ideal substance for binding Spirits, as it serves to strengthen them and grant them greater power. "
 		""
@@ -2047,9 +2328,11 @@
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
 	quest.6538BD86D9419DD4.quest_desc: [
-		"Work in progress."
+		"Welcome to Theurgy! "
 		""
-		"More content coming Soon™!"
+		"This exciting mod delves into the arts of Alchemy, allowing you to convert Lead to Gold, or just about any other material for that matter. "
+		""
+		"Be sure to refer to the guidebook as it is full of excellent examples and suggestions for automation!"
 	]
 	quest.6538BD86D9419DD4.title: "Theurgy"
 	quest.653E696688BBBB12.quest_desc: [
@@ -2101,6 +2384,12 @@
 		"&a🛈 Tip: Demon’s Dream fruit will heal"
 		"&a    Spirits!"
 	]
+	quest.673C6861CC3A781C.quest_desc: [
+		"[\"Having obtained the Rare Metal Niter we were after, we can \",{ \"text\": \"Reform\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" it into any Rare Metal Sulfur we want, like Gold Sulfur.\"]"
+		""
+		"[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"
+	]
+	quest.673C6861CC3A781C.title: "Reformation and Incubation"
 	quest.67782CB855950CD6.quest_desc: ["Another milestone material like Steel, HDPE is produced from Ethene and is used to craft many advanced machines as well as upgrades for the Meka-Suit. "]
 	quest.67782CB855950CD6.title: "HDPE"
 	quest.67835A69ECDC692D.quest_desc: [
@@ -2206,6 +2495,14 @@
 		"  module. "
 	]
 	quest.69D23BB3D7670DFC.title: "Shape Modification"
+	quest.6A3F652A680598E6.quest_desc: [
+		"Exaltation is the process by which materials are changed between different qualities. "
+		""
+		"For an example here, we’ll convert Iron Sulfur to Gold Sulfur, so gather a few of each. This process is not 1:1 and some conversions are more costly than others. "
+		""
+		"This process can go both ways, meaning a rare material can be converted into a large quantity of lower quality items."
+	]
+	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
@@ -2271,6 +2568,12 @@
 		"  items from an intruding player’s "
 		"  inventory."
 	]
+	quest.6D68D3A5BD549EA3.quest_desc: [
+		"[\"From here, the rest is simple enough; Common Gem Niter may be \",{ \"text\": \"Reformed\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" to produce Iron Sulfur, or any other Common Metal Sulfur.\"]"
+		""
+		"[\"\",{ \"text\": \"Incubate\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" those Sulfurs to produce useful ingots from them.\"]"
+	]
+	quest.6D68D3A5BD549EA3.title: "Reformation and Incubation"
 	quest.6D9008779F35E755.quest_desc: [
 		"With a Disintegration and Collection Module installed, the Field Projector essentially becomes a quarry. It’ll mine up any blocks intersected by the field and store them in an adjacent chest. "
 		""
@@ -2285,11 +2588,23 @@
 		" "
 		"Quests are divided into two types:"
 		""
-		"{ \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" } }"
+		"{ \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 		""
-		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" } }"
+		"{ \"text\": \"Learning Mods\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"16C7D5478BF3D449\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
 	]
 	quest.6DE4258F18A7A321.title: "Welcome!"
+	quest.6E4554D07901967C.quest_desc: [
+		"Quite possibly the last suit of armor you’ll ever need. "
+		""
+		"Self-repairing, flight-enabling, high-jumping, and so much more. "
+		""
+		"The endermen will ignore you, the pigmen will adore you, and the pillagers will abhor you. "
+		""
+		"&a🛈 Tip: Load the armor into a Charging "
+		"&a    Station to see all of the upgrades "
+		"&a    each item can accept."
+	]
+	quest.6E4554D07901967C.title: "Pneumatic Armor"
 	quest.6E4A0A33DB3C2B24.quest_desc: [
 		"Need to fill up that FE based tool you’ve been using? Just stand on a Chargepad. It automatically recharges all FE based equipment in your inventory so long as you’re standing on it."
 		""
@@ -2359,6 +2674,7 @@
 		"Farmland tilled with a Celestigem Hoe will self-harvest and teleport the drops to a bound storage as well. Handy!"
 	]
 	quest.7163E7EBDB861D72.title: "Advanced Item Collector?"
+	quest.717CCCD239144E0B.title: "EvilCraft"
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
 		""
@@ -2378,6 +2694,13 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.73D70F80C3AE999C.quest_desc: [
+		"Who doesn’t love yeeting things through the air? "
+		""
+		"The Air Cannon is perfect exactly that; launching items to either land in the world or be directly inserted into an inventory. "
+		""
+		"With the proper upgrades, they can also be used to launch nearby entities, or to act as a long-range Dispenser. TNT cannon, anyone?"
 	]
 	quest.73F9A5F65B350A09.quest_desc: [
 		"With White Chalk, we can practice only the most basic summons. "
@@ -2408,11 +2731,27 @@
 		"&c    Patience, grasshopper!"
 	]
 	quest.7431B398FFDF3DCA.title: "Mutation"
+	quest.74463B3FC2D297AC.quest_desc: [
+		"Welcome to PneumaticCraft, a powerful logistics and automation mod revolving around the use of compressed air and heat to perform many different tasks."
+		""
+		"The mod comes with an extensive guidebook, which covers every aspect of the mod in detail. Therefore, the quests will be covering the highlights; getting you started and through basic progression. "
+		""
+		"&a🛈 Tip: Be sure to check tooltips often "
+		"&a    for quick reminders on how an item"
+		"&a    or block works."
+	]
+	quest.74463B3FC2D297AC.title: "PneumaticCraft"
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
 		""
 		"As machines begin using more power, this can be a nice intermediate step up from passive power generation."
 	]
+	quest.748E8D2D5F7E2D5D.quest_desc: [
+		"Primarily used for manufacturing Biodiesel, the Fluid Mixer is an integral part of renewable oil products. "
+		""
+		"Consider setting up a full production line using Biodiesel to produce Plastic and Lubricant, as well as a decent and renewable fuel source. "
+	]
+	quest.748E8D2D5F7E2D5D.title: "Biodiesel"
 	quest.7501455F3C24E4E9.quest_desc: [
 		"The Dynamic Tank is a simple multi-block tank capable of holding any fluid, including Mekanism’s gasses. "
 		""
@@ -2476,9 +2815,9 @@
 		"  • Devil: Fire Resistance"
 	]
 	quest.750FEAA1A27892FF.title: "Familiars"
-	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in E10."]
+	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
-	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in E10."]
+	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in Enigmatica 10."]
 	quest.760910BF48876D8E.title: "Chemicals and Gas"
 	quest.760BD47C6B67D645.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as your factory grows. "
@@ -2517,6 +2856,14 @@
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
 		""
 		"We’ll be needing plenty more, after all, to set up a Dimensional Mineshaft."
+	]
+	quest.773105FB99015746.quest_desc: [
+		"The Result Pedestal is where our output will be generated. "
+		"&n                                                  &r"
+		""
+		"Place the Result Pedestal in your work area. "
+		""
+		"Feel free to hook up any Logistics you wish to extract the result."
 	]
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
@@ -2593,6 +2940,7 @@
 		"As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "
 	]
 	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
+	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
 	quest.7C71090829F8748A.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE."]
 	quest.7D4E0F2BF07D3223.quest_desc: [
 		"Making Purple Chalk will need some slightly more exotic materials. However, one needn’t run off to The End just for End Stone."
@@ -2640,14 +2988,17 @@
 	reward_table.02545B33A0B47726.title: "Scavenger's Delight"
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
 	reward_table.0765A447BA2E5EDF.title: "MI Lootbox: Quantum Tier"
+	reward_table.09B745401897355C.title: "PneumaticCraft Lootbox: Epic"
 	reward_table.0D9287B7A88E2255.title: "MI Lootbox: HV Tier"
 	reward_table.1FB94504FC4F0807.title: "MI Lootbox: EV Tier"
 	reward_table.2806F6BEA4A73B0B.title: "Occultism Lootbox"
 	reward_table.3989965A6A96B854.title: "MI Lootbox: MV Tier"
 	reward_table.4AD226E979319EAB.title: "MI Lootbox: Steel Tier"
 	reward_table.4C3908A1EDE782F7.title: "Alchemist's Delight"
+	reward_table.4D04B0EC7BE49CA0.title: "PneumaticCraft Lootbox: Rare"
 	reward_table.506FFF33A24A6C87.title: "Sorcerer's Delight"
 	reward_table.523EF680C25C2831.title: "MI Lootbox: LV Tier"
+	reward_table.57D690FA70BABEA6.title: "PneumaticCraft Lootbox: Legendary"
 	reward_table.59C93D37C8A23DE3.title: "Mekanism Lootbox: Legendary"
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
@@ -2663,6 +3014,7 @@
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.116CBCF6CA77E71A.title: "Syringe"
+	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
@@ -2686,6 +3038,7 @@
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
+	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
@@ -2708,6 +3061,7 @@
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
 	task.51472C5BD0C05E09.title: "Kill a Mob"
+	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
@@ -2719,6 +3073,7 @@
 	task.5D8E35699FF69418.title: "Interfaces"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
+	task.5FD7075685BB37AD.title: "Generators"
 	task.6089903FA619D424.title: "&eHoney Compass - Throne Pillar!"
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
@@ -2729,6 +3084,7 @@
 	task.676C8DE6C246D422.title: "AE Power"
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"
+	task.6A62841DDEADB7A6.title: "heat"
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
 	task.6F72D2074543BF23.title: "Bins"
