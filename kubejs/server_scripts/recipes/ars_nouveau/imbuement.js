@@ -3,25 +3,15 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { tag: 'c:storage_blocks/amethyst' },
-            output: { id: 'ars_nouveau:source_gem_block', count: 1 },
-            pedestalItems: [],
-            source: 1500,
-            id: `ars_nouveau:imbuement_amethyst_block`
-        },
-        {
-            input: { tag: 'c:gems/source' },
-            output: { count: 1, id: 'ars_nouveau:air_essence' },
-            pedestalItems: [{ tag: 'c:feathers' }, { item: 'ars_nouveau:wilden_wing' }, { tag: 'minecraft:arrows' }],
-            source: 2000 * 3,
-            id: `ars_nouveau:air_essence`
-        },
-        {
             input: { tag: 'c:storage_blocks/source' },
             output: { id: 'ars_nouveau:air_essence', count: 4 },
-            pedestalItems: [{ tag: 'c:feathers' }, { item: 'ars_nouveau:wilden_wing' }, { tag: 'minecraft:arrows' }],
+            pedestalItems: [
+                { item: 'minecraft:feather' },
+                { item: 'ars_nouveau:wilden_wing' },
+                { tag: 'minecraft:arrows' }
+            ],
             source: 2000 * 3,
-            id: `${id_prefix}charged_certus_quartz_crystal`
+            id: `${id_prefix}air_essence`
         },
         {
             input: { tag: 'c:storage_blocks/source' },
