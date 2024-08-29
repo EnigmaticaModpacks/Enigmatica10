@@ -362,5 +362,22 @@
 			x: 5.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["08E99B65ABE19047"]
+			id: "3895E1D9DE518B3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7623E5E6149A9F98"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "302DABE036FB801F"
+				item: { count: 1, id: "ars_nouveau:void_jar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
 	]
 }

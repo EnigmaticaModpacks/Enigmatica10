@@ -1134,6 +1134,18 @@
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
 	quest.3840097BB3E09C9D.quest_desc: ["Equivalent to Stone Tools, Kaleidite Tools can be handy in a pinch if you happen to find yourself in a rift without your normal tools. "]
+	quest.3895E1D9DE518B3F.quest_desc: [
+		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
+		""
+		"To help replenish your mana faster, consider crafting a Jar of Voiding. These handy devices will eat items you pick up and convert them directly into mana. "
+		""
+		"To set an item it is allowed to eat, place that item in your offhand and Right-Click with the Jar. "
+		""
+		"Consider adding things like Cobble and other Stones to it."
+		""
+		"&a🛈 Tip: The Jar can be toggled at any "
+		"&a    time by Sneak + Right-Clicking with it. "
+	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
