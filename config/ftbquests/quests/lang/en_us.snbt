@@ -476,6 +476,28 @@
 		"&a🛈 Tip: Install a Dimensional Binding Card"
 		"&a    for chargin in any dimension."
 	]
+	quest.14CC5EDC04D6BAC7.quest_desc: [
+		"Unlocking Tier 3 Glyphs will require a fight with the Wilden Chimera. "
+		""
+		"The Tribute you obtain from defeating it will be used not only to upgrade your Spell Book but can also be used to upgrade Ars Nouveau’s armors to a higher tier."
+		""
+		"This fight is not easy. Come prepared."
+		"&n                                                 &r"
+		""
+		"To summon the Chimera, you’ll need to first place the Ritual Brazier, then Right-Click it with the Tablet of Summon Wilden."
+		""
+		"Next, throw a Wilden Spike, Wilden Horn, and Wilden Wing on the Brazier to augment it."
+		""
+		"Finally, Right-Click the brazier again and stand back. "
+		""
+		"&a🛈 Tip: If you’re missing one or more of "
+		"&a    these Wilden pieces, just use the "
+		"&a    Tablet un-augmented to summon "
+		"&a    regular Wilden."
+		""
+		"&c⚠ Warning: The Chimera breaks blocks."
+	]
+	quest.14CC5EDC04D6BAC7.title: "Summoning the Wilden"
 	quest.14D5764532C5EEB0.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""

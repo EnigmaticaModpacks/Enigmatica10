@@ -342,6 +342,9 @@
 		}
 		{
 			dependencies: ["4C5D3AE08ACA9836"]
+			icon: {
+				id: "ars_nouveau:wilden_tribute"
+			}
 			id: "14CC5EDC04D6BAC7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -349,11 +352,38 @@
 				table_id: 1097567509703228045L
 				type: "loot"
 			}]
-			tasks: [{
-				id: "5B40918396BB221F"
-				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "38AAF86F70CC665C"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+				{
+					id: "7E8FF207815FDC57"
+					item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+					type: "item"
+				}
+				{
+					id: "2727FAB827F986ED"
+					item: { count: 1, id: "ars_nouveau:wilden_spike" }
+					type: "item"
+				}
+				{
+					id: "2C1746F7DA0F5525"
+					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					type: "item"
+				}
+				{
+					id: "450D71C731B557CD"
+					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+					type: "item"
+				}
+				{
+					id: "681210D829304C0B"
+					item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 0.0d
 		}
