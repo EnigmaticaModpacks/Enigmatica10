@@ -315,12 +315,23 @@
 		{
 			dependencies: ["309083107758B10C"]
 			id: "4C5D3AE08ACA9836"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "24DFF6F00AFC0E91"
-				table_id: 7158856082002081942L
-				type: "loot"
-			}]
+			min_width: 250
+			rewards: [
+				{
+					id: "709B3EE33B2F9C27"
+					item: {
+						count: 1
+						id: "ars_additions:lost_codex_entry"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "165ACF7418D084A9"
+					table_id: 7158856082002081942L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1B0DB10288723806"
 				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
