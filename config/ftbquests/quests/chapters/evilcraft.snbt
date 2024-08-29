@@ -1,0 +1,36 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evilcraft"
+	group: "440488E780593120"
+	icon: {
+		id: "evilcraft:origins_of_darkness"
+	}
+	id: "603B06098A07350C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			components: {
+				"ftbquests:icon": "evilcraft:block/blood_infuser_north_on"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "717CCCD239144E0B"
+		rewards: [{
+			id: "38A53B82EA047D18"
+			item: {
+				count: 1
+				id: "evilcraft:origins_of_darkness"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "3C64E92DFA608339"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.5d
+	}]
+}

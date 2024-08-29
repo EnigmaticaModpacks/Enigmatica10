@@ -9,6 +9,69 @@
 	id: "4C3908A1EDE782F7"
 	loot_size: 1
 	order_index: 2
-	rewards: [ ]
+	rewards: [
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "theurgy:mercury_shard"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "theurgy:purified_gold"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "theurgy:fermentation_starter"
+			}
+			random_bonus: 8
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_strata"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_mineral"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_plant"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "theurgy:alchemical_salt_creature"
+			}
+			random_bonus: 8
+			weight: 0.25f
+		}
+		{ item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "ars_nouveau:spell_damage", "neoforge:cures": [ "milk", "protected_by_totem" ], show_icon: 1b }], potion: "kubejs:greater_mana_regen" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
+		{ item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "minecraft:regeneration", "neoforge:cures": [ "milk", "protected_by_totem" ], show_icon: 1b }], potion: "kubejs:greater_strength" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
+	]
 	use_title: true
 }

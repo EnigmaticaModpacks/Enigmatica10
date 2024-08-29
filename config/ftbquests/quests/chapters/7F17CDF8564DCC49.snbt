@@ -6,12 +6,12 @@
 	group: "264B8D62983BEFB4"
 	icon: {
 		components: {
-			"ftbquests:icon": "geneticsresequenced:item/gmo_dna_helix"
+			"patchouli:book": "geneticsresequenced:guide"
 		}
-		id: "ftbquests:custom_icon"
+		id: "patchouli:guide_book"
 	}
 	id: "7F17CDF8564DCC49"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,14 +22,27 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3EA53BBEBC32F813"
-			rewards: [{
-				id: "725BDBD36A38F7A7"
-				item: {
-					count: 1
-					id: "geneticsresequenced:scraper"
+			rewards: [
+				{
+					id: "725BDBD36A38F7A7"
+					item: {
+						count: 1
+						id: "geneticsresequenced:scraper"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "30B7D5543D27ECE4"
+					item: {
+						components: {
+							"patchouli:book": "geneticsresequenced:guide"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "51472C5BD0C05E09"
 				stat: "minecraft:mob_kills"
