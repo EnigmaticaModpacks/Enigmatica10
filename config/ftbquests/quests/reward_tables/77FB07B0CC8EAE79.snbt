@@ -10,12 +10,27 @@
 	loot_size: 2
 	order_index: 19
 	rewards: [
-		{ item: { count: 1, id: "ars_additions:codex_entry" } }
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "ars_additions:codex_entry"
+			}
+			random_bonus: 2
+		}
 		{ item: { count: 1, id: "ars_nouveau:starbuncle_shards" } }
 		{ item: { count: 1, id: "ars_nouveau:whirlisprig_shards" } }
 		{ item: { count: 1, id: "ars_nouveau:wixie_shards" } }
 		{ item: { count: 1, id: "ars_nouveau:drygmy_shard" } }
 		{ item: { count: 1, id: "ars_elemental:siren_shards" } }
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "ars_nouveau:warp_scroll"
+			}
+			random_bonus: 2
+		}
 	]
 	use_title: true
 }

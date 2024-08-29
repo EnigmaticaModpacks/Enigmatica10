@@ -9,6 +9,16 @@
 	id: "63595DAD65E0F896"
 	loot_size: 2
 	order_index: 20
-	rewards: [{ item: { count: 1, id: "ars_additions:lost_codex_entry" } }]
+	rewards: [
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "ars_additions:lost_codex_entry"
+			}
+			random_bonus: 2
+		}
+		{ item: { count: 1, id: "ars_nouveau:stable_warp_scroll" } }
+	]
 	use_title: true
 }

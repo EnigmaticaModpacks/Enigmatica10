@@ -159,6 +159,7 @@
 				id: "ars_nouveau:scribes_table"
 			}
 			id: "309083107758B10C"
+			min_width: 250
 			rewards: [
 				{
 					id: "5C25C64212C4C59B"

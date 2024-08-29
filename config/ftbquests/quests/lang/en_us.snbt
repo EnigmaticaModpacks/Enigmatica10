@@ -138,7 +138,7 @@
 		""
 		"&a🛈 Tip: Refer to the guide for more examples."
 		""
-		"&6⚠ Note: Spells may contain up to twenty glyphs."
+		"&6⚠ Note: Spells may contain up to thirty glyphs."
 	]
 	quest.09C3C5173499DF7C.quest_desc: [
 		"To craft essences, you’ll need to place some pedestals adjacent to the Imbuement Chamber with key items installed in each pedestal. "
@@ -1558,6 +1558,10 @@
 		"This exciting mod will fulfil your every magical fantasy, from casting spells to brewing potions. "
 		""
 		"Summon magical creatures and craft magical gadgets to automagically perform nearly any task around your home!"
+		""
+		"Ars Nouveau also has a number of add-on mods which bring many new mechanics and features. "
+		""
+		"These quests can't cover everything, but the guidebook should have you covered!"
 		""
 		"&a🛈 Tip: Sourceberries can be planted "
 		"&a    on grass!"

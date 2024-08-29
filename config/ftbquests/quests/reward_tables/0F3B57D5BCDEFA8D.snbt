@@ -9,6 +9,13 @@
 	id: "0F3B57D5BCDEFA8D"
 	loot_size: 2
 	order_index: 21
-	rewards: [{ item: { count: 1, id: "ars_additions:ancient_codex_entry" } }]
+	rewards: [{
+		count: 2
+		item: {
+			count: 1
+			id: "ars_additions:ancient_codex_entry"
+		}
+		random_bonus: 2
+	}]
 	use_title: true
 }
