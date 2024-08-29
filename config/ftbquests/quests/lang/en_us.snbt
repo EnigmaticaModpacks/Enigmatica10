@@ -145,6 +145,13 @@
 		""
 		"&6⚠ Note: Spells may contain up to thirty glyphs."
 	]
+	quest.09B6773CDA5A7565.quest_desc: [
+		"The Enchanting Apparatus will likely be the next device you’ll wish to set up as it’s used for many more advanced crafts, upgrading equipment, and applying enchantments!"
+		""
+		"This device is a free form multiblock. The Enchanting Apparatus must sit atop the Arcane Core, but the Pedestals may go anywhere within 3 blocks of the Core."
+		""
+		"The items in the Pedestals will be consumed by these recipes. "
+	]
 	quest.09C3C5173499DF7C.quest_desc: [
 		"To craft essences, you’ll need to place some pedestals adjacent to the Imbuement Chamber with key items installed in each pedestal. "
 		""
@@ -1811,6 +1818,11 @@
 		"Each of these steps, and how they come together will be discussed in the following quests."
 	]
 	quest.48F901DB80482CAA.title: "Ore Processing"
+	quest.4914692B607F8BE0.quest_desc: [
+		"The Ender Source Jar is ideal for cross dimensional Source Transport. "
+		""
+		"So, if you’ve set up a crazy mob spawner in The End, maybe consider using this and a Vitalic Sourcelink to bring back all that delicious Source."
+	]
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -2231,6 +2243,37 @@
 		""
 		"Craft some Otherworld Goggles. These grant Spirit sight and allow you to see Iesnium Ore."
 	]
+	quest.5AD1A273F3714FAF.quest_desc: [
+		"It’s probably about time we started thinking about power. "
+		""
+		"Many of Ars Nouveau’s devices either require Source to run, such as certain Enchanting Apparatus recipes, or are dramatically improved by having Source supplied, like the Imbuement Chamber."
+		""
+		"So, let’s pick a method and get some Source generated!"
+		"&n                                                              &r"
+		""
+		"Each Sourcelink uses a different \"fuel\" to generate Source, which it deposits into a nearby Source Jar."
+		""
+		"• &7Agronomic&r – Generates Source from natural "
+		"    crop growth. Place in the middle of a field "
+		"    for best results."
+		""
+		"• &7Volcanic&r – Consumes furnace fuels like coal. "
+		"    This can be dropped nearby or inserted into "
+		"    an adjacent Arcane Pedestal."
+		""
+		"• &7Alchemical&r – Consumes potions from an "
+		"    adjacent Potion Jar. Best paired with a Wixie "
+		"    designated to craft potions into the jar."
+		""
+		"• &7Vitalic&r – Converts mob deaths to Source, an "
+		"    excellent addition to any mob farm."
+		""
+		"• &7Mycelial&r – Consume food. This can be dropped "
+		"    nearby or inserted into an adjacent "
+		"    Arcane Pedestal."
+		""
+		"&a🛈 Tip: Source Jars hold 10,000 Source."
+	]
 	quest.5AFA08920E94A02B.quest_desc: [
 		"The Spirit Fire will act as your primary interface to the Otherworld for now. "
 		""
@@ -2512,6 +2555,16 @@
 		"&a🛈 Tip: Sneak Right-Click a Stabilized "
 		"&a    Wormhole or Storage Accessor"
 		"&a    on the Actuator to link them."
+	]
+	quest.69295042E8C3A609.quest_desc: [
+		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
+		""
+		"These come in a variety of flavors, however perhaps the most relevant right now will be the Splitter. Not only will this transfer Source faster than the basic Relay, but it can also be used to pull from or deposit to multiple targets. "
+		""
+		"Use a Dominion Wand to link Relays to other Relays or Source Jars. First Right-Click the origin, then Right-Click the destination."
+		""
+		"&a🛈 Tip: Relays may be linked to each"
+		"&a    other in a broad network!"
 	]
 	quest.692EDEAEC3F4A2AD.quest_desc: [
 		"The Swapper is a powerful teleportation device that swaps the blocks or entities in front of it with its linked partner. "
@@ -3134,6 +3187,7 @@
 	task.3444EAB8952876B1.title: "Observe a Rift"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
+	task.35F8589774CE48D9.title: "Arcane Pedestals"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
@@ -3153,6 +3207,7 @@
 	task.44956BC067ED019C.title: "Pressurized Tubes"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4775BC243353527B.title: "Any Mining Gadget"
+	task.47D22C2E34E9A099.title: "Sourcelinks"
 	task.484FF1BEA9145D5F.title: "Puller Modules"
 	task.488180E25D5B815A.title: "Anti-Fields"
 	task.49C1EEBEED453B1C.title: "Mechanical Pipes"

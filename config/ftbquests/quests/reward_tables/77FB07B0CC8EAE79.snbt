@@ -18,11 +18,11 @@
 			}
 			random_bonus: 2
 		}
-		{ item: { count: 1, id: "ars_nouveau:starbuncle_shards" } }
-		{ item: { count: 1, id: "ars_nouveau:whirlisprig_shards" } }
-		{ item: { count: 1, id: "ars_nouveau:wixie_shards" } }
-		{ item: { count: 1, id: "ars_nouveau:drygmy_shard" } }
-		{ item: { count: 1, id: "ars_elemental:siren_shards" } }
+		{ item: { count: 1, id: "ars_nouveau:starbuncle_shards" }, weight: 0.2f }
+		{ item: { count: 1, id: "ars_nouveau:whirlisprig_shards" }, weight: 0.2f }
+		{ item: { count: 1, id: "ars_nouveau:wixie_shards" }, weight: 0.2f }
+		{ item: { count: 1, id: "ars_nouveau:drygmy_shard" }, weight: 0.2f }
+		{ item: { count: 1, id: "ars_elemental:siren_shards" }, weight: 0.2f }
 		{
 			count: 2
 			item: {
