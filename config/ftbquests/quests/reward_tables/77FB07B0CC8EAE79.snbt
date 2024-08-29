@@ -1,0 +1,21 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/rare"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "77FB07B0CC8EAE79"
+	loot_size: 2
+	order_index: 19
+	rewards: [
+		{ item: { count: 1, id: "ars_additions:codex_entry" } }
+		{ item: { count: 1, id: "ars_nouveau:starbuncle_shards" } }
+		{ item: { count: 1, id: "ars_nouveau:whirlisprig_shards" } }
+		{ item: { count: 1, id: "ars_nouveau:wixie_shards" } }
+		{ item: { count: 1, id: "ars_nouveau:drygmy_shard" } }
+		{ item: { count: 1, id: "ars_elemental:siren_shards" } }
+	]
+	use_title: true
+}

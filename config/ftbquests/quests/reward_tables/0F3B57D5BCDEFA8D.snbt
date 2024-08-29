@@ -1,0 +1,14 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/legendary"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0F3B57D5BCDEFA8D"
+	loot_size: 2
+	order_index: 21
+	rewards: [{ item: { count: 1, id: "ars_additions:ancient_codex_entry" } }]
+	use_title: true
+}
