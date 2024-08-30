@@ -84,6 +84,15 @@ ClientEvents.generateAssets('before_mods', (event) => {
             }
         },
         {
+            left: 'item:ars_nouveau:wixie_charm',
+            right: 'item:ars_nouveau:enchanting_apparatus',
+            output: {
+                type: 'item',
+                id: 'ars_additions:enchanting_wixie_cauldron',
+                amount: 1
+            }
+        },
+        {
             left: 'item:ars_nouveau:drygmy_charm',
             right: 'item:minecraft:mossy_cobblestone',
             output: {
