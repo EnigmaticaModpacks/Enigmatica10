@@ -75,6 +75,11 @@
 		"These are capable of handling the mighty Djinni whose control over time and weather is unrivaled."
 	]
 	quest.036036EA25034BE8.title: "Purple Chalk"
+	quest.03DFAA759B4E653E.quest_desc: [
+		"The Tablet of Awakening can infuse inanimate objects with Source, bringing them to some semblance of life. "
+		""
+		"There are several uses for this, but when it comes to making Charms, there are two that are our focus; Amethyst Golems and Bookwyrms. The creation of both of these is detailed in the Tablet’s tooltip."
+	]
 	quest.042650AE25DAC4CA.quest_desc: [
 		"With your Turbine upgraded, you’ll likely also need to upgrade your Steam Production. "
 		""
@@ -1204,6 +1209,14 @@
 		"Simple item pipes for moving things around. "
 		""
 		"They can be filtered and accept Motors as upgrades to speed them up."
+	]
+	quest.3A0F43654CE474DA.quest_desc: [
+		"Tree-hugging woodland spirits, Whirlisprigs will gladly join your menagerie if you show them some love and plant a tree nearby. "
+		""
+		"In exchange, the Whirlisprig will help you grow and farm plants. "
+		"&n                                                  &r"
+		""
+		"Right-Click any flower with her charm to create their home. Placing more plants and a greater variety of plants in their home will make them happier and more productive. "
 	]
 	quest.3A347A9576A5D514.quest_desc: [
 		"Quantum Upgrades unlock the greatest potential of your machines, with a single upgrade allowing it to reach its maximum potential."
@@ -2632,6 +2645,14 @@
 		"&a🛈 Tip: Demon’s Dream fruit will heal"
 		"&a    Spirits!"
 	]
+	quest.66DAC6EC4232C44A.quest_desc: [
+		"Fun-loving denizens of the deeps, Sirens live in warm oceans and will happily join your menagerie if you give them a Sea Pickle. "
+		""
+		"In exchange, the Siren will help you automatically obtain fishing loot. "
+		"&n                                                  &r"
+		""
+		"Right-Click a block of Prismarine with her charm to create her home. Placing more aquatic plants and animals in their home will make them happier and more productive."
+	]
 	quest.673C6861CC3A781C.quest_desc: [
 		"[\"Having obtained the Rare Metal Niter we were after, we can \",{ \"text\": \"Reform\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" it into any Rare Metal Sulfur we want, like Gold Sulfur.\"]"
 		""
@@ -2947,6 +2968,17 @@
 		""
 		"&a🛈 Tip: The Inscriber can be powered directly "
 		"&a    from any source of FE or EU."
+	]
+	quest.72C1A824063BAFA3.quest_desc: [
+		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
+		""
+		"In exchange, the Drygmy will help you harvest drops from animals and monsters alike. "
+		"&n                                                  &r"
+		""
+		"Right-Click a Mossy Cobblestone with their charm to create their home. Placing many different creatures in their home will make them happier and more productive. "
+		""
+		"&a🛈 Tip: Drygmies will work with mobs "
+		"&a    in Containment Jars!"
 	]
 	quest.730D1F506B88FEEF.quest_desc: [
 		"Steam is likely in short supply again with a Quarry running and will soon be in even shorter supply running turbines for power. Upgrading to a Large Steam Boiler now will save headaches down the road."

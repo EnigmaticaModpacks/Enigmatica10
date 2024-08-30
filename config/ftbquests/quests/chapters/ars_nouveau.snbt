@@ -460,13 +460,19 @@
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
 			id: "03DFAA759B4E653E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42623A163229A1A6"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5B3DA9B869EA2AB2"
 				item: { count: 1, id: "ars_nouveau:ritual_awakening" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["03DFAA759B4E653E"]
@@ -474,18 +480,26 @@
 				id: "ars_nouveau:bookwyrm_charm"
 			}
 			id: "65FDD18E441E2E6E"
-			rewards: [{
-				count: 4
-				id: "428F394A2C4409D0"
-				item: {
-					components: {
-						"sophisticatedstorage:wood_type": "oak"
+			rewards: [
+				{
+					count: 4
+					id: "428F394A2C4409D0"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:diamond_chest"
 					}
-					count: 1
-					id: "sophisticatedstorage:diamond_chest"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "45B20F68B6AFE055"
+					table_id: 7158856082002081942L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "5CC4BD10F5609461"
@@ -498,28 +512,36 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 5.5d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["03DFAA759B4E653E"]
 			id: "4537806144939A6B"
-			rewards: [{
-				count: 2
-				id: "0926B496B21879AD"
-				item: {
-					count: 1
-					id: "ae2:quartz_block"
+			rewards: [
+				{
+					count: 2
+					id: "0926B496B21879AD"
+					item: {
+						count: 1
+						id: "ae2:quartz_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "115A6E21C0E73203"
+					table_id: 7158856082002081942L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0D44B8977ADBDCAD"
 				item: { count: 1, id: "ars_nouveau:amethyst_golem_charm" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
@@ -535,19 +557,43 @@
 				item: { count: 1, id: "ars_nouveau:wixie_charm" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
 			id: "72C1A824063BAFA3"
+			rewards: [
+				{
+					id: "721928D9E38329A8"
+					item: {
+						count: 1
+						id: "ars_nouveau:ritual_containment"
+					}
+					type: "item"
+				}
+				{
+					id: "657115051FBF99C5"
+					item: {
+						count: 1
+						id: "ars_nouveau:mob_jar"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "637B7E4E72BD0870"
+					table_id: 8645512365595340409L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3C73314B02A122DB"
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
@@ -573,19 +619,25 @@
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
 			id: "66DAC6EC4232C44A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AF54BB37820657B"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0FA326DBD17DFE04"
 				item: { count: 1, id: "ars_elemental:siren_charm" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.0d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7FAC3A637F82BFED"]
@@ -607,7 +659,7 @@
 				type: "observation"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7FAC3A637F82BFED"]
@@ -630,6 +682,23 @@
 			}]
 			x: 2.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["1DA29F3B45DEFB4B"]
+			id: "3A0F43654CE474DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76DF87E04ECFE3CD"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DCF4801D7D66269"
+				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
 		}
 	]
 }
