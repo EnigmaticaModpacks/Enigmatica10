@@ -696,6 +696,14 @@
 		"&a    discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
+	quest.1DA29F3B45DEFB4B.quest_desc: [
+		"Magic can be a lonely profession. Everyone always asks, “What can you do?”, but never “How are you doing?”."
+		""
+		"And while it’s useful to have spells being cast for you by a Turret, they’re cold… lifeless. "
+		""
+		"But what if you could make your own friends? Cute, lovable, huggable friends that would spark joy just by being around? "
+	]
+	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
 		""
@@ -3208,6 +3216,12 @@
 		"&a    discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
+	quest.7FAC3A637F82BFED.quest_desc: [
+		""
+		""
+		"&7Witch to Wixie&r"
+		"    &5Projectile&r > &aHarm&r > &6Amplify&r > &aDispel&r "
+	]
 	quest.7FEA11A88316FE0C.quest_desc: ["Simple energy storage with built in item charging capabilities."]
 	reward.34CE01457EC3BF54.title: "Bed"
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
@@ -3233,6 +3247,7 @@
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
+	task.01BD7546106B0EB9.title: "Magical Shards"
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
