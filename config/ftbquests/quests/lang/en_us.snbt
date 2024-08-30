@@ -796,6 +796,11 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.20C038E5D70CDB52.quest_desc: [
+		"The Wixie Cauldron allows a Wixie to craft either Potions or 3x3 Crafting recipes using Source."
+		""
+		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
+	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
 		""
@@ -1754,6 +1759,14 @@
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
+	quest.4537806144939A6B.quest_desc: [
+		"An animate block of Amethyst, these golems will automatically create, grow, and harves budding blocks. "
+		""
+		"Bind them to an inventory to set the area they’ll work in. Nearby blocks will be converted into budding blocks. As they grow buds, they’ll break them and collect the drops, storing them in their bound inventory."
+		""
+		"&a🛈 Tip: Amethyst Golems works with"
+		"&a   Certus Quartz too!"
+	]
 	quest.45896B61EC465279.quest_desc: [
 		"Though the bane of many with seasonal allergies, Pollen Puff can be quite useful; when used on flowers, both big and small, it will spawn more of those flowers nearby. "
 		""
@@ -2484,6 +2497,13 @@
 		"&a🛈 Tip: A Scraper enchanted with "
 		"&a    Delicate Touch will cause no harm."
 	]
+	quest.6242CD0203DCBDC7.quest_desc: [
+		"The Wixie Enchanting Apparatus allows a Wixie to craft any Enchanting Apparatus recipes using Source."
+		""
+		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
+		""
+		"Unlike a normal Enchanting Apparatus, the Arcane Pedestals are only used to specify a recipe. She does not need them for ingredients."
+	]
 	quest.626E31B97CA1F815.quest_desc: [
 		"While capable of producing enormous power, the allure of Fission Reactors within Mekanism is mostly to process Uranium into more useful materials, like Plutonium and Polonium. "
 		"&n                                                 &r"
@@ -2575,6 +2595,14 @@
 		"The Enrichment Chamber is primarily used to make infusion materials stretch a bit further. "
 		""
 		"Enrich some Redstone and Coal before inserting it in a Metallurgic Infuser for a nice boost to efficiency!"
+	]
+	quest.65FDD18E441E2E6E.quest_desc: [
+		"An animate Book, Bookwyrms are part of a complete storage system built into Ars Nouveau. "
+		""
+		"The guidebook offers a full guide on setting this system up, however as a brief overview use a Bookwyrm Charm on a Storage Lectern to enable that Lectern to be linked to inventories."
+		""
+		"&a🛈 Tip: Adding more Bookwyrms allows "
+		"&a    more connections!"
 	]
 	quest.66A24B8817411BBC.quest_desc: [
 		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
