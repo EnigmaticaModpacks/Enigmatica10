@@ -19,6 +19,7 @@
 			random_bonus: 2
 		}
 		{ item: { count: 1, id: "ars_nouveau:stable_warp_scroll" } }
+		{ item: { count: 1, id: "ars_additions:exploration_warp_scroll" } }
 	]
 	use_title: true
 }

@@ -1965,6 +1965,22 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.4CE65730937AB775.quest_desc: [
+		"The Ritual Brazier opens numerous possibilities, such as permanent area effects, transformations, time adjustments, and more."
+		""
+		"You’ll almost certainly find something of use among all these tablets, but here are a few highlights:"
+		""
+		"  • Wide Area of Creative Flight"
+		"  • Locate specific structures"
+		"  • Hastened crop growth"
+		"  • Automatic crop harvesting"
+		"  • Weather shaping"
+		"  • Time manipulation"
+		""
+		"&a🛈 Tip: Check the Tablet Tooltips for "
+		"&a    more information!"
+	]
+	quest.4CE65730937AB775.title: "Ritual Magic"
 	quest.4CE66DC7BB1AC84B.quest_desc: [
 		"Plasma Turbines are used to convert the Helium Plasma created by the Fusion Reactor into useful EU. "
 		""
@@ -2420,6 +2436,13 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.602E1E149A49D056.quest_desc: [
+		"With the Chimera dead, the rest of the ingredients for the Archmage Spell Book should be within your grasp. "
+		""
+		"Summoning the Wither is the same as Vanilla, but you can craft a containment chamber for it with Reinforced Deepslate to simplify the fight."
+		""
+		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
+	]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
 	quest.6118F241A056954F.quest_desc: [
@@ -3305,6 +3328,7 @@
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
 	task.75050C1ED68FA527.title: "Building Gadgets"
+	task.75934726B8EC6FC8.title: "Ritual Tablets"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.7A9E6782E73FF106.title: "Batteries"

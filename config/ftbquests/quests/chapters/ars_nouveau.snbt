@@ -49,8 +49,8 @@
 				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["41614A924E5556EE"]
@@ -76,8 +76,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["69A9A6E9B7CB34B4"]
@@ -103,8 +103,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7750C6E87B1EBF43"]
@@ -130,8 +130,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.0d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["41614A924E5556EE"]
@@ -158,8 +158,8 @@
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["08E99B65ABE19047"]
@@ -196,8 +196,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["309083107758B10C"]
@@ -213,8 +213,8 @@
 				item: { count: 1, id: "ars_nouveau:annotated_codex" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7750C6E87B1EBF43"]
@@ -245,8 +245,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -1.0d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["09B6773CDA5A7565"]
@@ -265,8 +265,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:agronomic_sourcelink)item(ars_nouveau:volcanic_sourcelink)item(ars_nouveau:alchemical_sourcelink)item(ars_nouveau:vitalic_sourcelink)item(ars_nouveau:mycelial_sourcelink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5AD1A273F3714FAF"]
@@ -292,8 +292,8 @@
 				item: { count: 1, id: "ars_nouveau:relay" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5AD1A273F3714FAF"]
@@ -309,8 +309,8 @@
 				item: { count: 1, id: "ars_additions:ender_source_jar" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["309083107758B10C"]
@@ -337,8 +337,8 @@
 				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4C5D3AE08ACA9836"]
@@ -384,8 +384,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 0.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["14CC5EDC04D6BAC7"]
@@ -401,8 +401,8 @@
 				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["08E99B65ABE19047"]
@@ -418,8 +418,26 @@
 				item: { count: 1, id: "ars_nouveau:void_jar" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14CC5EDC04D6BAC7"]
+			dependency_requirement: "one_started"
+			id: "4CE65730937AB775"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19D3C827131D5436"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "75934726B8EC6FC8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ars_nouveau:ritual_tablet)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
 		}
 	]
 }
