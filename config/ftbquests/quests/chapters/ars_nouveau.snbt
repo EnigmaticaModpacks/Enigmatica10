@@ -455,7 +455,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
@@ -477,7 +477,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["03DFAA759B4E653E"]
@@ -488,18 +488,24 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
 			id: "7FAC3A637F82BFED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01A5AE45AD522A26"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "45783D692FC983F8"
 				item: { count: 1, id: "ars_nouveau:wixie_charm" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
@@ -509,12 +515,28 @@
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1DA29F3B45DEFB4B"]
 			id: "064F6355185A51D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "242CF1BD35F9458F"
+					table_id: 8645512365595340409L
+					type: "loot"
+				}
+				{
+					id: "4D43E971AA1C9C24"
+					item: {
+						count: 1
+						id: "ars_nouveau:purple_sbed"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "416967782C0611FE"
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
@@ -533,6 +555,50 @@
 			}]
 			x: 5.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["7FAC3A637F82BFED"]
+			id: "20C038E5D70CDB52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B1EE509BC93CCB6"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:wixie_cauldron"
+				}
+				id: "5314260DF92C1856"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ars_nouveau:wixie_cauldron"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7FAC3A637F82BFED"]
+			id: "6242CD0203DCBDC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AD9040F3253B5E8"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: {
+					id: "ars_additions:enchanting_wixie_cauldron"
+				}
+				id: "7618EFB44BB18F63"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ars_additions:enchanting_wixie_cauldron"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 5.0d
 		}
 	]
 }
