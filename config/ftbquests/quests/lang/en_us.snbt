@@ -550,6 +550,17 @@
 		"  slot to choose the look."
 	]
 	quest.15829059DE275E47.title: "Aesthetic Upgrades"
+	quest.159F7020B1DE875D.quest_desc: [
+		"Want to bring your new friends with you? "
+		""
+		"By bringing them close to a Ritual of Binding, you’ll obtain a Bound Script which may be learned by Right-Clicking it in the air. "
+		""
+		"Once learned, a new entry will appear in your Spell Book under the Familiars tab. From there, you’ll be able to instantly summon one familiar at a time to grant you benefits. "
+		""
+		"These benefits range from increased spell damage and higher looting rates, to buffed speed and item collection. "
+		""
+		"Check the tooltips on each Bound Script to see what it has to offer you!"
+	]
 	quest.15CECF38FB6CEADE.quest_desc: [
 		"Looking for something with a little more oomph? Mining Gadgets are an all in one modular tool system."
 		""

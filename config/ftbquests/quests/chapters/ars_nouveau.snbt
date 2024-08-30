@@ -700,5 +700,22 @@
 			x: 3.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["1DA29F3B45DEFB4B"]
+			id: "159F7020B1DE875D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F19D9891490831B"
+				table_id: 7158856082002081942L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D268078F69F7B82"
+				item: { count: 1, id: "ars_nouveau:ritual_binding" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
 	]
 }
