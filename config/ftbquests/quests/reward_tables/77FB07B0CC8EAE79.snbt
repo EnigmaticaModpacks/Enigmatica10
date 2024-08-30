@@ -17,12 +17,11 @@
 				id: "ars_additions:codex_entry"
 			}
 			random_bonus: 2
+			weight: 50.0f
 		}
-		{ item: { count: 1, id: "ars_nouveau:starbuncle_shards" }, weight: 0.2f }
-		{ item: { count: 1, id: "ars_nouveau:whirlisprig_shards" }, weight: 0.2f }
-		{ item: { count: 1, id: "ars_nouveau:wixie_shards" }, weight: 0.2f }
-		{ item: { count: 1, id: "ars_nouveau:drygmy_shard" }, weight: 0.2f }
-		{ item: { count: 1, id: "ars_elemental:siren_shards" }, weight: 0.2f }
+		{ item: { count: 1, id: "ars_nouveau:starbuncle_shards" }, weight: 5.0f }
+		{ item: { count: 1, id: "ars_nouveau:whirlisprig_shards" }, weight: 5.0f }
+		{ item: { count: 1, id: "ars_elemental:siren_shards" }, weight: 5.0f }
 		{
 			count: 2
 			item: {
@@ -30,6 +29,16 @@
 				id: "ars_nouveau:warp_scroll"
 			}
 			random_bonus: 2
+			weight: 15.0f
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "ars_nouveau:sourcestone"
+			}
+			random_bonus: 8
+			weight: 20.0f
 		}
 	]
 	use_title: true
