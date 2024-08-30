@@ -10,27 +10,125 @@
 	id: "603B06098A07350C"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			components: {
-				"ftbquests:icon": "evilcraft:block/blood_infuser_north_on"
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "evilcraft:block/blood_infuser_north_on"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			id: "ftbquests:custom_icon"
+			id: "717CCCD239144E0B"
+			rewards: [{
+				id: "38A53B82EA047D18"
+				item: {
+					count: 1
+					id: "evilcraft:origins_of_darkness"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C64E92DFA608339"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
 		}
-		id: "717CCCD239144E0B"
-		rewards: [{
-			id: "38A53B82EA047D18"
-			item: {
-				count: 1
-				id: "evilcraft:origins_of_darkness"
-			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "3C64E92DFA608339"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+		{
+			dependencies: ["717CCCD239144E0B"]
+			id: "3FA7963385E35E27"
+			rewards: [{
+				id: "27A5C20DB89FA7A4"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C96286549AD0DD2"
+				item: { count: 1, id: "evilcraft:dark_gem" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FA7963385E35E27"]
+			id: "48E87B06B04CA4C1"
+			tasks: [{
+				id: "45B84C1C25D27CB5"
+				item: { count: 1, id: "evilcraft:darkened_apple" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DD5BC5F0F5B996A"]
+			id: "0C1DCD8850E6857C"
+			tasks: [{
+				id: "5E0A44ED0D2E3AAD"
+				item: { count: 1, id: "evilcraft:blood_chest" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C1DCD8850E6857C"]
+			id: "23C86F86A1A4B1E9"
+			tasks: [{
+				id: "72DAB99E1982A79B"
+				item: { count: 1, id: "evilcraft:colossal_blood_chest" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["717CCCD239144E0B"]
+			id: "48271478CA0D3F6B"
+			tasks: [{
+				id: "18AE9263A3F9B02A"
+				item: { count: 1, id: "evilcraft:blood_extractor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48271478CA0D3F6B"]
+			id: "4ACCED64D436209E"
+			tasks: [{
+				id: "3FA72699ABD972E8"
+				item: { count: 1, id: "evilcraft:dark_power_gem" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3FA7963385E35E27"]
+			id: "64C8F99FC610CED2"
+			tasks: [{
+				id: "3267B5205D761889"
+				item: { count: 1, id: "evilcraft:dark_gem_crushed" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4ACCED64D436209E"]
+			id: "1DD5BC5F0F5B996A"
+			tasks: [{
+				id: "7E31F075AA877754"
+				item: { count: 1, id: "evilcraft:blood_infusion_core" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+	]
 }

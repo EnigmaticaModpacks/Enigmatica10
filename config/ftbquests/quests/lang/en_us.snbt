@@ -1584,6 +1584,7 @@
 		"&a    Electric Pump to produce"
 		"&a    Heavy Water."
 	]
+	quest.3FA7963385E35E27.quest_desc: ["dark ore"]
 	quest.3FF6566453299DC1.quest_desc: [
 		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
 		""
@@ -1871,6 +1872,11 @@
 		"&c⚠ Warning: Fission Reactors will "
 		"&c    explode if improperly cooled!"
 	]
+	quest.48271478CA0D3F6B.quest_desc: [
+		"kill mobs with it in inventory to collect"
+		""
+		"right click to put blood in world"
+	]
 	quest.4840F7361DF70516.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""
@@ -1903,6 +1909,7 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48E87B06B04CA4C1.quest_desc: ["feed to animal to get anomoly. only used to make the book?"]
 	quest.48F901DB80482CAA.quest_desc: [
 		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
 		""
@@ -1960,6 +1967,7 @@
 		""
 		"Our end goal here will be Rare Metal Niter."
 	]
+	quest.4ACCED64D436209E.quest_desc: ["throw dark gem in to get "]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
 		""
@@ -2591,6 +2599,7 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
+	quest.64C8F99FC610CED2.quest_desc: ["only from using fortune on dark ore"]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
 		""

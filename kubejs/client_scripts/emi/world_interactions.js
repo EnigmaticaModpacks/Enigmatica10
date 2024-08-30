@@ -75,8 +75,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             }
         },
         {
-            left: 'item:ars_nouveau:wixie_charm',
-            right: 'item:minecraft:cauldron',
+            left: 'item:minecraft:cauldron',
+            right: 'item:ars_nouveau:wixie_charm',
             output: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_cauldron',
@@ -84,8 +84,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             }
         },
         {
-            left: 'item:ars_nouveau:wixie_charm',
-            right: 'item:ars_nouveau:enchanting_apparatus',
+            left: 'item:ars_nouveau:enchanting_apparatus',
+            right: 'item:ars_nouveau:wixie_charm',
             output: {
                 type: 'item',
                 id: 'ars_additions:enchanting_wixie_cauldron',
@@ -93,8 +93,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             }
         },
         {
-            left: 'item:ars_nouveau:drygmy_charm',
-            right: 'item:minecraft:mossy_cobblestone',
+            left: 'item:minecraft:mossy_cobblestone',
+            right: 'item:ars_nouveau:drygmy_charm',
             output: {
                 type: 'item',
                 id: 'ars_nouveau:drygmy_stone',
@@ -102,8 +102,8 @@ ClientEvents.generateAssets('before_mods', (event) => {
             }
         },
         {
-            left: 'item:ars_elemental:siren_charm',
-            right: 'item:minecraft:prismarine',
+            left: 'item:minecraft:prismarine',
+            right: 'item:ars_elemental:siren_charm',
             output: {
                 type: 'item',
                 id: 'ars_elemental:mermaid_rock',
@@ -111,11 +111,107 @@ ClientEvents.generateAssets('before_mods', (event) => {
             }
         },
         {
-            left: 'item:ars_nouveau:whirlisprig_charm',
-            right: '#item:minecraft:flowers',
+            left: '#item:minecraft:flowers',
+            right: 'item:ars_nouveau:whirlisprig_charm',
             output: {
                 type: 'item',
                 id: 'ars_nouveau:whirlisprig_flower',
+                amount: 1
+            }
+        },
+        {
+            left: {
+                type: 'fluid',
+                id: 'evilcraft:blood',
+                amount: 1000
+            },
+            right: {
+                type: 'item',
+                id: 'evilcraft:dark_gem',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Throw in fluid"}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'evilcraft:dark_power_gem',
+                amount: 1
+            }
+        },
+        {
+            left: {
+                type: 'item',
+                id: 'evilcraft:hardened_blood',
+                amount: 1
+            },
+            right: {
+                type: 'item',
+                id: 'minecraft:flint_and_steel',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Break block with item"}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'evilcraft:hardened_blood_shard',
+                amount: 7
+            }
+        },
+        {
+            left: {
+                type: 'fluid',
+                id: 'evilcraft:blood',
+                amount: 1000
+            },
+            right: {
+                type: 'item',
+                id: 'minecraft:clock',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Converts over time"}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'evilcraft:hardened_blood',
+                amount: 1
+            }
+        },
+        {
+            left: 'item:minecraft:amethyst_block',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:amethyst_golem_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Amethyst Golems convert to budding!"}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'minecraft:budding_amethyst',
+                amount: 1
+            }
+        },
+        {
+            left: 'item:ae2:quartz_block',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:amethyst_golem_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Amethyst Golems convert to budding!"}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'ae2:flawed_budding_quartz',
+                amount: 1
+            }
+        },
+        {
+            left: 'item:justdirethings:time_crystal_block',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:amethyst_golem_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Amethyst Golems convert to budding!"}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'justdirethings:time_crystal_budding_block',
                 amount: 1
             }
         }
