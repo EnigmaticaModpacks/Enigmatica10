@@ -57,6 +57,11 @@ ServerEvents.recipes((event) => {
             output: Item.of('minecraft:name_tag', 2),
             inputs: ['#c:strings', 'minecraft:paper'],
             id: `${id_prefix}name_tag`
+        },
+        {
+            output: 'minecraft:dead_bush',
+            inputs: ['#minecraft:saplings', 'minecraft:shears'],
+            id: `${id_prefix}dead_bush`
         }
     ];
 

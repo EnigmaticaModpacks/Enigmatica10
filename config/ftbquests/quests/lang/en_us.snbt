@@ -167,6 +167,7 @@
 		""
 		"&6⚠ Note: Spells may contain up to thirty glyphs."
 	]
+	quest.0988DC06DD5A6935.quest_desc: ["removes curses from equipement corrupted by the blood chest"]
 	quest.09B6773CDA5A7565.quest_desc: [
 		"The Enchanting Apparatus will likely be the next device you’ll wish to set up as it’s used for many more advanced crafts, upgrading equipment, and applying enchantments!"
 		""
@@ -216,6 +217,7 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
+	quest.0AEF5FB6530F4D65.quest_desc: ["causes spirits to ignore you"]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
 	quest.0B05FA716D7335D2.quest_desc: [
@@ -254,6 +256,7 @@
 		"&a    Helix in EMI to see what mobs it "
 		"&a    comes from!"
 	]
+	quest.0C1DCD8850E6857C.quest_desc: ["repairs items but sometimes curses them"]
 	quest.0CBCE3A0D149AED0.quest_desc: [
 		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
 		"&n                                                  &r"
@@ -1075,6 +1078,11 @@
 		"&a    some or all of the material has "
 		"&a    processed."
 	]
+	quest.2C7977E4AE6B627B.quest_desc: [
+		"kill mob with vengeance ring"
+		"place box and open"
+		"shoot with vengeance focus to get it ghost busted into the box"
+	]
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
 		""
@@ -1133,6 +1141,8 @@
 		"&6    knowledge."
 	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
+	quest.31B6AE7706264320.quest_desc: ["causes spirits to do hunger damage instead of physical"]
+	quest.3202466CAE3744A9.quest_desc: ["activate and kill mobs. Gives crazy freaking buffs permanently!"]
 	quest.3263757C9A240C70.quest_desc: [
 		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
 		""
@@ -1817,6 +1827,11 @@
 		"&6    that, if not met, will cause the "
 		"&6    injection to fail. Refer to EMI."
 	]
+	quest.46195E73798357D2.quest_desc: [
+		"craft together to combine capacity"
+		""
+		"craft with blood extractor to increase blood extractor capacity"
+	]
 	quest.4660608EBEE31784.quest_desc: [
 		"A special trade obtained from the Queen, Windy Air can be used to create updrafts that will lift you into the air. These can make an excellent elevator by stacking one atop the other. "
 		""
@@ -1967,7 +1982,7 @@
 		""
 		"Our end goal here will be Rare Metal Niter."
 	]
-	quest.4ACCED64D436209E.quest_desc: ["throw dark gem in to get "]
+	quest.4ACCED64D436209E.quest_desc: ["throw dark gem in 5 buckets of blood to get "]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
 		""
@@ -2067,6 +2082,7 @@
 		"&a    Logistics, such as Mercurial "
 		"&a    Item Nodes!"
 	]
+	quest.4DE1B1045507C72C.quest_desc: ["points to Dark Temples"]
 	quest.4E175A06927C3A75.quest_desc: [
 		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
 		""
@@ -2096,6 +2112,11 @@
 	]
 	quest.4E7DA28C54FB8766.title: "Rare Materials"
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.4F480CF26AB0F3CD.quest_desc: [
+		"velocity increases processing speed"
+		"productivity reduces the blood required"
+	]
+	quest.4F480CF26AB0F3CD.title: "Machine Upgrades"
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
 	quest.4FEA49AD05720ED7.quest_desc: [
 		"Ah, the simple joys of playing with chalk outside. "
@@ -2529,6 +2550,7 @@
 		"&a🛈 Tip: A Scraper enchanted with "
 		"&a    Delicate Touch will cause no harm."
 	]
+	quest.621BA38E3E50B91E.quest_desc: ["Enables higher tier crafts, allows more upgrade promises"]
 	quest.6242CD0203DCBDC7.quest_desc: [
 		"The Wixie Enchanting Apparatus allows a Wixie to craft any Enchanting Apparatus recipes using Source."
 		""
@@ -2561,6 +2583,7 @@
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
 	]
+	quest.6303A7113DE954DD.quest_desc: ["place spikes on pedestal to auto kill mobs and get blood. blood will auto insert into nearby dark tanks"]
 	quest.631AA5AAA6EF687C.quest_desc: [
 		"Pattern Providers are the network's means of interfacing with crafting machines. "
 		""
@@ -3203,6 +3226,7 @@
 		"&a    discover more."
 	]
 	quest.77A66ADAB0845804.title: "Macaw's Mods"
+	quest.77B7679AFE090140.quest_desc: ["can pick up block with silk touch and cook for 9 "]
 	quest.78D83E33F82D6015.quest_desc: [
 		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
 		""
@@ -3381,6 +3405,7 @@
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
+	task.3C64E92DFA608339.title: "wip"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"

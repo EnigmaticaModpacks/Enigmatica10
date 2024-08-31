@@ -136,7 +136,7 @@ ClientEvents.generateAssets('before_mods', (event) => {
             left: {
                 type: 'fluid',
                 id: 'evilcraft:blood',
-                amount: 1000
+                amount: 5000
             },
             right: {
                 type: 'item',
