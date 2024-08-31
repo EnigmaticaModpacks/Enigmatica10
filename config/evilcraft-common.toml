@@ -4,7 +4,7 @@
 		#The position to render the blood gui overlay at. (0=NE, 1=SE, 2=SW,3=NW)
 		bloodGuiOverlayPosition = 1
 		#If farting is enabled on this server; Client-side: If farting can be seen at your client.
-		farting = true
+		farting = false
 		#The X offset for the blood gui overlay.
 		bloodGuiOverlayPositionOffsetX = -5
 		#The amount of mB that can flow per tick out of machines and items.
