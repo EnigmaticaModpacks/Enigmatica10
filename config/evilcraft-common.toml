@@ -100,7 +100,7 @@
 		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
 		staticBlockRendering = false
 		#If creative versions for all fluids should be added to the creative tab.
-		creativeTabFluids = true
+		creativeTabFluids = false
 
 	[machine.spirit_reanimator]
 		#The required amount of ticks for each reanimation.
