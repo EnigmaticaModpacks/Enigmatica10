@@ -9,6 +9,76 @@
 	id: "0B6BCA25CDDB6DFA"
 	loot_size: 1
 	order_index: 22
-	rewards: [{ item: { count: 1, id: "evilcraft:condensed_blood" } }]
+	rewards: [
+		{
+			count: 4
+			item: {
+				count: 1
+				id: "evilcraft:condensed_blood"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			item: {
+				components: {
+					"evilcraft:weather_container_type": "CLEAR"
+					"minecraft:rarity": "uncommon"
+				}
+				count: 1
+				id: "evilcraft:weather_container"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			item: {
+				components: {
+					"evilcraft:weather_container_type": "RAIN"
+					"minecraft:rarity": "uncommon"
+				}
+				count: 1
+				id: "evilcraft:weather_container"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 4
+			item: {
+				components: {
+					"evilcraft:weather_container_type": "LIGHTNING"
+					"minecraft:rarity": "rare"
+				}
+				count: 1
+				id: "evilcraft:weather_container"
+			}
+			random_bonus: 4
+		}
+		{ item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }, random_bonus: 1 }
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "evilcraft:potentia_sphere"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "evilcraft:ender_tear"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "evilcraft:dark_ore"
+			}
+			random_bonus: 8
+		}
+	]
 	use_title: true
 }
