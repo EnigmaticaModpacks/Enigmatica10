@@ -272,7 +272,7 @@
 		#A list of biome names for which no Biome Extracts may be created.
 		craftingBlacklist = []
 		#If creative versions for all variants should be added to the creative tab.
-		creativeTabVariants = true
+		creativeTabVariants = false
 
 	[mob.kineticator]
 		#The blacklisted items which should not be influenced by the Kineticator, by unique item/blockState name.
@@ -296,7 +296,7 @@
 		#The area in which the spawn limit will be checked on each spawn attempt.
 		spawnLimitArea = 32
 		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
-		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant"]
+		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant", "artifacts:mimic"]
 		#Whether vengeance spirits should always be visible in creative mode.
 		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.

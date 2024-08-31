@@ -7,7 +7,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "0B6BCA25CDDB6DFA"
-	loot_size: 1
+	loot_size: 2
 	order_index: 22
 	rewards: [
 		{
