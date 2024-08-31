@@ -134,26 +134,26 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1DD5BC5F0F5B996A"]
+			dependencies: ["2C7977E4AE6B627B"]
 			id: "0751B009795D7889"
 			tasks: [{
 				id: "3D4070B43CEF452C"
 				item: { count: 1, id: "evilcraft:spirit_furnace" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["1DD5BC5F0F5B996A"]
+			dependencies: ["0751B009795D7889"]
 			id: "73A71BBB9D9168B0"
 			tasks: [{
 				id: "4ADB8982A8F6B9CC"
 				item: { count: 1, id: "evilcraft:spirit_reanimator" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.0d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0C1DCD8850E6857C"]
@@ -168,13 +168,23 @@
 		}
 		{
 			dependencies: ["1DD5BC5F0F5B996A"]
+			icon: {
+				id: "evilcraft:sanguinary_environmental_accumulator"
+			}
 			id: "14DEE45EA9666015"
-			tasks: [{
-				id: "43370AFFD4EBAF48"
-				item: { count: 1, id: "evilcraft:sanguinary_environmental_accumulator" }
-				type: "item"
-			}]
-			x: 9.5d
+			tasks: [
+				{
+					id: "43370AFFD4EBAF48"
+					item: { count: 1, id: "evilcraft:sanguinary_environmental_accumulator" }
+					type: "item"
+				}
+				{
+					id: "7DD57170FE79CA23"
+					item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }
+					type: "item"
+				}
+			]
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -236,7 +246,7 @@
 				item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -329,6 +339,50 @@
 			]
 			x: 6.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["6303A7113DE954DD"]
+			id: "06F1A8F15128C1D9"
+			tasks: [{
+				id: "4EDD731131592044"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06F1A8F15128C1D9"]
+			id: "14555CEDF53F68FC"
+			tasks: [{
+				id: "382BDC0A6C24BAF0"
+				item: { components: { "evilcraft:world_shared_tank_id": "creative" }, count: 1, id: "evilcraft:entangled_chalice" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48271478CA0D3F6B"]
+			id: "30D6FE1B0EC82066"
+			tasks: [{
+				id: "09C7F4550E2EFA11"
+				item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "evilcraft:vein_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C7977E4AE6B627B"]
+			id: "66BC8A8EB33B0677"
+			tasks: [{
+				id: "276C28694B2C7999"
+				item: { count: 1, id: "evilcraft:piercing_vengeance_focus" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
 		}
 	]
 }

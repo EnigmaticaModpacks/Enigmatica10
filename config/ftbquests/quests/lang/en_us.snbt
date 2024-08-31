@@ -127,6 +127,8 @@
 		"&a🛈 Tip: Starbuncles can be filtered with "
 		"&a    Allow/Deny Scrolls!"
 	]
+	quest.06F1A8F15128C1D9.quest_desc: ["spawners can be moved with silk touch"]
+	quest.0751B009795D7889.quest_desc: ["https://evilcraft.rubensworks.net/book/second_age/abusing_spirits/spirit_furnace.html"]
 	quest.07684F58521A4D34.quest_desc: [
 		"Playing with friends? "
 		""
@@ -486,6 +488,7 @@
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
+	quest.14555CEDF53F68FC.quest_desc: ["basically ender tanks"]
 	quest.14688BF9C4B5766C.quest_desc: [
 		"Player Transmitters wirelessly charge FE based items and equipment in your inventory. "
 		""
@@ -523,6 +526,7 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"4D1E38918B64CD4E\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Mekanism\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.14DEE45EA9666015.quest_desc: ["This machine requires a hefty amount of Blood to work, that is why you will need 8 Blood tanks of any type spread around the machine as can be seen in the following image. This machine will not work without those tanks, smoke effects can be seen at the locations where the tanks are supposed to be placed."]
 	quest.156DEEC0CB40D7DB.quest_desc: [
 		"Allows multiple Force Field Projectors to work together to cover a larger area, while allowing free passage between them. "
 		""
@@ -870,6 +874,12 @@
 		""
 		"&a🛈 Tip: It is often easiest to dedicate an"
 		"&a    Infuser to an Infuse Material."
+	]
+	quest.23C86F86A1A4B1E9.quest_desc: [
+		"improved blood chest, no curses, faster, takes promises"
+		""
+		""
+		"To build this, make a hollow 3x3x3 structure of Reinforced Undead Planks. For the structure to form, your need exactly one Colossal Blood Chest block somewhere in the structure wall, make sure not to place it in the middle of the structure, as it must remain hollow."
 	]
 	quest.23FF0CA316B2CB5D.quest_desc: [
 		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
@@ -3001,6 +3011,7 @@
 		"Farmland tilled with a Celestigem Hoe will self-harvest and teleport the drops to a bound storage as well. Handy!"
 	]
 	quest.7163E7EBDB861D72.title: "Advanced Item Collector?"
+	quest.717CCCD239144E0B.quest_desc: ["https://evilcraft.rubensworks.net/book"]
 	quest.717CCCD239144E0B.title: "EvilCraft"
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
@@ -3033,6 +3044,7 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.73A71BBB9D9168B0.quest_desc: ["https://evilcraft.rubensworks.net/book/second_age/abusing_spirits/spirit_reanimator.html"]
 	quest.73D70F80C3AE999C.quest_desc: [
 		"Who doesn’t love yeeting things through the air? "
 		""
