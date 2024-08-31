@@ -251,6 +251,12 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 }
             ],
             id: 'evilcraft:dark_gem_crushed'
+        },
+        {
+            left: 'item:evilcraft:environmental_accumulator',
+            right: '#item:minecraft:pickaxes',
+            output: 'item:evilcraft:environmental_accumulation_core',
+            id: 'evilcraft:environmental_accumulation_core'
         }
     ];
 

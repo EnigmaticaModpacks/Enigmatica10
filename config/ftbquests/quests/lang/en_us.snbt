@@ -1153,6 +1153,7 @@
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
 	quest.31B6AE7706264320.quest_desc: ["causes spirits to do hunger damage instead of physical"]
 	quest.3202466CAE3744A9.quest_desc: ["activate and kill mobs. Gives crazy freaking buffs permanently!"]
+	quest.3202466CAE3744A9.title: "Spirits"
 	quest.3263757C9A240C70.quest_desc: [
 		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
 		""
@@ -1604,7 +1605,15 @@
 		"&a    Electric Pump to produce"
 		"&a    Heavy Water."
 	]
-	quest.3FA7963385E35E27.quest_desc: ["dark ore"]
+	quest.3FA7963385E35E27.quest_desc: [
+		"Getting started with EvilCraft means going mining; quite possibly the evilest activity known. "
+		""
+		"Deep in the bowels of the earth, right around where you’d find Redstone, you’ll find Dark Ore. "
+		"Breaking it will give you Dark Gems, however you’ll also need Crushed Dark Gems, which only drop if you mine with Fortune."
+		""
+		"&a🛈 Tip: Mining with Fortune drops both "
+		"&a    Dark Gems and Crushed Dark Gems!"
+	]
 	quest.3FF6566453299DC1.quest_desc: [
 		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
 		""
@@ -1838,9 +1847,9 @@
 		"&6    injection to fail. Refer to EMI."
 	]
 	quest.46195E73798357D2.quest_desc: [
-		"craft together to combine capacity"
+		"Dark Tanks have the potential for incredibly dense storage. "
 		""
-		"craft with blood extractor to increase blood extractor capacity"
+		"Each time you craft two together, the total capacity is combined. "
 	]
 	quest.4660608EBEE31784.quest_desc: [
 		"A special trade obtained from the Queen, Windy Air can be used to create updrafts that will lift you into the air. These can make an excellent elevator by stacking one atop the other. "
@@ -1898,10 +1907,19 @@
 		"&c    explode if improperly cooled!"
 	]
 	quest.48271478CA0D3F6B.quest_desc: [
-		"kill mobs with it in inventory to collect"
+		"We mentioned the blood, right? Yeah, you’re going to need a lot of it."
 		""
-		"right click to put blood in world"
+		"For now, you’ll need to collect it manually, though automated methods are available later."
+		""
+		"Doing so is simple enough; craft a Blood Extractor and keep it in your inventory as you go about your murderous ways. It will slowly fill with blood with each kill."
+		""
+		"&a🛈 Tip: The capacity of the Blood "
+		"&a    Extractor can be increased by "
+		"&a    crafting it with another Extractor"
+		"&a    or a Dark Tank. "
+		"&a    Do this as much as you like!"
 	]
+	quest.48271478CA0D3F6B.title: "Blood"
 	quest.4840F7361DF70516.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""
@@ -1934,7 +1952,6 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
-	quest.48E87B06B04CA4C1.quest_desc: ["feed to animal to get anomoly. only used to make the book?"]
 	quest.48F901DB80482CAA.quest_desc: [
 		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
 		""
@@ -2632,7 +2649,6 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
-	quest.64C8F99FC610CED2.quest_desc: ["only from using fortune on dark ore"]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
 		""
@@ -3011,7 +3027,17 @@
 		"Farmland tilled with a Celestigem Hoe will self-harvest and teleport the drops to a bound storage as well. Handy!"
 	]
 	quest.7163E7EBDB861D72.title: "Advanced Item Collector?"
-	quest.717CCCD239144E0B.quest_desc: ["https://evilcraft.rubensworks.net/book"]
+	quest.717CCCD239144E0B.quest_desc: [
+		"Welcome to EvilCraft! "
+		""
+		"Here you’ll get to do evil things for the sake of evil. "
+		""
+		"Oh, and there’s a lot of blood. So much blood. "
+		""
+		"No, really, that scene from The Shining has nothing on how much blood there is here."
+		""
+		"[\"The mod comes with a book, however you can also access all pertinent information on their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://evilcraft.rubensworks.net/book/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
+	]
 	quest.717CCCD239144E0B.title: "EvilCraft"
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."

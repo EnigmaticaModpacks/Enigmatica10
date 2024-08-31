@@ -19,14 +19,24 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "717CCCD239144E0B"
-			rewards: [{
-				id: "38A53B82EA047D18"
-				item: {
-					count: 1
-					id: "evilcraft:origins_of_darkness"
+			rewards: [
+				{
+					id: "38A53B82EA047D18"
+					item: {
+						count: 1
+						id: "evilcraft:origins_of_darkness"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6F4A6D93C2DEF3DD"
+					item: {
+						count: 1
+						id: "minecraft:wet_sponge"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3C64E92DFA608339"
 				type: "checkmark"
@@ -37,32 +47,39 @@
 		{
 			dependencies: ["717CCCD239144E0B"]
 			id: "3FA7963385E35E27"
-			rewards: [{
-				id: "27A5C20DB89FA7A4"
-				item: {
-					count: 1
-					id: "minecraft:apple"
+			rewards: [
+				{
+					id: "7FD03FDAC29E6FA1"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:fortune": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "671BF81CADBB6323"
+					item: {
+						count: 1
+						id: "evilcraft:dark_gem_crushed"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0C96286549AD0DD2"
 				item: { count: 1, id: "evilcraft:dark_gem" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3FA7963385E35E27"]
-			id: "48E87B06B04CA4C1"
-			tasks: [{
-				id: "45B84C1C25D27CB5"
-				item: { count: 1, id: "evilcraft:darkened_apple" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1DD5BC5F0F5B996A"]
@@ -72,30 +89,52 @@
 				item: { count: 1, id: "evilcraft:blood_chest" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0C1DCD8850E6857C"]
 			id: "23C86F86A1A4B1E9"
-			tasks: [{
-				id: "72DAB99E1982A79B"
-				item: { count: 1, id: "evilcraft:colossal_blood_chest" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 4.0d
+			tasks: [
+				{
+					id: "72DAB99E1982A79B"
+					item: { count: 1, id: "evilcraft:colossal_blood_chest" }
+					type: "item"
+				}
+				{
+					id: "76F503E41AF60FAF"
+					item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["717CCCD239144E0B"]
+			dependencies: ["3FA7963385E35E27"]
 			id: "48271478CA0D3F6B"
+			rewards: [{
+				id: "43E73B7C77DAA598"
+				item: {
+					components: {
+						"cyclopscore:capacity": 16000
+						"cyclopscore:fluid_content": {
+							amount: 10000
+							id: "evilcraft:blood"
+						}
+					}
+					count: 1
+					id: "evilcraft:dark_tank"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18AE9263A3F9B02A"
 				item: { count: 1, id: "evilcraft:blood_extractor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["48271478CA0D3F6B"]
@@ -105,19 +144,8 @@
 				item: { count: 1, id: "evilcraft:dark_power_gem" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["3FA7963385E35E27"]
-			id: "64C8F99FC610CED2"
-			tasks: [{
-				id: "3267B5205D761889"
-				item: { count: 1, id: "evilcraft:dark_gem_crushed" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 2.5d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -130,8 +158,8 @@
 				item: { count: 1, id: "evilcraft:blood_infusion_core" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2C7977E4AE6B627B"]
@@ -163,8 +191,8 @@
 				item: { count: 1, id: "evilcraft:purifier" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DD5BC5F0F5B996A"]
@@ -184,19 +212,19 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 2.0d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["64C8F99FC610CED2"]
+			dependencies: ["3FA7963385E35E27"]
 			id: "3202466CAE3744A9"
 			tasks: [{
 				id: "595FF126B994B9DD"
 				item: { count: 1, id: "evilcraft:vengeance_ring" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3202466CAE3744A9"]
@@ -246,8 +274,8 @@
 				item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["48271478CA0D3F6B"]
@@ -257,8 +285,8 @@
 				item: { count: 1, id: "evilcraft:hardened_blood_shard" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1DD5BC5F0F5B996A"]
@@ -268,8 +296,8 @@
 				item: { count: 1, id: "evilcraft:blood_infuser" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["492DA63DEC9663F2"]
@@ -279,8 +307,8 @@
 				item: { count: 1, id: "evilcraft:undead_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2FB39BF76836FA47"]
@@ -290,8 +318,8 @@
 				item: { count: 1, id: "evilcraft:dark_stick" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 13.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["492DA63DEC9663F2"]
@@ -301,8 +329,8 @@
 				item: { count: 1, id: "evilcraft:promise_tier_1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["621BA38E3E50B91E"]
@@ -319,8 +347,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 5.0d
+			x: 11.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["492DA63DEC9663F2"]
@@ -337,8 +365,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 2.5d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6303A7113DE954DD"]
@@ -348,8 +376,8 @@
 				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 14.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["06F1A8F15128C1D9"]
@@ -359,8 +387,8 @@
 				item: { components: { "evilcraft:world_shared_tank_id": "creative" }, count: 1, id: "evilcraft:entangled_chalice" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["48271478CA0D3F6B"]
@@ -370,8 +398,8 @@
 				item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "evilcraft:vein_sword" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2C7977E4AE6B627B"]
