@@ -257,6 +257,28 @@ ClientEvents.generateAssets('before_mods', (event) => {
             right: '#item:minecraft:pickaxes',
             output: 'item:evilcraft:environmental_accumulation_core',
             id: 'evilcraft:environmental_accumulation_core'
+        },
+        {
+            left: '#item:cursedearth:spreadable',
+            right: {
+                type: 'item',
+                id: 'minecraft:wither_rose',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak + Right-Click"}\u0027]}',
+                amount: 1
+            },
+            output: 'item:cursedearth:cursed_earth',
+            id: 'cursedearth:cursed_earth'
+        },
+        {
+            left: '#item:cursedearth:spreadable',
+            right: {
+                type: 'item',
+                id: 'cursedearth:blessed_flower',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak + Right-Click"}\u0027]}',
+                amount: 1
+            },
+            output: 'item:cursedearth:blessed_earth',
+            id: 'cursedearth:blessed_earth'
         }
     ];
 

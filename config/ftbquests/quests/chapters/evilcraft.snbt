@@ -82,15 +82,15 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["1DD5BC5F0F5B996A"]
+			dependencies: ["492DA63DEC9663F2"]
 			id: "0C1DCD8850E6857C"
 			tasks: [{
 				id: "5E0A44ED0D2E3AAD"
 				item: { count: 1, id: "evilcraft:blood_chest" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.0d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0C1DCD8850E6857C"]
@@ -102,13 +102,14 @@
 					type: "item"
 				}
 				{
+					count: 25L
 					id: "76F503E41AF60FAF"
 					item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 4.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3FA7963385E35E27"]
@@ -133,8 +134,8 @@
 				item: { count: 1, id: "evilcraft:blood_extractor" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48271478CA0D3F6B"]
@@ -144,58 +145,62 @@
 				item: { count: 1, id: "evilcraft:dark_power_gem" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -0.5d
-		}
-		{
-			dependencies: [
-				"4ACCED64D436209E"
-				"77B7679AFE090140"
-			]
-			id: "1DD5BC5F0F5B996A"
-			tasks: [{
-				id: "7E31F075AA877754"
-				item: { count: 1, id: "evilcraft:blood_infusion_core" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["2C7977E4AE6B627B"]
 			id: "0751B009795D7889"
-			tasks: [{
-				id: "3D4070B43CEF452C"
-				item: { count: 1, id: "evilcraft:spirit_furnace" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 5.5d
+			tasks: [
+				{
+					id: "3D4070B43CEF452C"
+					item: { count: 1, id: "evilcraft:spirit_furnace" }
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4FAB6D115849A2D7"
+					item: { count: 25, id: "evilcraft:dark_blood_brick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0751B009795D7889"]
+			dependencies: ["6303A7113DE954DD"]
 			id: "73A71BBB9D9168B0"
 			tasks: [{
 				id: "4ADB8982A8F6B9CC"
 				item: { count: 1, id: "evilcraft:spirit_reanimator" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.5d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0C1DCD8850E6857C"]
+			icon: {
+				id: "evilcraft:purifier"
+			}
 			id: "0988DC06DD5A6935"
-			tasks: [{
-				id: "02ACBA14ED31AF33"
-				item: { count: 1, id: "evilcraft:purifier" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: 3.5d
+			tasks: [
+				{
+					id: "02ACBA14ED31AF33"
+					item: { count: 1, id: "evilcraft:purifier" }
+					type: "item"
+				}
+				{
+					id: "39FB4ABE44E04998"
+					item: { count: 1, id: "evilcraft:blook" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["1DD5BC5F0F5B996A"]
+			dependencies: ["4DE1B1045507C72C"]
 			icon: {
 				id: "evilcraft:sanguinary_environmental_accumulator"
 			}
@@ -207,13 +212,14 @@
 					type: "item"
 				}
 				{
+					count: 8L
 					id: "7DD57170FE79CA23"
 					item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: 2.5d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3FA7963385E35E27"]
@@ -223,8 +229,8 @@
 				item: { count: 1, id: "evilcraft:vengeance_ring" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3202466CAE3744A9"]
@@ -241,8 +247,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 4.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2C7977E4AE6B627B"]
@@ -252,19 +258,19 @@
 				item: { count: 1, id: "evilcraft:burning_gem_stone" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2C7977E4AE6B627B"]
+			dependencies: ["66BC8A8EB33B0677"]
 			id: "0AEF5FB6530F4D65"
 			tasks: [{
 				id: "2E3A222E226F1ECE"
 				item: { count: 1, id: "evilcraft:spectral_glasses" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["48271478CA0D3F6B"]
@@ -274,30 +280,34 @@
 				item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["48271478CA0D3F6B"]
 			id: "77B7679AFE090140"
 			tasks: [{
+				count: 8L
 				id: "1E3CC0EDCD950B3A"
 				item: { count: 1, id: "evilcraft:hardened_blood_shard" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["1DD5BC5F0F5B996A"]
+			dependencies: [
+				"4ACCED64D436209E"
+				"77B7679AFE090140"
+			]
 			id: "492DA63DEC9663F2"
 			tasks: [{
 				id: "7D02DAD836B3B3B1"
 				item: { count: 1, id: "evilcraft:blood_infuser" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["492DA63DEC9663F2"]
@@ -307,19 +317,34 @@
 				item: { count: 1, id: "evilcraft:undead_sapling" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.0d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2FB39BF76836FA47"]
+			icon: {
+				id: "evilcraft:environmental_accumulator"
+			}
 			id: "4DE1B1045507C72C"
-			tasks: [{
-				id: "102B6984636C38E5"
-				item: { count: 1, id: "evilcraft:dark_stick" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 5.0d
+			tasks: [
+				{
+					id: "102B6984636C38E5"
+					item: { count: 1, id: "evilcraft:dark_stick" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "evilcraft:environmental_accumulator"
+					}
+					id: "14C031FA14C3CD89"
+					observe_type: 0
+					timer: 0L
+					to_observe: "evilcraft:environmental_accumulator"
+					type: "observation"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["492DA63DEC9663F2"]
@@ -329,12 +354,13 @@
 				item: { count: 1, id: "evilcraft:promise_tier_1" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["621BA38E3E50B91E"]
 			id: "4F480CF26AB0F3CD"
+			min_width: 250
 			tasks: [
 				{
 					id: "2C0CD473FF75BDE1"
@@ -347,12 +373,23 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 5.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["492DA63DEC9663F2"]
+			icon: {
+				id: "evilcraft:spiked_plate"
+			}
 			id: "6303A7113DE954DD"
+			rewards: [{
+				id: "11878B23BEE0008F"
+				item: {
+					count: 1
+					id: "minecraft:wither_rose"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "78D54A3DA95B9DD8"
@@ -365,8 +402,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 3.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6303A7113DE954DD"]
@@ -376,41 +413,62 @@
 				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 3.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["06F1A8F15128C1D9"]
+			dependencies: ["46195E73798357D2"]
 			id: "14555CEDF53F68FC"
 			tasks: [{
 				id: "382BDC0A6C24BAF0"
 				item: { components: { "evilcraft:world_shared_tank_id": "creative" }, count: 1, id: "evilcraft:entangled_chalice" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["48271478CA0D3F6B"]
-			id: "30D6FE1B0EC82066"
-			tasks: [{
-				id: "09C7F4550E2EFA11"
-				item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "evilcraft:vein_sword" }
-				type: "item"
-			}]
-			x: 4.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2C7977E4AE6B627B"]
+			icon: {
+				id: "evilcraft:vengeance_essence"
+			}
 			id: "66BC8A8EB33B0677"
+			tasks: [
+				{
+					id: "276C28694B2C7999"
+					item: { count: 1, id: "evilcraft:piercing_vengeance_focus" }
+					type: "item"
+				}
+				{
+					id: "6312FF28AB988EA4"
+					item: { count: 1, id: "evilcraft:vengeance_essence" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DE1B1045507C72C"]
+			id: "64B786FE65505D75"
 			tasks: [{
-				id: "276C28694B2C7999"
-				item: { count: 1, id: "evilcraft:piercing_vengeance_focus" }
+				id: "216635D2BAD048E1"
+				item: { count: 1, id: "evilcraft:biome_extract" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DE1B1045507C72C"]
+			id: "5F0523F799DA720C"
+			tasks: [{
+				id: "51B800771C0A3ACB"
+				item: { components: { "evilcraft:weather_container_type": "EMPTY" }, count: 1, id: "evilcraft:weather_container" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
 		}
 	]
 }

@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:occultism/crushing/';
+    const id_prefix = 'enigmatica:evilcraft/crafting_shaped_custom_output_dark_tank_large/';
 
     const recipes = [
         {

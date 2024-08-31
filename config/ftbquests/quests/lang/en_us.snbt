@@ -127,8 +127,21 @@
 		"&a🛈 Tip: Starbuncles can be filtered with "
 		"&a    Allow/Deny Scrolls!"
 	]
-	quest.06F1A8F15128C1D9.quest_desc: ["spawners can be moved with silk touch"]
-	quest.0751B009795D7889.quest_desc: ["https://evilcraft.rubensworks.net/book/second_age/abusing_spirits/spirit_furnace.html"]
+	quest.06F1A8F15128C1D9.quest_desc: [
+		"While not part of EvilCraft, it’s worth a mention here that Mob Spawners can be moved with Silk Touch and even upgraded! "
+		""
+		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
+	]
+	quest.0751B009795D7889.quest_desc: [
+		"The Spirit Furnace is a large multiblock structure used to endlessly extract loot drops from a Spirit you’ve stored in a Box of Eternal Closure. "
+		""
+		"The structure itself should minimally be a hollow 3x3x3 rectangular prism of Dark Blood Bricks. The Spirit Furnace block can be installed in any wall."
+		""
+		"Larger mobs will require a larger structure, as if the mob itself were inside the structure. So, a Ghast will need considerably more room than a Pig!"
+		""
+		"&a🛈 Tip: The Spirit Furnace built as large"
+		"&a    as a 9x9x9 rectangular prism."
+	]
 	quest.07684F58521A4D34.quest_desc: [
 		"Playing with friends? "
 		""
@@ -169,7 +182,13 @@
 		""
 		"&6⚠ Note: Spells may contain up to thirty glyphs."
 	]
-	quest.0988DC06DD5A6935.quest_desc: ["removes curses from equipement corrupted by the blood chest"]
+	quest.0988DC06DD5A6935.quest_desc: [
+		"Have a curse you’d like to remove from your tool? Toss it in the Purifier with some Blood to get it cleansed away."
+		""
+		"The Purifier can also be used to transfer Enchantments from one item to another. "
+		""
+		"Simply insert the item and a Blook into the Purifier and it’ll transfer one random Enchantment to the Blook which can then be re-applied to another tool in an Anvil."
+	]
 	quest.09B6773CDA5A7565.quest_desc: [
 		"The Enchanting Apparatus will likely be the next device you’ll wish to set up as it’s used for many more advanced crafts, upgrading equipment, and applying enchantments!"
 		""
@@ -219,7 +238,7 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
-	quest.0AEF5FB6530F4D65.quest_desc: ["causes spirits to ignore you"]
+	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
 	quest.0B05FA716D7335D2.quest_desc: [
@@ -258,7 +277,11 @@
 		"&a    Helix in EMI to see what mobs it "
 		"&a    comes from!"
 	]
-	quest.0C1DCD8850E6857C.quest_desc: ["repairs items but sometimes curses them"]
+	quest.0C1DCD8850E6857C.quest_desc: [
+		"The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."
+		""
+		"This process has been known to Curse the items during the process! "
+	]
 	quest.0CBCE3A0D149AED0.quest_desc: [
 		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
 		"&n                                                  &r"
@@ -488,7 +511,15 @@
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
-	quest.14555CEDF53F68FC.quest_desc: ["basically ender tanks"]
+	quest.14555CEDF53F68FC.quest_desc: [
+		"The Entangled Chalice allows Blood or other fluids to be shared, with each pair of Chalices sharing the same inventory."
+		""
+		"Chalices are always crafted in linked pairs. However, if you wish to add another Chalice to a network, use one of the Chalices from that network in the center of the craft. "
+		""
+		"&a🛈 Tip: A Chalice in your inventory can "
+		"&a    be used to autofill other containers "
+		"&a    in your inventory!"
+	]
 	quest.14688BF9C4B5766C.quest_desc: [
 		"Player Transmitters wirelessly charge FE based items and equipment in your inventory. "
 		""
@@ -526,7 +557,15 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"4D1E38918B64CD4E\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Mekanism\",\"underlined\":true},\" chapter. \"]"
 	]
-	quest.14DEE45EA9666015.quest_desc: ["This machine requires a hefty amount of Blood to work, that is why you will need 8 Blood tanks of any type spread around the machine as can be seen in the following image. This machine will not work without those tanks, smoke effects can be seen at the locations where the tanks are supposed to be placed."]
+	quest.14DEE45EA9666015.quest_desc: [
+		"Prefer having an Environmental Accumulator at home? Or perhaps you'd like to collect the essence of a particular biome instead?"
+		""
+		"Breaking the Environmental Accumulator found in a Dark Temple will not give you the block, but it will give you an item you can use to craft this Blood fueled alternative."
+		""
+		"This device uses an impressive amount of Blood to do its job, and it must be supplied through 8 tanks placed in a ring around the device."
+		""
+		"Once you've placed the Accumulator, look for Smoke Particles which highlight the expected placement of Dark Tanks."
+	]
 	quest.156DEEC0CB40D7DB.quest_desc: [
 		"Allows multiple Force Field Projectors to work together to cover a larger area, while allowing free passage between them. "
 		""
@@ -876,10 +915,9 @@
 		"&a    Infuser to an Infuse Material."
 	]
 	quest.23C86F86A1A4B1E9.quest_desc: [
-		"improved blood chest, no curses, faster, takes promises"
+		"The Colossal Blood Chest is an improved version of the Blood Chest with none of the side effects. Not only does it work faster by default, but it also accepts Promises as upgrades."
 		""
-		""
-		"To build this, make a hollow 3x3x3 structure of Reinforced Undead Planks. For the structure to form, your need exactly one Colossal Blood Chest block somewhere in the structure wall, make sure not to place it in the middle of the structure, as it must remain hollow."
+		"To construct the Colossal Blood Chest multiblock, you’ll need to build a 3x3x3 hollow cube of Reinforced Undead Planks with the Colossal Blood Chest installed in any wall. "
 	]
 	quest.23FF0CA316B2CB5D.quest_desc: [
 		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
@@ -1089,9 +1127,13 @@
 		"&a    processed."
 	]
 	quest.2C7977E4AE6B627B.quest_desc: [
-		"kill mob with vengeance ring"
-		"place box and open"
-		"shoot with vengeance focus to get it ghost busted into the box"
+		"Before you go on a killing spree, you’ll want to make a few more tools. "
+		""
+		"First, you’ll want a Box of Eternal Closure. This acts as a trap for the Spirit you’ll unleash, allowing it to be used within certain machinery."
+		""
+		"Next, you’ll want a Vengeance Focus. This tool is used to guide a Spirit into your Box of Eternal Closure, trapping them."
+		""
+		"To use the Focus, simply press and hold Right-Click. You’ll see a stream of particles that you’ll want to aim at the Spirit. Hold it long enough and the Spirit will be absorbed by the Box."
 	]
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
@@ -1122,6 +1164,11 @@
 	]
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
+	quest.2FB39BF76836FA47.quest_desc: [
+		"With all these Zombies and Skeletons walking around, is it really a surprise that Undeath has spread to the foliage as well?"
+		""
+		"Craft an Undead Sapling in your Blood Infuser and grow it to obtain Undead Wood. This special wood is an important resource for other crafts."
+	]
 	quest.309083107758B10C.quest_desc: [
 		"Now that you’ve got your first Spell Book, let’s see about adding some extra glyphs to spice things up."
 		""
@@ -1151,8 +1198,16 @@
 		"&6    knowledge."
 	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
-	quest.31B6AE7706264320.quest_desc: ["causes spirits to do hunger damage instead of physical"]
-	quest.3202466CAE3744A9.quest_desc: ["activate and kill mobs. Gives crazy freaking buffs permanently!"]
+	quest.31B6AE7706264320.quest_desc: [
+		"Spirits aren’t particularly strong, but they can cause a small amount of damage if you come into direct contact with one. "
+		""
+		"A Burning GemStone can absorb that damage, instead causing you to lose some hunger. "
+	]
+	quest.3202466CAE3744A9.quest_desc: [
+		"The manipulation of Spirits is an important part of being Evil. You’ll need some tools to interact with them, however."
+		""
+		"To begin, you’ll need to craft a Vengeance Ring. Sneak + Right-Click it to activate it, granting you several potent buffs and the ability to see the Spirits of the creatures you kill. "
+	]
 	quest.3202466CAE3744A9.title: "Spirits"
 	quest.3263757C9A240C70.quest_desc: [
 		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
@@ -1916,8 +1971,7 @@
 		"&a🛈 Tip: The capacity of the Blood "
 		"&a    Extractor can be increased by "
 		"&a    crafting it with another Extractor"
-		"&a    or a Dark Tank. "
-		"&a    Do this as much as you like!"
+		"&a    or a Dark Tank."
 	]
 	quest.48271478CA0D3F6B.title: "Blood"
 	quest.4840F7361DF70516.quest_desc: [
@@ -1968,6 +2022,11 @@
 		""
 		"So, if you’ve set up a crazy mob spawner in The End, maybe consider using this and a Vitalic Sourcelink to bring back all that delicious Source."
 	]
+	quest.492DA63DEC9663F2.quest_desc: [
+		"With your dark powers combined, you’ll finally be able to craft a Blood Infuser. "
+		""
+		"This’ll make the previous process a little less messy, and a considerable amount cheaper. "
+	]
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -2009,7 +2068,16 @@
 		""
 		"Our end goal here will be Rare Metal Niter."
 	]
-	quest.4ACCED64D436209E.quest_desc: ["throw dark gem in 5 buckets of blood to get "]
+	quest.4ACCED64D436209E.quest_desc: [
+		"Obtaining Dark Gems is, for now, a very bloody mess. "
+		""
+		"Dump out five buckets of Blood on the ground and toss in a Dark Gem. "
+		""
+		"You’ll need to be somewhat quick about this process, as Blood will slowly coagulate into Hardened Blood. Worry not, if this happens just punch it to get it good and liquified again. "
+		""
+		"&a🛈 Tip: Right-Click a Blood Extractor on "
+		"&a    the ground to dump out a bucket."
+	]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
 		""
@@ -2109,7 +2177,14 @@
 		"&a    Logistics, such as Mercurial "
 		"&a    Item Nodes!"
 	]
-	quest.4DE1B1045507C72C.quest_desc: ["points to Dark Temples"]
+	quest.4DE1B1045507C72C.quest_desc: [
+		"Dark Sticks, apart from being a useful crafting component, also serve to point the way to a special type of structure, the Dark Temple. "
+		""
+		"Drop a stick on the ground and watch which way the white tip points. Follow along in that direction until you find a raised platform with a beacon glowing atop it."
+		""
+		"Once you've found the structure, climb atop and locate the Environmental Accumulator. This device will let you charge items with local weather and biome patterns."
+	]
+	quest.4DE1B1045507C72C.title: "Dark Temple"
 	quest.4E175A06927C3A75.quest_desc: [
 		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
 		""
@@ -2140,8 +2215,12 @@
 	quest.4E7DA28C54FB8766.title: "Rare Materials"
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F480CF26AB0F3CD.quest_desc: [
-		"velocity increases processing speed"
-		"productivity reduces the blood required"
+		"Just as Promises of Tenacity can enable greater functionality, these promises boost machines in unique ways."
+		""
+		"At Tier 1, you’ll only be able to fit one or the other. Considering Blood is still a manual affair, Productivity is looking pretty good right now!"
+		""
+		"• &7Velocity&r – Speed up the crafting."
+		"• &7Productivity&r – Chance to reduce blood cost."
 	]
 	quest.4F480CF26AB0F3CD.title: "Machine Upgrades"
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
@@ -2547,6 +2626,11 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.5F0523F799DA720C.quest_desc: [
+		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
+		""
+		"The bottle may then be thrown to release that weather wherever you like, changing it instantly. "
+	]
 	quest.602E1E149A49D056.quest_desc: [
 		"With the Chimera dead, the rest of the ingredients for the Archmage Spell Book should be within your grasp. "
 		""
@@ -2577,7 +2661,14 @@
 		"&a🛈 Tip: A Scraper enchanted with "
 		"&a    Delicate Touch will cause no harm."
 	]
-	quest.621BA38E3E50B91E.quest_desc: ["Enables higher tier crafts, allows more upgrade promises"]
+	quest.621BA38E3E50B91E.quest_desc: [
+		"Promises of Tenacity act as a sort of Tier system for machines. Not only do they allow the installation of Upgrades, but they also unlock features of the machine. "
+		""
+		"For example, certain recipes will require a Tier 2 Promise of Tenacity to work at all. "
+		""
+		"&a🛈 Tip: Higher tier Promises work for "
+		"&a    lower tier recipes!"
+	]
 	quest.6242CD0203DCBDC7.quest_desc: [
 		"The Wixie Enchanting Apparatus allows a Wixie to craft any Enchanting Apparatus recipes using Source."
 		""
@@ -2610,7 +2701,19 @@
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
 	]
-	quest.6303A7113DE954DD.quest_desc: ["place spikes on pedestal to auto kill mobs and get blood. blood will auto insert into nearby dark tanks"]
+	quest.6303A7113DE954DD.quest_desc: [
+		"That stabbing arm of yours is probably getting a bit worn out by now and you’re undoubtedly looking for a way to get some Blood automatically. "
+		""
+		"A Spiked Plate and Sanguinary Pedestal are the answer. "
+		""
+		"Place the Spiked Plate on top of the Pedestal and put a Dark Tank adjacent. Any mob that steps on the plate will be damaged and their blood will be automatically transferred to the Tank. "
+		""
+		"You will, of course, need to build some sort of mob farm as well… maybe some form of Curse could help?"
+		""
+		"&a🛈 Tip: Sneak + Right-Click a Wither Rose"
+		"&a    on Dirt to make Cursed Earth."
+	]
+	quest.6303A7113DE954DD.title: "Blood Automation"
 	quest.631AA5AAA6EF687C.quest_desc: [
 		"Pattern Providers are the network's means of interfacing with crafting machines. "
 		""
@@ -2649,6 +2752,11 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
+	quest.64B786FE65505D75.quest_desc: [
+		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
+		""
+		"The bottle may then be thrown to release that biome wherever you like, changing it permanently. "
+	]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
 		""
@@ -2714,6 +2822,12 @@
 		"&a🛈 Tip: Demon’s Dream fruit will heal"
 		"&a    Spirits!"
 	]
+	quest.66BC8A8EB33B0677.quest_desc: [
+		"A Piercing Vengeance Focus is a more powerful form of your normal Focus. Rather than trapping a Spirit in a box, however, it completely obliterates it."
+		""
+		"By killing a Spirit in this way, you’ll obtain some Vengeance Essence."
+	]
+	quest.66BC8A8EB33B0677.title: "Vengeance Essence"
 	quest.66DAC6EC4232C44A.quest_desc: [
 		"Fun-loving denizens of the deeps, Sirens live in warm oceans and will happily join your menagerie if you give them a Sea Pickle. "
 		""
@@ -3070,7 +3184,17 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
-	quest.73A71BBB9D9168B0.quest_desc: ["https://evilcraft.rubensworks.net/book/second_age/abusing_spirits/spirit_reanimator.html"]
+	quest.73A71BBB9D9168B0.quest_desc: [
+		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
+		""
+		"First, capture the mob’s spirit in a Box of Eternal Closure. "
+		""
+		"Next, insert it in the Reanimator with a Chicken’s Egg. "
+		""
+		"Finally, supply Blood and wait. "
+		""
+		"Once the Spawn Egg has been procured, you can Right-Click it on a Spawner to set the spawn type. "
+	]
 	quest.73D70F80C3AE999C.quest_desc: [
 		"Who doesn’t love yeeting things through the air? "
 		""
@@ -3264,7 +3388,14 @@
 		"&a    discover more."
 	]
 	quest.77A66ADAB0845804.title: "Macaw's Mods"
-	quest.77B7679AFE090140.quest_desc: ["can pick up block with silk touch and cook for 9 "]
+	quest.77B7679AFE090140.quest_desc: [
+		"Hardened Blood Shards come from Blood you’ve let sit out a little too long. "
+		""
+		"Place a bucket of Blood in the world and wait for it to coagulate. Once it has, you can break it while holding a Flint and Steel to obtain a few Blood Shards."
+		""
+		"&a🛈 Tip: Break the block with Silk Touch"
+		"&a    and smelt it for a better yield!"
+	]
 	quest.78D83E33F82D6015.quest_desc: [
 		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
 		""
@@ -3419,6 +3550,7 @@
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
+	task.14C031FA14C3CD89.title: "Environmentla Accumulator"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
