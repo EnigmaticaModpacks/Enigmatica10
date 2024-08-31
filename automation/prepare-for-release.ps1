@@ -93,7 +93,7 @@ function Close-FixedIssues {
         $isBug = $_.labels | Where-Object { $_.name -eq "bug" }
 
         if ($isBug) {
-            Write-Host "* $($_.title) [(\#$($_.number))]($($_.html_url))" -ForegroundColor Green
+            Write-Host "-   $($_.title) [(\#$($_.number))]($($_.html_url))" -ForegroundColor Green
         }
     }
     Write-Host
