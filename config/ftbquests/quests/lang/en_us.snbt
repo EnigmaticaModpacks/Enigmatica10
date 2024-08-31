@@ -282,6 +282,7 @@
 		""
 		"This process has been known to Curse the items during the process! "
 	]
+	quest.0C1DCD8850E6857C.title: "Repairs"
 	quest.0CBCE3A0D149AED0.quest_desc: [
 		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
 		"&n                                                  &r"
@@ -2025,7 +2026,7 @@
 	quest.492DA63DEC9663F2.quest_desc: [
 		"With your dark powers combined, you’ll finally be able to craft a Blood Infuser. "
 		""
-		"This’ll make the previous process a little less messy, and a considerable amount cheaper. "
+		"This’ll make the previous process a little less messy, and considerably cheaper. "
 	]
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
@@ -3518,6 +3519,7 @@
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
 	reward_table.0765A447BA2E5EDF.title: "MI Lootbox: Quantum Tier"
 	reward_table.09B745401897355C.title: "PneumaticCraft Lootbox: Epic"
+	reward_table.0B6BCA25CDDB6DFA.title: "EvilCraft LootBox"
 	reward_table.0D9287B7A88E2255.title: "MI Lootbox: HV Tier"
 	reward_table.0F3B57D5BCDEFA8D.title: "Ars Nouveau Lootbox: Legendary"
 	reward_table.1FB94504FC4F0807.title: "MI Lootbox: EV Tier"
@@ -3575,7 +3577,6 @@
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
-	task.3C64E92DFA608339.title: "wip"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
@@ -3640,6 +3641,7 @@
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.7A9E6782E73FF106.title: "Batteries"
+	task.7B8A280C515F168E.title: "Any Pickaxe"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"

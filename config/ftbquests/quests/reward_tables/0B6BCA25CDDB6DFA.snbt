@@ -1,0 +1,14 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0B6BCA25CDDB6DFA"
+	loot_size: 1
+	order_index: 22
+	rewards: [{ item: { count: 1, id: "evilcraft:condensed_blood" } }]
+	use_title: true
+}

@@ -38,8 +38,9 @@
 				}
 			]
 			tasks: [{
-				id: "3C64E92DFA608339"
-				type: "checkmark"
+				id: "7B8A280C515F168E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 0.5d
 			y: 0.5d
@@ -89,8 +90,8 @@
 				item: { count: 1, id: "evilcraft:blood_chest" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C1DCD8850E6857C"]
@@ -108,8 +109,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 2.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3FA7963385E35E27"]
@@ -145,7 +146,7 @@
 				item: { count: 1, id: "evilcraft:dark_power_gem" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -170,12 +171,19 @@
 		{
 			dependencies: ["6303A7113DE954DD"]
 			id: "73A71BBB9D9168B0"
-			tasks: [{
-				id: "4ADB8982A8F6B9CC"
-				item: { count: 1, id: "evilcraft:spirit_reanimator" }
-				type: "item"
-			}]
-			x: 8.5d
+			tasks: [
+				{
+					id: "4ADB8982A8F6B9CC"
+					item: { count: 1, id: "evilcraft:spirit_reanimator" }
+					type: "item"
+				}
+				{
+					id: "3B0128205BDBC420"
+					item: { count: 1, id: "minecraft:egg" }
+					type: "item"
+				}
+			]
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -196,8 +204,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 2.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4DE1B1045507C72C"]
@@ -218,7 +226,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
@@ -292,7 +300,7 @@
 				item: { count: 1, id: "evilcraft:hardened_blood_shard" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -306,7 +314,7 @@
 				item: { count: 1, id: "evilcraft:blood_infuser" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -317,7 +325,7 @@
 				item: { count: 1, id: "evilcraft:undead_sapling" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -343,7 +351,7 @@
 					type: "observation"
 				}
 			]
-			x: 7.5d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
@@ -354,8 +362,8 @@
 				item: { count: 1, id: "evilcraft:promise_tier_1" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["621BA38E3E50B91E"]
@@ -373,8 +381,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 0.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["492DA63DEC9663F2"]
@@ -402,7 +410,7 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -413,7 +421,7 @@
 				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -456,8 +464,8 @@
 				item: { count: 1, id: "evilcraft:biome_extract" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4DE1B1045507C72C"]
@@ -467,8 +475,8 @@
 				item: { components: { "evilcraft:weather_container_type": "EMPTY" }, count: 1, id: "evilcraft:weather_container" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.5d
+			x: 7.5d
+			y: 2.0d
 		}
 	]
 }
