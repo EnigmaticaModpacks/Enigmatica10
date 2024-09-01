@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:sawing/';
     const recipes = [
         {
-            input: 'neoforge:logs/archwood',
+            input: 'c:logs/archwood',
             output: 'ars_nouveau:archwood_planks',
             output_count: 6,
             id: 'archwood_planks'
