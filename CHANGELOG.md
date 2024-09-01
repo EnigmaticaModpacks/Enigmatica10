@@ -4,6 +4,13 @@ NeoForge-1.21.1-21.1.31 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### ✔️ Added Mods
 
+-   [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) (by [AlmostReliable](https://www.curseforge.com/members/AlmostReliable/projects))
+-   [Ars Additions](https://www.curseforge.com/minecraft/mc-mods/ars-additions) (by [Jarva](https://www.curseforge.com/members/Jarva/projects))
+-   [Client Tweaks](https://www.curseforge.com/minecraft/mc-mods/client-tweaks) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
+-   [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
+-   [Not Enough Glyphs](https://www.curseforge.com/minecraft/mc-mods/not-enough-glyphs) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
+-   [TerraBlender (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge) (by [TheAdubbz](https://www.curseforge.com/members/TheAdubbz/projects))
+-   [Theurgy KubeJS](https://www.curseforge.com/minecraft/mc-mods/theurgy-kubejs) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
 
 #### ⭐ Improvements
 
