@@ -12,6 +12,12 @@ ServerEvents.recipes((event) => {
             output: 'arts_and_crafts:cork_planks',
             output_count: 6,
             id: 'cork_planks'
+        },
+        {
+            input: 'evilcraft:undead_logs',
+            output: 'evilcraft:undead_planks',
+            output_count: 6,
+            id: 'undead_planks'
         }
     ];
 

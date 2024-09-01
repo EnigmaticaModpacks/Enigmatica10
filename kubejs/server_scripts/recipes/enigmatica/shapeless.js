@@ -60,7 +60,8 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'minecraft:dead_bush',
-            inputs: ['#minecraft:saplings', Ingredient.of('minecraft:shears').damageIngredient('item', 1)],
+            inputs: ['#minecraft:saplings', 'minecraft:shears'],
+            damage: { item: 'minecraft:shears', amount: 1 },
             id: `${id_prefix}dead_bush`
         },
         {
@@ -71,6 +72,7 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
+        let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
+        if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);
     });
 });
