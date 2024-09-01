@@ -1,3 +1,11 @@
+### Enigmatica 10 1.10.1
+
+#### 🦟 Bugs Fixed
+
+-   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
+
+---
+
 ### Enigmatica 10 1.10.0
 
 NeoForge-1.21.1-21.1.31 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.10.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.10.0.md)
@@ -40,10 +48,12 @@ NeoForge-1.21.1-21.1.31 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 -   Origins of Darkness has many missing pages [(\#104)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/104)
 -   PneumaticCraft Acid Etcher Won't Accept Acid in Current Version of the Mod [(\#103)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/103)
 -   Occultism: Dimensional Storage lost all inventory [(\#94)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/94)
--   EvilCraft: using Purifier with Blook on Enchanted Book crashes the game [(\#88)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/88)   
+-   EvilCraft: using Purifier with Blook on Enchanted Book crashes the game [(\#88)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/88)
 -   Occultism: Unable to auto-pull materials to craft from Dimensional Storage [(\#85)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/85)
 -   Find Me: Not working with non-vanilla storage/blocks [(\#82)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/82)
 -   Cannot lock Extended Industrialization slots from EMI [(\#79)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/79)
+
+---
 
 ### Enigmatica 10 1.9.0
 

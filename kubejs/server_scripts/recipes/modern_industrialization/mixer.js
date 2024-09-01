@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier1', amount: 1, probability: 0.0 },
-                { tag: 'c:gems/coal', amount: 9 }
+                { item: 'minecraft:coal', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:coal_t1', amount: 3 },
@@ -84,7 +84,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [
                 { tag: 'justdirethings:goo/tier3', amount: 1, probability: 0.0 },
-                { tag: 'c:ingots/diamond', amount: 9 }
+                { tag: 'c:gems/diamond', amount: 9 }
             ],
             item_outputs: [
                 { item: 'justdirethings:celestigem', amount: 3 },
