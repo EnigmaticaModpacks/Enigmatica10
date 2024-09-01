@@ -24,6 +24,7 @@
 
 -   Amethyst Golems now clean up after themselves [(\#97)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/97)
 -   Aquaculture fish are now tagged as fish [(\#97)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/97)
+-   Lightning now converts villagers to witches again [\#105](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/105)
 
 ### Enigmatica 10 1.9.0
 
