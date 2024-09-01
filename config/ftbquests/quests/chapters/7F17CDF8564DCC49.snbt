@@ -32,13 +32,13 @@
 					type: "item"
 				}
 				{
-					id: "30B7D5543D27ECE4"
+					id: "445399027F00C5BC"
 					item: {
 						components: {
-							"patchouli:book": "geneticsresequenced:guide"
+							"modonomicon:book_id": "geneticsresequenced:guide"
 						}
 						count: 1
-						id: "patchouli:guide_book"
+						id: "modonomicon:modonomicon"
 					}
 					type: "item"
 				}
