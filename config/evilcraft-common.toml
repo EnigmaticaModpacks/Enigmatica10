@@ -130,7 +130,7 @@
 
 	[machine.blood_infuser]
 		#Priority list of mod id's when determining tag-based recipe outputs.
-		recipeTagOutputModPriorities = []
+		recipeTagOutputModPriorities = ["minecraft", "mekanism", "modern_industrialization", "occultism"]
 
 	[item.dark_tank]
 		#If held buckets should be autofilled when enabled.
