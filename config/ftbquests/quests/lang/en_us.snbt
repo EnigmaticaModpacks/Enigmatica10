@@ -277,11 +277,7 @@
 		"&a    Helix in EMI to see what mobs it "
 		"&a    comes from!"
 	]
-	quest.0C1DCD8850E6857C.quest_desc: [
-		"The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."
-		""
-		"This process has been known to Curse the items during the process! "
-	]
+	quest.0C1DCD8850E6857C.quest_desc: ["The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."]
 	quest.0C1DCD8850E6857C.title: "Repairs"
 	quest.0CBCE3A0D149AED0.quest_desc: [
 		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
@@ -916,7 +912,7 @@
 		"&a    Infuser to an Infuse Material."
 	]
 	quest.23C86F86A1A4B1E9.quest_desc: [
-		"The Colossal Blood Chest is an improved version of the Blood Chest with none of the side effects. Not only does it work faster by default, but it also accepts Promises as upgrades."
+		"The Colossal Blood Chest is an improved version of the Blood Chest. Not only does it work faster by default, but it also accepts Promises as upgrades."
 		""
 		"To construct the Colossal Blood Chest multiblock, you’ll need to build a 3x3x3 hollow cube of Reinforced Undead Planks with the Colossal Blood Chest installed in any wall. "
 	]
