@@ -28,8 +28,8 @@ ServerEvents.recipes((event) => {
         let input = recipe.log.tag;
         let output = recipe.planks.id;
         let output_count = recipe.planks.count;
-        // TODO: Convert to AU
-        // let sawdust = AlmostUnified.getPreferredItemForTag('c:dusts/wood').getId();
+
+        let sawdust = AlmostUnified.getPreferredItemForTag('c:dusts/wood').getId();
 
         if (recipe.log.tag.match(/productivetrees/)) {
             recipes.push({
@@ -49,9 +49,8 @@ ServerEvents.recipes((event) => {
                     type: 'productivetrees:sawmill',
                     log: { tag: recipe.input },
                     planks: { count: recipe.output_count, id: recipe.output },
-                    // TODO: Convert to AU
-                    // secondary: { count: 2, id: sawdust },
-                    secondary: { count: 2, id: 'productivetrees:sawdust' }
+                    secondary: { count: 2, id: sawdust }
+                    // secondary: { count: 2, id: 'productivetrees:sawdust' }
                 })
                 .id(`${id_prefix}sawmill/${recipe.id}`);
         }
@@ -62,9 +61,8 @@ ServerEvents.recipes((event) => {
                 input: { count: 1, tag: recipe.input },
                 main_output: { count: recipe.output_count, id: recipe.output },
                 secondary_chance: 0.25,
-                // TODO: Convert to AU
-                // secondary_output: { count: 1, id: sawdust },
-                secondary_output: { count: 1, id: 'mekanism:sawdust' }
+                secondary_output: { count: 1, id: sawdust }
+                // secondary_output: { count: 1, id: 'mekanism:sawdust' }
             })
             .id(`${id_prefix}sawing/${recipe.id}`);
 
