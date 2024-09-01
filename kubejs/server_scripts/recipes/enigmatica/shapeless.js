@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: 'minecraft:dead_bush',
-            inputs: ['#minecraft:saplings', 'minecraft:shears'],
+            inputs: ['#minecraft:saplings', Ingredient.of('minecraft:shears').damageIngredient('item', 1)],
             id: `${id_prefix}dead_bush`
         },
         {

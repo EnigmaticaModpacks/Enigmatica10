@@ -9,7 +9,8 @@ ServerEvents.recipes((event) => {
         // }
 
         { id: 'mffs:steel_ingot' },
-        { id: 'mffs:steel_compound' }
+        { id: 'mffs:steel_compound' },
+        { type: 'evilcraft:special/minecraft_dead_bush' }
     ];
 
     recipes.forEach((recipe) => {
