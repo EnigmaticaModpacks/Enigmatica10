@@ -1,5 +1,5 @@
 {
-	always_invisible: true
+	autofocus_id: "77B7679AFE090140"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "evilcraft"
