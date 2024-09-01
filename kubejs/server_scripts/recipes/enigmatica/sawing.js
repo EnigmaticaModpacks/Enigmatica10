@@ -29,8 +29,6 @@ ServerEvents.recipes((event) => {
         let output = recipe.planks.id;
         let output_count = recipe.planks.count;
 
-        let sawdust = AlmostUnified.getPreferredItemForTag('c:dusts/wood').getId();
-
         if (recipe.log.tag.match(/productivetrees/)) {
             recipes.push({
                 from_productivetrees: true,
