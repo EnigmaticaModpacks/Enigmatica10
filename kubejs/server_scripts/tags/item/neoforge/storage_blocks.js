@@ -1,5 +1,7 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
+        amethyst: ['minecraft:amethyst_block'],
+
         ferricore: ['justdirethings:ferricore_block'],
         blazegold: ['justdirethings:blazegold_block'],
         celestigem: ['justdirethings:celestigem_block'],

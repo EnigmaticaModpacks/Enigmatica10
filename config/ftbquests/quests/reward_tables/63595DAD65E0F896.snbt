@@ -1,0 +1,27 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "63595DAD65E0F896"
+	loot_size: 2
+	order_index: 20
+	rewards: [
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "ars_additions:lost_codex_entry"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{ item: { count: 1, id: "ars_additions:exploration_warp_scroll" }, weight: 30.0f }
+		{ item: { count: 1, id: "ars_nouveau:drygmy_charm" }, weight: 10.0f }
+		{ item: { count: 1, id: "ars_nouveau:wixie_shards" }, weight: 10.0f }
+	]
+	use_title: true
+}

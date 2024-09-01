@@ -17,6 +17,7 @@
 -   Queen Bee loves music and will share her treasures for sick beats! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   More Wandering Trader trades! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   More Amadron trades! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
+-   New batch craft recipes for essences [\#101](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/101)
 
 #### 🦟 Bugs Fixed
 

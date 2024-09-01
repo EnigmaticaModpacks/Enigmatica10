@@ -3,22 +3,22 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: Item.of('minecraft:brown_dye', 2),
+            output: '2x minecraft:brown_dye',
             inputs: ['#c:dyes/green', '#c:dyes/red'],
             id: `${id_prefix}brown_dye_from_green_red`
         },
         {
-            output: Item.of('minecraft:brown_dye', 3),
+            output: '2x minecraft:brown_dye',
             inputs: ['#c:dyes/blue', '#c:dyes/red', '#c:dyes/yellow'],
             id: `${id_prefix}brown_dye_from_blue_red_yellow`
         },
         {
-            output: Item.of('minecraft:green_dye', 2),
+            output: '2x minecraft:green_dye',
             inputs: ['#c:dyes/blue', '#c:dyes/yellow'],
             id: `${id_prefix}green_dye_from_blue_yellow`
         },
         {
-            output: Item.of('minecraft:green_dye', 1),
+            output: 'minecraft:green_dye',
             inputs: [
                 'minecraft:short_grass',
                 'minecraft:short_grass',
@@ -28,22 +28,22 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}green_dye_from_short_grass`
         },
         {
-            output: Item.of('minecraft:yellow_dye', 2),
+            output: '2x minecraft:yellow_dye',
             inputs: ['#c:dusts/sulfur'],
             id: `${id_prefix}yellow_dye_from_sulfur`
         },
         {
-            output: Item.of('minecraft:yellow_dye', 1),
+            output: 'minecraft:yellow_dye',
             inputs: ['productivetrees:fustic'],
             id: `${id_prefix}yellow_dye_from_fustic`
         },
         {
-            output: Item.of('minecraft:red_dye', 1),
+            output: 'minecraft:red_dye',
             inputs: ['productivetrees:dracaena_sap'],
             id: `${id_prefix}red_dye_from_dracaena_sap`
         },
         {
-            output: Item.of('minecraft:reinforced_deepslate', 1),
+            output: 'minecraft:reinforced_deepslate',
             inputs: [
                 'minecraft:polished_deepslate',
                 '#c:ingots/iron',
@@ -54,9 +54,19 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}reinforced_deepslate`
         },
         {
-            output: Item.of('minecraft:name_tag', 2),
+            output: '2x minecraft:name_tag',
             inputs: ['#c:strings', 'minecraft:paper'],
             id: `${id_prefix}name_tag`
+        },
+        {
+            output: 'minecraft:dead_bush',
+            inputs: ['#minecraft:saplings', 'minecraft:shears'],
+            id: `${id_prefix}dead_bush`
+        },
+        {
+            output: '4x minecraft:quartz',
+            inputs: ['#c:storage_blocks/quartz'],
+            id: `${id_prefix}quartz`
         }
     ];
 

@@ -75,6 +75,11 @@
 		"These are capable of handling the mighty Djinni whose control over time and weather is unrivaled."
 	]
 	quest.036036EA25034BE8.title: "Purple Chalk"
+	quest.03DFAA759B4E653E.quest_desc: [
+		"The Tablet of Awakening can infuse inanimate objects with Source, bringing them to some semblance of life. "
+		""
+		"There are several uses for this, but when it comes to making Charms, there are two that are our focus; Amethyst Golems and Bookwyrms. The creation of both of these is detailed in the Tablet’s tooltip."
+	]
 	quest.042650AE25DAC4CA.quest_desc: [
 		"With your Turbine upgraded, you’ll likely also need to upgrade your Steam Production. "
 		""
@@ -112,11 +117,95 @@
 		"[\"Additionally, the author has a number of helpful \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLvGYM7MCieIomj0tKtO9T5DUhvaYFjSxA\"},\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"video guides\",\"underlined\":true},\" on YouTube. Check them out if you need a little extra help.\"]"
 	]
 	quest.062BB5F675CF9F45.title: "Just Dire Things"
+	quest.064F6355185A51D4.quest_desc: [
+		"These adorable gold-loving critters can be a huge help in keeping your home tidy. "
+		""
+		"If bound to a chest, they’ll quickly gather all items from the ground and insert them into that chest. "
+		""
+		"They’ll also transfer from one chest to another and can farm Sourceberries without getting pricked by their thorns!"
+		""
+		"&a🛈 Tip: Starbuncles can be filtered with "
+		"&a    Allow/Deny Scrolls!"
+	]
+	quest.06F1A8F15128C1D9.quest_desc: [
+		"While not part of EvilCraft, it’s worth a mention here that Mob Spawners can be moved with Silk Touch and even upgraded! "
+		""
+		"Check out the Uses on Mob Spawners in EMI to find what items add which augments."
+	]
+	quest.0751B009795D7889.quest_desc: [
+		"The Spirit Furnace is a large multiblock structure used to endlessly extract loot drops from a Spirit you’ve stored in a Box of Eternal Closure. "
+		""
+		"The structure itself should minimally be a hollow 3x3x3 rectangular prism of Dark Blood Bricks. The Spirit Furnace block can be installed in any wall."
+		""
+		"Larger mobs will require a larger structure, as if the mob itself were inside the structure. So, a Ghast will need considerably more room than a Pig!"
+		""
+		"&a🛈 Tip: The Spirit Furnace built as large"
+		"&a    as a 9x9x9 rectangular prism."
+	]
+	quest.07684F58521A4D34.quest_desc: [
+		"Playing with friends? "
+		""
+		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
+	]
 	quest.08D496EFE575AD1E.quest_desc: [
 		"With any luck, you’ll have received a Genetically Modified Cell with the trait you’re after. If not, better luck next time."
 		""
 		"If you did, take that GM Cell back to the DNA Extractor and proceed from there as you would with any Cell. By the end of the process, you’ll have a blood sample with your fancy new upgraded trait."
 	]
+	quest.08E99B65ABE19047.quest_desc: [
+		"Spellcraft is important to any practitioner of the arcane arts. Doubly so in Ars Nouveau where spells can be used both directly from the Spell Book, imbued into a Spell Turret to fire automatically, or even enchanted directly onto equipement to trigger on a condition. "
+		""
+		"Begin by making yourself the Novice Spell Book. It comes with a few glyphs that you’ll be able to put together, but you’ll soon want to explore more glyphs to pull off ever more impressive feats."
+		""
+		"&6&nUseful Keybinds&r"
+		""
+		"[\"• Open Book (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Book\"}]},\"keybind\":\"key.ars_nouveau.open_book\"},\")\"]"
+		"[\"• Selection HUD (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Selection HUD\"}]},\"keybind\":\"key.ars_nouveau.selection_hud\"},\")\"]"
+		"[\"• Next Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Next Slot\"}]},\"keybind\":\"key.ars_nouveau.next_slot\"},\")\"]"
+		"[\"• Previous Slot (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Previous Slot\"}]},\"keybind\":\"key.ars_nouveau.previous_slot\"},\")\"]"
+		""
+		"If you're feeling a little daunted by spellcraft, that's normal. It's a huge and very powerful system. We'll try to point out useful spells to know throughout the quests, however. "
+		""
+		"The guidebook also has a section that explains the rules, such as placing &5Form&r before &aEffect&r or where &6Augments&r are allowed. "
+		""
+		"[\"Lastly, the community driven \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Ars.Guide\",\"underlined\":true},\" has a repository of useful spells. Feel free to explore them and submit your own creations!\"]"
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Multi-Tool&r"
+		"    &5Touch&r > &aBreak&r"
+		""
+		"&7Magic Missile&r"
+		"    &5Projectile&r > &aHarm&r"
+		""
+		"&a🛈 Tip: Refer to the guide for more examples."
+		""
+		"&6⚠ Note: Spells may contain up to thirty glyphs."
+	]
+	quest.0988DC06DD5A6935.quest_desc: [
+		"Have a curse you’d like to remove from your tool? Toss it in the Purifier with some Blood to get it cleansed away."
+		""
+		"The Purifier can also be used to transfer Enchantments from one item to another. "
+		""
+		"Simply insert the item and a Blook into the Purifier and it’ll transfer one random Enchantment to the Blook which can then be re-applied to another tool in an Anvil."
+	]
+	quest.09B6773CDA5A7565.quest_desc: [
+		"The Enchanting Apparatus will likely be the next device you’ll wish to set up as it’s used for many more advanced crafts, upgrading equipment, and applying enchantments!"
+		""
+		"This device is a free form multiblock. The Enchanting Apparatus must sit atop the Arcane Core, but the Pedestals may go anywhere within 3 blocks of the Core."
+		""
+		"The items in the Pedestals will be consumed by these recipes. "
+	]
+	quest.09C3C5173499DF7C.quest_desc: [
+		"To craft essences, you’ll need to place some pedestals adjacent to the Imbuement Chamber with key items installed in each pedestal. "
+		""
+		"These key items are &nnot consumed&r and are only there to set the recipe. "
+		""
+		"Valid placement is a 3x3x3 area centered on the Imbuement Chamber."
+		""
+		"&a🛈 Tip: Source is optional!"
+	]
+	quest.09C3C5173499DF7C.title: "Essences"
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -149,6 +238,7 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
+	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
 	quest.0B05FA716D7335D2.quest_desc: [
@@ -187,6 +277,12 @@
 		"&a    Helix in EMI to see what mobs it "
 		"&a    comes from!"
 	]
+	quest.0C1DCD8850E6857C.quest_desc: [
+		"The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."
+		""
+		"This process has been known to Curse the items during the process! "
+	]
+	quest.0C1DCD8850E6857C.title: "Repairs"
 	quest.0CBCE3A0D149AED0.quest_desc: [
 		"Where prior tiers have primarily focused on bootstrapping technology, the EV Tier is where we’ll get into the nuclear sciences, both for material processing and for power production. "
 		"&n                                                  &r"
@@ -416,6 +512,15 @@
 	]
 	quest.1447C4568B9A1606.quest_desc: ["[\"From there, the Sulfur will need to be \",{ \"text\": \"Incubated\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59A56F3053A30126\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" back into an ingot.\"]"]
 	quest.1447C4568B9A1606.title: "Incubation"
+	quest.14555CEDF53F68FC.quest_desc: [
+		"The Entangled Chalice allows Blood or other fluids to be shared, with each pair of Chalices sharing the same inventory."
+		""
+		"Chalices are always crafted in linked pairs. However, if you wish to add another Chalice to a network, use one of the Chalices from that network in the center of the craft. "
+		""
+		"&a🛈 Tip: A Chalice in your inventory can "
+		"&a    be used to autofill other containers "
+		"&a    in your inventory!"
+	]
 	quest.14688BF9C4B5766C.quest_desc: [
 		"Player Transmitters wirelessly charge FE based items and equipment in your inventory. "
 		""
@@ -424,12 +529,43 @@
 		"&a🛈 Tip: Install a Dimensional Binding Card"
 		"&a    for chargin in any dimension."
 	]
+	quest.14CC5EDC04D6BAC7.quest_desc: [
+		"Unlocking Tier 3 Glyphs will require a fight with the Wilden Chimera. "
+		""
+		"The Tribute you obtain from defeating it will be used not only to upgrade your Spell Book but can also be used to upgrade Ars Nouveau’s armors to a higher tier."
+		""
+		"This fight is not easy. Come prepared."
+		"&n                                                 &r"
+		""
+		"To summon the Chimera, you’ll need to first place the Ritual Brazier, then Right-Click it with the Tablet of Summon Wilden."
+		""
+		"Next, throw a Wilden Spike, Wilden Horn, and Wilden Wing on the Brazier to augment it."
+		""
+		"Finally, Right-Click the brazier again and stand back. "
+		""
+		"&a🛈 Tip: If you’re missing one or more of "
+		"&a    these Wilden pieces, just use the "
+		"&a    Tablet un-augmented to summon "
+		"&a    regular Wilden."
+		""
+		"&c⚠ Warning: The Chimera breaks blocks."
+	]
+	quest.14CC5EDC04D6BAC7.title: "Summoning the Wilden"
 	quest.14D5764532C5EEB0.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""
 		"The system can be accessed remotely through a QIO Dashboard to manually craft or just for accessing materials. Keep one with you and place it down whenever you want to access the network."
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"4D1E38918B64CD4E\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Mekanism\",\"underlined\":true},\" chapter. \"]"
+	]
+	quest.14DEE45EA9666015.quest_desc: [
+		"Prefer having an Environmental Accumulator at home? Or perhaps you'd like to collect the essence of a particular biome instead?"
+		""
+		"Breaking the Environmental Accumulator found in a Dark Temple will not give you the block, but it will give you an item you can use to craft this Blood fueled alternative."
+		""
+		"This device uses an impressive amount of Blood to do its job, and it must be supplied through 8 tanks placed in a ring around the device."
+		""
+		"Once you've placed the Accumulator, look for Smoke Particles which highlight the expected placement of Dark Tanks."
 	]
 	quest.156DEEC0CB40D7DB.quest_desc: [
 		"Allows multiple Force Field Projectors to work together to cover a larger area, while allowing free passage between them. "
@@ -461,6 +597,17 @@
 		"  slot to choose the look."
 	]
 	quest.15829059DE275E47.title: "Aesthetic Upgrades"
+	quest.159F7020B1DE875D.quest_desc: [
+		"Want to bring your new friends with you? "
+		""
+		"By bringing them close to a Ritual of Binding, you’ll obtain a Bound Script which may be learned by Right-Clicking it in the air. "
+		""
+		"Once learned, a new entry will appear in your Spell Book under the Familiars tab. From there, you’ll be able to instantly summon one familiar at a time to grant you benefits. "
+		""
+		"These benefits range from increased spell damage and higher looting rates, to buffed speed and item collection. "
+		""
+		"Check the tooltips on each Bound Script to see what it has to offer you!"
+	]
 	quest.15CECF38FB6CEADE.quest_desc: [
 		"Looking for something with a little more oomph? Mining Gadgets are an all in one modular tool system."
 		""
@@ -622,6 +769,14 @@
 		"&a    discover more."
 	]
 	quest.1D5E773A3A547A2C.title: "Handcrafted"
+	quest.1DA29F3B45DEFB4B.quest_desc: [
+		"Magic can be a lonely profession. Everyone always asks, “What can you do?”, but never “How are you doing?”."
+		""
+		"And while it’s useful to have spells being cast for you by a Turret, they’re cold… lifeless. "
+		""
+		"But what if you could make your own friends? Cute, lovable, huggable friends that would spark joy just by being around? "
+	]
+	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
 		""
@@ -704,6 +859,11 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.20C038E5D70CDB52.quest_desc: [
+		"The Wixie Cauldron allows a Wixie to craft either Potions or 3x3 Crafting recipes using Source."
+		""
+		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
+	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
 		""
@@ -754,6 +914,11 @@
 		""
 		"&a🛈 Tip: It is often easiest to dedicate an"
 		"&a    Infuser to an Infuse Material."
+	]
+	quest.23C86F86A1A4B1E9.quest_desc: [
+		"The Colossal Blood Chest is an improved version of the Blood Chest with none of the side effects. Not only does it work faster by default, but it also accepts Promises as upgrades."
+		""
+		"To construct the Colossal Blood Chest multiblock, you’ll need to build a 3x3x3 hollow cube of Reinforced Undead Planks with the Colossal Blood Chest installed in any wall. "
 	]
 	quest.23FF0CA316B2CB5D.quest_desc: [
 		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
@@ -962,6 +1127,15 @@
 		"&a    some or all of the material has "
 		"&a    processed."
 	]
+	quest.2C7977E4AE6B627B.quest_desc: [
+		"Before you go on a killing spree, you’ll want to make a few more tools. "
+		""
+		"First, you’ll want a Box of Eternal Closure. This acts as a trap for the Spirit you’ll unleash, allowing it to be used within certain machinery."
+		""
+		"Next, you’ll want a Vengeance Focus. This tool is used to guide a Spirit into your Box of Eternal Closure, trapping them."
+		""
+		"To use the Focus, simply press and hold Right-Click. You’ll see a stream of particles that you’ll want to aim at the Spirit. Hold it long enough and the Spirit will be absorbed by the Box."
+	]
 	quest.2C84374CBB186FE2.quest_desc: [
 		"With Creosote comes the ability to make Lubricant, and Lubricant allows running a Cutting Machine to make Rods and Bolts. Yes, now you can set aside your Forge Hammer for good!"
 		""
@@ -991,7 +1165,51 @@
 	]
 	quest.2F898C0C2DF380AE.quest_desc: ["The following are bulk energy storage units."]
 	quest.2F898C0C2DF380AE.title: "Bulk Energy Storage"
+	quest.2FB39BF76836FA47.quest_desc: [
+		"With all these Zombies and Skeletons walking around, is it really a surprise that Undeath has spread to the foliage as well?"
+		""
+		"Craft an Undead Sapling in your Blood Infuser and grow it to obtain Undead Wood. This special wood is an important resource for other crafts."
+	]
+	quest.309083107758B10C.quest_desc: [
+		"Now that you’ve got your first Spell Book, let’s see about adding some extra glyphs to spice things up."
+		""
+		"To make a new glyph, simply Right-Click on the Scribe’s Table with your Spell Book. This will show all known and unknown glyphs grouped by tier. It’s also searchable, so finding the Glyph you’re after shouldn’t be hard. "
+		""
+		"Let’s start with something easy to craft: Sensitive. "
+		""
+		"This allows you to change the target of a spell, such as hitting Water instead of the blocks below, or connecting with Grass and Saplings. "
+		""
+		"It also augments effects like Crush to work on items instead of blocks."
+		""
+		"&6&nExample Spells&r"
+		""
+		"&7Crush Items&r"
+		"    &5Projectile&r > &aCrush&r > &6Sensitive&r"
+		""
+		"&7Sapling Growth&r"
+		"    &5Projectile&r > &6Sensitive&r > &aGrow&r "
+		""
+		"&a🛈 Tip: The Scribe's Table will pull from "
+		"&a    nearby inventories automatically!"
+		""
+		"&6⚠ Note: Known Glyphs are stored in "
+		"&6    your player data. Losing a book "
+		"&6    just means losing the spell combos"
+		"&6    you’ve made rather than all Glyph "
+		"&6    knowledge."
+	]
 	quest.31129C8D75EFD8E9.quest_desc: ["The Gas-Burning Generator can burn Ethene to produce even more energy. A couple of these combined with some sort of automated crop farm should cover power needs for a good while to come."]
+	quest.31B6AE7706264320.quest_desc: [
+		"Spirits aren’t particularly strong, but they can cause a small amount of damage if you come into direct contact with one. "
+		""
+		"A Burning GemStone can absorb that damage, instead causing you to lose some hunger. "
+	]
+	quest.3202466CAE3744A9.quest_desc: [
+		"The manipulation of Spirits is an important part of being Evil. You’ll need some tools to interact with them, however."
+		""
+		"To begin, you’ll need to craft a Vengeance Ring. Sneak + Right-Click it to activate it, granting you several potent buffs and the ability to see the Spirits of the creatures you kill. "
+	]
+	quest.3202466CAE3744A9.title: "Spirits"
 	quest.3263757C9A240C70.quest_desc: [
 		"Chipped offers a multitude of block variants to fit your every decorative need. The Workbenches themselves are equally lovely and can spruce up your interiors quite easily."
 		""
@@ -1054,6 +1272,18 @@
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
 	quest.3840097BB3E09C9D.quest_desc: ["Equivalent to Stone Tools, Kaleidite Tools can be handy in a pinch if you happen to find yourself in a rift without your normal tools. "]
+	quest.3895E1D9DE518B3F.quest_desc: [
+		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
+		""
+		"To help replenish your mana faster, consider crafting a Jar of Voiding. These handy devices will eat items you pick up and convert them directly into mana. "
+		""
+		"To set an item it is allowed to eat, place that item in your offhand and Right-Click with the Jar. "
+		""
+		"Consider adding things like Cobble and other Stones to it."
+		""
+		"&a🛈 Tip: The Jar can be toggled at any "
+		"&a    time by Sneak + Right-Clicking with it. "
+	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.397D4765002935F2.quest_desc: [
 		"Above all else, Mekanism requires power. Getting started with the mod, therefore will require some form of FE generator. "
@@ -1067,6 +1297,14 @@
 		"Simple item pipes for moving things around. "
 		""
 		"They can be filtered and accept Motors as upgrades to speed them up."
+	]
+	quest.3A0F43654CE474DA.quest_desc: [
+		"Tree-hugging woodland spirits, Whirlisprigs will gladly join your menagerie if you show them some love and plant a tree nearby. "
+		""
+		"In exchange, the Whirlisprig will help you grow and farm plants. "
+		"&n                                                  &r"
+		""
+		"Right-Click any flower with her charm to create their home. Placing more plants and a greater variety of plants in their home will make them happier and more productive. "
 	]
 	quest.3A347A9576A5D514.quest_desc: [
 		"Quantum Upgrades unlock the greatest potential of your machines, with a single upgrade allowing it to reach its maximum potential."
@@ -1423,6 +1661,15 @@
 		"&a    Electric Pump to produce"
 		"&a    Heavy Water."
 	]
+	quest.3FA7963385E35E27.quest_desc: [
+		"Getting started with EvilCraft means going mining; quite possibly the evilest activity known. "
+		""
+		"Deep in the bowels of the earth, right around where you’d find Redstone, you’ll find Dark Ore. "
+		"Breaking it will give you Dark Gems, however you’ll also need Crushed Dark Gems, which only drop if you mine with Fortune."
+		""
+		"&a🛈 Tip: Mining with Fortune drops both "
+		"&a    Dark Gems and Crushed Dark Gems!"
+	]
 	quest.3FF6566453299DC1.quest_desc: [
 		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
 		""
@@ -1492,6 +1739,20 @@
 		"&a🛈 Tip: Sneak Right-Click with the "
 		"&a    Configurator to set the tank to"
 		"&a    auto-output from the bottom."
+	]
+	quest.41614A924E5556EE.quest_desc: [
+		"Welcome to Ars Nouveau!"
+		""
+		"This exciting mod will fulfil your every magical fantasy, from casting spells to brewing potions. "
+		""
+		"Summon magical creatures and craft magical gadgets to automagically perform nearly any task around your home!"
+		""
+		"Ars Nouveau also has a number of add-on mods which bring many new mechanics and features. "
+		""
+		"These quests can't cover everything, but the guidebook should help with anything not covered here."
+		""
+		"&a🛈 Tip: Sourceberries can be planted "
+		"&a    on grass!"
 	]
 	quest.41614A924E5556EE.title: "Ars Nouveau"
 	quest.4229112D97BB45E6.quest_desc: [
@@ -1608,6 +1869,14 @@
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
+	quest.4537806144939A6B.quest_desc: [
+		"An animate block of Amethyst, these golems will automatically create, grow, and harves budding blocks. "
+		""
+		"Bind them to an inventory to set the area they’ll work in. Nearby blocks will be converted into budding blocks. As they grow buds, they’ll break them and collect the drops, storing them in their bound inventory."
+		""
+		"&a🛈 Tip: Amethyst Golems works with"
+		"&a   Certus Quartz too!"
+	]
 	quest.45896B61EC465279.quest_desc: [
 		"Though the bane of many with seasonal allergies, Pollen Puff can be quite useful; when used on flowers, both big and small, it will spawn more of those flowers nearby. "
 		""
@@ -1632,6 +1901,11 @@
 		"&6⚠ Note: Some traits have prerequisites "
 		"&6    that, if not met, will cause the "
 		"&6    injection to fail. Refer to EMI."
+	]
+	quest.46195E73798357D2.quest_desc: [
+		"Dark Tanks have the potential for incredibly dense storage. "
+		""
+		"Each time you craft two together, the total capacity is combined. "
 	]
 	quest.4660608EBEE31784.quest_desc: [
 		"A special trade obtained from the Queen, Windy Air can be used to create updrafts that will lift you into the air. These can make an excellent elevator by stacking one atop the other. "
@@ -1688,6 +1962,19 @@
 		"&c⚠ Warning: Fission Reactors will "
 		"&c    explode if improperly cooled!"
 	]
+	quest.48271478CA0D3F6B.quest_desc: [
+		"We mentioned the blood, right? Yeah, you’re going to need a lot of it."
+		""
+		"For now, you’ll need to collect it manually, though automated methods are available later."
+		""
+		"Doing so is simple enough; craft a Blood Extractor and keep it in your inventory as you go about your murderous ways. It will slowly fill with blood with each kill."
+		""
+		"&a🛈 Tip: The capacity of the Blood "
+		"&a    Extractor can be increased by "
+		"&a    crafting it with another Extractor"
+		"&a    or a Dark Tank."
+	]
+	quest.48271478CA0D3F6B.title: "Blood"
 	quest.4840F7361DF70516.quest_desc: [
 		"The QIO System is a massive storage and routing system built on the same technology as the Quantum Entangloporter. Essentially, it acts as a very large chest."
 		""
@@ -1731,6 +2018,16 @@
 		"Each of these steps, and how they come together will be discussed in the following quests."
 	]
 	quest.48F901DB80482CAA.title: "Ore Processing"
+	quest.4914692B607F8BE0.quest_desc: [
+		"The Ender Source Jar is ideal for cross dimensional Source Transport. "
+		""
+		"So, if you’ve set up a crazy mob spawner in The End, maybe consider using this and a Vitalic Sourcelink to bring back all that delicious Source."
+	]
+	quest.492DA63DEC9663F2.quest_desc: [
+		"With your dark powers combined, you’ll finally be able to craft a Blood Infuser. "
+		""
+		"This’ll make the previous process a little less messy, and considerably cheaper. "
+	]
 	quest.49878D1219A63A4E.quest_desc: [
 		"Just another solar panel. It produces power during daylight hours and works best if paired with an Energy Cube or other power storage device."
 		""
@@ -1772,6 +2069,16 @@
 		""
 		"Our end goal here will be Rare Metal Niter."
 	]
+	quest.4ACCED64D436209E.quest_desc: [
+		"Obtaining Dark Gems is, for now, a very bloody mess. "
+		""
+		"Dump out five buckets of Blood on the ground and toss in a Dark Gem. "
+		""
+		"You’ll need to be somewhat quick about this process, as Blood will slowly coagulate into Hardened Blood. Worry not, if this happens just punch it to get it good and liquified again. "
+		""
+		"&a🛈 Tip: Right-Click a Blood Extractor on "
+		"&a    the ground to dump out a bucket."
+	]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
 		""
@@ -1790,6 +2097,21 @@
 		"Batteries are more about personal energy storage for increasing the effective capacity of any FE based equipment you’re using. "
 		""
 		"They can also be inserted into an Ender Cell to increase it's capacity."
+	]
+	quest.4C5D3AE08ACA9836.quest_desc: [
+		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
+		""
+		"This will unlock Tier 2 Glyphs for you and really open up some wild possibilities for spells."
+		""
+		"&6&nExample Spell&r"
+		""
+		"&7Frostbite&r"
+		"    &5Touch&r > &aFreeze&r > &aCold Snap x2&r > &6Amplify&r"
+		"    > &aDelay&r > &aCold Snap&r > &6Amplify&r"
+		"     "
+		""
+		"&6⚠ Note: Any spells you’ve crafted will be "
+		"&6    transferred forward when upgrading. "
 	]
 	quest.4C745779C30B48A6.quest_desc: [
 		"With the Liquefaction Cauldron, we’ll use our solvent, Sal Ammoniac, to dissolve our ore into a purified Sulfur. "
@@ -1817,6 +2139,22 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.4CE65730937AB775.quest_desc: [
+		"The Ritual Brazier opens numerous possibilities, such as permanent area effects, transformations, time adjustments, and more."
+		""
+		"You’ll almost certainly find something of use among all these tablets, but here are a few highlights:"
+		""
+		"  • Wide Area of Creative Flight"
+		"  • Locate specific structures"
+		"  • Hastened crop growth"
+		"  • Automatic crop harvesting"
+		"  • Weather shaping"
+		"  • Time manipulation"
+		""
+		"&a🛈 Tip: Check the Tablet Tooltips for "
+		"&a    more information!"
+	]
+	quest.4CE65730937AB775.title: "Ritual Magic"
 	quest.4CE66DC7BB1AC84B.quest_desc: [
 		"Plasma Turbines are used to convert the Helium Plasma created by the Fusion Reactor into useful EU. "
 		""
@@ -1840,6 +2178,14 @@
 		"&a    Logistics, such as Mercurial "
 		"&a    Item Nodes!"
 	]
+	quest.4DE1B1045507C72C.quest_desc: [
+		"Dark Sticks, apart from being a useful crafting component, also serve to point the way to a special type of structure, the Dark Temple. "
+		""
+		"Drop a stick on the ground and watch which way the white tip points. Follow along in that direction until you find a raised platform with a beacon glowing atop it."
+		""
+		"Once you've found the structure, climb atop and locate the Environmental Accumulator. This device will let you charge items with local weather and biome patterns."
+	]
+	quest.4DE1B1045507C72C.title: "Dark Temple"
 	quest.4E175A06927C3A75.quest_desc: [
 		"A Charging Station is a convenient way to refill the air in your pneumatic tools and equipment. "
 		""
@@ -1869,6 +2215,15 @@
 	]
 	quest.4E7DA28C54FB8766.title: "Rare Materials"
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.4F480CF26AB0F3CD.quest_desc: [
+		"Just as Promises of Tenacity can enable greater functionality, these promises boost machines in unique ways."
+		""
+		"At Tier 1, you’ll only be able to fit one or the other. Considering Blood is still a manual affair, Productivity is looking pretty good right now!"
+		""
+		"• &7Velocity&r – Speed up the crafting."
+		"• &7Productivity&r – Chance to reduce blood cost."
+	]
+	quest.4F480CF26AB0F3CD.title: "Machine Upgrades"
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
 	quest.4FEA49AD05720ED7.quest_desc: [
 		"Ah, the simple joys of playing with chalk outside. "
@@ -2151,6 +2506,37 @@
 		""
 		"Craft some Otherworld Goggles. These grant Spirit sight and allow you to see Iesnium Ore."
 	]
+	quest.5AD1A273F3714FAF.quest_desc: [
+		"It’s probably about time we started thinking about power. "
+		""
+		"Many of Ars Nouveau’s devices either require Source to run, such as certain Enchanting Apparatus recipes, or are dramatically improved by having Source supplied, like the Imbuement Chamber."
+		""
+		"So, let’s pick a method and get some Source generated!"
+		"&n                                                              &r"
+		""
+		"Each Sourcelink uses a different \"fuel\" to generate Source, which it deposits into a nearby Source Jar."
+		""
+		"• &7Agronomic&r – Generates Source from natural "
+		"    crop growth. Place in the middle of a field "
+		"    for best results."
+		""
+		"• &7Volcanic&r – Consumes furnace fuels like coal. "
+		"    This can be dropped nearby or inserted into "
+		"    an adjacent Arcane Pedestal."
+		""
+		"• &7Alchemical&r – Consumes potions from an "
+		"    adjacent Potion Jar. Best paired with a Wixie "
+		"    designated to craft potions into the jar."
+		""
+		"• &7Vitalic&r – Converts mob deaths to Source, an "
+		"    excellent addition to any mob farm."
+		""
+		"• &7Mycelial&r – Consume food. This can be dropped "
+		"    nearby or inserted into an adjacent "
+		"    Arcane Pedestal."
+		""
+		"&a🛈 Tip: Source Jars hold 10,000 Source."
+	]
 	quest.5AFA08920E94A02B.quest_desc: [
 		"The Spirit Fire will act as your primary interface to the Otherworld for now. "
 		""
@@ -2241,6 +2627,18 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.5F0523F799DA720C.quest_desc: [
+		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
+		""
+		"The bottle may then be thrown to release that weather wherever you like, changing it instantly. "
+	]
+	quest.602E1E149A49D056.quest_desc: [
+		"With the Chimera dead, the rest of the ingredients for the Archmage Spell Book should be within your grasp. "
+		""
+		"Summoning the Wither is the same as Vanilla, but you can craft a containment chamber for it with Reinforced Deepslate to simplify the fight."
+		""
+		"Finding an Evoker for a Totem of Undying can be a little more challenging, but you can force an Illager Raid with a Tablet of Challenge. Or you can summon a Possessed Evoker with Occultism. "
+	]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
 	quest.6118F241A056954F.quest_desc: [
@@ -2263,6 +2661,21 @@
 		""
 		"&a🛈 Tip: A Scraper enchanted with "
 		"&a    Delicate Touch will cause no harm."
+	]
+	quest.621BA38E3E50B91E.quest_desc: [
+		"Promises of Tenacity act as a sort of Tier system for machines. Not only do they allow the installation of Upgrades, but they also unlock features of the machine. "
+		""
+		"For example, certain recipes will require a Tier 2 Promise of Tenacity to work at all. "
+		""
+		"&a🛈 Tip: Higher tier Promises work for "
+		"&a    lower tier recipes!"
+	]
+	quest.6242CD0203DCBDC7.quest_desc: [
+		"The Wixie Enchanting Apparatus allows a Wixie to craft any Enchanting Apparatus recipes using Source."
+		""
+		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
+		""
+		"Unlike a normal Enchanting Apparatus, the Arcane Pedestals are only used to specify a recipe. She does not need them for ingredients."
 	]
 	quest.626E31B97CA1F815.quest_desc: [
 		"While capable of producing enormous power, the allure of Fission Reactors within Mekanism is mostly to process Uranium into more useful materials, like Plutonium and Polonium. "
@@ -2289,6 +2702,19 @@
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
 	]
+	quest.6303A7113DE954DD.quest_desc: [
+		"That stabbing arm of yours is probably getting a bit worn out by now and you’re undoubtedly looking for a way to get some Blood automatically. "
+		""
+		"A Spiked Plate and Sanguinary Pedestal are the answer. "
+		""
+		"Place the Spiked Plate on top of the Pedestal and put a Dark Tank adjacent. Any mob that steps on the plate will be damaged and their blood will be automatically transferred to the Tank. "
+		""
+		"You will, of course, need to build some sort of mob farm as well… maybe some form of Curse could help?"
+		""
+		"&a🛈 Tip: Sneak + Right-Click a Wither Rose"
+		"&a    on Dirt to make Cursed Earth."
+	]
+	quest.6303A7113DE954DD.title: "Blood Automation"
 	quest.631AA5AAA6EF687C.quest_desc: [
 		"Pattern Providers are the network's means of interfacing with crafting machines. "
 		""
@@ -2327,6 +2753,11 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
+	quest.64B786FE65505D75.quest_desc: [
+		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
+		""
+		"The bottle may then be thrown to release that biome wherever you like, changing it permanently. "
+	]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
 		""
@@ -2356,6 +2787,14 @@
 		""
 		"Enrich some Redstone and Coal before inserting it in a Metallurgic Infuser for a nice boost to efficiency!"
 	]
+	quest.65FDD18E441E2E6E.quest_desc: [
+		"An animate Book, Bookwyrms are part of a complete storage system built into Ars Nouveau. "
+		""
+		"The guidebook offers a full guide on setting this system up, however as a brief overview use a Bookwyrm Charm on a Storage Lectern to enable that Lectern to be linked to inventories."
+		""
+		"&a🛈 Tip: Adding more Bookwyrms allows "
+		"&a    more connections!"
+	]
 	quest.66A24B8817411BBC.quest_desc: [
 		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
 		""
@@ -2383,6 +2822,20 @@
 		""
 		"&a🛈 Tip: Demon’s Dream fruit will heal"
 		"&a    Spirits!"
+	]
+	quest.66BC8A8EB33B0677.quest_desc: [
+		"A Piercing Vengeance Focus is a more powerful form of your normal Focus. Rather than trapping a Spirit in a box, however, it completely obliterates it."
+		""
+		"By killing a Spirit in this way, you’ll obtain some Vengeance Essence."
+	]
+	quest.66BC8A8EB33B0677.title: "Vengeance Essence"
+	quest.66DAC6EC4232C44A.quest_desc: [
+		"Fun-loving denizens of the deeps, Sirens live in warm oceans and will happily join your menagerie if you give them a Sea Pickle. "
+		""
+		"In exchange, the Siren will help you automatically obtain fishing loot. "
+		"&n                                                  &r"
+		""
+		"Right-Click a block of Prismarine with her charm to create her home. Placing more aquatic plants and animals in their home will make them happier and more productive."
 	]
 	quest.673C6861CC3A781C.quest_desc: [
 		"[\"Having obtained the Rare Metal Niter we were after, we can \",{ \"text\": \"Reform\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" it into any Rare Metal Sulfur we want, like Gold Sulfur.\"]"
@@ -2433,6 +2886,16 @@
 		"&a    Wormhole or Storage Accessor"
 		"&a    on the Actuator to link them."
 	]
+	quest.69295042E8C3A609.quest_desc: [
+		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
+		""
+		"These come in a variety of flavors, however perhaps the most relevant right now will be the Splitter. Not only will this transfer Source faster than the basic Relay, but it can also be used to pull from or deposit to multiple targets. "
+		""
+		"Use a Dominion Wand to link Relays to other Relays or Source Jars. First Right-Click the origin, then Right-Click the destination."
+		""
+		"&a🛈 Tip: You can recolor the beams shot "
+		"&a    by a Relay using the Wololo Glyph!"
+	]
 	quest.692EDEAEC3F4A2AD.quest_desc: [
 		"The Swapper is a powerful teleportation device that swaps the blocks or entities in front of it with its linked partner. "
 		""
@@ -2456,6 +2919,11 @@
 		"&a    moved, but must be placed on a "
 		"&a    crystal like Glistering Honey"
 		"&a    or Amethyst"
+	]
+	quest.69A9A6E9B7CB34B4.quest_desc: [
+		"The first thing you’ll need to do to get started with Ars Nouveau is find some Archwood trees. "
+		""
+		"For now, any color will do, but you’ll eventually want to collect some saplings from each variety."
 	]
 	quest.69AAE7C502629B3E.quest_desc: [
 		"As with the conversion from LV to MV, converting to HV will likely take a little time. Upgrading your power production first will be key. "
@@ -2674,6 +3142,17 @@
 		"Farmland tilled with a Celestigem Hoe will self-harvest and teleport the drops to a bound storage as well. Handy!"
 	]
 	quest.7163E7EBDB861D72.title: "Advanced Item Collector?"
+	quest.717CCCD239144E0B.quest_desc: [
+		"Welcome to EvilCraft! "
+		""
+		"Here you’ll get to do evil things for the sake of evil. "
+		""
+		"Oh, and there’s a lot of blood. So much blood. "
+		""
+		"No, really, that scene from The Shining has nothing on how much blood there is here."
+		""
+		"[\"The mod comes with a book, however you can also access all pertinent information on their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://evilcraft.rubensworks.net/book/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\".\"]"
+	]
 	quest.717CCCD239144E0B.title: "EvilCraft"
 	quest.7220A9770C3E1C6F.quest_desc: [
 		"The Inscriber will be the primary machine you’ll be working with to produce crafting components; the various Processors are used extensively throughout Applied Energistics."
@@ -2685,6 +3164,17 @@
 		"&a🛈 Tip: The Inscriber can be powered directly "
 		"&a    from any source of FE or EU."
 	]
+	quest.72C1A824063BAFA3.quest_desc: [
+		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
+		""
+		"In exchange, the Drygmy will help you harvest drops from animals and monsters alike. "
+		"&n                                                  &r"
+		""
+		"Right-Click a Mossy Cobblestone with their charm to create their home. Placing many different creatures in their home will make them happier and more productive. "
+		""
+		"&a🛈 Tip: Drygmies will work with mobs "
+		"&a    in Containment Jars!"
+	]
 	quest.730D1F506B88FEEF.quest_desc: [
 		"Steam is likely in short supply again with a Quarry running and will soon be in even shorter supply running turbines for power. Upgrading to a Large Steam Boiler now will save headaches down the road."
 		""
@@ -2694,6 +3184,17 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.73A71BBB9D9168B0.quest_desc: [
+		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
+		""
+		"First, capture the mob’s spirit in a Box of Eternal Closure. "
+		""
+		"Next, insert it in the Reanimator with a Chicken’s Egg. "
+		""
+		"Finally, supply Blood and wait. "
+		""
+		"Once the Spawn Egg has been procured, you can Right-Click it on a Spawner to set the spawn type. "
 	]
 	quest.73D70F80C3AE999C.quest_desc: [
 		"Who doesn’t love yeeting things through the air? "
@@ -2865,6 +3366,15 @@
 		""
 		"Feel free to hook up any Logistics you wish to extract the result."
 	]
+	quest.7750C6E87B1EBF43.quest_desc: [
+		"The humble Imbuement Chamber is perhaps the single most important apparatus in Ars Nouveau. "
+		""
+		"With it, you’ll be able to generate the Source Gems and Essences you’ll need for all future crafts. "
+		""
+		"For now, we'll need to start by converting some Lapis to Source Gems. "
+		""
+		"&a🛈 Tip: Source is optional!"
+	]
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
@@ -2879,6 +3389,14 @@
 		"&a    discover more."
 	]
 	quest.77A66ADAB0845804.title: "Macaw's Mods"
+	quest.77B7679AFE090140.quest_desc: [
+		"Hardened Blood Shards come from Blood you’ve let sit out a little too long. "
+		""
+		"Place a bucket of Blood in the world and wait for it to coagulate. Once it has, you can break it while holding a Flint and Steel to obtain a few Blood Shards."
+		""
+		"&a🛈 Tip: Break the block with Silk Touch"
+		"&a    and smelt it for a better yield!"
+	]
 	quest.78D83E33F82D6015.quest_desc: [
 		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
 		""
@@ -2982,6 +3500,18 @@
 		"&a    discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
+	quest.7FAC3A637F82BFED.quest_desc: [
+		"These floaty little witch friends can be tasked with automating standard 3x3 Crafting Table crafts, Potion Brewing, and even the Enchanting Apparatus. "
+		""
+		"Obtaining the Wixie Token to craft the Charm is going to require a little bit of Spellcraft; essentially you must Dispel a Witch that’s at less than half health. "
+		""
+		"The spell provided below should convert a Witch in two quick casts. "
+		""
+		"&6&nExample Spell&r"
+		""
+		"&7Witch to Wixie&r"
+		"    &5Projectile&r > &aHarm&r > &6Amplify&r > &aDispel&r "
+	]
 	quest.7FEA11A88316FE0C.quest_desc: ["Simple energy storage with built in item charging capabilities."]
 	reward.34CE01457EC3BF54.title: "Bed"
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
@@ -2989,7 +3519,9 @@
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
 	reward_table.0765A447BA2E5EDF.title: "MI Lootbox: Quantum Tier"
 	reward_table.09B745401897355C.title: "PneumaticCraft Lootbox: Epic"
+	reward_table.0B6BCA25CDDB6DFA.title: "EvilCraft LootBox"
 	reward_table.0D9287B7A88E2255.title: "MI Lootbox: HV Tier"
+	reward_table.0F3B57D5BCDEFA8D.title: "Ars Nouveau Lootbox: Legendary"
 	reward_table.1FB94504FC4F0807.title: "MI Lootbox: EV Tier"
 	reward_table.2806F6BEA4A73B0B.title: "Occultism Lootbox"
 	reward_table.3989965A6A96B854.title: "MI Lootbox: MV Tier"
@@ -3000,21 +3532,27 @@
 	reward_table.523EF680C25C2831.title: "MI Lootbox: LV Tier"
 	reward_table.57D690FA70BABEA6.title: "PneumaticCraft Lootbox: Legendary"
 	reward_table.59C93D37C8A23DE3.title: "Mekanism Lootbox: Legendary"
+	reward_table.63595DAD65E0F896.title: "Ars Nouveau Lootbox: Epic"
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
+	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
+	task.01BD7546106B0EB9.title: "Magical Shards"
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
 	task.069760235257E581.title: "String Curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
+	task.0767C8200D0389A6.title: "Essences"
+	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
+	task.14C031FA14C3CD89.title: "Environmentla Accumulator"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
@@ -3035,8 +3573,10 @@
 	task.3444EAB8952876B1.title: "Observe a Rift"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
+	task.35F8589774CE48D9.title: "Arcane Pedestals"
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
+	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
@@ -3044,6 +3584,7 @@
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
 	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
+	task.418BC399B733818A.title: "Archwood"
 	task.42E9F9AE06C46A76.title: "Any Pickaxe"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
 	task.4315ED9269099C81.title: "Any Chest"
@@ -3052,6 +3593,7 @@
 	task.44956BC067ED019C.title: "Pressurized Tubes"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4775BC243353527B.title: "Any Mining Gadget"
+	task.47D22C2E34E9A099.title: "Sourcelinks"
 	task.484FF1BEA9145D5F.title: "Puller Modules"
 	task.488180E25D5B815A.title: "Anti-Fields"
 	task.49C1EEBEED453B1C.title: "Mechanical Pipes"
@@ -3063,6 +3605,7 @@
 	task.51472C5BD0C05E09.title: "Kill a Mob"
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
+	task.5314260DF92C1856.title: "Observe a Wixie's Cauldron"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
@@ -3093,9 +3636,12 @@
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
 	task.75050C1ED68FA527.title: "Building Gadgets"
+	task.75934726B8EC6FC8.title: "Ritual Tablets"
+	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.7866B09190F4EA23.title: "Observe a Villager"
 	task.7A9E6782E73FF106.title: "Batteries"
+	task.7B8A280C515F168E.title: "Any Pickaxe"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
