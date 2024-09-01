@@ -18,6 +18,7 @@
 -   More Wandering Trader trades! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   More Amadron trades! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   New batch craft recipes for essences [\#101](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/101)
+-   Evilcraft no longer curses items when repairing [\#105](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/105)
 
 #### 🦟 Bugs Fixed
 
