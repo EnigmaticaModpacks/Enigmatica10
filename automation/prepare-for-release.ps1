@@ -79,7 +79,7 @@ function Close-FixedIssues {
     Write-Host
     Write-Host "### $CLIENT_FILE_DISPLAY_NAME"
     Write-Host 
-    Write-Host "NeoForge-1.21.0-$modloaderVersion | [Mod Updates](https://github.com/EnigmaticaModpacks/$MODPACK_NAME/blob/master/changelogs/changelog_mods_$MODPACK_VERSION.md) | [Modlist](https://github.com/EnigmaticaModpacks/$MODPACK_NAME/blob/master/changelogs/modlist_$MODPACK_VERSION.md)"
+    Write-Host "NeoForge-1.21.1-$modloaderVersion | [Mod Updates](https://github.com/EnigmaticaModpacks/$MODPACK_NAME/blob/master/changelogs/changelog_mods_$MODPACK_VERSION.md) | [Modlist](https://github.com/EnigmaticaModpacks/$MODPACK_NAME/blob/master/changelogs/modlist_$MODPACK_VERSION.md)"
     Write-Host 
     Write-Host "#### Added Mods"
     Write-Host
