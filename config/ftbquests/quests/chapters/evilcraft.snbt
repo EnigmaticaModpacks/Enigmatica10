@@ -1,5 +1,5 @@
 {
-	always_invisible: true
+	autofocus_id: "77B7679AFE090140"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "evilcraft"
@@ -10,27 +10,639 @@
 	id: "603B06098A07350C"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			components: {
-				"ftbquests:icon": "evilcraft:block/blood_infuser_north_on"
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "evilcraft:block/blood_infuser_north_on"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			id: "ftbquests:custom_icon"
+			id: "717CCCD239144E0B"
+			rewards: [
+				{
+					id: "38A53B82EA047D18"
+					item: {
+						count: 1
+						id: "evilcraft:origins_of_darkness"
+					}
+					type: "item"
+				}
+				{
+					id: "6F4A6D93C2DEF3DD"
+					item: {
+						count: 1
+						id: "minecraft:wet_sponge"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B8A280C515F168E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
 		}
-		id: "717CCCD239144E0B"
-		rewards: [{
-			id: "38A53B82EA047D18"
-			item: {
-				count: 1
-				id: "evilcraft:origins_of_darkness"
+		{
+			dependencies: ["717CCCD239144E0B"]
+			id: "3FA7963385E35E27"
+			rewards: [
+				{
+					id: "7FD03FDAC29E6FA1"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:fortune": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "671BF81CADBB6323"
+					item: {
+						count: 1
+						id: "evilcraft:dark_gem_crushed"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E330C3E94CE2C96"
+					table_id: 310519013727846436L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0C96286549AD0DD2"
+				item: { count: 1, id: "evilcraft:dark_gem" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["492DA63DEC9663F2"]
+			id: "0C1DCD8850E6857C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "701940D4DB2D55D2"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E0A44ED0D2E3AAD"
+				item: { count: 1, id: "evilcraft:blood_chest" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C1DCD8850E6857C"]
+			icon: {
+				id: "evilcraft:colossal_blood_chest"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "3C64E92DFA608339"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+			id: "23C86F86A1A4B1E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3405C1C7D23546DC"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "72DAB99E1982A79B"
+					item: { count: 1, id: "evilcraft:colossal_blood_chest" }
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "76F503E41AF60FAF"
+					item: { count: 1, id: "evilcraft:reinforced_undead_planks" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA7963385E35E27"]
+			id: "48271478CA0D3F6B"
+			rewards: [
+				{
+					id: "43E73B7C77DAA598"
+					item: {
+						components: {
+							"cyclopscore:capacity": 16000
+							"cyclopscore:fluid_content": {
+								amount: 10000
+								id: "evilcraft:blood"
+							}
+						}
+						count: 1
+						id: "evilcraft:dark_tank"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "373CC58BDC79FB43"
+					table_id: 822973620641558010L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "18AE9263A3F9B02A"
+				item: { count: 1, id: "evilcraft:blood_extractor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48271478CA0D3F6B"]
+			id: "4ACCED64D436209E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DFFB094D92B3E19"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FA72699ABD972E8"
+				item: { count: 1, id: "evilcraft:dark_power_gem" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C7977E4AE6B627B"]
+			id: "0751B009795D7889"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C9E38AAC31AD6F"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3D4070B43CEF452C"
+					item: { count: 1, id: "evilcraft:spirit_furnace" }
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4FAB6D115849A2D7"
+					item: { count: 25, id: "evilcraft:dark_blood_brick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6303A7113DE954DD"]
+			icon: {
+				id: "evilcraft:spirit_reanimator"
+			}
+			id: "73A71BBB9D9168B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DE70FF55D03511D"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4ADB8982A8F6B9CC"
+					item: { count: 1, id: "evilcraft:spirit_reanimator" }
+					type: "item"
+				}
+				{
+					id: "3B0128205BDBC420"
+					item: { count: 1, id: "minecraft:egg" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C1DCD8850E6857C"]
+			icon: {
+				id: "evilcraft:purifier"
+			}
+			id: "0988DC06DD5A6935"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ABD346C3AC3DEEB"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "02ACBA14ED31AF33"
+					item: { count: 1, id: "evilcraft:purifier" }
+					type: "item"
+				}
+				{
+					id: "39FB4ABE44E04998"
+					item: { count: 1, id: "evilcraft:blook" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DE1B1045507C72C"]
+			icon: {
+				id: "evilcraft:sanguinary_environmental_accumulator"
+			}
+			id: "14DEE45EA9666015"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "265F3E1DC43AB1FE"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "43370AFFD4EBAF48"
+					item: { count: 1, id: "evilcraft:sanguinary_environmental_accumulator" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7DD57170FE79CA23"
+					item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FA7963385E35E27"]
+			id: "3202466CAE3744A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45CA139146A71847"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "595FF126B994B9DD"
+				item: { count: 1, id: "evilcraft:vengeance_ring" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3202466CAE3744A9"]
+			id: "2C7977E4AE6B627B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3914435C5E34E950"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2905810324E3003D"
+					item: { count: 1, id: "evilcraft:vengeance_focus" }
+					type: "item"
+				}
+				{
+					id: "5BDF23701F770421"
+					item: { count: 1, id: "evilcraft:box_of_eternal_closure" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C7977E4AE6B627B"]
+			id: "31B6AE7706264320"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43E4E5F281D1483E"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3142A06E8E16C922"
+				item: { count: 1, id: "evilcraft:burning_gem_stone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66BC8A8EB33B0677"]
+			id: "0AEF5FB6530F4D65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1390DCFCC7B4B962"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E3A222E226F1ECE"
+				item: { count: 1, id: "evilcraft:spectral_glasses" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48271478CA0D3F6B"]
+			id: "46195E73798357D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "378F38365FC505EF"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30536BF69330FA83"
+				item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48271478CA0D3F6B"]
+			id: "77B7679AFE090140"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "770D52F9BB636B07"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1E3CC0EDCD950B3A"
+				item: { count: 1, id: "evilcraft:hardened_blood_shard" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4ACCED64D436209E"
+				"77B7679AFE090140"
+			]
+			id: "492DA63DEC9663F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78F406D40778980E"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D02DAD836B3B3B1"
+				item: { count: 1, id: "evilcraft:blood_infuser" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["492DA63DEC9663F2"]
+			id: "2FB39BF76836FA47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C1732775E04E094"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D965E2BAFD1520E"
+				item: { count: 1, id: "evilcraft:undead_sapling" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FB39BF76836FA47"]
+			icon: {
+				id: "evilcraft:environmental_accumulator"
+			}
+			id: "4DE1B1045507C72C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "314155408F32208E"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "102B6984636C38E5"
+					item: { count: 1, id: "evilcraft:dark_stick" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "evilcraft:environmental_accumulator"
+					}
+					id: "14C031FA14C3CD89"
+					observe_type: 0
+					timer: 0L
+					to_observe: "evilcraft:environmental_accumulator"
+					type: "observation"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["492DA63DEC9663F2"]
+			id: "621BA38E3E50B91E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DCA7E9D9D3FB79E"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C8A4080C2D7A111"
+				item: { count: 1, id: "evilcraft:promise_tier_1" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["621BA38E3E50B91E"]
+			id: "4F480CF26AB0F3CD"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "680B1FAA50C718C7"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2C0CD473FF75BDE1"
+					item: { count: 1, id: "evilcraft:promise_speed_0" }
+					type: "item"
+				}
+				{
+					id: "001F1F41EE3DC0F7"
+					item: { count: 1, id: "evilcraft:promise_efficiency_0" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["492DA63DEC9663F2"]
+			icon: {
+				id: "evilcraft:spiked_plate"
+			}
+			id: "6303A7113DE954DD"
+			rewards: [
+				{
+					id: "11878B23BEE0008F"
+					item: {
+						count: 1
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "548AB55AEAB434B1"
+					table_id: 822973620641558010L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "78D54A3DA95B9DD8"
+					item: { count: 1, id: "evilcraft:sanguinary_pedestal_0" }
+					type: "item"
+				}
+				{
+					id: "167D0146A622937B"
+					item: { count: 1, id: "evilcraft:spiked_plate" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6303A7113DE954DD"]
+			id: "06F1A8F15128C1D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F4C84E072B1AC71"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4EDD731131592044"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46195E73798357D2"]
+			id: "14555CEDF53F68FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1139F4F6B3EF7D50"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "382BDC0A6C24BAF0"
+				item: { components: { "evilcraft:world_shared_tank_id": "creative" }, count: 1, id: "evilcraft:entangled_chalice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C7977E4AE6B627B"]
+			icon: {
+				id: "evilcraft:vengeance_essence"
+			}
+			id: "66BC8A8EB33B0677"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20AFC04D21403F09"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "276C28694B2C7999"
+					item: { count: 1, id: "evilcraft:piercing_vengeance_focus" }
+					type: "item"
+				}
+				{
+					id: "6312FF28AB988EA4"
+					item: { count: 1, id: "evilcraft:vengeance_essence" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DE1B1045507C72C"]
+			id: "64B786FE65505D75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FA693A652BD27FB"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "216635D2BAD048E1"
+				item: { count: 1, id: "evilcraft:biome_extract" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DE1B1045507C72C"]
+			id: "5F0523F799DA720C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A5FA3649654527A"
+				table_id: 822973620641558010L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "51B800771C0A3ACB"
+				item: { components: { "evilcraft:weather_container_type": "EMPTY" }, count: 1, id: "evilcraft:weather_container" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+	]
 }

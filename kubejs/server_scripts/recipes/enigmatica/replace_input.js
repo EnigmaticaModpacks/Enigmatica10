@@ -17,13 +17,14 @@ ServerEvents.recipes((event) => {
             filter: [
                 { mod: 'ae2', not: { output: 'ae2:cable_anchor' } },
                 { mod: 'ae2netanalyser' },
-                { mod: 'aquaculture', output: /tackle_box/ }
+                { mod: 'aquaculture', output: /tackle_box/ },
+                { mod: 'evilcraft' }
             ],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
         },
         {
-            filter: [{ mod: 'aquaculture', output: /tackle_box/ }],
+            filter: [{ mod: 'aquaculture', output: /tackle_box/ }, { mod: 'evilcraft' }],
             to_replace: '#c:storage_blocks/iron',
             replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
         },

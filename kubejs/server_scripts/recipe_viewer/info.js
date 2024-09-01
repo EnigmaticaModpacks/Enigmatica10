@@ -61,6 +61,22 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 ' ',
                 'Fully Charged Budding Time Crystal Blocks will slowly decay, at which point they must be transferred back to the Overworld to repeat the cycle.'
             ]
+        },
+        {
+            filter: ['cursedearth:blessed_earth'],
+            text: [
+                'Rapidly spawns Passive mobs that would otherwise spawn in the area.',
+                '',
+                'Can spread to adjacent dirt blocks.'
+            ]
+        },
+        {
+            filter: ['cursedearth:cursed_earth'],
+            text: [
+                'Rapidly spawns Hostile mobs that would otherwise spawn in the area.',
+                '',
+                'Can spread to adjacent dirt blocks. Burns when exposed to daylight.'
+            ]
         }
     ];
 

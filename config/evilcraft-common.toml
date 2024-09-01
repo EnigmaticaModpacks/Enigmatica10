@@ -4,7 +4,7 @@
 		#The position to render the blood gui overlay at. (0=NE, 1=SE, 2=SW,3=NW)
 		bloodGuiOverlayPosition = 1
 		#If farting is enabled on this server; Client-side: If farting can be seen at your client.
-		farting = true
+		farting = false
 		#The X offset for the blood gui overlay.
 		bloodGuiOverlayPositionOffsetX = -5
 		#The amount of mB that can flow per tick out of machines and items.
@@ -60,7 +60,9 @@
 		#The amount Blood mB required for repairing one damage value.
 		mBPerDamage = 5
 		#If the Blood Chest should add random bad enchants with a small chance to repairing items.
-		addRandomBadEnchants = true
+		addRandomBadEnchants = false
+		#The 1/x chance the Blood Chest should add random bad enchants with a small chance to repairing items. Disabled by setting to a negative value.
+		randomBadEnchantsChance = -1
 
 	[machine.envir_acc]
 		#Sets the default amount of ticks the environmental accumulator takes to process an item.
@@ -100,7 +102,7 @@
 		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
 		staticBlockRendering = false
 		#If creative versions for all fluids should be added to the creative tab.
-		creativeTabFluids = true
+		creativeTabFluids = false
 
 	[machine.spirit_reanimator]
 		#The required amount of ticks for each reanimation.
@@ -272,7 +274,7 @@
 		#A list of biome names for which no Biome Extracts may be created.
 		craftingBlacklist = []
 		#If creative versions for all variants should be added to the creative tab.
-		creativeTabVariants = true
+		creativeTabVariants = false
 
 	[mob.kineticator]
 		#The blacklisted items which should not be influenced by the Kineticator, by unique item/blockState name.
@@ -296,11 +298,15 @@
 		#The area in which the spawn limit will be checked on each spawn attempt.
 		spawnLimitArea = 32
 		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
-		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant"]
+		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant", "artifacts:mimic"]
 		#Whether vengeance spirits should always be visible in creative mode.
 		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
 		spawnLimit = 5
+
+	[mob.werewolf]
+		#If villagers struck by lightning should have a 50% chance of becoming a werewolf villager
+		convertOnLightning = false
 
 	[entity.lightning_bomb_primed]
 		#The amount of ticks (on average), this bomb should tick before explosion.
