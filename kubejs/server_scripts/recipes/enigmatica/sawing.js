@@ -50,7 +50,6 @@ ServerEvents.recipes((event) => {
                     log: { tag: recipe.input },
                     planks: { count: recipe.output_count, id: recipe.output },
                     secondary: { count: 2, id: sawdust }
-                    // secondary: { count: 2, id: 'productivetrees:sawdust' }
                 })
                 .id(`${id_prefix}sawmill/${recipe.id}`);
         }
@@ -62,7 +61,6 @@ ServerEvents.recipes((event) => {
                 main_output: { count: recipe.output_count, id: recipe.output },
                 secondary_chance: 0.25,
                 secondary_output: { count: 1, id: sawdust }
-                // secondary_output: { count: 1, id: 'mekanism:sawdust' }
             })
             .id(`${id_prefix}sawing/${recipe.id}`);
 
