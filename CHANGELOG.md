@@ -18,11 +18,13 @@
 -   More Wandering Trader trades! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   More Amadron trades! [\#97](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/97)
 -   New batch craft recipes for essences [\#101](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/101)
+-   Evilcraft no longer curses items when repairing [\#105](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/105)
 
 #### 🦟 Bugs Fixed
 
 -   Amethyst Golems now clean up after themselves [(\#97)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/97)
 -   Aquaculture fish are now tagged as fish [(\#97)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/97)
+-   Lightning now converts villagers to witches again [\#105](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/105)
 
 ### Enigmatica 10 1.9.0
 

@@ -60,7 +60,9 @@
 		#The amount Blood mB required for repairing one damage value.
 		mBPerDamage = 5
 		#If the Blood Chest should add random bad enchants with a small chance to repairing items.
-		addRandomBadEnchants = true
+		addRandomBadEnchants = false
+		#The 1/x chance the Blood Chest should add random bad enchants with a small chance to repairing items. Disabled by setting to a negative value.
+		randomBadEnchantsChance = -1
 
 	[machine.envir_acc]
 		#Sets the default amount of ticks the environmental accumulator takes to process an item.
@@ -301,6 +303,10 @@
 		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
 		spawnLimit = 5
+
+	[mob.werewolf]
+		#If villagers struck by lightning should have a 50% chance of becoming a werewolf villager
+		convertOnLightning = false
 
 	[entity.lightning_bomb_primed]
 		#The amount of ticks (on average), this bomb should tick before explosion.
