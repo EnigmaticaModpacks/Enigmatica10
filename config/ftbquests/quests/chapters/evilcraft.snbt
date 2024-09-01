@@ -107,6 +107,9 @@
 		}
 		{
 			dependencies: ["0C1DCD8850E6857C"]
+			icon: {
+				id: "evilcraft:colossal_blood_chest"
+			}
 			id: "23C86F86A1A4B1E9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -208,6 +211,9 @@
 		}
 		{
 			dependencies: ["6303A7113DE954DD"]
+			icon: {
+				id: "evilcraft:spirit_reanimator"
+			}
 			id: "73A71BBB9D9168B0"
 			rewards: [{
 				exclude_from_claim_all: true
