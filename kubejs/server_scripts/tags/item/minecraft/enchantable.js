@@ -1,8 +1,12 @@
 ServerEvents.tags('item', (event) => {
-    let additions = [/vanillaplustools:.*(hammer|shovel)/];
+    let additions = {
+        durability: [/vanillaplustools:.*(hammer|shovel)/, 'geneticsresequenced:scraper'],
+        mining: [/vanillaplustools:.*(hammer|shovel)/],
+        mining_loot: [/vanillaplustools:.*(hammer|shovel)/],
+        vanishing: [/vanillaplustools:.*(hammer|shovel)/]
+    };
 
-    let enchantable_types = ['durability', 'mining', 'mining_loot', 'vanishing'];
-    enchantable_types.forEach((type) => {
-        event.get(`minecraft:enchantable/${type}`).add(additions);
+    Object.keys(additions).forEach((tag) => {
+        event.get(`minecraft:enchantable/${tag}`).add(additions[tag]);
     });
 });
