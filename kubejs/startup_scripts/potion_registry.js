@@ -13,7 +13,7 @@ StartupEvents.registry('potion', (event) => {
                 { name: 'base', duration: 180, amplifier: 0 },
                 { name: 'long', duration: 480, amplifier: 0 },
                 { name: 'strong', duration: 90, amplifier: 1 },
-                { name: 'greater', duration: 90, amplifier: 3 }
+                { name: 'greater', duration: 180, amplifier: 3 }
             ]
         },
         {
