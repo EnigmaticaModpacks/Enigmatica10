@@ -1,8 +1,15 @@
 ### Enigmatica 10 1.10.1
 
+#### ⭐ Improvements
+
+-   Adds Ars Loot to Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
+-   Upgrades the potions found in Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
+-   Certus and Snow may now be compacted [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+
 #### 🦟 Bugs Fixed
 
 -   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
+-   VanillaPlus tools may now be enchanted [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
 
 ---
 
