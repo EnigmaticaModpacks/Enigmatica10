@@ -3,7 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            type: 'powah:energizing',
             energy: 1600,
             ingredients: [{ item: 'ae2:certus_quartz_crystal' }],
             result: {
