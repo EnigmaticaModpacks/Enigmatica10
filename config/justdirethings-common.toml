@@ -199,6 +199,8 @@
 	#The Time Fluid cost to use the time wand.  This value is multiplied by the acceleration amount. For example, when you go from 128 to 256, it will charge 256 x <this value> in Time Fluid.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	time_wand_fluid_cost = 0.5
+	#The maximum speed multiplier that can be applied using a Time Wand. This value should be a power of two.
+	time_wand_max_multiplier = 256
 
 #Paradox Machine
 [paradox_machine]
