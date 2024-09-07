@@ -9,10 +9,8 @@ ServerEvents.recipes((event) => {
         },
         {
             input: { count: 1, tag: 'c:ingots/uraninite' },
-            // TODO: Convert to AU
-            // output: { count: 1, id: AlmostUnified.getPreferredItemForTag('c:ingots/uranium').getId() },
-            output: { count: 1, id: 'mekanism:ingot_uranium' },
-            id: `${id_prefix}ingot_uranium`
+            output: { count: 1, id: AlmostUnified.getTagTargetItem('c:ingots/uranium').getId() },
+            id: `${id_prefix}uraninite_to_uranium_ingot`
         }
     ];
 

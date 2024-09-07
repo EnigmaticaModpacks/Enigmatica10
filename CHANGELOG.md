@@ -7,6 +7,7 @@
 #### 🦟 Bugs Fixed
 
 -   Restore missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Restore missing metallurgic Infusing and enriching recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
 
 ---
 
