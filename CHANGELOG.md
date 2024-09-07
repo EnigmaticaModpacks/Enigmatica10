@@ -27,6 +27,7 @@ NeoForge-1.21.1-21.1.37 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 #### 🦟 Bugs Fixed
 
 -   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
+-   Fix PNC recipes not showing in EMI [(\#108)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/108)
 -   Occultism recipes not showing for many rituals [(\#90)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/90)
 -   VanillaPlus tools may now be enchanted [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
 
