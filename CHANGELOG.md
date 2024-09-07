@@ -1,3 +1,15 @@
+### Enigmatica 10 1.11
+
+#### ⭐ Improvements
+
+-   Add new custom compacting recipes such as snow and quartz [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+
+#### 🦟 Bugs Fixed
+
+-   Fix mising nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+
+---
+
 ### Enigmatica 10 1.10.1
 
 NeoForge-1.21.1-21.1.37 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.10.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.10.1.md)
