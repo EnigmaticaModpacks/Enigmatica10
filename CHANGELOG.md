@@ -10,6 +10,7 @@
 
 -   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
 -   VanillaPlus tools may now be enchanted [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
+-   Restore missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
 
 ---
 
