@@ -6,7 +6,7 @@
 
 #### 🦟 Bugs Fixed
 
--   Fix mising nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Fix missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
 
 ---
 
