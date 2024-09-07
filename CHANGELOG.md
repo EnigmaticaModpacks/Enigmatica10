@@ -1,15 +1,27 @@
+### Enigmatica 10 1.11
+
+#### ⭐ Improvements
+
+-   Add new custom compacting recipes such as snow and quartz [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+
+#### 🦟 Bugs Fixed
+
+-   Fix missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+
+---
+
 ### Enigmatica 10 1.10.1
 
 NeoForge-1.21.1-21.1.37 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.10.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.10.1.md)
 
 #### ✔️ Added Mods
 
--    [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) (by [KyaniteMods](https://www.curseforge.com/members/KyaniteMods/projects))
+-   [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) (by [KyaniteMods](https://www.curseforge.com/members/KyaniteMods/projects))
 
 #### 🦟 Bugs Fixed
 
 -   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
--   Occultism recipes not showing for many rituals  [(\#90)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/90)
+-   Occultism recipes not showing for many rituals [(\#90)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/90)
 
 ---
 

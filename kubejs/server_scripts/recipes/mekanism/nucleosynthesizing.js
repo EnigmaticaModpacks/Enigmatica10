@@ -5,78 +5,89 @@ ServerEvents.recipes((event) => {
         {
             item_input: { count: 1, item: 'minecraft:netherrack' },
             output: { count: 1, id: 'minecraft:netherite_upgrade_smithing_template' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}netherite_upgrade_smithing_template`
         },
         {
             item_input: { count: 1, item: 'modern_industrialization:analog_circuit_board' },
             output: { count: 4, id: 'modern_industrialization:basic_upgrade' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}basic_upgrade`
         },
         {
             item_input: { count: 1, item: 'modern_industrialization:digital_circuit_board' },
             output: { count: 4, id: 'modern_industrialization:turbo_upgrade' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}turbo_upgrade`
         },
         {
             item_input: { count: 1, item: 'modern_industrialization:electronic_circuit_board' },
             output: { count: 4, id: 'modern_industrialization:advanced_upgrade' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}advanced_upgrade`
         },
         {
             item_input: { count: 1, item: 'modern_industrialization:processing_unit_board' },
             output: { count: 4, id: 'modern_industrialization:highly_advanced_upgrade' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}highly_advanced_upgrade`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/silver' },
             output: { count: 1, id: 'occultism:iesnium_ingot' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}iesnium_ingot`
         },
         {
             item_input: { count: 9, tag: 'c:ingots/uraninite' },
             output: { count: 1, id: 'aquaculture:neptunium_ingot' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}neptunium_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/iron' },
             output: { count: 1, id: 'modern_industrialization:tungsten_ingot' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}tungsten_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/copper' },
             output: { count: 1, id: 'modern_industrialization:superconductor_ingot' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}superconductor_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/osmium' },
             output: { count: 1, id: 'modern_industrialization:iridium_ingot' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}iridium_ingot`
         },
         {
             item_input: { count: 1, tag: 'c:ingots/iridium' },
             output: { count: 1, id: 'modern_industrialization:platinum_ingot' },
-            gas_input: { amount: 1, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 1, chemical: 'mekanism:antimatter' },
             duration: 250,
+            per_tick_usage: false,
             id: `${id_prefix}platinum_ingot`
         }
     ];
@@ -107,8 +118,9 @@ ServerEvents.recipes((event) => {
         recipes.push({
             item_input: { count: 1, item: input },
             output: { count: 1, id: output },
-            gas_input: { amount: 5, gas: 'mekanism:antimatter' },
+            chemical_input: { amount: 5, chemical: 'mekanism:antimatter' },
             duration: 1250,
+            per_tick_usage: false,
             id: `${id_prefix}${output.replace(':', '_')}`
         });
     });
