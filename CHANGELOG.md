@@ -6,7 +6,7 @@
 
 #### 🦟 Bugs Fixed
 
--   Fix missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Restore missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
 
 ---
 
@@ -18,10 +18,16 @@ NeoForge-1.21.1-21.1.37 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 -   [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) (by [KyaniteMods](https://www.curseforge.com/members/KyaniteMods/projects))
 
+#### ⭐ Improvements
+
+-   Adds Ars Loot to Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
+-   Upgrades the potions found in Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
+
 #### 🦟 Bugs Fixed
 
 -   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
 -   Occultism recipes not showing for many rituals [(\#90)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/90)
+-   VanillaPlus tools may now be enchanted [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
 
 ---
 
