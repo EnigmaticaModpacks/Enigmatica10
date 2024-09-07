@@ -1,16 +1,15 @@
 ### Enigmatica 10 1.10.1
 
-#### ⭐ Improvements
+NeoForge-1.21.1-21.1.37 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.10.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.10.1.md)
 
--   Adds Ars Loot to Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
--   Upgrades the potions found in Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
--   Certus and Snow may now be compacted [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+#### ✔️ Added Mods
+
+-   [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) (by [KyaniteMods](https://www.curseforge.com/members/KyaniteMods/projects))
 
 #### 🦟 Bugs Fixed
 
 -   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
--   VanillaPlus tools may now be enchanted [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
--   Restore missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Occultism recipes not showing for many rituals [(\#90)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/90)
 
 ---
 

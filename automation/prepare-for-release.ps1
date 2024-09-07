@@ -27,7 +27,7 @@ function Set-NeoForgeVersion {
     $paths = @("$PSScriptRoot/settings.cfg", "$INSTANCE_ROOT/server_files/server-setup-config.yaml")
 
     $paths | ForEach-Object {
-        $contents = [System.IO.File]::ReadAllText($_) -replace "21.0.\d+", $pureVersion
+        $contents = [System.IO.File]::ReadAllText($_) -replace "21.\d+.\d+", $pureVersion
         [System.IO.File]::WriteAllText($_, $contents)
     }
     
