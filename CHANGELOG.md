@@ -3,6 +3,7 @@
 #### ⭐ Improvements
 
 -   Add new custom compacting recipes such as snow and quartz [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Creeper overhaul creepers and Occultism skeletons will now avoid players with the appropriate scare genes [\#113](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/113)
 
 #### 🦟 Bugs Fixed
 
