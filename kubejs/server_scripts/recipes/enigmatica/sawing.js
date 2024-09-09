@@ -18,6 +18,12 @@ ServerEvents.recipes((event) => {
             output: 'evilcraft:undead_planks',
             output_count: 6,
             id: 'undead_planks'
+        },
+        {
+            input: 'deeperdarker:echo_logs',
+            output: 'deeperdarker:echo_planks',
+            output_count: 6,
+            id: 'echo_planks'
         }
     ];
 
