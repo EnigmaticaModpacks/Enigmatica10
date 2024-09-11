@@ -376,6 +376,34 @@ ServerEvents.recipes((event) => {
             eu: 8,
             duration: 200,
             id: 'modern_industrialization:assembler_generated/electric_age/component/craft/arithmetic_logic_unit'
+        },
+        {
+            item_inputs: [
+                { item: 'modern_industrialization:processing_unit', amount: 4 },
+                { item: 'modern_industrialization:cooling_cell', amount: 2 },
+                { item: 'modern_industrialization:qubit', amount: 2 },
+                { item: 'modern_industrialization:quantum_circuit_board', amount: 1 }
+            ],
+            item_outputs: [{ item: 'modern_industrialization:quantum_circuit', amount: 2 }],
+            eu: 8,
+            duration: 200,
+            id: 'modern_industrialization:assembler_generated/electric_age/component/craft/quantum_circuit'
+        },
+        {
+            item_inputs: [
+                { item: 'modern_industrialization:arithmetic_logic_unit', amount: 2 },
+                { tag: 'c:plates/carbon', amount: 2 },
+                { tag: 'c:glass_panes', amount: 2 },
+                { item: 'modern_industrialization:superconductor_wire', amount: 6 }
+            ],
+            fluid_inputs: [
+                { fluid: 'modern_industrialization:cryofluid', amount: 250 },
+                { fluid: 'modern_industrialization:tritium', amount: 50 }
+            ],
+            item_outputs: [{ item: 'modern_industrialization:qubit', amount: 2 }],
+            eu: 20,
+            duration: 400,
+            id: 'modern_industrialization:electric_age/component/assembler/qubit'
         }
     ];
 
