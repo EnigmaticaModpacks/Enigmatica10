@@ -358,7 +358,7 @@ ServerEvents.recipes((event) => {
             item_inputs: [
                 { tag: 'c:plates/emerald', amount: 1 },
                 { item: 'modern_industrialization:silicon_wafer', amount: 2 },
-                { item: 'modern_industrialization:platinum_fine_wire', amount: 6 }
+                { item: 'modern_industrialization:platinum_fine_wire', amount: 2 }
             ],
             item_outputs: [{ item: 'modern_industrialization:memory_management_unit', amount: 2 }],
             eu: 8,
