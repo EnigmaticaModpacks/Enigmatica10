@@ -387,7 +387,7 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'modern_industrialization:quantum_circuit', amount: 2 }],
             eu: 8,
             duration: 200,
-            id: 'modern_industrialization:assembler_generated/electric_age/component/craft/quantum_circuit'
+            id: 'modern_industrialization:assembler_generated/electric_age/circuit/craft/quantum_circuit'
         },
         {
             item_inputs: [
