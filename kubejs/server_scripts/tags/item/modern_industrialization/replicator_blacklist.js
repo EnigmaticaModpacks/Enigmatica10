@@ -24,7 +24,7 @@ ServerEvents.tags('item', (event) => {
     ];
 
     let exclusions = [
-        /functionalstorage:.*(upgrade|downgrade|tool)/,
+        /functionalstorage:.*(upgrade|downgrade|tool|controller)/,
         /mekanism:dynamic_(tank|valve)/,
         'mekanism:scuba_tank',
         'mekanism:radioactive_waste_barrel'
