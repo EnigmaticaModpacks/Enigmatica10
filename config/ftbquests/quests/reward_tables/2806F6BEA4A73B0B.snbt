@@ -38,8 +38,11 @@
 		{
 			count: 8
 			item: {
+				components: {
+					"ftbquests:missing_item": "occultism:candle_white"
+				}
 				count: 1
-				id: "occultism:candle_white"
+				id: "ftbquests:missing_item"
 			}
 			random_bonus: 8
 		}
