@@ -7,6 +7,9 @@
 -   Add Budding blocks and Reinforced Deepslate to PNC's block tracker [\#113](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/113)
 -   Cheaper scaling of many MI components [\#117](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/117)
 -   Add tags to filter crushed dusts [\#117](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/117)
+-   Adds cross compat betwen MI and Mek sodium [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
+-   Allows creation of Lithium via MI [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
+-   Buffs Wireless Chargers [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
 
 #### 🦟 Bugs Fixed
 
