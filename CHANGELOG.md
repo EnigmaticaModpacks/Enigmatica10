@@ -10,6 +10,7 @@
 -   Adds cross compat betwen MI and Mek sodium [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
 -   Allows creation of Lithium via MI [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
 -   Buffs Wireless Chargers [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
+-   Otherworld logs can now be sawed in various machines [\#119](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/119)
 
 #### 🦟 Bugs Fixed
 
