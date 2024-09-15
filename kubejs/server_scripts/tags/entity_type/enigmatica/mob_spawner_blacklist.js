@@ -1,6 +1,22 @@
 ServerEvents.tags('entity_type', (event) => {
     event
         .get('enigmatica:mob_spawner_blacklist')
-        .add([/artifacts/, /ars_nouveau/, /pneumaticcraft.*drone/, /ars_elemental:.*_familiar/])
-        .remove([/ars_nouveau:wilden/]);
+        .add([
+            /artifacts/,
+            /ars_nouveau/,
+            /pneumaticcraft.*drone/,
+            /ars_elemental:.*_familiar/,
+            /occultism/,
+            /evilcraft/,
+            'tiab:accelerator'
+        ])
+        .remove([
+            /ars_nouveau:wilden/,
+            /occultism:(possessed|wild)_/,
+            'occultism:afrit_wild',
+            'occultism:otherworld_bird',
+            'evilcraft:netherfish',
+            'evilcraft:poisonous_libelle',
+            'evilcraft:werewolf'
+        ]);
 });
