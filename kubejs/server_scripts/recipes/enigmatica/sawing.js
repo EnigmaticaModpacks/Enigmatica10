@@ -24,6 +24,12 @@ ServerEvents.recipes((event) => {
             output: 'deeperdarker:echo_planks',
             output_count: 6,
             id: 'echo_planks'
+        },
+        {
+            input: 'occultism:otherworld_logs',
+            output: 'occultism:otherplanks',
+            output_count: 6,
+            id: 'otherplanks'
         }
     ];
 
