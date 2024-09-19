@@ -77,6 +77,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 '',
                 'Can spread to adjacent dirt blocks. Burns when exposed to daylight.'
             ]
+        },
+        {
+            filter: ['minecraft:elytra'],
+            text: ['Obtained occasionally when casting §aDispel§r on a §dPossessed Endermite§r.']
         }
     ];
 
