@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             augments: [{ key: 'minecraft:ender_eye' }],
-            structure: { tag: 'minecraft:stronghold' },
+            structure: { key: 'minecraft:stronghold' },
             id: `${id_prefix}stronghold`
         },
         {

@@ -16,6 +16,7 @@
 
 -   Restore missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
 -   Restore missing metallurgic Infusing and enriching recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Fix broken stronghold locator [\#122](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
 
 ---
 
