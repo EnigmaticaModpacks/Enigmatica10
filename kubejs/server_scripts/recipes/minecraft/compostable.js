@@ -10,7 +10,7 @@ ServerEvents.compostableRecipes((event) => {
         },
         {
             input: '#c:foods/safe_raw_fish',
-            chance: 0.65
+            chance: 0.45
         }
     ];
 
