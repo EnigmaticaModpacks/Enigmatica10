@@ -12,7 +12,7 @@
 -   Buffs Wireless Chargers [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
 -   Otherworld logs can now be sawed in various machines [\#119](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/119)
 -   Add support for stripping logs with Farmer's Delight [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
--   Eggs and raw meat may now be composted [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
+-   Eggs and raw meat may now be composted [\#128](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/128)
 
 #### 🦟 Bugs Fixed
 
