@@ -78,6 +78,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 '',
                 'Can spread to adjacent dirt blocks. Burns when exposed to daylight.'
             ]
+        },
+        {
+            filter: ['enderio:industrial_insulation_block'],
+            text: ['Absorbs and voids any fluids placed nearby.']
         }
     ];
 
