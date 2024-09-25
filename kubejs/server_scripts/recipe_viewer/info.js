@@ -44,7 +44,8 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'minecraft:piglin_head',
                 'minecraft:dragon_head',
                 'minecraft:skeleton_skull',
-                'minecraft:wither_skeleton_skull'
+                'minecraft:wither_skeleton_skull',
+                'enderio:enderman_head'
             ],
             text: ['Heads may be obtained from mobs by killing them with particularly powerful axes and paxels.']
         },

@@ -8,7 +8,8 @@ LootJS.lootTables((event) => {
         { table: 'minecraft:entities/piglin', head: 'minecraft:piglin_head' },
         { table: 'minecraft:entities/piglin_brute', head: 'minecraft:piglin_head' },
         { table: 'minecraft:entities/skeleton', head: 'minecraft:skeleton_skull' },
-        { table: 'minecraft:entities/zombie', head: 'minecraft:zombie_head' }
+        { table: 'minecraft:entities/zombie', head: 'minecraft:zombie_head' },
+        { table: 'minecraft:entities/enderman', head: 'enderio:enderman_head' }
     ];
 
     recipes.forEach((recipe) => {
