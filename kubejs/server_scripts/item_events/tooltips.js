@@ -23,7 +23,11 @@ ItemEvents.modifyTooltips((event) => {
     */
     const recipes = [
         {
-            items: ['minecraft:reinforced_deepslate', 'modularrouters:blast_upgrade'],
+            items: [
+                'minecraft:reinforced_deepslate',
+                'modularrouters:blast_upgrade',
+                'enderio:reinforced_obsidian_block'
+            ],
             text: [Text.of('Wither Immune').lightPurple()]
         }
     ];

@@ -44,9 +44,14 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'minecraft:piglin_head',
                 'minecraft:dragon_head',
                 'minecraft:skeleton_skull',
-                'minecraft:wither_skeleton_skull'
+                'minecraft:wither_skeleton_skull',
+                'enderio:enderman_head'
             ],
-            text: ['Heads may be obtained from mobs by killing them with particularly powerful axes and paxels.']
+            text: [
+                'Heads may be obtained from mobs by killing them with particularly powerful axes and paxels.',
+                ' ',
+                'Search for §5#beheading§r in EMI for a list!'
+            ]
         },
         {
             filter: ['justdirethings:time_crystal'],
@@ -77,6 +82,10 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 '',
                 'Can spread to adjacent dirt blocks. Burns when exposed to daylight.'
             ]
+        },
+        {
+            filter: ['enderio:industrial_insulation_block'],
+            text: ['Absorbs and voids any fluids placed nearby.']
         }
     ];
 
