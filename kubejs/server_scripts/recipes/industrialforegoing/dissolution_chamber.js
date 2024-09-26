@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             input: [{ tag: 'c:gems/quartz' }, { tag: 'c:gems/charged_certus' }, { tag: 'c:dusts/redstone' }],
             inputFluid: { id: 'minecraft:water', amount: 100 },
             output: { count: 2, id: 'ae2:fluix_crystal' },
-            processingTime: 100,
+            processingTime: 50,
             id: `${id_prefix}fluix_crystal`
         }
     ];
