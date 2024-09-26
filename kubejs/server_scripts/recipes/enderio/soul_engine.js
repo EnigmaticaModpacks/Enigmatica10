@@ -21,13 +21,6 @@ ServerEvents.generateData('before_mods', (event) => {
             'power/mb': 450,
             'tick/mb': 10,
             id: `${id_prefix}magma_cube_blaze_ember`
-        },
-        {
-            entity: 'the_bumblezone:honey_slime',
-            fluid: '#c:fuels/hootch',
-            'power/mb': 600,
-            'tick/mb': 6,
-            id: `${id_prefix}honey_slime_hootch`
         }
     ];
 
