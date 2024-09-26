@@ -14,6 +14,8 @@
 -   Add support for stripping logs with Farmer's Delight [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
 -   Add enderman heads to beheading scripts and add Deeper Darker's axe to the list of valid tools [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
 -   Unify Silicon for IF and EnderIO [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Cheaper Source Blocks! [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Fluix may be crafted with Industrial Foregoing [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
 
 #### 🦟 Bugs Fixed
 
