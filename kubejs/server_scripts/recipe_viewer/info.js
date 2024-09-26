@@ -47,7 +47,11 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 'minecraft:wither_skeleton_skull',
                 'enderio:enderman_head'
             ],
-            text: ['Heads may be obtained from mobs by killing them with particularly powerful axes and paxels.']
+            text: [
+                'Heads may be obtained from mobs by killing them with particularly powerful axes and paxels.',
+                ' ',
+                'Search for §5#beheading§r in EMI for a list!'
+            ]
         },
         {
             filter: ['justdirethings:time_crystal'],
