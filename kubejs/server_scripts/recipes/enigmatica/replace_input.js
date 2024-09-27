@@ -42,6 +42,11 @@ ServerEvents.recipes((event) => {
             filter: {},
             to_replace: 'minecraft:feather',
             replace_with: '#c:feathers'
+        },
+        {
+            filter: [{ output: 'minecraft:sticky_piston' }, { output: 'minecraft:lead' }],
+            to_replace: 'minecraft:slime_ball',
+            replace_with: '#c:slimeballs'
         }
     ];
 
