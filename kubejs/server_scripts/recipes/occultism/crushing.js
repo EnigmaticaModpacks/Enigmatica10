@@ -44,25 +44,6 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    // Workaround for Crusher issue that's fixed. Leaving as reference for now.
-    // event.forEachRecipe({ type: 'occultism:crushing' }, (r) => {
-    //     let recipe = JSON.parse(r.json);
-    //     let recipe_id = r.getId();
-
-    //     if (recipe.result.type == 'occultism:tag') {
-    //         // console.log(`Found a tagged output: ${recipe.result.tag}`);
-    //         // console.log(`Preferred output: ${getPreferredItemInTag(`#${recipe.result.tag}`).getId()}`);
-
-    //         recipe.result.type = 'occultism:item';
-    //         recipe.result.id = getPreferredItemInTag(`#${recipe.result.tag}`).getId();
-    //         recipe.id = recipe_id;
-
-    //         delete recipe.result.tag;
-
-    //         recipes.push(recipe);
-    //     }
-    // });
-
     recipes.forEach((recipe) => {
         recipe.type = 'occultism:crushing';
         event.custom(recipe).id(recipe.id);

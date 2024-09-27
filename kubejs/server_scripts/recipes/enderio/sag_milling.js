@@ -3,20 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { tag: `c:gems/certus_quartz` },
-            outputs: [{ tag: `c:dusts/certus_quartz` }],
-            bonus: 'none',
-            energy: 2400,
-            id: `${id_prefix}certus_quartz`
-        },
-        {
-            input: { tag: `c:gems/fluix` },
-            outputs: [{ tag: `c:dusts/fluix` }],
-            bonus: 'none',
-            energy: 2400,
-            id: `${id_prefix}fluix`
-        },
-        {
             input: { item: `ae2:sky_stone_block` },
             outputs: [{ item: `ae2:sky_dust` }],
             bonus: 'none',
@@ -65,8 +51,30 @@ ServerEvents.recipes((event) => {
             bonus: 'none',
             energy: 2400,
             id: `${id_prefix}prismarine_from_dark_prismarine`
+        },
+        {
+            input: { item: 'minecraft:sea_lantern' },
+            outputs: [
+                { count: 4, tag: 'c:dusts/prismarine' },
+                { count: 5, tag: 'c:gems/prismarine' }
+            ],
+            bonus: 'none',
+            energy: 2400,
+            id: `${id_prefix}prismarine_from_sea_lantern`
         }
     ];
+
+    // Add support for other materials
+    let gems = ['diamond', 'emerald', 'lapis', 'certus_quartz', 'fluix'];
+    gems.forEach((gem) => {
+        recipes.push({
+            input: { tag: `c:gems/${gem}` },
+            outputs: [{ tag: `c:dusts/${gem}` }],
+            bonus: 'none',
+            energy: 2400,
+            id: `${id_prefix}${gem}`
+        });
+    });
 
     let materials = [
         { primary: 'osmium', secondary: 'silver' },
@@ -77,8 +85,6 @@ ServerEvents.recipes((event) => {
         { primary: 'nickel', secondary: 'iron' },
         { primary: 'uranium', secondary: 'lead' }
     ];
-
-    // Add support for other materials
     materials.forEach((material) => {
         recipes.push(
             {
@@ -103,7 +109,7 @@ ServerEvents.recipes((event) => {
             },
             {
                 input: { tag: `c:ingots/${material.primary}` },
-                outputs: [{ item: `c:dusts/${material.primary}` }],
+                outputs: [{ tag: `c:dusts/${material.primary}` }],
                 bonus: 'none',
                 energy: 2400,
                 id: `${id_prefix}${material.primary}`
@@ -111,7 +117,7 @@ ServerEvents.recipes((event) => {
         );
     });
 
-    // Convert item outputs to tag outputs for unification. This is temporary until AU can add real support for EIO.
+    // Convert item outputs to tag outputs for unification. This is temporary. AU is in communication with EIO to fix this in the mod.
     event.forEachRecipe({ type: 'enderio:sag_milling' }, (r) => {
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
