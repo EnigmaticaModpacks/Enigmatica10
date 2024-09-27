@@ -31,6 +31,16 @@ ServerEvents.recipes((event) => {
                 count: 4
             },
             id: `${id_prefix}uraninite_raw`
+        },
+        {
+            ingredient: { tag: 'c:gems/certus_quartz' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'ae2:certus_quartz_dust',
+                count: 1
+            },
+            id: `occultism:crushing/certus_quartz_dust_from_gem`
         }
     ];
 
