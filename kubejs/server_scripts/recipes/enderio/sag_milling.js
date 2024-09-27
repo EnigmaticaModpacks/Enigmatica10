@@ -61,6 +61,24 @@ ServerEvents.recipes((event) => {
             bonus: 'none',
             energy: 2400,
             id: `${id_prefix}prismarine_from_sea_lantern`
+        },
+        {
+            input: { tag: 'minecraft:logs' },
+            outputs: [{ count: 12, tag: 'c:dusts/wood' }],
+            energy: 2400,
+            id: `${id_prefix}sawdust_from_logs`
+        },
+        {
+            input: { tag: 'c:rods/wooden' },
+            outputs: [{ count: 1, tag: 'c:dusts/wood' }],
+            energy: 2400,
+            id: `${id_prefix}sawdust_from_sticks`
+        },
+        {
+            input: { tag: 'minecraft:planks' },
+            outputs: [{ count: 3, tag: 'c:dusts/wood' }],
+            energy: 2400,
+            id: `${id_prefix}sawdust_from_planks`
         }
     ];
 
