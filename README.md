@@ -29,6 +29,6 @@ You're done!
 
 - [Enigmatica 10 on CurseForge](https://www.curseforge.com/minecraft/modpacks/enigmatica10)
 
-- [Enigmatica Discord](https://discord.gg/HnWNd7X)
+- [Enigmatica Discord](https://discord.gg/enigmatica)
 
 - [Enigmatica Wiki](https://wiki.enigmatica.net/)
