@@ -25,6 +25,9 @@
 -   Fix broken stronghold locator [\#122](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/122)
 -   Fix broken sawing recipes [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
 -   Remove duplicate potion recipes that have been re-added by Ars [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Fix recipe conflict with Sulfur/dye conversion [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Fix Sourcestone button recipe conflict [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Fix recipe conflict with Terracotta Thin Pots [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
 
 ---
 
