@@ -37,11 +37,6 @@
 		"&a    capacity!"
 	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
-	quest.00E63585BA00E77B.quest_desc: [
-		"Cheap to craft, these little totems allow you to escape a rift rather than dying. "
-		""
-		"While one is in your inventory, any time your health is reduced to zero, you’ll instead be teleported out of the rift, back to your entry point in the Overworld."
-	]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
 		""
@@ -427,20 +422,7 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
-	quest.0F04956D59A78393.quest_desc: [
-		"Legends tell of places in the world where things are stretched thin. Where people disappear unexpectedly or re-appear years later as if no time has passed. "
-		""
-		"There is truth to these legends, so keep your wits about you as you explore these lands. Fall into a Rift and you may be in for an unexpected adventure through the Multiverse."
-		"&n                                                  &r"
-		""
-		"Getting started with Multiverse will require you to find a Rift and step through it. "
-		""
-		"These can spawn anywhere, so keep your eyes open as you explore. "
-		""
-		"&a🛈 Tip: Bring your own way home, such "
-		"&a    as a Mekanism Teleporter, Warp "
-		"&a    Stone, or Stabilized Warp Scroll!"
-	]
+	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
@@ -956,11 +938,6 @@
 		""
 		"It does need a tool, so be sure to provide it shears for said sheep farm or a nice looting sword for killing mobs. "
 	]
-	quest.265FE8DFBF49A261.quest_desc: [
-		"The areas inside of a rift may very closely resemble places you’re familiar with. Perhaps the sky will be a slightly different shade, or the hills more exaggerated…"
-		""
-		"A keen eye will always be able to identify a rift by the telltale presence of Kaleidite Clusters growing from any surface."
-	]
 	quest.267FEB0BB5D9B4D9.quest_desc: [
 		"The Assembly Table is a multiblock machine capable of more advanced crafting. "
 		""
@@ -1267,7 +1244,6 @@
 		""
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
-	quest.3840097BB3E09C9D.quest_desc: ["Equivalent to Stone Tools, Kaleidite Tools can be handy in a pinch if you happen to find yourself in a rift without your normal tools. "]
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
 		""
@@ -1925,8 +1901,8 @@
 		""
 		"Try using them as the door to your apiary for easy access."
 		""
-		"&a🛈 Tip: Right-Click the Curtain with String to "
-		"&a    extend it downwards."
+		"&a🛈 Tip: Right-Click the Curtain with"
+		"&a    String to extend it downwards."
 	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
@@ -2733,11 +2709,6 @@
 		"&a    a connection."
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
-	quest.641032431B7A1B0F.quest_desc: [
-		"Dropped by the Collector, these Prisms may be attached to tools to give them the ability to pierce into other dimensions. "
-		""
-		"When activated, the tool mines not only the block you're looking at, but also a block in the same location in another random dimension. "
-	]
 	quest.642CDBB28337670C.quest_desc: [
 		"These beautiful bipedal birds can be found in small family groups all around the world. "
 		""
@@ -2771,13 +2742,6 @@
 		"Place an Annihilation Plane facing up at build limit (&aY=319&r) and it will slowly produce more of this precious material!"
 	]
 	quest.653E696688BBBB12.title: "Farming Sky Stone"
-	quest.65613AB49D3D90D9.quest_desc: [
-		"The Kaleidite Core can be used both to open a new rift, or to close an existing one. "
-		""
-		"To open a rift, simply destroy the Core. This can be done by throwing it in lava, burning it with fire, or even exploding it. "
-		""
-		"To close a rift, the Core may be thrown into the rift, causing it to collapse immediately."
-	]
 	quest.65996A36FB1B58B0.quest_desc: [
 		"The Enrichment Chamber is primarily used to make infusion materials stretch a bit further. "
 		""
@@ -3000,11 +2964,6 @@
 		""
 		"&a🛈 Tip: Point Stabilizers at the crystal "
 		"&a    floating above the Actuator. "
-	]
-	quest.6BEAFBEA127041DE.quest_desc: [
-		"Two boss mobs can be found roaming the Rift; the Traveler and the Collector. If you’re having trouble locating them, however, this treasure may be crafted to call them forth. "
-		""
-		"To use it, simply throw it on the ground and wait. One or the other will show up to claim it in short order."
 	]
 	quest.6CC9CDCCDE1426AC.quest_desc: [
 		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
@@ -3342,13 +3301,6 @@
 		"&a🛈 Tip: Higher tier Goos will do all of the "
 		"&a    lower tier’s recipes faster."
 	]
-	quest.76F0E375FC0B33DE.quest_desc: [
-		"The Multiversal Beacon is dropped by the Traveler and can be used to craft a powerful chestplate or crossbow. "
-		""
-		"While wearing the chestplate in combat, you’ll have a chance to summon a doppleganger."
-		""
-		"The crossbow, on the other hand, is the perfect tool for a late night light show; firing it will dazzle friends and enemies alike. "
-	]
 	quest.770EE92EA4CF973C.quest_desc: [
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
 		""
@@ -3568,7 +3520,6 @@
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
-	task.3444EAB8952876B1.title: "Observe a Rift"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.35F8589774CE48D9.title: "Arcane Pedestals"
