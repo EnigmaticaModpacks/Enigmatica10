@@ -25,7 +25,6 @@
 -   Fix broken stronghold locator [\#122](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/122)
 -   Fix broken sawing recipes [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
 -   Remove duplicate potion recipes that have been re-added by Ars [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
--   Creature Capture can no longer be captured by jars [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
 
 ---
 
