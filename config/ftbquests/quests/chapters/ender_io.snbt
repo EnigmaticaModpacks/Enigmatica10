@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_io"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "enderio:ender_resonator"
+	}
+	id: "1514913DA64A98EB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "enderio:block/alloy_smelter_front_active"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "23703A535469A7F3"
+			tasks: [{
+				id: "79ACB6E77D401A1D"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23703A535469A7F3"]
+			id: "6F7A76841E49C6BD"
+			tasks: [{
+				id: "1254FAEB0D70CF4D"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F7A76841E49C6BD"]
+			id: "211E0844F3ACD244"
+			tasks: [{
+				id: "5BDA0DB38EBB2D68"
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["211E0844F3ACD244"]
+			id: "6968F7CB58754783"
+			rewards: [{
+				count: 9
+				id: "205A9C75B9EC0411"
+				item: {
+					components: {
+						"enderio:conduit": "enderio:energy"
+					}
+					count: 1
+					id: "enderio:conduit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6348E6F8D221D481"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6968F7CB58754783"]
+			id: "12AF74656C5F124A"
+			rewards: [{
+				count: 32
+				id: "0D6C65F9C4CE0695"
+				item: {
+					count: 1
+					id: "enderio:copper_alloy_grinding_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78EC8620D49DE62F"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["211E0844F3ACD244"]
+			id: "24A4BA42A83A20D0"
+			rewards: [{
+				id: "739572A260D5E739"
+				item: {
+					count: 1
+					id: "enderio:basic_capacitor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A12D1E618FF2CCA"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

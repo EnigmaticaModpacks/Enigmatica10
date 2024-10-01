@@ -2,6 +2,8 @@
 	chapter.0095002B3E34FD9A.title: "Occultism"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
+	chapter.1514913DA64A98EB.title: "Ender IO"
 	chapter.1A29B498BD263BEF.title: "Redstone"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
@@ -25,6 +27,11 @@
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
+	quest.000E41CCCDD048C3.quest_desc: [
+		"Don’t want to place logs by hand? "
+		""
+		"Fill up a Block Placer with a bunch of logs and let it do the job for you!"
+	]
 	quest.0071209841FB1C23.quest_desc: [
 		"Combined storage and remote power transfer. "
 		""
@@ -48,6 +55,14 @@
 		""
 		"The router needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
+	quest.01C6F096606E3638.quest_desc: [
+		"Welcome to Industrial Foregoing! "
+		""
+		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
+		""
+		"This quest section is a work in progress. Please refer to the book in the meantime! "
+	]
+	quest.01C6F096606E3638.title: "Industrial Foregoing"
 	quest.0227D9EC391788D6.quest_desc: [
 		"Tired of looking at exposed cables everywhere?"
 		""
@@ -64,6 +79,16 @@
 		"Rather than forming a force field, the blocks will be placed wherever a force field block would have been created."
 	]
 	quest.0233E4C65745EEB0.title: "Building"
+	quest.0267B2A5D784EF45.quest_desc: [
+		"The Dissolution Chamber combines multiple ingredients with some type of fluid. "
+		""
+		"The machine only holds enough items for a single craft at a time, so it can be useful to lock the slots to a specific recipe and pipe items in. "
+		""
+		"This way it can run larger batches as you work on other things."
+		""
+		"&6⚠ Note: The input items can be in any "
+		"&6    order!"
+	]
 	quest.036036EA25034BE8.quest_desc: [
 		"Our third variant of chalk, Purple Chalk grants access to some powerful binding rituals. "
 		""
@@ -459,6 +484,16 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.12AF74656C5F124A.quest_desc: [
+		"The SAG Mill is used for grinding and crushing anything from ores to plant matter. "
+		""
+		"Grinding Balls may be provided optionally, but doing so will increase your yields from many materials. "
+		""
+		"They do get used up over time, so you’ll need to judge whether they’re worth the added cost. "
+		""
+		"&6⚠ Note: Machines require a Capacitor "
+		"&6    to store energy and operate."
+	]
 	quest.12B89E4EF7282B86.quest_desc: [
 		"Mekanism machines may be upgraded through several methods. "
 		""
@@ -795,6 +830,11 @@
 	]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
+	quest.1FDA97FE562A2C4D.quest_desc: [
+		"Addons can be installed in most machines to speed them up and make them run more efficiently. "
+		""
+		"Don’t miss out!"
+	]
 	quest.20454EB2C6E93573.quest_desc: [
 		"The Player Accessor allows any form of logistics to interact with your inventory as if it were a chest. "
 		""
@@ -842,6 +882,13 @@
 		""
 		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
 	]
+	quest.211E0844F3ACD244.quest_desc: [
+		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
+		""
+		"We’ll have to start with the Primitive version, which runs on standard Furnace fuels. "
+		""
+		"Once we get going, however, we’ll be able to upgrade to powered machines."
+	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
 		""
@@ -885,6 +932,11 @@
 	]
 	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in Enigmatica 10."]
 	quest.235D7EF41916E480.title: "Power"
+	quest.23703A535469A7F3.quest_desc: [
+		"Welcome to Ender IO. "
+		""
+		"This mod is in early alpha and things are changing fast! Quests are similarly a work in progress."
+	]
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
 		""
@@ -905,6 +957,20 @@
 		"&a    hold a Wrench or Hatch to see"
 		"&a    the structure or valid places "
 		"&a    for hatches."
+	]
+	quest.24A4BA42A83A20D0.quest_desc: [
+		"After crafting your first few Dark Steel Ingots, the Alloy Smelter might seem like the logical next step. "
+		""
+		"You’re going to need some power to proceed, however."
+		""
+		"Ender IO uses FE like many other tech mods, but it is rebranded as Micro Infinity or µI. They are completely interchangeable. "
+		""
+		"For an option from Ender IO, consider making a Stirling Generator, which runs on coal. "
+		""
+		"It’s not terribly powerful, but it will get the job done for now. "
+		""
+		"&6⚠ Note: Machines require a Capacitor "
+		"&6    to store energy and operate."
 	]
 	quest.24C8B386C675F3E1.quest_desc: [
 		"Building a factory is no simple task, and truly enormous quantities of materials will be required. "
@@ -1120,6 +1186,13 @@
 		"Modular Routers is a catch all logistics mod capable of many things. "
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
+	]
+	quest.2D5820091B6B2315.quest_desc: [
+		"Latex and Rubber are two of the most fundamental resources required for Industrial Foregoing beyond other such basics as stone, metals, and wood. "
+		""
+		"Obtaining Latex will begin with a Fluid Extractor. Place an Acacia Log in front of the machine and it’ll slowly extract the Latex, breaking down the log over time."
+		""
+		"This machine doesn’t need power to run, but providing power will speed things up considerably!"
 	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -1979,6 +2052,21 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48F3D3784D8CE545.quest_desc: [
+		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
+		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
+		""
+		"You’ll want to place the Gatherer on the edge of your field, while the Sower will go in the center just underground. "
+		""
+		"Be sure to check the Show Working area button in their GUI to get an idea of where they’ll be operating."
+		""
+		"With a +4 Range Addon, these machines will be able to work on the area of a standard 9x9 farm plot."
+		""
+		"&a🛈 Tip: Giving the Gatherer Ether Gas "
+		"&a    will allow it to harvest without "
+		"&a    breaking the crops. "
+	]
+	quest.48F3D3784D8CE545.title: "Crop Farming"
 	quest.48F901DB80482CAA.quest_desc: [
 		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
 		""
@@ -2339,6 +2427,15 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.5572D4A6842BAAFA.quest_desc: [
+		"The Latex Processing unit will turn that liquid Latex and convert it to Rubber. "
+		""
+		"This requires Water and Power in addition to the Latex to operate."
+		""
+		"Once you’ve got some Rubber, you’ll want to smelt it in a Furnace to get Plastic. "
+		""
+		"Be sure to keep a stock of Liquid Latex, however, as it is used in many crafting recipes directly. "
 	]
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
@@ -2720,6 +2817,13 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
+	quest.6442A8E130C09FA2.quest_desc: [
+		"The Bioreactor is used to produce Biofuel, a potent fluid fuel which will easily replace your Pitiful Generator. "
+		""
+		"The device requires power, water, and biological materials such as crops to operate. "
+		""
+		"For each unique item it is given, it produces bonus Biofuel. Meaning it’s far more efficient to feed it nine unique crops rather than fill all the slots with the same crop."
+	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
 		""
@@ -2866,6 +2970,14 @@
 		"Simply place them both, then Right-Click one with the Wrench. Finish by Right-Clicking the other with the Wrench. "
 	]
 	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
+	quest.6968F7CB58754783.quest_desc: [
+		"With power secured, replacing that Primitive Alloy Smelter should get things running more smoothly. "
+		""
+		"This machine also doubles as a regular Furnace."
+		""
+		"&6⚠ Note: Machines require a Capacitor "
+		"&6    to store energy and operate."
+	]
 	quest.69799346F7BF246C.quest_desc: [
 		"Crystalline Flowers may be used to obtain Enchanted Books. Specifically, it allows you to pick exactly what book you’ll get, removing the randomness from the process. "
 		""
@@ -2945,6 +3057,11 @@
 		"From mining and decoration, to destruction and more, the mods shown here will help you do it all."
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
+	quest.6B0AC626ED56983E.quest_desc: [
+		"The Pitiful Generator, as the name implies, is not that great. "
+		""
+		"It burns Furnace fuels to output a trickle of energy. It’ll get you started; however Industrial Foregoing uses standard FE power and can therefore accept energy from any compatible generator."
+	]
 	quest.6B6898F3520BA8F7.quest_desc: [
 		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
 		""
@@ -3060,6 +3177,19 @@
 		"This will count as a ‘Chocobo Pen’ and slowly heal any damaged Chocobos in the area."
 	]
 	quest.6F354A767B138CA3.title: "Chocobo Pen"
+	quest.6F7A76841E49C6BD.quest_desc: [
+		"Grains of Infinity are a basic renewable resource found throughout Ender IO’s progression. "
+		""
+		"Making them by hand isn’t particularly difficult, but it can be a little tedious. So, finding a way to automate this process is recommended. "
+		""
+		"In short, you’ll need to find some way to start a fire automatically. "
+		""
+		"Start a fire on Deepslate or Bedrock and wait a bit. The fire will go out and some Grains will be generated. "
+		""
+		"&a🛈 Tip: When performing the recipe on "
+		"&a    Deepslate, any blocks that produce "
+		"&a    a Grain will convert to Cobblestone."
+	]
 	quest.6F8C048404EAF9FF.quest_desc: [
 		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
 		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
@@ -3345,6 +3475,13 @@
 		"&a🛈 Tip: Break the block with Silk Touch"
 		"&a    and smelt it for a better yield!"
 	]
+	quest.78B1BC9540590D17.quest_desc: [
+		"Need a place to store that hard earned experience? "
+		""
+		"Try the Experience Holder. "
+		""
+		"This handy device can be used to keep you at a specific level of experience, as well as storing an incredible amount of experience. It makes an indispensable addition to any enchanting area. "
+	]
 	quest.78D83E33F82D6015.quest_desc: [
 		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
 		""
@@ -3448,6 +3585,11 @@
 		"&a    discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
+	quest.7F2F9BE0C99BCFB7.quest_desc: [
+		"Biofuel Generators efficiently burn Biofuel for respectable power output. "
+		""
+		"A few of these should keep your machines running without issue. "
+	]
 	quest.7FAC3A637F82BFED.quest_desc: [
 		"These floaty little witch friends can be tasked with automating standard 3x3 Crafting Table crafts, Potion Brewing, and even the Enchanting Apparatus. "
 		""
@@ -3514,6 +3656,7 @@
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logisticss"
+	task.256E76CA796C354E.title: "Steel Dust"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"

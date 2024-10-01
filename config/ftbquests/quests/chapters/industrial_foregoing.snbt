@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "264B8D62983BEFB4"
+	icon: {
+		components: {
+			"patchouli:book": "industrialforegoing:industrial_foregoing"
+		}
+		id: "patchouli:guide_book"
+	}
+	id: "13D3BD9B8A839B2E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "industrialforegoing:block/material_stonework_front"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "01C6F096606E3638"
+			rewards: [{
+				id: "222132706EAC72F9"
+				item: {
+					components: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "169CFFFCEA87A230"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01C6F096606E3638"]
+			id: "2D5820091B6B2315"
+			rewards: [
+				{
+					count: 2
+					id: "5B1AAE180BBC0E6C"
+					item: {
+						count: 1
+						id: "industrialforegoing:fluid_transporter_type"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12F07D1C93143D5F"
+					item: {
+						count: 1
+						id: "minecraft:acacia_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4071D2CD2AE5453F"
+				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D5820091B6B2315"]
+			id: "000E41CCCDD048C3"
+			tasks: [{
+				id: "408336C20F967DD6"
+				item: { count: 1, id: "industrialforegoing:block_placer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D5820091B6B2315"]
+			id: "5572D4A6842BAAFA"
+			rewards: [{
+				count: 2
+				id: "7B8C6B4DAD33727D"
+				item: {
+					count: 1
+					id: "industrialforegoing:item_transporter_type"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7060E4B02C92171A"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D5820091B6B2315"]
+			id: "6B0AC626ED56983E"
+			rewards: [{
+				count: 8
+				id: "161A73E1298BB982"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6D1C9499514C15"
+				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5572D4A6842BAAFA"]
+			id: "0267B2A5D784EF45"
+			rewards: [{
+				count: 2
+				id: "25E493A5153B9A05"
+				item: {
+					count: 1
+					id: "industrialforegoing:item_transporter_type"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66A113DD9BE4E147"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0267B2A5D784EF45"]
+			id: "1FDA97FE562A2C4D"
+			tasks: [
+				{
+					id: "40BF2920569F9751"
+					item: { components: { "titanium:augments": { Speed: 2.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_1" }
+					type: "item"
+				}
+				{
+					id: "62742836108A45A3"
+					item: { components: { "titanium:augments": { Efficiency: 0.9f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_1" }
+					type: "item"
+				}
+				{
+					id: "5887027FAE29F371"
+					item: { components: { "titanium:augments": { Processing: 2.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_1" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5572D4A6842BAAFA"]
+			id: "6442A8E130C09FA2"
+			rewards: [{
+				id: "7395EF191326CE15"
+				item: {
+					count: 1
+					id: "industrialforegoing:biofuel_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48EF5065AC10977A"
+				item: { count: 1, id: "industrialforegoing:bioreactor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6442A8E130C09FA2"]
+			id: "7F2F9BE0C99BCFB7"
+			tasks: [{
+				id: "400108E9FE47A28E"
+				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0267B2A5D784EF45"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/wheat"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "48F3D3784D8CE545"
+			rewards: [{
+				count: 2
+				id: "281127FBBDD9EAD9"
+				item: {
+					components: {
+						"titanium:augments": {
+							Range: 3.0f
+						}
+					}
+					count: 1
+					id: "industrialforegoing:range_addon_tier_3"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2ACB19BED3134461"
+					item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+					type: "item"
+				}
+				{
+					id: "4E1122478A05DEFF"
+					item: { count: 1, id: "industrialforegoing:plant_sower" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+}

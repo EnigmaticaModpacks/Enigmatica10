@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: Item.of('minecraft:red_dye', 2),
+            output: '2x minecraft:red_dye',
             pattern: ['A ', ' A'],
             key: {
                 A: 'productivetrees:haematoxylin'
