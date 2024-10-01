@@ -17,6 +17,7 @@
 -   Cheaper Source Blocks! [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
 -   Fluix may be crafted with Industrial Foregoing [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
 -   Leads and Sticky Pistons now accept pink slime [\#133](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/133)
+-   Ender IO and IF quests (Work in Progress) [\#143](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/143)
 
 #### 🦟 Bugs Fixed
 
