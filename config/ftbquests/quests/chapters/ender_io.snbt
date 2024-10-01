@@ -18,6 +18,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "23703A535469A7F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28F4042B0BA8FD5F"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "79ACB6E77D401A1D"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -29,6 +35,15 @@
 		{
 			dependencies: ["23703A535469A7F3"]
 			id: "6F7A76841E49C6BD"
+			rewards: [{
+				count: 8
+				id: "5C1C743E91E6C51F"
+				item: {
+					count: 1
+					id: "enderio:grains_of_infinity"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1254FAEB0D70CF4D"
 				item: { count: 1, id: "enderio:grains_of_infinity" }
@@ -40,6 +55,15 @@
 		{
 			dependencies: ["6F7A76841E49C6BD"]
 			id: "211E0844F3ACD244"
+			rewards: [{
+				count: 8
+				id: "2D2EE7114EEEAE86"
+				item: {
+					count: 1
+					id: "minecraft:coal_ore"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BDA0DB38EBB2D68"
 				item: { count: 1, id: "enderio:primitive_alloy_smelter" }

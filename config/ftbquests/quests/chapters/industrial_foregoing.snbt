@@ -74,6 +74,15 @@
 		{
 			dependencies: ["2D5820091B6B2315"]
 			id: "000E41CCCDD048C3"
+			rewards: [{
+				count: 16
+				id: "3AE138B46834ADF5"
+				item: {
+					count: 1
+					id: "minecraft:acacia_log"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "408336C20F967DD6"
 				item: { count: 1, id: "industrialforegoing:block_placer" }
@@ -145,6 +154,47 @@
 		{
 			dependencies: ["0267B2A5D784EF45"]
 			id: "1FDA97FE562A2C4D"
+			rewards: [
+				{
+					id: "207BAF520E8E0C23"
+					item: {
+						components: {
+							"titanium:augments": {
+								Speed: 3.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:speed_addon_tier_2"
+					}
+					type: "item"
+				}
+				{
+					id: "43C7934B276B99D7"
+					item: {
+						components: {
+							"titanium:augments": {
+								Efficiency: 0.8f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:efficiency_addon_tier_2"
+					}
+					type: "item"
+				}
+				{
+					id: "0FDFCA8809108475"
+					item: {
+						components: {
+							"titanium:augments": {
+								Processing: 3.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:processing_addon_tier_2"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "40BF2920569F9751"
@@ -162,7 +212,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -187,6 +237,14 @@
 		{
 			dependencies: ["6442A8E130C09FA2"]
 			id: "7F2F9BE0C99BCFB7"
+			rewards: [{
+				id: "767A2E1B8A24E800"
+				item: {
+					count: 1
+					id: "powah:energy_cell_hardened"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "400108E9FE47A28E"
 				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
@@ -230,8 +288,231 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0267B2A5D784EF45"]
+			id: "68A0052D169BB6E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "254D79020E0C8BC7"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A688D1FDEAD0C52"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68A0052D169BB6E4"]
+			id: "130C6FC212F64474"
+			rewards: [{
+				id: "4F66C8B69D115062"
+				item: {
+					count: 1
+					id: "industrialforegoing:purple_laser_lens"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C24A1C0976A338A"
+					item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+					type: "item"
+				}
+				{
+					id: "1FF597A29AE14C47"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "7042787BA607AEC6"
+					item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68A0052D169BB6E4"]
+			id: "410225ED927857D4"
+			tasks: [
+				{
+					id: "70F2249949E43952"
+					item: { count: 1, id: "industrialforegoing:animal_feeder" }
+					type: "item"
+				}
+				{
+					id: "72CEF77455934643"
+					item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
+					type: "item"
+				}
+				{
+					id: "7131B205FCA95000"
+					item: { count: 1, id: "industrialforegoing:animal_rancher" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68A0052D169BB6E4"]
+			id: "49958725A4710861"
+			rewards: [{
+				id: "1B90D8D534134E7D"
+				item: {
+					count: 1
+					id: "enderio:inhibitor_obelisk"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2680C6E534F23886"
+					item: { count: 1, id: "industrialforegoing:mechanical_dirt" }
+					type: "item"
+				}
+				{
+					id: "32FA87B229D3F84E"
+					item: { count: 1, id: "industrialforegoing:mob_crusher" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49958725A4710861"]
+			id: "416D6EA79B73A4B9"
+			rewards: [{
+				id: "3C1E770DE1A7AB92"
+				item: {
+					count: 1
+					id: "industrialforegoing:mob_imprisonment_tool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D5B98CC231E4231"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["130C6FC212F64474"]
+			id: "6DAC9B8001A6D528"
+			rewards: [{
+				id: "709993EF9F5E664D"
+				item: {
+					count: 1
+					id: "powah:energy_cell_nitro"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05D8783D1A80CD1B"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["130C6FC212F64474"]
+			id: "0465E4A27C7D4D75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2826D756151A73F0"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4D5B03186C06CA95"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["68A0052D169BB6E4"]
+			id: "526BF0840C65855F"
+			rewards: [
+				{
+					id: "61B6267CFE1261A2"
+					item: {
+						components: {
+							"functionalstorage:tile": {
+								drawerOptions: {
+									"Advanced: INDICATOR": 0
+									TOGGLE_NUMBERS: 1b
+									TOGGLE_RENDER: 1b
+									TOGGLE_UPGRADES: 1b
+								}
+								fluidHandler: {
+									0: {
+										Fluid: {
+											amount: 32000
+											id: "industrialforegoing:meat"
+										}
+									}
+									Capacity: 32000
+									Locked0: { }
+								}
+								hasDowngrade: 0b
+								isCreative: 0b
+								isVoid: 0b
+								mult: 1
+								storageUpgrades: {
+									Items: [ ]
+									Size: 4
+								}
+								utilityUpgrades: {
+									Items: [ ]
+									Size: 3
+								}
+							}
+						}
+						count: 1
+						id: "functionalstorage:fluid_1"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "713B9355CC63F61E"
+					table_id: 310519013727846436L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "00BF730AB52C284F"
+					item: { count: 1, id: "industrialforegoing:washing_factory" }
+					type: "item"
+				}
+				{
+					id: "2C8848DE44637D77"
+					item: { count: 1, id: "industrialforegoing:fermentation_station" }
+					type: "item"
+				}
+				{
+					id: "4013CAA91AD65A3D"
+					item: { count: 1, id: "industrialforegoing:fluid_sieving_machine" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
 		}
 	]
 }

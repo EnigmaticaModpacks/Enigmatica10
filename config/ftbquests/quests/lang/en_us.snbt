@@ -59,8 +59,6 @@
 		"Welcome to Industrial Foregoing! "
 		""
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
-		""
-		"This quest section is a work in progress. Please refer to the book in the meantime! "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
 	quest.0227D9EC391788D6.quest_desc: [
@@ -106,6 +104,14 @@
 		"Thankfully, there’s a similar upgrade for your Boiler. "
 		""
 		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
+	]
+	quest.0465E4A27C7D4D75.quest_desc: [
+		"The Ore Laser Base can be a great way to get a steady flow of minerals, allowing you to set aside mining forever. "
+		""
+		"Like the Fluid Laser Base, this will require Laser Drills in proximity."
+		""
+		"&a🛈 Tip: You can use more than four "
+		"&a    Laser Drills on a Laser Base!"
 	]
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
@@ -504,6 +510,20 @@
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
+	quest.130C6FC212F64474.quest_desc: [
+		"The Fluid Laser will be your next stop in gathering unusual monster fluids. This time, you’re after Ether Gas, which is obtained by drilling a Wither."
+		""
+		"To function, the Laser Base will need to be placed directly on top of the Wither. The simplest way to do this is to place the drill atop the middle skull while you’re building the Wither. Once the other skulls are placed and the Wither forms, the laser will be in perfect alignment."
+		""
+		"One or more Laser Drills must also be placed facing the Base. The exact placement doesn't matter, just ensure that the Base is inside of the Drill's working area. "
+		""
+		"This setup will harm the monster it is drilling, so keeping it healed is important. "
+		""
+		"A Stasis Chamber serves both to heal the monster and to keep it contained, applying slowness and disabling its AI. "
+		""
+		"&a🛈 Tip: You can use more than four "
+		"&a    Laser Drills on a Laser Base!"
+	]
 	quest.1386A595D84FE6FC.quest_desc: [
 		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
 		""
@@ -937,6 +957,7 @@
 		""
 		"This mod is in early alpha and things are changing fast! Quests are similarly a work in progress."
 	]
+	quest.23703A535469A7F3.title: "Ender IO"
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
 		""
@@ -1785,6 +1806,20 @@
 		"&a    Configurator to set the tank to"
 		"&a    auto-output from the bottom."
 	]
+	quest.410225ED927857D4.quest_desc: [
+		"These three machines can be put together to farm passive mobs automatically. "
+		""
+		"First, the Animal Feeder will keep your animals fed, happy, and making babies. This will stop working automatically when there are too many animals in the working area. "
+		""
+		"The Animal Rancher can be used in the same area to gather Wool from Sheep and Milk from Cows. "
+		""
+		"The Animal Baby Separator can then be used to send the babies to a holding area while they grow up. This block also has a reverse mode to separate the grown animals out from the baby holding area and into their final destination, the Slaughter Factory."
+		""
+		"&a🛈 Tip: Install matching Range Addons "
+		"&a    in each to cover the appropriate "
+		"&a    area."
+	]
+	quest.410225ED927857D4.title: "Animal Farming"
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
 		""
@@ -1800,6 +1835,13 @@
 		"&a    on grass!"
 	]
 	quest.41614A924E5556EE.title: "Ars Nouveau"
+	quest.416D6EA79B73A4B9.quest_desc: [
+		"The Mob Duplicator is an excellent way to farm a specific mob, if you need a lot of just the drops it produces. "
+		""
+		"Simply capture the mob in a Mob Imprisonment Tool and insert it in the machine. "
+		""
+		"It will also need lots of Essence to operate, therefore you’ll want to keep your Mechanical Dirt and Mob Crusher running to produce the required Essence."
+	]
 	quest.4229112D97BB45E6.quest_desc: [
 		"Power cables that double as limited storage, keeping a buffer of power in each block space. "
 		""
@@ -2093,6 +2135,18 @@
 		""
 		"&a🛈 Tip: Requires a clear view of the sky."
 	]
+	quest.49958725A4710861.quest_desc: [
+		"Mechanical Dirt can be an excellent way to start farming monsters. By providing it with Liquid Meat and power in a dark area, it’ll quickly spawn in hostile mobs appropriate to the biome you’re in. "
+		""
+		"When combined with a Mob Slaughter Factory, it will easily produce enough Liquid Meat to run itself with plenty left over to run more Mechanical Dirt for a Mob Crusher, thus allowing you to farm monster drops quite effectively."
+		""
+		"This machine forms a rough multiblock, and automatically shares both power and Liquid Meat with any other adjacent Mechanical Dirt blocks. "
+		""
+		"&a🛈 Tip: An Inhibitor Obelisk will keep any "
+		"&a    Endermen that spawn contained in "
+		"&a    your farm. "
+	]
+	quest.49958725A4710861.title: "Monster Farming"
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Welcome to Mekanism!"
@@ -2372,6 +2426,20 @@
 		""
 		"&a🛈 Tip: The Generators automatically power adjacent blocks."
 	]
+	quest.526BF0840C65855F.quest_desc: [
+		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
+		""
+		"No, really!"
+		""
+		"The process begins with the Washing Factory, which takes Power, Raw Ores, and Liquid meat as inputs."
+		""
+		"The result is then sent to a Fermentation Station where it is processed with an optional catalyst. By introducing Pink Slime, you can obtain up to a 4x yield on your ore. With Ether Gas, this goes up to a 5x yield."
+		""
+		"Finally, once properly fermented, the fluid must be passed into a Sieving Machine and filtered through Sand to produce nice clean metal dusts for you! "
+		""
+		"Tasty!"
+	]
+	quest.526BF0840C65855F.title: "Ore Processing"
 	quest.526FB82B8D47EAA4.quest_desc: [
 		"Mekanism’s Bins are cheap and effective mass storage blocks. They only hold one type of item, but they hold a lot!"
 		""
@@ -2950,6 +3018,15 @@
 		"&a    Wormhole or Storage Accessor"
 		"&a    on the Actuator to link them."
 	]
+	quest.68A0052D169BB6E4.quest_desc: [
+		"The Mob Slaughter Factory is your source for liquefied monster products, both Liquid Meat and Pink Slime. Yum."
+		""
+		"While this can be coupled with any form of mob farm, Industrial Foregoing offers several ways to produce the mobs it requires. "
+		""
+		"&a🛈 Tip: Passive mobs produce more "
+		"&a    Pink Slime than hostiles mobs."
+	]
+	quest.68A0052D169BB6E4.title: "Meat Farming"
 	quest.69295042E8C3A609.quest_desc: [
 		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
 		""
@@ -3121,6 +3198,13 @@
 		"&a    the blocks inside the field area!"
 	]
 	quest.6D9008779F35E755.title: "Quarry"
+	quest.6DAC9B8001A6D528.quest_desc: [
+		"The Mycelial Reactor is a special form of power generation that produces an enormous amount of energy."
+		""
+		"In order to operate, you must have all sixteen types of Mycelial Generator running. "
+		""
+		"This may prove quite challenging as you’ll need to provide some very peculiar materials to operate them, from Nether Stars and Dragon’s Breath to Potions and Fireworks. "
+	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
 		""
