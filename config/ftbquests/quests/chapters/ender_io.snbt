@@ -49,7 +49,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["24A4BA42A83A20D0"]
+			dependencies: ["211E0844F3ACD244"]
 			id: "6968F7CB58754783"
 			rewards: [{
 				count: 9
@@ -68,11 +68,11 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["24A4BA42A83A20D0"]
+			dependencies: ["6968F7CB58754783"]
 			id: "12AF74656C5F124A"
 			rewards: [{
 				count: 32
@@ -88,8 +88,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["211E0844F3ACD244"]
@@ -107,8 +107,8 @@
 				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 }

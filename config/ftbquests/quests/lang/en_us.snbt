@@ -27,6 +27,11 @@
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
+	quest.000E41CCCDD048C3.quest_desc: [
+		"Don’t want to place logs by hand? "
+		""
+		"Fill up a Block Placer with a bunch of logs and let it do the job for you!"
+	]
 	quest.0071209841FB1C23.quest_desc: [
 		"Combined storage and remote power transfer. "
 		""
@@ -51,11 +56,11 @@
 		"The router needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
 	quest.01C6F096606E3638.quest_desc: [
-		"Welcome to Industrial Foregoing! This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
+		"Welcome to Industrial Foregoing! "
+		""
+		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 		""
 		"This quest section is a work in progress. Please refer to the book in the meantime! "
-		""
-		"Your first goal will be to make Plastic from Latex."
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
 	quest.0227D9EC391788D6.quest_desc: [
@@ -74,6 +79,16 @@
 		"Rather than forming a force field, the blocks will be placed wherever a force field block would have been created."
 	]
 	quest.0233E4C65745EEB0.title: "Building"
+	quest.0267B2A5D784EF45.quest_desc: [
+		"The Dissolution Chamber combines multiple ingredients with some type of fluid. "
+		""
+		"The machine only holds enough items for a single craft at a time, so it can be useful to lock the slots to a specific recipe and pipe items in. "
+		""
+		"This way it can run larger batches as you work on other things."
+		""
+		"&6⚠ Note: The input items can be in any "
+		"&6    order!"
+	]
 	quest.036036EA25034BE8.quest_desc: [
 		"Our third variant of chalk, Purple Chalk grants access to some powerful binding rituals. "
 		""
@@ -815,6 +830,11 @@
 	]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
+	quest.1FDA97FE562A2C4D.quest_desc: [
+		"Addons can be installed in most machines to speed them up and make them run more efficiently. "
+		""
+		"Don’t miss out!"
+	]
 	quest.20454EB2C6E93573.quest_desc: [
 		"The Player Accessor allows any form of logistics to interact with your inventory as if it were a chest. "
 		""
@@ -939,9 +959,11 @@
 		"&a    for hatches."
 	]
 	quest.24A4BA42A83A20D0.quest_desc: [
-		"After crafting your first few Dark Steel Ingots, the Alloy Smelter might seem like the logical next step. However, you’re going to need some power."
+		"After crafting your first few Dark Steel Ingots, the Alloy Smelter might seem like the logical next step. "
 		""
-		"Ender IO uses FE like many other tech mods, but it is rebranded as Micro Infinity or µI. "
+		"You’re going to need some power to proceed, however."
+		""
+		"Ender IO uses FE like many other tech mods, but it is rebranded as Micro Infinity or µI. They are completely interchangeable. "
 		""
 		"For an option from Ender IO, consider making a Stirling Generator, which runs on coal. "
 		""
@@ -1164,6 +1186,13 @@
 		"Modular Routers is a catch all logistics mod capable of many things. "
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
+	]
+	quest.2D5820091B6B2315.quest_desc: [
+		"Latex and Rubber are two of the most fundamental resources required for Industrial Foregoing beyond other such basics as stone, metals, and wood. "
+		""
+		"Obtaining Latex will begin with a Fluid Extractor. Place an Acacia Log in front of the machine and it’ll slowly extract the Latex, breaking down the log over time."
+		""
+		"This machine doesn’t need power to run, but providing power will speed things up considerably!"
 	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -2023,6 +2052,21 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48F3D3784D8CE545.quest_desc: [
+		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
+		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
+		""
+		"You’ll want to place the Gatherer on the edge of your field, while the Sower will go in the center just underground. "
+		""
+		"Be sure to check the Show Working area button in their GUI to get an idea of where they’ll be operating."
+		""
+		"With a +4 Range Addon, these machines will be able to work on the area of a standard 9x9 farm plot."
+		""
+		"&a🛈 Tip: Giving the Gatherer Ether Gas "
+		"&a    will allow it to harvest without "
+		"&a    breaking the crops. "
+	]
+	quest.48F3D3784D8CE545.title: "Crop Farming"
 	quest.48F901DB80482CAA.quest_desc: [
 		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
 		""
@@ -2383,6 +2427,15 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.5572D4A6842BAAFA.quest_desc: [
+		"The Latex Processing unit will turn that liquid Latex and convert it to Rubber. "
+		""
+		"This requires Water and Power in addition to the Latex to operate."
+		""
+		"Once you’ve got some Rubber, you’ll want to smelt it in a Furnace to get Plastic. "
+		""
+		"Be sure to keep a stock of Liquid Latex, however, as it is used in many crafting recipes directly. "
 	]
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
@@ -2764,6 +2817,13 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
+	quest.6442A8E130C09FA2.quest_desc: [
+		"The Bioreactor is used to produce Biofuel, a potent fluid fuel which will easily replace your Pitiful Generator. "
+		""
+		"The device requires power, water, and biological materials such as crops to operate. "
+		""
+		"For each unique item it is given, it produces bonus Biofuel. Meaning it’s far more efficient to feed it nine unique crops rather than fill all the slots with the same crop."
+	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
 		""
@@ -2997,6 +3057,11 @@
 		"From mining and decoration, to destruction and more, the mods shown here will help you do it all."
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
+	quest.6B0AC626ED56983E.quest_desc: [
+		"The Pitiful Generator, as the name implies, is not that great. "
+		""
+		"It burns Furnace fuels to output a trickle of energy. It’ll get you started; however Industrial Foregoing uses standard FE power and can therefore accept energy from any compatible generator."
+	]
 	quest.6B6898F3520BA8F7.quest_desc: [
 		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
 		""
@@ -3520,6 +3585,11 @@
 		"&a    discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
+	quest.7F2F9BE0C99BCFB7.quest_desc: [
+		"Biofuel Generators efficiently burn Biofuel for respectable power output. "
+		""
+		"A few of these should keep your machines running without issue. "
+	]
 	quest.7FAC3A637F82BFED.quest_desc: [
 		"These floaty little witch friends can be tasked with automating standard 3x3 Crafting Table crafts, Potion Brewing, and even the Enchanting Apparatus. "
 		""
