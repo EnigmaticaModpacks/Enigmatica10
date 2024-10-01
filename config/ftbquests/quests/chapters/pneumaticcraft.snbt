@@ -215,6 +215,12 @@
 				id: "pneumaticcraft:etching_tank"
 			}
 			id: "1EBAABF6E93CFCDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59B46B2C3C887A17"
+				table_id: 700104408672187740L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3211CD007111D8C0"
@@ -236,6 +242,12 @@
 				id: "pneumaticcraft:uv_light_box"
 			}
 			id: "2F835F759B26FD4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0974A110D656AD80"
+				table_id: 700104408672187740L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "578E1399EFB35177"
