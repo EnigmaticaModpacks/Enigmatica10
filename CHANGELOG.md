@@ -29,6 +29,7 @@
 -   Fix recipe conflict with Sulfur/dye conversion [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
 -   Fix Sourcestone button recipe conflict [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
 -   Fix recipe conflict with Terracotta Thin Pots [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Add missing loot to a few PNC quests [\#145](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/145)
 
 ---
 
