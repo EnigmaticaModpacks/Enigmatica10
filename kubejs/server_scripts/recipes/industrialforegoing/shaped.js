@@ -3,12 +3,14 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: '2x minecraft:red_dye',
-            pattern: ['A ', ' A'],
+            output: '2x industrialforegoing:diamond_gear',
+            pattern: ['ABA', 'BCB', 'ABA'],
             key: {
-                A: 'productivetrees:haematoxylin'
+                A: '#c:nuggets/dark_steel',
+                B: '#c:gems/diamond',
+                C: '#c:dusts/grains_of_infinity'
             },
-            id: `${id_prefix}red_dye_from_haematoxylin`
+            id: `${id_prefix}diamond_gear`
         }
     ];
 

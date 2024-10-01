@@ -21,6 +21,16 @@ ServerEvents.recipes((event) => {
                 C: 'pneumaticcraft:advanced_pressure_tube'
             },
             id: 'pneumaticcraft:advanced_liquid_compressor'
+        },
+        {
+            output: '2x pneumaticcraft:compressed_iron_gear',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#c:nuggets/dark_steel',
+                B: '#c:ingots/compressed_iron',
+                C: '#c:dusts/grains_of_infinity'
+            },
+            id: `${id_prefix}compressed_iron_gear`
         }
     ];
 
