@@ -135,33 +135,6 @@ ServerEvents.recipes((event) => {
         );
     });
 
-    // Convert item outputs to tag outputs for unification. This is temporary. AU is in communication with EIO to fix this in the mod.
-    event.forEachRecipe({ type: 'enderio:sag_milling' }, (r) => {
-        let recipe = JSON.parse(r.json);
-        let recipe_id = r.getId();
-
-        let materials = ['coal', 'ender_pearl', 'gold', 'iron', 'copper', 'lapis', 'obsidian', 'quartz'];
-        recipe.outputs.forEach((output) => {
-            if (output.item) {
-                let output_item = output.item;
-
-                materials.map((material) => {
-                    if (output_item.includes(`powdered_${material}`)) {
-                        delete output.item;
-                        output.tag = `c:dusts/${material}`;
-                    }
-                });
-
-                if (output.item == 'enderio:silicon') {
-                    delete output.item;
-                    output.tag = 'c:silicon';
-                }
-            }
-        });
-        recipe.id = recipe_id;
-        recipes.push(recipe);
-    });
-
     recipes.forEach((recipe) => {
         recipe.type = 'enderio:sag_milling';
         event.custom(recipe).id(recipe.id);
