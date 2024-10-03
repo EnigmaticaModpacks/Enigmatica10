@@ -31,9 +31,6 @@ antifieldBlockRadius = 25
 	incubatorChorusFruitChanceIncrease = 0.1
 
 [genes]
-	#List of genes to disable.
-	#Example: ["geneticsresequenced:wooly","geneticsresequenced:lay_egg"]
-	disabledGenes = []
 	#Set true to prevent players from being given negative genes
 	disableGivingPlayersNegativeGenes = false
 	#How long should light sources from the Bioluminescence gene last (in ticks)
