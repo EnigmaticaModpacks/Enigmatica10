@@ -4,40 +4,40 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             input: { item: `ae2:sky_stone_block` },
-            outputs: [{ item: `ae2:sky_dust` }],
+            outputs: [{ item: { id: `ae2:sky_dust`, count: 1 } }],
             bonus: 'none',
             energy: 2400,
             id: `${id_prefix}sky_dust`
         },
         {
             input: { tag: 'c:rods/breeze' },
-            outputs: [{ count: 4, item: 'minecraft:wind_charge' }],
+            outputs: [{ item: { id: 'minecraft:wind_charge', count: 4 } }],
             energy: 2400,
             id: `${id_prefix}wind_charge`
         },
         {
             input: { tag: 'c:rods/blaze' },
-            outputs: [{ count: 4, tag: 'c:dusts/blaze' }],
+            outputs: [{ item: { tag: 'c:dusts/blaze', count: 4 } }],
             bonus: 'none',
             energy: 2400,
             id: `${id_prefix}blaze_from_rod`
         },
         {
             input: { tag: 'c:gems/blaze_ember' },
-            outputs: [{ count: 6, tag: 'c:dusts/blaze' }],
+            outputs: [{ item: { tag: 'c:dusts/blaze', count: 6 } }],
             energy: 2400,
             id: `${id_prefix}blaze_from_ember`
         },
         {
             input: { item: 'minecraft:prismarine' },
-            outputs: [{ count: 4, tag: 'c:dusts/prismarine' }],
+            outputs: [{ item: { tag: 'c:dusts/prismarine', count: 4 } }],
             bonus: 'none',
             energy: 2400,
             id: `${id_prefix}prismarine_from_block`
         },
         {
             input: { item: 'minecraft:prismarine_bricks' },
-            outputs: [{ count: 9, tag: 'c:dusts/prismarine' }],
+            outputs: [{ item: { tag: 'c:dusts/prismarine', count: 9 } }],
             bonus: 'none',
             energy: 2400,
             id: `${id_prefix}prismarine_from_bricks`
@@ -45,8 +45,8 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'minecraft:dark_prismarine' },
             outputs: [
-                { count: 8, tag: 'c:dusts/prismarine' },
-                { count: 1, item: 'minecraft:black_dye' }
+                { item: { tag: 'c:dusts/prismarine', count: 8 } },
+                { item: { tag: 'minecraft:black_dye', count: 1 } }
             ],
             bonus: 'none',
             energy: 2400,
@@ -55,8 +55,8 @@ ServerEvents.recipes((event) => {
         {
             input: { item: 'minecraft:sea_lantern' },
             outputs: [
-                { count: 4, tag: 'c:dusts/prismarine' },
-                { count: 5, tag: 'c:gems/prismarine' }
+                { item: { tag: 'c:dusts/prismarine', count: 4 } },
+                { item: { tag: 'c:gems/prismarine', count: 5 } }
             ],
             bonus: 'none',
             energy: 2400,
@@ -64,19 +64,19 @@ ServerEvents.recipes((event) => {
         },
         {
             input: { tag: 'minecraft:logs' },
-            outputs: [{ count: 12, tag: 'c:dusts/wood' }],
+            outputs: [{ item: { tag: 'c:dusts/wood', count: 12 } }],
             energy: 2400,
             id: `${id_prefix}sawdust_from_logs`
         },
         {
             input: { tag: 'c:rods/wooden' },
-            outputs: [{ count: 1, tag: 'c:dusts/wood' }],
+            outputs: [{ item: { tag: 'c:dusts/wood', count: 1 } }],
             energy: 2400,
             id: `${id_prefix}sawdust_from_sticks`
         },
         {
             input: { tag: 'minecraft:planks' },
-            outputs: [{ count: 3, tag: 'c:dusts/wood' }],
+            outputs: [{ item: { tag: 'c:dusts/wood', count: 3 } }],
             energy: 2400,
             id: `${id_prefix}sawdust_from_planks`
         }
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
     gems.forEach((gem) => {
         recipes.push({
             input: { tag: `c:gems/${gem}` },
-            outputs: [{ tag: `c:dusts/${gem}` }],
+            outputs: [{ item: { tag: `c:dusts/${gem}`, count: 1 } }],
             bonus: 'none',
             energy: 2400,
             id: `${id_prefix}${gem}`
@@ -108,9 +108,15 @@ ServerEvents.recipes((event) => {
             {
                 input: { tag: `c:ores/${material.primary}` },
                 outputs: [
-                    { tag: `c:raw_materials/${material.primary}` },
-                    { tag: `c:raw_materials/${material.primary}`, chance: 0.33 },
-                    { item: `minecraft:cobblestone`, chance: 0.15 }
+                    { item: { tag: `c:raw_materials/${material.primary}`, count: 1 } },
+                    {
+                        chance: 0.33,
+                        item: { tag: `c:raw_materials/${material.primary}`, count: 1 }
+                    },
+                    {
+                        chance: 0.15,
+                        item: { id: `minecraft:cobblestone`, count: 1 }
+                    }
                 ],
                 energy: 2400,
                 id: `${id_prefix}${material.primary}_ore`
@@ -118,16 +124,22 @@ ServerEvents.recipes((event) => {
             {
                 input: { tag: `c:raw_materials/${material.primary}` },
                 outputs: [
-                    { tag: `c:dusts/${material.primary}` },
-                    { chance: 0.25, tag: `c:dusts/${material.primary}` },
-                    { chance: 0.05, tag: `c:dusts/${material.secondary}` }
+                    { item: { tag: `c:dusts/${material.primary}`, count: 1 } },
+                    {
+                        chance: 0.25,
+                        item: { tag: `c:dusts/${material.primary}`, count: 1 }
+                    },
+                    {
+                        chance: 0.05,
+                        item: { tag: `c:dusts/${material.secondary}`, count: 1 }
+                    }
                 ],
                 energy: 2400,
                 id: `${id_prefix}raw_${material.primary}`
             },
             {
                 input: { tag: `c:ingots/${material.primary}` },
-                outputs: [{ tag: `c:dusts/${material.primary}` }],
+                outputs: [{ item: { tag: `c:dusts/${material.primary}`, count: 1 } }],
                 bonus: 'none',
                 energy: 2400,
                 id: `${id_prefix}${material.primary}`

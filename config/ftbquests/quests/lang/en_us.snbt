@@ -483,7 +483,9 @@
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.12903CD319AE35B9.quest_desc: [
-		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
+		"With the Steam Blast Furnace, Steel production can begin. "
+		""
+		"This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
 		""
 		"&a🛈 Tip: Place the controller block, then "
 		"&a    hold a Wrench or Hatch to see the "

@@ -88,6 +88,26 @@
 					item: { count: 1, id: "minecraft:bricks" }
 					type: "item"
 				}
+				{
+					id: "078C439FCBC9EE15"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "2C6C59245FECC606"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "706E5186B08F8CCC"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "37B5B04442EA3E28"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
+					type: "item"
+				}
 			]
 			x: 3.0d
 			y: 3.5d
@@ -333,6 +353,21 @@
 				{
 					id: "701146CFFD6D94CA"
 					item: { count: 32, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+				{
+					id: "345A4E688C2BCEC1"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "0F42F151A01DD09D"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "0B4F6C9F31B7F74F"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
 					type: "item"
 				}
 			]
@@ -734,13 +769,11 @@
 					type: "item"
 				}
 				{
-					count: 16L
 					id: "2E58816C65120488"
 					item: { count: 16, id: "modern_industrialization:cupronickel_coil" }
 					type: "item"
 				}
 				{
-					count: 14L
 					id: "0D1F5A62CFADE179"
 					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
@@ -874,19 +907,16 @@
 					type: "item"
 				}
 				{
-					count: 3L
 					id: "5C8B3EF30A8E2837"
 					item: { count: 1, id: "modern_industrialization:bronze_machine_casing_pipe" }
 					type: "item"
 				}
 				{
-					count: 32L
 					id: "34B23E79AC558295"
 					item: { count: 1, id: "modern_industrialization:bronze_plated_bricks" }
 					type: "item"
 				}
 				{
-					count: 6L
 					id: "72AE860FE04F9AB3"
 					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
