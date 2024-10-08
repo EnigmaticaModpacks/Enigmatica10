@@ -8,6 +8,7 @@ ServerEvents.generateData('before_mods', (event) => {
     let data_map = { values: {} };
     compostables.forEach((compostable) => {
         // Build up compostables data map for NeoForge
+        // https://docs.neoforged.net/docs/resources/server/datamaps/builtin/
         data_map.values[compostable.input] = { chance: compostable.chance };
     });
 
