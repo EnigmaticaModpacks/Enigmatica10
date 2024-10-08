@@ -2,6 +2,8 @@
 	chapter.0095002B3E34FD9A.title: "Occultism"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
+	chapter.1514913DA64A98EB.title: "Ender IO"
 	chapter.1A29B498BD263BEF.title: "Redstone"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
@@ -25,6 +27,11 @@
 	chapter_group.440488E780593120.title: "&aLearning - Magic"
 	file.0000000000000001.title: "&n&6Enigmatica 10&r"
 	quest.00066BB06F509677.quest_desc: ["Item Cards for LaserIO allow Laser Nodes to transport Items."]
+	quest.000E41CCCDD048C3.quest_desc: [
+		"Don’t want to place logs by hand? "
+		""
+		"Fill up a Block Placer with a bunch of logs and let it do the job for you!"
+	]
 	quest.0071209841FB1C23.quest_desc: [
 		"Combined storage and remote power transfer. "
 		""
@@ -37,11 +44,6 @@
 		"&a    capacity!"
 	]
 	quest.00DE313EE5B9954D.quest_desc: ["A simple tape measure to help count distances. Handy for any dedicated builder to keep around."]
-	quest.00E63585BA00E77B.quest_desc: [
-		"Cheap to craft, these little totems allow you to escape a rift rather than dying. "
-		""
-		"While one is in your inventory, any time your health is reduced to zero, you’ll instead be teleported out of the rift, back to your entry point in the Overworld."
-	]
 	quest.01266355AAB13C39.quest_desc: [
 		"Chisel offers a plethora of block variants to spice up your building. Grab a Chisel and some blocks and get to work!"
 		""
@@ -53,6 +55,12 @@
 		""
 		"The router needs some kind of storage tank in its buffer to work. A bucket is sufficient but a larger fluid tank from any other mod is ideal."
 	]
+	quest.01C6F096606E3638.quest_desc: [
+		"Welcome to Industrial Foregoing! "
+		""
+		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
+	]
+	quest.01C6F096606E3638.title: "Industrial Foregoing"
 	quest.0227D9EC391788D6.quest_desc: [
 		"Tired of looking at exposed cables everywhere?"
 		""
@@ -69,6 +77,16 @@
 		"Rather than forming a force field, the blocks will be placed wherever a force field block would have been created."
 	]
 	quest.0233E4C65745EEB0.title: "Building"
+	quest.0267B2A5D784EF45.quest_desc: [
+		"The Dissolution Chamber combines multiple ingredients with some type of fluid. "
+		""
+		"The machine only holds enough items for a single craft at a time, so it can be useful to lock the slots to a specific recipe and pipe items in. "
+		""
+		"This way it can run larger batches as you work on other things."
+		""
+		"&6⚠ Note: The input items can be in any "
+		"&6    order!"
+	]
 	quest.036036EA25034BE8.quest_desc: [
 		"Our third variant of chalk, Purple Chalk grants access to some powerful binding rituals. "
 		""
@@ -86,6 +104,14 @@
 		"Thankfully, there’s a similar upgrade for your Boiler. "
 		""
 		"The High Pressure Advanced Large Steam Boiler will require a small expansion to the existing boiler multiblock, but otherwise should be a seamless upgrade."
+	]
+	quest.0465E4A27C7D4D75.quest_desc: [
+		"The Ore Laser Base can be a great way to get a steady flow of minerals, allowing you to set aside mining forever. "
+		""
+		"Like the Fluid Laser Base, this will require Laser Drills in proximity."
+		""
+		"&a🛈 Tip: You can use more than four "
+		"&a    Laser Drills on a Laser Base!"
 	]
 	quest.04CE3E8B1DF8B441.quest_desc: ["The following are various forms of fluid transfer options available in Enigmatica 10."]
 	quest.04CE3E8B1DF8B441.title: "Fluids"
@@ -427,20 +453,7 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
-	quest.0F04956D59A78393.quest_desc: [
-		"Legends tell of places in the world where things are stretched thin. Where people disappear unexpectedly or re-appear years later as if no time has passed. "
-		""
-		"There is truth to these legends, so keep your wits about you as you explore these lands. Fall into a Rift and you may be in for an unexpected adventure through the Multiverse."
-		"&n                                                  &r"
-		""
-		"Getting started with Multiverse will require you to find a Rift and step through it. "
-		""
-		"These can spawn anywhere, so keep your eyes open as you explore. "
-		""
-		"&a🛈 Tip: Bring your own way home, such "
-		"&a    as a Mekanism Teleporter, Warp "
-		"&a    Stone, or Stabilized Warp Scroll!"
-	]
+	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
@@ -470,12 +483,24 @@
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.12903CD319AE35B9.quest_desc: [
-		"With the Steam Blast Furnace, Steel production can begin. This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
+		"With the Steam Blast Furnace, Steel production can begin. "
+		""
+		"This vital material will be used extensively going forward. Therefore, setting up a solid production line will be important. "
 		""
 		"&a🛈 Tip: Place the controller block, then "
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.12AF74656C5F124A.quest_desc: [
+		"The SAG Mill is used for grinding and crushing anything from ores to plant matter. "
+		""
+		"Grinding Balls may be provided optionally, but doing so will increase your yields from many materials. "
+		""
+		"They do get used up over time, so you’ll need to judge whether they’re worth the added cost. "
+		""
+		"&6⚠ Note: Machines require a Capacitor "
+		"&6    to store energy and operate."
 	]
 	quest.12B89E4EF7282B86.quest_desc: [
 		"Mekanism machines may be upgraded through several methods. "
@@ -487,6 +512,20 @@
 		"Each tier will effectively allow the machine to operate in parallel, so a Furnace with a Basic Tier Installer will be able to smelt three items at a time!"
 	]
 	quest.12B89E4EF7282B86.title: "Tier Installers"
+	quest.130C6FC212F64474.quest_desc: [
+		"The Fluid Laser will be your next stop in gathering unusual monster fluids. This time, you’re after Ether Gas, which is obtained by drilling a Wither."
+		""
+		"To function, the Laser Base will need to be placed directly on top of the Wither. The simplest way to do this is to place the drill atop the middle skull while you’re building the Wither. Once the other skulls are placed and the Wither forms, the laser will be in perfect alignment."
+		""
+		"One or more Laser Drills must also be placed facing the Base. The exact placement doesn't matter, just ensure that the Base is inside of the Drill's working area. "
+		""
+		"This setup will harm the monster it is drilling, so keeping it healed is important. "
+		""
+		"A Stasis Chamber serves both to heal the monster and to keep it contained, applying slowness and disabling its AI. "
+		""
+		"&a🛈 Tip: You can use more than four "
+		"&a    Laser Drills on a Laser Base!"
+	]
 	quest.1386A595D84FE6FC.quest_desc: [
 		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
 		""
@@ -813,6 +852,11 @@
 	]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
+	quest.1FDA97FE562A2C4D.quest_desc: [
+		"Addons can be installed in most machines to speed them up and make them run more efficiently. "
+		""
+		"Don’t miss out!"
+	]
 	quest.20454EB2C6E93573.quest_desc: [
 		"The Player Accessor allows any form of logistics to interact with your inventory as if it were a chest. "
 		""
@@ -860,6 +904,13 @@
 		""
 		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
 	]
+	quest.211E0844F3ACD244.quest_desc: [
+		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
+		""
+		"We’ll have to start with the Primitive version, which runs on standard Furnace fuels. "
+		""
+		"Once we get going, however, we’ll be able to upgrade to powered machines."
+	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
 		""
@@ -903,6 +954,12 @@
 	]
 	quest.235D7EF41916E480.quest_desc: ["The following are various forms of power transfer options available in Enigmatica 10."]
 	quest.235D7EF41916E480.title: "Power"
+	quest.23703A535469A7F3.quest_desc: [
+		"Welcome to Ender IO. "
+		""
+		"This mod is in early alpha and things are changing fast! Quests are similarly a work in progress."
+	]
+	quest.23703A535469A7F3.title: "Ender IO"
 	quest.23BC0F0C51F64721.quest_desc: [
 		"Starting out, the Metallurgic Infuser is used to make important components, such as Basic Control Circuits, Infused Alloy, and Steel Dust."
 		""
@@ -923,6 +980,20 @@
 		"&a    hold a Wrench or Hatch to see"
 		"&a    the structure or valid places "
 		"&a    for hatches."
+	]
+	quest.24A4BA42A83A20D0.quest_desc: [
+		"After crafting your first few Dark Steel Ingots, the Alloy Smelter might seem like the logical next step. "
+		""
+		"You’re going to need some power to proceed, however."
+		""
+		"Ender IO uses FE like many other tech mods, but it is rebranded as Micro Infinity or µI. They are completely interchangeable. "
+		""
+		"For an option from Ender IO, consider making a Stirling Generator, which runs on coal. "
+		""
+		"It’s not terribly powerful, but it will get the job done for now. "
+		""
+		"&6⚠ Note: Machines require a Capacitor "
+		"&6    to store energy and operate."
 	]
 	quest.24C8B386C675F3E1.quest_desc: [
 		"Building a factory is no simple task, and truly enormous quantities of materials will be required. "
@@ -955,11 +1026,6 @@
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
 		"It does need a tool, so be sure to provide it shears for said sheep farm or a nice looting sword for killing mobs. "
-	]
-	quest.265FE8DFBF49A261.quest_desc: [
-		"The areas inside of a rift may very closely resemble places you’re familiar with. Perhaps the sky will be a slightly different shade, or the hills more exaggerated…"
-		""
-		"A keen eye will always be able to identify a rift by the telltale presence of Kaleidite Clusters growing from any surface."
 	]
 	quest.267FEB0BB5D9B4D9.quest_desc: [
 		"The Assembly Table is a multiblock machine capable of more advanced crafting. "
@@ -1144,6 +1210,13 @@
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
 	]
+	quest.2D5820091B6B2315.quest_desc: [
+		"Latex and Rubber are two of the most fundamental resources required for Industrial Foregoing beyond other such basics as stone, metals, and wood. "
+		""
+		"Obtaining Latex will begin with a Fluid Extractor. Place an Acacia Log in front of the machine and it’ll slowly extract the Latex, breaking down the log over time."
+		""
+		"This machine doesn’t need power to run, but providing power will speed things up considerably!"
+	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
 		""
@@ -1267,7 +1340,6 @@
 		""
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
 	]
-	quest.3840097BB3E09C9D.quest_desc: ["Equivalent to Stone Tools, Kaleidite Tools can be handy in a pinch if you happen to find yourself in a rift without your normal tools. "]
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
 		""
@@ -1736,6 +1808,20 @@
 		"&a    Configurator to set the tank to"
 		"&a    auto-output from the bottom."
 	]
+	quest.410225ED927857D4.quest_desc: [
+		"These three machines can be put together to farm passive mobs automatically. "
+		""
+		"First, the Animal Feeder will keep your animals fed, happy, and making babies. This will stop working automatically when there are too many animals in the working area. "
+		""
+		"The Animal Rancher can be used in the same area to gather Wool from Sheep and Milk from Cows. "
+		""
+		"The Animal Baby Separator can then be used to send the babies to a holding area while they grow up. This block also has a reverse mode to separate the grown animals out from the baby holding area and into their final destination, the Slaughter Factory."
+		""
+		"&a🛈 Tip: Install matching Range Addons "
+		"&a    in each to cover the appropriate "
+		"&a    area."
+	]
+	quest.410225ED927857D4.title: "Animal Farming"
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
 		""
@@ -1751,6 +1837,13 @@
 		"&a    on grass!"
 	]
 	quest.41614A924E5556EE.title: "Ars Nouveau"
+	quest.416D6EA79B73A4B9.quest_desc: [
+		"The Mob Duplicator is an excellent way to farm a specific mob, if you need a lot of just the drops it produces. "
+		""
+		"Simply capture the mob in a Mob Imprisonment Tool and insert it in the machine. "
+		""
+		"It will also need lots of Essence to operate, therefore you’ll want to keep your Mechanical Dirt and Mob Crusher running to produce the required Essence."
+	]
 	quest.4229112D97BB45E6.quest_desc: [
 		"Power cables that double as limited storage, keeping a buffer of power in each block space. "
 		""
@@ -1925,8 +2018,8 @@
 		""
 		"Try using them as the door to your apiary for easy access."
 		""
-		"&a🛈 Tip: Right-Click the Curtain with String to "
-		"&a    extend it downwards."
+		"&a🛈 Tip: Right-Click the Curtain with"
+		"&a    String to extend it downwards."
 	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
@@ -2003,6 +2096,21 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48F3D3784D8CE545.quest_desc: [
+		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
+		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
+		""
+		"You’ll want to place the Gatherer on the edge of your field, while the Sower will go in the center just underground. "
+		""
+		"Be sure to check the Show Working area button in their GUI to get an idea of where they’ll be operating."
+		""
+		"With a +4 Range Addon, these machines will be able to work on the area of a standard 9x9 farm plot."
+		""
+		"&a🛈 Tip: Giving the Gatherer Ether Gas "
+		"&a    will allow it to harvest without "
+		"&a    breaking the crops. "
+	]
+	quest.48F3D3784D8CE545.title: "Crop Farming"
 	quest.48F901DB80482CAA.quest_desc: [
 		"The most basic alchemical processes involve the purification of materials. When simply smelting ore in a furnace, some of the material simply cannot be recovered as it is locked up in minerals that the furnace can’t break down."
 		""
@@ -2029,6 +2137,18 @@
 		""
 		"&a🛈 Tip: Requires a clear view of the sky."
 	]
+	quest.49958725A4710861.quest_desc: [
+		"Mechanical Dirt can be an excellent way to start farming monsters. By providing it with Liquid Meat and power in a dark area, it’ll quickly spawn in hostile mobs appropriate to the biome you’re in. "
+		""
+		"When combined with a Mob Slaughter Factory, it will easily produce enough Liquid Meat to run itself with plenty left over to run more Mechanical Dirt for a Mob Crusher, thus allowing you to farm monster drops quite effectively."
+		""
+		"This machine forms a rough multiblock, and automatically shares both power and Liquid Meat with any other adjacent Mechanical Dirt blocks. "
+		""
+		"&a🛈 Tip: An Inhibitor Obelisk will keep any "
+		"&a    Endermen that spawn contained in "
+		"&a    your farm. "
+	]
+	quest.49958725A4710861.title: "Monster Farming"
 	quest.4A020E61A5551F51.quest_desc: ["An easy first choice for LV machinery, making a Polarizer should be your next priority as it will make Motors cheaper to craft. "]
 	quest.4A05A84FBF5CCD21.quest_desc: [
 		"Welcome to Mekanism!"
@@ -2308,6 +2428,20 @@
 		""
 		"&a🛈 Tip: The Generators automatically power adjacent blocks."
 	]
+	quest.526BF0840C65855F.quest_desc: [
+		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
+		""
+		"No, really!"
+		""
+		"The process begins with the Washing Factory, which takes Power, Raw Ores, and Liquid meat as inputs."
+		""
+		"The result is then sent to a Fermentation Station where it is processed with an optional catalyst. By introducing Pink Slime, you can obtain up to a 4x yield on your ore. With Ether Gas, this goes up to a 5x yield."
+		""
+		"Finally, once properly fermented, the fluid must be passed into a Sieving Machine and filtered through Sand to produce nice clean metal dusts for you! "
+		""
+		"Tasty!"
+	]
+	quest.526BF0840C65855F.title: "Ore Processing"
 	quest.526FB82B8D47EAA4.quest_desc: [
 		"Mekanism’s Bins are cheap and effective mass storage blocks. They only hold one type of item, but they hold a lot!"
 		""
@@ -2363,6 +2497,15 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.5572D4A6842BAAFA.quest_desc: [
+		"The Latex Processing unit will turn that liquid Latex and convert it to Rubber. "
+		""
+		"This requires Water and Power in addition to the Latex to operate."
+		""
+		"Once you’ve got some Rubber, you’ll want to smelt it in a Furnace to get Plastic. "
+		""
+		"Be sure to keep a stock of Liquid Latex, however, as it is used in many crafting recipes directly. "
 	]
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
@@ -2733,11 +2876,6 @@
 		"&a    a connection."
 	]
 	quest.63DDC1FFF52DC39F.title: "Pipes"
-	quest.641032431B7A1B0F.quest_desc: [
-		"Dropped by the Collector, these Prisms may be attached to tools to give them the ability to pierce into other dimensions. "
-		""
-		"When activated, the tool mines not only the block you're looking at, but also a block in the same location in another random dimension. "
-	]
 	quest.642CDBB28337670C.quest_desc: [
 		"These beautiful bipedal birds can be found in small family groups all around the world. "
 		""
@@ -2749,6 +2887,13 @@
 		"Be sure to grab a mating pair! Males and Females are distinguished by their tail feathers, with Males having more colorful plumage than Females."
 	]
 	quest.642CDBB28337670C.title: "Finding and Taming"
+	quest.6442A8E130C09FA2.quest_desc: [
+		"The Bioreactor is used to produce Biofuel, a potent fluid fuel which will easily replace your Pitiful Generator. "
+		""
+		"The device requires power, water, and biological materials such as crops to operate. "
+		""
+		"For each unique item it is given, it produces bonus Biofuel. Meaning it’s far more efficient to feed it nine unique crops rather than fill all the slots with the same crop."
+	]
 	quest.64B786FE65505D75.quest_desc: [
 		"When used at an Environmental Accumulator, the Biome Extract Bottle will be filled with a sample of the local biome. "
 		""
@@ -2771,13 +2916,6 @@
 		"Place an Annihilation Plane facing up at build limit (&aY=319&r) and it will slowly produce more of this precious material!"
 	]
 	quest.653E696688BBBB12.title: "Farming Sky Stone"
-	quest.65613AB49D3D90D9.quest_desc: [
-		"The Kaleidite Core can be used both to open a new rift, or to close an existing one. "
-		""
-		"To open a rift, simply destroy the Core. This can be done by throwing it in lava, burning it with fire, or even exploding it. "
-		""
-		"To close a rift, the Core may be thrown into the rift, causing it to collapse immediately."
-	]
 	quest.65996A36FB1B58B0.quest_desc: [
 		"The Enrichment Chamber is primarily used to make infusion materials stretch a bit further. "
 		""
@@ -2882,6 +3020,15 @@
 		"&a    Wormhole or Storage Accessor"
 		"&a    on the Actuator to link them."
 	]
+	quest.68A0052D169BB6E4.quest_desc: [
+		"The Mob Slaughter Factory is your source for liquefied monster products, both Liquid Meat and Pink Slime. Yum."
+		""
+		"While this can be coupled with any form of mob farm, Industrial Foregoing offers several ways to produce the mobs it requires. "
+		""
+		"&a🛈 Tip: Passive mobs produce more "
+		"&a    Pink Slime than hostiles mobs."
+	]
+	quest.68A0052D169BB6E4.title: "Meat Farming"
 	quest.69295042E8C3A609.quest_desc: [
 		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
 		""
@@ -2902,6 +3049,14 @@
 		"Simply place them both, then Right-Click one with the Wrench. Finish by Right-Clicking the other with the Wrench. "
 	]
 	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
+	quest.6968F7CB58754783.quest_desc: [
+		"With power secured, replacing that Primitive Alloy Smelter should get things running more smoothly. "
+		""
+		"This machine also doubles as a regular Furnace."
+		""
+		"&6⚠ Note: Machines require a Capacitor "
+		"&6    to store energy and operate."
+	]
 	quest.69799346F7BF246C.quest_desc: [
 		"Crystalline Flowers may be used to obtain Enchanted Books. Specifically, it allows you to pick exactly what book you’ll get, removing the randomness from the process. "
 		""
@@ -2981,6 +3136,11 @@
 		"From mining and decoration, to destruction and more, the mods shown here will help you do it all."
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
+	quest.6B0AC626ED56983E.quest_desc: [
+		"The Pitiful Generator, as the name implies, is not that great. "
+		""
+		"It burns Furnace fuels to output a trickle of energy. It’ll get you started; however Industrial Foregoing uses standard FE power and can therefore accept energy from any compatible generator."
+	]
 	quest.6B6898F3520BA8F7.quest_desc: [
 		"With Crude Oil and machines to process it, Basic Upgrades should be within reach. Advanced Upgrades will require a lot of Aluminum, as does everything else at this stage. So, speeding up Aluminum production through any means is going to be critical. "
 		""
@@ -3000,11 +3160,6 @@
 		""
 		"&a🛈 Tip: Point Stabilizers at the crystal "
 		"&a    floating above the Actuator. "
-	]
-	quest.6BEAFBEA127041DE.quest_desc: [
-		"Two boss mobs can be found roaming the Rift; the Traveler and the Collector. If you’re having trouble locating them, however, this treasure may be crafted to call them forth. "
-		""
-		"To use it, simply throw it on the ground and wait. One or the other will show up to claim it in short order."
 	]
 	quest.6CC9CDCCDE1426AC.quest_desc: [
 		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
@@ -3045,6 +3200,13 @@
 		"&a    the blocks inside the field area!"
 	]
 	quest.6D9008779F35E755.title: "Quarry"
+	quest.6DAC9B8001A6D528.quest_desc: [
+		"The Mycelial Reactor is a special form of power generation that produces an enormous amount of energy."
+		""
+		"In order to operate, you must have all sixteen types of Mycelial Generator running. "
+		""
+		"This may prove quite challenging as you’ll need to provide some very peculiar materials to operate them, from Nether Stars and Dragon’s Breath to Potions and Fireworks. "
+	]
 	quest.6DE4258F18A7A321.quest_desc: [
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
 		""
@@ -3101,6 +3263,19 @@
 		"This will count as a ‘Chocobo Pen’ and slowly heal any damaged Chocobos in the area."
 	]
 	quest.6F354A767B138CA3.title: "Chocobo Pen"
+	quest.6F7A76841E49C6BD.quest_desc: [
+		"Grains of Infinity are a basic renewable resource found throughout Ender IO’s progression. "
+		""
+		"Making them by hand isn’t particularly difficult, but it can be a little tedious. So, finding a way to automate this process is recommended. "
+		""
+		"In short, you’ll need to find some way to start a fire automatically. "
+		""
+		"Start a fire on Deepslate or Bedrock and wait a bit. The fire will go out and some Grains will be generated. "
+		""
+		"&a🛈 Tip: When performing the recipe on "
+		"&a    Deepslate, any blocks that produce "
+		"&a    a Grain will convert to Cobblestone."
+	]
 	quest.6F8C048404EAF9FF.quest_desc: [
 		"Autocrafting is a central part of Applied Energistics, allowing it to perform all of the sub-crafting required for a requested item. "
 		"Naturally, this becomes very helpful when dealing with more complicated crafts from other mods. "
@@ -3342,13 +3517,6 @@
 		"&a🛈 Tip: Higher tier Goos will do all of the "
 		"&a    lower tier’s recipes faster."
 	]
-	quest.76F0E375FC0B33DE.quest_desc: [
-		"The Multiversal Beacon is dropped by the Traveler and can be used to craft a powerful chestplate or crossbow. "
-		""
-		"While wearing the chestplate in combat, you’ll have a chance to summon a doppleganger."
-		""
-		"The crossbow, on the other hand, is the perfect tool for a late night light show; firing it will dazzle friends and enemies alike. "
-	]
 	quest.770EE92EA4CF973C.quest_desc: [
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
 		""
@@ -3392,6 +3560,13 @@
 		""
 		"&a🛈 Tip: Break the block with Silk Touch"
 		"&a    and smelt it for a better yield!"
+	]
+	quest.78B1BC9540590D17.quest_desc: [
+		"Need a place to store that hard earned experience? "
+		""
+		"Try the Experience Holder. "
+		""
+		"This handy device can be used to keep you at a specific level of experience, as well as storing an incredible amount of experience. It makes an indispensable addition to any enchanting area. "
 	]
 	quest.78D83E33F82D6015.quest_desc: [
 		"Electric Machines all have an Efficiency rating which goes up the longer they run. This allows them to self balance based on the rate of inputs. "
@@ -3496,6 +3671,11 @@
 		"&a    discover more."
 	]
 	quest.7F237202A5D7EFBD.title: "Vanilla Plus Tools"
+	quest.7F2F9BE0C99BCFB7.quest_desc: [
+		"Biofuel Generators efficiently burn Biofuel for respectable power output. "
+		""
+		"A few of these should keep your machines running without issue. "
+	]
 	quest.7FAC3A637F82BFED.quest_desc: [
 		"These floaty little witch friends can be tasked with automating standard 3x3 Crafting Table crafts, Potion Brewing, and even the Enchanting Apparatus. "
 		""
@@ -3562,13 +3742,13 @@
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logisticss"
+	task.256E76CA796C354E.title: "Steel Dust"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
-	task.3444EAB8952876B1.title: "Observe a Rift"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.35F8589774CE48D9.title: "Arcane Pedestals"

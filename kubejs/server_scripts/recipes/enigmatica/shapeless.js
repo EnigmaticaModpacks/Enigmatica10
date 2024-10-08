@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: '2x minecraft:yellow_dye',
-            inputs: ['#c:dusts/sulfur'],
+            inputs: ['#c:dusts/sulfur', '#c:dusts/sulfur'],
             id: `${id_prefix}yellow_dye_from_sulfur`
         },
         {

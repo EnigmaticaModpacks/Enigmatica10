@@ -13,6 +13,13 @@
 -   Otherworld logs can now be sawed in various machines [\#119](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/119)
 -   Add support for stripping logs with Farmer's Delight [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
 -   Eggs and raw meat may now be composted [\#128](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/128)
+-   Add enderman heads to beheading scripts and add Deeper Darker's axe to the list of valid tools [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Unify Silicon for IF and EnderIO [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Cheaper Source Blocks! [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Fluix may be crafted with Industrial Foregoing [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Leads and Sticky Pistons now accept pink slime [\#133](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/133)
+-   Ender IO and IF quests (Work in Progress) [\#143](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/143)
+
 
 #### 🦟 Bugs Fixed
 
@@ -20,6 +27,11 @@
 -   Restore missing metallurgic Infusing and enriching recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
 -   Fix broken stronghold locator [\#122](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/122)
 -   Fix broken sawing recipes [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
+-   Remove duplicate potion recipes that have been re-added by Ars [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Fix recipe conflict with Sulfur/dye conversion [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Fix Sourcestone button recipe conflict [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Fix recipe conflict with Terracotta Thin Pots [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Add missing loot to a few PNC quests [\#145](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/145)
 
 ---
 

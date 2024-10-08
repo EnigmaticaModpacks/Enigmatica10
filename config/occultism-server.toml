@@ -91,7 +91,7 @@
 	enableRemainingIngredientCountMatching = false
 	#Set a value below 1.0 to speed up rituals.
 	#Range: 0.05 ~ 1.7976931348623157E308
-	ritualDurationMultiplier = 1.0
+	ritualDurationMultiplier = 0.1
 
 #Item Settings
 [items]

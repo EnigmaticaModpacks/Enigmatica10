@@ -6,9 +6,15 @@ ServerEvents.tags('entity_type', (event) => {
             /ars_nouveau/,
             /pneumaticcraft.*drone/,
             /ars_elemental:.*_familiar/,
+            /ars_elemental:summon_/,
             /occultism/,
             /evilcraft/,
-            'tiab:accelerator'
+            'tiab:accelerator',
+            'minecraft:armor_stand',
+            'mekanism:robit',
+            'farmingforblockheads:merchant',
+            'pneumaticcraft:programmable_controller',
+            'justdirethings:decoy_entity'
         ])
         .remove([
             /ars_nouveau:wilden/,

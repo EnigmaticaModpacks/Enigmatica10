@@ -193,8 +193,12 @@
 					count: 6
 					id: "08FB1C3FA7EF63AF"
 					item: {
+						components: {
+							"sophisticatedcore:accent_color": -14869215
+							"sophisticatedcore:main_color": -14869215
+						}
 						count: 1
-						id: "ironchest:iron_chest"
+						id: "sophisticatedstorage:iron_barrel"
 					}
 					type: "item"
 				}
