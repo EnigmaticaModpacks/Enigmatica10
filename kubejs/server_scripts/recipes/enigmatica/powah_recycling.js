@@ -35,6 +35,42 @@ ServerEvents.recipes((event) => {
             input: { item: 'powah:energy_cable_nitro', count: 12 },
             primary: { item: 'powah:capacitor_nitro', count: 1 },
             secondary: { item: 'powah:crystal_nitro', count: 2 }
+        },
+
+        {
+            input: { item: 'powah:ender_cell_starter', count: 1 },
+            primary: { item: 'powah:ender_core', count: 1 },
+            secondary: { item: 'minecraft:iron_nugget', count: 4 }
+        },
+        {
+            input: { item: 'powah:ender_cell_basic', count: 1 },
+            primary: { item: 'powah:ender_core', count: 1 },
+            secondary: { item: 'minecraft:iron_ingot', count: 4 }
+        },
+        {
+            input: { item: 'powah:ender_cell_hardened', count: 1 },
+            primary: { item: 'powah:ender_core', count: 1 },
+            secondary: { item: 'powah:steel_energized', count: 4 }
+        },
+        {
+            input: { item: 'powah:ender_cell_blazing', count: 1 },
+            primary: { item: 'powah:ender_core', count: 1 },
+            secondary: { item: 'powah:crystal_blazing', count: 4 }
+        },
+        {
+            input: { item: 'powah:ender_cell_niotic', count: 1 },
+            primary: { item: 'powah:ender_core', count: 1 },
+            secondary: { item: 'powah:crystal_niotic', count: 4 }
+        },
+        {
+            input: { item: 'powah:ender_cell_spirited', count: 1 },
+            primary: { item: 'powah:ender_core', count: 1 },
+            secondary: { item: 'powah:crystal_spirited', count: 4 }
+        },
+        {
+            input: { item: 'powah:ender_cell_nitro', count: 1 },
+            primary: { item: 'powah:ender_core', count: 1 },
+            secondary: { item: 'powah:crystal_nitro', count: 4 }
         }
     ];
 
