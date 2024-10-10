@@ -12,7 +12,8 @@ ServerEvents.recipes((event) => {
         { id: 'mffs:steel_compound' },
         { type: 'evilcraft:special/minecraft_dead_bush' },
         { id: `enderio:sag_milling/blaze_powder` },
-        { id: `mekanism:sulfur_dye` }
+        { id: `mekanism:sulfur_dye` },
+        { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ }
     ];
 
     recipes.forEach((recipe) => {
