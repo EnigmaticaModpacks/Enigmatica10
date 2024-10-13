@@ -189,7 +189,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"fpsreducer/fpsreducer-client.toml",
 	"NoChatReports/NCR-Client.json",
 	"ars_nouveau-client.toml",
-	"toolbelt-client.toml"
+	"toolbelt-client.toml",
+	"ftbessentials.snbt"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt", "resourcepacks")
