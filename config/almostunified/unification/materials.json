@@ -1,5 +1,14 @@
 {
-    "mod_priorities": ["minecraft", "kubejs", "modern_industrialization", "mekanism", "occultism", "bigreactors"],
+    "mod_priorities": [
+        "minecraft",
+        "kubejs",
+        "modern_industrialization",
+        "mekanism",
+        "occultism",
+        "ae2",
+        "enderio",
+        "bigreactors"
+    ],
     "priority_overrides": {},
     "stone_variants": ["stone", "andesite", "deepslate", "diorite", "granite", "nether"],
     "tags": [
@@ -14,7 +23,8 @@
         "c:rods/{material}",
         "c:storage_blocks/raw_{material}",
         "c:storage_blocks/{material}",
-        "c:wires/{material}"
+        "c:wires/{material}",
+        "c:silicon"
     ],
     "ignored_tags": [],
     "ignored_items": [],

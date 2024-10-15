@@ -1,7 +1,16 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:handcrafted/shaped/';
 
-    const recipes = [];
+    const recipes = [
+        {
+            output: '3x handcrafted:terracotta_thin_pot',
+            pattern: ['A ', 'AA', 'AA'],
+            key: {
+                A: 'minecraft:terracotta'
+            },
+            id: 'handcrafted:terracotta_thin_pot'
+        }
+    ];
 
     event.forEachRecipe({ mod: 'handcrafted', id: /_sheet$/ }, (r) => {
         // Convert Sheets to Shaped recipe to resolve recipe conflict with Comforts

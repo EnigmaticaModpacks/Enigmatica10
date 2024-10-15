@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: '2x minecraft:yellow_dye',
-            inputs: ['#c:dusts/sulfur'],
+            inputs: ['#c:dusts/sulfur', '#c:dusts/sulfur'],
             id: `${id_prefix}yellow_dye_from_sulfur`
         },
         {
@@ -74,5 +74,6 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
         if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);
+        if (recipe.replace) r.replaceIngredient(recipe.replace.item, recipe.replace.replacement);
     });
 });

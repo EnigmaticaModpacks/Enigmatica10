@@ -18,6 +18,18 @@ ServerEvents.recipes((event) => {
             output: 'evilcraft:undead_planks',
             output_count: 6,
             id: 'undead_planks'
+        },
+        {
+            input: 'deeperdarker:echo_logs',
+            output: 'deeperdarker:echo_planks',
+            output_count: 6,
+            id: 'echo_planks'
+        },
+        {
+            input: 'occultism:otherworld_logs',
+            output: 'occultism:otherplanks',
+            output_count: 6,
+            id: 'otherplanks'
         }
     ];
 
@@ -25,11 +37,11 @@ ServerEvents.recipes((event) => {
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
 
-        let input = recipe.log.tag;
-        let output = recipe.planks.id;
-        let output_count = recipe.planks.count;
+        let input = recipe.input.tag;
+        let output = recipe.output.id;
+        let output_count = recipe.output.count;
 
-        if (recipe.log.tag.match(/productivetrees/)) {
+        if (input.match(/productivetrees/)) {
             recipes.push({
                 from_productivetrees: true,
                 input: input,
@@ -45,9 +57,10 @@ ServerEvents.recipes((event) => {
             event
                 .custom({
                     type: 'productivetrees:sawmill',
-                    log: { tag: recipe.input },
-                    planks: { count: recipe.output_count, id: recipe.output },
-                    secondary: { count: 2, id: sawdust }
+                    input: { tag: recipe.input },
+                    output: { count: recipe.output_count, id: recipe.output },
+                    secondary: { count: 2, id: sawdust },
+                    ertiary: {}
                 })
                 .id(`${id_prefix}sawmill/${recipe.id}`);
         }

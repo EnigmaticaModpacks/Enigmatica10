@@ -85,6 +85,13 @@ ServerEvents.recipes((event) => {
             ],
             source: 2000 * 3,
             id: `${id_prefix}anima_essence`
+        },
+        {
+            input: { tag: 'c:storage_blocks/amethyst' },
+            output: { id: 'ars_nouveau:source_gem_block', count: 1 },
+            pedestalItems: [],
+            source: 500 * 3,
+            id: `ars_nouveau:amethyst_block`
         }
     ];
 

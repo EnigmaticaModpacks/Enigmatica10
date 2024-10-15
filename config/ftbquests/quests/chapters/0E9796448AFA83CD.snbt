@@ -9,6 +9,7 @@
 	}
 	id: "0E9796448AFA83CD"
 	order_index: 3
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -136,6 +137,14 @@
 				id: "minecraft:barrel"
 			}
 			id: "5047A6F1EF472407"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:chest"
+				}
+				id: "4B71487A3383C439"
+				type: "dimension"
+			}]
 			x: -1.5d
 			y: 2.0d
 		}
@@ -145,6 +154,14 @@
 				id: "minecraft:hopper"
 			}
 			id: "0B04BC5F88746182"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:hopper"
+				}
+				id: "36D658D637E5D847"
+				type: "dimension"
+			}]
 			x: -1.5d
 			y: 1.0d
 		}
@@ -154,6 +171,14 @@
 				id: "minecraft:bucket"
 			}
 			id: "0FCC51B49080984E"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:bucket"
+				}
+				id: "4AC93DA4181794FF"
+				type: "dimension"
+			}]
 			x: -1.5d
 			y: 0.0d
 		}
@@ -339,6 +364,14 @@
 				id: "minecraft:redstone_block"
 			}
 			id: "2F898C0C2DF380AE"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:redstone_block"
+				}
+				id: "3ABA48B70D4EF83A"
+				type: "dimension"
+			}]
 			x: -1.5d
 			y: 3.0d
 		}
@@ -399,6 +432,14 @@
 				id: "minecraft:comparator"
 			}
 			id: "0230942DF53BB9E5"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "minecraft:comparator"
+				}
+				id: "5726FC2C852F6F2B"
+				type: "dimension"
+			}]
 			x: -1.5d
 			y: 4.0d
 		}

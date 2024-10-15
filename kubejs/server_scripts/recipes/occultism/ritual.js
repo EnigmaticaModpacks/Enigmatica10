@@ -14,12 +14,9 @@ ServerEvents.recipes((event) => {
                 // Reduce delay for all other spirits (weather/daytime rituals)
                 recipe.spirit_max_age = 10;
             }
+            recipe.id = recipe_id;
+            recipes.push(recipe);
         }
-
-        // Override default craft time for all recipes
-        recipe.duration = 20;
-        recipe.id = recipe_id;
-        recipes.push(recipe);
     });
 
     recipes.forEach((recipe) => {

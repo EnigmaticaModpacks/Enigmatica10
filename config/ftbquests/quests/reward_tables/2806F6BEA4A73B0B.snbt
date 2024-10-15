@@ -39,7 +39,7 @@
 			count: 8
 			item: {
 				count: 1
-				id: "occultism:candle_white"
+				id: "occultism:large_candle"
 			}
 			random_bonus: 8
 		}

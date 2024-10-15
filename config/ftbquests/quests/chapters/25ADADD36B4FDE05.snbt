@@ -7,7 +7,7 @@
 		id: "justdirethings:machinesettingscopier"
 	}
 	id: "4C53D082D6306BF8"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -535,6 +535,26 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76695BF2B0E70087"]
+			id: "78B1BC9540590D17"
+			rewards: [{
+				count: 16
+				id: "43125422ED509984"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69BFAC208C9AFDB5"
+				item: { count: 1, id: "justdirethings:experienceholder" }
+				type: "item"
+			}]
+			x: 2.0d
 			y: 0.5d
 		}
 	]

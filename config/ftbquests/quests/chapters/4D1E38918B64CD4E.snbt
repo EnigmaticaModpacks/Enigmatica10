@@ -8,7 +8,7 @@
 		id: "mekanism:dictionary"
 	}
 	id: "4D1E38918B64CD4E"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -170,8 +170,11 @@
 					type: "item"
 				}
 				{
+					icon: {
+						id: "modern_industrialization:steel_dust"
+					}
 					id: "256E76CA796C354E"
-					item: { count: 1, id: "mekanism:dust_steel" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

@@ -3,11 +3,6 @@ MoreJS.registerPotionBrewing((event) => {
 
     const recipes = [
         {
-            reagent: 'ars_nouveau:abjuration_essence',
-            input: 'minecraft:water',
-            output: 'minecraft:awkward'
-        },
-        {
             reagent: 'ars_nouveau:fire_essence',
             input: 'minecraft:awkward',
             output: 'minecraft:fire_resistance'
@@ -72,52 +67,8 @@ MoreJS.registerPotionBrewing((event) => {
             reagent: 'minecraft:glowstone_dust',
             input: 'kubejs:resistance',
             output: 'kubejs:strong_resistance'
-        },
-        {
-            reagent: 'ars_nouveau:wilden_horn',
-            input: 'minecraft:water',
-            output: 'minecraft:strength'
-        },
-        {
-            reagent: 'ars_nouveau:wilden_spike',
-            input: 'minecraft:water',
-            output: 'minecraft:long_water_breathing'
-        },
-        {
-            reagent: 'ars_nouveau:wilden_wing',
-            input: 'minecraft:water',
-            output: 'minecraft:leaping'
         }
     ];
-
-    const ars_potions = [
-        { reagent: 'ars_nouveau:bastion_pod', type: 'shielding' },
-        { reagent: 'ars_nouveau:frostaya_pod', type: 'freezing' },
-        { reagent: 'ars_nouveau:bombegranate_pod', type: 'blasting' },
-        { reagent: 'ars_nouveau:mendosteen_pod', type: 'recovery' },
-        { reagent: 'ars_nouveau:magebloom', type: 'spell_damage' },
-        { reagent: 'ars_nouveau:sourceberry_bush', type: 'mana_regen' }
-    ];
-
-    ars_potions.forEach((potion) => {
-        recipes.push(
-            {
-                reagent: potion.reagent,
-                input: 'minecraft:awkward',
-                output: `ars_nouveau:${potion.type}_potion`
-            },
-            {
-                reagent: 'minecraft:redstone',
-                input: `ars_nouveau:${potion.type}_potion`,
-                output: `ars_nouveau:${potion.type}_potion_long`
-            },
-            {
-                reagent: 'minecraft:glowstone_dust',
-                input: `ars_nouveau:${potion.type}_potion`,
-                output: `ars_nouveau:${potion.type}_potion_strong`
-            }
-        );
-    });
 
     let greater_potions = [
         { output: 'kubejs:greater_strength', input: 'minecraft:strong_strength' },

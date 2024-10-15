@@ -194,6 +194,7 @@
 				{
 					id: "3ADF4803B5DF4AF9"
 					item: { count: 1, id: "ars_nouveau:glyph_sensitive" }
+					optional_task: true
 					type: "item"
 				}
 			]

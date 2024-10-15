@@ -1,15 +1,59 @@
+### Enigmatica 10 1.11
+
+#### ⭐ Improvements
+
+-   Add new custom compacting recipes such as snow and quartz [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Creeper overhaul creepers and Occultism skeletons will now avoid players with the appropriate scare genes [\#113](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/113)
+-   Add Budding blocks and Reinforced Deepslate to PNC's block tracker [\#113](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/113)
+-   Cheaper scaling of many MI components [\#117](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/117)
+-   Add tags to filter crushed dusts [\#117](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/117)
+-   Adds cross compat betwen MI and Mek sodium [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
+-   Allows creation of Lithium via MI [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
+-   Buffs Wireless Chargers [\#118](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/118)
+-   Otherworld logs can now be sawed in various machines [\#119](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/119)
+-   Add support for stripping logs with Farmer's Delight [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
+-   Eggs and raw meat may now be composted [\#128](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/128)
+-   Add enderman heads to beheading scripts and add Deeper Darker's axe to the list of valid tools [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Unify Silicon for IF and EnderIO [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Cheaper Source Blocks! [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Fluix may be crafted with Industrial Foregoing [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Leads and Sticky Pistons now accept pink slime [\#133](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/133)
+-   Ender IO and IF quests (Work in Progress) [\#143](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/143)
+
+
+#### 🦟 Bugs Fixed
+
+-   Restore missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Restore missing metallurgic Infusing and enriching recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   Fix broken stronghold locator [\#122](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/122)
+-   Fix broken sawing recipes [\#125](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/125)
+-   Remove duplicate potion recipes that have been re-added by Ars [\#131](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/131)
+-   Fix recipe conflict with Sulfur/dye conversion [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Fix Sourcestone button recipe conflict [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Fix recipe conflict with Terracotta Thin Pots [\#140](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/140)
+-   Add missing loot to a few PNC quests [\#145](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/145)
+
+---
+
 ### Enigmatica 10 1.10.1
 
 NeoForge-1.21.1-21.1.37 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.10.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.10.1.md)
 
 #### ✔️ Added Mods
 
--    [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) (by [KyaniteMods](https://www.curseforge.com/members/KyaniteMods/projects))
+-   [Deeper and Darker](https://www.curseforge.com/minecraft/mc-mods/deeperdarker) (by [KyaniteMods](https://www.curseforge.com/members/KyaniteMods/projects))
+
+#### ⭐ Improvements
+
+-   Adds Ars Loot to Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
+-   Upgrades the potions found in Structory towers [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
 
 #### 🦟 Bugs Fixed
 
 -   Fix some broken tags and kubejs errors [(\#107)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/107)
--   Occultism recipes not showing for many rituals  [(\#90)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/90)
+-   Fix PNC recipes not showing in EMI [(\#108)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/108)
+-   Occultism recipes not showing for many rituals [(\#90)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/90)
+-   VanillaPlus tools may now be enchanted [\#109](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/109)
 
 ---
 

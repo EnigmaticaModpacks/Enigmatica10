@@ -29,11 +29,11 @@ $MODPACK_NAME = "Enigmatica10"
 $CLIENT_NAME = "Enigmatica10"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.10.1"
+$MODPACK_VERSION = "1.11.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.10.0"
+$LAST_MODPACK_VERSION = "1.10.1"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -188,7 +188,10 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"theurgy-client.toml",
 	"fpsreducer/fpsreducer-client.toml",
 	"NoChatReports/NCR-Client.json",
-	"ars_nouveau-client.toml"
+	"ars_nouveau-client.toml",
+	"toolbelt-client.toml",
+	"ftbessentials.snbt",
+	"iris.properties"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt", "resourcepacks")

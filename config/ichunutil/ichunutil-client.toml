@@ -1,4 +1,3 @@
-
 #These configs affect GUIs using B&S.
 [bns]
 	#Renders B&S's GUIs in a Minecraft Style instead.
@@ -21,4 +20,3 @@
 	bnsTooltipCooldown = 10
 	#Theme to use for Boxes & Stuff
 	bnsTheme = "default"
-

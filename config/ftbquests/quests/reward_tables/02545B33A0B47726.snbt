@@ -90,8 +90,8 @@
 			}
 			random_bonus: 8
 		}
-		{ item: { count: 1, id: "ironchest:wood_to_iron_chest_upgrade" }, weight: 2.0f }
-		{ item: { count: 1, id: "ironchest:iron_to_gold_chest_upgrade" }, weight: 2.0f }
+		{ item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }, weight: 2.0f }
+		{ item: { count: 1, id: "sophisticatedstorage:basic_to_diamond_tier_upgrade" }, weight: 2.0f }
 		{
 			count: 16
 			item: {
@@ -125,7 +125,6 @@
 			}
 			random_bonus: 4
 		}
-		{ item: { count: 1, id: "multiverse:kaleidite_core" }, random_bonus: 1 }
 		{ item: { count: 1, id: "minecraft:totem_of_undying" } }
 		{
 			count: 2
