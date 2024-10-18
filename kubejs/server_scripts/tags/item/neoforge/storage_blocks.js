@@ -19,7 +19,12 @@ ServerEvents.tags('item', (event) => {
         nitro: ['powah:nitro_crystal_block'],
 
         uranium: ['bigreactors:yellorium_block'],
-        raw_uranium: ['bigreactors:raw_yellorium_block']
+        raw_uranium: ['bigreactors:raw_yellorium_block'],
+
+        infused_iron: ['naturesaura:infused_iron_block'],
+        tainted_gold: ['naturesaura:tainted_gold_block'],
+        sky: ['naturesaura:sky_ingot_block'],
+        depth: ['naturesaura:depth_ingot_block']
     };
 
     Object.keys(additions).forEach((tag) => {

@@ -79,6 +79,15 @@ ServerEvents.recipes((event) => {
             outputs: [{ item: { tag: 'c:dusts/wood', count: 3 } }],
             energy: 2400,
             id: `${id_prefix}sawdust_from_planks`
+        },
+        {
+            input: { tag: 'c:ores/netherite_scrap' },
+            outputs: [
+                { item: { id: 'minecraft:netherite_scrap', count: 1 } },
+                { item: { id: 'minecraft:netherite_scrap', count: 1 }, chance: 0.75 }
+            ],
+            energy: 2400,
+            id: `${id_prefix}netherite_scrap`
         }
     ];
 

@@ -5,7 +5,12 @@ ServerEvents.tags('item', (event) => {
         eclipsealloy: ['justdirethings:eclipsealloy_ingot'],
 
         uraninite: ['powah:uraninite'],
-        energized_steel: ['powah:steel_energized']
+        energized_steel: ['powah:steel_energized'],
+
+        infused_iron: ['naturesaura:infused_iron'],
+        tainted_gold: ['naturesaura:tainted_gold'],
+        sky: ['naturesaura:sky_ingot'],
+        depth: ['naturesaura:depth_ingot']
     };
 
     Object.keys(additions).forEach((tag) => {
