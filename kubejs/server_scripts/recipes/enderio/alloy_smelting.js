@@ -31,6 +31,56 @@ ServerEvents.recipes((event) => {
             energy: 6400,
             experience: 0.3,
             id: `${id_prefix}darksteel_ingot_from_steel`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/tin', count: 1 },
+                { tag: 'c:ingots/copper', count: 3 }
+            ],
+            output: { id: AlmostUnified.getTagTargetItem('c:ingots/bronze').getId(), count: 4 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}bronze_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/gold', count: 1 },
+                { tag: 'c:ingots/silver', count: 1 }
+            ],
+            output: { id: AlmostUnified.getTagTargetItem('c:ingots/electrum').getId(), count: 2 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}electrum_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/iron', count: 2 },
+                { tag: 'c:ingots/nickel', count: 1 }
+            ],
+            output: { id: AlmostUnified.getTagTargetItem('c:ingots/invar').getId(), count: 3 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}invar_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/copper', count: 1 },
+                { tag: 'c:ingots/nickel', count: 1 }
+            ],
+            output: { id: 'modern_industrialization:cupronickel_ingot', count: 2 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}cupronickel_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/lead', count: 1 },
+                { tag: 'c:ingots/antimony', count: 1 }
+            ],
+            output: { id: 'modern_industrialization:battery_alloy_ingot', count: 2 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}battery_alloy_ingot`
         }
     ];
 

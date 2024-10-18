@@ -2,7 +2,7 @@
 
 #### ⭐ Improvements
 
--   EnderIO can now make Steel [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+-   EnderIO can now make Steel and alloys from other mods [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 
 ---
 
