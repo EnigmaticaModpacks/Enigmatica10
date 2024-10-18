@@ -1,45 +1,53 @@
+### Enigmatica 10 1.12.0
+
+#### ⭐ Improvements
+
+-   EnderIO can now make Steel [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
+
+---
+
 ### Enigmatica 10 1.11.0
 
 NeoForge-1.21.1-21.1.64 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.11.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.11.0.md)
 
-**Disclaimer:** If you're in the "Multiverse" dimension, leave before updating, the mod has been removed. 
+**Disclaimer:** If you're in the "Multiverse" dimension, leave before updating, the mod has been removed.
 
 #### ✔️ Added Mods
 
-* [Almanac Lib](https://www.curseforge.com/minecraft/mc-mods/almanac-lib) (by [frikinjay](https://www.curseforge.com/members/frikinjay/projects))
-* [Ars Ocultas](https://www.curseforge.com/minecraft/mc-mods/ars-ocultas) (by [mystchonky](https://www.curseforge.com/members/mystchonky/projects))
-* [Connected Glass](https://www.curseforge.com/minecraft/mc-mods/connected-glass) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-* [Crash Utilities](https://www.curseforge.com/minecraft/mc-mods/crash-utilities) (by [Darkere](https://www.curseforge.com/members/Darkere/projects))
-* [Ender IO](https://www.curseforge.com/minecraft/mc-mods/ender-io) (by [crazypants_mc_the_second](https://www.curseforge.com/members/crazypants_mc_the_second/projects))
-* [FTB Essentials (Forge & Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-essentials) (by [FTB](https://www.curseforge.com/members/FTB/projects))
-* [Fusion (Connected Textures)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-* [I'm Fast](https://www.curseforge.com/minecraft/mc-mods/im-fast) (by [Bielhiss](https://www.curseforge.com/members/Bielhiss/projects))
-* [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-* [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) (by [coderbot](https://www.curseforge.com/members/coderbot/projects))
-* [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester) (by [Relentless](https://www.curseforge.com/members/Relentless/projects))
-* [Nature's Aura](https://www.curseforge.com/minecraft/mc-mods/natures-aura) (by [Ellpeck](https://www.curseforge.com/members/Ellpeck/projects))
-* [Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape) (by [Starmute](https://www.curseforge.com/members/Starmute/projects))
-* [Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) (by [Vazkii](https://www.curseforge.com/members/Vazkii/projects))
-* [Simple Magnets](https://www.curseforge.com/minecraft/mc-mods/simple-magnets) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
-* [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
-* [Tool Belt](https://www.curseforge.com/minecraft/mc-mods/tool-belt) (by [gigaherz](https://www.curseforge.com/members/gigaherz/projects))
-* [Utilitarian](https://www.curseforge.com/minecraft/mc-mods/utilitarian) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
-* [YUNG's API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Better Desert Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Better End Island (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Better Jungle Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Better Nether Fortresses (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Better Ocean Monuments (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Better Strongholds (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Better Witch Huts (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-* [YUNG's Bridges (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [Almanac Lib](https://www.curseforge.com/minecraft/mc-mods/almanac-lib) (by [frikinjay](https://www.curseforge.com/members/frikinjay/projects))
+-   [Ars Ocultas](https://www.curseforge.com/minecraft/mc-mods/ars-ocultas) (by [mystchonky](https://www.curseforge.com/members/mystchonky/projects))
+-   [Connected Glass](https://www.curseforge.com/minecraft/mc-mods/connected-glass) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [Crash Utilities](https://www.curseforge.com/minecraft/mc-mods/crash-utilities) (by [Darkere](https://www.curseforge.com/members/Darkere/projects))
+-   [Ender IO](https://www.curseforge.com/minecraft/mc-mods/ender-io) (by [crazypants_mc_the_second](https://www.curseforge.com/members/crazypants_mc_the_second/projects))
+-   [FTB Essentials (Forge & Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-essentials) (by [FTB](https://www.curseforge.com/members/FTB/projects))
+-   [Fusion (Connected Textures)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [I'm Fast](https://www.curseforge.com/minecraft/mc-mods/im-fast) (by [Bielhiss](https://www.curseforge.com/members/Bielhiss/projects))
+-   [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) (by [coderbot](https://www.curseforge.com/members/coderbot/projects))
+-   [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester) (by [Relentless](https://www.curseforge.com/members/Relentless/projects))
+-   [Nature's Aura](https://www.curseforge.com/minecraft/mc-mods/natures-aura) (by [Ellpeck](https://www.curseforge.com/members/Ellpeck/projects))
+-   [Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape) (by [Starmute](https://www.curseforge.com/members/Starmute/projects))
+-   [Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) (by [Vazkii](https://www.curseforge.com/members/Vazkii/projects))
+-   [Simple Magnets](https://www.curseforge.com/minecraft/mc-mods/simple-magnets) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
+-   [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
+-   [Tool Belt](https://www.curseforge.com/minecraft/mc-mods/tool-belt) (by [gigaherz](https://www.curseforge.com/members/gigaherz/projects))
+-   [Utilitarian](https://www.curseforge.com/minecraft/mc-mods/utilitarian) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
+-   [YUNG's API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Better Desert Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Better End Island (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Better Jungle Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Better Nether Fortresses (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Better Ocean Monuments (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Better Strongholds (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Better Witch Huts (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+-   [YUNG's Bridges (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 
 #### ❌ Removed Mods
 
-* [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [iChun](https://www.curseforge.com/members/iChun/projects))
-* [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium) (by [FiniteReality](https://www.curseforge.com/members/FiniteReality/projects))
-* [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil) (by [iChun](https://www.curseforge.com/members/iChun/projects))
-* [Multiverse](https://www.curseforge.com/minecraft/mc-mods/multiverse) (by [davidqf555](https://www.curseforge.com/members/davidqf555/projects))
+-   [Ding (Forge)](https://www.curseforge.com/minecraft/mc-mods/ding) (by [iChun](https://www.curseforge.com/members/iChun/projects))
+-   [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium) (by [FiniteReality](https://www.curseforge.com/members/FiniteReality/projects))
+-   [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil) (by [iChun](https://www.curseforge.com/members/iChun/projects))
+-   [Multiverse](https://www.curseforge.com/minecraft/mc-mods/multiverse) (by [davidqf555](https://www.curseforge.com/members/davidqf555/projects))
 
 #### ⭐ Improvements
 
@@ -61,7 +69,6 @@ NeoForge-1.21.1-21.1.64 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 -   Leads and Sticky Pistons now accept pink slime [\#133](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/133)
 -   Ender IO and IF quests (Work in Progress) [\#143](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/143)
 
-
 #### 🦟 Bugs Fixed
 
 -   Restore missing nucleosynthesizing recipes [\#110](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/110)
@@ -77,7 +84,6 @@ NeoForge-1.21.1-21.1.64 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 -   Unable to progress in Mekanism quest line. [(\#146)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/146)
 -   Opening LaserIO Data Filter crashes player to server screen [(\#129)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/129)
 -   Overlays are not consistant [(\#44)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/44)
-   
 
 ---
 
