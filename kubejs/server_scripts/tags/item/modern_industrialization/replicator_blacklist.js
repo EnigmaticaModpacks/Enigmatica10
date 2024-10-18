@@ -20,7 +20,8 @@ ServerEvents.tags('item', (event) => {
         'ars_elemental:caster_bag',
         'ars_additions:handy_haversack',
         'evilcraft:dark_tank',
-        'shrink:shrink_bottle'
+        'shrink:shrink_bottle',
+        'enderio:vacuum_chest'
     ];
 
     let exclusions = [
