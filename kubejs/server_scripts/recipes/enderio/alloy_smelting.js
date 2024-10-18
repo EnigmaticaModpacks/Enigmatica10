@@ -172,6 +172,16 @@ ServerEvents.recipes((event) => {
             energy: 6400,
             experience: 0.3,
             id: `${id_prefix}dust_refined_obsidian_from_enriched`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/gold', count: 2 },
+                { item: 'minecraft:netherite_scrap', count: 2 }
+            ],
+            output: { id: 'minecraft:netherite_ingot', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}netherite_ingot`
         }
     ];
 
