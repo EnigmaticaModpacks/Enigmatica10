@@ -81,6 +81,97 @@ ServerEvents.recipes((event) => {
             energy: 6400,
             experience: 0.3,
             id: `${id_prefix}battery_alloy_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/sky', count: 2 },
+                { item: 'minecraft:netherite_scrap', count: 1 },
+                { tag: 'c:ingots/tainted_gold', count: 2 }
+            ],
+            output: { id: 'naturesaura:depth_ingot', count: 2 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}depth_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:dusts/redstone', count: 1 },
+                { tag: 'c:ingots/copper', count: 1 }
+            ],
+            output: { id: 'mekanism:alloy_infused', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}alloy_infused`
+        },
+        {
+            inputs: [
+                { tag: 'mekanism:enriched/redstone', count: 1 },
+                { tag: 'c:ingots/copper', count: 8 }
+            ],
+            output: { id: 'mekanism:alloy_infused', count: 8 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}alloy_infused_from_enriched`
+        },
+        {
+            inputs: [
+                { tag: 'c:dusts/diamond', count: 2 },
+                { tag: 'c:alloys/advanced', count: 1 }
+            ],
+            output: { id: 'mekanism:alloy_reinforced', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}alloy_reinforced`
+        },
+        {
+            inputs: [
+                { tag: 'mekanism:enriched/diamond', count: 1 },
+                { tag: 'c:alloys/advanced', count: 4 }
+            ],
+            output: { id: 'mekanism:alloy_reinforced', count: 4 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}alloy_reinforced_from_enriched`
+        },
+        {
+            inputs: [
+                { tag: 'c:dusts/refined_obsidian', count: 4 },
+                { tag: 'c:alloys/elite', count: 1 }
+            ],
+            output: { id: 'mekanism:alloy_atomic', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}alloy_atomic`
+        },
+        {
+            inputs: [
+                { tag: 'mekanism:enriched/obsidian', count: 1 },
+                { tag: 'c:alloys/elite', count: 2 }
+            ],
+            output: { id: 'mekanism:alloy_atomic', count: 2 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}alloy_atomic_from_enriched`
+        },
+        {
+            inputs: [
+                { tag: 'c:dusts/diamond', count: 1 },
+                { tag: 'c:dusts/obsidian', count: 1 }
+            ],
+            output: { id: 'mekanism:dust_refined_obsidian', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}dust_refined_obsidian`
+        },
+        {
+            inputs: [
+                { tag: 'mekanism:enriched/diamond', count: 1 },
+                { tag: 'c:dusts/obsidian', count: 8 }
+            ],
+            output: { id: 'mekanism:dust_refined_obsidian', count: 8 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}dust_refined_obsidian_from_enriched`
         }
     ];
 
