@@ -9,6 +9,8 @@ ServerEvents.tags('item', (event) => {
         /mekanism:.*_(chest|tank|barrel)/,
         /mekanism:.*_bin$/,
         /mekanism:qio_drive/,
+        /occultism:ritual_satchel_t\d/,
+        /enderio:(pressurized_)?fluid_tank/,
         'ae2:view_cell',
         'occultism:storage_controller',
         'mekanism:cardboard_box',
@@ -21,7 +23,9 @@ ServerEvents.tags('item', (event) => {
         'ars_additions:handy_haversack',
         'evilcraft:dark_tank',
         'shrink:shrink_bottle',
-        'enderio:vacuum_chest'
+        'enderio:crafter',
+        'enderio:vacuum_chest',
+        'toolbelt:belt'
     ];
 
     let exclusions = [
