@@ -27,6 +27,7 @@ NeoForge-1.21.1-21.1.64 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 * [YUNG's API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 * [YUNG's Better Desert Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 * [YUNG's Better End Island (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+  * Make a backup and use the command `/end_island reset` to enable it in existing worlds.
 * [YUNG's Better Jungle Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 * [YUNG's Better Nether Fortresses (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 * [YUNG's Better Ocean Monuments (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
