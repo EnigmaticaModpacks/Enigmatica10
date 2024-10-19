@@ -1,7 +1,7 @@
 {
     "items": {
         "hidden": [],
-        "disabled": ["/mffs.*steel/"],
+        "disabled": ["/mffs.*steel/", "utilitarian:soul_snad", "utilitarian:drit", "utilitarian:grrass"],
         "added": []
     },
     "fluids": {
