@@ -28,7 +28,10 @@ ServerEvents.generateData('before_mods', (event) => {
             'pneumaticcraft:kerosene': { eu_per_mb: 440 },
             'pneumaticcraft:biodiesel': { eu_per_mb: 400 },
             'pneumaticcraft:diesel': { eu_per_mb: 400 },
-            'pneumaticcraft:oil': { eu_per_mb: 16 }
+            'pneumaticcraft:oil': { eu_per_mb: 16 },
+
+            'actuallyadditions:refined_canola_oil': { eu_per_mb: 192 },
+            'actuallyadditions:canola_oil': { eu_per_mb: 80 }
         }
     };
 

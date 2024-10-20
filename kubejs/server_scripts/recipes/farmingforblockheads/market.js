@@ -14,11 +14,6 @@ ServerEvents.recipes((event) => {
         },
         {
             category: 'farmingforblockheads:seeds',
-            result: { count: 1, item: 'jags:grass_seed' },
-            id: `${id_prefix}grass_seed`
-        },
-        {
-            category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'chococraft:gysahl_green_seeds' },
             id: `${id_prefix}gyshal_green_seeds`
         },
@@ -117,6 +112,21 @@ ServerEvents.recipes((event) => {
             preset: 'enigmatica:source_gem',
             result: { count: 1, item: 'ars_elemental:flashpine_pod' },
             id: `${id_prefix}flashpine_pod`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'actuallyadditions:rice_seeds' },
+            id: `${id_prefix}rice_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'actuallyadditions:canola_seeds' },
+            id: `${id_prefix}canola_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'actuallyadditions:flax_seeds' },
+            id: `${id_prefix}flax_seeds`
         }
     ];
 

@@ -16,11 +16,31 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}blood`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:black_laser_lens' },
+            output: { amount: 100, id: 'modern_industrialization:crude_oil' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: [], whitelist: ['minecraft:overworld'] },
+                    biome_filter: {
+                        blacklist: [],
+                        whitelist: ['c:is_deep_ocean', 'c:is_desert']
+                    },
+                    depth_max: 256,
+                    depth_min: -64,
+                    weight: 8
+                }
+            ],
+            id: `${id_prefix}crude_oil`
         }
     ];
 
     recipes.forEach((recipe) => {
         recipe.type = 'industrialforegoing:laser_drill_fluid';
+        if (!recipe.entity) {
+            recipe.entity = 'minecraft:empty';
+        }
         event.custom(recipe).id(recipe.id);
     });
 });

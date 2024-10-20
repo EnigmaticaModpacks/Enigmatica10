@@ -1,0 +1,3 @@
+#Number of ticks between production cycles
+#Range: > 0
+tickRate = 20

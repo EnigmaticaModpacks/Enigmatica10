@@ -19,6 +19,18 @@ ServerEvents.recipes((event) => {
             air_per_mb: 1125,
             burn_rate: 0.8,
             id: `${id_prefix}blaze_ember`
+        },
+        {
+            fluid: { tag: 'c:fuels/canola_oil' },
+            air_per_mb: 200,
+            burn_rate: 0.25,
+            id: `${id_prefix}canola_oil`
+        },
+        {
+            fluid: { tag: 'c:fuels/refined_canola_oil' },
+            air_per_mb: 1000,
+            burn_rate: 0.8,
+            id: `${id_prefix}refined_canola_oil`
         }
     ];
 

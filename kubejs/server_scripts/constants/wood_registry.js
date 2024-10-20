@@ -190,6 +190,13 @@ Object.keys(wood_types).forEach((mod) => {
                 wood: `${mod}:${type}_wood`,
                 stripped_wood: `${mod}:${type}_stripped_wood`
             });
+        } else if (mod == 'ars_elemental') {
+            wood_registry.push({
+                log: `${mod}:${type}_log`,
+                stripped_log: `${mod}:stripped_${type}_log`,
+                wood: `${mod}:${type}`,
+                stripped_wood: `${mod}:stripped_${type}`
+            });
         } else {
             wood_registry.push({
                 log: `${mod}:${type}_log`,
