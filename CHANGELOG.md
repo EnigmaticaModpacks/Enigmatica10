@@ -1,5 +1,29 @@
 ### Enigmatica 10 1.11.1
 
+NeoForge-1.21.1-21.1.72 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.11.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.11.1.md)
+
+**Disclaimer:** If you're in the "Multiverse" dimension, leave before updating, the mod has been removed.
+
+#### ✔️ Added Mods
+
+* [Actually Additions](https://www.curseforge.com/minecraft/mc-mods/actually-additions) (by [Ellpeck](https://www.curseforge.com/members/Ellpeck/projects))
+* [Cobblegen Galore](https://www.curseforge.com/minecraft/mc-mods/cobblegen-galore) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
+* [Colorful Hearts](https://www.curseforge.com/minecraft/mc-mods/colorful-hearts) (by [Terrails](https://www.curseforge.com/members/Terrails/projects))
+* [Inventory Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter) (by [cpw](https://www.curseforge.com/members/cpw/projects))
+
+#### ❌ Removed Mods
+
+* [Client Sort](https://www.curseforge.com/minecraft/mc-mods/clientsort) (by [NotRyken](https://www.curseforge.com/members/NotRyken/projects))
+* [YUNG's API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Better Desert Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Better End Island (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Better Jungle Temples (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Better Nether Fortresses (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Better Ocean Monuments (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Better Strongholds (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Better Witch Huts (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+* [YUNG's Bridges (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+
 #### ⭐ Improvements
 
 -   EnderIO can now make Steel and alloys from other mods [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
@@ -9,6 +33,7 @@
 -   Fuels updated [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 -   Industrial Foregoing can now drill for oil [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 -   Aura Plants may be crafted for decoration [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
+-   Waystones no longer automatically create JourneyMap waypoints
 
 ---
 
