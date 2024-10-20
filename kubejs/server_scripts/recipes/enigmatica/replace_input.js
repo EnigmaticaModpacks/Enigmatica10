@@ -47,6 +47,11 @@ ServerEvents.recipes((event) => {
             filter: [{ output: 'minecraft:sticky_piston' }, { output: 'minecraft:lead' }],
             to_replace: 'minecraft:slime_ball',
             replace_with: '#c:slimeballs'
+        },
+        {
+            filter: [{ output: 'minecraft:observer' }],
+            to_replace: 'minecraft:quartz',
+            replace_with: Ingredient.of(['minecraft:quartz', 'ae2:certus_quartz_crystal'])
         }
     ];
 

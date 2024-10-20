@@ -1,4 +1,4 @@
-### Enigmatica 10 1.12.0
+### Enigmatica 10 1.11.1
 
 #### ⭐ Improvements
 

@@ -13,7 +13,8 @@ ServerEvents.recipes((event) => {
         { type: 'evilcraft:special/minecraft_dead_bush' },
         { id: `enderio:sag_milling/blaze_powder` },
         { id: `mekanism:sulfur_dye` },
-        { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ }
+        { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
+        { mod: 'cobblegengalore' }
     ];
 
     recipes.forEach((recipe) => {
