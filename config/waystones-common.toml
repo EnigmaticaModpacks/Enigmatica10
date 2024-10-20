@@ -74,7 +74,7 @@
 
 [compatibility]
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.
-	journeyMap = true
+	journeyMap = false
 	#If enabled, JourneyMap waypoints will only be created if the mod 'JourneyMap Integration' is not installed
 	preferJourneyMapIntegrationMod = true
 	#If enabled, Waystones will add markers for waystones and sharestones to BlueMap.
