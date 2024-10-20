@@ -7,6 +7,7 @@
 -   Actually Additions seeds added to market [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 -   Ore generators updated to add new/missing ores [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 -   Fuels updated [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
+-   Industrial Foregoing can now drill for oil [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 
 ---
 
