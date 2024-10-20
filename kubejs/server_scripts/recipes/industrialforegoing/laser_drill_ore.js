@@ -190,6 +190,27 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}antimony`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:black_laser_lens' },
+            output: { tag: 'c:raw_materials/black_quartz' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 7,
+                    depth_min: 117,
+                    weight: 12
+                },
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}black_quartz`
         }
     ];
 

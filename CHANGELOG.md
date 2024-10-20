@@ -4,6 +4,9 @@
 
 -   EnderIO can now make Steel and alloys from other mods [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 -   Add silicon to the Stonework Factory [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
+-   Actually Additions seeds added to market [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
+-   Ore generators updated to add new/missing ores [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
+-   Fuels updated [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 
 ---
 
