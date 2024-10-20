@@ -6,6 +6,7 @@
 	chapter.1514913DA64A98EB.title: "Ender IO"
 	chapter.1A29B498BD263BEF.title: "Redstone"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
+	chapter.24DC8C08564BB550.title: "Actually Additions"
 	chapter.25ADADD36B4FDE05.title: "Just Dire Things"
 	chapter.27C4C213A1A05E6E.title: "Modular Force Fields"
 	chapter.2F5B4621D5F0381A.title: "Modern Industrialization"
@@ -19,6 +20,7 @@
 	chapter.603B06098A07350C.title: "EvilCraft"
 	chapter.60F666DD0AC6F03F.title: "Multiverse"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
+	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
 	chapter.7CFAC3316D718D25.title: "ChocoCraft"
 	chapter.7F17CDF8564DCC49.title: "Genetics: Resequenced"
@@ -1010,6 +1012,11 @@
 		"&a🛈 Tip: The Drill will never dry up with a"
 		"&a    Water Bucket in your inventory!"
 	]
+	quest.25770E9DCA5B4B1F.quest_desc: [
+		"Welcome to Actually Additions! "
+		""
+		"Have a free book! This section is under construction!"
+	]
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
 		"&n                                                 &r"
@@ -1946,6 +1953,11 @@
 		"Use this to encase a mob spawner to kill anything that spawns, or simply make a floor that damages anything standing on it. "
 	]
 	quest.441562EC913D1043.title: "Mob Farming"
+	quest.4421EB35235888DF.quest_desc: [
+		"Welcome to Nature's Aura! "
+		""
+		"Have a free book! This section is under construction!"
+	]
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -3724,6 +3736,7 @@
 	task.0767C8200D0389A6.title: "Essences"
 	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0C66972E31440AAF.title: "Ender Cells"
+	task.0CA6600AF5E72556.title: "Actually Additions"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
@@ -3784,6 +3797,7 @@
 	task.4D3445BCDA8E459B.title: "BumbleZone"
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
+	task.50DC2A7C3CE873AD.title: "Nature's Aura"
 	task.51472C5BD0C05E09.title: "Kill a Mob"
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"

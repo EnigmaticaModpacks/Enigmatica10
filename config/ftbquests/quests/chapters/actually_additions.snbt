@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "actually_additions"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "actuallyadditions:booklet"
+	}
+	id: "24DC8C08564BB550"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			components: {
+				"ftbquests:icon": "actuallyadditions:block/atomic_reconstructor_front"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "25770E9DCA5B4B1F"
+		rewards: [{
+			id: "7E871DADD8015F27"
+			item: {
+				count: 1
+				id: "actuallyadditions:booklet"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "0CA6600AF5E72556"
+			type: "checkmark"
+		}]
+		x: 2.0d
+		y: -1.5d
+	}]
+}

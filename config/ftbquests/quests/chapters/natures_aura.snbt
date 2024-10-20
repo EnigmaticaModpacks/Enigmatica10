@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "440488E780593120"
+	icon: {
+		components: {
+			"patchouli:book": "naturesaura:book"
+		}
+		id: "patchouli:guide_book"
+	}
+	id: "70FCD34EEFA2F001"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			components: {
+				"ftbquests:icon": "naturesaura:textures/gui/patchouli/categories/intro.png"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		id: "4421EB35235888DF"
+		rewards: [{
+			id: "0A6DCBF3D132FC21"
+			item: {
+				components: {
+					"patchouli:book": "naturesaura:book"
+				}
+				count: 1
+				id: "patchouli:guide_book"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "50DC2A7C3CE873AD"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+}
