@@ -2,7 +2,9 @@
 
 NeoForge-1.21.1-21.1.72 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.11.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.11.1.md)
 
-**Disclaimer:** If you're in the "Multiverse" dimension, leave before updating, the mod has been removed.
+**Disclaimers:** 
+- If you're in the "Multiverse" dimension, leave before updating, the mod has been removed.
+- If you visited [YUNG's Better End Island (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge) in the end in version 1.11.0, you may need to reset (delete) your end dimension.
 
 #### ✔️ Added Mods
 
