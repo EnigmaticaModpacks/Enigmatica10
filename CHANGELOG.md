@@ -14,7 +14,6 @@ NeoForge-1.21.1-21.1.64 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### ✔️ Added Mods
 
-
 -   [Almanac Lib](https://www.curseforge.com/minecraft/mc-mods/almanac-lib) (by [frikinjay](https://www.curseforge.com/members/frikinjay/projects))
 -   [Ars Ocultas](https://www.curseforge.com/minecraft/mc-mods/ars-ocultas) (by [mystchonky](https://www.curseforge.com/members/mystchonky/projects))
 -   [Connected Glass](https://www.curseforge.com/minecraft/mc-mods/connected-glass) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
@@ -42,7 +41,6 @@ NeoForge-1.21.1-21.1.64 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 -   [YUNG's Better Strongholds (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 -   [YUNG's Better Witch Huts (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 -   [YUNG's Bridges (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-neoforge) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
-
 
 #### ❌ Removed Mods
 
