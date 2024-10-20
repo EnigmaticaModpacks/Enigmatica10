@@ -8,6 +8,7 @@
 -   Ore generators updated to add new/missing ores [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 -   Fuels updated [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 -   Industrial Foregoing can now drill for oil [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
+-   Aura Plants may be crafted for decoration [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
 
 ---
 
