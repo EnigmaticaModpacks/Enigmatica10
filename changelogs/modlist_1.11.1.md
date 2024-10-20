@@ -198,7 +198,7 @@
   * [TerraBlender-neoforge-1.21.1-4.1.0.3.jar](https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge/files/5685546) (by [TheAdubbz](https://www.curseforge.com/members/TheAdubbz/projects))
   * [Terralith_1.21.x_v2.5.5.jar](https://www.curseforge.com/minecraft/mc-mods/terralith/files/5720166) (by [Starmute](https://www.curseforge.com/members/Starmute/projects))
   * [tesseract-neoforge-1.5.4-beta-1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/tesseract-api-neoforge/files/5762330) (by [swedzish](https://www.curseforge.com/members/swedzish/projects))
-  * [the_bumblezone-7.7.3+1.21.1-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge/files/5817996) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
+  * [the_bumblezone-7.7.2+1.21.1-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge/files/5794395) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
   * [theurgy-1.21.1-neoforge-1.56.0.jar](https://www.curseforge.com/minecraft/mc-mods/theurgy/files/5713179) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
   * [theurgy_kubejs-1.21.1-neoforge-1.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/theurgy-kubejs/files/5705870) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
   * [common-6.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-universal/files/5522002) (by [MangoRage](https://www.curseforge.com/members/MangoRage/projects))
