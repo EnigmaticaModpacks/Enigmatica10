@@ -239,12 +239,12 @@ ECHO INFO: Starting Server... 1>>  "%~dp0logs\serverstart.log" 2>&1
 COLOR 07
 
 REM Batch will wait here indefinitely while MC server is running
-ECHO DEBUG: Attempting to execute [ java %MC_SERVER_JVM_ARGS% @user_jvm_args.txt @libraries/net/neoforged/neoforge/%MC_SERVER_FORGEVER%-beta/win_args.txt nogui %* ]
-ECHO DEBUG: Attempting to execute [ java %MC_SERVER_JVM_ARGS% @user_jvm_args.txt @libraries/net/neoforged/neoforge/%MC_SERVER_FORGEVER%-beta/win_args.txt nogui %* ] 1>> "%~dp0logs\serverstart.log" 2>&1
+ECHO DEBUG: Attempting to execute [ java %MC_SERVER_JVM_ARGS% @user_jvm_args.txt @libraries/net/neoforged/neoforge/%MC_SERVER_FORGEVER%/win_args.txt nogui %* ]
+ECHO DEBUG: Attempting to execute [ java %MC_SERVER_JVM_ARGS% @user_jvm_args.txt @libraries/net/neoforged/neoforge/%MC_SERVER_FORGEVER%/win_args.txt nogui %* ] 1>> "%~dp0logs\serverstart.log" 2>&1
 COLOR 
 
 REM This is what actually starts the server.
-java %MC_SERVER_JVM_ARGS% @user_jvm_args.txt @libraries/net/neoforged/neoforge/%MC_SERVER_FORGEVER%-beta/win_args.txt nogui %*
+java %MC_SERVER_JVM_ARGS% @user_jvm_args.txt @libraries/net/neoforged/neoforge/%MC_SERVER_FORGEVER%/win_args.txt nogui %*
 
 REM If server is exited or crashes, restart...
 REM CLS
@@ -291,7 +291,7 @@ ECHO.
 ECHO.
 ECHO Downloading FORGE (step 1 of 2). This can take several minutes, please be patient...
 
-SET MC_SERVER_FORGEURL="https://maven.neoforged.net/releases/net/neoforged/neoforge/%MC_SERVER_FORGEVER%-beta/neoforge-%MC_SERVER_FORGEVER%-beta-installer.jar"
+SET MC_SERVER_FORGEURL="https://maven.neoforged.net/releases/net/neoforged/neoforge/%MC_SERVER_FORGEVER%/neoforge-%MC_SERVER_FORGEVER%-installer.jar"
 GOTO DOWNLOADINSTALLER
 
 SET MC_SERVER_TMP_FLAG=0

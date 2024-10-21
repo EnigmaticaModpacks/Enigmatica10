@@ -55,7 +55,7 @@ install_server(){
 			echo "Skipping download. Using existing installer.jar"
 		fi
 	else
-		export URL="https://maven.neoforged.net/releases/net/neoforged/neoforge/${FORGEVER}-beta/neoforge-${FORGEVER}-beta-installer.jar"
+		export URL="https://maven.neoforged.net/releases/net/neoforged/neoforge/${FORGEVER}/neoforge-${FORGEVER}-installer.jar"
 		echo $URL 
 		which wget >> /dev/null
 		if [ $? -eq 0 ]; then
@@ -102,7 +102,7 @@ start_server() {
 	echo ""
 	echo "Starting server"
 	echo "INFO: Starting Server at " $(date -u +%Y-%m-%d_%H:%M:%S) >>serverstart.log 2>&1
-	java -Xmx${MAX_RAM} ${JAVA_ARGS} @user_jvm_args.txt @libraries/net/neoforged/neoforge/${FORGEVER}-beta/unix_args.txt nogui %*
+	java -Xmx${MAX_RAM} ${JAVA_ARGS} @user_jvm_args.txt @libraries/net/neoforged/neoforge/${FORGEVER}/unix_args.txt nogui %*
 }
 
 # routine for basic directory checks
