@@ -2,7 +2,7 @@
 
 #### ⭐ Improvements
 
--   Amethyst Golems now convert Certus straight to Flawless [\#174](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/174)
+-   Amethyst Golems now convert Certus straight to Flawless [\#180](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/180)
 
 ---
 
