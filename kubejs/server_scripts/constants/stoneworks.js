@@ -10,6 +10,7 @@ const stoneworks = {
         'minecraft:red_sandstone',
         'minecraft:tuff',
         'minecraft:blackstone',
+        'minecraft:calcite',
 
         'deeperdarker:sculk_stone',
         'deeperdarker:gloomslate',
