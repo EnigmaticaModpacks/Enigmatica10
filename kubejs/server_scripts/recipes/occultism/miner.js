@@ -11,6 +11,16 @@ ServerEvents.recipes((event) => {
                 weight: 187
             },
             id: `${id_prefix}dark_gem`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:ores/black_quartz',
+                count: 1,
+                weight: 560
+            },
+            id: `${id_prefix}black_quartz`
         }
     ];
 
