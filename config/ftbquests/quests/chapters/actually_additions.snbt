@@ -67,15 +67,25 @@
 		{
 			dependencies: ["380D0C6385B6325C"]
 			id: "40948DF54E7594A7"
-			rewards: [{
-				count: 16
-				id: "6BB00A5C6F665FE0"
-				item: {
-					count: 1
-					id: "actuallyadditions:restonia_crystal"
+			rewards: [
+				{
+					count: 16
+					id: "6BB00A5C6F665FE0"
+					item: {
+						count: 1
+						id: "actuallyadditions:restonia_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "26A5C9EFD2B34CF7"
+					item: {
+						count: 1
+						id: "minecraft:oak_pressure_plate"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "74E482361DCA5638"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
@@ -98,10 +108,12 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3D251283EA258240"
-					table_id: 167859363417192230L
-					type: "loot"
+					id: "7CE6B093E68AC164"
+					item: {
+						count: 1
+						id: "actuallyadditions:coal_generator"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -135,8 +147,8 @@
 				}
 			]
 			tasks: [{
-				id: "5B09BF418F341BCC"
-				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:oil_generator)item(actuallyadditions:coal_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "10CE16BF2AB8F14C"
+				item: { count: 1, id: "actuallyadditions:oil_generator" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -167,14 +179,30 @@
 				id: "actuallyadditions:empowerer"
 			}
 			id: "6B0673A379D483A5"
-			rewards: [{
-				id: "3332E751C989C650"
-				item: {
-					count: 1
-					id: "actuallyadditions:empowered_enori_crystal_block"
+			rewards: [
+				{
+					id: "3332E751C989C650"
+					item: {
+						count: 1
+						id: "actuallyadditions:empowered_enori_crystal_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "45338DD051526B70"
+					item: {
+						count: 1
+						id: "actuallyadditions:empowered_restonia_crystal_block"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E9E76D5D195A119"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "77F196EB4AE836A8"
@@ -255,15 +283,23 @@
 		{
 			dependencies: ["40948DF54E7594A7"]
 			id: "77965E43351C263C"
-			rewards: [{
-				count: 4
-				id: "7EFCD80FD8AE4E02"
-				item: {
-					count: 1
-					id: "actuallyadditions:worm"
+			rewards: [
+				{
+					count: 4
+					id: "7EFCD80FD8AE4E02"
+					item: {
+						count: 1
+						id: "actuallyadditions:worm"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "29762EBEC7081252"
+					table_id: 23658154196454858L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "6F175FC1A22C00BB"
@@ -381,6 +417,15 @@
 		{
 			dependencies: ["6B0673A379D483A5"]
 			id: "5D10C31B8F29FE5E"
+			rewards: [{
+				count: 16
+				id: "38E57358A318EA9B"
+				item: {
+					count: 1
+					id: "actuallyadditions:greenhouse_glass"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "55100FC57D92B44C"
 				item: { count: 1, id: "actuallyadditions:greenhouse_glass" }
@@ -407,6 +452,30 @@
 			}]
 			x: 8.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["380D0C6385B6325C"]
+			id: "76467C03A27E54BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3208571E948ADADF"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "72F4B9DCB24040EB"
+					item: { count: 1, id: "minecraft:redstone_torch" }
+					type: "item"
+				}
+				{
+					id: "437814768AC0F538"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
 		}
 	]
 }

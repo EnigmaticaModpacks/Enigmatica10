@@ -2861,9 +2861,9 @@
 	quest.5E84329A59955F29.quest_desc: [
 		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
 		""
-		"The Coal Generator burns any furnace fuel to create a small amount of energy, while the Oil Generator burns Canola Oil. "
+		"Oil Generator burns Canola Oil and the various other oils included in the mod."
 		""
-		"Obtaining Canola Oil will require a small amount of power first, however, to operate the Canola Press. So, begin with the Coal Generator, or obtain some power from another mod. "
+		"Obtaining Canola Oil will require a small amount of power first to operate the Canola Press. So, begin with the Coal Generator, or obtain some power from another mod. "
 	]
 	quest.5F0523F799DA720C.quest_desc: [
 		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
@@ -3639,6 +3639,12 @@
 		"&6    separate so the aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.76467C03A27E54BD.quest_desc: [
+		"Configuring many machines in AA is done by Right-Clicking them with either a Redstone Torch or a Compass. "
+		""
+		"You’ll want to keep these handy when working with the mod so you can quickly configure your machines as you go. "
+	]
+	quest.76467C03A27E54BD.title: "Machine Configuration"
 	quest.76695BF2B0E70087.quest_desc: [
 		"After a quick jaunt into the Nether, you’ll be able to upgrade your Goo to a Blazebloom Goo. "
 		""
@@ -3935,7 +3941,6 @@
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
-	task.5B09BF418F341BCC.title: "Simple Generators"
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
