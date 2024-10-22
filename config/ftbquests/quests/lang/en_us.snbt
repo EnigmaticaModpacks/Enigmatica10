@@ -455,6 +455,16 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.0EF0F6D0012FB59E.quest_desc: [
+		"Need some Lava in a hurry? Dripstone letting you down? Try a Lava Factory!"
+		""
+		"This simple multiblock converts energy directly into delicious molten lava. "
+		""
+		"To build it, place the Controller on the ground and place a helper block on top of it, such as Cobblestone. Next, place the Casings against the helper block, one on each side. Finally, remove the helper block and supply power."
+		""
+		"Lava will be periodically generated in the block space where the helper block was. Just scoop it up with your preferred fluid pump and you’re all set!"
+	]
+	quest.0EF0F6D0012FB59E.title: "Lava Factory"
 	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
@@ -484,6 +494,13 @@
 		"When the Coal and Iron are fully engulfed by the goo, they’ll be replaced by a crystal that can be broken to obtain the transmuted materials"
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
+	quest.128669F9F6431E0A.quest_desc: [
+		"The Bio Reactor is a more advanced generator which produces more FE per tick based on the number of items it is burning. "
+		""
+		"In general, it accepts seeds, saplings, and crops. "
+		""
+		"Filling it with one type of item will generate a paltry 4 FE/t, however giving it eight unique items allows it to produce a more impressive 256 FE/t."
+	]
 	quest.12903CD319AE35B9.quest_desc: [
 		"With the Steam Blast Furnace, Steel production can begin. "
 		""
@@ -759,6 +776,7 @@
 		"&c    there are insufficient Hatches"
 		"&c    available to receive the items!"
 	]
+	quest.1A1C34B6C1A7B5E8.quest_desc: ["The Energizer and Enervator go hand in hand, with the Energizer used to charge FE compatible items, such as batteries, and the Enervator used to drain them of power."]
 	quest.1A4123560ACEE02C.quest_desc: [
 		"Time enough at last!"
 		""
@@ -1015,8 +1033,9 @@
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
-		"Have a free book! This section is under construction!"
+		"This mod is a collection of eclectic features meant to make life easier, offering machines to help with farming, new potion brewing mechanics, mining tools and much more. "
 	]
+	quest.25770E9DCA5B4B1F.title: "Actually Additions"
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
 		"&n                                                 &r"
@@ -1105,6 +1124,13 @@
 		"For this, we’ll be converting Quartz Sulfur to Iron Sulfur. Gather up a few of each using the Liquefaction recipes."
 	]
 	quest.28EAC6C33A575A42.title: "Transmutation"
+	quest.28F4519591D71F80.quest_desc: [
+		"Item Laser Relays pair with an Item Interface to create a larger storage network from a bunch of small inventories. "
+		""
+		"Place the Laser Relays against a series of chests and another against an Item Interface. Link them all together with a Laser Wrench and now any items that are pushed into the Interface will be stored in the chests. "
+		""
+		"Similarly, items can be pulled out of the system from the Interface, meaning this can be paired nicely with AE2 or an Ars Nouveau Storage Lectern."
+	]
 	quest.2961B707783AC925.quest_desc: [
 		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
 		""
@@ -1346,6 +1372,11 @@
 		"A small personal pocket dimension to help keep you organized. "
 		""
 		"Perfect for spare tools, wrenches, and other odd equipment you find always taking up too much room in your inventory."
+	]
+	quest.380D0C6385B6325C.quest_desc: [
+		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
+		""
+		"It can commonly be found by mining between &6Y 45&r and &6Y -25&r."
 	]
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
@@ -1750,6 +1781,11 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Applied Energistics\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.4068ABB6B3C24FEC.quest_desc: [
+		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
+		""
+		"They have a relatively short range but can be chained quite effectively!"
+	]
 	quest.407079BCE93817AC.quest_desc: [
 		"The Queen’s Desire is a series of repeatable Advancements used to obtain special boons from the Queen Bee. "
 		""
@@ -1808,6 +1844,21 @@
 		"  Any trade works!"
 	]
 	quest.407079BCE93817AC.title: "The Queen's Desire"
+	quest.40948DF54E7594A7.quest_desc: [
+		"Actually Additions uses altered forms of many of the materials you’re used to seeing. Lapis is converted to Palis Crystals, Iron to Enori Crystals, and so on. "
+		""
+		"These conversions are performed using the Atomic Reconstructor. "
+		""
+		"This machine, when powered, will periodically emit a beam of energy. Any appropriate items or blocks in its path will be converted. "
+		""
+		"&a🛈 Tip: Right-Click the machine with a "
+		"&a    Redstone Torch to change it to "
+		"&a    Pulse Redstone mode."
+		""
+		"&6⚠ Note: Blocks may be converted both"
+		"&6    in item form and as blocks placed"
+		"&6    in-world."
+	]
 	quest.40EECBD3D00B9575.quest_desc: [
 		"Fluid Tanks come in various sizes and are used for any kind of fluid. "
 		""
@@ -1871,6 +1922,11 @@
 		"  looking."
 		""
 		"&c⚠ Warning: Not for indoor use."
+	]
+	quest.425A0A28D31DC15F.quest_desc: [
+		"Very handy for in-world crafting, the Ranged Collector is a filterable vacuum which sucks up items in a large area. "
+		""
+		"Perfect for automating the Atomic Reconstructor."
 	]
 	quest.426730088C72437A.quest_desc: [
 		"Maybe eating it wasn’t the best approach after-all. Smoke it?"
@@ -2207,6 +2263,7 @@
 		"&a🛈 Tip: Right-Click a Blood Extractor on "
 		"&a    the ground to dump out a bucket."
 	]
+	quest.4B0E34ADA419D750.quest_desc: ["Refined Canola Oil may be obtained with the help of a Fermenting Barrel. This greatly enhances the oil, allowing it to produce much more power. "]
 	quest.4B35B8DACEE56913.quest_desc: [
 		"The Biometric Identifier is used in conjunction with Identification Cards to grant player permissions on a frequency. This can grant them the ability to pass through a forcefield or be unaffected by an Interdiction Matrix. "
 		""
@@ -2638,6 +2695,29 @@
 		""
 		"There should be plenty of these inside the Maze to help you keep the buff up while you explore. "
 	]
+	quest.59293885E5C9E8A3.quest_desc: [
+		"A simple machine used for crushing ores and other materials. "
+		""
+		"It may be slow, but it's a cheap early-game way to increase your mining yields!"
+	]
+	quest.5937576BD1069FC4.quest_desc: [
+		"Phantomfaces come in a variety of types for dealing with common logistics issues wirelessly. "
+		""
+		"When bound to a block, they allow certain interactions to be done remotely. For example, a Phantom Energyface can be linked to a machine, thereby allowing energy to be fed to the machine through the Phantomface. "
+		""
+		"Range is limited to 16 blocks but may be extended up to 128 blocks by placing Range Boosters atop the Phantomface. "
+		""
+		"To bind a block, Sneak + Right-Click it with the Phantom Connector, then again on the Phantomface."
+	]
+	quest.5937576BD1069FC4.title: "Phantomfaces"
+	quest.598473588831F46D.quest_desc: [
+		"Fluid Laser Relays act as a wireless fluid pipe. Simply place them against the machines that need liquids and a tank, then link them all together with the Laser Wrench. "
+		""
+		"They have a relatively short range but can be chained quite effectively!"
+		""
+		"&a🛈 Tip: Use a Compass to change modes"
+		"&a    to pull from the source tank!"
+	]
 	quest.59A56F3053A30126.quest_desc: [
 		"Finally, with the Incubator we are able to bring together our three materials to re-combine the base Sulfur into its purified form. For ores, this yields three Ingots for every Raw Material input."
 		"&n                                                  &r"
@@ -2731,6 +2811,7 @@
 		"&a    to automatically replace mined "
 		"&a    blocks with Stone!"
 	]
+	quest.5D10C31B8F29FE5E.quest_desc: ["This powerful glass may be placed above plants to dramatically improve growth rates."]
 	quest.5D52341DC77AFE8D.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
 		""
@@ -2778,11 +2859,24 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.5E84329A59955F29.quest_desc: [
+		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
+		""
+		"Oil Generator burns Canola Oil and the various other oils included in the mod."
+		""
+		"Obtaining Canola Oil will require a small amount of power first to operate the Canola Press. So, begin with the Coal Generator, or obtain some power from another mod. "
+	]
 	quest.5F0523F799DA720C.quest_desc: [
 		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
 		""
 		"The bottle may then be thrown to release that weather wherever you like, changing it instantly. "
 	]
+	quest.5F50024F403D28D0.quest_desc: [
+		"Like with Crystallized Oil before it, Empowered Oil is obtained by dropping Empowered Canola Seeds into Crystallized Oil. "
+		""
+		"As before, this represents a significant upgrade in both burn time and production per tick. "
+	]
+	quest.5F50024F403D28D0.title: "Empowered Oil Production"
 	quest.602E1E149A49D056.quest_desc: [
 		"With the Chimera dead, the rest of the ingredients for the Archmage Spell Book should be within your grasp. "
 		""
@@ -2820,6 +2914,15 @@
 		""
 		"&a🛈 Tip: Higher tier Promises work for "
 		"&a    lower tier recipes!"
+	]
+	quest.62249C31ADCB3914.quest_desc: [
+		"With the addition of a Lens of the Miner, the Atomic Reconstructor is able to convert stone into random ores. "
+		""
+		"This uses a good amount of energy but can make for an interesting way of creating a small infinite source of materials!"
+		""
+		"&6⚠ Note: For this to work, the block"
+		"&6    must be placed in the path of the "
+		"&6    beam, it won’t work on items."
 	]
 	quest.6242CD0203DCBDC7.quest_desc: [
 		"The Wixie Enchanting Apparatus allows a Wixie to craft any Enchanting Apparatus recipes using Source."
@@ -2911,6 +3014,7 @@
 		""
 		"The bottle may then be thrown to release that biome wherever you like, changing it permanently. "
 	]
+	quest.64E6D41378108B92.quest_desc: ["More than just a quick morning pick-me-up, this coffee offers the added benefits of some limited potion effects!"]
 	quest.6538BD86D9419DD4.quest_desc: [
 		"Welcome to Theurgy! "
 		""
@@ -3148,6 +3252,19 @@
 		"From mining and decoration, to destruction and more, the mods shown here will help you do it all."
 	]
 	quest.6AFCA9F187AE6EB2.title: "Building"
+	quest.6B0673A379D483A5.quest_desc: [
+		"Beyond the basic materials crafted with the Atomic Reconstructor, many crafts in AA will need some more advanced materials. "
+		"These materials are made using the Empowerer."
+		""
+		"This is a multiblock structure comprised of a central Empowerer and four Display Stands. Each Display Stand must be placed three blocks away from the Empowerer on each of the cardinal directions. "
+		""
+		"When crafting, then, the central item in the recipe goes on the Empowerer while the other four blocks are placed in any order on the surrounding Display Stands. "
+		""
+		"Energy must be provided to each of the four Display Stands as well."
+		""
+		"&6⚠ Note: All recipe items are consumed "
+		"&6    during the craft. "
+	]
 	quest.6B0AC626ED56983E.quest_desc: [
 		"The Pitiful Generator, as the name implies, is not that great. "
 		""
@@ -3425,6 +3542,8 @@
 		"&a    or block works."
 	]
 	quest.74463B3FC2D297AC.title: "PneumaticCraft"
+	quest.747635545752310E.quest_desc: ["Dropping Crystallized Canola Seeds into Refined Canola Oil produces Crystallized Oil, a more efficient form of fuel that burns longer and for more energy per tick. "]
+	quest.747635545752310E.title: "Crystallized Oil Production"
 	quest.748B07D863BF549A.quest_desc: [
 		"The Bio-Generator efficiently burns Biofuel to produce a substantial amount of power. "
 		""
@@ -3521,6 +3640,12 @@
 		"&6    separate so the aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.76467C03A27E54BD.quest_desc: [
+		"Configuring many machines in AA is done by Right-Clicking them with either a Redstone Torch or a Compass. "
+		""
+		"You’ll want to keep these handy when working with the mod so you can quickly configure your machines as you go. "
+	]
+	quest.76467C03A27E54BD.title: "Machine Configuration"
 	quest.76695BF2B0E70087.quest_desc: [
 		"After a quick jaunt into the Nether, you’ll be able to upgrade your Goo to a Blazebloom Goo. "
 		""
@@ -3551,6 +3676,14 @@
 		""
 		"&a🛈 Tip: Source is optional!"
 	]
+	quest.77965E43351C263C.quest_desc: [
+		"Be it raising animals or farming crops, AA has a few blocks to help. "
+		""
+		"The Automatic Feeder will feed animals in a four-block radius around itself, stopping when there are too many animals present. "
+		""
+		"Similarly, the Farmer will automatically till the soil and plant it with seeds in a 9x9 area in front of it. "
+	]
+	quest.77965E43351C263C.title: "Simple Farming"
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
@@ -3736,11 +3869,11 @@
 	task.0767C8200D0389A6.title: "Essences"
 	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0C66972E31440AAF.title: "Ender Cells"
-	task.0CA6600AF5E72556.title: "Actually Additions"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.10E9A412419B679A.title: "Disabled"
+	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
@@ -3771,6 +3904,7 @@
 	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
+	task.3CD59ACD6E31D647.title: "Phantomfaces"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
@@ -3821,6 +3955,7 @@
 	task.64C50D306E73EA0A.title: "Tier Installers"
 	task.6614885B79D0A53B.title: "Observe a Beehive or Bee Nest"
 	task.664C79E935ED1414.title: "Glass Cables"
+	task.6711412248F76F31.title: "Any Pickaxe"
 	task.676C8DE6C246D422.title: "AE Power"
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"

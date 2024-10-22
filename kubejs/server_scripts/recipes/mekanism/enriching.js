@@ -11,6 +11,11 @@ ServerEvents.recipes((event) => {
             input: { count: 1, tag: 'c:ingots/uraninite' },
             output: { count: 1, id: AlmostUnified.getTagTargetItem('c:ingots/uranium').getId() },
             id: `${id_prefix}uraninite_to_uranium_ingot`
+        },
+        {
+            input: { count: 1, tag: 'c:ores/black_quartz' },
+            output: { count: 2, id: 'actuallyadditions:black_quartz' },
+            id: `${id_prefix}black_quartz`
         }
     ];
 

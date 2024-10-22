@@ -31,6 +31,18 @@ ServerEvents.recipes((event) => {
             air_per_mb: 1000,
             burn_rate: 0.8,
             id: `${id_prefix}refined_canola_oil`
+        },
+        {
+            fluid: { tag: 'c:fuels/crystallized_oil' },
+            air_per_mb: 1500,
+            burn_rate: 0.6,
+            id: `${id_prefix}crystallized_oil`
+        },
+        {
+            fluid: { tag: 'c:fuels/empowered_oil' },
+            air_per_mb: 1800,
+            burn_rate: 0.4,
+            id: `${id_prefix}empowered_oil`
         }
     ];
 

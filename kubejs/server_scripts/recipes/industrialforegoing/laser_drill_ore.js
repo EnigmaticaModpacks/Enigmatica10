@@ -193,7 +193,7 @@ ServerEvents.recipes((event) => {
         },
         {
             catalyst: { item: 'industrialforegoing:black_laser_lens' },
-            output: { tag: 'c:raw_materials/black_quartz' },
+            output: { tag: 'c:ores/black_quartz' },
             rarity: [
                 {
                     dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },

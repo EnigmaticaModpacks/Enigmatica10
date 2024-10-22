@@ -41,6 +41,16 @@ ServerEvents.recipes((event) => {
                 count: 1
             },
             id: `occultism:crushing/certus_quartz_dust_from_gem`
+        },
+        {
+            ingredient: { tag: 'c:ores/black_quartz' },
+            ignore_crushing_multiplier: false,
+            result: {
+                type: 'occultism:item',
+                id: 'actuallyadditions:black_quartz',
+                count: 2
+            },
+            id: `${id_prefix}black_quartz`
         }
     ];
 

@@ -9,6 +9,16 @@ ServerEvents.recipes((event) => {
             eu: 4,
             duration: 100,
             id: `${id_prefix}rotten_flesh`
+        },
+        {
+            item_inputs: [
+                { item: 'actuallyadditions:crystallized_canola_seed', amount: 1 },
+                { item: 'actuallyadditions:canola_seeds', amount: 4 }
+            ],
+            item_outputs: [{ item: 'actuallyadditions:empowered_canola_seed', amount: 1 }],
+            eu: 32,
+            duration: 60,
+            id: `${id_prefix}empowered_canola_seed`
         }
     ];
 

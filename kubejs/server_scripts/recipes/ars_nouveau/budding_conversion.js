@@ -5,8 +5,8 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             input: 'ae2:quartz_block',
-            result: 'ae2:flawed_budding_quartz',
-            id: `${id_prefix}flawed_budding_quartz`
+            result: 'ae2:flawless_budding_quartz',
+            id: `${id_prefix}flawless_budding_quartz`
         },
         {
             input: 'justdirethings:time_crystal_block',

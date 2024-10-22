@@ -127,6 +127,11 @@ ServerEvents.recipes((event) => {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'actuallyadditions:flax_seeds' },
             id: `${id_prefix}flax_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'actuallyadditions:coffee_beans' },
+            id: `${id_prefix}coffee_beans`
         }
     ];
 
