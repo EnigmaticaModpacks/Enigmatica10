@@ -10,5 +10,7 @@ const beheading_tools = [
 
     'justdirethings:celestigem_paxel',
     'justdirethings:eclipsealloy_paxel',
-    'mekanismtools:netherite_paxel'
+    'mekanismtools:netherite_paxel',
+
+    'actuallyadditions:netherite_aiot'
 ];
