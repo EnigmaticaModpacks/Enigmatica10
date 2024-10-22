@@ -1910,7 +1910,11 @@
 		""
 		"&c⚠ Warning: Not for indoor use."
 	]
-	quest.425A0A28D31DC15F.quest_desc: ["Very handy for in-world crafting, the Ranged Collector is a filterable vacuum which sucks up items in a large area. Perfect for automating the Atomic Reconstructor."]
+	quest.425A0A28D31DC15F.quest_desc: [
+		"Very handy for in-world crafting, the Ranged Collector is a filterable vacuum which sucks up items in a large area. "
+		""
+		"Perfect for automating the Atomic Reconstructor."
+	]
 	quest.426730088C72437A.quest_desc: [
 		"Maybe eating it wasn’t the best approach after-all. Smoke it?"
 		"&n                                                  &r"
@@ -2678,7 +2682,11 @@
 		""
 		"There should be plenty of these inside the Maze to help you keep the buff up while you explore. "
 	]
-	quest.59293885E5C9E8A3.quest_desc: ["A simple machine used for crushing ores and other materials. "]
+	quest.59293885E5C9E8A3.quest_desc: [
+		"A simple machine used for crushing ores and other materials. "
+		""
+		"It may be slow, but it's a cheap early-game way to increase your mining yields!"
+	]
 	quest.5937576BD1069FC4.quest_desc: [
 		"Phantomfaces come in a variety of types for dealing with common logistics issues wirelessly. "
 		""

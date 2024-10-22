@@ -270,6 +270,14 @@
 		{
 			dependencies: ["40948DF54E7594A7"]
 			id: "1A1C34B6C1A7B5E8"
+			rewards: [{
+				id: "40EEA5AB22B31984"
+				item: {
+					count: 1
+					id: "actuallyadditions:quadruple_battery"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7B6B4F04F081EE27"
@@ -321,6 +329,12 @@
 		{
 			dependencies: ["40948DF54E7594A7"]
 			id: "62249C31ADCB3914"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CF0ED353751C6E9"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5FBD6C9B3762894C"
 				item: { count: 1, id: "actuallyadditions:lens_of_the_miner" }
@@ -343,6 +357,14 @@
 		{
 			dependencies: ["40948DF54E7594A7"]
 			id: "64E6D41378108B92"
+			rewards: [{
+				id: "5C8102B8C9A754D9"
+				item: {
+					count: 1
+					id: "actuallyadditions:empty_cup"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7353C9AE903FE075"
 				item: { count: 1, id: "actuallyadditions:coffee_machine" }

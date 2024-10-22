@@ -226,6 +226,22 @@ ServerEvents.recipes((event) => {
             duration: 200,
             eu: 2,
             id: `modern_industrialization:oil/mixer/lubricant_from_plant_oil`
+        },
+        {
+            item_inputs: [{ item: 'actuallyadditions:crystallized_canola_seed', amount: 1 }],
+            fluid_inputs: [{ fluid: 'actuallyadditions:refined_canola_oil', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'actuallyadditions:crystallized_oil', amount: 1000 }],
+            duration: 20,
+            eu: 1,
+            id: `${id_prefix}crystallized_oil`
+        },
+        {
+            item_inputs: [{ item: 'actuallyadditions:empowered_canola_seed', amount: 1 }],
+            fluid_inputs: [{ fluid: 'actuallyadditions:crystallized_oil', amount: 1000 }],
+            fluid_outputs: [{ fluid: 'actuallyadditions:empowered_oil', amount: 1000 }],
+            duration: 20,
+            eu: 1,
+            id: `${id_prefix}empowered_oil`
         }
     ];
 
