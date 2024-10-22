@@ -60,7 +60,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -314,7 +314,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:phantom_itemface)item(actuallyadditions:phantom_liquiface)item(actuallyadditions:phantom_energyface)item(actuallyadditions:phantom_redstoneface))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 2.5d
 		}
 		{
@@ -327,6 +327,17 @@
 			}]
 			x: 7.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["6B0673A379D483A5"]
+			id: "5D10C31B8F29FE5E"
+			tasks: [{
+				id: "55100FC57D92B44C"
+				item: { count: 1, id: "actuallyadditions:greenhouse_glass" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
 		}
 	]
 }

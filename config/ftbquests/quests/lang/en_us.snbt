@@ -2782,6 +2782,7 @@
 		"&a    to automatically replace mined "
 		"&a    blocks with Stone!"
 	]
+	quest.5D10C31B8F29FE5E.quest_desc: ["This powerful glass may be placed above plants to dramatically improve growth rates."]
 	quest.5D52341DC77AFE8D.quest_desc: [
 		"Ever onward the march of progress. Expect power use to grow continuously as more machines come on-line and get upgraded. "
 		""
