@@ -104,7 +104,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(powah:energy_cable_starter)item(powah:energy_cable_basic)item(powah:energy_cable_hardened)item(powah:energy_cable_blazing)item(powah:energy_cable_niotic)item(powah:energy_cable_spirited)item(powah:energy_cable_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -2.5d
 		}
 		{
@@ -115,7 +115,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:copper_cable)item(modern_industrialization:silver_cable)item(modern_industrialization:tin_cable)item(modern_industrialization:cupronickel_cable)item(modern_industrialization:electrum_cable)item(modern_industrialization:aluminum_cable)item(modern_industrialization:kanthal_cable)item(modern_industrialization:annealed_copper_cable)item(modern_industrialization:platinum_cable)item(modern_industrialization:superconductor_cable))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -137,7 +137,7 @@
 				item: { count: 1, id: "modularrouters:energy_distributor_module" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -167,7 +167,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -178,7 +178,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -219,7 +219,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(modularrouters:fluid_module)item(modularrouters:fluid_module_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -261,7 +261,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -0.5d
 		}
 		{
@@ -324,7 +324,7 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -453,7 +453,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.5d
 			y: -0.5d
 		}
 		{
@@ -513,7 +513,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.5d
 			y: -1.5d
 		}
 		{
@@ -542,8 +542,56 @@
 				item: { count: 1, id: "modularrouters:modular_router" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["235D7EF41916E480"]
+			id: "4068ABB6B3C24FEC"
+			rewards: [{
+				id: "720BAA1B4B0FC4C1"
+				item: {
+					count: 1
+					id: "actuallyadditions:laser_wrench"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1167BDBCAFA50D7E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:laser_relay)item(actuallyadditions:laser_relay_advanced)item(actuallyadditions:laser_relay_extreme))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04CE3E8B1DF8B441"]
+			id: "598473588831F46D"
+			tasks: [{
+				id: "3E0BB295B2BC594D"
+				item: { count: 1, id: "actuallyadditions:laser_relay_fluids" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["752888EAF2861EB4"]
+			id: "28F4519591D71F80"
+			tasks: [
+				{
+					id: "1525F18E285D258C"
+					item: { count: 1, id: "actuallyadditions:laser_relay_item" }
+					type: "item"
+				}
+				{
+					id: "3752478C0D0F8F16"
+					item: { count: 1, id: "actuallyadditions:item_interface" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
 		}
 	]
 }

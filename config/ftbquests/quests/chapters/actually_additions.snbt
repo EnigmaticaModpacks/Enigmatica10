@@ -87,6 +87,23 @@
 		{
 			dependencies: ["25770E9DCA5B4B1F"]
 			id: "380D0C6385B6325C"
+			rewards: [
+				{
+					count: 8
+					id: "7DC8C3A6B792917F"
+					item: {
+						count: 1
+						id: "actuallyadditions:black_quartz"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D251283EA258240"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "29F29D08C4557522"
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
@@ -177,6 +194,12 @@
 		{
 			dependencies: ["5E84329A59955F29"]
 			id: "128669F9F6431E0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C1D682F7208B35B"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5804BC07DE6E45DE"
 				item: { count: 1, id: "actuallyadditions:bio_reactor" }
@@ -259,6 +282,12 @@
 		{
 			dependencies: ["40948DF54E7594A7"]
 			id: "59293885E5C9E8A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CBE9EE50BF83E3D"
+				table_id: 310519013727846436L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "497247FE343EDD6C"
 				item: { count: 1, id: "actuallyadditions:crusher" }
@@ -296,6 +325,12 @@
 		{
 			dependencies: ["40948DF54E7594A7"]
 			id: "425A0A28D31DC15F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06DBBDF42DEEB523"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "23F4EFD5CFF57A6E"
 				item: { count: 1, id: "actuallyadditions:ranged_collector" }

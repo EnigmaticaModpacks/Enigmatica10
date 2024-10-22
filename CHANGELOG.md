@@ -5,6 +5,7 @@
 -   Amethyst Golems now convert Certus straight to Flawless [\#180](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/180)
 -   Dimensional Mineshafts can now mine Black Quartz [\#180](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/180)
 -   Actually Additions quests! [\#180](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/180)
+-   Canola processing lines added to PNC and MI machines as alternatives [\#180](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/180)
 
 ---
 

@@ -1123,6 +1123,13 @@
 		"For this, we’ll be converting Quartz Sulfur to Iron Sulfur. Gather up a few of each using the Liquefaction recipes."
 	]
 	quest.28EAC6C33A575A42.title: "Transmutation"
+	quest.28F4519591D71F80.quest_desc: [
+		"Item Laser Relays pair with an Item Interface to create a larger storage network from a bunch of small inventories. "
+		""
+		"Place the Laser Relays against a series of chests and another against an Item Interface. Link them all together with a Laser Wrench and now any items that are pushed into the Interface will be stored in the chests. "
+		""
+		"Similarly, items can be pulled out of the system from the Interface, meaning this can be paired nicely with AE2 or an Ars Nouveau Storage Lectern."
+	]
 	quest.2961B707783AC925.quest_desc: [
 		"You’ll need to face off against the Ender Dragon before making this, unless you happen to find another source of Dragon’s Breath."
 		""
@@ -1772,6 +1779,11 @@
 		"Applied Energistics is the ultimate storage and logistics solution. Not only does it store items and fluids, but it acts as a controller for external machines by way of its auto crafting system. "
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Applied Energistics\",\"underlined\":true},\" chapter. \"]"
+	]
+	quest.4068ABB6B3C24FEC.quest_desc: [
+		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
+		""
+		"They have a relatively short range but can be chained quite effectively!"
 	]
 	quest.407079BCE93817AC.quest_desc: [
 		"The Queen’s Desire is a series of repeatable Advancements used to obtain special boons from the Queen Bee. "
@@ -2697,6 +2709,14 @@
 		"To bind a block, Sneak + Right-Click it with the Phantom Connector, then again on the Phantomface."
 	]
 	quest.5937576BD1069FC4.title: "Phantomfaces"
+	quest.598473588831F46D.quest_desc: [
+		"Fluid Laser Relays act as a wireless fluid pipe. Simply place them against the machines that need liquids and a tank, then link them all together with the Laser Wrench. "
+		""
+		"They have a relatively short range but can be chained quite effectively!"
+		""
+		"&a🛈 Tip: Use a Compass to change modes"
+		"&a    to pull from the source tank!"
+	]
 	quest.59A56F3053A30126.quest_desc: [
 		"Finally, with the Incubator we are able to bring together our three materials to re-combine the base Sulfur into its purified form. For ores, this yields three Ingots for every Raw Material input."
 		"&n                                                  &r"
@@ -3846,6 +3866,7 @@
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.10E9A412419B679A.title: "Disabled"
+	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
