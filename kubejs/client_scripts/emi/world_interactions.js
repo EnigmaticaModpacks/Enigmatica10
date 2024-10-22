@@ -279,6 +279,45 @@ ClientEvents.generateAssets('before_mods', (event) => {
             },
             output: 'item:cursedearth:blessed_earth',
             id: 'cursedearth:blessed_earth'
+        },
+        {
+            left: 'item:actuallyadditions:crystallized_canola_seed',
+            right: {
+                type: 'fluid',
+                id: 'actuallyadditions:refined_canola_oil',
+                amount: 1000
+            },
+            output: {
+                type: 'fluid',
+                id: 'actuallyadditions:crystallized_oil',
+                amount: 1000
+            },
+            id: 'actuallyadditions:crystallized_oil'
+        },
+        {
+            left: 'item:actuallyadditions:empowered_canola_seed',
+            right: {
+                type: 'fluid',
+                id: 'actuallyadditions:crystallized_oil',
+                amount: 1000
+            },
+            output: {
+                type: 'fluid',
+                id: 'actuallyadditions:empowered_oil',
+                amount: 1000
+            },
+            id: 'actuallyadditions:empowered_oil'
+        },
+        {
+            left: '#item:minecraft:hoes',
+            right: 'item:minecraft:grass_block',
+            output: {
+                type: 'item',
+                id: 'actuallyadditions:worm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Small chance when tilling Grass"}\u0027]}',
+                amount: 1
+            },
+            id: 'actuallyadditions:worm'
         }
     ];
 

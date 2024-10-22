@@ -9,27 +9,324 @@
 	id: "24DC8C08564BB550"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			components: {
-				"ftbquests:icon": "actuallyadditions:block/atomic_reconstructor_front"
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "actuallyadditions:block/atomic_reconstructor_front"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			id: "ftbquests:custom_icon"
+			id: "25770E9DCA5B4B1F"
+			rewards: [{
+				id: "7E871DADD8015F27"
+				item: {
+					count: 1
+					id: "actuallyadditions:booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CA6600AF5E72556"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
 		}
-		id: "25770E9DCA5B4B1F"
-		rewards: [{
-			id: "7E871DADD8015F27"
-			item: {
-				count: 1
-				id: "actuallyadditions:booklet"
+		{
+			dependencies: ["6B0673A379D483A5"]
+			icon: {
+				id: "actuallyadditions:lava_factory_controller"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "0CA6600AF5E72556"
-			type: "checkmark"
-		}]
-		x: 2.0d
-		y: -1.5d
-	}]
+			id: "0EF0F6D0012FB59E"
+			rewards: [{
+				id: "0914335F7B0647A4"
+				item: {
+					count: 1
+					id: "actuallyadditions:fluid_collector"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "452C63B4EAFC8CAC"
+					item: { count: 1, id: "actuallyadditions:lava_factory_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5F77454E0154DBCC"
+					item: { count: 1, id: "actuallyadditions:lava_factory_casing" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["380D0C6385B6325C"]
+			id: "40948DF54E7594A7"
+			rewards: [{
+				count: 16
+				id: "6BB00A5C6F665FE0"
+				item: {
+					count: 1
+					id: "actuallyadditions:restonia_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74E482361DCA5638"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25770E9DCA5B4B1F"]
+			id: "380D0C6385B6325C"
+			tasks: [{
+				id: "29F29D08C4557522"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["380D0C6385B6325C"]
+			id: "5E84329A59955F29"
+			rewards: [
+				{
+					count: 8
+					id: "54E896CF0AA64B5C"
+					item: {
+						count: 1
+						id: "actuallyadditions:canola_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "4F77EAAF82748E15"
+					item: {
+						count: 1
+						id: "actuallyadditions:canola_press"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B09BF418F341BCC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:oil_generator)item(actuallyadditions:coal_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E84329A59955F29"]
+			id: "4B0E34ADA419D750"
+			rewards: [{
+				id: "214EE87F959460BA"
+				item: {
+					count: 1
+					id: "actuallyadditions:fluid_placer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B60FF317DD0BADE"
+				item: { count: 1, id: "actuallyadditions:fermenting_barrel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40948DF54E7594A7"]
+			icon: {
+				id: "actuallyadditions:empowerer"
+			}
+			id: "6B0673A379D483A5"
+			rewards: [{
+				id: "3332E751C989C650"
+				item: {
+					count: 1
+					id: "actuallyadditions:empowered_enori_crystal_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77F196EB4AE836A8"
+					item: { count: 1, id: "actuallyadditions:empowerer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "007D4CD17C0B127B"
+					item: { count: 1, id: "actuallyadditions:display_stand" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E84329A59955F29"]
+			id: "128669F9F6431E0A"
+			tasks: [{
+				id: "5804BC07DE6E45DE"
+				item: { count: 1, id: "actuallyadditions:bio_reactor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B0E34ADA419D750"]
+			icon: {
+				id: "actuallyadditions:crystallized_oil_bucket"
+			}
+			id: "747635545752310E"
+			rewards: [{
+				id: "3203EB761DDE404A"
+				item: {
+					count: 1
+					id: "actuallyadditions:dropper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1299341394C1B878"
+				item: { count: 1, id: "actuallyadditions:crystallized_canola_seed" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["747635545752310E"]
+			icon: {
+				id: "actuallyadditions:empowered_oil_bucket"
+			}
+			id: "5F50024F403D28D0"
+			rewards: [{
+				id: "73236A66910EEA81"
+				item: {
+					count: 1
+					id: "actuallyadditions:fluid_collector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A80B5C9FCFABFD5"
+				item: { count: 1, id: "actuallyadditions:empowered_canola_seed" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40948DF54E7594A7"]
+			id: "77965E43351C263C"
+			rewards: [{
+				count: 4
+				id: "7EFCD80FD8AE4E02"
+				item: {
+					count: 1
+					id: "actuallyadditions:worm"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F175FC1A22C00BB"
+					item: { count: 1, id: "actuallyadditions:feeder" }
+					type: "item"
+				}
+				{
+					id: "0E2C67C1CD2ADB6E"
+					item: { count: 1, id: "actuallyadditions:farmer" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40948DF54E7594A7"]
+			id: "59293885E5C9E8A3"
+			tasks: [{
+				id: "497247FE343EDD6C"
+				item: { count: 1, id: "actuallyadditions:crusher" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40948DF54E7594A7"]
+			id: "1A1C34B6C1A7B5E8"
+			tasks: [
+				{
+					id: "7B6B4F04F081EE27"
+					item: { count: 1, id: "actuallyadditions:energizer" }
+					type: "item"
+				}
+				{
+					id: "63D7684A6D0D4FE6"
+					item: { count: 1, id: "actuallyadditions:enervator" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40948DF54E7594A7"]
+			id: "425A0A28D31DC15F"
+			tasks: [{
+				id: "23F4EFD5CFF57A6E"
+				item: { count: 1, id: "actuallyadditions:ranged_collector" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B0673A379D483A5"]
+			icon: {
+				id: "actuallyadditions:phantom_itemface"
+			}
+			id: "5937576BD1069FC4"
+			rewards: [{
+				id: "0E0E919855AE7A61"
+				item: {
+					count: 1
+					id: "actuallyadditions:phantom_connector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CD59ACD6E31D647"
+				item: { components: { "ftbfiltersystem:filter": "or(item(actuallyadditions:phantom_itemface)item(actuallyadditions:phantom_liquiface)item(actuallyadditions:phantom_energyface)item(actuallyadditions:phantom_redstoneface))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40948DF54E7594A7"]
+			id: "62249C31ADCB3914"
+			tasks: [{
+				id: "5FBD6C9B3762894C"
+				item: { count: 1, id: "actuallyadditions:lens_of_the_miner" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+	]
 }
