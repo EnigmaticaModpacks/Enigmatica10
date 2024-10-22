@@ -15,7 +15,8 @@ ServerEvents.recipes((event) => {
         { id: `mekanism:sulfur_dye` },
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
         { mod: 'cobblegengalore' },
-        { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ }
+        { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ },
+        { id: /industrialforegoing:laser_drill_ore.*yellor(ite|ium)/ }
     ];
 
     recipes.forEach((recipe) => {
