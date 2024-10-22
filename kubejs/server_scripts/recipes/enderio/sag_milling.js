@@ -88,6 +88,16 @@ ServerEvents.recipes((event) => {
             ],
             energy: 2400,
             id: `${id_prefix}netherite_scrap`
+        },
+        {
+            input: { tag: 'c:ores/black_quartz' },
+            outputs: [
+                { item: { id: 'actuallyadditions:black_quartz', count: 2 } },
+                { item: { id: 'actuallyadditions:black_quartz', count: 1 }, chance: 0.25 },
+                { item: { id: `minecraft:cobblestone`, count: 1 }, chance: 0.15 }
+            ],
+            energy: 2400,
+            id: `${id_prefix}black_quartz`
         }
     ];
 
@@ -118,14 +128,8 @@ ServerEvents.recipes((event) => {
                 input: { tag: `c:ores/${material.primary}` },
                 outputs: [
                     { item: { tag: `c:raw_materials/${material.primary}`, count: 1 } },
-                    {
-                        chance: 0.33,
-                        item: { tag: `c:raw_materials/${material.primary}`, count: 1 }
-                    },
-                    {
-                        chance: 0.15,
-                        item: { id: `minecraft:cobblestone`, count: 1 }
-                    }
+                    { item: { tag: `c:raw_materials/${material.primary}`, count: 1 }, chance: 0.33 },
+                    { item: { id: `minecraft:cobblestone`, count: 1 }, chance: 0.15 }
                 ],
                 energy: 2400,
                 id: `${id_prefix}${material.primary}_ore`
@@ -134,14 +138,8 @@ ServerEvents.recipes((event) => {
                 input: { tag: `c:raw_materials/${material.primary}` },
                 outputs: [
                     { item: { tag: `c:dusts/${material.primary}`, count: 1 } },
-                    {
-                        chance: 0.25,
-                        item: { tag: `c:dusts/${material.primary}`, count: 1 }
-                    },
-                    {
-                        chance: 0.05,
-                        item: { tag: `c:dusts/${material.secondary}`, count: 1 }
-                    }
+                    { item: { tag: `c:dusts/${material.primary}`, count: 1 }, chance: 0.25 },
+                    { item: { tag: `c:dusts/${material.secondary}`, count: 1 }, chance: 0.05 }
                 ],
                 energy: 2400,
                 id: `${id_prefix}raw_${material.primary}`

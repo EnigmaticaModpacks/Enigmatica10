@@ -14,7 +14,8 @@ ServerEvents.recipes((event) => {
         { id: `enderio:sag_milling/blaze_powder` },
         { id: `mekanism:sulfur_dye` },
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
-        { mod: 'cobblegengalore' }
+        { mod: 'cobblegengalore' },
+        { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ }
     ];
 
     recipes.forEach((recipe) => {
