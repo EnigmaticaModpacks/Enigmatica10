@@ -1033,7 +1033,7 @@
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
-		"Have a free book! This section is under construction!"
+		"This mod is a collection of eclectic features meant to make life easier, offering machines to help with farming, new potion brewing mechanics, mining tools and much more. "
 	]
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
@@ -3834,7 +3834,6 @@
 	task.0767C8200D0389A6.title: "Essences"
 	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0C66972E31440AAF.title: "Ender Cells"
-	task.0CA6600AF5E72556.title: "Actually Additions"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
@@ -3921,6 +3920,7 @@
 	task.64C50D306E73EA0A.title: "Tier Installers"
 	task.6614885B79D0A53B.title: "Observe a Beehive or Bee Nest"
 	task.664C79E935ED1414.title: "Glass Cables"
+	task.6711412248F76F31.title: "Any Pickaxe"
 	task.676C8DE6C246D422.title: "AE Power"
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"

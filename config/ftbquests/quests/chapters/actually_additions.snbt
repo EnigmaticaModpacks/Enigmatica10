@@ -27,8 +27,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0CA6600AF5E72556"
-				type: "checkmark"
+				id: "6711412248F76F31"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 2.0d
 			y: -1.5d
@@ -61,7 +62,7 @@
 				}
 			]
 			x: 4.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["380D0C6385B6325C"]
@@ -81,7 +82,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["25770E9DCA5B4B1F"]
@@ -171,7 +172,7 @@
 				}
 			]
 			x: 2.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5E84329A59955F29"]
@@ -253,7 +254,7 @@
 				}
 			]
 			x: 3.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["40948DF54E7594A7"]
@@ -264,7 +265,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["40948DF54E7594A7"]
@@ -282,7 +283,7 @@
 				}
 			]
 			x: 6.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["40948DF54E7594A7"]
@@ -293,7 +294,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6B0673A379D483A5"]
@@ -315,7 +316,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["40948DF54E7594A7"]
@@ -326,7 +327,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6B0673A379D483A5"]
@@ -337,7 +338,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["40948DF54E7594A7"]
@@ -348,7 +349,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.5d
+			y: 0.5d
 		}
 	]
 }
