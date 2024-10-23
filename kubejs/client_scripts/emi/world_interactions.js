@@ -190,51 +190,6 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'evilcraft:hardened_blood'
         },
         {
-            left: 'item:minecraft:amethyst_block',
-            right: {
-                type: 'item',
-                id: 'ars_nouveau:amethyst_golem_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Amethyst Golems convert to budding!"}\u0027]}',
-                amount: 1
-            },
-            output: {
-                type: 'item',
-                id: 'minecraft:budding_amethyst',
-                amount: 1
-            },
-            id: 'minecraft:budding_amethyst'
-        },
-        {
-            left: 'item:ae2:quartz_block',
-            right: {
-                type: 'item',
-                id: 'ars_nouveau:amethyst_golem_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Amethyst Golems convert to budding!"}\u0027]}',
-                amount: 1
-            },
-            output: {
-                type: 'item',
-                id: 'ae2:flawed_budding_quartz',
-                amount: 1
-            },
-            id: 'ae2:flawed_budding_quartz'
-        },
-        {
-            left: 'item:justdirethings:time_crystal_block',
-            right: {
-                type: 'item',
-                id: 'ars_nouveau:amethyst_golem_charm',
-                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Amethyst Golems convert to budding!"}\u0027]}',
-                amount: 1
-            },
-            output: {
-                type: 'item',
-                id: 'justdirethings:time_crystal_budding_block',
-                amount: 1
-            },
-            id: 'justdirethings:time_crystal_budding_block'
-        },
-        {
             left: '#item:c:ores/dark_gem',
             right: '#item:minecraft:pickaxes',
             output: [
