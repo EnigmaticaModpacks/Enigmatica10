@@ -121,6 +121,10 @@ ItemEvents.modifyTooltips((event) => {
             text: [Text.of(`Generates FE From Aura`).red()]
         },
         {
+            items: ['naturesaura:lower_limiter'],
+            text: [Text.of(`Prevents Negative Aura Drain`).green()]
+        },
+        {
             items: ['naturesaura:spring', 'ars_elemental:everfull_urn', 'evilcraft:eternal_water'],
             text: [Text.of(`Endless Water Source`).green()]
         },

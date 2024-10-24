@@ -1,4 +1,5 @@
 {
+	autofocus_id: "34FFE863EB846035"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "natures_aura"
@@ -47,8 +48,8 @@
 				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4421EB35235888DF"]
@@ -77,8 +78,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 2.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0A0D539C1285F40F"]
@@ -102,8 +103,8 @@
 				item: { count: 1, id: "naturesaura:wood_stand" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34FFE863EB846035"]
@@ -114,8 +115,8 @@
 				item: { count: 1, id: "naturesaura:nature_altar" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["34FFE863EB846035"]
@@ -142,8 +143,8 @@
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1AB4455F15DF1F84"]
@@ -172,8 +173,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1AB4455F15DF1F84"]
@@ -197,8 +198,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:potion_generator)item(naturesaura:flower_generator)item(naturesaura:oak_generator)item(naturesaura:animal_generator)item(naturesaura:moss_generator)item(naturesaura:firework_generator)item(naturesaura:projectile_generator)item(naturesaura:chorus_generator)item(naturesaura:slime_split_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1AB4455F15DF1F84"]
@@ -209,7 +210,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -220,7 +221,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -230,8 +231,8 @@
 				item: { count: 1, id: "naturesaura:spawn_lamp" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -249,8 +250,8 @@
 				item: { count: 1, id: "naturesaura:field_creator" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.5d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -268,8 +269,8 @@
 				item: { count: 1, id: "naturesaura:hopper_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -287,8 +288,8 @@
 				item: { count: 1, id: "naturesaura:ender_crate" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -298,12 +299,11 @@
 				item: { count: 1, id: "naturesaura:aura_timer" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["752DB3D467FFB259"]
-			hide_dependent_lines: true
+			dependencies: ["34FFE863EB846035"]
 			icon: {
 				components: {
 					"ftbquests:icon": "naturesaura:textures/gui/patchouli/categories/using.png"
@@ -334,8 +334,8 @@
 				item: { count: 1, id: "naturesaura:infused_iron" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -345,8 +345,8 @@
 				item: { count: 1, id: "naturesaura:weather_changer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -366,8 +366,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 6.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -377,19 +377,28 @@
 				item: { count: 1, id: "naturesaura:animal_container" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["35A8CEA408114638"]
 			id: "5859B0217F1C837A"
+			rewards: [{
+				count: 8
+				id: "2AA63F00847CE2F2"
+				item: {
+					count: 1
+					id: "minecraft:activator_rail"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "722D73A47BA53EE6"
 				item: { count: 1, id: "naturesaura:mover_cart" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -407,19 +416,19 @@
 				item: { count: 1, id: "naturesaura:spring" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["7F829A1BFED304D0"]
+			dependencies: ["56EDBF31457D8112"]
 			id: "23DDFBC0DB19F6A4"
 			tasks: [{
 				id: "576B4C8FE24C00E0"
 				item: { count: 1, id: "naturesaura:lower_limiter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -430,7 +439,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -440,8 +449,8 @@
 				item: { count: 1, id: "naturesaura:snow_creator" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -457,8 +466,8 @@
 				item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:ore_spawn" } }, count: 1, id: "naturesaura:effect_powder" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["779AE777BBC999AD"]
@@ -468,8 +477,8 @@
 				item: { count: 1, id: "naturesaura:animal_spawner" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["35A8CEA408114638"]
@@ -479,8 +488,8 @@
 				item: { count: 1, id: "naturesaura:aura_detector" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7F829A1BFED304D0"]
@@ -490,19 +499,30 @@
 				item: { count: 1, id: "naturesaura:placer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["35A8CEA408114638"]
+			dependencies: ["56EDBF31457D8112"]
 			id: "7973D06875662CFE"
 			tasks: [{
 				id: "22C099909FBF36AF"
 				item: { count: 1, id: "naturesaura:generator_limit_remover" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35A8CEA408114638"]
+			id: "39BCDF29A792B723"
+			tasks: [{
+				id: "227D736F88F3ECE5"
+				item: { count: 1, id: "naturesaura:aura_cache" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 	]
 }
