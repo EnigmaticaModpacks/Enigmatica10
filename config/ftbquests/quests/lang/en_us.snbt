@@ -814,7 +814,7 @@
 		""
 		"Aura is your Oxygen. "
 		""
-		"There are Aura Generators to replenish it, but it is a limited resource. Use too much and terrible things will start to happen, however."
+		"There are Aura Generators to replenish it, but it is a limited resource that requires upkeep. Use too much and terrible things will start to happen, however."
 		""
 		"Luckily for you, this Natural Altar will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
 		""
@@ -1431,13 +1431,13 @@
 	]
 	quest.358A62846D6B0004.title: "Plastic"
 	quest.35A8CEA408114638.quest_desc: [
-		"As mentioned, Aura is a finite resource that needs to be maintained and there are multiple generators available for doing so. "
+		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
 		""
-		"Each of these has its advantages and disadvantages and each uses unique inputs to do their job. Typically speaking, the easier it is to obtain the inputs, the less Aura they’ll generate."
+		"Each has its advantages and disadvantages and each uses unique inputs to operate. Typically speaking, the easier it is to obtain the inputs, the less Aura they’ll generate. "
 		""
-		"For some high output options, investigate the Shooting Mark, Firecracker Gaze, or Lingering Absorber. "
+		"For some high output options, take a look at the &2Shooting Mark&r, &2Firecracker Gaze&r, or &2Lingering Absorber&r. "
 		""
-		"If you just need a little Aura for a small contraption, you might be fine with an Herbivorous Absorber or Swamp Homi."
+		"If you just need a little Aura for a small contraption, you might be fine with an &2Herbivorous Absorber&r or &2Swamp Homi&r."
 		""
 		"All of these are detailed in the Book of Natural Aura, so be sure to refer to their entries for specific information on setting them up.  "
 	]
@@ -1445,6 +1445,8 @@
 		"The Altar of Birthing can be an excellent way to call forth more creatures, as needed. "
 		""
 		"It’s not a full-fledged mob farm, but it can be a great way to get a few rare mobs for use in another farm of your choosing. "
+		""
+		"Try summoning a few Rabbits with the rewards from this quest!"
 	]
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
@@ -1484,6 +1486,13 @@
 		""
 		"&a🛈 Tip: Generates extra power in "
 		"&a    The Nether."
+	]
+	quest.39BCDF29A792B723.quest_desc: [
+		"An Aura Cache acts as a personal battery for recharging Aura Using tools and armor. "
+		""
+		"This includes anything enchanted with Nature’s Mend and all armor and tools from Nature’s Aura. To repair this equipment, simply Sneak while holding the tool or wearing the armor. "
+		""
+		"The Cache can be filled in a Natural Altar, or if Aura is exceptionally high in an area, will fill passively while worn. "
 	]
 	quest.3A078285904792A2.quest_desc: [
 		"Simple item pipes for moving things around. "
@@ -3771,7 +3780,8 @@
 		""
 		"Obtaining it is simple enough, simply right click with a Bottle and Cork to fill it with local Aura."
 		""
-		"Different dimensions all have different aura types. "
+		"&6⚠ Note: Different dimensions all have "
+		"&6    their own aura types. "
 	]
 	quest.752DB3D467FFB259.title: "Bottled Aura"
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in Enigmatica 10."]
@@ -4022,6 +4032,7 @@
 	]
 	quest.7FEA11A88316FE0C.quest_desc: ["Simple energy storage with built in item charging capabilities."]
 	reward.34CE01457EC3BF54.title: "Bed"
+	reward.5D6111B63CFD94D8.title: "Beehive with Bees!"
 	reward_table.00540CF744EBCDCA.title: "Farmer's Delight"
 	reward_table.02545B33A0B47726.title: "Scavenger's Delight"
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
@@ -4043,6 +4054,7 @@
 	reward_table.63595DAD65E0F896.title: "Ars Nouveau Lootbox: Epic"
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
+	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"

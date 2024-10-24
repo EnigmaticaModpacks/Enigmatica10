@@ -57,15 +57,23 @@
 				id: "naturesaura:gold_leaf"
 			}
 			id: "0A0D539C1285F40F"
-			rewards: [{
-				count: 32
-				id: "4527C29901970ECA"
-				item: {
-					count: 1
-					id: "naturesaura:gold_powder"
+			rewards: [
+				{
+					count: 32
+					id: "4527C29901970ECA"
+					item: {
+						count: 1
+						id: "naturesaura:gold_powder"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "77715665E7809C2E"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "176A57FA41747EFC"
@@ -90,14 +98,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "34FFE863EB846035"
-			rewards: [{
-				id: "4A82F9C333EB1F37"
-				item: {
-					count: 1
-					id: "naturesaura:eye"
+			rewards: [
+				{
+					id: "4A82F9C333EB1F37"
+					item: {
+						count: 1
+						id: "naturesaura:eye"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "76C4E7E68181EFC7"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "58BE8E698DD8057E"
 				item: { count: 1, id: "naturesaura:wood_stand" }
@@ -110,6 +126,12 @@
 			dependencies: ["34FFE863EB846035"]
 			id: "1AB4455F15DF1F84"
 			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56BE31D9DD7D4056"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "492A33C1B5A86AF4"
 				item: { count: 1, id: "naturesaura:nature_altar" }
@@ -129,15 +151,23 @@
 				id: "naturesaura:aura_bottle"
 			}
 			id: "752DB3D467FFB259"
-			rewards: [{
-				count: 16
-				id: "79FEC94C6BE84378"
-				item: {
-					count: 1
-					id: "naturesaura:bottle_two_the_rebottling"
+			rewards: [
+				{
+					count: 16
+					id: "79FEC94C6BE84378"
+					item: {
+						count: 1
+						id: "naturesaura:bottle_two_the_rebottling"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2B085D9075EB3C10"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5A59F28FB97067FB"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -152,15 +182,23 @@
 				id: "naturesaura:calling_spirit"
 			}
 			id: "779AE777BBC999AD"
-			rewards: [{
-				count: 4
-				id: "102C3FBD2DE2848E"
-				item: {
-					count: 1
-					id: "naturesaura:calling_spirit"
+			rewards: [
+				{
+					count: 4
+					id: "102C3FBD2DE2848E"
+					item: {
+						count: 1
+						id: "naturesaura:calling_spirit"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2070BD699ED3BC0A"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "6A0409529F549EE5"
@@ -185,14 +223,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "35A8CEA408114638"
-			rewards: [{
-				id: "3B1054F59F10E041"
-				item: {
-					count: 1
-					id: "naturesaura:generator_limit_remover"
+			rewards: [
+				{
+					id: "3B1054F59F10E041"
+					item: {
+						count: 1
+						id: "naturesaura:generator_limit_remover"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7D64D20D0C7664E4"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "10DFCCF8FA5D5505"
 				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:potion_generator)item(naturesaura:flower_generator)item(naturesaura:oak_generator)item(naturesaura:animal_generator)item(naturesaura:moss_generator)item(naturesaura:firework_generator)item(naturesaura:projectile_generator)item(naturesaura:chorus_generator)item(naturesaura:slime_split_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -204,6 +250,12 @@
 		{
 			dependencies: ["1AB4455F15DF1F84"]
 			id: "4CB21D6351486281"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1813478DFEA16D32"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "14C95C2344B5DC59"
 				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:conversion_catalyst)item(naturesaura:crushing_catalyst))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -215,6 +267,12 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "5C9FD202A4E641D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02FD01181173CC20"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "736199B17F7446E7"
 				item: { count: 1, id: "naturesaura:pickup_stopper" }
@@ -226,6 +284,12 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "6AD8B4B3A08CF1D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7DCD62A095E80F"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "18A6045EB0489506"
 				item: { count: 1, id: "naturesaura:spawn_lamp" }
@@ -237,14 +301,22 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "4C46DBD26BE50BCD"
-			rewards: [{
-				id: "25951F30B1B88D15"
-				item: {
-					count: 1
-					id: "naturesaura:farming_stencil"
+			rewards: [
+				{
+					id: "25951F30B1B88D15"
+					item: {
+						count: 1
+						id: "naturesaura:farming_stencil"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "4A45EFBD84ACFE34"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "08FB9F8F94CBBF6C"
 				item: { count: 1, id: "naturesaura:field_creator" }
@@ -256,14 +328,22 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "5009BB4B0D1B459E"
-			rewards: [{
-				id: "1C428F453F93F14E"
-				item: {
-					count: 1
-					id: "naturesaura:grated_chute"
+			rewards: [
+				{
+					id: "1C428F453F93F14E"
+					item: {
+						count: 1
+						id: "naturesaura:grated_chute"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "457B3869DD0C796C"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1AAD1F018745893A"
 				item: { count: 1, id: "naturesaura:hopper_upgrade" }
@@ -275,14 +355,22 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "34F48A8F71A7C937"
-			rewards: [{
-				id: "24942BB25431A7D3"
-				item: {
-					count: 1
-					id: "naturesaura:ender_access"
+			rewards: [
+				{
+					id: "24942BB25431A7D3"
+					item: {
+						count: 1
+						id: "naturesaura:ender_access"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "3474E1CBC9B97CC5"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6651A3E1910376C5"
 				item: { count: 1, id: "naturesaura:ender_crate" }
@@ -294,6 +382,12 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "6384F08466CA9FB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF179ED7313545D"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2EB18D52B9071ECA"
 				item: { count: 1, id: "naturesaura:aura_timer" }
@@ -328,6 +422,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "64B4223AEDE636B1"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "049C3A09E1EC8B9B"
@@ -340,6 +440,12 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "4E84D317021F7881"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB24FFF92C82CD8"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0CB9B9E1681CD712"
 				item: { count: 1, id: "naturesaura:weather_changer" }
@@ -354,6 +460,12 @@
 				id: "naturesaura:time_changer"
 			}
 			id: "1AD06ADB17D92C6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22E4F7C74B618FD8"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "45185A382EC40B11"
@@ -372,6 +484,176 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "63B019541F72C712"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03387D9CAD3B620C"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+				{
+					id: "5D6111B63CFD94D8"
+					item: {
+						components: {
+							"minecraft:bees": [
+								{
+									entity_data: {
+										AbsorptionAmount: 0.0f
+										Age: 0
+										AngerTime: 0
+										ForcedAge: 0
+										HasNectar: 0b
+										HasStung: 0b
+										Health: 10.0f
+										InLove: 0
+										Invulnerable: 0b
+										NeoForgeData: { }
+										PersistenceRequired: 0b
+										attributes: [
+											{
+												base: 0.0d
+												id: "minecraft:generic.oxygen_bonus"
+											}
+											{
+												base: 0.6d
+												id: "minecraft:generic.step_height"
+											}
+											{
+												base: 0.30000001192092896d
+												id: "minecraft:generic.movement_speed"
+											}
+											{
+												base: 48.0d
+												id: "minecraft:generic.follow_range"
+												modifiers: [{
+													amount: -0.059354578047450736d
+													id: "minecraft:random_spawn_bonus"
+													operation: "add_multiplied_base"
+												}]
+											}
+											{
+												base: 0.08d
+												id: "minecraft:generic.gravity"
+											}
+										]
+										id: "minecraft:bee"
+										"neoforge:attachments": {
+											"geneticsresequenced:genes": [ ]
+										}
+										"neoforge:spawn_type": "SPAWN_EGG"
+									}
+									min_ticks_in_hive: 600
+									ticks_in_hive: 289
+								}
+								{
+									entity_data: {
+										AbsorptionAmount: 0.0f
+										Age: 0
+										AngerTime: 0
+										ForcedAge: 0
+										HasNectar: 0b
+										HasStung: 0b
+										Health: 10.0f
+										InLove: 0
+										Invulnerable: 0b
+										NeoForgeData: { }
+										PersistenceRequired: 0b
+										attributes: [
+											{
+												base: 0.0d
+												id: "minecraft:generic.oxygen_bonus"
+											}
+											{
+												base: 0.6d
+												id: "minecraft:generic.step_height"
+											}
+											{
+												base: 0.30000001192092896d
+												id: "minecraft:generic.movement_speed"
+											}
+											{
+												base: 48.0d
+												id: "minecraft:generic.follow_range"
+												modifiers: [{
+													amount: 0.048655830727823916d
+													id: "minecraft:random_spawn_bonus"
+													operation: "add_multiplied_base"
+												}]
+											}
+											{
+												base: 0.08d
+												id: "minecraft:generic.gravity"
+											}
+										]
+										id: "minecraft:bee"
+										"neoforge:attachments": {
+											"geneticsresequenced:genes": [ ]
+										}
+										"neoforge:spawn_type": "SPAWN_EGG"
+									}
+									min_ticks_in_hive: 600
+									ticks_in_hive: 264
+								}
+								{
+									entity_data: {
+										AbsorptionAmount: 0.0f
+										Age: 0
+										AngerTime: 0
+										ForcedAge: 0
+										HasNectar: 0b
+										HasStung: 0b
+										Health: 10.0f
+										InLove: 0
+										Invulnerable: 0b
+										NeoForgeData: { }
+										PersistenceRequired: 0b
+										attributes: [
+											{
+												base: 0.0d
+												id: "minecraft:generic.oxygen_bonus"
+											}
+											{
+												base: 0.6d
+												id: "minecraft:generic.step_height"
+											}
+											{
+												base: 0.30000001192092896d
+												id: "minecraft:generic.movement_speed"
+											}
+											{
+												base: 48.0d
+												id: "minecraft:generic.follow_range"
+												modifiers: [{
+													amount: -0.056929407311622535d
+													id: "minecraft:random_spawn_bonus"
+													operation: "add_multiplied_base"
+												}]
+											}
+											{
+												base: 0.08d
+												id: "minecraft:generic.gravity"
+											}
+										]
+										id: "minecraft:bee"
+										"neoforge:attachments": {
+											"geneticsresequenced:genes": [ ]
+										}
+										"neoforge:spawn_type": "SPAWN_EGG"
+									}
+									min_ticks_in_hive: 600
+									ticks_in_hive: 177
+								}
+							]
+							"minecraft:block_state": {
+								honey_level: "0"
+							}
+						}
+						count: 1
+						id: "minecraft:beehive"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "73987785F592446D"
 				item: { count: 1, id: "naturesaura:animal_container" }
@@ -383,15 +665,23 @@
 		{
 			dependencies: ["35A8CEA408114638"]
 			id: "5859B0217F1C837A"
-			rewards: [{
-				count: 8
-				id: "2AA63F00847CE2F2"
-				item: {
-					count: 1
-					id: "minecraft:activator_rail"
+			rewards: [
+				{
+					count: 8
+					id: "2AA63F00847CE2F2"
+					item: {
+						count: 1
+						id: "minecraft:activator_rail"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "4F04A19FC1FDA214"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "722D73A47BA53EE6"
 				item: { count: 1, id: "naturesaura:mover_cart" }
@@ -403,14 +693,22 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "5E32D9117B3994E0"
-			rewards: [{
-				id: "2B6A139781FEA4FB"
-				item: {
-					count: 1
-					id: "naturesaura:lower_limiter"
+			rewards: [
+				{
+					id: "2B6A139781FEA4FB"
+					item: {
+						count: 1
+						id: "naturesaura:lower_limiter"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2935F499CCC1770D"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "71B38EC2DCD92444"
 				item: { count: 1, id: "naturesaura:spring" }
@@ -422,6 +720,12 @@
 		{
 			dependencies: ["56EDBF31457D8112"]
 			id: "23DDFBC0DB19F6A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61A005954B2E41A0"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "576B4C8FE24C00E0"
 				item: { count: 1, id: "naturesaura:lower_limiter" }
@@ -433,6 +737,12 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "7C3C0E6AC71F621B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022F5CA5A1FF3D3E"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "42B724D53213A7A2"
 				item: { count: 1, id: "naturesaura:item_distributor" }
@@ -444,6 +754,12 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "672B88E9A3FA1FCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3973E10830FE3A71"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "41F11E4278D700C7"
 				item: { count: 1, id: "naturesaura:snow_creator" }
@@ -455,12 +771,20 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "26027E2E7418D35C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3AAD404020D923CD"
-				table_id: 310519013727846436L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AAD404020D923CD"
+					table_id: 310519013727846436L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63CDE1D9DB49FD5F"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0C645452691A9D5F"
 				item: { components: { "naturesaura:effect_powder_data": { effect: "naturesaura:ore_spawn" } }, count: 1, id: "naturesaura:effect_powder" }
@@ -472,6 +796,32 @@
 		{
 			dependencies: ["779AE777BBC999AD"]
 			id: "35FB0C624C95D506"
+			rewards: [
+				{
+					count: 4
+					id: "4135F0B2068505E8"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_hide"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0132314B94AED18B"
+					item: {
+						count: 1
+						id: "naturesaura:birth_spirit"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BB4B96F8C5E03A3"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "7FF77557D7C66F4B"
 				item: { count: 1, id: "naturesaura:animal_spawner" }
@@ -483,6 +833,22 @@
 		{
 			dependencies: ["35A8CEA408114638"]
 			id: "56EDBF31457D8112"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08CC370AFBD9EBEE"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+				{
+					id: "3BFB9C45864C21A8"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7470E61005547EF9"
 				item: { count: 1, id: "naturesaura:aura_detector" }
@@ -494,6 +860,12 @@
 		{
 			dependencies: ["7F829A1BFED304D0"]
 			id: "3D76C219EB7EEC03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48A32A501116DF0A"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "46A951F16F9C31F4"
 				item: { count: 1, id: "naturesaura:placer" }
@@ -505,6 +877,12 @@
 		{
 			dependencies: ["56EDBF31457D8112"]
 			id: "7973D06875662CFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66FD4B2D9D8B0ED3"
+				table_id: 8269958316442293849L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "22C099909FBF36AF"
 				item: { count: 1, id: "naturesaura:generator_limit_remover" }
@@ -516,6 +894,30 @@
 		{
 			dependencies: ["35A8CEA408114638"]
 			id: "39BCDF29A792B723"
+			rewards: [
+				{
+					id: "7E891907915F9125"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:fortune": 3
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "naturesaura:infused_iron_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29257E21102BF215"
+					table_id: 8269958316442293849L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "227D736F88F3ECE5"
 				item: { count: 1, id: "naturesaura:aura_cache" }
