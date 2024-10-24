@@ -1413,6 +1413,9 @@
 		""
 		"&6⚠ Note: Golden Powder is consumed "
 		"&6    during the craft!"
+		""
+		"&a🛈 Tip: An Environmental Eye will allow "
+		"&a    you to see local Aura levels!"
 	]
 	quest.34FFE863EB846035.title: "Ritual of the Forest"
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]

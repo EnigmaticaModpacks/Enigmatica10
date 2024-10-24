@@ -128,18 +128,20 @@
 				id: "naturesaura:aura_bottle"
 			}
 			id: "752DB3D467FFB259"
-			tasks: [
-				{
-					id: "20ED22B19677C549"
-					item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "79FEC94C6BE84378"
+				item: {
+					count: 1
+					id: "naturesaura:bottle_two_the_rebottling"
 				}
-				{
-					id: "5A59F28FB97067FB"
-					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A59F28FB97067FB"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 2.0d
 		}
