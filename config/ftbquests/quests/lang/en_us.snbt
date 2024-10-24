@@ -824,6 +824,14 @@
 		""
 		"Refer to the Book of Natural Aura for a preview of block placement."
 	]
+	quest.1AD06ADB17D92C6E.quest_desc: [
+		"Don’t feel like sleeping through the night? Or maybe you’d prefer a longer night for hunting monsters?"
+		""
+		"In either case, the Shifting Sundial is the device for you. By placing a Hand of Time in an Item Frame and rotating it, you can set the time it’ll skip to. "
+		"Pointing up equates to midnight and down to noon."
+		""
+		"To activate it, simply drop a Clock nearby. "
+	]
 	quest.1BAEB780F38B1C56.quest_desc: [
 		"Connect an Access Point to your network, then place a Wireless Terminal inside it to link them and gain wireless access to the entire network."
 		""
@@ -1020,6 +1028,11 @@
 		""
 		"To construct the Colossal Blood Chest multiblock, you’ll need to build a 3x3x3 hollow cube of Reinforced Undead Planks with the Colossal Blood Chest installed in any wall. "
 	]
+	quest.23DDFBC0DB19F6A4.quest_desc: [
+		"When placed beneath any Aura using blocks, the Aura Imbalance Ward will prevent the device from consuming Aura into dangerous territory. "
+		""
+		"Consider placing one beneath most Aura Using Devices as soon as possible. Some of them can consume Aura at a startling rate!"
+	]
 	quest.23FF0CA316B2CB5D.quest_desc: [
 		"The Large Tank is a Modern Industrialization multi-block capable of holding massive amounts of fluids."
 		""
@@ -1075,6 +1088,13 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.25D327DB56E51DA5.title: "Fusion Reactor"
+	quest.26027E2E7418D35C.quest_desc: [
+		"Nature’s Aura introduces a number of Effects powders, however Powder of the Bountiful Core is perhaps one of the most powerful. "
+		""
+		"When placed, all Stone or Netherrack in an area will be slowly converted to random ores at the cost of Aura. "
+		""
+		"This requires extremely high Aura to begin functioning and has an ongoing cost. You’ll need a Creational Catalyst to even begin, and you’ll very likely want a strong Aura Generator, like a Shooting Mark, to cover the operational cost. "
+	]
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
 		""
@@ -1418,6 +1438,11 @@
 		""
 		"All of these are detailed in the Book of Natural Aura, so be sure to refer to their entries for specific information on setting them up.  "
 	]
+	quest.35FB0C624C95D506.quest_desc: [
+		"The Altar of Birthing can be an excellent way to call forth more creatures, as needed. "
+		""
+		"It’s not a full-fledged mob farm, but it can be a great way to get a few rare mobs for use in another farm of your choosing. "
+	]
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -1683,6 +1708,13 @@
 		""
 		"&a🛈 Tip: Use the Render Area button to "
 		"&a    easily configure the working area."
+	]
+	quest.3D76C219EB7EEC03.quest_desc: [
+		"A simple device for placing blocks in an area. It will pull from a chest above it and place whatever it finds there atop the specified block. "
+		""
+		"Specify a block to place on by putting it in an Item Frame attached to the Builder. "
+		""
+		"This can be used, for instance, to set Gold Powder on a ring of Stone Bricks to constantly replenish your Ritual of the Forest!"
 	]
 	quest.3D91A9DBE0B091AE.quest_desc: ["Ranking low in protection and durability, but very high in cute factor, the Chocodisguise is a suit of armor that will make you feel as if you’re one of the herd. "]
 	quest.3D91A9DBE0B091AE.title: "Chocodisguise"
@@ -2472,6 +2504,13 @@
 		"&6    pentacle. "
 	]
 	quest.4E7DA28C54FB8766.title: "Rare Materials"
+	quest.4E84D317021F7881.quest_desc: [
+		"Tired of the rain? The Cloudshifter can be used to quickly clear the clouds away. "
+		""
+		"Or, if you’re really in need of rain or a thunderstorm, it’ll do that too, given the right objects. "
+		""
+		"Refer to the Book of Natural Aura for more information."
+	]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F480CF26AB0F3CD.quest_desc: [
 		"Just as Promises of Tenacity can enable greater functionality, these promises boost machines in unique ways."
@@ -2689,6 +2728,11 @@
 		"&a    cables."
 	]
 	quest.56DDD2327724F715.title: "Cables"
+	quest.56EDBF31457D8112.quest_desc: [
+		"The Aura Detector may be read with a Comparator to determine how much Aura is in the area. "
+		""
+		"This is generally most useful when paired with a Generator, allowing you to turn it on or off as needed."
+	]
 	quest.574555F24035E48A.quest_desc: [
 		"This collection of blocks do pretty much what their name implies; placing and picking up blocks or fluid."
 		""
@@ -2773,6 +2817,7 @@
 		""
 		"There should be plenty of these inside the Maze to help you keep the buff up while you explore. "
 	]
+	quest.5859B0217F1C837A.quest_desc: ["With an Aura Attraction Cart, Aura may be pulled from a centralized Generator and dispersed throughout an area to power machines that might be too far away to otherwise benefit from the Generator. "]
 	quest.59293885E5C9E8A3.quest_desc: [
 		"A simple machine used for crushing ores and other materials. "
 		""
@@ -2938,6 +2983,7 @@
 		"Occultism has an excellent in-game guide with far more information than we can put here, so be sure to refer to it for more in-depth explanations. "
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
+	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
 	quest.5E84329A59955F29.quest_desc: [
 		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
 		""
@@ -3061,6 +3107,13 @@
 		""
 		"Insert Bottled Aura into it to set different intervals. Each bottle of Sunlight is a second, Ghosts for minutes, and Darkness for hours. "
 	]
+	quest.63B019541F72C712.quest_desc: [
+		"Looking for a nice invisible fence to keep mobs contained? This is the block for you. "
+		""
+		"With a full Redstone signal, this will emit an invisible wall encompassing a 15x15x15 area where mobs cannot enter or exit. "
+		""
+		"This makes it a great way to keep livestock safe without having to resort to a simple fence. "
+	]
 	quest.63DDC1FFF52DC39F.quest_desc: [
 		"Modern Industrialization includes a robust system of pipes for carrying items, fluids, and electrical power. "
 		""
@@ -3171,6 +3224,7 @@
 		""
 		"Right-Click a block of Prismarine with her charm to create her home. Placing more aquatic plants and animals in their home will make them happier and more productive."
 	]
+	quest.672B88E9A3FA1FCE.quest_desc: ["With the Winter’s Calling active, snow will slowly accumulate in the area and water will freeze to ice. Snow Golems may also appear to further spread the snowy goodness!"]
 	quest.673C6861CC3A781C.quest_desc: [
 		"[\"Having obtained the Rare Metal Niter we were after, we can \",{ \"text\": \"Reform\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E2BA13C53664E50\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" it into any Rare Metal Sulfur we want, like Gold Sulfur.\"]"
 		""
@@ -3709,6 +3763,13 @@
 	quest.750FEAA1A27892FF.title: "Familiars"
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
+	quest.752DB3D467FFB259.quest_desc: [
+		"Bottled Aura is mostly used as a crafting component throughout Nature’s Aura, though it does have a few other uses."
+		""
+		"Obtaining it is simple enough, simply right click with a Bottle and Cork to fill it with local Aura."
+		""
+		"Different dimensions all have different aura types. "
+	]
 	quest.752DB3D467FFB259.title: "Bottled Aura"
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in Enigmatica 10."]
 	quest.760910BF48876D8E.title: "Chemicals and Gas"
@@ -3826,6 +3887,13 @@
 		""
 		"As long as the machine never stops, this Efficiency boost persists. So this is best used on things like Quarries or production lines that are expected to run non-stop."
 	]
+	quest.7973D06875662CFE.quest_desc: [
+		"You may have noticed that many Aura Generators stop working when Aura gets too high. The threshold is different from one to the next, but present just the same. "
+		""
+		"The Creational Catalyst removes this limit. "
+		""
+		"Simply place it beneath the Generator block to unlock its full potential."
+	]
 	quest.7992122E44D163DB.quest_desc: [
 		"Ultimately, Nuclear Waste will convert cleanly into Antimatter with no residual radioactive materials. This process is done within the Supercritical Phase Shifter, or SPS for short."
 		""
@@ -3881,6 +3949,7 @@
 	]
 	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
+	quest.7C3C0E6AC71F621B.quest_desc: ["The Item Distributor takes items from an inventory above it and evenly distributes them to inventories on each side. "]
 	quest.7C71090829F8748A.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE."]
 	quest.7D4E0F2BF07D3223.quest_desc: [
 		"Making Purple Chalk will need some slightly more exotic materials. However, one needn’t run off to The End just for End Stone."
@@ -3931,6 +4000,8 @@
 		"What’s magic without some functional devices powered by it? "
 		""
 		"The following section will highlight some of the more interesting devices Nature’s Aura has to offer. It’s up to you to figure out when and where they make sense in your base!"
+		""
+		"For a full rundown of how to use these devices, remember to consult the Book of Natural Aura!"
 	]
 	quest.7F829A1BFED304D0.title: "Natural Devices"
 	quest.7FAC3A637F82BFED.quest_desc: [
