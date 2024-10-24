@@ -89,6 +89,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "34FFE863EB846035"
+			rewards: [{
+				id: "4A82F9C333EB1F37"
+				item: {
+					count: 1
+					id: "naturesaura:eye"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58BE8E698DD8057E"
 				item: { count: 1, id: "naturesaura:wood_stand" }
@@ -100,24 +108,14 @@
 		{
 			dependencies: ["34FFE863EB846035"]
 			id: "1AB4455F15DF1F84"
+			min_width: 250
 			tasks: [{
 				id: "492A33C1B5A86AF4"
 				item: { count: 1, id: "naturesaura:nature_altar" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["752DB3D467FFB259"]
-			id: "143E1C014800DB57"
-			tasks: [{
-				id: "5A1331B9ED5EB1BF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:token_joy)item(naturesaura:token_fear)item(naturesaura:token_anger)item(naturesaura:token_sorrow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.5d
 		}
 		{
 			dependencies: ["34FFE863EB846035"]
@@ -142,8 +140,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 1.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1AB4455F15DF1F84"]
@@ -172,19 +170,151 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1AB4455F15DF1F84"]
+			icon: {
+				components: {
+					"ftbquests:icon": "naturesaura:textures/gui/patchouli/categories/creating.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "35A8CEA408114638"
+			rewards: [{
+				id: "3B1054F59F10E041"
+				item: {
+					count: 1
+					id: "naturesaura:generator_limit_remover"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10DFCCF8FA5D5505"
+				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:potion_generator)item(naturesaura:flower_generator)item(naturesaura:oak_generator)item(naturesaura:animal_generator)item(naturesaura:moss_generator)item(naturesaura:firework_generator)item(naturesaura:projectile_generator)item(naturesaura:chorus_generator)item(naturesaura:slime_split_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["779AE777BBC999AD"]
-			id: "2287A9B19BC9DF8B"
+			dependencies: ["1AB4455F15DF1F84"]
+			id: "4CB21D6351486281"
 			tasks: [{
-				id: "78B7FE2EA6D6F0D7"
-				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:token_euphoria)item(naturesaura:token_terror)item(naturesaura:token_rage)item(naturesaura:token_grief))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "14C95C2344B5DC59"
+				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:conversion_catalyst)item(naturesaura:crushing_catalyst))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: -1.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["7F829A1BFED304D0"]
+			id: "5C9FD202A4E641D1"
+			tasks: [{
+				id: "736199B17F7446E7"
+				item: { count: 1, id: "naturesaura:pickup_stopper" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F829A1BFED304D0"]
+			id: "6AD8B4B3A08CF1D3"
+			tasks: [{
+				id: "18A6045EB0489506"
+				item: { count: 1, id: "naturesaura:spawn_lamp" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F829A1BFED304D0"]
+			id: "4C46DBD26BE50BCD"
+			rewards: [{
+				id: "25951F30B1B88D15"
+				item: {
+					count: 1
+					id: "naturesaura:farming_stencil"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08FB9F8F94CBBF6C"
+				item: { count: 1, id: "naturesaura:field_creator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F829A1BFED304D0"]
+			id: "5009BB4B0D1B459E"
+			rewards: [{
+				id: "1C428F453F93F14E"
+				item: {
+					count: 1
+					id: "naturesaura:grated_chute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AAD1F018745893A"
+				item: { count: 1, id: "naturesaura:hopper_upgrade" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F829A1BFED304D0"]
+			id: "34F48A8F71A7C937"
+			rewards: [{
+				id: "24942BB25431A7D3"
+				item: {
+					count: 1
+					id: "naturesaura:ender_access"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6651A3E1910376C5"
+				item: { count: 1, id: "naturesaura:ender_crate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F829A1BFED304D0"]
+			id: "6384F08466CA9FB9"
+			tasks: [{
+				id: "2EB18D52B9071ECA"
+				item: { count: 1, id: "naturesaura:aura_timer" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["752DB3D467FFB259"]
+			icon: {
+				components: {
+					"ftbquests:icon": "naturesaura:textures/gui/patchouli/categories/using.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7F829A1BFED304D0"
+			tasks: [{
+				id: "049C3A09E1EC8B9B"
+				item: { count: 1, id: "naturesaura:infused_iron" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 }

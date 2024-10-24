@@ -807,6 +807,23 @@
 		"&a    a connection."
 	]
 	quest.1A650F4235F6204A.title: "Upgrade Electric"
+	quest.1AB4455F15DF1F84.quest_desc: [
+		"The Natural Altar is likely going to be the first device you make use of that consumes Aura."
+		""
+		"The Book of Natural Aura goes into more details on this mysterious force. For simplicity, however, think of it like Oxygen and Carbon Dioxide. When you breathe, you consume Oxygen and exhale Carbon Dioxide. Do that enough without renewing the Oxygen and you die."
+		""
+		"Aura is your Oxygen. "
+		""
+		"There are Aura Generators to replenish it, but it is a limited resource. Use too much and terrible things will start to happen, however."
+		""
+		"Luckily for you, this Natural Altar will simply stop working if Aura gets too low. Other devices, however, can drain it away completely. "
+		""
+		"&n                                                              &r"
+		""
+		"This devices requires a multiblock structure to function. "
+		""
+		"Refer to the Book of Natural Aura for a preview of block placement."
+	]
 	quest.1BAEB780F38B1C56.quest_desc: [
 		"Connect an Access Point to your network, then place a Wireless Terminal inside it to link them and gain wireless access to the entire network."
 		""
@@ -1358,6 +1375,13 @@
 		"&a🛈 Tip: Ore can be extracted from the "
 		"&a    bottom of the Mineshaft."
 	]
+	quest.34F48A8F71A7C937.quest_desc: [
+		"Ender Crates represent an upgrade over Ender Chests. Not only can they be accessed by automation and logistics, but they can also be separated into multiple channels based on their name."
+		""
+		"To set a channel, place the Crate in an Anvil with an Eye of Ender, then set a name. The name becomes the channel and any other Crate with the same name will share the same inventory."
+		""
+		"Additionally, an Ender Ocular may be used to remotely access the Ender Crate on the go. Rename it the same way as the Crate to set the channel. "
+	]
 	quest.34FFE863EB846035.quest_desc: [
 		"The Ritual of the Forest is your first true foray into the magic of Nature’s Aura and involves the use of a large multiblock structure. "
 		""
@@ -1383,6 +1407,17 @@
 		"&a    Heat Frame, granting better yields!"
 	]
 	quest.358A62846D6B0004.title: "Plastic"
+	quest.35A8CEA408114638.quest_desc: [
+		"As mentioned, Aura is a finite resource that needs to be maintained and there are multiple generators available for doing so. "
+		""
+		"Each of these has its advantages and disadvantages and each uses unique inputs to do their job. Typically speaking, the easier it is to obtain the inputs, the less Aura they’ll generate."
+		""
+		"For some high output options, investigate the Shooting Mark, Firecracker Gaze, or Lingering Absorber. "
+		""
+		"If you just need a little Aura for a small contraption, you might be fine with an Herbivorous Absorber or Swamp Homi."
+		""
+		"All of these are detailed in the Book of Natural Aura, so be sure to refer to their entries for specific information on setting them up.  "
+	]
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
 		""
@@ -2307,6 +2342,11 @@
 		""
 		"They can also be inserted into an Ender Cell to increase it's capacity."
 	]
+	quest.4C46DBD26BE50BCD.quest_desc: [
+		"Aura Field Creators are powerful block breakers that work in pairs, breaking every block between them. "
+		""
+		"They can be augmented with a tool by placing the tool in an Item Frame on one of the Creators, thus allowing it to use Silk Touch, Fortune, or any other special breaking property of the installed tool. "
+	]
 	quest.4C5D3AE08ACA9836.quest_desc: [
 		"A quick jaunt into The Nether should get you everything you need for an upgrade to your Spell Book. "
 		""
@@ -2336,6 +2376,15 @@
 		"These are a great way to buffer items between machines in Modern Industrialization, or to hook up to Applied Energistics to hold all of those Copper Ingots you’re hoarding."
 	]
 	quest.4C7D7FC6EEB07515.title: "Barrels"
+	quest.4CB21D6351486281.quest_desc: [
+		"Catalysts may be installed on a Natural Altar to modify the recipes it can process."
+		""
+		"Place them on the short stone pillars of the Altar to use them."
+		""
+		"&6⚠ Note: An Altar with a Catalyst can "
+		"&6    still process basic recipes if they "
+		"&6    don’t conflict."
+	]
 	quest.4CB37C07E76303A6.quest_desc: [
 		"Crafting the Implosion Compressor is going to require a new alloy, Blastproof Alloy. Once the machine is built it can be used to greatly simplify the process. For now, however, you’ll need to do things the hard way."
 		""
@@ -2452,6 +2501,11 @@
 		"&6    default. Either supply a Redstone "
 		"&6    signal or click the Torch button in "
 		"&6    the interface."
+	]
+	quest.5009BB4B0D1B459E.quest_desc: [
+		"The Hopper Enhancement is placed on top of a Hopper, allowing it to pick up items from up to seven blocks away. "
+		""
+		"When coupled with an Adept Hopper, it can be filtered to specific items."
 	]
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
@@ -2826,6 +2880,7 @@
 		"&a    bowls too!"
 	]
 	quest.5BD04F0109CB6704.title: "Summon: Foliot Crusher"
+	quest.5C9FD202A4E641D1.quest_desc: ["The Item Grounder is a simple Anti-Pickup device. Items in its range cannot be picked up by the player unless they are sneaking. "]
 	quest.5CC1D814819E3044.quest_desc: [
 		"The Digital Miner is a targeted quarrying device that mines blocks out of the world. By setting the filters, you can target exactly what you need, making it a great way to top up on Diamonds or Ancient Debris. "
 		""
@@ -3001,6 +3056,11 @@
 		"For machine crafting, or Processing Patterns, the Provider should be placed facing that machine. It can also feed into any inventory and you can pipe items from there. For example, an array of Furnaces could be fed by a single Provider pushing into a chest. Pipes would then carry items and distribute them amongst the Furnaces."
 	]
 	quest.631AA5AAA6EF687C.title: "Autocrafting"
+	quest.6384F08466CA9FB9.quest_desc: [
+		"The Redstone Aura Vaporizer is, quite simply, a clock. "
+		""
+		"Insert Bottled Aura into it to set different intervals. Each bottle of Sunlight is a second, Ghosts for minutes, and Darkness for hours. "
+	]
 	quest.63DDC1FFF52DC39F.quest_desc: [
 		"Modern Industrialization includes a robust system of pipes for carrying items, fluids, and electrical power. "
 		""
@@ -3263,6 +3323,11 @@
 	]
 	quest.6A3F652A680598E6.title: "Exaltation"
 	quest.6A94923547B93B51.quest_desc: ["Fluid Cards for LaserIO allow Laser Nodes to transport Fluids."]
+	quest.6AD8B4B3A08CF1D3.quest_desc: [
+		"With the Lamp of Sanctuary, you can finally relax. It will prevent all mobs from spawning in a large area around it. "
+		""
+		"The area can be configured by applying differing strengths of Redstone power to it, with 15 being the largest area. "
+	]
 	quest.6AFB99D4F0107184.quest_desc: [
 		"Stainless Steel is likely too precious still to be spending it on drills, but it is an option. "
 		""
@@ -3862,6 +3927,12 @@
 		""
 		"A few of these should keep your machines running without issue. "
 	]
+	quest.7F829A1BFED304D0.quest_desc: [
+		"What’s magic without some functional devices powered by it? "
+		""
+		"The following section will highlight some of the more interesting devices Nature’s Aura has to offer. It’s up to you to figure out when and where they make sense in your base!"
+	]
+	quest.7F829A1BFED304D0.title: "Natural Devices"
 	quest.7FAC3A637F82BFED.quest_desc: [
 		"These floaty little witch friends can be tasked with automating standard 3x3 Crafting Table crafts, Potion Brewing, and even the Enchanting Apparatus. "
 		""
@@ -3914,11 +3985,13 @@
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.10DFCCF8FA5D5505.title: "Aura Generators"
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
+	task.14C95C2344B5DC59.title: "Catalysts"
 	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
