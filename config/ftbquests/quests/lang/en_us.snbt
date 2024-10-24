@@ -266,6 +266,16 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
+	quest.0A0D539C1285F40F.quest_desc: [
+		"Getting started with Nature’s Aura will require using some Brilliant Fibers on leaves. "
+		""
+		"Just right click these fibers onto leaves and wait. Over time, they’ll slowly convert and spread, turning the leaves a vibrant gold color. "
+		""
+		"These Golden Leaves will drop Gold Leaf when broken, but they’ll also continue to spread indefinitely, so long as there are adjacent leaves. "
+		""
+		"So, consider leaving a few un-broken so they can spread to new leaves. "
+	]
+	quest.0A0D539C1285F40F.title: "Gold Leaf"
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -1348,6 +1358,19 @@
 		"&a🛈 Tip: Ore can be extracted from the "
 		"&a    bottom of the Mineshaft."
 	]
+	quest.34FFE863EB846035.quest_desc: [
+		"The Ritual of the Forest is your first true foray into the magic of Nature’s Aura and involves the use of a large multiblock structure. "
+		""
+		"To begin, you’ll need 8 Wooden Stands and 16 Gold Powder. These will be laid out in concentric circles with the ingredients for the craft going on a Wooden Stand in any order. "
+		""
+		"Refer to the Book of Natural Aura for a preview of their placement."
+		""
+		"Once all the items and powder are in place, plant the requested sapling in the center and grow it. Upon growing, the ritual will begin. "
+		""
+		"&6⚠ Note: Golden Powder is consumed "
+		"&6    during the craft!"
+	]
+	quest.34FFE863EB846035.title: "Ritual of the Forest"
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
 	quest.358A62846D6B0004.quest_desc: [
 		"The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining. "
@@ -2014,6 +2037,7 @@
 		""
 		"Have a free book! This section is under construction!"
 	]
+	quest.4421EB35235888DF.title: "Nature's Aura"
 	quest.4457D6BB7AE28073.quest_desc: [
 		"The mod doesn’t offer any form of power conduit, but it does offer the next best thing: wireless energy."
 		""
@@ -3620,6 +3644,7 @@
 	quest.750FEAA1A27892FF.title: "Familiars"
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
+	quest.752DB3D467FFB259.title: "Bottled Aura"
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in Enigmatica 10."]
 	quest.760910BF48876D8E.title: "Chemicals and Gas"
 	quest.760BD47C6B67D645.quest_desc: [
@@ -3684,6 +3709,22 @@
 		"Similarly, the Farmer will automatically till the soil and plant it with seeds in a 9x9 area in front of it. "
 	]
 	quest.77965E43351C263C.title: "Simple Farming"
+	quest.779AE777BBC999AD.quest_desc: [
+		"Performing the Offering to the Gods ritual will unlock new materials used for more powerful contraptions. "
+		""
+		"To make use of the Offering Table, flowers will need to be placed around it in two concentric rings."
+		""
+		"Refer to the Book of Natural Aura for a preview of their placement."
+		""
+		"With the structure in place, you’ll need to place the ingredients in the bowl, then throw a Spirit of Calling on the ground. After a moment, lightning will strike, and the results of the craft will fall from the sky."
+		""
+		"&6⚠ Note: Perform this in an area with "
+		"&6    clear access to the sky!"
+		""
+		"&a🛈 Tip: A single Spirit of Calling can "
+		"&a    convert up to 16 items!"
+	]
+	quest.779AE777BBC999AD.title: "Offering to the Gods"
 	quest.77A66ADAB0845804.quest_desc: [
 		"Macaw’s Mods are an expansive suite of decorative mods to fit just about any build. Enigmatica 10 currently has the following:"
 		""
@@ -3862,6 +3903,7 @@
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
 	task.01BD7546106B0EB9.title: "Magical Shards"
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
+	task.0271A5B9C85AB38D.title: "Any Small Flowers"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
 	task.069760235257E581.title: "String Curtains"
@@ -3931,7 +3973,6 @@
 	task.4D3445BCDA8E459B.title: "BumbleZone"
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
-	task.50DC2A7C3CE873AD.title: "Nature's Aura"
 	task.51472C5BD0C05E09.title: "Kill a Mob"
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.52CE5D30CDF0A6FF.title: "Prismatic Tools"
@@ -3941,6 +3982,7 @@
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
+	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
@@ -3972,6 +4014,7 @@
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
 	task.76ED4221C1C27A27.title: "Logistical Transporters"
 	task.7866B09190F4EA23.title: "Observe a Villager"
+	task.78B7FE2EA6D6F0D7.title: "Advanced Tokens"
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7B8A280C515F168E.title: "Any Pickaxe"
 	task.7C0E5A805AE1132B.title: "Learning Mods"

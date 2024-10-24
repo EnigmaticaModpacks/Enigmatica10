@@ -12,30 +12,179 @@
 	id: "70FCD34EEFA2F001"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			components: {
-				"ftbquests:icon": "naturesaura:textures/gui/patchouli/categories/intro.png"
-			}
-			id: "ftbquests:custom_icon"
-		}
-		id: "4421EB35235888DF"
-		rewards: [{
-			id: "0A6DCBF3D132FC21"
-			item: {
+	quests: [
+		{
+			icon: {
 				components: {
-					"patchouli:book": "naturesaura:book"
+					"ftbquests:icon": "naturesaura:textures/gui/patchouli/categories/intro.png"
 				}
-				count: 1
-				id: "patchouli:guide_book"
+				id: "ftbquests:custom_icon"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "50DC2A7C3CE873AD"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+			id: "4421EB35235888DF"
+			rewards: [
+				{
+					id: "0A6DCBF3D132FC21"
+					item: {
+						components: {
+							"patchouli:book": "naturesaura:book"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					id: "6D9B4022737AC877"
+					item: {
+						count: 1
+						id: "minecraft:shears"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "049F4B63ED48F239"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4421EB35235888DF"]
+			icon: {
+				id: "naturesaura:gold_leaf"
+			}
+			id: "0A0D539C1285F40F"
+			rewards: [{
+				count: 32
+				id: "4527C29901970ECA"
+				item: {
+					count: 1
+					id: "naturesaura:gold_powder"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "176A57FA41747EFC"
+					item: { count: 1, id: "naturesaura:gold_fiber" }
+					type: "item"
+				}
+				{
+					id: "034CF5AA66DAE673"
+					item: { count: 1, id: "naturesaura:gold_leaf" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A0D539C1285F40F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "naturesaura:textures/gui/patchouli/categories/practices.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "34FFE863EB846035"
+			tasks: [{
+				id: "58BE8E698DD8057E"
+				item: { count: 1, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34FFE863EB846035"]
+			id: "1AB4455F15DF1F84"
+			tasks: [{
+				id: "492A33C1B5A86AF4"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["752DB3D467FFB259"]
+			id: "143E1C014800DB57"
+			tasks: [{
+				id: "5A1331B9ED5EB1BF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:token_joy)item(naturesaura:token_fear)item(naturesaura:token_anger)item(naturesaura:token_sorrow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34FFE863EB846035"]
+			icon: {
+				components: {
+					"naturesaura:aura_bottle_data": {
+						aura_type: "naturesaura:overworld"
+					}
+				}
+				id: "naturesaura:aura_bottle"
+			}
+			id: "752DB3D467FFB259"
+			tasks: [
+				{
+					id: "20ED22B19677C549"
+					item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
+					type: "item"
+				}
+				{
+					id: "5A59F28FB97067FB"
+					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AB4455F15DF1F84"]
+			icon: {
+				id: "naturesaura:calling_spirit"
+			}
+			id: "779AE777BBC999AD"
+			rewards: [{
+				count: 4
+				id: "102C3FBD2DE2848E"
+				item: {
+					count: 1
+					id: "naturesaura:calling_spirit"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A0409529F549EE5"
+					item: { count: 1, id: "naturesaura:offering_table" }
+					type: "item"
+				}
+				{
+					id: "0271A5B9C85AB38D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:small_flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["779AE777BBC999AD"]
+			id: "2287A9B19BC9DF8B"
+			tasks: [{
+				id: "78B7FE2EA6D6F0D7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(naturesaura:token_euphoria)item(naturesaura:token_terror)item(naturesaura:token_rage)item(naturesaura:token_grief))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+	]
 }

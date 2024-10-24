@@ -86,6 +86,24 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: ['enderio:industrial_insulation_block'],
             text: ['Absorbs and voids any fluids placed nearby.']
+        },
+        {
+            filter: ['naturesaura:vacuum_bottle'],
+            text: ['Use a Bottle and Cork in an area devoid of Aura.']
+        },
+        {
+            filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]')],
+            text: ['Use a Bottle and Cork in an area of high Aura in the Nether.']
+        },
+        {
+            filter: [
+                Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
+            ],
+            text: ['Use a Bottle and Cork in an area of high Aura in the Overworld.']
+        },
+        {
+            filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]')],
+            text: ['Use a Bottle and Cork in an area of high Aura in the End.']
         }
     ];
 

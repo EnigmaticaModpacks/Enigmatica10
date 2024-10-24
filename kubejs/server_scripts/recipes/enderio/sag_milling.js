@@ -98,6 +98,15 @@ ServerEvents.recipes((event) => {
             ],
             energy: 2400,
             id: `${id_prefix}black_quartz`
+        },
+        {
+            input: { tag: 'minecraft:smelts_to_glass' },
+            outputs: [
+                { item: { id: 'ae2:silicon', count: 1 } },
+                { item: { id: 'ae2:silicon', count: 1 }, chance: 0.15 }
+            ],
+            energy: 2400,
+            id: `enderio:sag_milling/sand`
         }
     ];
 
