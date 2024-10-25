@@ -55,10 +55,7 @@ ServerEvents.recipes((event) => {
         }
 
         if (recipe_id.includes('ritual/craft_budding_amethyst')) {
-            recipe.entity_to_sacrifice = {
-                display_name: 'ritual.occultism.sacrifice.flying_passive',
-                tag: 'occultism:flying_passive'
-            };
+            delete recipe.entity_to_sacrifice;
             recipe.ingredients = [
                 { tag: 'c:dusts/amethyst' },
                 { tag: 'c:dusts/amethyst' },
