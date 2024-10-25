@@ -557,5 +557,21 @@
 			x: 5.5d
 			y: 2.0d
 		}
+		{
+			id: "04217403B704949B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BB64B7EE70E9302"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "446D6081668C30D2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:ritual_satchel_t1)item(occultism:ritual_satchel_t2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
 	]
 }

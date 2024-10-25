@@ -100,6 +100,15 @@
 		""
 		"There are several uses for this, but when it comes to making Charms, there are two that are our focus; Amethyst Golems and Bookwyrms. The creation of both of these is detailed in the Tablet’s tooltip."
 	]
+	quest.04217403B704949B.quest_desc: [
+		"Tired of chalking out large pentacles by hand? Ritual Satchels make the process considerably easier."
+		""
+		"These come in two tiers, and both hold items related to rituals such as candles, bowls, crystals, and chalk. "
+		""
+		"With the first tier, you can Right-Click the satchel on the preview blocks from the Dictionary of Spirits’ pentacle previews to place that block from the Satchel’s inventory. This means you’ll automatically pick and place the correct color of chalk with ease and never accidentally place the wrong item."
+		""
+		"With the Artisanal Satchel, you can place an entire pentacle at once by clicking the Golden Sacrificial Bowl in the preview. Similarly, it’ll clean up a ritual by Right-Clicking the Golden Bowl again, storing everything neatly away in the Satchel."
+	]
 	quest.042650AE25DAC4CA.quest_desc: [
 		"With your Turbine upgraded, you’ll likely also need to upgrade your Steam Production. "
 		""
@@ -4118,6 +4127,7 @@
 	task.4315ED9269099C81.title: "Any Chest"
 	task.437A0173972D42B6.title: "Induction Matrix"
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
+	task.446D6081668C30D2.title: "Ritual Satchel"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4775BC243353527B.title: "Any Mining Gadget"
