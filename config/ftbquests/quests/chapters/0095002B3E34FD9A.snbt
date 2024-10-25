@@ -125,6 +125,9 @@
 				{
 					advancement: "occultism:occultism/summon_foliot_crusher"
 					criterion: ""
+					icon: {
+						id: "occultism:ritual_dummy/summon_foliot_crusher"
+					}
 					id: "0DAE4E6D7B7DC9FB"
 					type: "advancement"
 				}
@@ -195,6 +198,9 @@
 				{
 					advancement: "occultism:occultism/possess_endermite"
 					criterion: ""
+					icon: {
+						id: "occultism:ritual_dummy/possess_endermite"
+					}
 					id: "15BDBEA7237CBB17"
 					optional_task: true
 					type: "advancement"
@@ -391,6 +397,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/summon_djinni_crusher"
 				criterion: ""
+				icon: {
+					id: "occultism:ritual_dummy/summon_djinni_crusher"
+				}
 				id: "23F893300571CCAF"
 				type: "advancement"
 			}]

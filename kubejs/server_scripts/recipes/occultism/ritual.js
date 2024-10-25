@@ -10,12 +10,12 @@ ServerEvents.recipes((event) => {
             if (recipe_id.includes('_trader')) {
                 // Remove decay from Traders
                 delete recipe.spirit_max_age;
+                recipe.id = recipe_id;
             } else {
                 // Reduce delay for all other spirits (weather/daytime rituals)
                 recipe.spirit_max_age = 10;
+                recipe.id = recipe_id;
             }
-            recipe.id = recipe_id;
-            recipes.push(recipe);
         }
 
         if (recipe_id.includes('ritual/craft_wild_trim')) {
@@ -24,7 +24,6 @@ ServerEvents.recipes((event) => {
                 tag: 'c:llamas'
             };
             recipe.id = recipe_id;
-            recipes.push(recipe);
         }
 
         if (recipe_id.includes('ritual/possess_warden')) {
@@ -33,25 +32,18 @@ ServerEvents.recipes((event) => {
                 tag: 'c:bats'
             };
             recipe.id = recipe_id;
-            recipes.push(recipe);
         }
 
-        if (recipe_id.includes('ritual/possess_witch') || recipe_id.includes('ritual/possess_bee')) {
-            recipe.entity_to_sacrifice = {
-                display_name: 'ritual.occultism.sacrifice.flying_passive',
-                tag: 'occultism:flying_passive'
-            };
-            recipe.id = recipe_id;
-            recipes.push(recipe);
-        }
-
-        if (recipe_id.includes('ritual/possess_goat')) {
+        if (
+            recipe_id.includes('ritual/possess_goat') ||
+            recipe_id.includes('ritual/possess_witch') ||
+            recipe_id.includes('ritual/possess_bee')
+        ) {
             recipe.entity_to_sacrifice = {
                 display_name: 'ritual.occultism.sacrifice.chicken',
                 tag: 'c:chickens'
             };
             recipe.id = recipe_id;
-            recipes.push(recipe);
         }
 
         if (recipe_id.includes('ritual/craft_budding_amethyst')) {
@@ -63,6 +55,10 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/amethyst' }
             ];
             recipe.id = recipe_id;
+            recipes.push(recipe);
+        }
+
+        if (recipe.id) {
             recipes.push(recipe);
         }
     });
