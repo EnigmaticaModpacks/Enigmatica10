@@ -30,6 +30,12 @@ ServerEvents.recipes((event) => {
             output: 'occultism:otherplanks',
             output_count: 6,
             id: 'otherplanks'
+        },
+        {
+            input: 'naturesaura:ancient_logs',
+            output: 'naturesaura:ancient_planks',
+            output_count: 6,
+            id: 'ancient_planks'
         }
     ];
 

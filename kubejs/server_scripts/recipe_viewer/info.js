@@ -7,7 +7,7 @@ RecipeViewerEvents.addInformation('item', (event) => {
     Strikethrough   §m
     Underline       §n
     Italic          §o
-    Reset format    §r
+    Reset Format    §r
 
     Colors:
     Dark Red        §4
@@ -89,21 +89,68 @@ RecipeViewerEvents.addInformation('item', (event) => {
         },
         {
             filter: ['naturesaura:vacuum_bottle'],
-            text: ['Use a Bottle and Cork in an area devoid of Aura.']
+            text: ['Use a Bottle and Cork in an area devoid of Aura.', ' ', `Can be automated using a Dispenser.`]
         },
         {
             filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:nether"}]')],
-            text: ['Use a Bottle and Cork in an area of high Aura in the Nether.']
+            text: [
+                'Use a Bottle and Cork in an area of high Aura in the Nether.',
+                ' ',
+                `Can be automated using a Dispenser.`
+            ]
         },
         {
             filter: [
                 Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:overworld"}]')
             ],
-            text: ['Use a Bottle and Cork in an area of high Aura in the Overworld.']
+            text: [
+                'Use a Bottle and Cork in an area of high Aura in the Overworld.',
+                ' ',
+                `Can be automated using a Dispenser.`
+            ]
         },
         {
             filter: [Item.of('naturesaura:aura_bottle[naturesaura:aura_bottle_data={aura_type:"naturesaura:end"}]')],
-            text: ['Use a Bottle and Cork in an area of high Aura in the End.']
+            text: [
+                'Use a Bottle and Cork in an area of high Aura in the End.',
+                ' ',
+                `Can be automated using a Dispenser.`
+            ]
+        },
+        {
+            filter: ['naturesaura:gold_leaf'],
+            text: [`Obtained by breaking Golden Leaves.`]
+        },
+        {
+            filter: ['naturesaura:golden_leaves'],
+            text: [`Obtained by using Brilliant Fiber on leaves. Allow to spread for best effect.`]
+        },
+        {
+            filter: ['naturesaura:break_prevention'],
+            text: [
+                `When applied to a tool in an anvil, the tool will stop working when durability runs out instead of being destroyed.`
+            ]
+        },
+        {
+            filter: ['naturesaura:birth_spirit'],
+            text: [`Obtained by manually breeding animals in high Aura areas.`]
+        },
+        {
+            filter: ['naturesaura:projectile_generator'],
+            text: [
+                `Valid projectiles from least to most potent.`,
+                ` `,
+                `● Snowball`,
+                `● Egg`,
+                `● Arrow`,
+                `● Fire Charge`,
+                `● Spectral Arrow`,
+                `● Ender Pearl`,
+                `● Llama Spit`,
+                `● Bottle o' Enchanting`,
+                `● Shulker Bullet`,
+                `● Trident`
+            ]
         }
     ];
 
