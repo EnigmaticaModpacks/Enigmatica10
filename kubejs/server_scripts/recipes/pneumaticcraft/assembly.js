@@ -3,26 +3,26 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { tag: 'c:gems/certus_quartz', count: 1 },
-            result: { id: 'ae2:printed_calculation_processor', count: 2 },
+            input: { tag: 'c:gems/certus_quartz', count: 9 },
+            result: { id: 'ae2:printed_calculation_processor', count: 18 },
             program: 'laser',
             id: `${id_prefix}printed_calculation_processor`
         },
         {
-            input: { tag: 'c:gems/diamond', count: 1 },
-            result: { id: 'ae2:printed_engineering_processor', count: 2 },
+            input: { tag: 'c:gems/diamond', count: 9 },
+            result: { id: 'ae2:printed_engineering_processor', count: 18 },
             program: 'laser',
             id: `${id_prefix}printed_engineering_processor`
         },
         {
-            input: { tag: 'c:ingots/gold', count: 1 },
-            result: { id: 'ae2:printed_logic_processor', count: 2 },
+            input: { tag: 'c:ingots/gold', count: 9 },
+            result: { id: 'ae2:printed_logic_processor', count: 18 },
             program: 'laser',
             id: `${id_prefix}printed_logic_processor`
         },
         {
-            input: { tag: 'c:silicon', count: 1 },
-            result: { id: 'ae2:printed_silicon', count: 2 },
+            input: { tag: 'c:silicon', count: 9 },
+            result: { id: 'ae2:printed_silicon', count: 18 },
             program: 'drill',
             id: `${id_prefix}printed_silicon`
         },
