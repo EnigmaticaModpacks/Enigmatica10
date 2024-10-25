@@ -92,6 +92,13 @@ ServerEvents.recipes((event) => {
             pedestalItems: [],
             source: 500 * 3,
             id: `ars_nouveau:amethyst_block`
+        },
+        {
+            input: { item: 'minecraft:calcite' },
+            output: { id: 'minecraft:nautilus_shell', count: 1 },
+            pedestalItems: [{ tag: 'c:essences/manipulation' }, { item: 'minecraft:seagrass' }],
+            source: 500,
+            id: `${id_prefix}nautilus_shell`
         }
     ];
 
