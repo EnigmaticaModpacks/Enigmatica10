@@ -1,0 +1,28 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "72C4CB45CED49659"
+	loot_size: 2
+	order_index: 23
+	rewards: [
+		{ item: { count: 1, id: "naturesaura:ancient_sapling" } }
+		{ count: 16, item: { count: 1, id: "naturesaura:infused_stone" } }
+		{ count: 16, item: { count: 1, id: "naturesaura:ancient_log" } }
+		{ count: 8, item: { count: 1, id: "naturesaura:gold_powder" } }
+		{
+			auto: "invisible"
+			command: "/execute at @p run naaura add 100000"
+			icon: {
+				components: {
+					"ftbquests:icon": "naturesaura:block/aura_bloom"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			type: "command"
+		}
+	]
+}

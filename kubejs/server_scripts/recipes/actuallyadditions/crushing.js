@@ -1,7 +1,19 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:actuallyadditions/crushing/';
 
-    const recipes = [];
+    const recipes = [
+        {
+            ingredient: { tag: `minecraft:smelts_to_glass` },
+            result: [
+                { result: { id: 'ae2:silicon', count: 1 } },
+                {
+                    result: { id: 'ae2:silicon', count: 1 },
+                    chance: 0.25
+                }
+            ],
+            id: `${id_prefix}silicon`
+        }
+    ];
 
     let materials = [
         { primary: 'iron', secondary: 'nickel' },

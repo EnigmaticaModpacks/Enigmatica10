@@ -70,6 +70,12 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'minecraft:powder_snow_bucket', count: 1 }],
             pressure: 1.0,
             id: `${id_prefix}powder_snow_bucket`
+        },
+        {
+            inputs: [{ item: 'naturesaura:bottle_two_the_rebottling', count: 1 }],
+            results: [{ id: 'naturesaura:vacuum_bottle', count: 1 }],
+            pressure: -0.75,
+            id: `${id_prefix}vacuum_bottle`
         }
     ];
 
