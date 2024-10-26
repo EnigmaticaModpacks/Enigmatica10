@@ -149,11 +149,11 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["5AFA08920E94A02B"]
+			dependencies: ["66A24B8817411BBC"]
 			icon: {
 				id: "occultism:chalk_gold"
 			}
@@ -176,11 +176,14 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["73F9A5F65B350A09"]
+			dependencies: [
+				"73F9A5F65B350A09"
+				"5BD04F0109CB6704"
+			]
 			icon: {
 				components: {
 					"ftbquests:icon": "occultism:textures/gui/book/possession.png"
@@ -196,29 +199,26 @@
 			}]
 			tasks: [
 				{
-					advancement: "occultism:occultism/possess_endermite"
-					criterion: ""
 					icon: {
 						id: "occultism:ritual_dummy/possess_endermite"
 					}
-					id: "15BDBEA7237CBB17"
-					optional_task: true
-					type: "advancement"
+					id: "5DC14CAF06A7DB89"
+					observe_type: 5
+					timer: 0L
+					to_observe: "occultism:possessed_endermite"
+					type: "observation"
 				}
 				{
-					id: "6311184FD5551332"
+					id: "67AE828C97739094"
 					item: { count: 1, id: "minecraft:end_stone" }
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7D4E0F2BF07D3223"
-				"5BD04F0109CB6704"
-			]
+			dependencies: ["7D4E0F2BF07D3223"]
 			icon: {
 				id: "occultism:chalk_purple"
 			}
@@ -241,7 +241,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -258,8 +258,8 @@
 				item: { count: 1, id: "occultism:chalk_white" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["036036EA25034BE8"]
@@ -297,8 +297,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.0d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7D4E0F2BF07D3223"]
@@ -323,11 +323,11 @@
 				id: "2E36960EEF1F294E"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: 2.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["5A355C35CB5B24D8"]
+			dependencies: ["253C97A20FD517DC"]
 			id: "3AA1319E962A47C0"
 			rewards: [{
 				id: "3F42DE17AA909C9E"
@@ -342,8 +342,8 @@
 				item: { count: 1, id: "occultism:infused_pickaxe" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["036036EA25034BE8"]
@@ -359,11 +359,11 @@
 				item: { count: 1, id: "occultism:otherworld_goggles" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 8.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["036036EA25034BE8"]
+			dependencies: ["253C97A20FD517DC"]
 			icon: {
 				components: {
 					"ftbquests:icon": "occultism:textures/gui/book/summoning.png"
@@ -386,8 +386,8 @@
 				id: "23F893300571CCAF"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3AA1319E962A47C0"]
@@ -412,8 +412,8 @@
 				item: { count: 1, id: "occultism:iesnium_pickaxe" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["770EE92EA4CF973C"]
@@ -431,11 +431,11 @@
 				item: { count: 1, id: "occultism:miner_foliot_unspecialized" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["036036EA25034BE8"]
+			dependencies: ["75208FCBFF1CFB5F"]
 			icon: {
 				id: "occultism:chalk_red"
 			}
@@ -452,8 +452,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 0.0d
+			x: 11.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["67835A69ECDC692D"]
@@ -479,11 +479,11 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 0.5d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["036036EA25034BE8"]
+			dependencies: ["73F9A5F65B350A09"]
 			id: "16F69571092CAB9A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -518,7 +518,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -537,11 +537,11 @@
 				item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["73F9A5F65B350A09"]
+			dependencies: ["036036EA25034BE8"]
 			id: "04217403B704949B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -554,8 +554,52 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:ritual_satchel_t1)item(occultism:ritual_satchel_t2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E60A0AF20C146CA"]
+			id: "253C97A20FD517DC"
+			tasks: [{
+				id: "4D38965975F0EBE1"
+				item: { count: 1, id: "occultism:chalk_lime" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["253C97A20FD517DC"]
+			id: "75208FCBFF1CFB5F"
+			tasks: [{
+				id: "11A8A7A360381528"
+				item: { count: 1, id: "occultism:chalk_orange" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["036036EA25034BE8"]
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/possession.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5E60A0AF20C146CA"
+			tasks: [{
+				icon: {
+					id: "occultism:ritual_dummy/possess_witch"
+				}
+				id: "7F9D8EE2682A14C6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "occultism:possessed_witch"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -1.0d
 		}
 	]
 }

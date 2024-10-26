@@ -90,11 +90,11 @@
 		"&6    order!"
 	]
 	quest.036036EA25034BE8.quest_desc: [
-		"Our third variant of chalk, Purple Chalk grants access to some powerful binding rituals. "
+		"Infusion Rituals generally are used for confining a spirit into an object, thus granting that object special powers. "
 		""
-		"These are capable of handling the mighty Djinni whose control over time and weather is unrivaled."
+		"All of these Rituals will need Purple Chalk as a base."
 	]
-	quest.036036EA25034BE8.title: "Purple Chalk"
+	quest.036036EA25034BE8.title: "Infusion Rituals: Purple Chalk"
 	quest.03DFAA759B4E653E.quest_desc: [
 		"The Tablet of Awakening can infuse inanimate objects with Source, bringing them to some semblance of life. "
 		""
@@ -738,11 +738,9 @@
 		"You can find the respective rituals for these by looking up the recipes for them in EMI."
 		""
 		"&6⚠ Note: These rituals often require a "
-		"&6    sacrifice. "
-		""
-		"&6    Trigger the ritual normally then kill"
-		"&6    the requested creature near the"
-		"&6    pentacle. "
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the requested mob "
+		"&6    near the pentacle. "
 	]
 	quest.16F69571092CAB9A.title: "Uncommon Materials"
 	quest.176DAF596793D4FF.quest_desc: [
@@ -1078,6 +1076,11 @@
 		""
 		"&a🛈 Tip: The Drill will never dry up with a"
 		"&a    Water Bucket in your inventory!"
+	]
+	quest.253C97A20FD517DC.quest_desc: [
+		"Crafting Lime chalk will generally allow you to empower your Pentacles to the next level. For instance, it can be used to upgrade Aviar’s Circle, used for prior summons, to Ophyx’ Calling. "
+		""
+		"These new pentacles offers control over Djinni but will work for lesser spirits as well. "
 	]
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
@@ -2513,11 +2516,9 @@
 		"With a little help from our Spirit friends, they can be brought straight to us!"
 		""
 		"&6⚠ Note: These rituals often require a "
-		"&6    sacrifice. "
-		""
-		"&6    Trigger the ritual normally then kill"
-		"&6    the requested creature near the"
-		"&6    pentacle. "
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the requested mob "
+		"&6    near the pentacle. "
 	]
 	quest.4E7DA28C54FB8766.title: "Rare Materials"
 	quest.4E84D317021F7881.quest_desc: [
@@ -2992,7 +2993,7 @@
 		"&a🛈 Tip: Requires a clear view of the sky."
 	]
 	quest.5DF2A3E977D4C11B.quest_desc: [
-		"Welcome to Occultism, a mod all about summoning Spirits for personal gain."
+		"Welcome to Occultism, a mod all about summoning Spirits through Ritual Pentacles for personal gain."
 		""
 		"Here-in, we’ll walk you through the basic progression through Occultism, from making first contact with Spirits to Dimensional Storage and more!"
 		""
@@ -3000,6 +3001,7 @@
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
+	quest.5E60A0AF20C146CA.title: "Summon: Possessed Witch"
 	quest.5E84329A59955F29.quest_desc: [
 		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
 		""
@@ -3199,6 +3201,11 @@
 		"&a    more connections!"
 	]
 	quest.66A24B8817411BBC.quest_desc: [
+		"Occultism has several Foundation Chalks that are used as the basis for each tier of pentacle; these consist of White, Light Gray, Gray, and Black. "
+		""
+		"As you get into more powerful rituals, you’ll need to start using the darker shades. For now, however, you will want to start with White, the simplest and lowest tier Foundation."
+		"&n                                                  &r"
+		""
 		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
 		""
 		"We’ll need it for summoning up some friends."
@@ -3257,12 +3264,10 @@
 		""
 		"Set up Abra’s Open Conjure to summon an Afrit, then defeat it in combat to obtain its essence."
 		""
-		"&6⚠ Note: This ritual requires a "
-		"&6    sacrifice. "
-		""
-		"&6    Trigger the ritual normally then kill"
-		"&6    the requested creature near the"
-		"&6    pentacle. "
+		"&6⚠ Note: These rituals often require a "
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the requested mob "
+		"&6    near the pentacle. "
 	]
 	quest.67835A69ECDC692D.title: "Red Chalk"
 	quest.679DACB985517C55.quest_desc: [
@@ -3672,7 +3677,7 @@
 		""
 		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a quick bit of it."
 	]
-	quest.73F9A5F65B350A09.title: "Golden Chalk"
+	quest.73F9A5F65B350A09.title: "Possession Rituals: Golden Chalk"
 	quest.7431B398FFDF3DCA.quest_desc: [
 		"With a Potion of Mutation set to the proper mob type, you’re ready for the next step. "
 		""
@@ -3734,11 +3739,9 @@
 		"For full details on these and other Familiars, refer to the Dictionary of Spirits under Familiar Rituals. "
 		""
 		"&6⚠ Note: These rituals often require a "
-		"&6    sacrifice. "
-		""
-		"&6    Trigger the ritual normally then kill"
-		"&6    the requested creature near the"
-		"&6    pentacle. "
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the requested mob "
+		"&6    near the pentacle. "
 		""
 		"{@pagebreak}"
 		"Combat"
@@ -3993,6 +3996,7 @@
 		"&a🛈 Tip: Items can be piped into the "
 		"&a    bowls too! "
 	]
+	quest.7D4E0F2BF07D3223.title: "Summon: Possessed Endermite"
 	quest.7D82585D50D7207A.quest_desc: [
 		"Welcome to Applied Energistics, a powerful logistics and storage mod with fully integrated autocrafting that can interface with any other mod."
 		""
@@ -4082,7 +4086,6 @@
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
-	task.15BDBEA7237CBB17.title: "Summon: Possessed Endermite"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
@@ -4151,6 +4154,7 @@
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
+	task.5DC14CAF06A7DB89.title: "Observe: Possessed Endermite"
 	task.5F727F447B0B4623.title: "Just Dire Things Tools"
 	task.5FAB53ACB4BF565C.title: "Fluid Modules"
 	task.5FD7075685BB37AD.title: "Generators"
@@ -4185,5 +4189,6 @@
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"
+	task.7F9D8EE2682A14C6.title: "Observe: Possessed Witch"
 	task.7FC1B66AFF268BF8.title: "Dense Covered Cables"
 }
