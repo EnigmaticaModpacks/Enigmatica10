@@ -363,23 +363,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["73F9A5F65B350A09"]
-			id: "375460FD4D4407FF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A7B9DC05464541B"
-				table_id: 2884263910044023563L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "282157F7B5CFEF7B"
-				item: { count: 1, id: "occultism:satchel" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["036036EA25034BE8"]
 			icon: {
 				components: {
@@ -558,6 +541,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["73F9A5F65B350A09"]
 			id: "04217403B704949B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -570,8 +554,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:ritual_satchel_t1)item(occultism:ritual_satchel_t2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }
