@@ -16,8 +16,7 @@ ServerEvents.recipes((event) => {
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
         { mod: 'cobblegengalore' },
         { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ },
-        { id: /industrialforegoing:laser_drill_ore.*yellor(ite|ium)/ },
-        { id: 'mekanism:nucleosynthesizing/nautilus_shell' }
+        { id: /industrialforegoing:laser_drill_ore.*yellor(ite|ium)/ }
     ];
 
     recipes.forEach((recipe) => {
