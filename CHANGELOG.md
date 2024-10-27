@@ -16,6 +16,7 @@
 -   Some occultism rituals have had their sacrifices substituted to be more accessible [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
 -   Nature's Aura can now summon Armadillos and Rabbits can be summoned with easier ingredients [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
 -   Document where Armadillo Scutes come from in EMI [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+-   Occultism quests have been updated to match its new progression [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
 
 ---
 
