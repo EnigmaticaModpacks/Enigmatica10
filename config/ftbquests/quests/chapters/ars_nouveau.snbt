@@ -719,5 +719,22 @@
 			x: 4.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["1DA29F3B45DEFB4B"]
+			id: "7B6267C141FE9B83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54FC6DC4D6124B71"
+				table_id: 8645512365595340409L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25BE4114F4FA8BC6"
+				item: { count: 1, id: "ars_nouveau:alakarkinos_charm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
 	]
 }

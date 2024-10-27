@@ -99,6 +99,7 @@
 		"&6    to 'use' or throw a Trident after "
 		"&6    triggering the ritual."
 	]
+	quest.0200E313AEB3A08A.title: "Blue Chalk"
 	quest.0227D9EC391788D6.quest_desc: [
 		"Tired of looking at exposed cables everywhere?"
 		""
@@ -289,6 +290,7 @@
 		""
 		"Summon a Wither and find a way to get it to kill some animals, such as Chickens and Pigs."
 	]
+	quest.09E62BC1615D5B9B.title: "Black Chalk"
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -4096,6 +4098,11 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.7B5EB5D6F749520F.title: "Thermoelectric Boiler"
+	quest.7B6267C141FE9B83.quest_desc: [
+		"These dapper ocean critters have a knack for digging up lost treasures from sand. "
+		""
+		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
+	]
 	quest.7B72C58C799D90A5.quest_desc: [
 		"If you’ve needed to move your pentacles around a bit, you may be finding that some of your Chalks are looking rather worn. "
 		""
