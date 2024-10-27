@@ -142,7 +142,9 @@
 		""
 		"These come in two tiers, and both hold items related to rituals such as candles, bowls, crystals, and chalk. "
 		""
-		"With the first tier, you can Right-Click the satchel on the preview blocks from the Dictionary of Spirits’ pentacle previews to place that block from the Satchel’s inventory. This means you’ll automatically pick and place the correct color of chalk with ease and never accidentally place the wrong item."
+		"While viewing a preview of a pentacle from the Dictionary of Spirits, the Satchel may be used to quickly place the required items."
+		""
+		"With the first tier, you can Right-Click the Satchel on the ghost blocks to place that block from the Satchel’s inventory. This means you’ll automatically pick and place the correct color of chalk with ease and never accidentally place the wrong item."
 		""
 		"With the Artisanal Satchel, you can place an entire pentacle at once by clicking the Golden Sacrificial Bowl in the preview. Similarly, it’ll clean up a ritual by Right-Clicking the Golden Bowl again, storing everything neatly away in the Satchel."
 	]
