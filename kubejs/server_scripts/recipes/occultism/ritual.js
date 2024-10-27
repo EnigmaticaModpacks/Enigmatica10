@@ -49,7 +49,6 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/amethyst' }
             ];
             recipe.id = recipe_id;
-            recipes.push(recipe);
         } else if (recipe_id.includes('ritual/repair_miners')) {
             recipe.ingredients = [
                 { item: 'occultism:otherworld_essence' },
@@ -62,7 +61,6 @@ ServerEvents.recipes((event) => {
                 { item: 'occultism:spirit_attuned_gem' }
             ];
             recipe.id = recipe_id;
-            recipes.push(recipe);
         } else if (recipe_id.includes('ritual/repair_armors') || recipe_id.includes('ritual/repair_tools')) {
             recipe.ingredients = [
                 { item: 'occultism:otherworld_essence' },
@@ -71,7 +69,6 @@ ServerEvents.recipes((event) => {
                 { item: 'occultism:otherworld_essence' }
             ];
             recipe.id = recipe_id;
-            recipes.push(recipe);
         } else if (recipe_id.includes('ritual/repair_chalks')) {
             recipe.ingredients = [
                 { item: 'occultism:otherworld_essence' },
@@ -80,7 +77,32 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/otherstone' }
             ];
             recipe.id = recipe_id;
-            recipes.push(recipe);
+        } else if (recipe_id.includes('ritual/craft_gray_paste')) {
+            recipe.ingredients = [
+                { tag: 'c:gunpowders' },
+                { item: 'minecraft:clay_ball' },
+                { item: 'minecraft:phantom_membrane' },
+                { item: 'minecraft:clay_ball' }
+            ];
+            recipe.id = recipe_id;
+        } else if (recipe_id.includes('ritual/wild_drowned')) {
+            recipe.entity_to_sacrifice = { display_name: 'ritual.occultism.sacrifice.fish', tag: 'c:fish' };
+            recipe.activation_item = { tag: 'minecraft:coral_blocks' };
+            recipe.ingredients = [
+                { item: 'minecraft:pufferfish' },
+                { item: 'minecraft:gravel' },
+                { item: 'minecraft:dried_kelp_block' },
+                { item: 'minecraft:gravel' }
+            ];
+            recipe.id = recipe_id;
+        } else if (recipe_id.includes('ritual/possess_zombie_piglin')) {
+            recipe.ingredients = [
+                { item: 'minecraft:gilded_blackstone' },
+                { item: 'minecraft:warped_fungus' },
+                { item: 'minecraft:quartz' },
+                { item: 'minecraft:crimson_fungus' }
+            ];
+            recipe.id = recipe_id;
         }
 
         if (recipe.id) {

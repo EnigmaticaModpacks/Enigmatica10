@@ -52,6 +52,30 @@
 		"&a🛈 Tip: Search &3@chisel&r &ain EMI to "
 		"&a    discover more."
 	]
+	quest.0137F3BC00426B0B.quest_desc: [
+		"As we continue our quest to summon and control Afrit, we first need to locate a flower long thought lost to this world; the Torchflower."
+		""
+		"We'll need some help from a Sniffer on this one. Hatch one and it should dig up some Torchflower seeds in no time."
+		""
+		"&a🛈 Tip: Torchflowers may also be "
+		"&a    found in the Hanging Gardens"
+		"&a    of the Bumblezone!"
+		""
+		"With Osirin's Wild Calling, we’re able to call forth a Horde of Wild Drowned. They will drop a Sniffer Egg upon defeating them. "
+		"&n                                                  &r"
+		""
+		"Find Osirin's Wild Calling in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
+		""
+		"&a🛈 Tip: The shape of individual chalk "
+		"&a    marks is random and doesn’t "
+		"&a    affect the ritual!"
+		""
+		"&6⚠ Note: This ritual requires a"
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the required mob "
+		"&6    near the pentacle. "
+	]
+	quest.0137F3BC00426B0B.title: "Possession: Drowned"
 	quest.015857940250CE8D.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer fluid bi-directionally. They can also be used to place fluid in the world. "
 		""
@@ -63,6 +87,18 @@
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
+	quest.0200E313AEB3A08A.quest_desc: [
+		"Being among the most powerful of spirits, Marid can be quite difficult to bind. "
+		""
+		"Like Afrit, we’ll need a chalk that has been specially infused with their essence."
+		"&n                                                  &r"
+		""
+		"Set up Abra’s Fortified Conjure to summon an Unbound Marid, then defeat it in combat to obtain its essence."
+		""
+		"&6⚠ Note: This ritual requires you "
+		"&6    to 'use' or throw a Trident after "
+		"&6    triggering the ritual."
+	]
 	quest.0227D9EC391788D6.quest_desc: [
 		"Tired of looking at exposed cables everywhere?"
 		""
@@ -243,6 +279,16 @@
 		"&a🛈 Tip: Source is optional!"
 	]
 	quest.09C3C5173499DF7C.title: "Essences"
+	quest.09E62BC1615D5B9B.quest_desc: [
+		"The final Foundation Chalk, Black Chalk is required for controlling some of the most powerful spirits; Marids. "
+		""
+		"One particularly notable ingredient in this wicked chalk is the highly dangerous Wither Rose. "
+		""
+		"Obtaining these is quite simple once you know the trick; you simply need to sacrifice some livestock to a Wither."
+		"&n                                                  &r"
+		""
+		"Summon a Wither and find a way to get it to kill some animals, such as Chickens and Pigs."
+	]
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -743,6 +789,12 @@
 		"&6    near the pentacle. "
 	]
 	quest.16F69571092CAB9A.title: "Uncommon Materials"
+	quest.1729DEB43163CC9D.quest_desc: [
+		"With these three chalks, a very special pentacle may be formed: Osirin’s Unbound Calling. "
+		""
+		"This pentacle will allow you to call forth hordes of wild creatures intent on your destruction. Best them and you’ll receive some very special rewards!"
+	]
+	quest.1729DEB43163CC9D.title: "Wild Spirits"
 	quest.176DAF596793D4FF.quest_desc: [
 		"While Nuclear Waste can be stored and safely disposed of in Waste Barrels, it is better off being re-processed into Polonium or Plutonium."
 		""
@@ -1078,10 +1130,16 @@
 		"&a    Water Bucket in your inventory!"
 	]
 	quest.253C97A20FD517DC.quest_desc: [
-		"Crafting Lime chalk will generally allow you to empower your Pentacles to the next level. For instance, it can be used to upgrade Aviar’s Circle, used for prior summons, to Ophyx’ Calling. "
+		"With Lime and Light Gray Chalk in our possession, we’ll be able to upgrade each of our pentacles to handle Djinni. "
 		""
-		"These new pentacles offers control over Djinni but will work for lesser spirits as well. "
+		"Remember that higher tier pentacles may still be used for lower tier crafts. "
+		""
+		"So, while these pentacles will grow in size, you won’t need dozens of different ones scattered around to handle future rituals. "
+		"&n                                                  &r"
+		""
+		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
 	]
+	quest.253C97A20FD517DC.title: "Djinni Tier Chalk"
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
@@ -1212,6 +1270,13 @@
 		""
 		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
+	quest.2A1AD751A9C6BF2B.quest_desc: [
+		"&6⚠ Note: These rituals often require a "
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the requested mob "
+		"&6    near the pentacle. "
+	]
+	quest.2A1AD751A9C6BF2B.title: "Rare Materials"
 	quest.2A2D51206676A83C.quest_desc: [
 		"We see you there, looking at that hive, wondering what might be going on inside. "
 		""
@@ -1402,10 +1467,12 @@
 	quest.34E95009CEB72776.quest_desc: [
 		"A Magic Lamp provides Spirits with a comfortable interface between our world and theirs. By binding one to a lamp, they can be set to work mining for a period of time. "
 		""
-		"Place the Lamp in a Dimensional Mineshaft. It will produce materials slowly over time until the lamp eventually breaks. "
+		"Place the Lamp in a Dimensional Mineshaft. It will produce materials slowly over time. "
 		""
-		"&a🛈 Tip: Ore can be extracted from the "
-		"&a    bottom of the Mineshaft."
+		"These lamps are able to break, but before they do the Dimensional Mineshaft will attempt to move it to an output slot, allowing for easy extraction and repair. If all output slots are full, however, the lamp may well be lost!"
+		""
+		"&a🛈 Tip: Items can be extracted from  "
+		"&a    the bottom of the Mineshaft."
 	]
 	quest.34F48A8F71A7C937.quest_desc: [
 		"Ender Crates represent an upgrade over Ender Chests. Not only can they be accessed by automation and logistics, but they can also be separated into multiple channels based on their name."
@@ -2520,7 +2587,7 @@
 		"&6    usual, then kill the requested mob "
 		"&6    near the pentacle. "
 	]
-	quest.4E7DA28C54FB8766.title: "Rare Materials"
+	quest.4E7DA28C54FB8766.title: "Epic Materials"
 	quest.4E84D317021F7881.quest_desc: [
 		"Tired of the rain? The Cloudshifter can be used to quickly clear the clouds away. "
 		""
@@ -2631,6 +2698,26 @@
 		""
 		"&a🛈 Tip: The Generators automatically power adjacent blocks."
 	]
+	quest.522F51F7AC6DAB52.quest_desc: [
+		"Our next step will take us into Djinni territory with Lime Chalk. However, to get there we’re going to need some Bottes o’ Enchanting."
+		""
+		"Using Ihagan's Enthrallment, we’re able to call forth a Djinni to possess a Bee. This Possessed Bee is the only known source for a particularly cursed honey. "
+		""
+		"Maybe don't eat it."
+		"&n                                                  &r"
+		""
+		"Find Ihagan's Enthrallment in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
+		""
+		"&a🛈 Tip: The shape of individual chalk "
+		"&a    marks is random and doesn’t "
+		"&a    affect the ritual!"
+		""
+		"&6⚠ Note: This ritual requires a"
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the required mob "
+		"&6    near the pentacle. "
+	]
+	quest.522F51F7AC6DAB52.title: "Possession: Bee"
 	quest.526BF0840C65855F.quest_desc: [
 		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
 		""
@@ -3001,7 +3088,19 @@
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
-	quest.5E60A0AF20C146CA.title: "Summon: Possessed Witch"
+	quest.5E60A0AF20C146CA.quest_desc: [
+		"Our next step will take us into Djinni territory with Lime Chalk. However, to get there we’re going to need some Bottes o’ Enchanting."
+		""
+		"Returning to Hedyrin’s Lure, we’re able to call forth a Foliot to possess a Witch. This Possessed Witch will drop the bottles we're after when killed. "
+		"&n                                                  &r"
+		""
+		"Find Hedyrin’s Lure in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
+		""
+		"&a🛈 Tip: The shape of individual chalk "
+		"&a    marks is random and doesn’t "
+		"&a    affect the ritual!"
+	]
+	quest.5E60A0AF20C146CA.title: "Possession: Witch"
 	quest.5E84329A59955F29.quest_desc: [
 		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
 		""
@@ -3120,6 +3219,12 @@
 		"For machine crafting, or Processing Patterns, the Provider should be placed facing that machine. It can also feed into any inventory and you can pipe items from there. For example, an array of Furnaces could be fed by a single Provider pushing into a chest. Pipes would then carry items and distribute them amongst the Furnaces."
 	]
 	quest.631AA5AAA6EF687C.title: "Autocrafting"
+	quest.6379BB1E5393B34B.quest_desc: [
+		"Afrit are exceptional artisans known throughout the realms for their delicate workmanship. As such, it is a simple thing for them to repair most Tools and Armor. "
+		""
+		"Of particular interest, however, is their ability to work with and restore Mining Lamps. Be sure to bring them your precious Miner’s before they break!"
+	]
+	quest.6379BB1E5393B34B.title: "Ritual: Repair Tools, Armor, and Miners"
 	quest.6384F08466CA9FB9.quest_desc: [
 		"The Redstone Aura Vaporizer is, quite simply, a clock. "
 		""
@@ -3203,13 +3308,14 @@
 	quest.66A24B8817411BBC.quest_desc: [
 		"Occultism has several Foundation Chalks that are used as the basis for each tier of pentacle; these consist of White, Light Gray, Gray, and Black. "
 		""
-		"As you get into more powerful rituals, you’ll need to start using the darker shades. For now, however, you will want to start with White, the simplest and lowest tier Foundation."
+		"As you get into more powerful rituals, you’ll be obliged to use the darker shades. For now, however, you will want to start with White, the simplest and lowest tier Foundation Chalk."
 		"&n                                                  &r"
 		""
 		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
 		""
 		"We’ll need it for summoning up some friends."
 	]
+	quest.66A24B8817411BBC.title: "Basic Pentacles"
 	quest.66AE19141D8F5604.quest_desc: [
 		"Compared to Fission, Fusion is child's play to operate. After-all, that’s why we’ve made the most powerful computers in the world."
 		""
@@ -3257,16 +3363,14 @@
 	quest.67782CB855950CD6.quest_desc: ["Another milestone material like Steel, HDPE is produced from Ethene and is used to craft many advanced machines as well as upgrades for the Meka-Suit. "]
 	quest.67782CB855950CD6.title: "HDPE"
 	quest.67835A69ECDC692D.quest_desc: [
-		"Red Chalk, our final tier of chalk, is infused with the very essence of the Afrit. "
-		""
-		"As such, it can be used in rituals to bind even the most powerful of Spirits."
+		"Red Chalk is infused with the very essence of the Afrit, granting it sufficient power to bind Afrit and lesser spirits."
 		"&n                                                  &r"
 		""
-		"Set up Abra’s Open Conjure to summon an Afrit, then defeat it in combat to obtain its essence."
+		"Set up Abra’s Open Conjure to summon an Unbound Afrit, then defeat it in combat to obtain its essence."
 		""
-		"&6⚠ Note: These rituals often require a "
+		"&6⚠ Note: This ritual requires a"
 		"&6    sacrifice. Trigger the ritual as"
-		"&6    usual, then kill the requested mob "
+		"&6    usual, then kill the required mob "
 		"&6    near the pentacle. "
 	]
 	quest.67835A69ECDC692D.title: "Red Chalk"
@@ -3454,6 +3558,7 @@
 		"&a🛈 Tip: Point Stabilizers at the crystal "
 		"&a    floating above the Actuator. "
 	]
+	quest.6BDA1C1BE04D541A.title: "Dimensional Storage"
 	quest.6CC9CDCCDE1426AC.quest_desc: [
 		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
 		""
@@ -3628,6 +3733,23 @@
 		"&a🛈 Tip: The Inscriber can be powered directly "
 		"&a    from any source of FE or EU."
 	]
+	quest.72BD11ED57B26EA2.quest_desc: [
+		"Using the various Wild Summons, some very special materials may be obtained, including Pottery Sherds, Smithing Templates, and all the items shown above. "
+		""
+		"Need Wither Skulls? Call forth the Wild Hunt!"
+		""
+		"Totems of Undying? Summon a miniature Illager Raid!"
+		""
+		"Looking for elusive Turtle or Sniffer eggs? Mayhap a Trident? Summon a Wild Horde of Drowned!"
+		""
+		"In any case, be prepared for a fight, as these summons do not come alone. "
+		""
+		"&6⚠ Note: These rituals often require a "
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the requested mob "
+		"&6    near the pentacle. "
+	]
+	quest.72BD11ED57B26EA2.title: "Wild Materials"
 	quest.72C1A824063BAFA3.quest_desc: [
 		"Caretakers of natural spaces, Drygmies roam the lands tending to animals to maintain balance. They’ll willingly join your menagerie if you give them a Wilden Horn, thus showing your commitment to maintaining order."
 		""
@@ -3670,12 +3792,10 @@
 	quest.73F9A5F65B350A09.quest_desc: [
 		"With White Chalk, we can practice only the most basic summons. "
 		""
-		"Obtaining some Glowstone and crafting Golden Chalk will open the way to Infusion and Possession rituals, whereby Spirits will be bound into items or other entities, respectively. "
-		""
-		"Golden Chalk will also enable us to summon more powerful Spirits from the Otherworld. "
+		"Obtaining some Glowstone and crafting Golden Chalk will open the way to Possession and eventually Infusion rituals, whereby Spirits will be bound into other entities or into items, respectively. "
 		"&n                                                  &r"
 		""
-		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a quick bit of it."
+		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a small sample of it."
 	]
 	quest.73F9A5F65B350A09.title: "Possession Rituals: Golden Chalk"
 	quest.7431B398FFDF3DCA.quest_desc: [
@@ -3780,6 +3900,14 @@
 		"  • Devil: Fire Resistance"
 	]
 	quest.750FEAA1A27892FF.title: "Familiars"
+	quest.75208FCBFF1CFB5F.quest_desc: [
+		"This Orange Chalk is particularly good at attracting Afrit, but utterly incapable of binding them. We’ll need some of their essence before we can get to that.  "
+		""
+		"With this and some Gray Chalk, we’re ready to expand our pentacles once more and begin summoning ever more powerful spirits!"
+		"&n                                                  &r"
+		""
+		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
+	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
 	quest.752DB3D467FFB259.quest_desc: [
@@ -3942,6 +4070,8 @@
 		"Djinni Crushers are considerably more powerful than their Foliot cousins. "
 		""
 		"As such, they’re able to work faster and more efficiently, gaining more yield from crushing ores than the Foliot."
+		""
+		"While working through higher tiers of Occultism's progression, be sure to keep your Crusher Spirit upgraded to the highest tier to get the most out of it!"
 	]
 	quest.79FA7B5854C9606F.quest_desc: [
 		"The Anti-Field Orb and Block both function to suppress certain genes; specifically the Item Attraction and XP Attraction traits."
@@ -3962,6 +4092,11 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.7B5EB5D6F749520F.title: "Thermoelectric Boiler"
+	quest.7B72C58C799D90A5.quest_desc: [
+		"If you’ve needed to move your pentacles around a bit, you may be finding that some of your Chalks are looking rather worn. "
+		""
+		"Allowing them to break simply won’t do. Take a moment to repair them with this ritual every now and then to ensure your precious chalks aren’t lost. "
+	]
 	quest.7BEE7FAD21AFEB68.quest_desc: [
 		"With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. "
 		""
@@ -3977,26 +4112,17 @@
 		"With Hedyrin’s Lure, we’re able to call forth a Foliot to possess an Endermite. This Endermite, when slain, will always provide the End Stone we need."
 		"&n                                                  &r"
 		""
-		"Find Hedyrin’s Lure in the Dictionary of Spirits, and click the 👁 in the preview to visualize it in-world."
+		"Find Hedyrin’s Lure in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
 		""
 		"&a🛈 Tip: The shape of individual chalk "
 		"&a    marks is random and doesn’t "
 		"&a    affect the ritual!"
 		""
-		"The Sacrificial Bowls can go in any free space in a roughly eight block radius from the Golden Sacrificial Bowl, even outside of the pentacle. "
-		""
-		"Next, put the ingredients in the Sacrificial Bowls, as shown in EMI; their relative position do not matter, they can go in any bowl."
-		""
-		"The item in the Golden Sacrificial Bowl will go last and will trigger the ritual."
-		""
 		"&6⚠ Note: This ritual also requires you "
 		"&6    to 'use' or throw an egg after "
 		"&6    triggering the ritual."
-		""
-		"&a🛈 Tip: Items can be piped into the "
-		"&a    bowls too! "
 	]
-	quest.7D4E0F2BF07D3223.title: "Summon: Possessed Endermite"
+	quest.7D4E0F2BF07D3223.title: "Possession: Endermite"
 	quest.7D82585D50D7207A.quest_desc: [
 		"Welcome to Applied Energistics, a powerful logistics and storage mod with fully integrated autocrafting that can interface with any other mod."
 		""
@@ -4075,6 +4201,7 @@
 	task.073DDF6031485D23.title: "Covered Cables"
 	task.0767C8200D0389A6.title: "Essences"
 	task.07D8961C49D02845.title: "Archwood Saplings"
+	task.0A88D092C4C370AC.title: "Observe: Possessed Drowned"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
@@ -4111,6 +4238,7 @@
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
+	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
@@ -4125,7 +4253,7 @@
 	task.4315ED9269099C81.title: "Any Chest"
 	task.437A0173972D42B6.title: "Induction Matrix"
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
-	task.446D6081668C30D2.title: "Ritual Satchel"
+	task.446D6081668C30D2.title: "Ritual Satchels"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4775BC243353527B.title: "Any Mining Gadget"

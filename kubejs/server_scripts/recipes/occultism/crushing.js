@@ -51,6 +51,16 @@ ServerEvents.recipes((event) => {
                 count: 2
             },
             id: `${id_prefix}black_quartz`
+        },
+        {
+            ingredient: { item: 'minecraft:glow_berries' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'minecraft:glowstone_dust',
+                count: 1
+            },
+            id: `${id_prefix}glowstone_dust`
         }
     ];
 
