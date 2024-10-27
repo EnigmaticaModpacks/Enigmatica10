@@ -1271,6 +1271,10 @@
 		"[\"Refer to the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../pneumaticcraft-safe-compressor-usage#compressing-air-and-basic-control\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Safe Compressor Usage\",\"underlined\":true},\" article on our wiki for more information.\"]"
 	]
 	quest.2A1AD751A9C6BF2B.quest_desc: [
+		"These materials are needed quite often in recipes but can be troublesome to put your hands on at times. "
+		""
+		"Good thing we have friends on the Other side. "
+		""
 		"&6⚠ Note: These rituals often require a "
 		"&6    sacrifice. Trigger the ritual as"
 		"&6    usual, then kill the requested mob "

@@ -29,6 +29,14 @@ ServerEvents.recipes((event) => {
                 display_name: 'ritual.occultism.sacrifice.bats',
                 tag: 'c:bats'
             };
+            recipe.ingredients = [
+                { item: 'minecraft:sculk' },
+                { item: 'minecraft:sculk' },
+                { item: 'minecraft:sculk' },
+                { item: 'minecraft:sculk' },
+                { item: 'minecraft:sculk' },
+                { item: 'minecraft:sculk' }
+            ];
             recipe.id = recipe_id;
         } else if (
             recipe_id.includes('ritual/possess_goat') ||

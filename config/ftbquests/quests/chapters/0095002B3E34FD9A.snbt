@@ -543,7 +543,7 @@
 				item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -756,13 +756,10 @@
 			dependencies: ["253C97A20FD517DC"]
 			id: "2A1AD751A9C6BF2B"
 			rewards: [{
-				count: 4
-				id: "12C7DD8EA62E9464"
-				item: {
-					count: 1
-					id: "minecraft:netherite_ingot"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2B48012EF0CE064F"
+				table_id: 2884263910044023563L
+				type: "loot"
 			}]
 			tasks: [
 				{
