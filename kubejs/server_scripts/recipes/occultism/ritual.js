@@ -111,6 +111,10 @@ ServerEvents.recipes((event) => {
                 { item: 'minecraft:crimson_fungus' }
             ];
             recipe.id = recipe_id;
+        } else if (recipe_id.includes('ritual/craft_ritual_satchel_t1')) {
+            recipe.activation_item = { item: 'occultism:book_of_binding_bound_foliot' };
+            recipe.pentacle_id = 'occultism:craft_foliot';
+            recipe.id = recipe_id;
         }
 
         if (recipe.id) {

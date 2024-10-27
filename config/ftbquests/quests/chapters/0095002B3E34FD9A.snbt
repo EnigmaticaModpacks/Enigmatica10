@@ -262,7 +262,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["036036EA25034BE8"]
+			dependencies: ["253C97A20FD517DC"]
 			icon: {
 				id: "occultism:wormhole_frame"
 			}
@@ -297,7 +297,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -543,8 +543,8 @@
 				item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["036036EA25034BE8"]
