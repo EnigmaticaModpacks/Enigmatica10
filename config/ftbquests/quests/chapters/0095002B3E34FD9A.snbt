@@ -911,6 +911,12 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "0137F3BC00426B0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76B45254E5EAAC61"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					icon: {
