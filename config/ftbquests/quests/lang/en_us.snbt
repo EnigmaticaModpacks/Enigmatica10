@@ -122,7 +122,7 @@
 		""
 		"With the first tier, you can Right-Click the Satchel on the ghost blocks to place that block from the Satchel’s inventory. This means you’ll automatically pick and place the correct color of chalk with ease and never accidentally place the wrong item."
 		""
-		"With the Artisanal Satchel, you can place an entire pentacle at once by clicking the Golden Sacrificial Bowl in the preview. Similarly, it’ll clean up a ritual by Right-Clicking the Golden Bowl again, storing everything neatly away in the Satchel."
+		"With the Artisanal Satchel, you can place an entire pentacle at once by clicking any block in the preview. Similarly, it’ll clean up a ritual by Right-Clicking the Golden Bowl again, storing everything neatly away in the Satchel."
 	]
 	quest.042650AE25DAC4CA.quest_desc: [
 		"With your Turbine upgraded, you’ll likely also need to upgrade your Steam Production. "
