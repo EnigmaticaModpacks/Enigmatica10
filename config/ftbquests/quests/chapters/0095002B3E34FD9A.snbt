@@ -78,7 +78,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["426730088C72437A"]
@@ -101,8 +101,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66A24B8817411BBC"]
@@ -149,8 +149,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -0.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["66A24B8817411BBC"]
@@ -176,8 +176,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -258,7 +258,7 @@
 				item: { count: 1, id: "occultism:chalk_white" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				id: "2E36960EEF1F294E"
 				type: "advancement"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -524,8 +524,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 1.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6BDA1C1BE04D541A"]
@@ -560,7 +560,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:ritual_satchel_t1)item(occultism:ritual_satchel_t2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
