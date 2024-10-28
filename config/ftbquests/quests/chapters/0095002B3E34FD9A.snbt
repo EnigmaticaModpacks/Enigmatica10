@@ -435,7 +435,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0137F3BC00426B0B"]
+			dependencies: ["75208FCBFF1CFB5F"]
 			icon: {
 				id: "occultism:chalk_red"
 			}
@@ -458,8 +458,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["67835A69ECDC692D"]
@@ -491,7 +491,7 @@
 				}
 			]
 			x: 6.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["73F9A5F65B350A09"]
@@ -806,7 +806,7 @@
 				}
 			]
 			x: 2.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["253C97A20FD517DC"]
@@ -867,8 +867,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 4.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["67835A69ECDC692D"]
@@ -899,48 +899,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["75208FCBFF1CFB5F"]
-			icon: {
-				components: {
-					"ftbquests:icon": "occultism:textures/gui/book/possession.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "0137F3BC00426B0B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76B45254E5EAAC61"
-				table_id: 2884263910044023563L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					icon: {
-						id: "occultism:ritual_dummy/wild_drowned"
-					}
-					id: "0A88D092C4C370AC"
-					observe_type: 5
-					timer: 0L
-					to_observe: "occultism:wild_horde_drowned"
-					type: "observation"
-				}
-				{
-					id: "1C8F5BEC687C4CC5"
-					item: { count: 1, id: "minecraft:sniffer_egg" }
-					type: "item"
-				}
-				{
-					id: "55C56DB34869E63A"
-					item: { count: 1, id: "minecraft:torchflower" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 3.0d
 		}
 	]
 }

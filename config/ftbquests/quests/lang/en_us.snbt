@@ -52,30 +52,6 @@
 		"&a🛈 Tip: Search &3@chisel&r &ain EMI to "
 		"&a    discover more."
 	]
-	quest.0137F3BC00426B0B.quest_desc: [
-		"As we continue our quest to summon and control Afrit, we first need to locate a flower long thought lost to this world; the Torchflower."
-		""
-		"We'll need some help from a Sniffer on this one. Hatch one and it should dig up some Torchflower seeds in no time."
-		""
-		"&a🛈 Tip: Torchflowers may also be "
-		"&a    found in the Hanging Gardens"
-		"&a    of the Bumblezone!"
-		""
-		"With Osirin's Wild Calling, we’re able to call forth a Horde of Wild Drowned. They will drop a Sniffer Egg upon defeating them. "
-		"&n                                                  &r"
-		""
-		"Find Osirin's Wild Calling in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
-		""
-		"&a🛈 Tip: The shape of individual chalk "
-		"&a    marks is random and doesn’t "
-		"&a    affect the ritual!"
-		""
-		"&6⚠ Note: This ritual requires a"
-		"&6    sacrifice. Trigger the ritual as"
-		"&6    usual, then kill the required mob "
-		"&6    near the pentacle. "
-	]
-	quest.0137F3BC00426B0B.title: "Possession: Drowned"
 	quest.015857940250CE8D.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer fluid bi-directionally. They can also be used to place fluid in the world. "
 		""
@@ -99,7 +75,7 @@
 		"&6    to 'use' or throw a Trident after "
 		"&6    triggering the ritual."
 	]
-	quest.0200E313AEB3A08A.title: "Blue Chalk"
+	quest.0200E313AEB3A08A.title: "Marid Binding Chalk"
 	quest.0227D9EC391788D6.quest_desc: [
 		"Tired of looking at exposed cables everywhere?"
 		""
@@ -1143,7 +1119,7 @@
 		""
 		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
 	]
-	quest.253C97A20FD517DC.title: "Djinni Tier Chalk"
+	quest.253C97A20FD517DC.title: "Djinni Binding Chalk"
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
@@ -3381,7 +3357,7 @@
 		"&6    usual, then kill the required mob "
 		"&6    near the pentacle. "
 	]
-	quest.67835A69ECDC692D.title: "Red Chalk"
+	quest.67835A69ECDC692D.title: "Afrit Binding Chalk"
 	quest.679DACB985517C55.quest_desc: [
 		"The Advanced Dropper allows for dropping items further away and in more configurable amounts. "
 		""
