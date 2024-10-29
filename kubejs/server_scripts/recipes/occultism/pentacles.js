@@ -351,6 +351,119 @@ ServerEvents.generateData('after_mods', (event) => {
                 ]
             ]
         },
+        // Infusion Pentacle Overrides
+        {
+            name: 'craft_foliot',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '___________________',
+                    '_XXXXX_______XXXXX_',
+                    '_X__1X_XXXXX_X1__X_',
+                    '_X___XX_____XX___X_',
+                    '_X1__X_XXXXX_X__1X_',
+                    '_XXXXXW_____WXXXXX_',
+                    '___X_W1W___W1W_X___',
+                    '__X_X_WWWWWWW_X_X__',
+                    '__X_X__W___W__X_X__',
+                    '__X_X__W_0_W__X_X__',
+                    '__X_X__W___W__X_X__',
+                    '__X_X_WWWWWWW_X_X__',
+                    '___X_W1W___W1W_X___',
+                    '_XXXXXW_____WXXXXX_',
+                    '_X1__X_XXXXX_X__1X_',
+                    '_X___XX_____XX___X_',
+                    '_X__1X_XXXXX_X1__X_',
+                    '_XXXXX_______XXXXX_',
+                    '___________________'
+                ]
+            ]
+        },
+        {
+            name: 'craft_djinni',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '___________________',
+                    '_XXXXX_______XXXXX_',
+                    '_X__1X_XXXXX_X1__X_',
+                    '_X_LLXX_____XXLL_X_',
+                    '_X1L2X_XXXXX_X2L1X_',
+                    '_XXXXXW_____WXXXXX_',
+                    '___X_W1W___W1W_X___',
+                    '__X_X_WSSSSSW_X_X__',
+                    '__X_X__S___S__X_X__',
+                    '__X_X__S_0_S__X_X__',
+                    '__X_X__S___S__X_X__',
+                    '__X_X_WSSSSSW_X_X__',
+                    '___X_W1W___W1W_X___',
+                    '_XXXXXW_____WXXXXX_',
+                    '_X1L2X_XXXXX_X2L1X_',
+                    '_X_LLXX_____XXLL_X_',
+                    '_X__1X_XXXXX_X1__X_',
+                    '_XXXXX_______XXXXX_',
+                    '___________________'
+                ]
+            ]
+        },
+        {
+            name: 'craft_afrit',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '___3___________3___',
+                    '_XXXXX_______XXXXX_',
+                    '_XRR1X_XXXXX_X1RRX_',
+                    '3XRLLXX_____XXLLRX3',
+                    '_X1L2X_XXXXX_X2L1X_',
+                    '_XXXXXS_____SXXXXX_',
+                    '___X_S1S___S1S_X___',
+                    '__X_X_SGGGGGS_X_X__',
+                    '__X_X__G___G__X_X__',
+                    '__X_X__G_0_G__X_X__',
+                    '__X_X__G___G__X_X__',
+                    '__X_X_SGGGGGS_X_X__',
+                    '___X_S1S___S1S_X___',
+                    '_XXXXXS_____SXXXXX_',
+                    '_X1L2X_XXXXX_X2L1X_',
+                    '3XRLLXX_____XXLLRX3',
+                    '_XRR1X_XXXXX_X1RRX_',
+                    '_XXXXX_______XXXXX_',
+                    '___3___________3___'
+                ]
+            ]
+        },
+        {
+            name: 'craft_marid',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '___3___________3___',
+                    '_XXXXX_______XXXXX_',
+                    '_XRR1X_XXXXX_X1RRX_',
+                    '3XRLLXXUU4UUXXLLRX3',
+                    '_X1L2X_XXXXX_X2L1X_',
+                    '_XXXXXG_____GXXXXX_',
+                    '___X_G1G___G1G_X___',
+                    '__XUX_GKKKKKG_XUX__',
+                    '__XUX__K___K__XUX__',
+                    '__X4X__K_0_K__X4X__',
+                    '__XUX__K___K__XUX__',
+                    '__XUX_GKKKKKG_XUX__',
+                    '___X_G1G___G1G_X___',
+                    '_XXXXXG_____GXXXXX_',
+                    '_X1L2X_XXXXX_X2L1X_',
+                    '3XRLLXXUU4UUXXLLRX3',
+                    '_XRR1X_XXXXX_X1RRX_',
+                    '_XXXXX_______XXXXX_',
+                    '___3___________3___'
+                ]
+            ]
+        },
 
         // Wild Pentacle Overrides
         {
