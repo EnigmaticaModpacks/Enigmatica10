@@ -42,7 +42,6 @@ ServerEvents.generateData('after_mods', (event) => {
 
     const wild_mapping = {
         0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
-        1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
         W: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_white' },
         A: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_light_blue' },
         E: {
@@ -523,7 +522,7 @@ ServerEvents.generateData('after_mods', (event) => {
             pattern: [
                 [
                     '___A___________A___',
-                    '_1__A_________A__1_',
+                    '____A_________A____',
                     '____A_________A____',
                     'A____A__APA__A____A',
                     '_AA___AAPWPAA___AA_',
@@ -539,7 +538,7 @@ ServerEvents.generateData('after_mods', (event) => {
                     '_AA___AAPWPAA___AA_',
                     'A____A__APA__A____A',
                     '____A_________A____',
-                    '_1__A_________A__1_',
+                    '____A_________A____',
                     '___A___________A___'
                 ]
             ]
@@ -635,7 +634,7 @@ ServerEvents.generateData('after_mods', (event) => {
                 ],
                 [
                     '___A__C_____C__A___',
-                    '_1__A__C_5_C__A__1_',
+                    '____A__C_5_C__A____',
                     '____A_5_CCC_5_A____',
                     'A__NNA__APA__ANN__A',
                     '_AAN5NAAPWPAAN5NAA_',
@@ -651,7 +650,7 @@ ServerEvents.generateData('after_mods', (event) => {
                     '_AAN5NAAPWPAAN5NAA_',
                     'A__NNA__APA__ANN__A',
                     '____A_5_CCC_5_A____',
-                    '_1__A__C_5_C__A__1_',
+                    '____A__C_5_C__A____',
                     '___A__C_____C__A___'
                 ]
             ]
