@@ -104,25 +104,25 @@ ServerEvents.generateData('after_mods', (event) => {
             mapping: default_mapping,
             pattern: [
                 [
-                    '_SSS___________SSS_',
-                    'S_L1S_________S1L_S',
-                    'SL2LS__GGGGG__SL2LS',
-                    'S1L_SGG_____GGS_L1S',
-                    '_SSSGOOGGGGGOOGSSS_',
-                    '___GO1___W___1OG___',
-                    '___GO____W____OG___',
-                    '__G_G__1SSS1__G_G__',
-                    '__G_G__S___S__G_G__',
-                    '__G_GWWS_0_SWWG_G__',
-                    '__G_G__S___S__G_G__',
-                    '__G_G__1SSS1__G_G__',
-                    '___GO____W____OG___',
-                    '___GO1___W___1OG___',
-                    '_SSSGOOGGGGGOOGSSS_',
-                    'S1L_SGG_____GGS_L1S',
-                    'SL2LS__GGGGG__SL2LS',
-                    'S_L1S_________S1L_S',
-                    '_SSS___________SSS_'
+                    '_GGG___________GGG_',
+                    'G_L1G_________G1L_G',
+                    'GL2LG__WWWWW__GL2LG',
+                    'G1L_GWW_____WWG_L1G',
+                    '_GGGWOOWWWWWOOWGGG_',
+                    '___WO1___S___1OW___',
+                    '___WO____S____OW___',
+                    '__W_W__1WWW1__W_W__',
+                    '__W_W__W___W__W_W__',
+                    '__W_WSSW_0_WSSW_W__',
+                    '__W_W__W___W__W_W__',
+                    '__W_W__1WWW1__W_W__',
+                    '___WO____S____OW___',
+                    '___WO1___S___1OW___',
+                    '_GGGWOOWWWWWOOWGGG_',
+                    'G1L_GWW_____WWG_L1G',
+                    'GL2LG__WWWWW__GL2LG',
+                    'G_L1G_________G1L_G',
+                    '_GGG___________GGG_'
                 ]
             ]
         },
@@ -132,25 +132,25 @@ ServerEvents.generateData('after_mods', (event) => {
             mapping: default_mapping,
             pattern: [
                 [
-                    '_SSS___________SSS_',
-                    'S3L1S_________S1L3S',
-                    'SL2LS__GGGGG__SL2LS',
-                    'S1L3SGGRRRRRGGS3L1S',
-                    '_SSSGOOGGGGGOOGSSS_',
-                    '___GO1___W___1OG___',
-                    '___GO____W____OG___',
-                    '__GRG__1SSS1__GRG__',
-                    '__GRG__S___S__GRG__',
-                    '__GRGWWS_0_SWWGRG__',
-                    '__GRG__S___S__GRG__',
-                    '__GRG__1SSS1__GRG__',
-                    '___GO____W____OG___',
-                    '___GO1___W___1OG___',
-                    '_SSSGOOGGGGGOOGSSS_',
-                    'S1L3SGGRRRRRGGS3L1S',
-                    'SL2LS__GGGGG__SL2LS',
-                    'S3L1S_________S1L3S',
-                    '_SSS___________SSS_'
+                    '_GGG___________GGG_',
+                    'G3L1G_________G1L3G',
+                    'GL2LG__WWWWW__GL2LG',
+                    'G1L3GWWRRRRRWWG3L1G',
+                    '_GGGWOOWWWWWOOWGGG_',
+                    '___WO1___S___1OW___',
+                    '___WO____S____OW___',
+                    '__WRW__1WWW1__WRW__',
+                    '__WRW__W___W__WRW__',
+                    '__WRWSSW_0_WSSWRW__',
+                    '__WRW__W___W__WRW__',
+                    '__WRW__1WWW1__WRW__',
+                    '___WO____S____OW___',
+                    '___WO1___S___1OW___',
+                    '_GGGWOOWWWWWOOWGGG_',
+                    'G1L3GWWRRRRRWWG3L1G',
+                    'GL2LG__WWWWW__GL2LG',
+                    'G3L1G_________G1L3G',
+                    '_GGG___________GGG_'
                 ]
             ]
         },
@@ -160,25 +160,25 @@ ServerEvents.generateData('after_mods', (event) => {
             mapping: default_mapping,
             pattern: [
                 [
-                    '_GGG___________GGG_',
+                    '_GKG___________GKG_',
                     'G3L1G_________G1L3G',
-                    'GL2LG__KKKKK__GL2LG',
-                    'G1L3GKKRRRRRKKG3L1G',
-                    '_GGGKOOKKKKKOOKGGG_',
-                    '___KO1___W___1OK___',
-                    '___KO_4__W__4_OK___',
-                    '__KRK__1SSS1__KRK__',
-                    '__KRK__S___S__KRK__',
-                    '__KRKWWS_0_SWWKRK__',
-                    '__KRK__S___S__KRK__',
-                    '__KRK__1SSS1__KRK__',
-                    '___KO_4__W__4_OK___',
-                    '___KO1___W___1OK___',
-                    '_GGGKOOKKKKKOOKGGG_',
-                    'G1L3GKKRRRRRKKG3L1G',
-                    'GL2LG__KKKKK__GL2LG',
+                    'KL2LK__WWWWW__KL2LK',
+                    'G1L3GWWRRRRRWWG3L1G',
+                    '_GKGWOOWWWWWOOWGKG_',
+                    '___WO1___S___1OW___',
+                    '___WO_4__S__4_OW___',
+                    '__WRW__1WWW1__WRW__',
+                    '__WRW__W___W__WRW__',
+                    '__WRWSSW_0_WSSWRW__',
+                    '__WRW__W___W__WRW__',
+                    '__WRW__1WWW1__WRW__',
+                    '___WO_4__S__4_OW___',
+                    '___WO1___S___1OW___',
+                    '_GKGWOOWWWWWOOWGKG_',
+                    'G1L3GWWRRRRRWWG3L1G',
+                    'KL2LK__WWWWW__KL2LK',
                     'G3L1G_________G1L3G',
-                    '_GGG___________GGG_'
+                    '_GKG___________GKG_'
                 ]
             ]
         },
@@ -188,25 +188,25 @@ ServerEvents.generateData('after_mods', (event) => {
             mapping: default_mapping,
             pattern: [
                 [
-                    '_GGG___________GGG_',
+                    '_GKG___________GKG_',
                     'G3L1G_________G1L3G',
-                    'GL2LG__KKKKK__GL2LG',
-                    'G1L3GKKRRRRRKKG3L1G',
-                    '_GGGKOOKKKKKOOKGGG_',
-                    '___KO1U3_W_3U1OK___',
-                    '___KOU4U_W_U4UOK___',
-                    '__KRK3U1SSS1U3KRK__',
-                    '__KRK__S___S__KRK__',
-                    '__KRKWWS_0_SWWKRK__',
-                    '__KRK__S___S__KRK__',
-                    '__KRK3U1SSS1U3KRK__',
-                    '___KOU4U_W_U4UOK___',
-                    '___KO1U3_W_3U1OK___',
-                    '_GGGKOOKKKKKOOKGGG_',
-                    'G1L3GKKRRRRRKKG3L1G',
-                    'GL2LG__KKKKK__GL2LG',
+                    'KL2LK__WWWWW__KL2LK',
+                    'G1L3GWWRRRRRWWG3L1G',
+                    '_GKGWOOWWWWWOOWGKG_',
+                    '___WO1___S___1OW___',
+                    '___WO_4__S__4_OW___',
+                    '__WRW__1WWW1__WRW__',
+                    '__WRW__W___W__WRW__',
+                    '__WRWSSW_0_WSSWRW__',
+                    '__WRW__W___W__WRW__',
+                    '__WRW__1WWW1__WRW__',
+                    '___WO_4__S__4_OW___',
+                    '___WO1___S___1OW___',
+                    '_GKGWOOWWWWWOOWGKG_',
+                    'G1L3GWWRRRRRWWG3L1G',
+                    'KL2LK__WWWWW__KL2LK',
                     'G3L1G_________G1L3G',
-                    '_GGG___________GGG_'
+                    '_GKG___________GKG_'
                 ]
             ]
         },
@@ -218,23 +218,23 @@ ServerEvents.generateData('after_mods', (event) => {
             pattern: [
                 [
                     '_______YYYYY_______',
-                    '______YSSSSSY______',
-                    '_____YS_____SY_____',
-                    '____YS__L2L__SY____',
-                    '___YS____L____SY___',
-                    '__YS_1_______1_SY__',
-                    '_YS___1__Y__1___SY_',
-                    'YS_____1Y_Y1_____SY',
-                    'YS_L___Y___Y___L_SY',
-                    'YS_2L_Y__0__Y_L2_SY',
-                    'YS_L___Y___Y___L_SY',
-                    'YS_____1Y_Y1_____SY',
-                    '_YS___1__Y__1___SY_',
-                    '__YS_1_______1_SY__',
-                    '___YS____L____SY___',
-                    '____YS__L2L__SY____',
-                    '_____YS_____SY_____',
-                    '______YSSSSSY______',
+                    '______YWWWWWY______',
+                    '_____YW_____WY_____',
+                    '____YW_______WY____',
+                    '___YW_________WY___',
+                    '__YW_1_______1_WY__',
+                    '_YW___1__Y__1___WY_',
+                    'YW_____1Y_Y1_____WY',
+                    'YW_____Y___Y_____WY',
+                    'YW____Y__0__Y____WY',
+                    'YW_____Y___Y_____WY',
+                    'YW_____1Y_Y1_____WY',
+                    '_YW___1__Y__1___WY_',
+                    '__YW_1_______1_WY__',
+                    '___YW_________WY___',
+                    '____YW_______WY____',
+                    '_____YW_____WY_____',
+                    '______YWWWWWY______',
                     '_______YYYYY_______'
                 ]
             ]
@@ -414,7 +414,7 @@ ServerEvents.generateData('after_mods', (event) => {
             mapping: default_mapping,
             pattern: [
                 [
-                    '___3___________3___',
+                    '3__3___________3__3',
                     '_XXXXX_______XXXXX_',
                     '_XRR1X_XXXXX_X1RRX_',
                     '3XRLLXX_____XXLLRX3',
@@ -432,7 +432,7 @@ ServerEvents.generateData('after_mods', (event) => {
                     '3XRLLXX_____XXLLRX3',
                     '_XRR1X_XXXXX_X1RRX_',
                     '_XXXXX_______XXXXX_',
-                    '___3___________3___'
+                    '3__3___________3__3'
                 ]
             ]
         },
@@ -442,7 +442,7 @@ ServerEvents.generateData('after_mods', (event) => {
             mapping: default_mapping,
             pattern: [
                 [
-                    '___3___________3___',
+                    '3__3___________3__3',
                     '_XXXXX_______XXXXX_',
                     '_XRR1X_XXXXX_X1RRX_',
                     '3XRLLXXUU4UUXXLLRX3',
@@ -460,7 +460,7 @@ ServerEvents.generateData('after_mods', (event) => {
                     '3XRLLXXUU4UUXXLLRX3',
                     '_XRR1X_XXXXX_X1RRX_',
                     '_XXXXX_______XXXXX_',
-                    '___3___________3___'
+                    '3__3___________3__3'
                 ]
             ]
         },
