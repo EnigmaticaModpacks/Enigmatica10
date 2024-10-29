@@ -67,7 +67,7 @@
 	crusherResultPickupDelay = 60
 	#The chance for a blacksmith familiar to repair an item (by 2 durability) whenever stone is picked up. 1.0 = 100%, 0.0 = 0%.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	blacksmithFamiliarRepairChance = 0.05
+	blacksmithFamiliarRepairChance = 0.15
 	#The amount of iron required for a blacksmith familiar to upgrade another familiar.
 	#Range: > 0
 	blacksmithFamiliarUpgradeCost = 18
@@ -98,4 +98,5 @@
 	#Allow the Divining Rod to attune to any ore
 	anyOreDivinationRod = false
 	#Miners head to the output in the Dimensional Mineshaft before it breaks
-	minerOutputBeforeBreak = false
+	minerOutputBeforeBreak = true
+

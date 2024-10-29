@@ -11,35 +11,26 @@
 	order_index: 10
 	rewards: [
 		{
-			count: 8
+			count: 2
 			item: {
 				count: 1
-				id: "occultism:taboo_book"
+				id: "occultism:spirit_lantern"
 			}
-			random_bonus: 8
+			random_bonus: 2
 		}
 		{
-			count: 8
-			item: {
-				count: 1
-				id: "occultism:purified_ink"
-			}
-			random_bonus: 8
-		}
-		{
-			count: 8
-			item: {
-				count: 1
-				id: "occultism:awakened_feather"
-			}
-			random_bonus: 8
-		}
-		{ count: 8, item: { count: 1, id: "occultism:spirit_lantern" } }
-		{
-			count: 8
+			count: 4
 			item: {
 				count: 1
 				id: "occultism:large_candle"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 8
+			item: {
+				count: 1
+				id: "occultism:book_of_binding_empty"
 			}
 			random_bonus: 8
 		}

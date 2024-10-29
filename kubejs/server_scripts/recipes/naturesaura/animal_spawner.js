@@ -1,0 +1,33 @@
+ServerEvents.recipes((event) => {
+    const id_prefix = 'enigmatica:naturesaura/animal_spawner/';
+
+    const recipes = [
+        {
+            entity: 'minecraft:rabbit',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:carrot' },
+                { item: 'farmersdelight:cabbage' }
+            ],
+            aura: 30000,
+            time: 40,
+            id: `naturesaura:animal_spawner/rabbit`
+        },
+        {
+            entity: 'minecraft:armadillo',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:spider_eye' },
+                { item: 'minecraft:dead_bush' }
+            ],
+            aura: 30000,
+            time: 40,
+            id: `${id_prefix}armadillo`
+        }
+    ];
+
+    recipes.forEach((recipe) => {
+        recipe.type = 'naturesaura:animal_spawner';
+        event.custom(recipe).id(recipe.id);
+    });
+});

@@ -11,6 +11,13 @@
 -   Cable Achors may be crafted in a saw mill[\#183](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/183)
 -   Personal potion effects are now hidden[\#183](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/183)
 -   PNC's AE2 integration recipes have been buffed [\#183](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/183)
+-   Nautilus Shells may now be crafted [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+-   Gypsum added to stoneworks [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+-   Some occultism rituals have had their sacrifices substituted to be more accessible [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+-   Nature's Aura can now summon Armadillos and Rabbits can be summoned with easier ingredients [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+-   Document where Armadillo Scutes come from in EMI [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+-   Occultism quests have been updated to match its new progression [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+-   Ars Nouveau Crush glyph given ore processing support [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
 
 ---
 

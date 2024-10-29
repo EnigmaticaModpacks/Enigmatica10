@@ -273,6 +273,17 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 amount: 1
             },
             id: 'actuallyadditions:worm'
+        },
+        {
+            left: 'item:minecraft:brush',
+            right: 'item:minecraft:armadillo_spawn_egg',
+            output: {
+                type: 'item',
+                id: 'minecraft:armadillo_scute',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Obtained by brushing Armadillos"}\u0027]}',
+                amount: 1
+            },
+            id: 'minecraft:armadillo_scute'
         }
     ];
 
