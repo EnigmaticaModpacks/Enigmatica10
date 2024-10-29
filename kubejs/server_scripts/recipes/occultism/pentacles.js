@@ -10,21 +10,42 @@ ServerEvents.generateData('after_mods', (event) => {
     //     type: 'modonomicon:tag',
     //     tag: 'minecraft:planks'
     // }
+    const default_mapping = {
+        0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
+        1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
+        2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
+        3: { type: 'modonomicon:block', block: 'occultism:spirit_attuned_crystal' },
+        4: { type: 'modonomicon:block', block: 'minecraft:wither_skeleton_skull' },
+        Y: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_gold' },
+        X: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_purple' },
+        L: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_lime' },
+        O: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_orange' },
+        R: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_red' },
+        U: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_blue' },
+        W: {
+            type: 'modonomicon:tag',
+            tag: '#occultism:foundation_glyphs_any',
+            display: 'occultism:chalk_glyph_white'
+        },
+        S: {
+            type: 'modonomicon:tag',
+            tag: '#occultism:foundation_glyphs_no_white',
+            display: 'occultism:chalk_glyph_light_gray'
+        },
+        G: {
+            type: 'modonomicon:tag',
+            tag: '#occultism:foundation_glyphs_dark',
+            display: 'occultism:chalk_glyph_gray'
+        },
+        K: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_black' }
+    };
 
     let pentacles = [
         // Summoning Pentacle Overrides
         {
             name: 'summon_foliot',
             override: true,
-            mapping: {
-                0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
-                1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
-                W: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_any',
-                    display: 'occultism:chalk_glyph_white'
-                }
-            },
+            mapping: default_mapping,
             pattern: [
                 [
                     '___________________',
@@ -52,22 +73,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'summon_djinni',
             override: true,
-            mapping: {
-                0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
-                1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
-                2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
-                L: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_lime' },
-                W: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_any',
-                    display: 'occultism:chalk_glyph_white'
-                },
-                S: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_no_white',
-                    display: 'occultism:chalk_glyph_light_gray'
-                }
-            },
+            mapping: default_mapping,
             pattern: [
                 [
                     '_SSS___________SSS_',
@@ -95,29 +101,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'summon_unbound_afrit',
             override: true,
-            mapping: {
-                0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
-                1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
-                2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
-                3: { type: 'modonomicon:block', block: 'occultism:spirit_attuned_crystal' },
-                L: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_lime' },
-                O: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_orange' },
-                W: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_any',
-                    display: 'occultism:chalk_glyph_white'
-                },
-                S: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_no_white',
-                    display: 'occultism:chalk_glyph_light_gray'
-                },
-                G: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_dark',
-                    display: 'occultism:chalk_glyph_gray'
-                }
-            },
+            mapping: default_mapping,
             pattern: [
                 [
                     '_SSS___________SSS_',
@@ -145,30 +129,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'summon_afrit',
             override: true,
-            mapping: {
-                0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
-                1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
-                2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
-                3: { type: 'modonomicon:block', block: 'occultism:spirit_attuned_crystal' },
-                L: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_lime' },
-                O: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_orange' },
-                R: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_red' },
-                W: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_any',
-                    display: 'occultism:chalk_glyph_white'
-                },
-                S: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_no_white',
-                    display: 'occultism:chalk_glyph_light_gray'
-                },
-                G: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_dark',
-                    display: 'occultism:chalk_glyph_gray'
-                }
-            },
+            mapping: default_mapping,
             pattern: [
                 [
                     '_SSS___________SSS_',
@@ -196,32 +157,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'summon_unbound_marid',
             override: true,
-            mapping: {
-                0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
-                1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
-                2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
-                3: { type: 'modonomicon:block', block: 'occultism:spirit_attuned_crystal' },
-                4: { type: 'modonomicon:block', block: 'minecraft:wither_skeleton_skull' },
-                L: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_lime' },
-                O: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_orange' },
-                R: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_red' },
-                W: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_any',
-                    display: 'occultism:chalk_glyph_white'
-                },
-                S: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_no_white',
-                    display: 'occultism:chalk_glyph_light_gray'
-                },
-                G: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_dark',
-                    display: 'occultism:chalk_glyph_gray'
-                },
-                K: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_black' }
-            },
+            mapping: default_mapping,
             pattern: [
                 [
                     '_GGG___________GGG_',
@@ -249,33 +185,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'summon_marid',
             override: true,
-            mapping: {
-                0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
-                1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
-                2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
-                3: { type: 'modonomicon:block', block: 'occultism:spirit_attuned_crystal' },
-                4: { type: 'modonomicon:block', block: 'minecraft:wither_skeleton_skull' },
-                L: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_lime' },
-                O: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_orange' },
-                R: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_red' },
-                U: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_blue' },
-                W: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_any',
-                    display: 'occultism:chalk_glyph_white'
-                },
-                S: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_no_white',
-                    display: 'occultism:chalk_glyph_light_gray'
-                },
-                G: {
-                    type: 'modonomicon:tag',
-                    tag: '#occultism:foundation_glyphs_dark',
-                    display: 'occultism:chalk_glyph_gray'
-                },
-                K: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_black' }
-            },
+            mapping: default_mapping,
             pattern: [
                 [
                     '_GGG___________GGG_',
@@ -297,6 +207,147 @@ ServerEvents.generateData('after_mods', (event) => {
                     'GL2LG__KKKKK__GL2LG',
                     'G3L1G_________G1L3G',
                     '_GGG___________GGG_'
+                ]
+            ]
+        },
+        // Possession Pentacle Overrides
+        {
+            name: 'possess_foliot',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '_______YYYYY_______',
+                    '______YWWWWWY______',
+                    '_____YW_____WY_____',
+                    '____YW_______WY____',
+                    '___YW_________WY___',
+                    '__YW_1_______1_WY__',
+                    '_YW___1__W__1___WY_',
+                    'YW_____1W_W1_____WY',
+                    'YW_____W___W_____WY',
+                    'YW____W__0__W____WY',
+                    'YW_____W___W_____WY',
+                    'YW_____1W_W1_____WY',
+                    '_YW___1__W__1___WY_',
+                    '__YW_1_______1_WY__',
+                    '___YW_________WY___',
+                    '____YW_______WY____',
+                    '_____YW_____WY_____',
+                    '______YWWWWWY______',
+                    '_______YYYYY_______'
+                ]
+            ]
+        },
+        {
+            name: 'possess_djinni',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '_______YYYYY_______',
+                    '______YSSSSSY______',
+                    '_____YS_____SY_____',
+                    '____YS__L2L__SY____',
+                    '___YS____L____SY___',
+                    '__YS_1_______1_SY__',
+                    '_YS___1__W__1___SY_',
+                    'YS_____1W_W1_____SY',
+                    'YS_L___W___W___L_SY',
+                    'YS_2L_W__0__W_L2_SY',
+                    'YS_L___W___W___L_SY',
+                    'YS_____1W_W1_____SY',
+                    '_YS___1__W__1___SY_',
+                    '__YS_1_______1_SY__',
+                    '___YS____L____SY___',
+                    '____YS__L2L__SY____',
+                    '_____YS_____SY_____',
+                    '______YSSSSSY______',
+                    '_______YYYYY_______'
+                ]
+            ]
+        },
+        {
+            name: 'possess_unbound_afrit',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '_______YYYYY_______',
+                    '_3____YSSSSSY____3_',
+                    '__3__YG_____GY__3__',
+                    '___3YG_GL2LG_GY3___',
+                    '___YGO__GLG__OGY___',
+                    '__YGO1O__G__O1OGY__',
+                    '_YG__O1O_W_O1O__GY_',
+                    'YS_G__O1W_W1O__G_SY',
+                    'YS_LG__W___W__GL_SY',
+                    'YS_2LGW__0__WGL2_SY',
+                    'YS_LG__W___W__GL_SY',
+                    'YS_G__O1W_W1O__G_SY',
+                    '_YG__O1O_W_O1O__GY_',
+                    '__YGO1O__G__O1OGY__',
+                    '___YGO__GLG__OGY___',
+                    '___3YG_GL2LG_GY3___',
+                    '__3__YG_____GY__3__',
+                    '_3____YSSSSSY____3_',
+                    '_______YYYYY_______'
+                ]
+            ]
+        },
+        {
+            name: 'possess_afrit',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '_R_____YYYYY_____R_',
+                    'R3R___YSSSSSY___R3R',
+                    '_R3R_YG_____GY_R3R_',
+                    '__R3YG_GL2LG_GY3R__',
+                    '___YGO__GLG__OGY___',
+                    '__YGO1O__G__O1OGY__',
+                    '_YG__O1O_W_O1O__GY_',
+                    'YS_G__O1W_W1O__G_SY',
+                    'YS_LG__W___W__GL_SY',
+                    'YS_2LGW__0__WGL2_SY',
+                    'YS_LG__W___W__GL_SY',
+                    'YS_G__O1W_W1O__G_SY',
+                    '_YG__O1O_W_O1O__GY_',
+                    '__YGO1O__G__O1OGY__',
+                    '___YGO__GLG__OGY___',
+                    '__R3YG_GL2LG_GY3R__',
+                    '_R3R_YG_____GY_R3R_',
+                    'R3R___YSSSSSY___R3R',
+                    '_R_____YYYYY_____R_'
+                ]
+            ]
+        },
+        {
+            name: 'possess_marid',
+            override: true,
+            mapping: default_mapping,
+            pattern: [
+                [
+                    '_R_____YYYYY_____R_',
+                    'R3R___YKKKKKY___R3R',
+                    '_R3R_YGU4U4UGY_R3R_',
+                    '__R3YG_GL2LG_GY3R__',
+                    '___YGO__GLG__OGY___',
+                    '__YGO1O__G__O1OGY__',
+                    '_YG__O1O_S_O1O__GY_',
+                    'YKUG__O1S_S1O__GUKY',
+                    'YK4LG__S___S__GL4KY',
+                    'YKU2LGS__0__SGL2UKY',
+                    'YK4LG__S___S__GL4KY',
+                    'YKUG__O1S_S1O__GUKY',
+                    '_YG__O1O_S_O1O__GY_',
+                    '__YGO1O__G__O1OGY__',
+                    '___YGO__GLG__OGY___',
+                    '__R3YG_GL2LG_GY3R__',
+                    '_R3R_YGU4U4UGY_R3R_',
+                    'R3R___YKKKKKY___R3R',
+                    '_R_____YYYYY_____R_'
                 ]
             ]
         },
