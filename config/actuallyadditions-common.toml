@@ -74,7 +74,13 @@
 #Worldgen Settings
 [worldgenSettings]
 	#Should Black Quartz generate in the world?
-	laserRelayLoss = true
+	generateQuartz = true
+	#Should Canola generate in the World?
+	generateCanola = true
+	#Should Flax generate in the world?
+	generateFlax = true
+	#Should Coffee generate in the world?
+	generateCoffee = true
 
 #Item settings
 [itemsSettings]
