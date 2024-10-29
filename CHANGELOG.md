@@ -1,5 +1,18 @@
 ### Enigmatica 10 1.12.0
 
+NeoForge-1.21.1-21.1.72 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.12.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.12.0.md)
+
+#### ✔️ Added Mods
+
+* [Apothic Attributes (AttributesLib)](https://www.curseforge.com/minecraft/mc-mods/apothic-attributes) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+* [Ars Énergistique](https://www.curseforge.com/minecraft/mc-mods/ars-energistique) (by [ninety](https://www.curseforge.com/members/ninety/projects))
+* [Bad Wither No Cookie - Reloaded](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded) (by [Kreezxil](https://www.curseforge.com/members/Kreezxil/projects))
+* [EMI Enchanting](https://www.curseforge.com/minecraft/mc-mods/emi-enchanting) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
+* [EMI Loot](https://www.curseforge.com/minecraft/mc-mods/emi-loot) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
+* [EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores) (by [Abbie34](https://www.curseforge.com/members/Abbie34/projects))
+* [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
+* [StarbuncleMania](https://www.curseforge.com/minecraft/mc-mods/starbunclemania) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
+
 #### ⭐ Improvements
 
 -   Amethyst Golems now convert Certus straight to Flawless [\#180](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/180)
@@ -18,6 +31,10 @@
 -   Document where Armadillo Scutes come from in EMI [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
 -   Occultism quests have been updated to match its new progression [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
 -   Ars Nouveau Crush glyph given ore processing support [\#186](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/186)
+
+#### 🦟 Bugs Fixed
+
+-   Evilcraft entangled chalice has no recipe in EMI but is craftable [(\#190)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/190)
 
 ---
 
