@@ -191,7 +191,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"ars_nouveau-client.toml",
 	"toolbelt-client.toml",
 	"ftbessentials.snbt",
-	"iris.properties"
+	"iris.properties",
+	"clienttweaks-common.toml"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt", "resourcepacks")

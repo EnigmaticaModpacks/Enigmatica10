@@ -212,3 +212,4 @@ config/ae2-client.toml
 config/ars_nouveau-client.toml
 config/ftbessentials.snbt
 config/iris.properties
+config/clienttweaks-common.toml
