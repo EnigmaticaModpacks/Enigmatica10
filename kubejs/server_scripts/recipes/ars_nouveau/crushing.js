@@ -1,26 +1,27 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:actuallyadditions/crushing/';
+    const id_prefix = 'enigmatica:ars_nouveau/crush/';
 
     const recipes = [
         {
-            ingredient: { tag: `minecraft:smelts_to_glass` },
-            result: [
-                { result: { id: 'ae2:silicon', count: 1 } },
+            input: { tag: `c:gems/certus_quartz` },
+            output: [
                 {
-                    result: { id: 'ae2:silicon', count: 1 },
-                    chance: 0.25
+                    stack: { id: 'ae2:certus_quartz_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
                 }
             ],
-            id: `${id_prefix}silicon`
-        },
-        {
-            ingredient: { tag: `c:gems/certus_quartz` },
-            result: [{ result: { id: 'ae2:certus_quartz_dust', count: 1 } }],
             id: `${id_prefix}certus_quartz_dust`
         },
         {
-            ingredient: { tag: `c:gems/fluix` },
-            result: [{ result: { id: 'ae2:fluix_dust', count: 1 } }],
+            input: { tag: `c:gems/fluix` },
+            output: [
+                {
+                    stack: { id: 'ae2:fluix_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
             id: `${id_prefix}fluix_dust`
         }
     ];
@@ -40,53 +41,32 @@ ServerEvents.recipes((event) => {
     materials.forEach((material) => {
         recipes.push(
             {
-                ingredient: { tag: `c:ores/${material.primary}` },
-                result: [
+                input: { tag: `c:raw_materials/${material.primary}` },
+                output: [
                     {
-                        result: {
-                            id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.primary}`).getId(),
-                            count: 1
-                        }
+                        stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
+                        chance: 1.0,
+                        maxRange: 1
                     },
                     {
-                        result: {
-                            id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.primary}`).getId(),
-                            count: 1
-                        },
-                        chance: 0.75
-                    }
-                ],
-                id: `${id_prefix}${material.primary}_ore`
-            },
-            {
-                ingredient: { tag: `c:raw_materials/${material.primary}` },
-                result: [
-                    {
-                        result: {
-                            id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(),
-                            count: 2
-                        }
-                    },
-                    {
-                        result: {
+                        stack: {
                             id: AlmostUnified.getTagTargetItem(`c:dusts/${material.secondary}`).getId(),
                             count: 1
                         },
-                        chance: 0.15
+                        chance: 0.15,
+                        maxRange: 1
                     }
                 ],
                 id: `${id_prefix}raw_${material.primary}`
             },
             {
-                ingredient: { tag: `c:ingots/${material.primary}` },
-                result: [
+                input: { tag: `c:ingots/${material.primary}` },
+                output: [
                     {
-                        result: {
-                            id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(),
-                            count: 1
-                        }
-                    },
-                    { result: {}, chance: 0.0 }
+                        stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
+                        chance: 1.0,
+                        maxRange: 1
+                    }
                 ],
                 id: `${id_prefix}${material.primary}`
             }
@@ -94,7 +74,7 @@ ServerEvents.recipes((event) => {
     });
 
     recipes.forEach((recipe) => {
-        recipe.type = 'actuallyadditions:crushing';
+        recipe.type = 'ars_nouveau:crush';
         event.custom(recipe).id(recipe.id);
     });
 });
