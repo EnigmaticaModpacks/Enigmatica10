@@ -35,6 +35,7 @@ ServerEvents.recipes((event) => {
         { primary: 'lead', secondary: 'silver' },
         { primary: 'silver', secondary: 'lead' },
         { primary: 'nickel', secondary: 'iron' },
+        { primary: 'tin', secondary: 'iron' },
         { primary: 'uranium', secondary: 'lead' }
     ];
     materials.forEach((material) => {
