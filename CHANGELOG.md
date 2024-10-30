@@ -1,17 +1,26 @@
+### Enigmatica 10 1.12.1
+
+#### 🦟 Bugs Fixed
+
+-   Fixed broken logistics quests and a missing icon in genetics quests [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
+-   Unbound Marid no longer blacklisted from spawners [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
+
+---
+
 ### Enigmatica 10 1.12.0
 
 NeoForge-1.21.1-21.1.72 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.12.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.12.0.md)
 
 #### ✔️ Added Mods
 
-* [Apothic Attributes (AttributesLib)](https://www.curseforge.com/minecraft/mc-mods/apothic-attributes) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-* [Ars Énergistique](https://www.curseforge.com/minecraft/mc-mods/ars-energistique) (by [ninety](https://www.curseforge.com/members/ninety/projects))
-* [Bad Wither No Cookie - Reloaded](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded) (by [Kreezxil](https://www.curseforge.com/members/Kreezxil/projects))
-* [EMI Enchanting](https://www.curseforge.com/minecraft/mc-mods/emi-enchanting) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
-* [EMI Loot](https://www.curseforge.com/minecraft/mc-mods/emi-loot) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
-* [EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores) (by [Abbie34](https://www.curseforge.com/members/Abbie34/projects))
-* [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
-* [StarbuncleMania](https://www.curseforge.com/minecraft/mc-mods/starbunclemania) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
+-   [Apothic Attributes (AttributesLib)](https://www.curseforge.com/minecraft/mc-mods/apothic-attributes) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [Ars Énergistique](https://www.curseforge.com/minecraft/mc-mods/ars-energistique) (by [ninety](https://www.curseforge.com/members/ninety/projects))
+-   [Bad Wither No Cookie - Reloaded](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded) (by [Kreezxil](https://www.curseforge.com/members/Kreezxil/projects))
+-   [EMI Enchanting](https://www.curseforge.com/minecraft/mc-mods/emi-enchanting) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
+-   [EMI Loot](https://www.curseforge.com/minecraft/mc-mods/emi-loot) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
+-   [EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores) (by [Abbie34](https://www.curseforge.com/members/Abbie34/projects))
+-   [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config) (by [fzzyhmstrs](https://www.curseforge.com/members/fzzyhmstrs/projects))
+-   [StarbuncleMania](https://www.curseforge.com/minecraft/mc-mods/starbunclemania) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
 
 #### ⭐ Improvements
 
