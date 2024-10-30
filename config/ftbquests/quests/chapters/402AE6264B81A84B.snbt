@@ -42,6 +42,17 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "235D7EF41916E480"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "328C56BA23A70B8F"
+				type: "dimension"
+			}]
 			x: 2.5d
 			y: -2.5d
 		}
@@ -54,6 +65,17 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "04CE3E8B1DF8B441"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/mob_effect/conduit_power.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6D1A048396918DF0"
+				type: "dimension"
+			}]
 			x: 2.5d
 			y: -1.5d
 		}
@@ -66,6 +88,17 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "760910BF48876D8E"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/mob_effect/wither.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "02EFB7B55C020448"
+				type: "dimension"
+			}]
 			x: 2.5d
 			y: 0.5d
 		}
@@ -231,6 +264,17 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "752888EAF2861EB4"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/mob_effect/hero_of_the_village.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "51C59228A0E0612E"
+				type: "dimension"
+			}]
 			x: 2.5d
 			y: -0.5d
 		}

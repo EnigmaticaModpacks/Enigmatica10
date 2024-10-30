@@ -174,13 +174,6 @@
 		{
 			dependencies: ["2C1538BE243F0CB4"]
 			icon: {
-				components: {
-					"geneticsresequenced:contaminated": 1b
-					"geneticsresequenced:specific_entity": {
-						entityName: "MuteTiefling"
-						entityUuid: "3514fe54-f6b8-434c-bfd2-7951aee90c51"
-					}
-				}
 				id: "geneticsresequenced:syringe"
 			}
 			id: "6EB6E8DEEBB32911"
@@ -214,7 +207,7 @@
 					item: {
 						components: {
 							"geneticsresequenced:plasmid_progress": {
-								dnaPoints: 16
+								dna_points: 16
 								gene: "geneticsresequenced:eat_grass"
 							}
 						}
@@ -247,7 +240,7 @@
 					item: {
 						components: {
 							"geneticsresequenced:plasmid_progress": {
-								dnaPoints: 0
+								dna_points: 0
 								gene: "geneticsresequenced:eat_grass"
 							}
 						}
