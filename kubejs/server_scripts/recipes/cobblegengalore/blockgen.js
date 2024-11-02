@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
         {
             result: { id: 'minecraft:obsidian', count: 1 },
             left: { id: 'minecraft:water', consume: false },
-            right: { id: 'minecraft:lava', consume: true },
+            right: { id: 'minecraft:lava', consume: false },
             bottom: 'minecraft:obsidian',
             id: `${id_prefix}obsidian`
         },
