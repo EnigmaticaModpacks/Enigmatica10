@@ -22,6 +22,16 @@ ServerEvents.recipes((event) => {
             ingredient: { tag: `c:gems/fluix` },
             result: [{ result: { id: 'ae2:fluix_dust', count: 1 } }],
             id: `${id_prefix}fluix_dust`
+        },
+        {
+            ingredient: { tag: `c:gems/coal` },
+            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 } }],
+            id: `${id_prefix}coal_dust`
+        },
+        {
+            ingredient: { tag: `c:gems/lignite_coal` },
+            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/lignite_coal`).getId(), count: 1 } }],
+            id: `${id_prefix}lignite_coal_dust`
         }
     ];
 

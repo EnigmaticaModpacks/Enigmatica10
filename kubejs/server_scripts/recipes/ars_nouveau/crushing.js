@@ -23,6 +23,28 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}fluix_dust`
+        },
+        {
+            input: { tag: `c:gems/coal` },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}coal_dust`
+        },
+        {
+            input: { tag: `c:gems/lignite_coal` },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/lignite_coal`).getId(), count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}lignite_coal_dust`
         }
     ];
 
