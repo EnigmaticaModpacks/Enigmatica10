@@ -43,6 +43,16 @@ ServerEvents.recipes((event) => {
             id: `occultism:crushing/certus_quartz_dust_from_gem`
         },
         {
+            ingredient: { tag: 'c:gems/emerald' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: AlmostUnified.getTagTargetItem(`c:dusts/emerald`).getId(),
+                count: 1
+            },
+            id: `occultism:crushing/emerald_dust_from_gem`
+        },
+        {
             ingredient: { tag: 'c:ores/black_quartz' },
             ignore_crushing_multiplier: false,
             result: {
