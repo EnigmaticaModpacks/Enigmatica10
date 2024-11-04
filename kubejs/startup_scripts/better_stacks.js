@@ -8,7 +8,6 @@ ItemEvents.modification((event) => {
         'powah:charged_snowball',
         'the_bumblezone:pollen_puff',
         /occultism:book_of_binding_(empty|foliot|djinni|afrit|marid)/,
-        'occultism:soul_gem',
         /enderio:.*_capacitor/,
 
         //signs
