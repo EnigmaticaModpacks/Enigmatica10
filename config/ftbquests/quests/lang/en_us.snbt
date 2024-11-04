@@ -2906,6 +2906,17 @@
 		"There should be plenty of these inside the Maze to help you keep the buff up while you explore. "
 	]
 	quest.5859B0217F1C837A.quest_desc: ["With an Aura Attraction Cart, Aura may be pulled from a centralized Generator and dispersed throughout an area to power machines that might be too far away to otherwise benefit from the Generator. "]
+	quest.586D65D7CC2B8FCF.quest_desc: [
+		"As you get into the intricacies of spirit summoning, you may decide that you wish to automate some of these rituals. Since names on books are random, this can make things slightly incompatible with AE2."
+		""
+		"By renaming the Dictionary of Spirits in an Anvil, all books bound with it will take on that name, resolving this small issue. So AE2 should have no issue with crafting bound books. "
+		""
+		"&6⚠ Note: Job spirits summoned in this "
+		"&6    way will be owned by the AE2 "
+		"&6    system’s fake player, making them "
+		"&6    uncontrollable. This is best used "
+		"&6    for crafting items."
+	]
 	quest.59293885E5C9E8A3.quest_desc: [
 		"A simple machine used for crushing ores and other materials. "
 		""
@@ -4296,6 +4307,7 @@
 	task.6F72D2074543BF23.title: "Bins"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
+	task.72396A76EEA759CF.title: "Books of Binding"
 	task.73C57E2AF9A1F920.title: "Any Chipped Tool"
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"

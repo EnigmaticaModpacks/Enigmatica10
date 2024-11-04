@@ -81,6 +81,26 @@ ServerEvents.recipes((event) => {
                 count: 1
             },
             id: `${id_prefix}fluix_dust`
+        },
+        {
+            ingredient: { item: 'minecraft:ender_pearl' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(),
+                count: 1
+            },
+            id: `${id_prefix}ender_pearl_dust`
+        },
+        {
+            ingredient: { item: 'ae2:sky_stone_block' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'ae2:sky_dust',
+                count: 1
+            },
+            id: `${id_prefix}sky_dust`
         }
     ];
 

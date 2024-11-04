@@ -32,6 +32,21 @@ ServerEvents.recipes((event) => {
             ingredient: { tag: `c:gems/lignite_coal` },
             result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/lignite_coal`).getId(), count: 1 } }],
             id: `${id_prefix}lignite_coal_dust`
+        },
+        {
+            ingredient: { item: 'minecraft:glow_berries' },
+            result: [{ result: { id: 'minecraft:yellow_dye', count: 2 } }],
+            id: `${id_prefix}yellow_dye_from_glow_berries`
+        },
+        {
+            ingredient: { item: 'minecraft:ender_pearl' },
+            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 1 } }],
+            id: `${id_prefix}ender_pearl_dust`
+        },
+        {
+            ingredient: { item: 'ae2:sky_stone_block' },
+            result: [{ result: { id: 'ae2:sky_dust', count: 1 } }],
+            id: `${id_prefix}sky_dust`
         }
     ];
 
