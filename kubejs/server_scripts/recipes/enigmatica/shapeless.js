@@ -38,6 +38,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}yellow_dye_from_fustic`
         },
         {
+            output: 'minecraft:yellow_dye',
+            inputs: ['minecraft:glow_berries'],
+            id: `${id_prefix}yellow_dye_from_glow_berries`
+        },
+        {
             output: 'minecraft:red_dye',
             inputs: ['productivetrees:dracaena_sap'],
             id: `${id_prefix}red_dye_from_dracaena_sap`

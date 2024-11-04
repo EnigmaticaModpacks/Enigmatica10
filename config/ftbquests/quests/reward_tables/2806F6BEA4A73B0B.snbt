@@ -27,12 +27,28 @@
 			random_bonus: 4
 		}
 		{
-			count: 8
+			count: 4
 			item: {
 				count: 1
 				id: "occultism:book_of_binding_empty"
 			}
-			random_bonus: 8
+			random_bonus: 4
+		}
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "occultism:spirit_attuned_gem"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 16
+			item: {
+				count: 1
+				id: "occultism:otherworld_log"
+			}
+			random_bonus: 32
 		}
 	]
 	use_title: true

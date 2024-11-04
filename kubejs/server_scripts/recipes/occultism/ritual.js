@@ -26,10 +26,12 @@ ServerEvents.recipes((event) => {
             recipe.id = recipe_id;
         } else if (recipe_id.includes('ritual/possess_warden')) {
             recipe.entity_to_sacrifice = {
-                display_name: 'ritual.occultism.sacrifice.bats',
-                tag: 'c:bats'
+                display_name: 'ritual.occultism.sacrifice.cows',
+                tag: 'c:cows'
             };
             recipe.ingredients = [
+                { item: 'minecraft:sculk' },
+                { item: 'minecraft:sculk' },
                 { item: 'minecraft:sculk' },
                 { item: 'minecraft:sculk' },
                 { item: 'minecraft:sculk' },

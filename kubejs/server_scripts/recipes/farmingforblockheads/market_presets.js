@@ -17,7 +17,7 @@ ServerEvents.generateData('before_mods', (event) => {
                 ingredient: {
                     item: 'minecraft:gold_nugget'
                 },
-                count: 3
+                count: 1
             }
         },
         {

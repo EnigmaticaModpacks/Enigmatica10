@@ -7,7 +7,9 @@ ItemEvents.modification((event) => {
         'minecraft:egg',
         'powah:charged_snowball',
         'the_bumblezone:pollen_puff',
-        'occultism:book_of_binding_empty',
+        /occultism:book_of_binding_(empty|foliot|djinni|afrit|marid)/,
+        'occultism:soul_gem',
+        /enderio:.*_capacitor/,
 
         //signs
         /(minecraft|supplementaries|occultism|deeperdarker):\w+_sign/

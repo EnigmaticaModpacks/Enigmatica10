@@ -1,9 +1,20 @@
-### Enigmatica 10 1.12.1
+### Enigmatica 10 1.13.0
+
+#### ⭐ Improvements
+
+-   Rice Slime Balls now count as slime balls for more recipes [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
+-   Expanded fuel support for AA, allowing it to burn more coal like substances [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
+-   Added more cross mod crushing compatibility [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
+-   AA Lasers no longer lose power during transmission [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
+-   Tiny TNT no longer breaks blocks, making it safer for crafting [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
+-   Glow Berries are now a source for yellow dye [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
+-   The Market has dropped their prices once again! Rejoice! [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
 
 #### 🦟 Bugs Fixed
 
 -   Fixed broken logistics quests and a missing icon in genetics quests [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
 -   Unbound Marid no longer blacklisted from spawners [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
+-   Add missing Tin processing recipes [(\#196)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/196)
 
 ---
 

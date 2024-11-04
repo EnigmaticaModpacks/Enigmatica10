@@ -43,6 +43,16 @@ ServerEvents.recipes((event) => {
             id: `occultism:crushing/certus_quartz_dust_from_gem`
         },
         {
+            ingredient: { tag: 'c:gems/emerald' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: AlmostUnified.getTagTargetItem(`c:dusts/emerald`).getId(),
+                count: 1
+            },
+            id: `occultism:crushing/emerald_dust_from_gem`
+        },
+        {
             ingredient: { tag: 'c:ores/black_quartz' },
             ignore_crushing_multiplier: false,
             result: {
@@ -61,6 +71,36 @@ ServerEvents.recipes((event) => {
                 count: 1
             },
             id: `${id_prefix}glowstone_dust`
+        },
+        {
+            ingredient: { tag: `c:gems/fluix` },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'ae2:fluix_dust',
+                count: 1
+            },
+            id: `${id_prefix}fluix_dust`
+        },
+        {
+            ingredient: { item: 'minecraft:ender_pearl' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(),
+                count: 1
+            },
+            id: `${id_prefix}ender_pearl_dust`
+        },
+        {
+            ingredient: { item: 'ae2:sky_stone_block' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'ae2:sky_dust',
+                count: 1
+            },
+            id: `${id_prefix}sky_dust`
         }
     ];
 

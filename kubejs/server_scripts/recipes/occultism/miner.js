@@ -21,6 +21,16 @@ ServerEvents.recipes((event) => {
                 weight: 560
             },
             id: `${id_prefix}black_quartz`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:ores/fluorite',
+                count: 1,
+                weight: 560
+            },
+            id: `${id_prefix}fluorite`
         }
     ];
 
