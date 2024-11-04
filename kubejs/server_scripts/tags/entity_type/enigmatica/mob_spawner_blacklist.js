@@ -22,6 +22,7 @@ ServerEvents.tags('entity_type', (event) => {
             'occultism:afrit_wild',
             'occultism:otherworld_bird',
             'occultism:marid_unbound',
+            'occultism:mercy_goat',
             'evilcraft:netherfish',
             'evilcraft:poisonous_libelle',
             'evilcraft:werewolf'
