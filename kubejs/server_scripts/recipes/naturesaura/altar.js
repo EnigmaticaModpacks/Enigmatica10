@@ -9,6 +9,14 @@ ServerEvents.recipes((event) => {
             aura: 5000,
             time: 20,
             id: `${id_prefix}nautilus_shell`
+        },
+        {
+            input: { item: 'minecraft:glow_berries' },
+            output: { id: 'minecraft:glowstone_dust' },
+            catalyst: { item: 'naturesaura:crushing_catalyst' },
+            aura: 5000,
+            time: 20,
+            id: `${id_prefix}glowstone_dust`
         }
     ];
 
