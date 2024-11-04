@@ -9,6 +9,7 @@
 -   Tiny TNT no longer breaks blocks, making it safer for crafting [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
 -   Glow Berries are now a source for yellow dye [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
 -   The Market has dropped their prices once again! Rejoice! [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
+-   Ronaza's Contact no longer uses Sculk Catalyst on account of it eating the ritual. Nom. [\#200](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/200)
 
 #### 🦟 Bugs Fixed
 
