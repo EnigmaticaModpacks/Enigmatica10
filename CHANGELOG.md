@@ -17,6 +17,7 @@
 -   Fixed broken logistics quests and a missing icon in genetics quests [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
 -   Unbound Marid no longer blacklisted from spawners [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
 -   Add missing Tin processing recipes [(\#196)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/196)
+-   Fix missing Lignite crushing recipes [(\#205)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/205)
 
 ---
 
