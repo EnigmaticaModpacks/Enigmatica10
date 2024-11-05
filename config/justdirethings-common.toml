@@ -194,6 +194,8 @@
 	#The maximum number of blocks that a Eclipse Alloy tool can break as a result of abilities, such as ore miner or tree feller.
 	#Range: 1 ~ 2048
 	tool_max_break_eclipsealloy = 256
+	#waterbreathing
+	waterbreathing = true
 
 #Goo settings
 [goo]
