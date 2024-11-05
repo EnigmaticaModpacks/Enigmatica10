@@ -73,6 +73,11 @@ ServerEvents.recipes((event) => {
             output: '4x minecraft:quartz',
             inputs: ['#c:storage_blocks/quartz'],
             id: `${id_prefix}quartz`
+        },
+        {
+            output: '4x minecraft:amethyst_shard',
+            inputs: ['#c:storage_blocks/amethyst'],
+            id: `${id_prefix}amethyst_shard`
         }
     ];
 

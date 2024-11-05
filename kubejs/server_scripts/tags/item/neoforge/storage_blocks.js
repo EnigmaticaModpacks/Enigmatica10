@@ -24,7 +24,11 @@ ServerEvents.tags('item', (event) => {
         infused_iron: ['naturesaura:infused_iron_block'],
         tainted_gold: ['naturesaura:tainted_gold_block'],
         sky: ['naturesaura:sky_ingot_block'],
-        depth: ['naturesaura:depth_ingot_block']
+        depth: ['naturesaura:depth_ingot_block'],
+
+        dark: ['evilcraft:dark_block'],
+
+        black_quartz: ['actuallyadditions:black_quartz_block']
     };
 
     Object.keys(additions).forEach((tag) => {
