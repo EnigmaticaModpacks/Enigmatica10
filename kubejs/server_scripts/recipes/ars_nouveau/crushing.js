@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:gems/lignite_coal` },
             output: [
                 {
-                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/lignite_coal`).getId(), count: 1 },
+                    stack: { id: 'modern_industrialization:lignite_coal_dust', count: 1 },
                     chance: 1.0,
                     maxRange: 1
                 }
