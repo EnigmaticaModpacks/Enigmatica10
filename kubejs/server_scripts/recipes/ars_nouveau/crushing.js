@@ -23,6 +23,61 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}fluix_dust`
+        },
+        {
+            input: { tag: `c:gems/coal` },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}coal_dust`
+        },
+        {
+            input: { tag: `c:gems/lignite_coal` },
+            output: [
+                {
+                    stack: { id: 'modern_industrialization:lignite_coal_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}lignite_coal_dust`
+        },
+        {
+            input: { item: 'minecraft:glow_berries' },
+            output: [
+                {
+                    stack: { id: 'minecraft:yellow_dye', count: 2 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}yellow_dye_from_glow_berries`
+        },
+        {
+            input: { item: 'minecraft:ender_pearl' },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}ender_pearl_dust`
+        },
+        {
+            input: { item: 'ae2:sky_stone_block' },
+            output: [
+                {
+                    stack: { id: 'ae2:sky_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}sky_dust`
         }
     ];
 
@@ -36,6 +91,7 @@ ServerEvents.recipes((event) => {
         { primary: 'lead', secondary: 'silver' },
         { primary: 'silver', secondary: 'lead' },
         { primary: 'nickel', secondary: 'iron' },
+        { primary: 'tin', secondary: 'iron' },
         { primary: 'uranium', secondary: 'lead' }
     ];
     materials.forEach((material) => {

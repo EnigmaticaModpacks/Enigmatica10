@@ -38,6 +38,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}yellow_dye_from_fustic`
         },
         {
+            output: 'minecraft:yellow_dye',
+            inputs: ['minecraft:glow_berries'],
+            id: `${id_prefix}yellow_dye_from_glow_berries`
+        },
+        {
             output: 'minecraft:red_dye',
             inputs: ['productivetrees:dracaena_sap'],
             id: `${id_prefix}red_dye_from_dracaena_sap`
@@ -68,6 +73,11 @@ ServerEvents.recipes((event) => {
             output: '4x minecraft:quartz',
             inputs: ['#c:storage_blocks/quartz'],
             id: `${id_prefix}quartz`
+        },
+        {
+            output: '4x minecraft:amethyst_shard',
+            inputs: ['#c:storage_blocks/amethyst'],
+            id: `${id_prefix}amethyst_shard`
         }
     ];
 

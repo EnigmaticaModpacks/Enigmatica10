@@ -902,5 +902,22 @@
 			x: 5.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["5BD04F0109CB6704"]
+			id: "586D65D7CC2B8FCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62443C7DB450BAB0"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72396A76EEA759CF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(occultism:books/books_of_binding)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
 	]
 }

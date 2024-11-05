@@ -107,6 +107,26 @@ ServerEvents.recipes((event) => {
             ],
             energy: 2400,
             id: `enderio:sag_milling/sand`
+        },
+        {
+            input: { item: 'minecraft:glow_berries' },
+            outputs: [
+                { item: { id: 'minecraft:yellow_dye', count: 1 }, chance: 0.8 },
+                {
+                    item: { id: 'minecraft:yellow_dye', count: 1 },
+                    chance: 0.6
+                },
+                {
+                    item: { id: 'minecraft:yellow_dye', count: 1 },
+                    chance: 0.3
+                },
+                {
+                    item: { id: 'enderio:plant_matter_green', count: 1 },
+                    chance: 0.1
+                }
+            ],
+            energy: 2400,
+            id: `${id_prefix}yellow_dye_from_glow_berries`
         }
     ];
 

@@ -56,7 +56,7 @@
 	#Range: > 1
 	minerLensEnergy = 60000
 	#If Energy Laser Relays should have energy loss.
-	laserRelayLoss = true
+	laserRelayLoss = false
 	#The cooldown between two generation cycles of the Leaf Generator, in ticks
 	#Range: > 1
 	leafGeneratorCooldown = 5

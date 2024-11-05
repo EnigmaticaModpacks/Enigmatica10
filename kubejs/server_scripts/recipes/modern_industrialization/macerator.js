@@ -15,6 +15,13 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 800,
             id: `${id_prefix}plutonium_dust`
+        },
+        {
+            item_inputs: { item: 'minecraft:glow_berries', amount: 1 },
+            item_outputs: { item: 'minecraft:yellow_dye', amount: 2 },
+            eu: 2,
+            duration: 100,
+            id: `${id_prefix}yellow_dye_from_glow_berries`
         }
     ];
 

@@ -1,7 +1,14 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:farmersdelight/cutting/';
 
-    const recipes = [];
+    const recipes = [
+        {
+            ingredients: [{ item: 'minecraft:glow_berries' }],
+            result: [{ item: { id: 'minecraft:yellow_dye', count: 2 } }],
+            tool: { tag: 'c:tools/knife' },
+            id: `${id_prefix}yellow_dye_from_glow_berries`
+        }
+    ];
 
     wood_registry.forEach((r) => {
         recipes.push(

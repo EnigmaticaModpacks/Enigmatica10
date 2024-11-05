@@ -16,6 +16,11 @@ ServerEvents.recipes((event) => {
             input: { count: 1, tag: 'c:ores/black_quartz' },
             output: { count: 2, id: 'actuallyadditions:black_quartz' },
             id: `${id_prefix}black_quartz`
+        },
+        {
+            input: { count: 1, item: 'minecraft:glow_berries' },
+            output: { count: 2, id: 'minecraft:yellow_dye' },
+            id: `${id_prefix}yellow_dye_from_glow_berries`
         }
     ];
 
