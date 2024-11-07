@@ -1,8 +1,8 @@
-
 #General settings
 [general]
 	#The CurseForge project ID for the modpack
-	#Range: > 0
+	# Default: 0
+	# Range: > 0
 	modpackProjectID = 1038391
 	#The name of the modpack
 	modpackName = "Enigmatica 10"
@@ -11,4 +11,3 @@
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
-

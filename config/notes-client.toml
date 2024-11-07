@@ -1,4 +1,3 @@
-
 [Client]
 	#The date format used in timestamps. Uses Java SimpleDateFormat conventions.
 	dateFormat = "M/d/yy h:mm a"
@@ -9,11 +8,12 @@
 	#The HUD position of a pinned note. Values: top_left, top_right, center_left, center_right, bottom_left, bottom_right
 	pinnedNotePosition = "center_right"
 	#The maximum width of a pinned note relative to the screen's width.
-	#Range: 0.05 ~ 1.0
+	# Default: 0.2
+	# Range: 0.05 ~ 1.0
 	pinnedWidthScale = 0.2
 	#The maximum percentage of the screen's display height that a pinned note can take up.
-	#Range: 0.05 ~ 1.0
+	# Default: 1.0
+	# Range: 0.05 ~ 1.0
 	pinnedHeightScale = 1.0
 	#Determines whether displayed notes will be word wrapped.
 	wrapNote = true
-

@@ -1,12 +1,14 @@
 #The time (in real life days) deaths get stored
 #-1 for infinite storage
 #0 for not storing deaths at all
-#Range: > -1
+# Default: -1
+# Range: > -1
 death_storage_duration = -1
 
 [corpse]
 	#The time passed (in ticks) after a corpse turns into a skeleton
-	#Range: > 0
+	# Default: 72000
+	# Range: > 0
 	skeleton_time = 72000
 	#If the corpse should lie on its face
 	lie_on_face = false
@@ -25,9 +27,10 @@ death_storage_duration = -1
 
 	[corpse.despawn]
 		#The time passed (in ticks) after a corpse despawns (only if empty)
-		#Range: > 20
+		# Default: 600
+		# Range: > 20
 		time = 600
 		#The time passed (in ticks) after a corpse despawns even if its not empty (-1 = never)
-		#Range: > -1
+		# Default: -1
+		# Range: > -1
 		force_time = -1
-
