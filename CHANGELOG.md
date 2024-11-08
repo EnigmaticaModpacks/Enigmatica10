@@ -11,6 +11,7 @@
 -   The Market has dropped their prices once again! Rejoice! [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
 -   Ronaza's Contact no longer uses Sculk Catalyst on account of it eating the ritual. Nom. [\#202](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/202)
 -   Add missing blocks to Eldritch Miner [\#204](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/204)
+-   Allow wolf armor to be enchanted [\#208](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/208)
 
 #### 🦟 Bugs Fixed
 
