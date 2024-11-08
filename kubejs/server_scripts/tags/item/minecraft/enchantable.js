@@ -3,7 +3,8 @@ ServerEvents.tags('item', (event) => {
         durability: [/vanillaplustools:.*(hammer|shovel)/, 'geneticsresequenced:scraper'],
         mining: [/vanillaplustools:.*(hammer|shovel)/],
         mining_loot: [/vanillaplustools:.*(hammer|shovel)/],
-        vanishing: [/vanillaplustools:.*(hammer|shovel)/]
+        vanishing: [/vanillaplustools:.*(hammer|shovel)/],
+        armor: ['minecraft:wolf_armor']
     };
 
     Object.keys(additions).forEach((tag) => {
