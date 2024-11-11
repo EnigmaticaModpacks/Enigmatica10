@@ -5,6 +5,8 @@ ServerEvents.tags('block', (event) => {
         '#sereneseasons:spring_crops',
         '#sereneseasons:summer_crops',
         '#sereneseasons:autumn_crops',
-        '#sereneseasons:winter_crops'
+        '#sereneseasons:winter_crops',
+        '#c:budding_blocks',
+        '#c:budding'
     ]);
 });
