@@ -12,6 +12,7 @@
 -   Ronaza's Contact no longer uses Sculk Catalyst on account of it eating the ritual. Nom. [\#202](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/202)
 -   Add missing blocks to Eldritch Miner [\#204](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/204)
 -   Allow wolf armor to be enchanted [\#208](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/208)
+-   Disable Aura explosions [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
 
 #### 🦟 Bugs Fixed
 
@@ -19,6 +20,8 @@
 -   Unbound Marid no longer blacklisted from spawners [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
 -   Add missing Tin processing recipes [(\#196)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/196)
 -   Fix missing Lignite crushing recipes [(\#205)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/205)
+-   Fix NA quests not giving aura [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
+-   Fix budding tags for growth acceleration and golems [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
 
 ---
 
