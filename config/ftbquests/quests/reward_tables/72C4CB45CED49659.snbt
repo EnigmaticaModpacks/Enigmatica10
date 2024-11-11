@@ -16,6 +16,8 @@
 		{
 			auto: "invisible"
 			command: "/execute at @p run naaura add 100000"
+			elevate_perms: true
+			feedback_message: ""
 			icon: {
 				components: {
 					"ftbquests:icon": "naturesaura:block/aura_bloom"
