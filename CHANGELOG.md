@@ -34,7 +34,6 @@ NeoForge-1.21.1-21.1.74 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 -   Allow wolf armor to be enchanted [\#208](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/208)
 -   Disable Aura explosions [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
 
-
 #### 🦟 Bugs Fixed
 
 -   Fixed broken logistics quests and a missing icon in genetics quests [(\#195)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/195)
@@ -46,7 +45,6 @@ NeoForge-1.21.1-21.1.74 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 -   E10: Genetics Resequenced - Water Breathing gene not working [(\#207)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/207)
 -   E10: AA power gen buffers deplete when turned off and not actively powering anything [(\#194)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/194)
 -   server restart halts at error from inventory sorter (known issue on their end) [(\#185)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/185)
-
 
 ---
 
