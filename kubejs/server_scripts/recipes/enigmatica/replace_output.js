@@ -15,6 +15,14 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    colors.forEach((color) => {
+        recipes.push({
+            filter: [{ type: 'occultism:spirit_fire' }],
+            to_replace: `occultism:chalk_${color}`,
+            replace_with: `occultism:chalk_${color}[unbreakable={}]`
+        });
+    });
+
     const compressors = [
         'pneumaticcraft:air_compressor',
         'pneumaticcraft:liquid_compressor',

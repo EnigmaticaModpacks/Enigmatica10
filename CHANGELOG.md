@@ -1,3 +1,17 @@
+### Enigmatica 10 1.13.1
+
+#### ⭐ Improvements
+
+-   Custom flight potion no longer available. Switched to superior potion of flying from Apotheosis [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Occultism chalk has been made unbreakable due to inability to see how damaged it is in a ritual bag [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Structory tower and arcane library loot has been buffed [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+
+#### 🦟 Bugs Fixed
+
+-   Evilcraft should no longer spawn silverfish everywhere [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+
+---
+
 ### Enigmatica 10 1.13.0
 
 NeoForge-1.21.1-21.1.74 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.13.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.13.0.md)

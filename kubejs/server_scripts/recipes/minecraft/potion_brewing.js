@@ -40,19 +40,13 @@ MoreJS.registerPotionBrewing((event) => {
         {
             reagent: 'chococraft:gold_gysahl',
             input: 'minecraft:slow_falling',
-            output: 'kubejs:flight'
+            output: 'apothic_attributes:flying'
         },
         {
-            reagent: 'chococraft:gold_gysahl',
-            input: 'minecraft:long_slow_falling',
-            output: 'kubejs:long_flight'
+            reagent: 'ae2:sky_dust',
+            input: 'apothic_attributes:long_flying',
+            output: 'apothic_attributes:extra_long_flying'
         },
-        {
-            reagent: 'minecraft:redstone',
-            input: 'kubejs:flight',
-            output: 'kubejs:long_flight'
-        },
-
         {
             reagent: 'ars_nouveau:earth_essence',
             input: 'minecraft:awkward',

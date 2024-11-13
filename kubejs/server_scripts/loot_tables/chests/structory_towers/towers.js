@@ -23,12 +23,22 @@ LootJS.lootTables((event) => {
     ];
 
     towers.forEach((tower) => {
-        event.getLootTable(`structory_towers:top/${tower}_top`).createPool((pool) => {
-            pool.addEntry(LootEntry.reference('ars_additions:chests/arcane_library'));
-        });
+        event
+            .getLootTable(`structory_towers:top/${tower}_top`)
+            .createPool((pool) => {
+                pool.addEntry(LootEntry.of('ars_additions:codex_entry', [1, 4]));
+            })
+            .createPool((pool) => {
+                pool.addEntry(LootEntry.of('ars_nouveau:bombegranate_pod', [1, 8]));
+                pool.addEntry(LootEntry.of('ars_nouveau:frostaya_pod', [1, 8]));
+            })
+            .createPool((pool) => {
+                pool.addEntry(LootEntry.of('ars_nouveau:bastion_pod', [1, 8]));
+                pool.addEntry(LootEntry.of('ars_nouveau:mendosteen_pod', [1, 8]));
+            });
     });
 
-    let highly_magical = ['wizard', 'strange', 'ocean_pillar', 'paranoid', 'sacred_temple'];
+    const highly_magical = ['wizard', 'strange', 'ocean_pillar', 'paranoid', 'sacred_temple'];
     highly_magical.forEach((tower) => {
         event
             .getLootTable(`structory_towers:top/${tower}_top`)

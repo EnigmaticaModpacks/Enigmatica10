@@ -12,7 +12,7 @@ LootJS.lootTables((event) => {
         .addEntry(LootEntry.of('minecraft:potion').addPotion('kubejs:greater_mana_regen').withWeight(700))
         .addEntry(LootEntry.of('minecraft:potion').addPotion('kubejs:greater_strength').withWeight(1000))
         .addEntry(LootEntry.of('minecraft:potion').addPotion('kubejs:greater_resistance').withWeight(700))
-        .addEntry(LootEntry.of('minecraft:potion').addPotion('kubejs:long_flight').withWeight(1500))
+        .addEntry(LootEntry.of('minecraft:potion').addPotion('apothic_attributes:extra_long_flying').withWeight(1500))
         .addEntry(LootEntry.of('minecraft:splash_potion').addPotion('kubejs:greater_instant_damage').withWeight(1000))
 
         .addEntry(LootEntry.of('minecraft:potion').addPotion('minecraft:long_swiftness').withWeight(1000))
