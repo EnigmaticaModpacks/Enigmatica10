@@ -13,6 +13,9 @@
 -   Add missing blocks to Eldritch Miner [\#204](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/204)
 -   Allow wolf armor to be enchanted [\#208](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/208)
 -   Disable Aura explosions [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
+-   Custom flight potion no longer available. Switched to superior potion of flying from Apotheosis [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Occultism chalk has been made unbreakable due to inability to see how damaged it is in a ritual bag [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Structory tower and arcane library loot has been buffed [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 
 #### 🦟 Bugs Fixed
 
@@ -22,6 +25,7 @@
 -   Fix missing Lignite crushing recipes [(\#205)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/205)
 -   Fix NA quests not giving aura [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
 -   Fix budding tags for growth acceleration and golems [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
+-   Evilcraft should no longer spawn silverfish everywhere [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 
 ---
 
