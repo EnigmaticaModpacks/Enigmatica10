@@ -4,7 +4,17 @@ NeoForge-1.21.1-21.1.74 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### ✔️ Added Mods
 
+* [Ars Nouveau's Flavors & Delight](https://www.curseforge.com/minecraft/mc-mods/ars-nouveaus-flavors-delight) (by [lcy0x1](https://www.curseforge.com/members/lcy0x1/projects))
+* [Client Sort](https://www.curseforge.com/minecraft/mc-mods/clientsort) (by [NotRyken](https://www.curseforge.com/members/NotRyken/projects))
+* [Enigmatic Unity](https://www.curseforge.com/minecraft/mc-mods/enigmatic-unity) (by [Darkere](https://www.curseforge.com/members/Darkere/projects))
+* [Glassential Renewed (Fabric/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/glassential-renewed) (by [big_energy](https://www.curseforge.com/members/big_energy/projects))
+* [libIPN](https://www.curseforge.com/minecraft/mc-mods/libipn) (by [mirinimi](https://www.curseforge.com/members/mirinimi/projects))
+* [Smithing Template Viewer for JEI/EMI](https://www.curseforge.com/minecraft/mc-mods/smithing-template-viewer) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+
 #### ❌ Removed Mods
+
+* [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
+* [Inventory Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter) (by [cpw](https://www.curseforge.com/members/cpw/projects))
 
 #### ⭐ Improvements
 
