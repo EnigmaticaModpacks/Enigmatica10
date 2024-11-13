@@ -1,4 +1,24 @@
+### Enigmatica 10 1.13.1
+
+#### ⭐ Improvements
+
+-   Custom flight potion no longer available. Switched to superior potion of flying from Apotheosis [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Occultism chalk has been made unbreakable due to inability to see how damaged it is in a ritual bag [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Structory tower and arcane library loot has been buffed [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+
+#### 🦟 Bugs Fixed
+
+-   Evilcraft should no longer spawn silverfish everywhere [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+
+---
+
 ### Enigmatica 10 1.13.0
+
+NeoForge-1.21.1-21.1.74 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.13.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.13.0.md)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
 
 #### ⭐ Improvements
 
@@ -13,9 +33,7 @@
 -   Add missing blocks to Eldritch Miner [\#204](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/204)
 -   Allow wolf armor to be enchanted [\#208](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/208)
 -   Disable Aura explosions [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
--   Custom flight potion no longer available. Switched to superior potion of flying from Apotheosis [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
--   Occultism chalk has been made unbreakable due to inability to see how damaged it is in a ritual bag [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
--   Structory tower and arcane library loot has been buffed [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+
 
 #### 🦟 Bugs Fixed
 
@@ -25,7 +43,10 @@
 -   Fix missing Lignite crushing recipes [(\#205)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/205)
 -   Fix NA quests not giving aura [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
 -   Fix budding tags for growth acceleration and golems [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
--   Evilcraft should no longer spawn silverfish everywhere [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   E10: Genetics Resequenced - Water Breathing gene not working [(\#207)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/207)
+-   E10: AA power gen buffers deplete when turned off and not actively powering anything [(\#194)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/194)
+-   server restart halts at error from inventory sorter (known issue on their end) [(\#185)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/185)
+
 
 ---
 
@@ -66,6 +87,7 @@ NeoForge-1.21.1-21.1.72 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 #### 🦟 Bugs Fixed
 
 -   Evilcraft entangled chalice has no recipe in EMI but is craftable [(\#190)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/190)
+-   MOTD does not display (stuck on 'Pinging...') [(\#158)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/158)
 
 ---
 
