@@ -1,86 +1,67 @@
 #Conversion multiplier from Aura to Power
-# Default: 10.0
-# Range: 4.9E-324 ~ 1.7976931348623157E308
-auraConversion = 10.0
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+auraConversion = 40.0
 #Conversion multiplier from Source to Power
-# Default: 10.0
-# Range: 4.9E-324 ~ 1.7976931348623157E308
-sourceConversion = 10.0
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+sourceConversion = 400.0
 
 ["Dim type"]
 	#Power Buffer size  of the Dim type
-	# Default: 1000
-	# Range: > 0
-	powerBuffer = 1000
+	#Range: > 0
+	powerBuffer = 240000
 	#Max amount of power transfer for the Dim type per tick
-	# Default: 100
-	# Range: > 0
-	maxPowertransfer = 100
+	#Range: > 0
+	maxPowertransfer = 240000
 	#Range the Dim type can connect to Source containers
-	# Default: 2
-	# Range: > 0
-	range = 2
+	#Range: > 0
+	range = 8
 	#Ticks to wait for next operation for the DIM type
-	# Default: 100
-	# Range: > 0
-	tickinterval = 100
+	#Range: > 0
+	tickinterval = 80
 	#Amount of Source to convert per Operation with the Dim type
-	# Default: 10
-	# Range: > 0
-	amountperoperation = 10
+	#Range: > 0
+	amountperoperation = 20
 	#Amount of Aura to drain/provide when theDim type operates
-	# Default: 10
-	# Range: > 0
-	change = 10
+	#Range: > 0
+	change = 800
 
 ["Bright type"]
 	#Power Buffer size  of the Bright type
-	# Default: 10000
-	# Range: > 0
-	powerBuffer = 10000
+	#Range: > 0
+	powerBuffer = 960000
 	#Max amount of power transfer for the Bright type per tick
-	# Default: 1000
-	# Range: > 0
-	maxPowertransfer = 1000
+	#Range: > 0
+	maxPowertransfer = 960000
 	#Range the Bright type can connect to Source containers
-	# Default: 5
-	# Range: > 0
-	range = 5
+	#Range: > 0
+	range = 8
 	#Ticks to wait for next operation for the BRIGHT type
-	# Default: 50
-	# Range: > 0
-	tickinterval = 50
+	#Range: > 0
+	tickinterval = 40
 	#Amount of Source to convert per Operation with the Bright type
-	# Default: 100
-	# Range: > 0
-	amountperoperation = 100
+	#Range: > 0
+	amountperoperation = 20
 	#Amount of Aura to drain/provide when theBright type operates
-	# Default: 50
-	# Range: > 0
-	change = 50
+	#Range: > 0
+	change = 3800
 
 ["Iridescent type"]
 	#Power Buffer size  of the Iridescent type
-	# Default: 100000
-	# Range: > 0
-	powerBuffer = 100000
+	#Range: > 0
+	powerBuffer = 1920000
 	#Max amount of power transfer for the Iridescent type per tick
-	# Default: 10000
-	# Range: > 0
-	maxPowertransfer = 10000
+	#Range: > 0
+	maxPowertransfer = 1920000
 	#Range the Iridescent type can connect to Source containers
-	# Default: 10
-	# Range: > 0
-	range = 10
+	#Range: > 0
+	range = 8
 	#Ticks to wait for next operation for the IRIDESCENT type
-	# Default: 20
-	# Range: > 0
+	#Range: > 0
 	tickinterval = 20
 	#Amount of Source to convert per Operation with the Iridescent type
-	# Default: 1000
-	# Range: > 0
-	amountperoperation = 1000
+	#Range: > 0
+	amountperoperation = 20
 	#Amount of Aura to drain/provide when theIridescent type operates
-	# Default: 100
-	# Range: > 0
-	change = 100
+	#Range: > 0
+	change = 7800
+
