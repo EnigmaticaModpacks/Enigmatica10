@@ -1,5 +1,11 @@
 ### Enigmatica 10 1.13.0
 
+NeoForge-1.21.1-21.1.74 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.13.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.13.0.md)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
 #### ⭐ Improvements
 
 -   Rice Slime Balls now count as slime balls for more recipes [\#196](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/196)
@@ -22,6 +28,9 @@
 -   Fix missing Lignite crushing recipes [(\#205)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/205)
 -   Fix NA quests not giving aura [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
 -   Fix budding tags for growth acceleration and golems [(\#211)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/211)
+-   E10: Genetics Resequenced - Water Breathing gene not working [(\#207)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/207)
+-   E10: AA power gen buffers deplete when turned off and not actively powering anything [(\#194)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/194)
+-   server restart halts at error from inventory sorter (known issue on their end) [(\#185)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/185)
 
 ---
 
@@ -62,6 +71,7 @@ NeoForge-1.21.1-21.1.72 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 #### 🦟 Bugs Fixed
 
 -   Evilcraft entangled chalice has no recipe in EMI but is craftable [(\#190)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/190)
+-   MOTD does not display (stuck on 'Pinging...') [(\#158)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/158)
 
 ---
 
