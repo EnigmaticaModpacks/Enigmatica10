@@ -6,6 +6,7 @@
 -   Occultism chalk has been made unbreakable due to inability to see how damaged it is in a ritual bag [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 -   Structory tower and arcane library loot has been buffed [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 -   Theurgy Calcination and Distillation sped up to reduce number of machines needed [(\#217)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/217)
+-   Dragons in drygmy farms will now drop eggs, heads, and breath at a reduced rate [(\#218)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/218)
 
 #### 🦟 Bugs Fixed
 
