@@ -63,7 +63,7 @@
 		
 		# Enable the sidebar
 		# Default: true
-		enabled: false
+		enabled: true
 		
 		# Position of the sidebar
 		# Default: "top_left"
