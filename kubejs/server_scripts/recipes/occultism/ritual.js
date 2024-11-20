@@ -2,6 +2,13 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:occultism/ritual/';
     const recipes = [];
 
+    const sacrifice = {
+        llama: { display_name: 'ritual.occultism.sacrifice.llamas', tag: 'c:llamas' },
+        chicken: { display_name: 'ritual.occultism.sacrifice.chicken', tag: 'c:chickens' },
+        cow: { display_name: 'ritual.occultism.sacrifice.cows', tag: 'c:cows' },
+        fish: { display_name: 'ritual.occultism.sacrifice.fish', tag: 'c:fish' }
+    };
+
     event.forEachRecipe({ type: 'occultism:ritual' }, (r) => {
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
@@ -18,94 +25,91 @@ ServerEvents.recipes((event) => {
             }
         }
 
-        if (recipe_id.includes('ritual/misc_wild_trim')) {
-            recipe.entity_to_sacrifice = {
-                display_name: 'ritual.occultism.sacrifice.llamas',
-                tag: 'c:llamas'
-            };
-            recipe.id = recipe_id;
-        } else if (recipe_id.includes('ritual/possess_warden')) {
-            recipe.entity_to_sacrifice = {
-                display_name: 'ritual.occultism.sacrifice.cows',
-                tag: 'c:cows'
-            };
-            recipe.ingredients = [
-                { item: 'minecraft:sculk' },
-                { item: 'minecraft:sculk' },
-                { item: 'minecraft:sculk' },
-                { item: 'minecraft:sculk' }
-            ];
-            recipe.id = recipe_id;
-        } else if (
-            recipe_id.includes('ritual/possess_goat') ||
-            recipe_id.includes('ritual/possess_witch') ||
-            recipe_id.includes('ritual/possess_bee') ||
-            recipe_id.includes('ritual/wild_breeze') ||
-            recipe_id.includes('ritual/wild_weak_breeze') ||
-            recipe_id.includes('ritual/wild_strong_breeze')
-        ) {
-            recipe.entity_to_sacrifice = {
-                display_name: 'ritual.occultism.sacrifice.chicken',
-                tag: 'c:chickens'
-            };
-            recipe.id = recipe_id;
-        } else if (recipe_id.includes('ritual/misc_budding_amethyst')) {
-            delete recipe.entity_to_sacrifice;
-            recipe.ingredients = [
-                { tag: 'c:dusts/amethyst' },
-                { tag: 'c:dusts/amethyst' },
-                { tag: 'c:dusts/amethyst' },
-                { tag: 'c:dusts/amethyst' }
-            ];
-            recipe.id = recipe_id;
-        } else if (
-            recipe_id.includes('ritual/repair_armors') ||
-            recipe_id.includes('ritual/repair_tools') ||
-            recipe_id.includes('ritual/repair_miners')
-        ) {
-            recipe.ingredients = [
-                { item: 'occultism:otherworld_essence' },
-                { item: 'occultism:otherworld_essence' },
-                { item: 'occultism:spirit_attuned_gem' },
-                { item: 'occultism:otherworld_essence' }
-            ];
-            recipe.id = recipe_id;
-        } else if (recipe_id.includes('ritual/repair_chalks')) {
-            recipe.ingredients = [
-                { item: 'occultism:otherworld_essence' },
-                { tag: 'c:dusts/otherworld_wood' },
-                { item: 'occultism:otherworld_essence' },
-                { tag: 'c:dusts/otherstone' }
-            ];
-            recipe.id = recipe_id;
-        } else if (recipe_id.includes('ritual/wild_drowned')) {
-            recipe.entity_to_sacrifice = {
-                display_name: 'ritual.occultism.sacrifice.fish',
-                tag: 'c:fish'
-            };
-            recipe.activation_item = { tag: 'minecraft:coral_blocks' };
-            recipe.ingredients = [
-                { item: 'minecraft:pufferfish' },
-                { item: 'minecraft:gravel' },
-                { item: 'minecraft:dried_kelp_block' },
-                { item: 'minecraft:gravel' }
-            ];
-            recipe.id = recipe_id;
-        } else if (recipe_id.includes('ritual/possess_zombie_piglin')) {
-            recipe.ingredients = [
-                { item: 'minecraft:gilded_blackstone' },
-                { item: 'minecraft:warped_fungus' },
-                { item: 'minecraft:quartz' },
-                { item: 'minecraft:crimson_fungus' }
-            ];
-            recipe.id = recipe_id;
-        } else if (recipe_id.includes('ritual/craft_ritual_satchel_t1')) {
-            recipe.activation_item = { item: 'occultism:book_of_binding_bound_foliot' };
-            recipe.pentacle_id = 'occultism:craft_foliot';
-            recipe.id = recipe_id;
-        } else if (recipe_id.includes('_random_animal_')) {
+        if (recipe_id.includes('_random_animal_')) {
             recipe.item_to_use = { item: 'minecraft:egg' };
             recipe.id = recipe_id;
+        }
+
+        switch (recipe_id) {
+            case 'occultism:ritual/misc_wild_trim':
+                recipe.entity_to_sacrifice = sacrifice.llama;
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/posses_goat':
+            case 'occultism:ritual/possess_witch':
+            case 'occultism:ritual/possess_bee':
+            case 'occultism:ritual/wild_breeze':
+            case 'occultism:ritual/wild_weak_breeze':
+            case 'occultism:ritual/wild_strong_breeze':
+                recipe.entity_to_sacrifice = sacrifice.chicken;
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/possess_warden':
+                recipe.entity_to_sacrifice = sacrifice.cow;
+                recipe.ingredients = [
+                    { item: 'minecraft:sculk' },
+                    { item: 'minecraft:sculk' },
+                    { item: 'minecraft:sculk' },
+                    { item: 'minecraft:sculk' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/misc_budding_amethyst':
+                delete recipe.entity_to_sacrifice;
+                recipe.ingredients = [
+                    { tag: 'c:dusts/amethyst' },
+                    { tag: 'c:dusts/amethyst' },
+                    { tag: 'c:dusts/amethyst' },
+                    { tag: 'c:dusts/amethyst' }
+                ];
+                recipe.id = recipe_id;
+                break;
+
+            case 'occultism:ritual/repair_armors':
+            case 'occultism:ritual/repair_tools':
+            case 'occultism:ritual/repair_miners':
+                recipe.ingredients = [
+                    { item: 'occultism:otherworld_essence' },
+                    { item: 'occultism:otherworld_essence' },
+                    { item: 'occultism:spirit_attuned_gem' },
+                    { item: 'occultism:otherworld_essence' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/repair_chalks':
+                recipe.ingredients = [
+                    { item: 'occultism:otherworld_essence' },
+                    { tag: 'c:dusts/otherworld_wood' },
+                    { item: 'occultism:otherworld_essence' },
+                    { tag: 'c:dusts/otherstone' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/wild_drowned':
+                recipe.entity_to_sacrifice = sacrifice.fish;
+                recipe.activation_item = { tag: 'minecraft:coral_blocks' };
+                recipe.ingredients = [
+                    { item: 'minecraft:pufferfish' },
+                    { item: 'minecraft:gravel' },
+                    { item: 'minecraft:dried_kelp_block' },
+                    { item: 'minecraft:gravel' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/possess_zombie_piglin':
+                recipe.ingredients = [
+                    { item: 'minecraft:gilded_blackstone' },
+                    { item: 'minecraft:warped_fungus' },
+                    { item: 'minecraft:quartz' },
+                    { item: 'minecraft:crimson_fungus' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/craft_ritual_satchel_t1':
+                recipe.activation_item = { item: 'occultism:book_of_binding_bound_foliot' };
+                recipe.pentacle_id = 'occultism:craft_foliot';
+                recipe.id = recipe_id;
+                break;
         }
 
         if (recipe.id) {
