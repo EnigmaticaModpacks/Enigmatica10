@@ -24,6 +24,10 @@ function onlyDrygmy(event, entity) {
     return event.addEntityModifier(entity).matchAttackerCustom((attacker) => attacker.uuid.toString() == DRYGMY_UUID);
 }
 
+function notDrygmy(event, entity) {
+    return event.addEntityModifier(entity).matchAttackerCustom((attacker) => attacker.uuid.toString() != DRYGMY_UUID);
+}
+
 function generatePentacleEntry(ritual_name, x_placement, y_placement, parents) {
     let entry = {
         name: ritual_name,
