@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
                 recipe.entity_to_sacrifice = sacrifice.llama;
                 recipe.id = recipe_id;
                 break;
-            case 'occultism:ritual/posses_goat':
+            case 'occultism:ritual/possess_goat':
             case 'occultism:ritual/possess_witch':
             case 'occultism:ritual/possess_bee':
             case 'occultism:ritual/wild_breeze':
