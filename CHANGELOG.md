@@ -2,15 +2,17 @@
 
 #### ⭐ Improvements
 
--   Custom flight potion no longer available. Switched to superior potion of flying from Apotheosis [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Custom flight potion no longer craftable. Switched to superior potion of flying from Apotheosis [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 -   Occultism chalk has been made unbreakable due to inability to see how damaged it is in a ritual bag [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 -   Structory tower and arcane library loot has been buffed [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 -   Theurgy Calcination and Distillation sped up to reduce number of machines needed [(\#217)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/217)
 -   Dragons in drygmy farms will now drop eggs, heads, and breath at a reduced rate [(\#218)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/218)
+-   Theurgy Creature Salt may be crafted from meat and fish now [(\#221)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/221)
 
 #### 🦟 Bugs Fixed
 
 -   Evilcraft should no longer spawn silverfish everywhere [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Tiny Coal and Tiny Charcoals are now unified [(\#221)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/221)
 
 ---
 

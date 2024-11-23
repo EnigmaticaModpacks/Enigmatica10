@@ -7,6 +7,8 @@
         "occultism",
         "ae2",
         "enderio",
+        "actuallyadditions",
+        "utilitarian",
         "bigreactors"
     ],
     "priority_overrides": {},
@@ -15,6 +17,7 @@
         "c:dusts/{material}",
         "c:gears/{material}",
         "c:gems/{material}",
+        "c:tiny_gems/{material}",
         "c:ingots/{material}",
         "c:nuggets/{material}",
         "c:ores/{material}",
