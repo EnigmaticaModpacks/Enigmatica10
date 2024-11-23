@@ -12,6 +12,7 @@
 #### 🦟 Bugs Fixed
 
 -   Evilcraft should no longer spawn silverfish everywhere [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
+-   Tiny Coal and Tiny Charcoals are now unified [(\#221)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/221)
 
 ---
 
