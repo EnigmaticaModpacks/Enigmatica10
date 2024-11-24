@@ -1,12 +1,31 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:occultism/ritual/';
-    const recipes = [];
+    const recipes = [
+        {
+            activation_item: { item: 'minecraft:dragon_egg' },
+            duration: 360,
+            entity_to_sacrifice: sacrifice.warden,
+            ingredients: [
+                { item: 'deeperdarker:reinforced_echo_shard' },
+                { item: 'deeperdarker:reinforced_echo_shard' },
+                { item: 'deeperdarker:reinforced_echo_shard' },
+                { item: 'deeperdarker:reinforced_echo_shard' },
+                { tag: 'c:storage_blocks/iesnium' }
+            ],
+            pentacle_id: 'occultism:contact_eldritch_spirit',
+            result: { id: 'irons_spellbooks:eldritch_manuscript', count: 1 },
+            ritual_dummy: { id: 'kubejs:misc_eldritch_manuscript', count: 1 },
+            ritual_type: 'occultism:craft',
+            id: `${id_prefix}eldritch_manuscript`
+        }
+    ];
 
     const sacrifice = {
         llama: { display_name: 'ritual.occultism.sacrifice.llamas', tag: 'c:llamas' },
         chicken: { display_name: 'ritual.occultism.sacrifice.chicken', tag: 'c:chickens' },
         cow: { display_name: 'ritual.occultism.sacrifice.cows', tag: 'c:cows' },
-        fish: { display_name: 'ritual.occultism.sacrifice.fish', tag: 'c:fish' }
+        fish: { display_name: 'ritual.occultism.sacrifice.fish', tag: 'c:fish' },
+        warden: { display_name: 'ritual.occultism.sacrifice.warden', tag: 'c:wardens' }
     };
 
     event.forEachRecipe({ type: 'occultism:ritual' }, (r) => {
