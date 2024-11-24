@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
             result: { id: 'irons_spellbooks:eldritch_manuscript', count: 1 },
             ritual_dummy: { id: 'occultism:ritual_dummy/misc_eldritch_manuscript', count: 1 },
             ritual_type: 'occultism:craft',
-            id: `${id_prefix}eldritch_manuscript`
+            id: `${id_prefix}misc_eldritch_manuscript`
         }
     ];
 
