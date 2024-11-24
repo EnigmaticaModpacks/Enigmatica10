@@ -15,6 +15,7 @@
 	chapter.47870879D8E3742D.title: "Getting Started"
 	chapter.4C53D082D6306BF8.title: "Just Dire Things"
 	chapter.4D1E38918B64CD4E.title: "Mekanism"
+	chapter.52D510F5F28EA5FE.title: "Iron's Spellbooks"
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.603B06098A07350C.title: "EvilCraft"
@@ -63,6 +64,16 @@
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
+	quest.01E9BF979ED779AE.quest_desc: [
+		"Welcome to Iron’s Spells and Spellbooks!"
+		""
+		"This mod adds a number of structures to explore and creatures to either fight or assist as you embark on your epic journey of magical discovery!"
+		""
+		"The following quests will help get you oriented and slinging spells as quickly as possible. "
+		""
+		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://iron.wiki/spellbooks/\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of knowledge.\"]"
+	]
+	quest.01E9BF979ED779AE.title: "Iron's Spellbooks"
 	quest.0200E313AEB3A08A.quest_desc: [
 		"Being among the most powerful of spirits, Marid can be quite difficult to bind. "
 		""
@@ -939,6 +950,22 @@
 		""
 		"The Large Steam Turbine will be somewhat limited right now, seeing as the best we can do is an HV Energy Hatch, but it will be able to grow as your base grows. "
 	]
+	quest.1E8C6CE5E863EC0F.quest_desc: [
+		""
+		"Is it truly a Spell Book if it has no spells?"
+		""
+		"You’ll notice that the book you’ve been given is currently empty. Let’s change that!"
+		"&n                                                  &r"
+		""
+		"Craft an Inscription Table and pick a spell to start with from the quest rewards. "
+		""
+		"To insert the scroll into the book, place both in the Inscription Table and click the small scribe button. It will then appear in the central pane."
+		""
+		"Scrolls may be retrieved at any time by selecting the spell in the Inscription Table and clicking the resulting scroll in the lower right corner. "
+		""
+		"&c⚠ Warning: Right-Clicking a Scroll "
+		"&c    will cast it, expending forever."
+	]
 	quest.1EBAABF6E93CFCDF.quest_desc: [
 		"Once properly prepared in the UV Light Box, Empty PCBs will need to be etched in the etching tank."
 		""
@@ -1029,6 +1056,16 @@
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
 	quest.225A626E79D7165F.quest_desc: ["Energy Hoppers effectively turn any inventory into a rapid charging station. They’ll charge any FE based equipment stored in the inventory they’re pointed at."]
+	quest.2285070A43A12190.quest_desc: [
+		"With a Scroll inserted into your Spell Book, you’re nearly ready to begin casting. You'll also want to equip your Spell Book in the corresponding Curios slot. "
+		""
+		"[\"Now that the Spell Book is equipped, you can press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Cast Selected Spell Key\"}]},\"keybind\":\"key.irons_spellbooks.spellbook_cast\"},\") to cast the selected spell.\"]"
+		""
+		"[\"Once you've found a few more Scrolls, you can switch between them by first pressing  (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Spell Wheel Key\"}]},\"keybind\":\"key.irons_spellbooks.spell_wheel\"},\") to open the Spell Wheel, followed by (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Spell Bar Scroll Modifier Key\"}]},\"keybind\":\"key.irons_spellbooks.spell_bar_modifier\"},\") and scrolling your mouse wheel to select.\"]"
+		""
+		"The selected spell may also be quick cast by simply Right-Clicking with a staff. Try it out!"
+	]
+	quest.2285070A43A12190.title: "Spellcasting: 101"
 	quest.22ABFC3024E54FEA.quest_desc: [
 		"The Mercurial Item transport system is a simple logistics network for moving, well, items."
 		""
@@ -4187,6 +4224,7 @@
 	reward_table.59C93D37C8A23DE3.title: "Mekanism Lootbox: Legendary"
 	reward_table.63595DAD65E0F896.title: "Ars Nouveau Lootbox: Epic"
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
+	reward_table.6862A48B512292FB.title: "Iron's Starter Scroll"
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
@@ -4231,6 +4269,7 @@
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.328C56BA23A70B8F.title: "Power"
+	task.3300E2246181D0F7.title: "Any Scroll"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.35B971D8A6CCBC94.title: "EU Cables"

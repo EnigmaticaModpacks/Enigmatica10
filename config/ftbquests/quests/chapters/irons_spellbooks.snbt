@@ -1,0 +1,93 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "440488E780593120"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 6
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:iron_spell_book"
+	}
+	id: "52D510F5F28EA5FE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "irons_spellbooks:ender_upgrade_orb"
+			}
+			id: "01E9BF979ED779AE"
+			rewards: [{
+				id: "2936D7B921082E89"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:copper_spell_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E7E348A13CC713C"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01E9BF979ED779AE"]
+			id: "1E8C6CE5E863EC0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3134D78D0F0AC6C2"
+				table_id: 7521755245930779387L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2B3F7FDB1266CA69"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E8C6CE5E863EC0F"]
+			id: "2285070A43A12190"
+			rewards: [{
+				id: "4156795A48A2C9F6"
+				item: {
+					count: 1
+					id: "irons_spellbooks:graybeard_staff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "irons_spellbooks:item/scroll_evocation"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3300E2246181D0F7"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:chain_creeper", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+}
