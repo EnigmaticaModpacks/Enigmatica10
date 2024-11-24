@@ -19,15 +19,15 @@ ServerEvents.recipes((event) => {
                 { item: 'ars_nouveau:summon_focus' },
                 { item: 'minecraft:dragon_egg' },
 
-                { item: 'deeperdarker:soul_crystal' },
+                { item: 'deeperdarker:resonarium' },
                 { tag: 'c:dusts/iesnium' },
-                { item: 'deeperdarker:soul_crystal' },
+                { item: 'deeperdarker:resonarium' },
                 { tag: 'c:dusts/iesnium' },
 
                 { tag: 'c:dusts/iesnium' },
-                { item: 'deeperdarker:soul_crystal' },
+                { item: 'deeperdarker:resonarium' },
                 { tag: 'c:dusts/iesnium' },
-                { item: 'deeperdarker:soul_crystal' }
+                { item: 'deeperdarker:resonarium' }
             ],
             pentacle_id: 'occultism:contact_eldritch_spirit',
             result: { id: 'irons_spellbooks:eldritch_manuscript', count: 1 },
