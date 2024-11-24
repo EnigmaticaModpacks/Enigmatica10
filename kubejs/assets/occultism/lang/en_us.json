@@ -5,5 +5,11 @@
     "ritual.enigmatica.ritual/misc_eldritch_manuscript.conditions": "Not all requirements for this ritual are met.",
     "ritual.enigmatica.ritual/misc_eldritch_manuscript.finished": "Successfully obtained eldritch knowledge.",
     "ritual.enigmatica.ritual/misc_eldritch_manuscript.interrupted": "Contact Eldritch Patron interrupted.",
-    "ritual.enigmatica.ritual/misc_eldritch_manuscript.started": "Started Contact Eldritch Patron."
+    "ritual.enigmatica.ritual/misc_eldritch_manuscript.started": "Started Contact Eldritch Patron.",
+
+    "item.occultism.ritual_dummy.craft_archevoker_logbook_translated": "Ritual: Translate Archevoker's Logbook",
+    "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.conditions": "Not all requirements for this ritual are met.",
+    "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.finished": "Successfully Translated Archevoker's Logbook.",
+    "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.interrupted": "Translation interrupted.",
+    "ritual.enigmatica.ritual/craft_archevoker_logbook_translated.started": "Started Translation."
 }

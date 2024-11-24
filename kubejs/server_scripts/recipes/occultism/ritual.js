@@ -32,8 +32,23 @@ ServerEvents.recipes((event) => {
             pentacle_id: 'occultism:contact_eldritch_spirit',
             ritual_dummy: { id: 'occultism:ritual_dummy/misc_eldritch_manuscript', count: 1 },
             ritual_type: 'occultism:craft',
-            duration: 360,
+            duration: 120,
             id: `${id_prefix}misc_eldritch_manuscript`
+        },
+        {
+            result: { id: 'irons_spellbooks:archevoker_logbook_translated', count: 1 },
+            activation_item: { item: 'irons_spellbooks:archevoker_logbook_untranslated' },
+            ingredients: [
+                { item: 'occultism:otherworld_essence' },
+                { item: 'occultism:otherworld_essence' },
+                { item: 'occultism:spirit_attuned_gem' },
+                { item: 'occultism:otherworld_essence' }
+            ],
+            pentacle_id: 'occultism:craft_djinni',
+            ritual_dummy: { id: 'occultism:ritual_dummy/craft_archevoker_logbook_translated', count: 1 },
+            ritual_type: 'occultism:craft',
+            duration: 90,
+            id: `${id_prefix}craft_archevoker_logbook_translated`
         }
     ];
 

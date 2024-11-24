@@ -12,6 +12,11 @@ ServerEvents.recipes((event) => {
             filter: [{ id: 'minecraft:wolf_armor' }],
             to_replace: 'minecraft:wolf_armor',
             replace_with: `minecraft:wolf_armor[lore=['{"color":"light_purple","text":"Much Wow"}','{"color":"red","text":"Vetty Cute"}','{"color":"green","text":"Fite!"}','{"color":"blue","text":"Goodest Doge"}'],unbreakable={},attribute_modifiers={modifiers:[{amount:20.0d,id:"minecraft:armor",operation:"add_value",type:"minecraft:generic.armor"}]}]`
+        },
+        {
+            filter: [{ type: 'occultism:spirit_fire' }],
+            to_replace: `occultism:chalk_gold`,
+            replace_with: `occultism:chalk_gold[unbreakable={}]`
         }
     ];
 

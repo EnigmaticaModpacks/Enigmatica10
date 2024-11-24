@@ -5,6 +5,11 @@ StartupEvents.registry('item', (event) => {
             id: 'occultism:ritual_dummy/misc_eldritch_manuscript',
             type: 'misc',
             tooltip: 'Obtain an Eldritch Manuscript at the small cost of your sanity.'
+        },
+        {
+            id: 'occultism:ritual_dummy/craft_archevoker_logbook_translated',
+            type: 'craft',
+            tooltip: 'Request the aid of a Djinni in translating the Logbook'
         }
     ];
 
