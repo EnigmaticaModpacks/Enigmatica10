@@ -21,6 +21,41 @@ ServerEvents.recipes((event) => {
             augments: [{ key: 'minecraft:hay_block' }],
             structure: { tag: 'minecraft:village' },
             id: `${id_prefix}village`
+        },
+        {
+            augments: [{ key: 'minecraft:stone_sword' }],
+            structure: { id: 'irons_spellbooks:ancient_battleground' },
+            id: `${id_prefix}ancient_battleground`
+        },
+        {
+            augments: [{ key: 'minecraft:blue_ice' }],
+            structure: { id: 'irons_spellbooks:impaled_icebreaker' },
+            id: `${id_prefix}impaled_icebreaker`
+        },
+        {
+            augments: [{ key: 'minecraft:amethyst_block' }],
+            structure: { id: 'irons_spellbooks:evoker_fort' },
+            id: `${id_prefix}evoker_fort`
+        },
+        {
+            augments: [{ key: 'minecraft:mangrove_propagule' }],
+            structure: { id: 'irons_spellbooks:mangrove_hut' },
+            id: `${id_prefix}mangrove_hut`
+        },
+        {
+            augments: [{ key: 'minecraft:snow_block' }],
+            structure: { id: 'irons_spellbooks:mountain_tower' },
+            id: `${id_prefix}mountain_tower`
+        },
+        {
+            augments: [{ key: 'minecraft:magma_block' }],
+            structure: { id: 'irons_spellbooks:pyromancer_tower' },
+            id: `${id_prefix}pyromancer_tower`
+        },
+        {
+            augments: [{ key: 'minecraft:bone_block' }],
+            structure: { id: 'irons_spellbooks:catacombs' },
+            id: `${id_prefix}catacombs`
         }
     ];
 
