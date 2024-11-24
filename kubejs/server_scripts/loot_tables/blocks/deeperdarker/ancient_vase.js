@@ -2,6 +2,7 @@
 LootJS.lootTables((event) => {
     event.getLootTable('deeperdarker:blocks/ancient_vase').createPool((pool) => {
         pool.addEntry(LootEntry.of('irons_spellbooks:ancient_knowledge_fragment', [1, 3]).randomChance(0.15));
+        pool.addEntry(LootEntry.of('irons_spellbooks:ruined_book').randomChance(0.15));
         pool.addEntry(
             LootEntry.of('irons_spellbooks:scroll')
                 .randomChance(0.15)
