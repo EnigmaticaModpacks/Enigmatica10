@@ -10,9 +10,8 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            result: { id: 'irons_spellbooks:eldritch_manuscript', count: 1 },
             activation_item: { item: 'ars_nouveau:blank_parchment' },
-            duration: 360,
-            entity_to_sacrifice: sacrifice.warden,
             ingredients: [
                 { item: 'minecraft:conduit' },
                 { item: 'minecraft:nether_star' },
@@ -29,10 +28,11 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/iesnium' },
                 { item: 'deeperdarker:resonarium' }
             ],
+            entity_to_sacrifice: sacrifice.warden,
             pentacle_id: 'occultism:contact_eldritch_spirit',
-            result: { id: 'irons_spellbooks:eldritch_manuscript', count: 1 },
             ritual_dummy: { id: 'occultism:ritual_dummy/misc_eldritch_manuscript', count: 1 },
             ritual_type: 'occultism:craft',
+            duration: 360,
             id: `${id_prefix}misc_eldritch_manuscript`
         }
     ];
