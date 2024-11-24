@@ -1,25 +1,5 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:occultism/ritual/';
-    const recipes = [
-        {
-            activation_item: { item: 'minecraft:dragon_egg' },
-            duration: 360,
-            entity_to_sacrifice: sacrifice.warden,
-            ingredients: [
-                { item: 'deeperdarker:reinforced_echo_shard' },
-                { item: 'deeperdarker:reinforced_echo_shard' },
-                { item: 'deeperdarker:reinforced_echo_shard' },
-                { item: 'deeperdarker:reinforced_echo_shard' },
-                { tag: 'c:storage_blocks/iesnium' }
-            ],
-            pentacle_id: 'occultism:contact_eldritch_spirit',
-            result: { id: 'irons_spellbooks:eldritch_manuscript', count: 1 },
-            ritual_dummy: { id: 'kubejs:misc_eldritch_manuscript', count: 1 },
-            ritual_type: 'occultism:craft',
-            id: `${id_prefix}eldritch_manuscript`
-        }
-    ];
-
     const sacrifice = {
         llama: { display_name: 'ritual.occultism.sacrifice.llamas', tag: 'c:llamas' },
         chicken: { display_name: 'ritual.occultism.sacrifice.chicken', tag: 'c:chickens' },
@@ -27,6 +7,35 @@ ServerEvents.recipes((event) => {
         fish: { display_name: 'ritual.occultism.sacrifice.fish', tag: 'c:fish' },
         warden: { display_name: 'ritual.occultism.sacrifice.warden', tag: 'c:wardens' }
     };
+
+    const recipes = [
+        {
+            activation_item: { item: 'ars_nouveau:blank_parchment' },
+            duration: 360,
+            entity_to_sacrifice: sacrifice.warden,
+            ingredients: [
+                { item: 'minecraft:conduit' },
+                { item: 'minecraft:nether_star' },
+                { item: 'ars_nouveau:summon_focus' },
+                { item: 'minecraft:dragon_egg' },
+
+                { item: 'deeperdarker:soul_crystal' },
+                { tag: 'c:dusts/iesnium' },
+                { item: 'deeperdarker:soul_crystal' },
+                { tag: 'c:dusts/iesnium' },
+
+                { tag: 'c:dusts/iesnium' },
+                { item: 'deeperdarker:soul_crystal' },
+                { tag: 'c:dusts/iesnium' },
+                { item: 'deeperdarker:soul_crystal' }
+            ],
+            pentacle_id: 'occultism:contact_eldritch_spirit',
+            result: { id: 'irons_spellbooks:eldritch_manuscript', count: 1 },
+            ritual_dummy: { id: 'occultism:ritual_dummy/misc_eldritch_manuscript', count: 1 },
+            ritual_type: 'occultism:craft',
+            id: `${id_prefix}eldritch_manuscript`
+        }
+    ];
 
     event.forEachRecipe({ type: 'occultism:ritual' }, (r) => {
         let recipe = JSON.parse(r.json);
