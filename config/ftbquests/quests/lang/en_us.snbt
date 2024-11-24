@@ -210,6 +210,12 @@
 		""
 		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
 	]
+	quest.089E7173573C5A8E.quest_desc: [
+		"You’ll find at first, you’re not able to cast spells for very long before you need to resort to whacking things with a chunk of metal again. Improving your Max Mana will give you a large pool to spend before running dry. "
+		""
+		"Craft a set of Wandering Magician’s armor to boost your Mana pool. "
+	]
+	quest.089E7173573C5A8E.title: "Wizardly Wardrobe"
 	quest.08D496EFE575AD1E.quest_desc: [
 		"With any luck, you’ll have received a Genetically Modified Cell with the trait you’re after. If not, better luck next time."
 		""
@@ -1061,7 +1067,7 @@
 		""
 		"[\"Now that the Spell Book is equipped, you can press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Cast Selected Spell Key\"}]},\"keybind\":\"key.irons_spellbooks.spellbook_cast\"},\") to cast the selected spell.\"]"
 		""
-		"[\"Once you've found a few more Scrolls, you can switch between them by first pressing  (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Spell Wheel Key\"}]},\"keybind\":\"key.irons_spellbooks.spell_wheel\"},\") to open the Spell Wheel, followed by (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Spell Bar Scroll Modifier Key\"}]},\"keybind\":\"key.irons_spellbooks.spell_bar_modifier\"},\") and scrolling your mouse wheel to select.\"]"
+		"[\"Once you've found a few more Scrolls, you can switch between them by pressing (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Open Spell Wheel Key\"}]},\"keybind\":\"key.irons_spellbooks.spell_wheel\"},\") to open the Spell Wheel, followed by (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Spell Bar Scroll Modifier Key\"}]},\"keybind\":\"key.irons_spellbooks.spell_bar_modifier\"},\") and scrolling your mouse wheel to select.\"]"
 		""
 		"The selected spell may also be quick cast by simply Right-Clicking with a staff. Try it out!"
 	]
@@ -1394,6 +1400,13 @@
 		"Obtaining Latex will begin with a Fluid Extractor. Place an Acacia Log in front of the machine and it’ll slowly extract the Latex, breaking down the log over time."
 		""
 		"This machine doesn’t need power to run, but providing power will speed things up considerably!"
+	]
+	quest.2D689820562A9B9A.quest_desc: [
+		"Looking to craft your own Spell Scrolls? Craft a Scroll Forge!"
+		""
+		"Providing some paper, ink, and a ‘key’ item will allow you to craft any scroll you wish. Just insert the necessary ingredients and pick the spell you want."
+		""
+		"Some scrolls will only be available with higher tier inks!"
 	]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -2232,6 +2245,12 @@
 		"&a🛈 Tip: Amethyst Golems works with"
 		"&a   Certus Quartz too!"
 	]
+	quest.45754B11F5C290D5.quest_desc: [
+		"While out and about, you’ll want to keep your eyes open for some very special ingredients such as Inks, Arcane Essence, and even new Spell Scrolls!"
+		""
+		"These may also be obtained from certain mobs, so if you’re thinking of setting up a mob farm, you may want to find a way to include creatures such as Necromancers, Cultists, and other mobs from the mod.  "
+	]
+	quest.45754B11F5C290D5.title: "Basic Resources"
 	quest.45896B61EC465279.quest_desc: [
 		"Though the bane of many with seasonal allergies, Pollen Puff can be quite useful; when used on flowers, both big and small, it will spawn more of those flowers nearby. "
 		""
@@ -4263,6 +4282,7 @@
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logisticss"
 	task.256E76CA796C354E.title: "Steel Dust"
+	task.25D4C3BAE7BD10AB.title: "Ink"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
