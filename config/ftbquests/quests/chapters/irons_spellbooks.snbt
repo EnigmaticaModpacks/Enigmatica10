@@ -21,7 +21,10 @@
 	quests: [
 		{
 			icon: {
-				id: "irons_spellbooks:ender_upgrade_orb"
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/arcane_rune"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "01E9BF979ED779AE"
 			rewards: [{

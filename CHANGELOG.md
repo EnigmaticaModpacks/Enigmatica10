@@ -13,8 +13,8 @@
 
 -   Evilcraft should no longer spawn silverfish everywhere [(\#213)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/213)
 -   Tiny Coal and Tiny Charcoals are now unified [(\#221)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/221)
--   Fix missing Extreme Reactors recipes [(\#227)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/227)
 -   Charcoal blocks are also unified [(\#227)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/227)
+-   Fix missing Extreme Reactors recipes [(\#227)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/227)
 
 ---
 

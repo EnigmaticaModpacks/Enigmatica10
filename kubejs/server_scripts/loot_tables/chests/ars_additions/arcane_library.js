@@ -34,5 +34,8 @@ LootJS.lootTables((event) => {
         })
         .createPool((pool) => {
             pool.addEntry(LootEntry.reference(`structory_towers:potions`));
+        })
+        .createPool((pool) => {
+            pool.addEntry(LootEntry.reference(`irons_spellbooks:chests/component_storage`));
         });
 });

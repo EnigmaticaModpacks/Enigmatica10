@@ -46,5 +46,13 @@ LootJS.lootTables((event) => {
 
             .addEntry(LootEntry.of('ars_additions:lost_codex_entry', [1, 5]).withWeight(40))
             .addEntry(LootEntry.of('cursedearth:blessed_flower', [1, 2]).withWeight(20));
+
+        event.getLootTable(`structory_towers:top/${tower}_top`).createPool((pool) => {
+            pool.addEntry(LootEntry.reference(`irons_spellbooks:chests/component_storage`));
+        });
+
+        event.getLootTable(`structory_towers:basic/${tower}_basic`).createPool((pool) => {
+            pool.addEntry(LootEntry.reference(`irons_spellbooks:chests/component_storage`));
+        });
     });
 });
