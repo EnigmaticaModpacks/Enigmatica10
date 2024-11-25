@@ -35,7 +35,7 @@ LootJS.lootTables((event) => {
     Object.keys(structure_tiers).forEach((tier) => {
         structure_tiers[tier].forEach((structure) => {
             event.getLootTable(`irons_spellbooks:chests/${structure}`).createPool((pool) => {
-                pool.addEntry(LootEntry.of(`ars_additions:${tier}`, [0, 2]).randomChance(0.15));
+                pool.addEntry(LootEntry.of(`ars_additions:${tier}`, [1, 2]).randomChance(0.25));
             });
         });
     });
