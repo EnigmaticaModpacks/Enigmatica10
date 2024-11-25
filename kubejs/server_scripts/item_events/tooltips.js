@@ -251,6 +251,30 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: ['functionalstorage:armory_cabinet'],
             text: [Text.of(`Bulk Unstackable Storage`).green()]
+        },
+        {
+            items: ['irons_spellbooks:emerald_stoneplate_ring'],
+            text: [Text.of(`Slain creatures drop +25% experience`).gold()]
+        },
+        {
+            items: ['irons_spellbooks:fireward_ring'],
+            text: [Text.of(`Grants fire immunity`).gold()]
+        },
+        {
+            items: ['irons_spellbooks:frostward_ring'],
+            text: [Text.of(`Grants freezing immunity`).gold()]
+        },
+        {
+            items: ['irons_spellbooks:poisonward_ring'],
+            text: [Text.of(`Grants poison immunity`).gold()]
+        },
+        {
+            items: ['irons_spellbooks:concentration_amulet'],
+            text: [Text.of(`Long Casts become uninterruptible`).gold()]
+        },
+        {
+            items: ['irons_spellbooks:expulsion_ring'],
+            text: [Text.of(`When attacked, emit an expulsive burst of air`).gold()]
         }
     ];
 

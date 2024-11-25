@@ -841,6 +841,7 @@
 		""
 		"Lastly, &7Trial Chambers&r can also provide many useful items for Iron’s and can be a great way to stock up since the trials may be repeated!"
 	]
+	quest.195BD5456B6E674D.title: "Useful Structures"
 	quest.1A0A7309D9B2F4FF.quest_desc: [
 		"Tired of mining yet? Look no further. "
 		""
@@ -2263,7 +2264,7 @@
 		"&a   Certus Quartz too!"
 	]
 	quest.45754B11F5C290D5.quest_desc: [
-		"While out and about, you’ll want to keep your eyes open for some very special ingredients such as Inks, Arcane Essence, Runes, and even new Spell Scrolls!"
+		"While out and about, you’ll want to keep your eyes open for some very special ingredients such as &7Inks&r, &7Arcane Essence&r, &7Runes&r, and even new &7Spell Scrolls&r!"
 		""
 		"These may also be obtained from certain mobs, so if you’re thinking of setting up a mob farm, you may want to find a way to include creatures such as Necromancers, Cultists, and other creatures from the mod.  "
 	]
