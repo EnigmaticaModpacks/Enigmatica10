@@ -56,6 +56,11 @@ ServerEvents.recipes((event) => {
             augments: [{ key: 'minecraft:bone_block' }],
             structure: { key: 'irons_spellbooks:catacombs' },
             id: `${id_prefix}catacombs`
+        },
+        {
+            augments: [{ key: 'minecraft:tuff_bricks' }],
+            structure: { key: 'minecraft:trial_chambers' },
+            id: `${id_prefix}trial_chambers`
         }
     ];
 

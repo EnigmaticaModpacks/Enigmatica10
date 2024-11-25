@@ -137,6 +137,12 @@
 		{
 			dependencies: ["2285070A43A12190"]
 			id: "2D689820562A9B9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C631563148942D9"
+				table_id: 4457704922960248209L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6BA67B9F849AE1E4"
 				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
@@ -146,8 +152,14 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2285070A43A12190"]
+			dependencies: ["195BD5456B6E674D"]
 			id: "45754B11F5C290D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15DECB079B4E8DAD"
+				table_id: 4457704922960248209L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "25D4C3BAE7BD10AB"
@@ -159,9 +171,75 @@
 					item: { count: 1, id: "irons_spellbooks:arcane_essence" }
 					type: "item"
 				}
+				{
+					id: "283D5547897C94B8"
+					item: { count: 1, id: "irons_spellbooks:blank_rune" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2285070A43A12190"]
+			id: "195BD5456B6E674D"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B2811B8FD1D5EEB"
+				table_id: 4457704922960248209L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "47B38F35F082C9F0"
+					item: { count: 1, id: "irons_spellbooks:wayward_compass" }
+					type: "item"
+				}
+				{
+					id: "2981FF3B0E7F17C8"
+					item: { count: 1, id: "ars_additions:ritual_locate_structure" }
+					type: "item"
+				}
 			]
 			x: 1.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["2D689820562A9B9A"]
+			id: "6026FB490B591788"
+			rewards: [
+				{
+					id: "6FE8FC844935A6A4"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shriving_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "42C624DC3906AD60"
+					item: {
+						count: 1
+						id: "irons_spellbooks:upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E9347B1D4A5846D"
+					table_id: 4457704922960248209L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B9E62D23A1082B5"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 }
