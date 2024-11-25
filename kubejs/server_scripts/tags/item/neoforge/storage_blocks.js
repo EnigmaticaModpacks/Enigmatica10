@@ -28,7 +28,9 @@ ServerEvents.tags('item', (event) => {
 
         dark: ['evilcraft:dark_block'],
 
-        black_quartz: ['actuallyadditions:black_quartz_block']
+        black_quartz: ['actuallyadditions:black_quartz_block'],
+
+        charcoal: ['justdirethings:charcoal']
     };
 
     Object.keys(additions).forEach((tag) => {
