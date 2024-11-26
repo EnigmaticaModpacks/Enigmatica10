@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'pneumaticcraft:naturesaura/shaped/';
+    const id_prefix = 'enigmatica:naturesaura/shaped/';
 
     const recipes = [
         {

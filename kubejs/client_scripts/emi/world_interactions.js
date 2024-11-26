@@ -93,6 +93,16 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'ars_nouveau:wixie_cauldron'
         },
         {
+            left: 'item:farmersdelight:cooking_pot',
+            right: 'item:ars_nouveau:wixie_charm',
+            output: {
+                type: 'item',
+                id: 'starbunclemania:cooking_pot_wixie_cauldron',
+                amount: 1
+            },
+            id: 'ars_nouveau:cooking_pot_wixie_cauldron'
+        },
+        {
             left: 'item:ars_nouveau:enchanting_apparatus',
             right: 'item:ars_nouveau:wixie_charm',
             output: {

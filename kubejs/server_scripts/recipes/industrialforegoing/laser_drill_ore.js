@@ -211,6 +211,27 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}black_quartz`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:cyan_laser_lens' },
+            output: { tag: 'c:ores/mithril' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 16,
+                    depth_min: 8,
+                    weight: 12
+                },
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}mithril`
         }
     ];
 

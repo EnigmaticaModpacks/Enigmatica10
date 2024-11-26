@@ -1,0 +1,18 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "irons_spellbooks:item/scroll_evocation"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6862A48B512292FB"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ball_lightning", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:firebolt", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:icicle", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wither_skull", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magic_missile", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+	]
+}
