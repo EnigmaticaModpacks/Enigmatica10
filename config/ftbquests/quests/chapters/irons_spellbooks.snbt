@@ -105,14 +105,22 @@
 				id: "irons_spellbooks:wandering_magician_helmet"
 			}
 			id: "089E7173573C5A8E"
-			rewards: [{
-				id: "659BCF34D7EDF4A0"
-				item: {
-					count: 1
-					id: "irons_spellbooks:silver_ring"
+			rewards: [
+				{
+					id: "659BCF34D7EDF4A0"
+					item: {
+						count: 1
+						id: "irons_spellbooks:silver_ring"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5A14AAC6F8B71FFB"
+					table_id: 4457704922960248209L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "3896A80D484F43C8"
