@@ -302,7 +302,7 @@
 		#Whether vengeance spirits should always be visible in creative mode.
 		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
-		spawnLimit = 5
+		spawnLimit = 0
 
 	[mob.werewolf]
 		#If villagers struck by lightning should have a 50% chance of becoming a werewolf villager
