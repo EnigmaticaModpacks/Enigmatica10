@@ -148,6 +148,16 @@ ServerEvents.recipes((event) => {
                 weight: 90
             },
             id: `${id_prefix}gravel`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/eldritch' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:raw_materials/mithril',
+                count: 9,
+                weight: 90
+            },
+            id: `${id_prefix}mithril_raw`
         }
     ];
 

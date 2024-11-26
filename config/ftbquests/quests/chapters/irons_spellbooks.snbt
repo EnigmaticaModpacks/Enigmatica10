@@ -1,0 +1,257 @@
+{
+	autofocus_id: "2285070A43A12190"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "440488E780593120"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 6
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:iron_spell_book"
+	}
+	id: "52D510F5F28EA5FE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/arcane_rune"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "01E9BF979ED779AE"
+			rewards: [{
+				id: "2936D7B921082E89"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:copper_spell_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E7E348A13CC713C"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01E9BF979ED779AE"]
+			id: "1E8C6CE5E863EC0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3134D78D0F0AC6C2"
+				table_id: 7521755245930779387L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2B3F7FDB1266CA69"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E8C6CE5E863EC0F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/upgrade_orb_holy"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2285070A43A12190"
+			rewards: [{
+				id: "4156795A48A2C9F6"
+				item: {
+					count: 1
+					id: "irons_spellbooks:graybeard_staff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "irons_spellbooks:item/scroll_evocation"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3300E2246181D0F7"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:chain_creeper", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2285070A43A12190"]
+			icon: {
+				id: "irons_spellbooks:wandering_magician_helmet"
+			}
+			id: "089E7173573C5A8E"
+			rewards: [
+				{
+					id: "659BCF34D7EDF4A0"
+					item: {
+						count: 1
+						id: "irons_spellbooks:silver_ring"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A14AAC6F8B71FFB"
+					table_id: 4457704922960248209L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "3896A80D484F43C8"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_helmet" }
+					type: "item"
+				}
+				{
+					id: "0F78A964BE4B9CDA"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_chestplate" }
+					type: "item"
+				}
+				{
+					id: "75EB79857DD49052"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_leggings" }
+					type: "item"
+				}
+				{
+					id: "51BCC3372A49E5C6"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_boots" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2285070A43A12190"]
+			id: "2D689820562A9B9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C631563148942D9"
+				table_id: 4457704922960248209L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6BA67B9F849AE1E4"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["195BD5456B6E674D"]
+			id: "45754B11F5C290D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15DECB079B4E8DAD"
+				table_id: 4457704922960248209L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "25D4C3BAE7BD10AB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:common_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:epic_ink)item(irons_spellbooks:legendary_ink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "13AD3BBDE6756ED0"
+					item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+					type: "item"
+				}
+				{
+					id: "283D5547897C94B8"
+					item: { count: 1, id: "irons_spellbooks:blank_rune" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2285070A43A12190"]
+			id: "195BD5456B6E674D"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B2811B8FD1D5EEB"
+				table_id: 4457704922960248209L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "47B38F35F082C9F0"
+					item: { count: 1, id: "irons_spellbooks:wayward_compass" }
+					type: "item"
+				}
+				{
+					id: "2981FF3B0E7F17C8"
+					item: { count: 1, id: "ars_additions:ritual_locate_structure" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D689820562A9B9A"]
+			id: "6026FB490B591788"
+			rewards: [
+				{
+					id: "6FE8FC844935A6A4"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shriving_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "42C624DC3906AD60"
+					item: {
+						count: 1
+						id: "irons_spellbooks:upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E9347B1D4A5846D"
+					table_id: 4457704922960248209L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B9E62D23A1082B5"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+}

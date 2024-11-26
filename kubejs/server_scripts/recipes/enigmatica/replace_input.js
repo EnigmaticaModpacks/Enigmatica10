@@ -52,6 +52,11 @@ ServerEvents.recipes((event) => {
             filter: [{ output: 'minecraft:observer' }],
             to_replace: 'minecraft:quartz',
             replace_with: Ingredient.of(['minecraft:quartz', 'ae2:certus_quartz_crystal'])
+        },
+        {
+            filter: [{ mod: 'bigreactors' }],
+            to_replace: '#c:ingots/yellorium',
+            replace_with: '#c:ingots/uranium'
         }
     ];
 

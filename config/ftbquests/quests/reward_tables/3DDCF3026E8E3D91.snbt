@@ -1,0 +1,29 @@
+{
+	hide_tooltip: true
+	id: "3DDCF3026E8E3D91"
+	loot_size: 1
+	order_index: 25
+	rewards: [{
+		command: "/execute at @p run loot spawn ~ ~1 ~ loot irons_spellbooks:magic_items/scroll_pouch"
+		elevate_perms: true
+		feedback_message: ""
+		icon: {
+			components: {
+				"irons_spellbooks:spell_container": {
+					data: [{
+						id: "irons_spellbooks:chain_creeper"
+						index: 0
+						level: 1
+						locked: 1b
+					}]
+					maxSpells: 1
+					mustEquip: 0b
+					spellWheel: 0b
+				}
+			}
+			id: "irons_spellbooks:scroll"
+		}
+		type: "command"
+	}]
+	use_title: true
+}

@@ -25,6 +25,18 @@ ServerEvents.recipes((event) => {
             result: { id: 'evilcraft:dark_ore_deepslate', count: 1 },
             weight: 200,
             id: `${id_prefix}dark_ore_deepslate`
+        },
+        {
+            ingredient: { tag: 'c:stones' },
+            result: { id: 'irons_spellbooks:mithril_ore', count: 1 },
+            weight: 100,
+            id: `${id_prefix}mithril_ore`
+        },
+        {
+            ingredient: { item: 'minecraft:deepslate' },
+            result: { id: 'irons_spellbooks:deepslate_mithril_ore', count: 1 },
+            weight: 100,
+            id: `${id_prefix}deepslate_mithril_ore`
         }
     ];
 
