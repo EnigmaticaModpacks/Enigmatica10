@@ -16,6 +16,7 @@
 -   Charcoal blocks are also unified [(\#227)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/227)
 -   Fix missing Extreme Reactors recipes [(\#227)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/227)
 -   Vengeance Spirits will no longer spawn unless using a Vengeance Ring [(\#233)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/233)
+-   Gysahl Greens are now compostable [(\#235)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/235)
 
 ---
 
