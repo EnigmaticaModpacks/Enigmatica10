@@ -8,6 +8,7 @@
 -   Theurgy Calcination and Distillation sped up to reduce number of machines needed [(\#217)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/217)
 -   Dragons in drygmy farms will now drop eggs, heads, and breath at a reduced rate [(\#218)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/218)
 -   Theurgy Creature Salt may be crafted from meat and fish now [(\#221)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/221)
+-   Unify EIO's Organic Dyes [(\#239)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/239)
 
 #### 🦟 Bugs Fixed
 
@@ -16,6 +17,8 @@
 -   Charcoal blocks are also unified [(\#227)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/227)
 -   Fix missing Extreme Reactors recipes [(\#227)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/227)
 -   Vengeance Spirits will no longer spawn unless using a Vengeance Ring [(\#233)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/233)
+-   Gysahl Greens are now compostable [(\#235)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/235)
+-   Fix output rates for many EIO Sag Mill recipes [(\#241)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/241)
 
 ---
 

@@ -50,6 +50,10 @@
         "tungsten",
         "uranium",
         "wood",
-        "zinc"
+        "zinc",
+
+        "green",
+        "brown",
+        "black"
     ]
 }

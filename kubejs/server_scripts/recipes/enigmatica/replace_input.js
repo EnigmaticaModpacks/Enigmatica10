@@ -18,13 +18,20 @@ ServerEvents.recipes((event) => {
                 { mod: 'ae2', not: { output: 'ae2:cable_anchor' } },
                 { mod: 'ae2netanalyser' },
                 { mod: 'aquaculture', output: /tackle_box/ },
-                { mod: 'evilcraft' }
+                { mod: 'evilcraft' },
+                { mod: 'prettypipes' },
+                { mod: 'ppfluids' }
             ],
             to_replace: '#c:ingots/iron',
             replace_with: Ingredient.of(['#c:ingots/iron', '#c:ingots/tin'])
         },
         {
-            filter: [{ mod: 'aquaculture', output: /tackle_box/ }, { mod: 'evilcraft' }],
+            filter: [
+                { mod: 'aquaculture', output: /tackle_box/ },
+                { mod: 'evilcraft' },
+                { mod: 'prettypipes' },
+                { mod: 'ppfluids' }
+            ],
             to_replace: '#c:storage_blocks/iron',
             replace_with: Ingredient.of(['#c:storage_blocks/iron', '#c:storage_blocks/tin'])
         },
@@ -49,7 +56,7 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:slimeballs'
         },
         {
-            filter: [{ output: 'minecraft:observer' }],
+            filter: [{ output: 'minecraft:observer' }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: 'minecraft:quartz',
             replace_with: Ingredient.of(['minecraft:quartz', 'ae2:certus_quartz_crystal'])
         },
@@ -57,7 +64,22 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'bigreactors' }],
             to_replace: '#c:ingots/yellorium',
             replace_with: '#c:ingots/uranium'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:ingots/gold',
+            replace_with: '#c:ingots/copper'
+        },
+        {
+            filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
+            to_replace: '#c:storage_blocks/redstone',
+            replace_with: '#c:dusts/redstone'
         }
+        // {
+        //     filter: [{}],
+        //     to_replace: '#c:chests',
+        //     replace_with: '#c:chests/wooden'
+        // }
     ];
 
     recipes.forEach((recipe) => {
