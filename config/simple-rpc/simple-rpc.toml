@@ -54,7 +54,7 @@
 	#Enable/Disable the Server List Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is looking for an Enigmatica 9 server"
+	description = "%player% is looking for an Enigmatica 10 server"
 	#The second line of text under the app name
 	state = "Searching for friends"
 	#The Asset ID/URL of the image to display as the large image
@@ -181,7 +181,7 @@
 
 	[[custom.variables]]
 		name = "large_image_text"
-		value = "Enigmatica 9 for Minecraft %mcver%"
+		value = "Enigmatica 10 for Minecraft %mcver%"
 
 	[[custom.variables]]
 		name = "small_image_text"
