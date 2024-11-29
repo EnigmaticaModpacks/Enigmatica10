@@ -279,5 +279,27 @@
 			x: -0.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			id: "1272A1D0BD9934AE"
+			rewards: [{
+				id: "72813948A0F5A6D4"
+				item: {
+					components: {
+						"patchouli:book": "productivetrees:guide"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E4DEB3FEE0D15CD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
 	]
 }
