@@ -1,6 +1,10 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        durability: [/vanillaplustools:.*(hammer|shovel)/, 'geneticsresequenced:scraper'],
+        durability: [
+            /vanillaplustools:.*(hammer|shovel)/,
+            'geneticsresequenced:scraper',
+            /justdirethings:bow_(ferricore|blazegold)/
+        ],
         mining: [/vanillaplustools:.*(hammer|shovel)/],
         mining_loot: [/vanillaplustools:.*(hammer|shovel)/],
         vanishing: [/vanillaplustools:.*(hammer|shovel)/],

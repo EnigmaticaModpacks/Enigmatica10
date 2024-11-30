@@ -1,4 +1,4 @@
-### Enigmatica 10 1.13.1
+### Enigmatica 10 1.14.0
 
 #### ⭐ Improvements
 
@@ -23,6 +23,7 @@
 -   Gysahl Greens are now compostable [(\#235)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/235)
 -   Fix output rates for many EIO Sag Mill recipes [(\#241)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/241)
 -   Fix missing coal tags [(\#251)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/251)
+-   Fix JDT Bow enchantability [(\#255)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/255)
 
 ---
 
