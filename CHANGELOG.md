@@ -11,6 +11,7 @@
 -   Unify EIO's Organic Dyes [(\#239)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/239)
 -   More recipes for xp bottles [(\#249)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/249)
 -   More crushing recipe compat [(\#251)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/251)
+-   Pretty Pipes quests! [(\#253)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/253)
 
 #### 🦟 Bugs Fixed
 
