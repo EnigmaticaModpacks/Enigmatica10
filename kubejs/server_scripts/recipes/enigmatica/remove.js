@@ -17,7 +17,9 @@ ServerEvents.recipes((event) => {
         { mod: 'cobblegengalore' },
         { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ },
         { id: /industrialforegoing:laser_drill_ore.*yellor(ite|ium)/ },
-        { id: `utilitarian:utility/green_dye` }
+        { id: `utilitarian:utility/green_dye` },
+        { id: `enderio:tank_fill/experience_bottle` },
+        { id: `industrialforegoing:dissolution_chamber/xp_bottles` }
     ];
 
     recipes.forEach((recipe) => {
