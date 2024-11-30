@@ -213,3 +213,4 @@ config/ars_nouveau-client.toml
 config/ftbessentials.snbt
 config/iris.properties
 config/clienttweaks-common.toml
+/config/productivetrees/generated
