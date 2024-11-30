@@ -301,5 +301,24 @@
 			x: 1.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["6AFCA9F187AE6EB2"]
+			id: "7ADBC282C9692EDE"
+			rewards: [{
+				id: "0CDC476767402B42"
+				item: {
+					count: 1
+					id: "cable_facades:facade_wrench"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38B3E6497FF3D132"
+				item: { count: 1, id: "cable_facades:facade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
 	]
 }
