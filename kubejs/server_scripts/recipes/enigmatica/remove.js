@@ -22,6 +22,7 @@ ServerEvents.recipes((event) => {
         { id: `industrialforegoing:dissolution_chamber/xp_bottles` },
 
         // Duplicates detected by polymorph
+        { id: 'minecraft:cake' },
         { id: 'actuallyadditions:tagged_sticky_piston' },
         { id: 'bigreactors:crafting/raw_yellorium_component_to_storage' },
         { id: 'bigreactors:crafting/yellorium_component_to_storage' },

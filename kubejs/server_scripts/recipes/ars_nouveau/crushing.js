@@ -36,6 +36,17 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}coal_dust`
         },
         {
+            input: { tag: `c:gems/charcoal` },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/charcoal`).getId(), count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}charcoal_dust`
+        },
+        {
             input: { tag: `c:gems/lignite_coal` },
             output: [
                 {

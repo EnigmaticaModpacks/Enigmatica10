@@ -29,6 +29,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}coal_dust`
         },
         {
+            ingredient: { tag: `c:gems/charcoal` },
+            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/charcoal`).getId(), count: 1 } }],
+            id: `${id_prefix}charcoal_dust`
+        },
+        {
             ingredient: { tag: `c:gems/lignite_coal` },
             result: [{ result: { id: 'modern_industrialization:lignite_coal_dust', count: 1 } }],
             id: `${id_prefix}lignite_coal_dust`
