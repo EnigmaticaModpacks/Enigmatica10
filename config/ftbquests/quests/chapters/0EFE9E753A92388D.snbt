@@ -246,6 +246,15 @@
 		{
 			dependencies: ["6AFCA9F187AE6EB2"]
 			id: "0CCE0467AF123EAB"
+			rewards: [{
+				count: 2
+				id: "2AD105C2007EE33B"
+				item: {
+					count: 1
+					id: "justdirethings:upgrade_blank"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F727F447B0B4623"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools)mod(justdirethings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
