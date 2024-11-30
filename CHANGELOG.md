@@ -20,6 +20,7 @@
 -   Vengeance Spirits will no longer spawn unless using a Vengeance Ring [(\#233)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/233)
 -   Gysahl Greens are now compostable [(\#235)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/235)
 -   Fix output rates for many EIO Sag Mill recipes [(\#241)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/241)
+-   Fix missing coal tags [(\#251)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/251)
 
 ---
 
