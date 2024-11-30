@@ -1085,6 +1085,8 @@
 		"Each drawer can hold from one to four item types, but will hold a truly astronomical amount of them. "
 		""
 		"Drawers may also be linked up to a Drawer Controller, allowing you to link all of the drawers into a single network. So, item pipes and other logistics can pipe into or out of the Controller and have access to every attached drawer."
+		""
+		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
@@ -1588,6 +1590,13 @@
 		"It’s not a full-fledged mob farm, but it can be a great way to get a few rare mobs for use in another farm of your choosing. "
 		""
 		"Try summoning a few Rabbits with the rewards from this quest!"
+	]
+	quest.35FD905A4A4EB1F5.quest_desc: [
+		"Pretty Pipes: Fluids is an addon to Pretty Pipes which allows the network to carry fluids in addition to items. The same network will effectively carry both, allowing everything to flow through a single block space. "
+		""
+		"Fluid Pipes are therefore only required at the end points where the pipes connect to a fluid tank. "
+		""
+		"Like Pretty Pipes, this addon includes Extraction and Retrieval Modules for getting fluids into and out of tanks. It also features a suite of filters and works with the Pretty Pipes priority system. "
 	]
 	quest.368DC26C96A32AB7.quest_desc: [
 		"When combined with a Heat Exchanger, the HP Large Steam Boiler should represent a substantial upgrade to your power generation capabilities. "
@@ -2309,6 +2318,11 @@
 		""
 		"Each time you craft two together, the total capacity is combined. "
 	]
+	quest.465D195EA5630857.quest_desc: [
+		"With a Storage Lectern from Ars Nouveau, you can easily link together multiple inventories to have a central storage and crafting interface. "
+		""
+		"Be sure to check out the Worn Notebook for more information on this system!"
+	]
 	quest.4660608EBEE31784.quest_desc: [
 		"A special trade obtained from the Queen, Windy Air can be used to create updrafts that will lift you into the air. These can make an excellent elevator by stacking one atop the other. "
 		""
@@ -2334,6 +2348,14 @@
 		"&a🛈 Tip: Right-Click the Curtain with"
 		"&a    String to extend it downwards."
 	]
+	quest.472936F50BC28EBF.quest_desc: [
+		"Sophisticated Storage offers a wide range of inventories to suit your needs, all of which may be connected through a Storage Controller for centralized access to everything in the network. "
+		""
+		"The Storage Tool is used to select the Controller and then bind different inventories to it. This allows wireless connections within a limited range. "
+		""
+		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
+	]
+	quest.472936F50BC28EBF.title: "Sophisticated Storage"
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
 		""
@@ -3198,6 +3220,15 @@
 		"As before, this represents a significant upgrade in both burn time and production per tick. "
 	]
 	quest.5F50024F403D28D0.title: "Empowered Oil Production"
+	quest.5FD8F4BE050D55B2.quest_desc: [
+		"Pretty Pipes are a simple item logistics and sorting system with some powerful features. "
+		""
+		"Perhaps the biggest draw is that they show what’s moving through them for a more immersive experience. "
+		""
+		"Beyond this, however, they offer both push and pull functionality, where an Extraction Module can be used to pull items from an adjacent inventory and disperse them throughout the network, or a Retrieval Module may be used to pull items from any inventory on the network and push into the adjacent inventory. "
+		""
+		"Various filters and priority modules exist to help ensure the items are going to the correct place. "
+	]
 	quest.6026FB490B591788.quest_desc: [
 		"With the Arcane Forge you can begin upgrading your equipment and spell scrolls. "
 		""
@@ -3866,6 +3897,21 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.7327D905FE8B38FC.quest_desc: [
+		"The Item Terminal turns a Pretty Pipes network into a full-fledged item management system, allowing you to access the items throughout a network in one central location. "
+		""
+		"This may even be upgraded to a Crafting Terminal which has an integrated crafting grid. "
+		""
+		"Attaching and powering a Pipe Pressurizer will greatly increase the speed at which items are retrieved, however it is also recommended to keep your storage network pipe length short to ensure the items get to you quickly when requested."
+		"&n                                                  &r"
+		""
+		"Lastly, through the use of Crafting Modules, these Terminals may be used to request crafts on demand. "
+		""
+		"Simply program the Crafting Module in a pipe segment adjacent to a machine and it will insert the ingredients upon request. "
+		""
+		"Another unconfigured pipe segment is needed for the Terminal to retrieve the craft."
+	]
+	quest.7327D905FE8B38FC.title: "Pretty Pipes"
 	quest.73A71BBB9D9168B0.quest_desc: [
 		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
 		""
@@ -4331,6 +4377,7 @@
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
+	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E4DEB3FEE0D15CD.title: "Any Sapling"
