@@ -66,7 +66,7 @@
 				}
 			]
 			x: -0.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0B04BC5F88746182"]
@@ -95,7 +95,7 @@
 				}
 			]
 			x: 0.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0B04BC5F88746182"]
@@ -112,7 +112,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5047A6F1EF472407"]
@@ -129,7 +129,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B66ECA9D6797B80"]
@@ -146,7 +146,7 @@
 				type: "dimension"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B66ECA9D6797B80"]
@@ -163,7 +163,7 @@
 				type: "dimension"
 			}]
 			x: -1.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B66ECA9D6797B80"]
@@ -180,7 +180,7 @@
 				type: "dimension"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0FCC51B49080984E"]
@@ -197,7 +197,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0FCC51B49080984E"]
@@ -229,7 +229,7 @@
 				}
 			]
 			x: 1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0FCC51B49080984E"]
@@ -246,7 +246,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0FCC51B49080984E"]
@@ -285,7 +285,7 @@
 				}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0FCC51B49080984E"]
@@ -302,7 +302,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0FCC51B49080984E"]
@@ -319,7 +319,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5047A6F1EF472407"]
@@ -336,7 +336,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5047A6F1EF472407"]
@@ -356,7 +356,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B66ECA9D6797B80"]
@@ -519,6 +519,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5047A6F1EF472407"]
 			id: "4C7D7FC6EEB07515"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -532,10 +533,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B04BC5F88746182"]
+			icon: {
+				id: "functionalstorage:storage_controller"
+			}
 			id: "21C1CAA38D040AC8"
 			rewards: [
 				{
@@ -573,7 +577,74 @@
 				}
 			]
 			x: 2.5d
-			y: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			id: "7327D905FE8B38FC"
+			rewards: [{
+				id: "0A877A9B9CE75924"
+				item: {
+					count: 1
+					id: "prettypipes:pressurizer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F1E0249E273028E"
+				item: { count: 1, id: "prettypipes:item_terminal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "472936F50BC28EBF"
+			rewards: [{
+				id: "0F227CB400822392"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:storage_tool"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00308296E7CB841E"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					id: "2BEFCB331D1564CF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B04BC5F88746182"]
+			id: "465D195EA5630857"
+			rewards: [{
+				id: "1C4EDC59F5AEA09A"
+				item: {
+					count: 1
+					id: "ars_nouveau:bookwyrm_charm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "654C1B0CE292A993"
+				item: { count: 1, id: "ars_nouveau:storage_lectern" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 	]
 }

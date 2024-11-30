@@ -637,5 +637,55 @@
 			x: 5.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["752888EAF2861EB4"]
+			id: "5FD8F4BE050D55B2"
+			rewards: [
+				{
+					count: 4
+					id: "260185FD4D0D5C20"
+					item: {
+						count: 1
+						id: "prettypipes:low_extraction_module"
+					}
+					type: "item"
+				}
+				{
+					id: "66E50788C688244C"
+					item: {
+						count: 1
+						id: "prettypipes:wrench"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BF3CAFA0470A73D"
+				item: { count: 1, id: "prettypipes:pipe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04CE3E8B1DF8B441"]
+			id: "35FD905A4A4EB1F5"
+			rewards: [{
+				count: 4
+				id: "4F2E626C820CB724"
+				item: {
+					count: 1
+					id: "ppfluids:low_fluid_extraction_module"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "675FBA62BC5E5294"
+				item: { count: 1, id: "ppfluids:fluid_pipe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
 	]
 }
