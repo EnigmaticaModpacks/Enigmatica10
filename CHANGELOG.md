@@ -9,6 +9,7 @@
 -   Dragons in drygmy farms will now drop eggs, heads, and breath at a reduced rate [(\#218)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/218)
 -   Theurgy Creature Salt may be crafted from meat and fish now [(\#221)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/221)
 -   Unify EIO's Organic Dyes [(\#239)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/239)
+-   More recipes for xp bottles [(\#249)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/249)
 
 #### 🦟 Bugs Fixed
 

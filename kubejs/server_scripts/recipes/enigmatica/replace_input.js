@@ -74,12 +74,12 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'prettypipes' }, { mod: 'ppfluids' }],
             to_replace: '#c:storage_blocks/redstone',
             replace_with: '#c:dusts/redstone'
+        },
+        {
+            filter: [{ id: /actuallyadditions:black_quartz_(wall|stair|slab)/ }],
+            to_replace: 'actuallyadditions:black_quartz_pillar_block',
+            replace_with: 'actuallyadditions:black_quartz_block'
         }
-        // {
-        //     filter: [{}],
-        //     to_replace: '#c:chests',
-        //     replace_with: '#c:chests/wooden'
-        // }
     ];
 
     recipes.forEach((recipe) => {

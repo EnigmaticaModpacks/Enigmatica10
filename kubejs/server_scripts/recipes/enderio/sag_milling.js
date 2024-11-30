@@ -175,7 +175,7 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${material.primary}_ore`
             },
             {
-                input: { id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.primary}`).getId() },
+                input: { tag: `c:raw_materials/${material.primary}` },
                 outputs: [
                     { item: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 } },
                     {

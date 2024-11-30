@@ -556,6 +556,14 @@
 		"When the Coal and Iron are fully engulfed by the goo, they’ll be replaced by a crystal that can be broken to obtain the transmuted materials"
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
+	quest.1272A1D0BD9934AE.quest_desc: [
+		"Looking for some fancy new wood to build with? "
+		""
+		"Productive Trees has just about anything you could ask for. "
+		""
+		"Working with the mod is straightforward but be sure to check out the Guidebook for an in-depth walkthrough on cross-pollination. "
+	]
+	quest.1272A1D0BD9934AE.title: "Productive Trees"
 	quest.128669F9F6431E0A.quest_desc: [
 		"The Bio Reactor is a more advanced generator which produces more FE per tick based on the number of items it is burning. "
 		""
@@ -1049,6 +1057,7 @@
 		""
 		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
 	]
+	quest.20C038E5D70CDB52.title: "Wixie Cauldron"
 	quest.211E0844F3ACD244.quest_desc: [
 		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
 		""
@@ -3256,6 +3265,7 @@
 		""
 		"Unlike a normal Enchanting Apparatus, the Arcane Pedestals are only used to specify a recipe. She does not need them for ingredients."
 	]
+	quest.6242CD0203DCBDC7.title: "Wixie Enchanting Apparatus"
 	quest.626E31B97CA1F815.quest_desc: [
 		"While capable of producing enormous power, the allure of Fission Reactors within Mekanism is mostly to process Uranium into more useful materials, like Plutonium and Polonium. "
 		"&n                                                 &r"
@@ -3750,6 +3760,7 @@
 		"Making them by hand isn’t particularly difficult, but it can be a little tedious. So, finding a way to automate this process is recommended. "
 		""
 		"In short, you’ll need to find some way to start a fire automatically. "
+		"&n                                                  &r"
 		""
 		"Start a fire on Deepslate or Bedrock and wait a bit. The fire will go out and some Grains will be generated. "
 		""
@@ -4319,6 +4330,7 @@
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
+	task.2E4DEB3FEE0D15CD.title: "Any Sapling"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.328C56BA23A70B8F.title: "Power"
