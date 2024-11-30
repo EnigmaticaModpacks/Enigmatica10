@@ -4173,6 +4173,7 @@
 		"Place the block in an area where you don’t want to be sucking up items randomly. Or carry the orb with you to enable and disable the trait at will. Just Right-Click it to toggle the feature."
 	]
 	quest.7ADBC282C9692EDE.quest_desc: ["Cable Façades are a universal façade that you can use to cover just about any pipe! "]
+	quest.7ADBC282C9692EDE.title: "Cable Facades"
 	quest.7B5EB5D6F749520F.quest_desc: [
 		"Using water to cool a Fission Reactor has its limits, preventing the reactor from safely running as fast as it could with a better coolant like Sodium."
 		""
