@@ -73,16 +73,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}glowstone_dust`
         },
         {
-            ingredient: { tag: `c:gems/fluix` },
-            ignore_crushing_multiplier: true,
-            result: {
-                type: 'occultism:item',
-                id: 'ae2:fluix_dust',
-                count: 1
-            },
-            id: `${id_prefix}fluix_dust`
-        },
-        {
             ingredient: { item: 'minecraft:ender_pearl' },
             ignore_crushing_multiplier: true,
             result: {

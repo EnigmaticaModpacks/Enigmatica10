@@ -24,16 +24,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}fluix_dust`
         },
         {
-            ingredient: { tag: `c:gems/coal` },
-            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 } }],
-            id: `${id_prefix}coal_dust`
-        },
-        {
-            ingredient: { tag: `c:gems/charcoal` },
-            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/charcoal`).getId(), count: 1 } }],
-            id: `${id_prefix}charcoal_dust`
-        },
-        {
             ingredient: { tag: `c:gems/lignite_coal` },
             result: [{ result: { id: 'modern_industrialization:lignite_coal_dust', count: 1 } }],
             id: `${id_prefix}lignite_coal_dust`
@@ -52,6 +42,11 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'ae2:sky_stone_block' },
             result: [{ result: { id: 'ae2:sky_dust', count: 1 } }],
             id: `${id_prefix}sky_dust`
+        },
+        {
+            ingredient: { tag: 'c:obsidians' },
+            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/obsidian`).getId(), count: 4 } }],
+            id: `${id_prefix}obsidian`
         }
     ];
 
@@ -122,6 +117,15 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${material.primary}`
             }
         );
+    });
+
+    materials = ['coal', 'charcoal', 'diamond', 'emerald', 'lapis', 'fluorite', 'quartz'];
+    materials.forEach((material) => {
+        recipes.push({
+            ingredient: { tag: `c:gems/${material}` },
+            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 1 } }],
+            id: `${id_prefix}${material}_dust`
+        });
     });
 
     recipes.forEach((recipe) => {

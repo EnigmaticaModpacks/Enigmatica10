@@ -25,28 +25,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}fluix_dust`
         },
         {
-            input: { tag: `c:gems/coal` },
-            output: [
-                {
-                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 },
-                    chance: 1.0,
-                    maxRange: 1
-                }
-            ],
-            id: `${id_prefix}coal_dust`
-        },
-        {
-            input: { tag: `c:gems/charcoal` },
-            output: [
-                {
-                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/charcoal`).getId(), count: 1 },
-                    chance: 1.0,
-                    maxRange: 1
-                }
-            ],
-            id: `${id_prefix}charcoal_dust`
-        },
-        {
             input: { tag: `c:gems/lignite_coal` },
             output: [
                 {
@@ -89,6 +67,17 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}sky_dust`
+        },
+        {
+            input: { tag: 'c:obsidians' },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/obsidian`).getId(), count: 4 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}obsidian`
         }
     ];
 
@@ -138,6 +127,21 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${material.primary}`
             }
         );
+    });
+
+    materials = ['coal', 'charcoal', 'diamond', 'emerald', 'lapis', 'fluorite', 'quartz'];
+    materials.forEach((material) => {
+        recipes.push({
+            input: { tag: `c:gems/${material}` },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}${material}_dust`
+        });
     });
 
     recipes.forEach((recipe) => {
