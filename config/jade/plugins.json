@@ -67,6 +67,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "oritech": {
+    "machine_core_controller": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,

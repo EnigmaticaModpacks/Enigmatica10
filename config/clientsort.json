@@ -3,6 +3,8 @@
     "interactionRateServer": 10,
     "interactionRateClient": 1,
     "hotbarMode": "SOFT",
+    "extraSlotMode": "NONE",
+    "lmbBundle": false,
     "sortModeStr": "creative",
     "shiftSortModeStr": "quantity",
     "ctrlSortModeStr": "alphabet",
