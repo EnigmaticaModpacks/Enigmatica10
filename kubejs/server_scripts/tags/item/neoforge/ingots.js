@@ -16,11 +16,14 @@ ServerEvents.tags('item', (event) => {
         duratim: ['oritech:duratim_ingot'],
         electrum: ['oritech:electrum_ingot'],
         energite: ['oritech:energite_ingot'],
-        prometheum: ['oritech:prometheum_ingot']
+        prometheum: ['oritech:prometheum_ingot'],
+        biosteel: ['oritech:biosteel_ingot']
     };
 
     Object.keys(additions).forEach((tag) => {
         event.get(`c:ingots/${tag}`).add(additions[tag]);
         event.get('c:ingots').add(additions[tag]);
     });
+
+    event.get('c:ingots/steel').remove('oritech:biosteel_ingot');
 });

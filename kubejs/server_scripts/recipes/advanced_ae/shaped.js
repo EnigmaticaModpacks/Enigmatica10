@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             output: `advanced_ae:reaction_chamber`,
             pattern: ['ABA', 'DCD', 'ABA'],
             key: {
-                A: 'ae2:fluix_pearl',
+                A: 'ae2:singularity',
                 B: 'ae2:condenser',
                 C: 'ae2:cell_component_256k',
                 D: 'ae2:spatial_cell_component_128'
