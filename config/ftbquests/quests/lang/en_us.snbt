@@ -518,6 +518,8 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.0EEFC631A67266B1.quest_desc: ["WIP!"]
+	quest.0EEFC631A67266B1.title: "OriTech"
 	quest.0EF0F6D0012FB59E.quest_desc: [
 		"Need some Lava in a hurry? Dripstone letting you down? Try a Lava Factory!"
 		""

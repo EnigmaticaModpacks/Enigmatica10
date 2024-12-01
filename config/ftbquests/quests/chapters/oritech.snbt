@@ -9,5 +9,14 @@
 	id: "60E3192C798C2841"
 	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "0EEFC631A67266B1"
+		tasks: [{
+			id: "141B590C9F765589"
+			item: { count: 1, id: "minecraft:iron_ingot" }
+			type: "item"
+		}]
+		x: 1.5d
+		y: 1.5d
+	}]
 }
