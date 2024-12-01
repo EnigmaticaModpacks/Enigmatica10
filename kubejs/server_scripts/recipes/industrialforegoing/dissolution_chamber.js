@@ -11,6 +11,16 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    experience_fluids.forEach((fluid) => {
+        recipes.push({
+            input: [],
+            inputFluid: { id: fluid, amount: 250 },
+            output: { id: 'minecraft:experience_bottle', count: 1 },
+            processingTime: 5,
+            id: `${id_prefix}experience_bottle_from_${fluid.replace(':', '_')}`
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'industrialforegoing:dissolution_chamber';
         event.custom(recipe).id(recipe.id);

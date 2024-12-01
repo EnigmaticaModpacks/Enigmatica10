@@ -1,4 +1,4 @@
-### Enigmatica 10 1.13.1
+### Enigmatica 10 1.14.0
 
 #### ⭐ Improvements
 
@@ -9,6 +9,9 @@
 -   Dragons in drygmy farms will now drop eggs, heads, and breath at a reduced rate [(\#218)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/218)
 -   Theurgy Creature Salt may be crafted from meat and fish now [(\#221)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/221)
 -   Unify EIO's Organic Dyes [(\#239)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/239)
+-   More recipes for xp bottles [(\#249)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/249)
+-   More crushing recipe compat [(\#251)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/251)
+-   Pretty Pipes quests! [(\#253)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/253)
 
 #### 🦟 Bugs Fixed
 
@@ -19,6 +22,8 @@
 -   Vengeance Spirits will no longer spawn unless using a Vengeance Ring [(\#233)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/233)
 -   Gysahl Greens are now compostable [(\#235)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/235)
 -   Fix output rates for many EIO Sag Mill recipes [(\#241)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/241)
+-   Fix missing coal tags [(\#251)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/251)
+-   Fix JDT Bow enchantability [(\#255)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/255)
 
 ---
 

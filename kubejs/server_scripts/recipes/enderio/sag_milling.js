@@ -3,6 +3,20 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            input: { tag: `c:gems/certus_quartz` },
+            outputs: [{ item: { id: 'ae2:certus_quartz_dust', count: 1 } }],
+            bonus: 'none',
+            energy: 2400,
+            id: `${id_prefix}certus_quartz`
+        },
+        {
+            input: { tag: `c:gems/fluix` },
+            outputs: [{ item: { id: 'ae2:fluix_dust', count: 1 } }],
+            bonus: 'none',
+            energy: 2400,
+            id: `${id_prefix}fluix`
+        },
+        {
             input: { item: `ae2:sky_stone_block` },
             outputs: [{ item: { id: `ae2:sky_dust`, count: 1 } }],
             bonus: 'none',
@@ -130,18 +144,6 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    // Add support for other materials
-    let gems = ['diamond', 'emerald', 'lapis', 'certus_quartz', 'fluix'];
-    gems.forEach((gem) => {
-        recipes.push({
-            input: { tag: `c:gems/${gem}` },
-            outputs: [{ item: { tag: `c:dusts/${gem}`, count: 1 } }],
-            bonus: 'none',
-            energy: 2400,
-            id: `${id_prefix}${gem}`
-        });
-    });
-
     let materials = [
         { primary: 'osmium', secondary: 'silver' },
         { primary: 'iesnium', secondary: 'silver' },
@@ -175,7 +177,7 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${material.primary}_ore`
             },
             {
-                input: { id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.primary}`).getId() },
+                input: { tag: `c:raw_materials/${material.primary}` },
                 outputs: [
                     { item: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 } },
                     {
@@ -200,6 +202,18 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${material.primary}`
             }
         );
+    });
+
+    // Add support for other materials
+    materials = ['diamond', 'emerald', 'fluorite'];
+    materials.forEach((material) => {
+        recipes.push({
+            input: { tag: `c:gems/${material}` },
+            outputs: [{ item: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 1 } }],
+            bonus: 'none',
+            energy: 2400,
+            id: `${id_prefix}${material}`
+        });
     });
 
     recipes.forEach((recipe) => {
