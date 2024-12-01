@@ -41,7 +41,10 @@ ServerEvents.recipes((event) => {
         { id: /mekanism:processing\/(tin|lead)\/ingot\/from_ore_smelting/ },
         { id: /mekanism:processing\/(tin|uranium|lead)\/ingot\/from_ore_blasting/ },
         { id: /deeperdarker:(copper|gold|iron)_ingot_from_(blasting|smelting)_gloomslate_.*_ore/ },
-        { id: /deeperdarker:(coal|diamond|lapis_lazuli|emerald)_from_(blasting|smelting)_gloomslate_.*_ore/ }
+        { id: /deeperdarker:(coal|diamond|lapis_lazuli|emerald)_from_(blasting|smelting)_gloomslate_.*_ore/ },
+        { id: /advanced_ae:.*budding/ },
+        { id: 'advanced_ae:certuscharger' },
+        { id: 'advanced_ae:chargedredstone' }
     ];
 
     recipes.forEach((recipe) => {
