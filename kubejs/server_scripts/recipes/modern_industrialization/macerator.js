@@ -22,6 +22,13 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 100,
             id: `${id_prefix}yellow_dye_from_glow_berries`
+        },
+        {
+            item_inputs: { item: 'advanced_ae:shattered_singularity', amount: 1 },
+            item_outputs: { item: 'advanced_ae:quantum_infused_dust', amount: 1 },
+            eu: 2,
+            duration: 100,
+            id: `${id_prefix}quantum_infused_dust`
         }
     ];
 

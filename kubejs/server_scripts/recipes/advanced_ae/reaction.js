@@ -1,15 +1,7 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:advanced_ae/reaction/';
 
-    const recipes = [
-        // {
-        //     output: { id: 'ae2:singularity', '#': 1, '#t': 'ae2:i' },
-        //     input_items: [{ ingredient: { item: 'ae2:matter_ball' }, amount: 64 }],
-        //     input_fluid: { ingredient: { fluid: 'minecraft:lava' }, amount: 100 },
-        //     input_energy: 500000000,
-        //     id: `advanced_ae:singularity`
-        // }
-    ];
+    const recipes = [];
 
     event.forEachRecipe({ type: 'advanced_ae:reaction' }, (r) => {
         let recipe = JSON.parse(r.json);

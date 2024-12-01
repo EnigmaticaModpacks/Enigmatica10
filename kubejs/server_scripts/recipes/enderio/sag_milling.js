@@ -24,6 +24,13 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}sky_dust`
         },
         {
+            input: { item: `advanced_ae:shattered_singularity` },
+            outputs: [{ item: { id: `advanced_ae:quantum_infused_dust`, count: 1 } }],
+            bonus: 'none',
+            energy: 2400,
+            id: `${id_prefix}quantum_infused_dust`
+        },
+        {
             input: { tag: 'c:rods/breeze' },
             outputs: [{ item: { id: 'minecraft:wind_charge', count: 4 } }],
             energy: 2400,

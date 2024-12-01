@@ -91,6 +91,16 @@ ServerEvents.recipes((event) => {
                 count: 1
             },
             id: `${id_prefix}sky_dust`
+        },
+        {
+            ingredient: { item: 'advanced_ae:shattered_singularity' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'advanced_ae:quantum_infused_dust',
+                count: 1
+            },
+            id: `${id_prefix}quantum_infused_dust`
         }
     ];
 
