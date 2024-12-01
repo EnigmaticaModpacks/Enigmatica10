@@ -214,3 +214,4 @@ config/ftbessentials.snbt
 config/iris.properties
 config/clienttweaks-common.toml
 /config/productivetrees/generated
+config/cumulus_menus-client.toml
