@@ -195,7 +195,14 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"clienttweaks-common.toml"
 )
 
-$FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "local/ftbchunks/data", "local/ftbultimine", "local/ftbultimine-client.snbt", "resourcepacks")
+$FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @(
+	"local/ftbutilities", 
+	"local/ftbchunks/data", 
+	"local/ftbultimine", 
+	"local/ftbultimine-client.snbt", 
+	"resourcepacks",
+	"config/productivetrees/generated"
+)
 
 
 #=====================================================================//
