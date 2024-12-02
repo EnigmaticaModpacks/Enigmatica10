@@ -31,6 +31,12 @@ ServerEvents.recipes((event) => {
             result: { id: 'modularrouters:modular_router', count: 6 },
             program: 'drill',
             id: `${id_prefix}modular_router`
+        },
+        {
+            input: { tag: 'c:ingots/quantum_alloy', count: 9 },
+            result: { id: 'advanced_ae:printed_quantum_processor', count: 18 },
+            program: 'laser',
+            id: `${id_prefix}printed_quantum_processor`
         }
     ];
 

@@ -17,7 +17,9 @@ ServerEvents.tags('item', (event) => {
         electrum: ['oritech:electrum_ingot'],
         energite: ['oritech:energite_ingot'],
         prometheum: ['oritech:prometheum_ingot'],
-        biosteel: ['oritech:biosteel_ingot']
+        biosteel: ['oritech:biosteel_ingot'],
+
+        quantum_alloy: ['advanced_ae:quantum_alloy']
     };
 
     Object.keys(additions).forEach((tag) => {

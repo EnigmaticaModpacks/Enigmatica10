@@ -212,5 +212,16 @@
 			x: 2.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["3B77FB0A8CFAAB97"]
+			id: "4F19A0AECC129216"
+			tasks: [{
+				id: "35D6E3E319CCFA9A"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
 	]
 }

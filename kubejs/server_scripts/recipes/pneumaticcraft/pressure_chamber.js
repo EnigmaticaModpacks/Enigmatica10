@@ -76,6 +76,16 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'naturesaura:vacuum_bottle', count: 1 }],
             pressure: -0.75,
             id: `${id_prefix}vacuum_bottle`
+        },
+        {
+            inputs: [
+                { item: 'advanced_ae:printed_quantum_processor', count: 1 },
+                { tag: 'c:dusts/redstone', count: 1 },
+                { item: 'ae2:printed_silicon', count: 1 }
+            ],
+            results: [{ id: 'advanced_ae:quantum_processor', count: 1 }],
+            pressure: 1.0,
+            id: `${id_prefix}quantum_processor`
         }
     ];
 

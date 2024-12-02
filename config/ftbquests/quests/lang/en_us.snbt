@@ -2720,6 +2720,11 @@
 		"Refer to the Book of Natural Aura for more information."
 	]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.4F19A0AECC129216.quest_desc: [
+		"The Atomic Forge is an advanced crafting device which uses Enderic Lasers to operate. "
+		""
+		"Set up some Lasers nearby and use the Target Designator to link them to the Forge. "
+	]
 	quest.4F480CF26AB0F3CD.quest_desc: [
 		"Just as Promises of Tenacity can enable greater functionality, these promises boost machines in unique ways."
 		""
