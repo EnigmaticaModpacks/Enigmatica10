@@ -89,6 +89,11 @@ ServerEvents.recipes((event) => {
             filter: [{ id: `oritech:crafting/foundry` }],
             to_replace: '#c:ingots/electrum',
             replace_with: '#c:ingots/iron'
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: '#c:ingots/steel',
+            replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/biosteel'])
         }
     ];
 
