@@ -22,7 +22,9 @@ ServerEvents.tags('item', (event) => {
         nickel: ['oritech:nickel_gem'],
         iron: ['oritech:iron_gem'],
         copper: ['oritech:copper_gem'],
-        gold: ['oritech:gold_gem']
+        gold: ['oritech:gold_gem'],
+        fluxite: ['oritech:fluxite'],
+        overcharged_crystal: ['oritech:overcharged_crystal']
     };
 
     Object.keys(additions).forEach((tag) => {

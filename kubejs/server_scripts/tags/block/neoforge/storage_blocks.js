@@ -39,7 +39,7 @@ ServerEvents.tags('block', (event) => {
         platinum: ['oritech:platinum_block'],
         adamant: ['oritech:adamant_block'],
         electrum: ['oritech:electrum_block'],
-        duratim: ['oritech:duratim_block'],
+        duratium: ['oritech:duratium_block'],
         biomass: ['oritech:biomass_block'],
         plastic: ['oritech:plastic_block'],
         fluxite: ['oritech:fluxite_block'],
