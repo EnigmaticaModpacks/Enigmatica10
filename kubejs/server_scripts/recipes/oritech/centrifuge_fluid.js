@@ -16,8 +16,6 @@ ServerEvents.recipes((event) => {
                 ingredients: [{ tag: 'minecraft:sand' }],
                 fluidInputVariant: oil,
                 fluidInputAmount: 8100,
-                fluidOutputVariant: 'minecraft:empty',
-                fluidOutputAmount: 0,
                 time: 150,
                 id: `${id_prefix}polymer_resin_from_${oil.replace(':', '_')}`
             },
@@ -37,6 +35,16 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:centrifuge_fluid';
+
+        if (!recipe.fluidInputVariant) {
+            recipe.fluidInputVariant = 'minecraft:empty';
+            recipe.fluidInputAmount = 0;
+        }
+        if (!recipe.fluidOutputVariant) {
+            recipe.fluidOutputVariant = 'minecraft:empty';
+            recipe.fluidOutputAmount = 0;
+        }
+
         event.custom(recipe).id(recipe.id);
     });
 });

@@ -9,28 +9,167 @@
 	id: "60E3192C798C2841"
 	order_index: 9
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			components: {
-				"ftbquests:icon": "oritech:item/dubios_container"
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "oritech:item/dubios_container"
+				}
+				id: "ftbquests:custom_icon"
 			}
-			id: "ftbquests:custom_icon"
+			id: "0EEFC631A67266B1"
+			rewards: [{
+				id: "47D66BAF647A20DF"
+				item: {
+					count: 1
+					id: "oritech:wrench"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "141B590C9F765589"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
-		id: "0EEFC631A67266B1"
-		rewards: [{
-			id: "47D66BAF647A20DF"
-			item: {
-				count: 1
-				id: "oritech:wrench"
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			id: "3FFF6EF85443852C"
+			rewards: [{
+				count: 8
+				id: "766036C0E3F92B09"
+				item: {
+					count: 1
+					id: "oritech:energy_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D242C944EFAD3CE"
+				item: { count: 1, id: "oritech:basic_generator_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EEFC631A67266B1"]
+			icon: {
+				id: "oritech:foundry_block"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "141B590C9F765589"
-			item: { count: 1, id: "minecraft:iron_ingot" }
-			type: "item"
-		}]
-		x: 1.5d
-		y: 1.5d
-	}]
+			id: "75765D97E7ACC6FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0045E9C68AFA235B"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "686855F210F6397D"
+					item: { count: 1, id: "oritech:foundry_block" }
+					type: "item"
+				}
+				{
+					id: "6E0B704DFCA62E81"
+					item: { count: 1, id: "oritech:machine_core_1" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DD76DB5C6220F40"]
+			id: "4E2C382FC583C03F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B453D22C3A8BCF8"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1A7FC602C2C2C50C"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			id: "5DD76DB5C6220F40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367FE1812FAAEECF"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B816B9746784F88"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["685AA2A5C0C2C796"]
+			id: "413A165C27E8E5A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35CAE18BD28B7182"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "04F6421CDF716774"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20A3EA274A706343"]
+			id: "2F28FE62872496C8"
+			tasks: [{
+				id: "2CF73666F6B09CE6"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FFF6EF85443852C"]
+			id: "20A3EA274A706343"
+			tasks: [{
+				id: "7CB3A9B5D57091B9"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DD76DB5C6220F40"]
+			id: "685AA2A5C0C2C796"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30BBFE383B4980B9"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "68F7CE60B4BEFE56"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+	]
 }
