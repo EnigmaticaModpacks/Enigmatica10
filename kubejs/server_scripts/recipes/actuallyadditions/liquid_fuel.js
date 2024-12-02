@@ -19,6 +19,13 @@ ServerEvents.recipes((event) => {
             fe_per_mb: 4000,
             fe_per_tick: 160,
             id: `${id_prefix}refined_t4_fluid_source`
+        },
+
+        {
+            fuel: 'oritech:still_oil',
+            fe_per_mb: 1300,
+            fe_per_tick: 130,
+            id: `${id_prefix}still_oil`
         }
     ];
 

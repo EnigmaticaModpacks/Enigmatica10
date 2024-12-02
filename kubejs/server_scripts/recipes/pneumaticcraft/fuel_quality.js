@@ -43,6 +43,13 @@ ServerEvents.recipes((event) => {
             air_per_mb: 1800,
             burn_rate: 0.4,
             id: `${id_prefix}empowered_oil`
+        },
+
+        {
+            fluid: { tag: 'c:fuels/turbo_fuel' },
+            air_per_mb: 3250,
+            burn_rate: 1.0,
+            id: `${id_prefix}turbo_fuel`
         }
     ];
 

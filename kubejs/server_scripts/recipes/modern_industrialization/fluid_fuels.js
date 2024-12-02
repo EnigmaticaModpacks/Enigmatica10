@@ -33,7 +33,10 @@ ServerEvents.generateData('before_mods', (event) => {
             'actuallyadditions:canola_oil': { eu_per_mb: 80 },
             'actuallyadditions:refined_canola_oil': { eu_per_mb: 192 },
             'actuallyadditions:crystallized_oil': { eu_per_mb: 560 },
-            'actuallyadditions:empowered_oil': { eu_per_mb: 960 }
+            'actuallyadditions:empowered_oil': { eu_per_mb: 960 },
+
+            'oritech:still_oil': { eu_per_mb: 16 },
+            'oritech:still_fuel': { eu_per_mb: 1300 }
         }
     };
 
