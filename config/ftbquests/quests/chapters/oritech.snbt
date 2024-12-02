@@ -13,7 +13,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "oritech:item/dubios_container"
+					"ftbquests:icon": "oritech:block/machine_core_7"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -192,6 +192,36 @@
 			}]
 			x: 1.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			id: "03405336161EF1B5"
+			rewards: [{
+				id: "777138547AE437BB"
+				item: {
+					count: 1
+					id: "oritech:machine_extender"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A4465B1F1B8673A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:machine_addons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B77FB0A8CFAAB97"]
+			id: "4F19A0AECC129216"
+			tasks: [{
+				id: "35D6E3E319CCFA9A"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
 		}
 	]
 }
