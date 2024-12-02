@@ -13,9 +13,8 @@ ServerEvents.recipes((event) => {
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
         { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ },
         { id: /industrialforegoing:laser_drill_ore.*yellor(ite|ium)/ },
-        { id: 'mffs:steel_ingot' },
-        { id: 'mffs:steel_compound' },
-        { id: 'oritech:crafting/alloy/steel' },
+        { id: /mffs:steel_(ingot|compound)$/ },
+        { id: /oritech:crafting\/alloy\/(steel|adamant|electrum)/ },
         { id: `enderio:sag_milling/blaze_powder` },
         { id: `mekanism:sulfur_dye` },
         { id: `utilitarian:utility/green_dye` },
@@ -45,7 +44,9 @@ ServerEvents.recipes((event) => {
         { id: /deeperdarker:(coal|diamond|lapis_lazuli|emerald)_from_(blasting|smelting)_gloomslate_.*_ore/ },
         { id: /advanced_ae:.*budding/ },
         { id: 'advanced_ae:certuscharger' },
-        { id: 'advanced_ae:chargedredstone' }
+        { id: 'advanced_ae:chargedredstone' },
+        { id: /oritech:(iron|gold|copper|nickel|platinum)_(ingot|dust)/ },
+        { id: 'aether:moa_egg_cake' }
     ];
 
     recipes.forEach((recipe) => {

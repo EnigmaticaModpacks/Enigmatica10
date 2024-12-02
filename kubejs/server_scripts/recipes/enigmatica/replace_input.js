@@ -79,6 +79,16 @@ ServerEvents.recipes((event) => {
             filter: [{ id: /actuallyadditions:black_quartz_(wall|stair|slab)/ }],
             to_replace: 'actuallyadditions:black_quartz_pillar_block',
             replace_with: 'actuallyadditions:black_quartz_block'
+        },
+        {
+            filter: [{ id: `oritech:motor/motorcraft` }, { id: `oritech:crafting/magnet` }],
+            to_replace: '#c:ingots/steel',
+            replace_with: '#c:ingots/iron'
+        },
+        {
+            filter: [{ id: `oritech:crafting/foundry` }],
+            to_replace: '#c:ingots/electrum',
+            replace_with: '#c:ingots/iron'
         }
     ];
 

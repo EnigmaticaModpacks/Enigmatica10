@@ -10,6 +10,12 @@
 	order_index: 10
 	quest_links: [ ]
 	quests: [{
+		icon: {
+			components: {
+				"ftbquests:icon": "oritech:item/dubios_container"
+			}
+			id: "ftbquests:custom_icon"
+		}
 		id: "0EEFC631A67266B1"
 		tasks: [{
 			id: "141B590C9F765589"
