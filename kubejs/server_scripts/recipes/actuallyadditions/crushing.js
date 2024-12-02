@@ -47,6 +47,11 @@ ServerEvents.recipes((event) => {
             ingredient: { tag: 'c:obsidians' },
             result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/obsidian`).getId(), count: 4 } }],
             id: `${id_prefix}obsidian`
+        },
+        {
+            ingredient: { item: 'advanced_ae:shattered_singularity' },
+            result: [{ result: { id: 'advanced_ae:quantum_infused_dust', count: 1 } }],
+            id: `${id_prefix}quantum_infused_dust`
         }
     ];
 

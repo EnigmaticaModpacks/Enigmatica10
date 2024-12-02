@@ -78,6 +78,17 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}obsidian`
+        },
+        {
+            input: { item: 'advanced_ae:shattered_singularity' },
+            output: [
+                {
+                    stack: { id: 'advanced_ae:quantum_infused_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}quantum_infused_dust`
         }
     ];
 

@@ -30,7 +30,22 @@ ServerEvents.tags('item', (event) => {
 
         black_quartz: ['actuallyadditions:black_quartz_block'],
 
-        charcoal: ['justdirethings:charcoal']
+        charcoal: ['justdirethings:charcoal'],
+
+        raw_nickel: ['oritech:raw_nickel_block'],
+        raw_platinum: ['oritech:raw_platinum_block'],
+        steel: ['oritech:steel_block'],
+        energite: ['oritech:energite_block'],
+        nickel: ['oritech:nickel_block'],
+        biosteel: ['oritech:biosteel_block'],
+        platinum: ['oritech:platinum_block'],
+        adamant: ['oritech:adamant_block'],
+        electrum: ['oritech:electrum_block'],
+        duratim: ['oritech:duratim_block'],
+        biomass: ['oritech:biomass_block'],
+        plastic: ['oritech:plastic_block'],
+        fluxite: ['oritech:fluxite_block'],
+        silicon: ['oritech:silicon_block']
     };
 
     Object.keys(additions).forEach((tag) => {

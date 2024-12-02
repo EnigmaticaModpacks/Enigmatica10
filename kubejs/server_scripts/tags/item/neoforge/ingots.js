@@ -10,11 +10,20 @@ ServerEvents.tags('item', (event) => {
         infused_iron: ['naturesaura:infused_iron'],
         tainted_gold: ['naturesaura:tainted_gold'],
         sky: ['naturesaura:sky_ingot'],
-        depth: ['naturesaura:depth_ingot']
+        depth: ['naturesaura:depth_ingot'],
+
+        adamant: ['oritech:adamant_ingot'],
+        duratim: ['oritech:duratim_ingot'],
+        electrum: ['oritech:electrum_ingot'],
+        energite: ['oritech:energite_ingot'],
+        prometheum: ['oritech:prometheum_ingot'],
+        biosteel: ['oritech:biosteel_ingot']
     };
 
     Object.keys(additions).forEach((tag) => {
         event.get(`c:ingots/${tag}`).add(additions[tag]);
         event.get('c:ingots').add(additions[tag]);
     });
+
+    event.get('c:ingots/steel').remove('oritech:biosteel_ingot');
 });

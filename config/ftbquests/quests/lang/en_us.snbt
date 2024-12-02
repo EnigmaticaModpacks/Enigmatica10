@@ -19,6 +19,7 @@
 	chapter.5957A1DE2E537AC3.title: "PneumaticCraft: Repressurized"
 	chapter.5C2F675CD8139E11.title: "Ars Nouveau"
 	chapter.603B06098A07350C.title: "EvilCraft"
+	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.60F666DD0AC6F03F.title: "Multiverse"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
@@ -517,6 +518,12 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.0EEFC631A67266B1.quest_desc: [
+		"Welcome to OriTech, a new technology mod with a focus on amazing animations for its machines!"
+		""
+		"[\"Be sure to check out their \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" while we get this quest section completed!\"]"
+	]
+	quest.0EEFC631A67266B1.title: "OriTech"
 	quest.0EF0F6D0012FB59E.quest_desc: [
 		"Need some Lava in a hurry? Dripstone letting you down? Try a Lava Factory!"
 		""
@@ -1052,6 +1059,7 @@
 		""
 		"The Pyromantic Brazier primarily burns furnace fuels, which can be provided the same way."
 	]
+	quest.20A3EA274A706343.quest_desc: ["A simple liquid fuel burning generator capable of burning a variety of fuels! Feel free to use most anything you have on hand!"]
 	quest.20C038E5D70CDB52.quest_desc: [
 		"The Wixie Cauldron allows a Wixie to craft either Potions or 3x3 Crafting recipes using Source."
 		""
@@ -1437,6 +1445,7 @@
 		""
 		"Some scrolls will only be available with higher tier inks!"
 	]
+	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
 		""
@@ -1713,6 +1722,16 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.3B77FB0A8CFAAB97.quest_desc: [
+		"Potentially quite dangerous, Enderic Lasers will destroy most any blocks in their path. Some, however, are instead empowered by it."
+		""
+		"Use a Target Designator to aim an Enderic Laser at a Budding Amethyst. The block will not be destroyed, rather its growth will be dramatically increased. "
+		""
+		"As Amethyst Clusters appear, the Lasers will harvest them as Fluxite, making this an excellent way to renewably produce this valuable resource."
+		"&n                                                 &r"
+		""
+		"To target a block, Sneak + Right-Click it with the Target Designator, then Sneak + Right-Click the Laser. "
 	]
 	quest.3BC8ED2BD4E5EEC6.quest_desc: [
 		"They may be tiny, but they pack a mighty punch. "
@@ -2028,6 +2047,11 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Applied Energistics\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.3FFF6EF85443852C.quest_desc: [
+		"You’ll need a little power to operate your machines! "
+		""
+		"OriTech uses the standard FE energy produced by many tech mods, so feel free to create your power wherever you like. Or use the beautifully animated options provided by the mod itself!"
+	]
 	quest.4068ABB6B3C24FEC.quest_desc: [
 		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
 		""
@@ -2127,6 +2151,7 @@
 		"&a    area."
 	]
 	quest.410225ED927857D4.title: "Animal Farming"
+	quest.413A165C27E8E5A6.quest_desc: ["A more potent form of crushing, the Fragment Forge will largely replace a Pulverizer while simultaneously increasing yields on many products. "]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
 		""
@@ -2667,6 +2692,7 @@
 		"&a    used to recharge a Drone or to "
 		"&a    recharge all your gear at once!"
 	]
+	quest.4E2C382FC583C03F.quest_desc: ["A Centrifuge allows for more advanced ore processing, as well as the production of a few unique materials that will be very important moving forward!"]
 	quest.4E7DA28C54FB8766.quest_desc: [
 		"These materials can frequently take a great deal of time to find by exploring alone. "
 		""
@@ -3173,6 +3199,7 @@
 		"&a    Block planner in EMI! "
 	]
 	quest.5DB469A00A023DCF.title: "Industrial Turbine"
+	quest.5DD76DB5C6220F40.quest_desc: ["With a Pulverizer, you’ll be able to get better yields from all those ores you’re mining up out of the ground!"]
 	quest.5DE688C9457D18DF.quest_desc: [
 		"A simple Wind Turbine. These produce more power the higher up they’re placed. "
 		""
@@ -3524,6 +3551,7 @@
 		"&a    Wormhole or Storage Accessor"
 		"&a    on the Actuator to link them."
 	]
+	quest.685AA2A5C0C2C796.quest_desc: ["The Assembler is an advanced crafting machine that may be used to produce certain components cheaper."]
 	quest.68A0052D169BB6E4.quest_desc: [
 		"The Mob Slaughter Factory is your source for liquefied monster products, both Liquid Meat and Pink Slime. Yum."
 		""
@@ -4060,6 +4088,20 @@
 		"&6    their own aura types. "
 	]
 	quest.752DB3D467FFB259.title: "Bottled Aura"
+	quest.75765D97E7ACC6FC.quest_desc: [
+		"Getting started, the first machine you’ll want to craft is the Foundry. This will allow you to create the various alloys you’ll need to proceed with more powerful machines. "
+		"&n                                                  &r"
+		""
+		"As are most machines from OriTech, this is a multiblock machine. "
+		""
+		"Place the Foundry block and then Right-Click it to see where the Machine Cores must be placed. "
+		""
+		"Once you’ve placed all the required Cores, Right-Click the Foundry again to complete the structure. "
+		""
+		"&a🛈 Tip: Right-Click the machine with the "
+		"&a    Core blocks to automatically place "
+		"&a    them for you!"
+	]
 	quest.760910BF48876D8E.quest_desc: ["The following are various forms of chemical transfer options available in Enigmatica 10."]
 	quest.760910BF48876D8E.title: "Chemicals and Gas"
 	quest.760BD47C6B67D645.quest_desc: [

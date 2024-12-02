@@ -1,5 +1,5 @@
 ServerEvents.tags('fluid', (event) => {
-    event.get('c:fuels/crude_oil').add(['modern_industrialization:crude_oil']);
+    event.get('c:fuels/crude_oil').add(['modern_industrialization:crude_oil', 'oritech:still_oil']);
     event.get('c:fuels/ethanol').add(['modern_industrialization:ethanol']);
     event.get('c:fuels/diesel').add(['modern_industrialization:diesel']);
     event.get('c:fuels/biodiesel').add(['modern_industrialization:biodiesel']);
@@ -14,4 +14,5 @@ ServerEvents.tags('fluid', (event) => {
     event.get('c:fuels/refined_canola_oil').add(['actuallyadditions:refined_canola_oil']);
     event.get('c:fuels/crystallized_oil').add(['actuallyadditions:crystallized_oil']);
     event.get('c:fuels/empowered_oil').add(['actuallyadditions:empowered_oil']);
+    event.get('c:fuels/turbo_fuel').add(['oritech:still_fuel']);
 });
