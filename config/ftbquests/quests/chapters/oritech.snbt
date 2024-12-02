@@ -129,8 +129,8 @@
 				item: { count: 1, id: "oritech:fragment_forge_block" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["20A3EA274A706343"]
@@ -170,6 +170,28 @@
 			}]
 			x: 0.5d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4E2C382FC583C03F"
+				"685AA2A5C0C2C796"
+			]
+			id: "3B77FB0A8CFAAB97"
+			rewards: [{
+				id: "4B5123C225E226F3"
+				item: {
+					count: 1
+					id: "oritech:target_designator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1040686340598200"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 	]
 }

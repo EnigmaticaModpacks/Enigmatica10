@@ -1723,6 +1723,16 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.3B77FB0A8CFAAB97.quest_desc: [
+		"Potentially quite dangerous, Enderic Lasers will destroy most any blocks in their path. Some, however, are instead empowered by it."
+		""
+		"Use a Target Designator to aim an Enderic Laser at a Budding Amethyst. The block will not be destroyed, rather its growth will be dramatically increased. "
+		""
+		"As Amethyst Clusters appear, the Lasers will harvest them as Fluxite, making this an excellent way to renewably produce this valuable resource."
+		"&n                                                 &r"
+		""
+		"To target a block, Sneak + Right-Click it with the Target Designator, then Sneak + Right-Click the Laser. "
+	]
 	quest.3BC8ED2BD4E5EEC6.quest_desc: [
 		"They may be tiny, but they pack a mighty punch. "
 		""
