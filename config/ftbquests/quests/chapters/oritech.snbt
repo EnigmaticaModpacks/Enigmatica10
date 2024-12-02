@@ -7,7 +7,7 @@
 		id: "oritech:super_ai_chip"
 	}
 	id: "60E3192C798C2841"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [{
 		icon: {
@@ -17,6 +17,14 @@
 			id: "ftbquests:custom_icon"
 		}
 		id: "0EEFC631A67266B1"
+		rewards: [{
+			id: "47D66BAF647A20DF"
+			item: {
+				count: 1
+				id: "oritech:wrench"
+			}
+			type: "item"
+		}]
 		tasks: [{
 			id: "141B590C9F765589"
 			item: { count: 1, id: "minecraft:iron_ingot" }
