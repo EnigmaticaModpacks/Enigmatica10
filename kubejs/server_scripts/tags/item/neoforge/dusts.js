@@ -2,7 +2,7 @@ ServerEvents.tags('item', (event) => {
     let additions = {
         adamant: ['oritech:adamant_dust'],
         biosteel: ['oritech:biosteel_dust'],
-        duratim: ['oritech:duratim_dust'],
+        duratium: ['oritech:duratium_dust'],
         electrum: ['oritech:electrum_dust'],
         energite: ['oritech:energite_dust'],
         steel: ['oritech:steel_dust']

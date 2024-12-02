@@ -13,7 +13,7 @@ ServerEvents.tags('item', (event) => {
         depth: ['naturesaura:depth_ingot'],
 
         adamant: ['oritech:adamant_ingot'],
-        duratim: ['oritech:duratim_ingot'],
+        duratium: ['oritech:duratium_ingot'],
         electrum: ['oritech:electrum_ingot'],
         energite: ['oritech:energite_ingot'],
         prometheum: ['oritech:prometheum_ingot'],
