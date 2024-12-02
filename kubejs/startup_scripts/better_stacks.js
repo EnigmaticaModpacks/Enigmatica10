@@ -7,6 +7,7 @@ ItemEvents.modification((event) => {
         'minecraft:egg',
         'powah:charged_snowball',
         'the_bumblezone:pollen_puff',
+        'oritech:weed_killer',
         /occultism:book_of_binding_(empty|foliot|djinni|afrit|marid)/,
         /enderio:.*_capacitor/,
 
