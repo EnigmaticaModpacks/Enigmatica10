@@ -114,6 +114,14 @@
 		"&6⚠ Note: The input items can be in any "
 		"&6    order!"
 	]
+	quest.03405336161EF1B5.quest_desc: [
+		"On most OriTech machines, you’ll notice a blue square with two vertical slits like an electrical outlet. These act as connection points for the various Machine Addons that may be attached to these machines. "
+		""
+		"Adding a Machine Extender at these positions will allow you to attach more addons, however this requires increasingly higher quality Machine Cores. Doing so will increase how many Extenders an addon is allowed to chain through and still count. "
+		""
+		"For example, at Machine Quality 4, an addon can have up to 4 Extenders between it and the machine. This isn’t a count of the total number of Extenders, however, so feel free to branch them to be able to attach more. "
+	]
+	quest.03405336161EF1B5.title: "Machine Addons"
 	quest.036036EA25034BE8.quest_desc: [
 		"Infusion Rituals generally are used for confining a spirit into an object, thus granting that object special powers. "
 		""
@@ -4477,6 +4485,7 @@
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
+	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
