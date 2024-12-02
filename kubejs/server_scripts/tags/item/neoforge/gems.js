@@ -16,7 +16,13 @@ ServerEvents.tags('item', (event) => {
         blazing: ['powah:crystal_blazing'],
         niotic: ['powah:crystal_niotic'],
         spirited: ['powah:crystal_spirited'],
-        nitro: ['powah:crystal_nitro']
+        nitro: ['powah:crystal_nitro'],
+
+        platinum: ['oritech:platinum_gem'],
+        nickel: ['oritech:nickel_gem'],
+        iron: ['oritech:iron_gem'],
+        copper: ['oritech:copper_gem'],
+        gold: ['oritech:gold_gem']
     };
 
     Object.keys(additions).forEach((tag) => {
