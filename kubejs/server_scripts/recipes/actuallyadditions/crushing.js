@@ -84,7 +84,7 @@ ServerEvents.recipes((event) => {
         { primary: 'iridium', secondary: 'osmium' },
         { primary: 'lead', secondary: 'silver' },
         { primary: 'silver', secondary: 'lead' },
-        { primary: 'nickel', secondary: 'iron' },
+        { primary: 'nickel', secondary: 'platinum' },
         { primary: 'tin', secondary: 'iron' },
         { primary: 'uranium', secondary: 'lead' }
     ];
