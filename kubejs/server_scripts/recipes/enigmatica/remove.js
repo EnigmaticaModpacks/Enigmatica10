@@ -46,10 +46,11 @@ ServerEvents.recipes((event) => {
         { id: 'advanced_ae:certuscharger' },
         { id: 'advanced_ae:chargedredstone' },
         { id: /oritech:(iron|gold|copper|nickel|platinum)_(ingot|dust)/ },
-        { id: /oritech:grinder\/(raw|ore)\/(copper|nickel|iron|gold|platinum)/ },
+        { id: /oritech:(pulverizer|grinder)\/(raw|ore)\/(copper|nickel|iron|gold|platinum)/ },
         { id: /oritech:centrifuge\/clump(dry|wet)\/(copper|nickel|iron|gold|platinum)/ },
         { id: /oritech:foundry\/gem\/(copper|nickel|iron|gold|platinum)/ },
         { id: /oritech:atomicforge\/dust\/(copper|nickel|iron|gold|platinum)/ },
+        { id: /oritech:pulverizer\/dust\/dyes/ },
         { id: /enderio:smelting\/oritech\/(copper|nickel|iron|gold|platinum)_ingot/ },
         { id: 'aether:moa_egg_cake' }
     ];

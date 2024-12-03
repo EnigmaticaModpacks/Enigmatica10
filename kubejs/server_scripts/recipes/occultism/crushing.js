@@ -101,6 +101,46 @@ ServerEvents.recipes((event) => {
                 count: 1
             },
             id: `${id_prefix}quantum_infused_dust`
+        },
+        {
+            ingredient: { item: 'oritech:adamant_ingot' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'oritech:adamant_dust',
+                count: 1
+            },
+            id: `${id_prefix}adamant_dust`
+        },
+        {
+            ingredient: { item: 'oritech:biosteel_ingot' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'oritech:biosteel_dust',
+                count: 1
+            },
+            id: `${id_prefix}biosteel_dust`
+        },
+        {
+            ingredient: { item: 'oritech:duratium_ingot' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'oritech:duratium_dust',
+                count: 1
+            },
+            id: `${id_prefix}duratium_dust`
+        },
+        {
+            ingredient: { item: 'oritech:energite_ingot' },
+            ignore_crushing_multiplier: true,
+            result: {
+                type: 'occultism:item',
+                id: 'oritech:energite_dust',
+                count: 1
+            },
+            id: `${id_prefix}energite_dust`
         }
     ];
 
