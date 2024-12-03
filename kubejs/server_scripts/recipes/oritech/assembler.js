@@ -64,6 +64,17 @@ ServerEvents.recipes((event) => {
             ],
             time: 300,
             id: `${id_prefix}quantum_processor`
+        },
+        {
+            results: [{ id: 'ae2:flawless_budding_quartz', count: 1 }],
+            ingredients: [
+                { tag: 'c:gems/certus_quartz' },
+                { tag: 'c:gems/certus_quartz' },
+                { item: 'oritech:enderic_compound' },
+                { item: 'oritech:overcharged_crystal' }
+            ],
+            time: 300,
+            id: `${id_prefix}flawless_budding_quartz`
         }
     ];
 
