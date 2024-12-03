@@ -63,6 +63,12 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'advanced_ae:shattered_singularity' }],
             time: 300,
             id: `${id_prefix}quantum_infused_dust`
+        },
+        {
+            results: [{ id: 'modern_industrialization:lignite_coal_dust', count: 1 }],
+            ingredients: [{ tag: 'c:gems/lignite_coal' }],
+            time: 300,
+            id: `${id_prefix}lignite_coal_dust`
         }
     ];
 
@@ -117,7 +123,7 @@ ServerEvents.recipes((event) => {
         );
     });
 
-    materials = ['coal', 'charcoal', 'diamond', 'emerald', 'lapis', 'fluorite', 'quartz'];
+    materials = ['charcoal', 'diamond', 'emerald', 'lapis', 'fluorite'];
     materials.forEach((material) => {
         recipes.push({
             results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 1 }],
