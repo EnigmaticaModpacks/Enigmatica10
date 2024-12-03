@@ -15,6 +15,54 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:raw_materials/platinum' }],
             time: 750,
             id: `${id_prefix}raw_platinum`
+        },
+        {
+            results: [{ id: 'minecraft:blaze_powder', count: 6 }],
+            ingredients: [{ item: 'justdirethings:coal_t2' }],
+            time: 300,
+            id: `${id_prefix}blaze_powder`
+        },
+        {
+            results: [{ id: 'powah:uraninite_raw', count: 4 }],
+            ingredients: [{ tag: 'c:ores/uraninite' }],
+            time: 300,
+            id: `${id_prefix}uraninite_raw`
+        },
+        {
+            results: [{ id: 'actuallyadditions:black_quartz', count: 2 }],
+            ingredients: [{ tag: 'c:ores/black_quartz' }],
+            time: 300,
+            id: `${id_prefix}black_quartz`
+        },
+        {
+            results: [{ id: 'ae2:certus_quartz_dust', count: 1 }],
+            ingredients: [{ tag: 'c:gems/certus_quartz' }],
+            time: 300,
+            id: `${id_prefix}certus_quartz_dust`
+        },
+        {
+            results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/emerald`).getId(), count: 1 }],
+            ingredients: [{ tag: 'c:gems/emerald' }],
+            time: 300,
+            id: `${id_prefix}emerald_dust`
+        },
+        {
+            results: [{ id: 'minecraft:glowstone_dust', count: 1 }],
+            ingredients: [{ item: 'minecraft:glow_berries' }],
+            time: 300,
+            id: `${id_prefix}glowstone_dust`
+        },
+        {
+            results: [{ id: 'ae2:sky_dust', count: 1 }],
+            ingredients: [{ item: 'ae2:sky_stone_block' }],
+            time: 300,
+            id: `${id_prefix}sky_dust`
+        },
+        {
+            results: [{ id: 'advanced_ae:quantum_infused_dust', count: 1 }],
+            ingredients: [{ item: 'advanced_ae:shattered_singularity' }],
+            time: 300,
+            id: `${id_prefix}quantum_infused_dust`
         }
     ];
 

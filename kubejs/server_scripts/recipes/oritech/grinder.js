@@ -19,6 +19,18 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:raw_materials/platinum' }],
             time: 1200,
             id: `${id_prefix}raw_platinum`
+        },
+        {
+            results: [{ id: 'powah:uraninite_raw', count: 6 }],
+            ingredients: [{ tag: 'c:ores/uraninite' }],
+            time: 200,
+            id: `${id_prefix}uraninite_raw`
+        },
+        {
+            results: [{ id: 'actuallyadditions:black_quartz', count: 4 }],
+            ingredients: [{ tag: 'c:ores/black_quartz' }],
+            time: 200,
+            id: `${id_prefix}black_quartz`
         }
     ];
 
