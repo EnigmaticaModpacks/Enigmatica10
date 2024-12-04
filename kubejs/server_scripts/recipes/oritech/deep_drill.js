@@ -1,36 +1,83 @@
 ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/deep_drill/';
-    const recipes = [];
-
-    const resource_nodes = [
+    const recipes = [
         // Common
-        { input: 'kubejs:resource_node_lignite', output: 'modern_industrialization:lignite_coal' },
-        { input: 'kubejs:resource_node_tin', output: 'modern_industrialization:raw_tin' },
-        { input: 'kubejs:resource_node_lead', output: 'modern_industrialization:raw_lead' },
-        { input: 'kubejs:resource_node_antimony', output: 'modern_industrialization:raw_antimony' },
+        {
+            results: [{ id: 'modern_industrialization:lignite_coal', count: 1 }],
+            ingredients: [{ item: 'kubejs:resource_node_lignite' }],
+            time: 1,
+            id: `${id_prefix}lignite`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_tin' }],
+            results: [{ id: 'modern_industrialization:raw_tin', count: 1 }],
+            id: `${id_prefix}tin`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_lead' }],
+            results: [{ id: 'modern_industrialization:raw_lead', count: 1 }],
+            id: `${id_prefix}lead`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_antimony' }],
+            results: [{ id: 'modern_industrialization:raw_antimony', count: 1 }],
+            id: `${id_prefix}antimony`
+        },
 
         // Other
-        { input: 'kubejs:resource_node_uraninite', output: 'powah:uraninite_raw' },
-        { input: 'kubejs:resource_node_bauxite', output: 'modern_industrialization:bauxite_dust' },
-        { input: 'kubejs:resource_node_monazite', output: 'modern_industrialization:monazite_dust' },
-        { input: 'kubejs:resource_node_salt', output: 'modern_industrialization:salt_dust' },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_uraninite' }],
+            results: [{ id: 'powah:uraninite_raw', count: 1 }],
+            id: `${id_prefix}lignite`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_bauxite' }],
+            results: [{ id: 'modern_industrialization:bauxite_dust', count: 1 }],
+            id: `${id_prefix}bauxite`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_monazite' }],
+            results: [{ id: 'modern_industrialization:monazite_dust', count: 1 }],
+            id: `${id_prefix}lignite`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_salt' }],
+            results: [{ id: 'modern_industrialization:salt_dust', count: 1 }],
+            id: `${id_prefix}monazite`
+        },
 
         // Rare
-        { input: 'kubejs:resource_node_tungsten', output: 'modern_industrialization:raw_tungsten' },
-        { input: 'kubejs:resource_node_osmium', output: 'mekanism:raw_osmium' },
-        { input: 'kubejs:resource_node_mithril', output: 'irons_spellbooks:raw_mithril' },
-        { input: 'kubejs:resource_node_uranium', output: 'modern_industrialization:raw_uranium' },
-        { input: 'kubejs:resource_node_iridium', output: 'modern_industrialization:raw_iridium' },
-        { input: 'kubejs:resource_node_fluorite', output: 'mekanism:fluorite_gem' }
+        {
+            ingredients: [{ item: 'kubejs:resource_node_tungsten' }],
+            results: [{ id: 'modern_industrialization:raw_tungsten', count: 1 }],
+            id: `${id_prefix}tungsten`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_osmium' }],
+            results: [{ id: 'mekanism:raw_osmium', count: 1 }],
+            id: `${id_prefix}osmium`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_mithril' }],
+            results: [{ id: 'irons_spellbooks:raw_mithril', count: 1 }],
+            id: `${id_prefix}mithril`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_uranium' }],
+            results: [{ id: 'modern_industrialization:raw_uranium', count: 1 }],
+            id: `${id_prefix}uranium`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_iridium' }],
+            results: [{ id: 'modern_industrialization:raw_iridium', count: 1 }],
+            id: `${id_prefix}iridium`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_fluorite' }],
+            results: [{ id: 'mekanism:fluorite_gem', count: 1 }],
+            id: `${id_prefix}fluorite`
+        }
     ];
-
-    resource_nodes.forEach((node) => {
-        recipes.push({
-            results: [{ count: 1, id: node.output }],
-            ingredients: [{ item: node.input }],
-            time: 1
-        });
-    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:deep_drill';
