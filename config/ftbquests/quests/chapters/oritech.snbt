@@ -96,8 +96,8 @@
 			id: "4E2C382FC583C03F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3B453D22C3A8BCF8"
-				table_id: 167859363417192230L
+				id: "6DEFBA83624A2BB6"
+				table_id: 3480305820603047814L
 				type: "loot"
 			}]
 			tasks: [{
@@ -111,12 +111,20 @@
 		{
 			dependencies: ["75765D97E7ACC6FC"]
 			id: "5DD76DB5C6220F40"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "367FE1812FAAEECF"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "367FE1812FAAEECF"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41269E7E0BC276F1"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1B816B9746784F88"
 				item: { count: 1, id: "oritech:pulverizer_block" }
@@ -130,8 +138,8 @@
 			id: "413A165C27E8E5A6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "35CAE18BD28B7182"
-				table_id: 167859363417192230L
+				id: "1BE351AE71ACAD76"
+				table_id: 3480305820603047814L
 				type: "loot"
 			}]
 			tasks: [{
@@ -145,6 +153,14 @@
 		{
 			dependencies: ["20A3EA274A706343"]
 			id: "2F28FE62872496C8"
+			rewards: [{
+				id: "64E82CEFB832E8C1"
+				item: {
+					count: 1
+					id: "oritech:large_storage_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CF73666F6B09CE6"
 				item: { count: 1, id: "oritech:big_solar_panel_block" }
@@ -156,6 +172,25 @@
 		{
 			dependencies: ["3FFF6EF85443852C"]
 			id: "20A3EA274A706343"
+			rewards: [
+				{
+					id: "08F6004FEBC4C325"
+					item: {
+						count: 1
+						id: "oritech:small_tank_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "172288642B160766"
+					item: {
+						count: 1
+						id: "oritech:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7CB3A9B5D57091B9"
 				item: { count: 1, id: "oritech:fuel_generator_block" }
@@ -169,8 +204,8 @@
 			id: "685AA2A5C0C2C796"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "30BBFE383B4980B9"
-				table_id: 167859363417192230L
+				id: "762053D5E03FDBC9"
+				table_id: 3480305820603047814L
 				type: "loot"
 			}]
 			tasks: [{
@@ -187,14 +222,22 @@
 				"685AA2A5C0C2C796"
 			]
 			id: "3B77FB0A8CFAAB97"
-			rewards: [{
-				id: "4B5123C225E226F3"
-				item: {
-					count: 1
-					id: "oritech:target_designator"
+			rewards: [
+				{
+					id: "4B5123C225E226F3"
+					item: {
+						count: 1
+						id: "oritech:target_designator"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "6D3F2CA0C7B7F2B8"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1040686340598200"
 				item: { count: 1, id: "oritech:laser_arm_block" }
@@ -206,14 +249,22 @@
 		{
 			dependencies: ["75765D97E7ACC6FC"]
 			id: "03405336161EF1B5"
-			rewards: [{
-				id: "777138547AE437BB"
-				item: {
-					count: 1
-					id: "oritech:machine_extender"
+			rewards: [
+				{
+					id: "777138547AE437BB"
+					item: {
+						count: 1
+						id: "oritech:machine_extender"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "50EDC3E6D2111FBE"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5A4465B1F1B8673A"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:machine_addons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -225,12 +276,35 @@
 		{
 			dependencies: ["3B77FB0A8CFAAB97"]
 			id: "4F19A0AECC129216"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DD9F8AD5405E16E"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "35D6E3E319CCFA9A"
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B77FB0A8CFAAB97"]
+			id: "70122FCB0A26D96B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "723CDE667D3CC714"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "497DD708BEC0438D"
+				item: { count: 1, id: "oritech:deep_drill_block" }
+				type: "item"
+			}]
+			x: 2.0d
 			y: 5.5d
 		}
 	]

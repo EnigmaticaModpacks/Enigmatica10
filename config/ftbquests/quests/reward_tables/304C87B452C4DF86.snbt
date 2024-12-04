@@ -1,0 +1,19 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "304C87B452C4DF86"
+	loot_size: 2
+	order_index: 26
+	rewards: [
+		{ item: { count: 1, id: "oritech:machine_efficiency_addon" } }
+		{ item: { count: 1, id: "oritech:machine_capacitor_addon" } }
+		{ item: { count: 1, id: "oritech:machine_speed_addon" } }
+		{ item: { count: 1, id: "oritech:machine_yield_addon" } }
+	]
+	use_title: true
+}
