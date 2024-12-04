@@ -14,7 +14,8 @@ StartupEvents.registry('block', (event) => {
         'tin',
         'tungsten',
         'uraninite',
-        'uranium'
+        'uranium',
+        'silver'
     ];
     resource_nodes.forEach((node) => {
         event

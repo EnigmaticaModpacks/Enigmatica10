@@ -76,6 +76,11 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'kubejs:resource_node_fluorite' }],
             results: [{ id: 'mekanism:fluorite_gem', count: 1 }],
             id: `${id_prefix}fluorite`
+        },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_silver' }],
+            results: [{ id: 'modern_industrialization:raw_silver', count: 1 }],
+            id: `${id_prefix}silver`
         }
     ];
 
