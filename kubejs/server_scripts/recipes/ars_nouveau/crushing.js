@@ -89,6 +89,50 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}quantum_infused_dust`
+        },
+        {
+            input: { item: 'oritech:adamant_ingot' },
+            output: [
+                {
+                    stack: { id: 'oritech:adamant_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}adamant_dust`
+        },
+        {
+            input: { item: 'oritech:biosteel_ingot' },
+            output: [
+                {
+                    stack: { id: 'oritech:biosteel_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}biosteel_dust`
+        },
+        {
+            input: { item: 'oritech:duratium_ingot' },
+            output: [
+                {
+                    stack: { id: 'oritech:duratium_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}duratium_dust`
+        },
+        {
+            input: { item: 'oritech:energite_ingot' },
+            output: [
+                {
+                    stack: { id: 'oritech:energite_dust', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}energite_dust`
         }
     ];
 
@@ -101,9 +145,10 @@ ServerEvents.recipes((event) => {
         { primary: 'iridium', secondary: 'osmium' },
         { primary: 'lead', secondary: 'silver' },
         { primary: 'silver', secondary: 'lead' },
-        { primary: 'nickel', secondary: 'iron' },
+        { primary: 'nickel', secondary: 'platinum' },
         { primary: 'tin', secondary: 'iron' },
-        { primary: 'uranium', secondary: 'lead' }
+        { primary: 'uranium', secondary: 'lead' },
+        { primary: 'platinum', secondary: 'iridium' }
     ];
     materials.forEach((material) => {
         recipes.push(

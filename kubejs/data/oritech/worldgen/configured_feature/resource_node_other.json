@@ -1,0 +1,41 @@
+{
+    "type": "oritech:resource_node",
+    "config": {
+        "nodeSize": 9,
+        "nodeOreChance": 0.4,
+        "boulderRadius": 3,
+        "nodeOres": [
+            "oritech:resource_node_lapis",
+            "oritech:resource_node_lapis",
+            "oritech:resource_node_redstone",
+            "oritech:resource_node_redstone",
+            "oritech:resource_node_redstone",
+            "kubejs:resource_node_uraninite",
+            "kubejs:resource_node_uraninite",
+            "kubejs:resource_node_monazite",
+            "kubejs:resource_node_monazite",
+            "kubejs:resource_node_salt",
+            "kubejs:resource_node_salt",
+            "kubejs:resource_node_bauxite",
+            "kubejs:resource_node_bauxite"
+        ],
+        "boulderOres": [
+            "minecraft:deepslate_gold_ore",
+            "minecraft:deepslate_lapis_ore",
+            "minecraft:deepslate_redstone_ore",
+
+            "powah:deepslate_uraninite_ore",
+            "modern_industrialization:deepslate_monazite_ore",
+            "modern_industrialization:deepslate_salt_ore",
+            "modern_industrialization:deepslate_bauxite_ore",
+
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate"
+        ],
+        "overlayBlock": "oritech:still_oil_block",
+        "overlayHeight": 5
+    }
+}

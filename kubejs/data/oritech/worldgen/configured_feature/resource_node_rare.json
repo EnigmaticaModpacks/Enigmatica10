@@ -1,0 +1,47 @@
+{
+    "type": "oritech:resource_node",
+    "config": {
+        "nodeSize": 9,
+        "nodeOreChance": 0.4,
+        "boulderRadius": 3,
+        "nodeOres": [
+            "oritech:resource_node_diamond",
+            "oritech:resource_node_diamond",
+            "oritech:resource_node_gold",
+            "oritech:resource_node_emerald",
+            "oritech:resource_node_platinum",
+            "kubejs:resource_node_tungsten",
+            "kubejs:resource_node_osmium",
+            "kubejs:resource_node_mithril",
+            "kubejs:resource_node_uranium",
+            "kubejs:resource_node_fluorite",
+            "kubejs:resource_node_iridium"
+        ],
+        "boulderOres": [
+            "minecraft:deepslate_diamond_ore",
+            "minecraft:deepslate_gold_ore",
+            "minecraft:deepslate_emerald_ore",
+            "oritech:deepslate_platinum_ore",
+
+            "modern_industrialization:deepslate_tungsten_ore",
+            "mekanism:deepslate_osmium_ore",
+            "irons_spellbooks:deepslate_mithril_ore",
+            "modern_industrialization:deepslate_uranium_ore",
+            "mekanism:deepslate_fluorite_ore",
+            "modern_industrialization:deepslate_iridium_ore",
+
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate",
+            "minecraft:deepslate"
+        ],
+        "overlayBlock": "oritech:still_fuel_block",
+        "overlayHeight": 5
+    }
+}

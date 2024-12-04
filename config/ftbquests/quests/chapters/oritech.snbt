@@ -60,12 +60,22 @@
 				id: "oritech:foundry_block"
 			}
 			id: "75765D97E7ACC6FC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0045E9C68AFA235B"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0045E9C68AFA235B"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					id: "13B40695B4AB3A6E"
+					item: {
+						count: 1
+						id: "oritech:powered_furnace_block"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "686855F210F6397D"

@@ -52,6 +52,26 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'advanced_ae:shattered_singularity' },
             result: [{ result: { id: 'advanced_ae:quantum_infused_dust', count: 1 } }],
             id: `${id_prefix}quantum_infused_dust`
+        },
+        {
+            ingredient: { item: 'oritech:adamant_ingot' },
+            result: [{ result: { id: 'oritech:adamant_dust', count: 1 } }],
+            id: `${id_prefix}adamant_dust`
+        },
+        {
+            ingredient: { item: 'oritech:biosteel_ingot' },
+            result: [{ result: { id: 'oritech:biosteel_dust', count: 1 } }],
+            id: `${id_prefix}biosteel_dust`
+        },
+        {
+            ingredient: { item: 'oritech:duratium_ingot' },
+            result: [{ result: { id: 'oritech:duratium_dust', count: 1 } }],
+            id: `${id_prefix}duratium_dust`
+        },
+        {
+            ingredient: { item: 'oritech:energite_ingot' },
+            result: [{ result: { id: 'oritech:energite_dust', count: 1 } }],
+            id: `${id_prefix}energite_dust`
         }
     ];
 
@@ -64,7 +84,7 @@ ServerEvents.recipes((event) => {
         { primary: 'iridium', secondary: 'osmium' },
         { primary: 'lead', secondary: 'silver' },
         { primary: 'silver', secondary: 'lead' },
-        { primary: 'nickel', secondary: 'iron' },
+        { primary: 'nickel', secondary: 'platinum' },
         { primary: 'tin', secondary: 'iron' },
         { primary: 'uranium', secondary: 'lead' }
     ];
