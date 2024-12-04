@@ -23,6 +23,17 @@ ServerEvents.recipes((event) => {
             aura: 30000,
             time: 40,
             id: `${id_prefix}armadillo`
+        },
+        {
+            entity: 'minecraft:allay',
+            ingredients: [
+                { item: 'naturesaura:birth_spirit' },
+                { item: 'minecraft:jukebox' },
+                { item: 'minecraft:emerald' }
+            ],
+            aura: 30000,
+            time: 40,
+            id: `${id_prefix}allay`
         }
     ];
 

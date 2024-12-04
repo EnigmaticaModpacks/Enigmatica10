@@ -307,5 +307,29 @@
 			x: 2.0d
 			y: 5.5d
 		}
+		{
+			dependencies: ["03405336161EF1B5"]
+			id: "3FF8D40CD4CB33BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FF1C2B9F00AEE91"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "363C5ADB7ECEA50C"
+					item: { count: 1, id: "oritech:chainsaw" }
+					type: "item"
+				}
+				{
+					id: "4317EE4823470078"
+					item: { count: 1, id: "oritech:hand_drill" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
 	]
 }

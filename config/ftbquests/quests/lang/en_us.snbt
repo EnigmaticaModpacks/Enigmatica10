@@ -2055,6 +2055,12 @@
 		""
 		"[\"Read more about this system in the dedicated \",{\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"7D82585D50D7207A\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\": \"Applied Energistics\",\"underlined\":true},\" chapter. \"]"
 	]
+	quest.3FF8D40CD4CB33BB.quest_desc: [
+		"Looking for a simple unbreakable tool? These will have you covered. "
+		""
+		"They need power, of course, but still accept enchants making them a great early alternative to an Axe, Shovel, and Pickaxe. "
+	]
+	quest.3FF8D40CD4CB33BB.title: "Power Tools"
 	quest.3FFF6EF85443852C.quest_desc: [
 		"You’ll need a little power to operate your machines! "
 		""
