@@ -2159,7 +2159,11 @@
 		"&a    area."
 	]
 	quest.410225ED927857D4.title: "Animal Farming"
-	quest.413A165C27E8E5A6.quest_desc: ["A more potent form of crushing, the Fragment Forge will largely replace a Pulverizer while simultaneously increasing yields on many products. "]
+	quest.413A165C27E8E5A6.quest_desc: [
+		"A more potent form of crushing, the Fragment Forge will largely replace a Pulverizer while simultaneously increasing yields on many products. "
+		""
+		"Attaching a Machine Yield Addon will also increase the amount of secondary outputs from this machine."
+	]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
 		""
@@ -3857,6 +3861,17 @@
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
 	]
+	quest.70122FCB0A26D96B.quest_desc: [
+		"You may have seen some suspicious looking Deepslate boulders lying around in certain biomes. While they might just seem like an easy way to get some early resources, they hide a treasure trove beneath them."
+		""
+		"Dig straight down to bedrock beneath them and you’ll find yourself a small cavity filled with fuel or oil. Beneath that fluid, embedded in the very Bedrock are Resource Nodes."
+		""
+		"These special nodes may be mined infinitely by placing a Bedrock Extractor above them. The machine will cover a 3x3 area, so try to get as many Resource Nodes under one as possible. "
+		""
+		"To power this machine, you’ll need to link Enderic Lasers to it. It won’t accept power any other way. "
+		""
+		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
+	]
 	quest.70C8E621A4B76BD6.quest_desc: [
 		"With EV Energy Hatches, your Large Steam Turbines can be upgraded quite simply by swapping out the hatch. This will allow them to reach their full potential, and immediately double their output, assuming they have enough Steam."
 		"&n                                                  &r"
@@ -4375,11 +4390,12 @@
 	reward_table.044F2F65D540C024.title: "Miner's Delight"
 	reward_table.0765A447BA2E5EDF.title: "MI Lootbox: Quantum Tier"
 	reward_table.09B745401897355C.title: "PneumaticCraft Lootbox: Epic"
-	reward_table.0B6BCA25CDDB6DFA.title: "EvilCraft LootBox"
+	reward_table.0B6BCA25CDDB6DFA.title: "EvilCraft Lootbox"
 	reward_table.0D9287B7A88E2255.title: "MI Lootbox: HV Tier"
 	reward_table.0F3B57D5BCDEFA8D.title: "Ars Nouveau Lootbox: Legendary"
 	reward_table.1FB94504FC4F0807.title: "MI Lootbox: EV Tier"
 	reward_table.2806F6BEA4A73B0B.title: "Occultism Lootbox"
+	reward_table.304C87B452C4DF86.title: "OriTech Lootbox"
 	reward_table.3989965A6A96B854.title: "MI Lootbox: MV Tier"
 	reward_table.3DDCF3026E8E3D91.title: "Iron's Scrolls"
 	reward_table.4AD226E979319EAB.title: "MI Lootbox: Steel Tier"
