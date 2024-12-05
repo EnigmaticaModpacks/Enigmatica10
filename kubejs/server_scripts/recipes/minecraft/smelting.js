@@ -6,6 +6,12 @@ ServerEvents.recipes((event) => {
             output: 'irons_spellbooks:mithril_scrap',
             xp: 0.5,
             id: `${id_prefix}mithril_scrap`
+        },
+        {
+            input: '#c:dusts/platinum',
+            output: AlmostUnified.getTagTargetItem(`c:ingots/platinum`).getId(),
+            xp: 0.5,
+            id: `${id_prefix}platinum`
         }
     ];
 
