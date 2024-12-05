@@ -13,6 +13,7 @@
 -   More crushing recipe compat [(\#251)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/251)
 -   Pretty Pipes quests! [(\#253)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/253)
 -   Allays may now be summoned with Nature's Aura [(\#266)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/266)
+-   More dye crushing support [(\#266)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/266)
 
 #### 🦟 Bugs Fixed
 

@@ -72,6 +72,11 @@ ServerEvents.recipes((event) => {
             ingredient: { item: 'oritech:energite_ingot' },
             result: [{ result: { id: 'oritech:energite_dust', count: 1 } }],
             id: `${id_prefix}energite_dust`
+        },
+        {
+            ingredient: { item: 'minecraft:ink_sac' },
+            result: [{ result: { id: 'minecraft:black_dye', count: 2 } }],
+            id: `${id_prefix}black_dye`
         }
     ];
 

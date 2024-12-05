@@ -133,6 +133,17 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}energite_dust`
+        },
+        {
+            input: { item: 'minecraft:ink_sac' },
+            output: [
+                {
+                    stack: { id: 'minecraft:black_dye', count: 2 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}black_dye`
         }
     ];
 
