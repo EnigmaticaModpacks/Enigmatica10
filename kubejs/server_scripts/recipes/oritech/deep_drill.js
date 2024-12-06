@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
         {
             ingredients: [{ item: 'kubejs:resource_node_uraninite' }],
             results: [{ id: 'powah:uraninite_raw', count: 1 }],
-            id: `${id_prefix}lignite`
+            id: `${id_prefix}uraninite`
         },
         {
             ingredients: [{ item: 'kubejs:resource_node_bauxite' }],
@@ -38,12 +38,12 @@ ServerEvents.recipes((event) => {
         {
             ingredients: [{ item: 'kubejs:resource_node_monazite' }],
             results: [{ id: 'modern_industrialization:monazite_dust', count: 1 }],
-            id: `${id_prefix}lignite`
+            id: `${id_prefix}monazite`
         },
         {
             ingredients: [{ item: 'kubejs:resource_node_salt' }],
             results: [{ id: 'modern_industrialization:salt_dust', count: 1 }],
-            id: `${id_prefix}monazite`
+            id: `${id_prefix}salt`
         },
 
         // Rare
