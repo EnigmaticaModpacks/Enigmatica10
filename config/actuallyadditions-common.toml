@@ -38,6 +38,8 @@
 	redstoneConfigurator = "minecraft:redstone_torch"
 	#define the item used to configure Direction in laser relays
 	relayConfigurator = "minecraft:compass"
+	#define the item used to configure the area in a farmer
+	farmerConfigurator = "minecraft:compass"
 
 #Machine Settings
 [machineSettings]
