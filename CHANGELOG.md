@@ -1,9 +1,13 @@
-
-
 ### Enigmatica 10 1.14.0
+
+NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.14.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.14.0.md)
 
 **We've decided to remove Tectonic** because it was messing with structure spawning (Ars structures spawning in the ocean for example)
 If you prefer to play with Tectonic (and avoid **ugly chunk borders near new terrain**), feel free to add it back. It's only required serverside for multiplayer.
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
 
 #### ⭐ Improvements
 
@@ -31,6 +35,12 @@ If you prefer to play with Tectonic (and avoid **ugly chunk borders near new ter
 -   Fix output rates for many EIO Sag Mill recipes [(\#241)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/241)
 -   Fix missing coal tags [(\#251)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/251)
 -   Fix JDT Bow enchantability [(\#255)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/255)
+-   [Bug] C:gems/coal used incorrectly [(\#250)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/250)
+-   Discord presence says Enigmatica 9 [(\#242)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/242)
+-   [Extreme Reactors] some Fluidizer dont have recipes in EMI [(\#228)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/228)
+-   The various Experience types aren't intercompatible [(\#224)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/224)
+-   E10: Just Dire Things Bows not accepting some enchants [(\#212)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/212)
+-   Nature's aura book is in @patchouli mod's jei but has no recipe but book works fine if cheated in [(\#176)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/176)
 
 ---
 
