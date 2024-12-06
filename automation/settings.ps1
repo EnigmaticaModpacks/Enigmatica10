@@ -193,7 +193,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"ftbessentials.snbt",
 	"iris.properties",
 	"clienttweaks-common.toml",
-	"config/cumulus_menus-client.toml"
+	"cumulus_menus-client.toml",
+	"ars_controle-client.toml"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @(

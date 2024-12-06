@@ -216,3 +216,4 @@ config/clienttweaks-common.toml
 /config/productivetrees/generated
 config/cumulus_menus-client.toml
 config/fabric/indigo-renderer.properties
+config/ars_controle-client.toml
