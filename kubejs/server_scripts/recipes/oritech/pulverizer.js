@@ -69,6 +69,36 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:gems/lignite_coal' }],
             time: 300,
             id: `${id_prefix}lignite_coal_dust`
+        },
+        {
+            results: [{ id: 'minecraft:prismarine_shard', count: 4 }],
+            ingredients: [{ item: 'minecraft:prismarine' }],
+            time: 200,
+            id: `${id_prefix}prismarine_from_block`
+        },
+        {
+            results: [{ id: 'minecraft:prismarine_shard', count: 9 }],
+            ingredients: [{ item: 'minecraft:prismarine_bricks' }],
+            time: 200,
+            id: `${id_prefix}prismarine_from_bricks`
+        },
+        {
+            results: [
+                { id: 'minecraft:prismarine_shard', count: 8 },
+                { id: 'minecraft:black_dye', count: 1 }
+            ],
+            ingredients: [{ item: 'minecraft:dark_prismarine' }],
+            time: 200,
+            id: `${id_prefix}prismarine_from_dark_prismarine`
+        },
+        {
+            results: [
+                { id: 'minecraft:prismarine_shard', count: 4 },
+                { id: 'minecraft:prismarine_crystals', count: 5 }
+            ],
+            ingredients: [{ item: 'minecraft:sea_lantern' }],
+            time: 200,
+            id: `${id_prefix}prismarine_from_sea_lantern`
         }
     ];
 
@@ -113,7 +143,6 @@ ServerEvents.recipes((event) => {
                 time: 800,
                 id: `${id_prefix}raw_${material.primary}`
             },
-
             {
                 results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 }],
                 ingredients: [{ tag: `c:ingots/${material.primary}` }],
