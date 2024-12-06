@@ -3,7 +3,7 @@
 ### Enigmatica 10 1.14.0
 
 **We've decided to remove Tectonic** because it was messing with structure spawning (Ars structures spawning in the ocean for example)
-If you prefer to play with Tectonic, feel free to add it back. It's only required serverside for multiplayer.
+If you prefer to play with Tectonic (and avoid **ugly chunk borders near new terrain**), feel free to add it back. It's only required serverside for multiplayer.
 
 #### ⭐ Improvements
 
