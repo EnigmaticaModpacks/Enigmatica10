@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
         {
             results: [
                 { id: AlmostUnified.getTagTargetItem(`c:dusts/platinum`).getId(), count: 2 },
-                { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/platinum`).getId(), count: 3 },
+                { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/platinum`).getId(), count: 6 },
                 { id: 'oritech:fluxite', count: 1 }
             ],
             ingredients: [{ tag: 'c:raw_materials/platinum' }],
@@ -33,9 +33,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}black_quartz`
         },
         {
-            results: [{ id: 'minecraft:blaze_powder', count: 6 }],
+            results: [
+                { id: 'minecraft:blaze_powder', count: 6 },
+                { id: 'minecraft:blaze_powder', count: 3 }
+            ],
             ingredients: [{ item: 'justdirethings:coal_t2' }],
-            time: 300,
+            time: 200,
             id: `${id_prefix}blaze_powder`
         }
     ];
@@ -67,7 +70,8 @@ ServerEvents.recipes((event) => {
             {
                 results: [
                     { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
-                    { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 3 }
+                    { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
+                    { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 6 }
                 ],
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
                 time: 800,
