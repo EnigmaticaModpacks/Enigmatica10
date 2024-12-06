@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'minecraft:emerald', count: 2 }],
-            ingredients: [{ tag: 'c:dusts/prismarine' }, { tag: 'c:dusts/bauxite' }, { tag: 'c:dusts/bauxite' }],
+            ingredients: [{ tag: 'c:dusts/bauxite' }, { tag: 'c:dusts/prismarine' }, { tag: 'c:dusts/prismarine' }],
             time: 5,
             id: `${id_prefix}emerald`
         }
