@@ -121,10 +121,10 @@ ServerEvents.recipes((event) => {
         { primary: 'iron', secondary: 'nickel' },
         { primary: 'copper', secondary: 'gold' },
         { primary: 'gold', secondary: 'copper' },
+        { primary: 'iridium', secondary: 'platinum' },
+        { primary: 'lead', secondary: 'silver' },
         { primary: 'osmium', secondary: 'silver' },
         { primary: 'iesnium', secondary: 'silver' },
-        { primary: 'iridium', secondary: 'osmium' },
-        { primary: 'lead', secondary: 'silver' },
         { primary: 'silver', secondary: 'lead' },
         { primary: 'nickel', secondary: 'platinum' },
         { primary: 'tin', secondary: 'iron' },
@@ -143,7 +143,7 @@ ServerEvents.recipes((event) => {
             {
                 results: [
                     { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
-                    { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.primary}`).getId(), count: 3 }
+                    { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 3 }
                 ],
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
                 time: 800,
