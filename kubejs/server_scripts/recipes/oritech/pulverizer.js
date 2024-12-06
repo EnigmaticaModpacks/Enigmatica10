@@ -99,6 +99,12 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'minecraft:sea_lantern' }],
             time: 200,
             id: `${id_prefix}prismarine_from_sea_lantern`
+        },
+        {
+            results: [{ id: 'minecraft:sand', count: 4 }],
+            ingredients: [{ tag: 'c:sandstone/blocks' }],
+            time: 300,
+            id: `oritech:pulverizer/dust/sand_from_sandstone`
         }
     ];
 
