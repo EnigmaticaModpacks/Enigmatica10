@@ -41,6 +41,12 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}certus_quartz_dust`
         },
         {
+            results: [{ id: 'ae2:fluix_dust', count: 1 }],
+            ingredients: [{ tag: 'c:gems/fluix' }],
+            time: 300,
+            id: `${id_prefix}fluix_dust`
+        },
+        {
             results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/emerald`).getId(), count: 1 }],
             ingredients: [{ tag: 'c:gems/emerald' }],
             time: 300,
