@@ -14,64 +14,9 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}silicon`
         },
         {
-            ingredient: { tag: `c:gems/certus_quartz` },
-            result: [{ result: { id: 'ae2:certus_quartz_dust', count: 1 } }],
-            id: `${id_prefix}certus_quartz_dust`
-        },
-        {
-            ingredient: { tag: `c:gems/fluix` },
-            result: [{ result: { id: 'ae2:fluix_dust', count: 1 } }],
-            id: `${id_prefix}fluix_dust`
-        },
-        {
-            ingredient: { tag: `c:gems/lignite_coal` },
-            result: [{ result: { id: 'modern_industrialization:lignite_coal_dust', count: 1 } }],
-            id: `${id_prefix}lignite_coal_dust`
-        },
-        {
             ingredient: { item: 'minecraft:glow_berries' },
             result: [{ result: { id: 'minecraft:yellow_dye', count: 2 } }],
             id: `${id_prefix}yellow_dye_from_glow_berries`
-        },
-        {
-            ingredient: { item: 'minecraft:ender_pearl' },
-            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 1 } }],
-            id: `${id_prefix}ender_pearl_dust`
-        },
-        {
-            ingredient: { item: 'ae2:sky_stone_block' },
-            result: [{ result: { id: 'ae2:sky_dust', count: 1 } }],
-            id: `${id_prefix}sky_dust`
-        },
-        {
-            ingredient: { tag: 'c:obsidians' },
-            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/obsidian`).getId(), count: 4 } }],
-            id: `${id_prefix}obsidian`
-        },
-        {
-            ingredient: { item: 'advanced_ae:shattered_singularity' },
-            result: [{ result: { id: 'advanced_ae:quantum_infused_dust', count: 1 } }],
-            id: `${id_prefix}quantum_infused_dust`
-        },
-        {
-            ingredient: { item: 'oritech:adamant_ingot' },
-            result: [{ result: { id: 'oritech:adamant_dust', count: 1 } }],
-            id: `${id_prefix}adamant_dust`
-        },
-        {
-            ingredient: { item: 'oritech:biosteel_ingot' },
-            result: [{ result: { id: 'oritech:biosteel_dust', count: 1 } }],
-            id: `${id_prefix}biosteel_dust`
-        },
-        {
-            ingredient: { item: 'oritech:duratium_ingot' },
-            result: [{ result: { id: 'oritech:duratium_dust', count: 1 } }],
-            id: `${id_prefix}duratium_dust`
-        },
-        {
-            ingredient: { item: 'oritech:energite_ingot' },
-            result: [{ result: { id: 'oritech:energite_dust', count: 1 } }],
-            id: `${id_prefix}energite_dust`
         },
         {
             ingredient: { item: 'minecraft:ink_sac' },
@@ -147,15 +92,6 @@ ServerEvents.recipes((event) => {
                 id: `${id_prefix}${material.primary}`
             }
         );
-    });
-
-    materials = ['coal', 'charcoal', 'diamond', 'emerald', 'lapis', 'fluorite', 'quartz'];
-    materials.forEach((material) => {
-        recipes.push({
-            ingredient: { tag: `c:gems/${material}` },
-            result: [{ result: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 1 } }],
-            id: `${id_prefix}${material}_dust`
-        });
     });
 
     recipes.forEach((recipe) => {

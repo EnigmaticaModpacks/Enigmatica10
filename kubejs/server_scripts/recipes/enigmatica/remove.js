@@ -31,6 +31,14 @@ ServerEvents.recipes((event) => {
         { id: `industrialforegoing:dissolution_chamber/xp_bottles` },
         { id: 'advanced_ae:certuscharger' },
         { id: 'advanced_ae:chargedredstone' },
+        { id: /enderio:sag_milling\/(lapis|coal|quartz)/ },
+        { id: /ae2:inscriber\/(ender|fluix|certus_quartz|sky_stone)_dust/ },
+        { id: /appflux:inscriber\/crush_(diamond|emerald)/ },
+        { id: 'advanced_ae:quantum_infused_dust' },
+        { id: 'advanced_ae:quantum_infused_dust_crushed' },
+        { id: /mekanism:processing\/(quartz|coal|diamond|emerald|lapis_lazuli|fluorite)\/to_dust/ },
+        { id: /mekanism:compat\/ae2\/(fluix_crystal|ender_pearl|sky_stone)_to_dust/ },
+        { id: /mekanism:crushing\/(charcoal_dust|obsidian_to_dust|breeze_rod|blaze_rod)/ },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },
