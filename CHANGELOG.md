@@ -4,6 +4,9 @@ NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### ✔️ Added Mods
 
+* [JourneyMap Integration](https://www.curseforge.com/minecraft/mc-mods/journeymap-integration) (by [frankV](https://www.curseforge.com/members/frankV/projects))
+* [Lithium (Fabric/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lithium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
+
 #### 🦟 Bugs Fixed
 
 -   Add missing Silicon recipes to the Assembler and Atomic Forge [(\#276)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/276)
