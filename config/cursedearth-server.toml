@@ -1,6 +1,6 @@
 [General]
 	#minimum time between spawns in ticks
-	# Default: 75
+	# Default: 100
 	# Range: > 1
 	"min tick time" = 75
 	#maximum time between spawns in ticks
