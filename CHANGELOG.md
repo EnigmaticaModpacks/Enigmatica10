@@ -1,4 +1,11 @@
+### Enigmatica 10 1.14.1
 
+#### 🦟 Bugs Fixed
+
+-   Add missing Silicon recipes to the Assembler and Atomic Forge [(\#276)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/276)
+-   Add missing Fluix dust recipe to the Pulverizer [(\#276)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/276)
+
+---
 
 ### Enigmatica 10 1.14.0
 

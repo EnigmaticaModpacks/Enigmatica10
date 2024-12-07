@@ -2,6 +2,12 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/assembler/';
     const recipes = [
         {
+            results: [{ id: 'ae2:printed_silicon', count: 2 }],
+            ingredients: [{ tag: 'c:silicon' }],
+            time: 300,
+            id: `${id_prefix}printed_silicon`
+        },
+        {
             results: [{ id: 'ae2:printed_calculation_processor', count: 2 }],
             ingredients: [{ tag: 'c:gems/certus_quartz' }],
             time: 300,
