@@ -1,10 +1,17 @@
-### Enigmatica 10 1.15.0
+### Enigmatica 10 1.14.2
+
+NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.14.2.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.14.2.md)
 
 #### ⭐ Improvements
 
 -   Unify many crushing recipes across mods [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
 -   Add support for Aether stones to Cobblegen Galore [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
 -   Add support for new AE processors in PNC, MI, and Oritech [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
+
+#### 🦟 Bugs Fixed
+
+- Performance issue with showing Journeymap, fixed by Journeymap
+
 
 ---
 
