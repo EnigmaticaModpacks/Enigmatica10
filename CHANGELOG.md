@@ -10,8 +10,8 @@ NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### 🦟 Bugs Fixed
 
-- Performance issue with showing Journeymap, fixed by Journeymap
-
+-   Performance issue with showing Journeymap, fixed by Journeymap
+-   Enigmatic Unity crash [(\#274)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/274)
 
 ---
 
