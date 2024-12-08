@@ -29,6 +29,13 @@ ServerEvents.recipes((event) => {
             right: { id: 'minecraft:lava', consume: false },
             bottom: 'minecraft:soul_soil',
             id: `${id_prefix}basalt`
+        },
+        {
+            result: { id: 'aether:icestone', count: 1 },
+            left: { id: 'minecraft:blue_ice', consume: false },
+            right: { id: 'minecraft:lava', consume: false },
+            bottom: 'aether:aerogel',
+            id: `${id_prefix}icestone`
         }
     ];
 
