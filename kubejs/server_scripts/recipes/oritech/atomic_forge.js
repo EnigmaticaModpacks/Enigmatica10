@@ -76,6 +76,22 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:dusts/bauxite' }, { tag: 'c:dusts/prismarine' }, { tag: 'c:dusts/prismarine' }],
             time: 5,
             id: `${id_prefix}emerald`
+        },
+        {
+            results: [{ id: 'appflux:printed_energy_processor', count: 2 }],
+            ingredients: [{ item: 'appflux:charged_redstone' }],
+            time: 5,
+            id: `${id_prefix}printed_energy_processor`
+        },
+        {
+            results: [{ id: 'appflux:energy_processor', count: 1 }],
+            ingredients: [
+                { tag: 'c:dusts/redstone' },
+                { item: 'appflux:printed_energy_processor' },
+                { item: 'ae2:printed_silicon' }
+            ],
+            time: 5,
+            id: `${id_prefix}energy_processor`
         }
     ];
 

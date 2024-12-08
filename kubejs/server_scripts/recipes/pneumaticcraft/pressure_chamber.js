@@ -86,6 +86,16 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'advanced_ae:quantum_processor', count: 1 }],
             pressure: 1.0,
             id: `${id_prefix}quantum_processor`
+        },
+        {
+            inputs: [
+                { item: 'appflux:printed_energy_processor', count: 1 },
+                { tag: 'c:dusts/redstone', count: 1 },
+                { item: 'ae2:printed_silicon', count: 1 }
+            ],
+            results: [{ id: 'appflux:energy_processor', count: 1 }],
+            pressure: 1.0,
+            id: `${id_prefix}energy_processor`
         }
     ];
 

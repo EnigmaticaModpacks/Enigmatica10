@@ -9,6 +9,13 @@ ServerEvents.recipes((event) => {
             eu: 8,
             duration: 400,
             id: `${id_prefix}brine_electrolysis`
+        },
+        {
+            item_inputs: [{ item: 'appflux:redstone_crystal', amount: 1 }],
+            item_outputs: [{ item: 'appflux:charged_redstone', amount: 1 }],
+            eu: 8,
+            duration: 60,
+            id: `${id_prefix}charged_redstone`
         }
     ];
 

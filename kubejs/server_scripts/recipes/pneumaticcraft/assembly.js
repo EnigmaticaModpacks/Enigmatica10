@@ -37,6 +37,12 @@ ServerEvents.recipes((event) => {
             result: { id: 'advanced_ae:printed_quantum_processor', count: 18 },
             program: 'laser',
             id: `${id_prefix}printed_quantum_processor`
+        },
+        {
+            input: { item: 'appflux:charged_redstone', count: 9 },
+            result: { id: 'appflux:printed_energy_processor', count: 18 },
+            program: 'laser',
+            id: `${id_prefix}printed_energy_processor`
         }
     ];
 

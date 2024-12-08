@@ -31,15 +31,6 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:ores/black_quartz' }],
             time: 200,
             id: `${id_prefix}black_quartz`
-        },
-        {
-            results: [
-                { id: 'minecraft:blaze_powder', count: 6 },
-                { id: 'minecraft:blaze_powder', count: 3 }
-            ],
-            ingredients: [{ item: 'justdirethings:coal_t2' }],
-            time: 200,
-            id: `${id_prefix}blaze_powder`
         }
     ];
 
@@ -76,25 +67,8 @@ ServerEvents.recipes((event) => {
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
                 time: 800,
                 id: `${id_prefix}raw_${material.primary}`
-            },
-
-            {
-                results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 }],
-                ingredients: [{ tag: `c:ingots/${material.primary}` }],
-                time: 200,
-                id: `${id_prefix}${material.primary}`
             }
         );
-    });
-
-    materials = ['charcoal', 'diamond', 'emerald', 'lapis', 'fluorite'];
-    materials.forEach((material) => {
-        recipes.push({
-            results: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 1 }],
-            ingredients: [{ tag: `c:gems/${material}` }],
-            time: 300,
-            id: `${id_prefix}${material}_dust`
-        });
     });
 
     recipes.forEach((recipe) => {

@@ -81,6 +81,22 @@ ServerEvents.recipes((event) => {
             ],
             time: 300,
             id: `${id_prefix}flawless_budding_quartz`
+        },
+        {
+            results: [{ id: 'appflux:printed_energy_processor', count: 2 }],
+            ingredients: [{ item: 'appflux:charged_redstone' }],
+            time: 300,
+            id: `${id_prefix}printed_energy_processor`
+        },
+        {
+            results: [{ id: 'appflux:energy_processor', count: 1 }],
+            ingredients: [
+                { tag: 'c:dusts/redstone' },
+                { item: 'appflux:printed_energy_processor' },
+                { item: 'ae2:printed_silicon' }
+            ],
+            time: 300,
+            id: `${id_prefix}energy_processor`
         }
     ];
 
