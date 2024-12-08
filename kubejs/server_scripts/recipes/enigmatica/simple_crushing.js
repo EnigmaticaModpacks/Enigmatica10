@@ -4,6 +4,216 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:simple_crushing/';
     const recipes = [
         {
+            input: { tag: `c:ingots/iron` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism', 'occultism', 'enderio', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'iron_dust_from_iron'
+        },
+        {
+            input: { tag: `c:ingots/copper` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism', 'occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'copper_dust_from_copper'
+        },
+        {
+            input: { tag: `c:ingots/gold` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism', 'occultism', 'enderio', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'gold_dust_from_gold'
+        },
+        {
+            input: { tag: `c:ingots/osmium` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/osmium`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism', 'occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'osmium_dust_from_osmium'
+        },
+        {
+            input: { tag: `c:ingots/iesnium` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iesnium`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'iesnium_dust_from_iesnium'
+        },
+        {
+            input: { tag: `c:ingots/iridium` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iridium`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'iridium_dust_from_iridium'
+        },
+        {
+            input: { tag: `c:ingots/lead` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/lead`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism', 'occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'lead_dust_from_lead'
+        },
+        {
+            input: { tag: `c:ingots/silver` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/silver`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'silver_dust_from_silver'
+        },
+        {
+            input: { tag: `c:ingots/nickel` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/nickel`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'nickel_dust_from_nickel'
+        },
+        {
+            input: { tag: `c:ingots/tin` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/tin`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism', 'occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'tin_dust_from_tin'
+        },
+        {
+            input: { tag: `c:ingots/uranium` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/uranium`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism', 'occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'uranium_dust_from_uranium'
+        },
+        {
+            input: { tag: `c:ingots/platinum` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/platinum`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'platinum_dust_from_platinum'
+        },
+        {
+            input: { tag: `c:ingots/netherite` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/netherite`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'mekanism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'netherite_dust_from_netherite'
+        },
+        {
+            input: { tag: `c:ingots/steel` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/steel`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'mekanism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'steel_dust_from_steel'
+        },
+        {
+            input: { tag: `c:ingots/electrum` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/electrum`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'electrum_dust_from_electrum'
+        },
+        {
+            input: { tag: `c:ingots/bronze` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/bronze`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'mekanism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'bronze_dust_from_bronze'
+        },
+        {
+            input: { tag: `c:ingots/invar` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/invar`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'invar_dust_from_invar'
+        },
+        {
+            input: { tag: `c:ingots/aluminum` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/aluminum`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'aluminum_dust_from_aluminum'
+        },
+        {
+            input: { tag: `c:ingots/tungsten` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/tungsten`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'tungsten_dust_from_tungsten'
+        },
+        {
+            input: { tag: `c:ingots/refined_obsidian` },
+            outputs: [{ id: 'mekanism:dust_refined_obsidian', count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'refined_obsidian_dust_from_refined_obsidian'
+        },
+        {
+            input: { tag: `c:ingots/refined_glowstone` },
+            outputs: [{ id: 'minecraft:glowstone_dust', count: 1 }],
+            multiply: 'none',
+            exclusions: ['mekanism'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: 'refined_glowstone_dust_from_refined_glowstone'
+        },
+        {
             input: { tag: `c:gems/certus_quartz` },
             outputs: [{ id: 'ae2:certus_quartz_dust', count: 1 }],
             multiply: 'none',
@@ -300,6 +510,41 @@ ServerEvents.recipes((event) => {
             id_suffix: 'glowstone_dust_from_glow_berries'
         }
     ];
+
+    let mi_materials = [
+        'annealed_copper',
+        'antimony',
+        'battery_alloy',
+        'beryllium',
+        'cadmium',
+        'chromium',
+        'cupronickel',
+        'he_mox',
+        'he_uranium',
+        'kanthal',
+        'le_mox',
+        'le_uranium',
+        'plutonium',
+        'silicon',
+        'stainless_steel',
+        'superconductor',
+        'titanium',
+        'uranium_235',
+        'uranium_238'
+    ];
+
+    mi_materials.forEach((material) => {
+        recipes.push({
+            input: { tag: `c:ingots/${material}` },
+            outputs: [{ id: `modern_industrialization:${material}_dust`, count: 1 }],
+            multiply: 'none',
+            exclusions: ['modern_industrialization'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 200, grinder: 100 } },
+            id_suffix: `${material}_dust_from_${material}`
+        });
+    });
 
     recipes.forEach((recipe) => {
         // Actually Additions

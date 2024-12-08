@@ -30,38 +30,25 @@ ServerEvents.recipes((event) => {
         { primary: 'platinum', secondary: 'iridium' }
     ];
     materials.forEach((material) => {
-        recipes.push(
-            {
-                input: { tag: `c:raw_materials/${material.primary}` },
-                output: [
-                    {
-                        stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
-                        chance: 1.0,
-                        maxRange: 1
+        recipes.push({
+            input: { tag: `c:raw_materials/${material.primary}` },
+            output: [
+                {
+                    stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
+                    chance: 1.0,
+                    maxRange: 1
+                },
+                {
+                    stack: {
+                        id: AlmostUnified.getTagTargetItem(`c:dusts/${material.secondary}`).getId(),
+                        count: 1
                     },
-                    {
-                        stack: {
-                            id: AlmostUnified.getTagTargetItem(`c:dusts/${material.secondary}`).getId(),
-                            count: 1
-                        },
-                        chance: 0.15,
-                        maxRange: 1
-                    }
-                ],
-                id: `${id_prefix}raw_${material.primary}`
-            },
-            {
-                input: { tag: `c:ingots/${material.primary}` },
-                output: [
-                    {
-                        stack: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
-                        chance: 1.0,
-                        maxRange: 1
-                    }
-                ],
-                id: `${id_prefix}${material.primary}`
-            }
-        );
+                    chance: 0.15,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}raw_${material.primary}`
+        });
     });
 
     recipes.forEach((recipe) => {

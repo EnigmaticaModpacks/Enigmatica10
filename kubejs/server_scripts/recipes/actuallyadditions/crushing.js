@@ -72,19 +72,6 @@ ServerEvents.recipes((event) => {
                     }
                 ],
                 id: `${id_prefix}raw_${material.primary}`
-            },
-            {
-                ingredient: { tag: `c:ingots/${material.primary}` },
-                result: [
-                    {
-                        result: {
-                            id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(),
-                            count: 1
-                        }
-                    },
-                    { result: {}, chance: 0.0 }
-                ],
-                id: `${id_prefix}${material.primary}`
             }
         );
     });

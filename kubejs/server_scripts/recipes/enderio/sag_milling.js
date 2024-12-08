@@ -79,15 +79,6 @@ ServerEvents.recipes((event) => {
                 ],
                 energy: 2400,
                 id: `${id_prefix}raw_${material.primary}`
-            },
-            {
-                input: { tag: `c:ingots/${material.primary}` },
-                outputs: [
-                    { item: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 } }
-                ],
-                bonus: 'none',
-                energy: 2400,
-                id: `${id_prefix}${material.primary}`
             }
         );
     });

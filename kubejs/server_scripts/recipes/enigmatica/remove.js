@@ -43,7 +43,8 @@ ServerEvents.recipes((event) => {
         { id: `occultism:crushing/blaze_powder_from_rod` },
         { id: `occultism:crushing/obsidian_dust` },
         { id: /modern_industrialization:compat\/ae2\/macerator\// },
-        { id: `oritech:pulverizer/dust/blaze` },
+        { id: /oritech:pulverizer\/dust\/(blaze|iron|copper|gold|nickel|platinum)/ },
+        { id: /oritech:grinder\/dust\/(iron|copper|gold|nickel|platinum)/ },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },
