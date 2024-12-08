@@ -16,7 +16,9 @@ const stoneworks = {
         'deeperdarker:gloomslate',
 
         'arts_and_crafts:soapstone',
-        'arts_and_crafts:gypsum'
+        'arts_and_crafts:gypsum',
+
+        'aether:holystone'
     ],
     cobblestones: [
         'minecraft:cobblestone',

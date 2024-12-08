@@ -8,6 +8,13 @@ ServerEvents.recipes((event) => {
             output: { count: 2, id: 'ae2:fluix_crystal' },
             processingTime: 50,
             id: `${id_prefix}fluix_crystal`
+        },
+        {
+            input: [{ tag: 'c:storage_blocks/redstone' }, { tag: 'c:gems/fluix' }, { tag: 'c:dusts/glowstone' }],
+            inputFluid: { id: 'minecraft:water', amount: 100 },
+            output: { count: 2, id: 'appflux:redstone_crystal' },
+            processingTime: 50,
+            id: `${id_prefix}redstone_crystal`
         }
     ];
 

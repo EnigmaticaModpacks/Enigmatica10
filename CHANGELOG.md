@@ -1,11 +1,28 @@
+### Enigmatica 10 1.14.2
+
+NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.14.2.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.14.2.md)
+
+#### ⭐ Improvements
+
+-   Unify many crushing recipes across mods [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
+-   Add support for Aether stones to Cobblegen Galore [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
+-   Add support for new AE processors in PNC, MI, and Oritech [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
+
+#### 🦟 Bugs Fixed
+
+- Performance issue with showing Journeymap, fixed by Journeymap
+
+
+---
+
 ### Enigmatica 10 1.14.1
 
 NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.14.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.14.1.md)
 
 #### ✔️ Added Mods
 
-* [JourneyMap Integration](https://www.curseforge.com/minecraft/mc-mods/journeymap-integration) (by [frankV](https://www.curseforge.com/members/frankV/projects))
-* [Lithium (Fabric/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lithium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
+-   [JourneyMap Integration](https://www.curseforge.com/minecraft/mc-mods/journeymap-integration) (by [frankV](https://www.curseforge.com/members/frankV/projects))
+-   [Lithium (Fabric/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lithium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
 
 #### 🦟 Bugs Fixed
 
@@ -23,29 +40,29 @@ If you prefer to play with Tectonic (and avoid **ugly chunk borders near new ter
 
 #### ✔️ Added Mods
 
-* [AdvancedAE](https://www.curseforge.com/minecraft/mc-mods/advancedae) (by [pedroksl](https://www.curseforge.com/members/pedroksl/projects))
-* [Aether Villages](https://www.curseforge.com/minecraft/mc-mods/aether-villages) (by [Aureljz](https://www.curseforge.com/members/Aureljz/projects))
-* [Applied Flux](https://www.curseforge.com/minecraft/mc-mods/applied-flux) (by [GlodBlock](https://www.curseforge.com/members/GlodBlock/projects))
-* [Ars Controle](https://www.curseforge.com/minecraft/mc-mods/ars-controle) (by [qther](https://www.curseforge.com/members/qther/projects))
-* [Cable Facades](https://www.curseforge.com/minecraft/mc-mods/cable-facades) (by [thepigcat76](https://www.curseforge.com/members/thepigcat76/projects))
-* [Corpse x Curios API Compat](https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat) (by [Project8gbDeRam](https://www.curseforge.com/members/Project8gbDeRam/projects))
-* [Forgified Fabric API](https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api) (by [Su5eD](https://www.curseforge.com/members/Su5eD/projects))
-* [Gateways to Eternity](https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-* [Industrial Foregoing Souls](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing-souls) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-* [Iron's Spells 'n Spellbooks](https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks) (by [Iron431](https://www.curseforge.com/members/Iron431/projects))
-* [Open Sesame](https://www.curseforge.com/minecraft/mc-mods/open-sesame) (by [Quinn451](https://www.curseforge.com/members/Quinn451/projects))
-* [Oritech](https://www.curseforge.com/minecraft/mc-mods/oritech) (by [rearth](https://www.curseforge.com/members/rearth/projects))
-* [oωo (owo-lib)](https://www.curseforge.com/minecraft/mc-mods/owo-lib) (by [gliscowo](https://www.curseforge.com/members/gliscowo/projects))
-* [playerAnimator](https://www.curseforge.com/minecraft/mc-mods/playeranimator) (by [KosmX](https://www.curseforge.com/members/KosmX/projects))
-* [Pretty Pipes](https://www.curseforge.com/minecraft/mc-mods/pretty-pipes) (by [Ellpeck](https://www.curseforge.com/members/Ellpeck/projects))
-* [Pretty Pipes: Fluids](https://www.curseforge.com/minecraft/mc-mods/pretty-pipes-fluids) (by [Quarris](https://www.curseforge.com/members/Quarris/projects))
-* [Structure Layout Optimizer](https://www.curseforge.com/minecraft/mc-mods/structure-layout-optimizer) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
-* [The Aether](https://www.curseforge.com/minecraft/mc-mods/aether) (by [TheAetherTeam](https://www.curseforge.com/members/TheAetherTeam/projects))
+-   [AdvancedAE](https://www.curseforge.com/minecraft/mc-mods/advancedae) (by [pedroksl](https://www.curseforge.com/members/pedroksl/projects))
+-   [Aether Villages](https://www.curseforge.com/minecraft/mc-mods/aether-villages) (by [Aureljz](https://www.curseforge.com/members/Aureljz/projects))
+-   [Applied Flux](https://www.curseforge.com/minecraft/mc-mods/applied-flux) (by [GlodBlock](https://www.curseforge.com/members/GlodBlock/projects))
+-   [Ars Controle](https://www.curseforge.com/minecraft/mc-mods/ars-controle) (by [qther](https://www.curseforge.com/members/qther/projects))
+-   [Cable Facades](https://www.curseforge.com/minecraft/mc-mods/cable-facades) (by [thepigcat76](https://www.curseforge.com/members/thepigcat76/projects))
+-   [Corpse x Curios API Compat](https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat) (by [Project8gbDeRam](https://www.curseforge.com/members/Project8gbDeRam/projects))
+-   [Forgified Fabric API](https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api) (by [Su5eD](https://www.curseforge.com/members/Su5eD/projects))
+-   [Gateways to Eternity](https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [Industrial Foregoing Souls](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing-souls) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Iron's Spells 'n Spellbooks](https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks) (by [Iron431](https://www.curseforge.com/members/Iron431/projects))
+-   [Open Sesame](https://www.curseforge.com/minecraft/mc-mods/open-sesame) (by [Quinn451](https://www.curseforge.com/members/Quinn451/projects))
+-   [Oritech](https://www.curseforge.com/minecraft/mc-mods/oritech) (by [rearth](https://www.curseforge.com/members/rearth/projects))
+-   [oωo (owo-lib)](https://www.curseforge.com/minecraft/mc-mods/owo-lib) (by [gliscowo](https://www.curseforge.com/members/gliscowo/projects))
+-   [playerAnimator](https://www.curseforge.com/minecraft/mc-mods/playeranimator) (by [KosmX](https://www.curseforge.com/members/KosmX/projects))
+-   [Pretty Pipes](https://www.curseforge.com/minecraft/mc-mods/pretty-pipes) (by [Ellpeck](https://www.curseforge.com/members/Ellpeck/projects))
+-   [Pretty Pipes: Fluids](https://www.curseforge.com/minecraft/mc-mods/pretty-pipes-fluids) (by [Quarris](https://www.curseforge.com/members/Quarris/projects))
+-   [Structure Layout Optimizer](https://www.curseforge.com/minecraft/mc-mods/structure-layout-optimizer) (by [telepathicgrunt](https://www.curseforge.com/members/telepathicgrunt/projects))
+-   [The Aether](https://www.curseforge.com/minecraft/mc-mods/aether) (by [TheAetherTeam](https://www.curseforge.com/members/TheAetherTeam/projects))
 
 #### ❌ Removed Mods
 
-* [libIPN](https://www.curseforge.com/minecraft/mc-mods/libipn) (by [mirinimi](https://www.curseforge.com/members/mirinimi/projects))
-* [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic) (by [Apollo](https://www.curseforge.com/members/Apollo/projects))
+-   [libIPN](https://www.curseforge.com/minecraft/mc-mods/libipn) (by [mirinimi](https://www.curseforge.com/members/mirinimi/projects))
+-   [Tectonic](https://www.curseforge.com/minecraft/mc-mods/tectonic) (by [Apollo](https://www.curseforge.com/members/Apollo/projects))
 
 #### ⭐ Improvements
 
