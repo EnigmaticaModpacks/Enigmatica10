@@ -3,17 +3,6 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            input: { item: 'minecraft:glow_berries' },
-            output: [
-                {
-                    stack: { id: 'minecraft:yellow_dye', count: 2 },
-                    chance: 1.0,
-                    maxRange: 1
-                }
-            ],
-            id: `${id_prefix}yellow_dye_from_glow_berries`
-        },
-        {
             input: { item: 'minecraft:ink_sac' },
             output: [
                 {

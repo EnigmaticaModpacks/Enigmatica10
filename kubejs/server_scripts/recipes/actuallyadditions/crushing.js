@@ -14,11 +14,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}silicon`
         },
         {
-            ingredient: { item: 'minecraft:glow_berries' },
-            result: [{ result: { id: 'minecraft:yellow_dye', count: 2 } }],
-            id: `${id_prefix}yellow_dye_from_glow_berries`
-        },
-        {
             ingredient: { item: 'minecraft:ink_sac' },
             result: [{ result: { id: 'minecraft:black_dye', count: 2 } }],
             id: `${id_prefix}black_dye`

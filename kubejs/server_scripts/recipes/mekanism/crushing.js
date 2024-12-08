@@ -1,10 +1,10 @@
-ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:mekanism/crushing/';
+// ServerEvents.recipes((event) => {
+//     const id_prefix = 'enigmatica:mekanism/crushing/';
 
-    const recipes = [];
+//     const recipes = [];
 
-    recipes.forEach((recipe) => {
-        recipe.type = 'mekanism:crushing';
-        event.custom(recipe).id(recipe.id);
-    });
-});
+//     recipes.forEach((recipe) => {
+//         recipe.type = 'mekanism:crushing';
+//         event.custom(recipe).id(recipe.id);
+//     });
+// });

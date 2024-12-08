@@ -37,8 +37,13 @@ ServerEvents.recipes((event) => {
         { id: 'advanced_ae:quantum_infused_dust' },
         { id: 'advanced_ae:quantum_infused_dust_crushed' },
         { id: /mekanism:processing\/(quartz|coal|diamond|emerald|lapis_lazuli|fluorite)\/to_dust/ },
-        { id: /mekanism:compat\/ae2\/(fluix_crystal|ender_pearl|sky_stone)_to_dust/ },
+        { id: /mekanism:compat\/ae2\/(fluix_crystal|certus_crystal|ender_pearl|sky_stone)_to_dust/ },
         { id: /mekanism:crushing\/(charcoal_dust|obsidian_to_dust|breeze_rod|blaze_rod)/ },
+        { id: /occultism:crushing\/(emerald|certus_quartz|quartz|fluix|coal|diamond|lapis|fluorite)_dust_from_gem/ },
+        { id: `occultism:crushing/blaze_powder_from_rod` },
+        { id: `occultism:crushing/obsidian_dust` },
+        { id: /modern_industrialization:compat\/ae2\/macerator\// },
+        { id: `oritech:pulverizer/dust/blaze` },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },

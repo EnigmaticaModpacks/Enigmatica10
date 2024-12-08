@@ -1,6 +1,5 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        yellow: ['minecraft:glow_berries'],
         green: ['minecraft:cactus'],
         light_blue: ['minecraft:blue_orchid'],
         gray: [/minecraft:dead.*coral/],
