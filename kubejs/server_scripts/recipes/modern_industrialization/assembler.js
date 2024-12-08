@@ -404,6 +404,28 @@ ServerEvents.recipes((event) => {
             eu: 20,
             duration: 400,
             id: 'modern_industrialization:electric_age/component/assembler/qubit'
+        },
+        {
+            item_inputs: [
+                { item: 'appflux:printed_energy_processor', amount: 1 },
+                { item: 'ae2:printed_silicon', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'modern_industrialization:molten_redstone', amount: 90 }],
+            item_outputs: [{ item: 'appflux:energy_processor', amount: 1 }],
+            eu: 8,
+            duration: 200,
+            id: `${id_prefix}energy_processor`
+        },
+        {
+            item_inputs: [
+                { item: 'advanced_ae:printed_quantum_processor', amount: 1 },
+                { item: 'ae2:printed_silicon', amount: 1 }
+            ],
+            fluid_inputs: [{ fluid: 'modern_industrialization:molten_redstone', amount: 90 }],
+            item_outputs: [{ item: 'advanced_ae:quantum_processor', amount: 1 }],
+            eu: 8,
+            duration: 200,
+            id: `${id_prefix}quantum_processor`
         }
     ];
 

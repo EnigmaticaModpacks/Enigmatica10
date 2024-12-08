@@ -4,6 +4,7 @@
 
 -   Unify many crushing recipes across mods [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
 -   Add support for Aether stones to Cobblegen Galore [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
+-   Add support for new AE processors in PNC, MI, and Oritech [(\#278)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/278)
 
 ---
 
