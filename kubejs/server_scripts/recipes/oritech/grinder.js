@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
                 { id: 'oritech:fluxite', count: 1 }
             ],
             ingredients: [{ tag: 'c:ores/platinum' }],
-            time: 600,
+            time: 300,
             id: `${id_prefix}ore_platinum`
         },
         {
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
                 { id: 'oritech:fluxite', count: 1 }
             ],
             ingredients: [{ tag: 'c:raw_materials/platinum' }],
-            time: 1200,
+            time: 400,
             id: `${id_prefix}raw_platinum`
         },
         {
@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
                     { id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.secondary}`).getId(), count: 1 }
                 ],
                 ingredients: [{ tag: `c:ores/${material.primary}` }],
-                time: 400,
+                time: 200,
                 id: `${id_prefix}ore_${material.primary}`
             },
             {
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
                     { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 6 }
                 ],
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
-                time: 800,
+                time: 400,
                 id: `${id_prefix}raw_${material.primary}`
             }
         );

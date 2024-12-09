@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
                 { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/platinum`).getId(), count: 3 }
             ],
             ingredients: [{ tag: 'c:raw_materials/platinum' }],
-            time: 750,
+            time: 800,
             id: `${id_prefix}raw_platinum`
         },
         {
