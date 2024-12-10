@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: AlmostUnified.getTagTargetItem(`c:raw_materials/platinum`).getId(), count: 2 }],
             ingredients: [{ tag: 'c:ores/platinum' }],
-            time: 600,
+            time: 180,
             id: `${id_prefix}ore_platinum`
         },
         {
@@ -13,25 +13,25 @@ ServerEvents.recipes((event) => {
                 { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/platinum`).getId(), count: 3 }
             ],
             ingredients: [{ tag: 'c:raw_materials/platinum' }],
-            time: 800,
+            time: 180,
             id: `${id_prefix}raw_platinum`
         },
         {
             results: [{ id: 'powah:uraninite_raw', count: 4 }],
             ingredients: [{ tag: 'c:ores/uraninite' }],
-            time: 300,
+            time: 180,
             id: `${id_prefix}uraninite_raw`
         },
         {
             results: [{ id: 'actuallyadditions:black_quartz', count: 2 }],
             ingredients: [{ tag: 'c:ores/black_quartz' }],
-            time: 300,
+            time: 180,
             id: `${id_prefix}black_quartz`
         },
         {
             results: [{ id: 'minecraft:sand', count: 4 }],
             ingredients: [{ tag: 'c:sandstone/blocks' }],
-            time: 200,
+            time: 180,
             id: `oritech:pulverizer/dust/sand_from_sandstone`
         }
     ];
@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
         recipes.push({
             results: [{ id: `minecraft:${color}_dye`, count: 3 }],
             ingredients: [{ tag: `c:raw_materials/dyes/${color}` }],
-            time: 300,
+            time: 180,
             id: `${id_prefix}${color}_dye`
         });
     });
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
                     { id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.primary}`).getId(), count: 2 }
                 ],
                 ingredients: [{ tag: `c:ores/${material.primary}` }],
-                time: 400,
+                time: 180,
                 id: `${id_prefix}ore_${material.primary}`
             },
             {
@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
                     { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 3 }
                 ],
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
-                time: 800,
+                time: 180,
                 id: `${id_prefix}raw_${material.primary}`
             }
         );

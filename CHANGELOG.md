@@ -2,8 +2,8 @@
 
 #### ⭐ Improvements
 
--   Buff Oritech ore processing speed [(\#279)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/279)
--   Applied Flux now accepts any slime [(\#279)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/279)
+-   Buff Oritech ore processing speed [(\#279)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/279) [(\#281)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/281)
+-   Applied Flux now accepts any slime [(\#281)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/281)
 
 ---
 
