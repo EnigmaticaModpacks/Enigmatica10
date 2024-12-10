@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
                 { id: 'oritech:fluxite', count: 1 }
             ],
             ingredients: [{ tag: 'c:ores/platinum' }],
-            time: 300,
+            time: 120,
             id: `${id_prefix}ore_platinum`
         },
         {
@@ -17,19 +17,19 @@ ServerEvents.recipes((event) => {
                 { id: 'oritech:fluxite', count: 1 }
             ],
             ingredients: [{ tag: 'c:raw_materials/platinum' }],
-            time: 400,
+            time: 120,
             id: `${id_prefix}raw_platinum`
         },
         {
             results: [{ id: 'powah:uraninite_raw', count: 6 }],
             ingredients: [{ tag: 'c:ores/uraninite' }],
-            time: 200,
+            time: 120,
             id: `${id_prefix}uraninite_raw`
         },
         {
             results: [{ id: 'actuallyadditions:black_quartz', count: 4 }],
             ingredients: [{ tag: 'c:ores/black_quartz' }],
-            time: 200,
+            time: 120,
             id: `${id_prefix}black_quartz`
         }
     ];
@@ -55,7 +55,7 @@ ServerEvents.recipes((event) => {
                     { id: AlmostUnified.getTagTargetItem(`c:raw_materials/${material.secondary}`).getId(), count: 1 }
                 ],
                 ingredients: [{ tag: `c:ores/${material.primary}` }],
-                time: 200,
+                time: 120,
                 id: `${id_prefix}ore_${material.primary}`
             },
             {
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
                     { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 6 }
                 ],
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
-                time: 400,
+                time: 120,
                 id: `${id_prefix}raw_${material.primary}`
             }
         );

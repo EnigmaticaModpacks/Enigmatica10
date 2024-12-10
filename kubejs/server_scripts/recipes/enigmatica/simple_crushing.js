@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'enderio', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'iron_dust_from_iron'
         },
@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'copper_dust_from_copper'
         },
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'enderio', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'gold_dust_from_gold'
         },
@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'osmium_dust_from_osmium'
         },
@@ -54,7 +54,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'iesnium_dust_from_iesnium'
         },
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'iridium_dust_from_iridium'
         },
@@ -76,7 +76,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'lead_dust_from_lead'
         },
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'silver_dust_from_silver'
         },
@@ -98,7 +98,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'nickel_dust_from_nickel'
         },
@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'tin_dust_from_tin'
         },
@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'uranium_dust_from_uranium'
         },
@@ -131,7 +131,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'platinum_dust_from_platinum'
         },
@@ -142,7 +142,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'mekanism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'netherite_dust_from_netherite'
         },
@@ -153,7 +153,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'mekanism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'steel_dust_from_steel'
         },
@@ -164,7 +164,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'electrum_dust_from_electrum'
         },
@@ -175,7 +175,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'mekanism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'bronze_dust_from_bronze'
         },
@@ -186,7 +186,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'invar_dust_from_invar'
         },
@@ -197,7 +197,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'aluminum_dust_from_aluminum'
         },
@@ -208,7 +208,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'tungsten_dust_from_tungsten'
         },
@@ -219,7 +219,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'refined_obsidian_dust_from_refined_obsidian'
         },
@@ -230,7 +230,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'refined_glowstone_dust_from_refined_glowstone'
         },
@@ -241,7 +241,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'certus_quartz_dust_from_certus_quartz'
         },
@@ -252,7 +252,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'fluix_dust_from_fluix'
         },
@@ -263,7 +263,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'lignite_coal_dust_from_lignite_coal'
         },
@@ -271,10 +271,10 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:ender_pearl' },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/ender_pearl`).getId(), count: 9 }],
             multiply: 'none',
-            exclusions: ['oritech:pulverizer', 'oritech:grinder'],
+            exclusions: ['oritech:pulverizer', 'oritech:grinder', 'enderio'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'ender_pearl_dust_from_ender_pearl'
         },
@@ -285,7 +285,7 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'sky_stone_dust_from_sky_stone_block'
         },
@@ -296,7 +296,7 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'obsidian_dust_from_obsidian'
         },
@@ -307,7 +307,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'quantum_infused_dust_from_shattered_singularity'
         },
@@ -318,7 +318,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['oritech:pulverizer', 'oritech:grinder', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'adamant_dust_from_adamant'
         },
@@ -329,7 +329,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['oritech:pulverizer', 'oritech:grinder', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'biosteel_dust_from_biosteel'
         },
@@ -340,7 +340,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['oritech:pulverizer', 'oritech:grinder', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'duratium_dust_from_duratium'
         },
@@ -351,7 +351,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['oritech:pulverizer', 'oritech:grinder', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'energite_dust_from_energite'
         },
@@ -362,7 +362,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'oritech:pulverizer', 'oritech:grinder', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'coal_dust_from_coal'
         },
@@ -373,7 +373,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'charcoal_dust_from_charcoal'
         },
@@ -384,7 +384,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 40 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'diamond_dust_from_diamond'
         },
@@ -395,7 +395,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 40 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'emerald_dust_from_emerald'
         },
@@ -406,7 +406,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'lapis_dust_from_lapis'
         },
@@ -417,7 +417,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'fluorite_dust_from_fluorite'
         },
@@ -428,7 +428,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'oritech:pulverizer', 'oritech:grinder', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'quartz_dust_from_quartz'
         },
@@ -439,7 +439,7 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'wind_charge_from_breeze_rod'
         },
@@ -450,7 +450,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'oritech:grinder', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'blaze_powder_from_blaze_rod'
         },
@@ -461,7 +461,7 @@ ServerEvents.recipes((event) => {
             exclusions: [],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'blaze_powder_from_blaze_ember'
         },
@@ -472,7 +472,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'oritech:grinder'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'sawdust_from_logs'
         },
@@ -483,7 +483,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'oritech:grinder'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'sawdust_from_sticks'
         },
@@ -494,7 +494,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'oritech:grinder'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 300, grinder: 200 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'sawdust_from_planks'
         },
@@ -505,7 +505,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'prismarine_shard_from_prismarine'
         },
@@ -516,7 +516,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'prismarine_shard_from_prismarine_bricks'
         },
@@ -530,7 +530,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'prismarine_shard_from_dark_prismarine'
         },
@@ -544,7 +544,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'occultism', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'prismarine_from_sea_lantern'
         },
@@ -555,7 +555,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['mekanism', 'oritech:pulverizer'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'glowstone_dust_from_glow_berries'
         }
@@ -591,7 +591,7 @@ ServerEvents.recipes((event) => {
             exclusions: ['modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 200, grinder: 100 } },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: `${material}_dust_from_${material}`
         });
