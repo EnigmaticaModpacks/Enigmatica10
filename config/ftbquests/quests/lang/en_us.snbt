@@ -3584,6 +3584,22 @@
 		"&a    Pink Slime than hostiles mobs."
 	]
 	quest.68A0052D169BB6E4.title: "Meat Farming"
+	quest.690FB1A43ED247CF.quest_desc: [
+		"Who knew accelerating objects to near relativistic speeds and smashing them together could be so lucrative?"
+		""
+		"The particle accelerator consists of a large free form multiblock structure. The Accelerator itself is used to inject items into the beam and the Guide Rings are used to guide the beam along a safe path. "
+		""
+		"Typically, you’ll want this path to be a loop to gain the momentum needed for various crafts. "
+		""
+		"Speeding up the particle will require one or more Linear Motors. Each one doesn’t have much of an effect, but you can place multiple in line to get things up to speed quicker. "
+		"&n                                                                          &r"
+		""
+		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Particle Accelerator\",\"underlined\":true},\" page on their wiki, which does an excellent job of describing how this system works. \"]"
+		""
+		"To give you an idea of scope, however, consider the Echo Shard recipe that requires a collision &61000J&r to craft. Reaching these speeds while keeping your particle contained will require a minimum distance of 11 blocks between turns. Incidentally, when your Sensor reaches a &cRedstone Signal of 10&r you’ll be ready to inject the second item to cause a collision."
+		""
+		"Similarly, the recipe for a Nether Star, which needs a collision of &615000J&r will take a much larger track with a minimum distance of about 34 blocks between turns. The appropriate speeds are reached at a &cRedstone Signal of 14&r. "
+	]
 	quest.69295042E8C3A609.quest_desc: [
 		"Source Relays are used for transporting Source from place to place. This way you can have a centralized Source generation area that feeds multiple devices or Spell Turrets around your home."
 		""

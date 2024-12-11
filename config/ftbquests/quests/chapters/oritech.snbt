@@ -331,5 +331,46 @@
 			x: 3.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4F19A0AECC129216"]
+			icon: {
+				id: "oritech:accelerator_controller"
+			}
+			id: "690FB1A43ED247CF"
+			min_width: 300
+			rewards: [{
+				count: 4
+				id: "60D9E4EBEE000D96"
+				item: {
+					count: 1
+					id: "oritech:particle_collector_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CDF55B4822BE3AB"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					id: "1F9CCE4CE199F2B6"
+					item: { count: 1, id: "oritech:accelerator_motor" }
+					type: "item"
+				}
+				{
+					id: "31AE726CDE87ED73"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+				{
+					id: "1F2782159C5BB903"
+					item: { count: 1, id: "oritech:accelerator_sensor" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
 	]
 }
