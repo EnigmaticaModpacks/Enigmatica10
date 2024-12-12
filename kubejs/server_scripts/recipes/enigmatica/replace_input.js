@@ -51,9 +51,14 @@ ServerEvents.recipes((event) => {
             replace_with: '#c:feathers'
         },
         {
-            filter: [{ output: 'minecraft:sticky_piston' }, { output: 'minecraft:lead' }],
+            filter: [{ output: 'minecraft:sticky_piston' }, { output: 'minecraft:lead' }, { mod: 'appflux' }],
             to_replace: 'minecraft:slime_ball',
             replace_with: '#c:slimeballs'
+        },
+        {
+            filter: [{ mod: 'appflux' }],
+            to_replace: 'minecraft:cactus',
+            replace_with: '#c:dyes/green'
         },
         {
             filter: [{ output: 'minecraft:observer' }, { mod: 'prettypipes' }, { mod: 'ppfluids' }],

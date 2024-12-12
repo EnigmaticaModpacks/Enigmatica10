@@ -1,3 +1,12 @@
+### Enigmatica 10 1.15.0
+
+#### ⭐ Improvements
+
+-   Buff Oritech ore processing speed [(\#279)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/279) [(\#281)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/281)
+-   Applied Flux now accepts any slime [(\#281)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/281)
+
+---
+
 ### Enigmatica 10 1.14.2
 
 NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.14.2.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.14.2.md)
