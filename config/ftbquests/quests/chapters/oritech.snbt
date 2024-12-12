@@ -372,5 +372,30 @@
 			x: 1.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["690FB1A43ED247CF"]
+			id: "72591AAEA1E6DE38"
+			rewards: [{
+				count: 4
+				id: "02B69CB8F2A9658D"
+				item: {
+					count: 1
+					id: "oritech:particle_collector_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "oritech:black_hole_block"
+				}
+				id: "4DBE23AE12CB9448"
+				observe_type: 0
+				timer: 0L
+				to_observe: "oritech:black_hole_block"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
 	]
 }
