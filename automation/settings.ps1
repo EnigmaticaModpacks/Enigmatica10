@@ -194,7 +194,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"iris.properties",
 	"clienttweaks-common.toml",
 	"cumulus_menus-client.toml",
-	"ars_controle-client.toml"
+	"ars_controle-client.toml",
+	"emi.css"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @(
