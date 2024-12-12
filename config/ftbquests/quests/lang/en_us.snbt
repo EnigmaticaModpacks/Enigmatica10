@@ -3937,6 +3937,17 @@
 		"&a🛈 Tip: The Inscriber can be powered directly "
 		"&a    from any source of FE or EU."
 	]
+	quest.72591AAEA1E6DE38.quest_desc: [
+		"The Particle Accelerator has a few hidden interactions which can be quite interesting to play around with."
+		""
+		"For instance, should you collide two Fire Charges at over &65000J&r, you’ll create a &cHellish Incursion&r and a portal to the Nether."
+		""
+		"Similarly, colliding two Ender Pearls at over &610000J&r will make an &aEnder Incursion&r and a portal to the End."
+		""
+		"Lastly, should you fire any item into one of these portals at greater than &615000J&r, you will generate a Black Hole which will quickly begin devouring blocks around it and spewing out a steady stream of Tachyons. "
+		""
+		"By setting up Tachyon Absorbers in the vicinity, those high energy particles may be absorbed and turned into useful energy. "
+	]
 	quest.72BD11ED57B26EA2.quest_desc: [
 		"Using the various Wild Summons, some very special materials may be obtained, including Pottery Sherds, Smithing Templates, and all the items shown above. "
 		""
@@ -4517,6 +4528,7 @@
 	task.4D3445BCDA8E459B.title: "BumbleZone"
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
+	task.4DBE23AE12CB9448.title: "Observe Black Hole"
 	task.51472C5BD0C05E09.title: "Kill a Mob"
 	task.51A4E7C2E42561D2.title: "Advanced Compressors"
 	task.51C59228A0E0612E.title: "Items"
