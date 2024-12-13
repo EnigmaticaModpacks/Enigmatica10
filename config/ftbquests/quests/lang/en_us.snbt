@@ -2710,7 +2710,11 @@
 		"&a    used to recharge a Drone or to "
 		"&a    recharge all your gear at once!"
 	]
-	quest.4E2C382FC583C03F.quest_desc: ["A Centrifuge allows for the production of a few unique materials that will be very important moving forward!"]
+	quest.4E2C382FC583C03F.quest_desc: [
+		"A Centrifuge allows for the production of a few unique materials that will be very important moving forward!"
+		""
+		"This machine may optionally work with fluids. To do this, you'll need to attach a Machine Fluid Addon."
+	]
 	quest.4E7DA28C54FB8766.quest_desc: [
 		"These materials can frequently take a great deal of time to find by exploring alone. "
 		""

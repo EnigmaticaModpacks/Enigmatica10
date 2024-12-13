@@ -94,12 +94,22 @@
 		{
 			dependencies: ["5DD76DB5C6220F40"]
 			id: "4E2C382FC583C03F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6DEFBA83624A2BB6"
-				table_id: 3480305820603047814L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DEFBA83624A2BB6"
+					table_id: 3480305820603047814L
+					type: "loot"
+				}
+				{
+					id: "72E999BE5CA9F7D8"
+					item: {
+						count: 1
+						id: "oritech:machine_fluid_addon"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1A7FC602C2C2C50C"
 				item: { count: 1, id: "oritech:centrifuge_block" }
