@@ -7,6 +7,7 @@
 -   More quests! [(\#281)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/281)
 -   Dire Things goo can now be revived by more materials [(\#281)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/281)
 -   Create more parity between Pulverizer and Fragment Forge [(\#286)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/286)
+-   Crying Obsidian may be crafted via Particle Acceleration [(\#290)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/290)
 
 ---
 
