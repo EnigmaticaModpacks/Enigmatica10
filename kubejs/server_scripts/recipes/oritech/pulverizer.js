@@ -30,9 +30,15 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'minecraft:sand', count: 4 }],
-            ingredients: [{ tag: 'c:sandstone/blocks' }],
+            ingredients: [{ tag: 'c:sandstone/uncolored_blocks' }],
             time: 180,
             id: `oritech:pulverizer/dust/sand_from_sandstone`
+        },
+        {
+            results: [{ id: 'minecraft:red_sand', count: 4 }],
+            ingredients: [{ tag: 'c:sandstone/red_blocks' }],
+            time: 180,
+            id: `oritech:pulverizer/dust/red_sand`
         }
     ];
 

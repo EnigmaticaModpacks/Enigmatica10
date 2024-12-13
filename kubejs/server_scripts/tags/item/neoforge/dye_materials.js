@@ -5,7 +5,7 @@ ServerEvents.tags('item', (event) => {
         gray: [/minecraft:dead.*coral/],
         white: ['aether:white_flower'],
         lime: ['minecraft:sea_pickle'],
-        brown: ['minecraft:cocoea_beans'],
+        brown: ['minecraft:cocoa_beans', 'actuallyadditions:flax_seeds'],
         blue: ['modern_industrialization:lapis_dust'],
         purple: ['ars_nouveau:sourceberry_bush', 'aether:purple_flower']
     };
