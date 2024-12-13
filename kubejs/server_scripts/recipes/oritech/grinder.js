@@ -31,8 +31,56 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:ores/black_quartz' }],
             time: 120,
             id: `${id_prefix}black_quartz`
+        },
+        {
+            results: [{ id: 'oritech:biomass', count: 1 }],
+            ingredients: [{ tag: 'oritech:biomass' }],
+            time: 120,
+            id: `${id_prefix}biomass_from_plants`
+        },
+        {
+            results: [{ id: 'oritech:biomass', count: 16 }],
+            ingredients: [{ tag: 'c:storage_blocks/wheat' }],
+            time: 120,
+            id: `${id_prefix}biomass_from_wheat`
+        },
+        {
+            results: [{ id: 'oritech:biomass', count: 16 }],
+            ingredients: [{ item: 'oritech:packed_wheat' }],
+            time: 120,
+            id: `${id_prefix}biomass_from_packed_wheat`
+        },
+        {
+            results: [{ id: 'minecraft:sand', count: 4 }],
+            ingredients: [{ tag: 'c:sandstone/uncolored_blocks' }],
+            time: 120,
+            id: `${id_prefix}sand_from_sandstone`
+        },
+        {
+            results: [{ id: 'minecraft:red_sand', count: 4 }],
+            ingredients: [{ tag: 'c:sandstone/red_blocks' }],
+            time: 120,
+            id: `${id_prefix}red_sand_from_red_sandstone`
+        },
+        {
+            results: [{ id: 'minecraft:sand', count: 1 }],
+            ingredients: [{ tag: 'c:gravels' }],
+            time: 120,
+            id: `${id_prefix}sand_from_gravel`
         }
     ];
+
+    colors.forEach((color) => {
+        recipes.push({
+            results: [
+                { id: `minecraft:${color}_dye`, count: 3 },
+                { id: `minecraft:${color}_dye`, count: 2 }
+            ],
+            ingredients: [{ tag: `c:raw_materials/dyes/${color}` }],
+            time: 180,
+            id: `${id_prefix}${color}_dye`
+        });
+    });
 
     let materials = [
         { primary: 'iron', secondary: 'nickel' },
