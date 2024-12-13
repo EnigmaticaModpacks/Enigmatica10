@@ -30,6 +30,12 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'the_bumblezone:honey_crystal_shards' }],
             time: 5000,
             id: `${id_prefix}royal_jelly_bottle`
+        },
+        {
+            results: [{ id: 'minecraft:crying_obsidian', count: 1 }],
+            ingredients: [{ tag: 'c:nuggets/neptunium' }, { item: 'minecraft:obsidian' }],
+            time: 500,
+            id: `${id_prefix}crying_obsidian`
         }
     ];
 
