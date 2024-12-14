@@ -1,5 +1,15 @@
 ### Enigmatica 10 1.15.0
 
+NeoForge-1.21.1-21.1.83 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.15.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.15.0.md)
+
+#### ✔️ Added Mods
+
+* [Adorned (Curios)](https://www.curseforge.com/minecraft/mc-mods/adorned) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects)) (Dependency)
+
+#### ❌ Removed Mods
+
+* [Lithium (Fabric/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lithium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects)) (Mod incompatibilities)
+
 #### ⭐ Improvements
 
 -   Buff Oritech ore processing speed [(\#279)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/279) [(\#281)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/281)
