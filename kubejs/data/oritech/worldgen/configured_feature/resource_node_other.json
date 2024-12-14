@@ -17,7 +17,9 @@
             "kubejs:resource_node_salt",
             "kubejs:resource_node_salt",
             "kubejs:resource_node_bauxite",
-            "kubejs:resource_node_bauxite"
+            "kubejs:resource_node_bauxite",
+            "kubejs:resource_node_quartz",
+            "kubejs:resource_node_quartz"
         ],
         "boulderOres": [
             "minecraft:deepslate_gold_ore",
@@ -28,6 +30,7 @@
             "modern_industrialization:deepslate_monazite_ore",
             "modern_industrialization:deepslate_salt_ore",
             "modern_industrialization:deepslate_bauxite_ore",
+            "kubejs:deepslate_quartz_ore",
 
             "minecraft:deepslate",
             "minecraft:deepslate",

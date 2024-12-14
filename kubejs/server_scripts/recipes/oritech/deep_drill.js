@@ -45,6 +45,11 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'modern_industrialization:salt_dust', count: 1 }],
             id: `${id_prefix}salt`
         },
+        {
+            ingredients: [{ item: 'kubejs:resource_node_quartz' }],
+            results: [{ id: 'minecraft:quartz', count: 1 }],
+            id: `${id_prefix}quartz`
+        },
 
         // Rare
         {
