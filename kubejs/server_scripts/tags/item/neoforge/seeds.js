@@ -7,4 +7,7 @@ ServerEvents.tags('item', (event) => {
         event.get(`c:seeds/${tag}`).add(additions[tag]);
         event.get('c:seeds').add(additions[tag]);
     });
+
+    let exclusions = ['minecraft:wheat'];
+    event.get('c:seeds').remove(exclusions);
 });
