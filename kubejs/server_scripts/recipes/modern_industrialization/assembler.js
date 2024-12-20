@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             item_outputs: [{ item: 'modern_industrialization:basic_upgrade', amount: 4 }],
             eu: 8,
             duration: 200,
-            id: 'modern_industrialization:assembler_generated/electric_age/circuit/craft/lv_circuit_board'
+            id: 'modern_industrialization:electric_age/upgrades/basic'
         },
         {
             item_inputs: [
