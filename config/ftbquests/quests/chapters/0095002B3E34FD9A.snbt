@@ -132,7 +132,7 @@
 					type: "advancement"
 				}
 				{
-					count: 4L
+					count: 16L
 					id: "53EE7D896F7103FA"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
