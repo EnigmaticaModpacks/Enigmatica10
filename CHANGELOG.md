@@ -4,6 +4,7 @@
 
 -   Fix Whirlisprigs not outputting Wheat [(\#296)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/296)
 -   Remove duplicate MI upgrade recipe [(\#299)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/299)
+-   Fix MI JDT fuel compat recipes [(\#310)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/310)
 
 ---
 
