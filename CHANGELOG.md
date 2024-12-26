@@ -4,6 +4,7 @@
 
 -   Occultism quests now mention how to fortune Iesnium [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
 -   Occultism quests no longer promote chalk repair since it is unbreakable [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
+-   Royal Jelly is now more costly to craft [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
 
 #### 🦟 Bugs Fixed
 
@@ -11,6 +12,7 @@
 -   Remove duplicate MI upgrade recipe [(\#299)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/299)
 -   Fix MI JDT fuel compat recipes [(\#310)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/310)
 -   Fix typo in MI quests [(\#312)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/312)
+-   Remove now redundant tooltips from Iron's equipment [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
 
 ---
 
