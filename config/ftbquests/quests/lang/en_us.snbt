@@ -843,7 +843,7 @@
 		"  &b╰┈➤ &aHV to MV Transformer"
 		"  &a╰┈➤ &3Machine Cluster"
 		""
-		"&6⚠ Note: Keep your HV subnetworks "
+		"&6⚠ Note: Keep your MV subnetworks "
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
