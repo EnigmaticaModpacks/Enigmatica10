@@ -1,5 +1,10 @@
 ### Enigmatica 10 1.16.0
 
+#### ⭐ Improvements
+
+-   Occultism quests now mention how to fortune Iesnium [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
+-   Occultism quests no longer promote chalk repair since it is unbreakable [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
+
 #### 🦟 Bugs Fixed
 
 -   Fix Whirlisprigs not outputting Wheat [(\#296)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/296)
