@@ -93,16 +93,6 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'ars_nouveau:wixie_cauldron'
         },
         {
-            left: 'item:farmersdelight:cooking_pot',
-            right: 'item:ars_nouveau:wixie_charm',
-            output: {
-                type: 'item',
-                id: 'starbunclemania:cooking_pot_wixie_cauldron',
-                amount: 1
-            },
-            id: 'ars_nouveau:cooking_pot_wixie_cauldron'
-        },
-        {
             left: 'item:ars_nouveau:enchanting_apparatus',
             right: 'item:ars_nouveau:wixie_charm',
             output: {
@@ -111,6 +101,46 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 amount: 1
             },
             id: 'ars_additions:enchanting_wixie_cauldron'
+        },
+        {
+            left: 'item:farmersdelight:cooking_pot',
+            right: 'item:ars_nouveau:wixie_charm',
+            output: {
+                type: 'item',
+                id: 'starbunclemania:cooking_pot_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:cooking_pot_wixie_cauldron'
+        },
+        {
+            left: 'item:minecraft:furnace',
+            right: 'item:ars_nouveau:wixie_charm',
+            output: {
+                type: 'item',
+                id: 'starbunclemania:smelting_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:smelting_wixie_cauldron'
+        },
+        {
+            left: 'item:minecraft:stonecutter',
+            right: 'item:ars_nouveau:wixie_charm',
+            output: {
+                type: 'item',
+                id: 'starbunclemania:stonecutting_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:stonecutting_wixie_cauldron'
+        },
+        {
+            left: 'item:farmersdelight:cutting_board',
+            right: 'item:ars_nouveau:wixie_charm',
+            output: {
+                type: 'item',
+                id: 'starbunclemania:cutting_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:cutting_wixie_cauldron'
         },
         {
             left: 'item:minecraft:mossy_cobblestone',
