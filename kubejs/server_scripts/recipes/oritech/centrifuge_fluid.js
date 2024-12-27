@@ -2,6 +2,17 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/centrifuge_fluid/';
     const recipes = [];
 
+    ae_washables.forEach((washable) => {
+        recipes.push({
+            ingredients: [{ tag: `ae2:${washable}_cable` }],
+            fluidInputVariant: 'minecraft:water',
+            fluidInputAmount: 810,
+            results: [{ id: `ae2:fluix_${washable}_cable` }],
+            time: 5,
+            id: `${id_prefix}fluix_${washable}_cable_washing`
+        });
+    });
+
     let oil_types = [
         'modern_industrialization:crude_oil',
         'modern_industrialization:synthetic_oil',
