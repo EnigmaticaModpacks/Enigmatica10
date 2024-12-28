@@ -77,6 +77,7 @@ ServerEvents.recipes((event) => {
         switch (recipe_id) {
             case 'occultism:ritual/misc_chalk_rainbow':
                 recipe.entity_to_sacrifice = sacrifice.sheep;
+                recipe.result = Item.of(`occultism:chalk_rainbow[unbreakable={}]`).toJson();
                 recipe.id = recipe_id;
                 break;
             case 'occultism:ritual/misc_wild_trim':
