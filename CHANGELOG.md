@@ -7,6 +7,9 @@
 -   Royal Jelly is now more costly to craft [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
 -   Add new washing recipes for fluix cables [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 -   Crude Oil has been unified [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Update UU replication blacklist [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Update Occultism quests [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Update AE2 quests [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 
 #### 🦟 Bugs Fixed
 
