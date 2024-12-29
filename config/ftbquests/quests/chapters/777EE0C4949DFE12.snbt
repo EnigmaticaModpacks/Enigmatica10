@@ -234,7 +234,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3A7AD25302240A1B"]
+			dependencies: ["7220A9770C3E1C6F"]
 			id: "3CA4472228D0F866"
 			rewards: [{
 				id: "2D44F804E1A4C9DA"
