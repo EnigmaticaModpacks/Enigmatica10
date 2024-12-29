@@ -144,7 +144,7 @@ ServerEvents.recipes((event) => {
 
         {
             item_inputs: [{ tag: 'c:gems/voidflame', amount: 1 }],
-            fluid_inputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
+            fluid_inputs: [{ fluid: 'justdirethings:refined_t2_fluid_source', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:unrefined_t3_fluid_source', amount: 1000 }],
             duration: 100,
             eu: 8,
@@ -161,7 +161,7 @@ ServerEvents.recipes((event) => {
 
         {
             item_inputs: [{ tag: 'c:gems/eclipse_ember', amount: 1 }],
-            fluid_inputs: [{ fluid: 'justdirethings:polymorphic_fluid_source', amount: 1000 }],
+            fluid_inputs: [{ fluid: 'justdirethings:refined_t3_fluid_source', amount: 1000 }],
             fluid_outputs: [{ fluid: 'justdirethings:unrefined_t4_fluid_source', amount: 1000 }],
             duration: 100,
             eu: 8,

@@ -843,7 +843,7 @@
 		"  &b╰┈➤ &aHV to MV Transformer"
 		"  &a╰┈➤ &3Machine Cluster"
 		""
-		"&6⚠ Note: Keep your HV subnetworks "
+		"&6⚠ Note: Keep your MV subnetworks "
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
@@ -4202,9 +4202,11 @@
 		"&a    lower tier’s recipes faster."
 	]
 	quest.770EE92EA4CF973C.quest_desc: [
-		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe. "
+		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe since it has greater durability and can also mine the hidden ores in the Nether."
 		""
 		"We’ll be needing plenty more, after all, to set up a Dimensional Mineshaft."
+		""
+		"When mining Iesnium, the Ore Block you receive can be placed and re-broken with any Pick to obtain Raw Iesnium. Fortune will apply to this process."
 	]
 	quest.773105FB99015746.quest_desc: [
 		"The Result Pedestal is where our output will be generated. "
@@ -4346,11 +4348,6 @@
 		"These dapper ocean critters have a knack for digging up lost treasures from sand. "
 		""
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
-	]
-	quest.7B72C58C799D90A5.quest_desc: [
-		"If you’ve needed to move your pentacles around a bit, you may be finding that some of your Chalks are looking rather worn. "
-		""
-		"Allowing them to break simply won’t do. Take a moment to repair them with this ritual every now and then to ensure your precious chalks aren’t lost. "
 	]
 	quest.7BEE7FAD21AFEB68.quest_desc: [
 		"With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. "

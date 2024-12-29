@@ -27,8 +27,8 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'the_bumblezone:royal_jelly_bottle', count: 1 }],
-            ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'the_bumblezone:honey_crystal_shards' }],
-            time: 5000,
+            ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'irons_spellbooks:arcane_essence' }],
+            time: 30000,
             id: `${id_prefix}royal_jelly_bottle`
         },
         {

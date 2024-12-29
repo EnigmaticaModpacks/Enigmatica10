@@ -653,30 +653,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["253C97A20FD517DC"]
-			icon: {
-				components: {
-					"ftbquests:icon": "occultism:item/ritual_dummy_craft"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "7B72C58C799D90A5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0156611E97618F81"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "41B58AF4B73A66B3"
-				item: { count: 1, id: "occultism:ritual_dummy/repair_chalks" }
-				optional_task: true
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["75208FCBFF1CFB5F"]
 			icon: {
 				components: {
@@ -784,7 +760,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
