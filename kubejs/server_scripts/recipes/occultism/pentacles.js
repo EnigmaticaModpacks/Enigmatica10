@@ -45,7 +45,11 @@ ServerEvents.generateData('after_mods', (event) => {
     };
 
     const wild_mapping = {
-        0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
+        0: {
+            type: 'modonomicon:tag',
+            display: 'occultism:golden_sacrificial_bowl',
+            tag: '#occultism:center_sacrificial_bowl'
+        },
         W: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_white' },
         A: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_light_blue' },
         E: {

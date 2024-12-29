@@ -39,6 +39,7 @@ ServerEvents.recipes((event) => {
         { id: /mekanism:processing\/(quartz|coal|diamond|emerald|lapis_lazuli|fluorite)\/to_dust/ },
         { id: /mekanism:compat\/ae2\/(fluix_crystal|certus_crystal|ender_pearl|sky_stone)_to_dust/ },
         { id: /mekanism:crushing\/(charcoal_dust|obsidian_to_dust|breeze_rod|blaze_rod)/ },
+        { type: 'mekanism:combining', id: /.*(from_raw|to_ore|to_deepslate_ore|to_ancient_debris)/ },
         { id: /occultism:crushing\/(emerald|certus_quartz|quartz|fluix|coal|diamond|lapis|fluorite)_dust_from_gem/ },
         { id: `occultism:crushing/blaze_powder_from_rod` },
         { id: `occultism:crushing/obsidian_dust` },
