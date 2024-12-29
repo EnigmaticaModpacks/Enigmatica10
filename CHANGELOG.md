@@ -6,7 +6,7 @@
 -   Occultism quests no longer promote chalk repair since it is unbreakable [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
 -   Royal Jelly is now more costly to craft [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
 -   Add new washing recipes for fluix cables [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
--   Crude Oil has been unified. [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Crude Oil has been unified [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 
 #### 🦟 Bugs Fixed
 
