@@ -15,6 +15,7 @@
 -   Fix MI JDT fuel compat recipes [(\#310)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/310)
 -   Fix typo in MI quests [(\#312)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/312)
 -   Remove now redundant tooltips from Iron's equipment [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
+-   Combiner dupe loop has been closed [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 
 ---
 
