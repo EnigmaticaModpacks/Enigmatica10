@@ -620,5 +620,201 @@
 			x: 3.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["579C07CD07599438"]
+			id: "0842BA3FA770788D"
+			rewards: [{
+				count: 4
+				id: "7AADD4D06E391164"
+				item: {
+					count: 1
+					id: "ae2:singularity"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F1A9E00960E4043"
+				item: { count: 1, id: "advanced_ae:quantum_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BAEB780F38B1C56"]
+			icon: {
+				id: "advanced_ae:quantum_chestplate"
+			}
+			id: "21A7F863BCFB2177"
+			rewards: [{
+				count: 4
+				id: "0D420101609F1CDD"
+				item: {
+					count: 1
+					id: "advanced_ae:quantum_upgrade_base"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06A75C88CDF3BCA1"
+					item: { count: 1, id: "advanced_ae:quantum_helmet" }
+					type: "item"
+				}
+				{
+					id: "77C8C847E070482B"
+					item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "383E560DD2D5ED04"
+					item: { count: 1, id: "advanced_ae:quantum_leggings" }
+					type: "item"
+				}
+				{
+					id: "0CD81A5A08FC0503"
+					item: { count: 1, id: "advanced_ae:quantum_boots" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["631AA5AAA6EF687C"]
+			icon: {
+				id: "advanced_ae:small_adv_pattern_provider"
+			}
+			id: "415D9A877B172BBC"
+			rewards: [{
+				id: "27E67BBA79C5AE4F"
+				item: {
+					count: 1
+					id: "advanced_ae:adv_pattern_provider_capacity_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "066938F7CBA7C454"
+					item: { components: { "ftbfiltersystem:filter": "or(item(advanced_ae:small_adv_pattern_provider)item(advanced_ae:adv_pattern_provider_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "22EBD02E284FBE51"
+					item: { count: 1, id: "advanced_ae:adv_pattern_encoder" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["51233852CD921F79"]
+			id: "5DF0502B194247F9"
+			rewards: [{
+				id: "0B5646343F485E4F"
+				item: {
+					count: 1
+					id: "arseng:me_source_jar"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2900F7E8CBB5DD74"
+				item: { components: { "ftbfiltersystem:filter": "or(item(arseng:source_storage_cell_1k)item(arseng:source_storage_cell_4k)item(arseng:source_storage_cell_16k)item(arseng:source_storage_cell_64k)item(arseng:source_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["51233852CD921F79"]
+			id: "45B1C10885F542A7"
+			rewards: [{
+				id: "5F476957DB68B86B"
+				item: {
+					count: 1
+					id: "ae2:cell_component_16k"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "582472ED7BA0A212"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:item_storage_cell_1k)item(ae2:item_storage_cell_4k)item(ae2:item_storage_cell_16k)item(ae2:item_storage_cell_64k)item(ae2:item_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["51233852CD921F79"]
+			id: "7BEC7AF0176EA162"
+			rewards: [{
+				id: "4DC39C750E61A724"
+				item: {
+					count: 1
+					id: "ae2:void_card"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4927D2345C71AAA4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:fluid_storage_cell_1k)item(ae2:fluid_storage_cell_4k)item(ae2:fluid_storage_cell_16k)item(ae2:fluid_storage_cell_64k)item(ae2:fluid_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["51233852CD921F79"]
+			id: "31CACA407D4ADCA5"
+			rewards: [{
+				id: "6551246DAA03911D"
+				item: {
+					count: 1
+					id: "appflux:flux_accessor"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7431A946D23EA21C"
+					item: { components: { "ftbfiltersystem:filter": "or(item(appflux:fe_1k_cell)item(appflux:fe_4k_cell)item(appflux:fe_16k_cell)item(appflux:fe_64k_cell)item(appflux:fe_256k_cell)item(appflux:fe_1m_cell)item(appflux:fe_4m_cell)item(appflux:fe_16m_cell)item(appflux:fe_64m_cell)item(appflux:fe_256m_cell))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "2DE8C1FC24B2F227"
+					item: { count: 1, id: "appflux:induction_card" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["51233852CD921F79"]
+			id: "342FED2B0AC5F1B2"
+			rewards: [{
+				id: "3700F0B405416C5B"
+				item: {
+					count: 1
+					id: "ae2:cell_component_16k"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "077608276B306F47"
+				item: { components: { "ftbfiltersystem:filter": "or(item(appmek:chemical_storage_cell_1k)item(appmek:chemical_storage_cell_4k)item(appmek:chemical_storage_cell_16k)item(appmek:chemical_storage_cell_64k)item(appmek:chemical_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
 	]
 }

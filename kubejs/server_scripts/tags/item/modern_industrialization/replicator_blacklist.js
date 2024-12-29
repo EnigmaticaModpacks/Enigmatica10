@@ -1,12 +1,13 @@
 ServerEvents.tags('item', (event) => {
     let additions = [
         /storage_cell/,
+        /fe_.*_cell/,
         /portable_.*_cell/,
         /pneumaticcraft:.*_(tank|chest)$/,
         /pneumaticcraft:.*drone/,
         /sophisticated.*:.*(shulker|barrel|chest|backpack)/,
         /functionalstorage/,
-        /mekanism:.*_(chest|tank|barrel)/,
+        /mekanism:.*_(chest|tank|barrel|energy_cube|induction_cell)/,
         /mekanism:.*_bin$/,
         /mekanism:qio_drive/,
         /occultism:ritual_satchel_t\d/,
