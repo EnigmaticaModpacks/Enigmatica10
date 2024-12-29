@@ -13,13 +13,6 @@ ServerEvents.recipes((event) => {
         });
     });
 
-    let oil_types = [
-        'modern_industrialization:crude_oil',
-        'modern_industrialization:synthetic_oil',
-        'modern_industrialization:shale_oil',
-        'pneumaticcraft:oil'
-    ];
-
     oil_types.forEach((oil) => {
         recipes.push(
             {

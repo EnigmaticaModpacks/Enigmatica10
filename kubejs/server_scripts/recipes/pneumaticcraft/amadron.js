@@ -21,18 +21,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}diesel_to_emerald`
         },
         {
-            input: { resource: { id: 'modern_industrialization:crude_oil', amount: 5000 } },
-            output: { resource: { id: 'minecraft:emerald', count: 1 } },
-            level: 0,
-            id: `${id_prefix}crude_oil_to_emerald`
-        },
-        {
-            input: { resource: { id: 'minecraft:emerald', count: 1 } },
-            output: { resource: { id: 'modern_industrialization:crude_oil', amount: 1000 } },
-            level: 0,
-            id: `${id_prefix}emerald_to_crude_oil`
-        },
-        {
             input: { resource: { id: 'minecraft:emerald', count: 8 } },
             output: { resource: { id: 'modern_industrialization:basic_upgrade', count: 1 } },
             maxStock: 32,
@@ -47,6 +35,54 @@ ServerEvents.recipes((event) => {
             static: false,
             level: 3,
             id: `${id_prefix}emerald_to_turbo_upgrade`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 16 } },
+            output: { resource: { id: 'industrialforegoing:speed_addon_tier_2', count: 1 } },
+            maxStock: 4,
+            static: false,
+            level: 3,
+            id: `${id_prefix}emerald_to_speed_addon_tier_2`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 16 } },
+            output: { resource: { id: 'industrialforegoing:efficiency_addon_tier_2', count: 1 } },
+            maxStock: 4,
+            static: false,
+            level: 3,
+            id: `${id_prefix}emerald_to_efficiency_addon_tier_2`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 16 } },
+            output: { resource: { id: 'industrialforegoing:processing_addon_tier_2', count: 1 } },
+            maxStock: 4,
+            static: false,
+            level: 3,
+            id: `${id_prefix}emerald_to_processing_addon_tier_2`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 8 } },
+            output: { resource: { id: 'industrialforegoing:speed_addon_tier_1', count: 1 } },
+            maxStock: 4,
+            static: false,
+            level: 2,
+            id: `${id_prefix}emerald_to_speed_addon_tier_1`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 8 } },
+            output: { resource: { id: 'industrialforegoing:efficiency_addon_tier_1', count: 1 } },
+            maxStock: 4,
+            static: false,
+            level: 2,
+            id: `${id_prefix}emerald_to_efficiency_addon_tier_1`
+        },
+        {
+            input: { resource: { id: 'minecraft:emerald', count: 8 } },
+            output: { resource: { id: 'industrialforegoing:processing_addon_tier_1', count: 1 } },
+            maxStock: 4,
+            static: false,
+            level: 2,
+            id: `${id_prefix}emerald_to_processing_addon_tier_1`
         }
     ];
 

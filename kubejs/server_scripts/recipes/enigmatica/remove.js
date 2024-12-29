@@ -45,6 +45,9 @@ ServerEvents.recipes((event) => {
         { id: /modern_industrialization:compat\/ae2\/macerator\// },
         { id: /oritech:pulverizer\/dust\/(blaze|iron|copper|gold|nickel|platinum)/ },
         { id: /oritech:grinder\/dust\/(iron|copper|gold|nickel|platinum)/ },
+        { id: /modern_industrialization:petrochem\/distillation\/crued_oil/ },
+        { id: 'oritech:centrifuge/fluid/polymerresin' },
+        { id: 'oritech:centrifuge/fluid/fuel' },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },
