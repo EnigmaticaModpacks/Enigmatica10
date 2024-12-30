@@ -3,7 +3,7 @@ ServerEvents.tags('item', (event) => {
         ferricore: ['justdirethings:raw_ferricore'],
         blazegold: ['justdirethings:raw_blazegold'],
         eclipsealloy: ['justdirethings:raw_eclipsealloy'],
-        uranium: ['bigreactors:raw_yellorium'],
+        uranium: ['bigreactors:raw_yellorium', 'oritech:raw_uranium'],
 
         nickel: ['oritech:raw_nickel'],
         platinum: ['oritech:raw_platinum']

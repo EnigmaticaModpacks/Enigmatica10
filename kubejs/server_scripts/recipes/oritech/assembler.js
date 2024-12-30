@@ -4,13 +4,13 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'ae2:printed_silicon', count: 2 }],
             ingredients: [{ tag: 'c:silicon' }],
-            time: 300,
+            time: 160,
             id: `${id_prefix}printed_silicon`
         },
         {
             results: [{ id: 'ae2:printed_calculation_processor', count: 2 }],
             ingredients: [{ tag: 'c:gems/certus_quartz' }],
-            time: 300,
+            time: 160,
             id: `${id_prefix}printed_calculation_processor`
         },
         {
@@ -20,13 +20,13 @@ ServerEvents.recipes((event) => {
                 { item: 'ae2:printed_calculation_processor' },
                 { item: 'ae2:printed_silicon' }
             ],
-            time: 300,
+            time: 160,
             id: `${id_prefix}calculation_processor`
         },
         {
             results: [{ id: 'ae2:printed_logic_processor', count: 2 }],
             ingredients: [{ tag: 'c:ingots/gold' }],
-            time: 300,
+            time: 160,
             id: `${id_prefix}printed_logic_processor`
         },
         {
@@ -36,13 +36,13 @@ ServerEvents.recipes((event) => {
                 { item: 'ae2:printed_logic_processor' },
                 { item: 'ae2:printed_silicon' }
             ],
-            time: 300,
+            time: 160,
             id: `${id_prefix}logic_processor`
         },
         {
             results: [{ id: 'ae2:printed_engineering_processor', count: 2 }],
             ingredients: [{ tag: 'c:gems/diamond' }],
-            time: 300,
+            time: 160,
             id: `${id_prefix}printed_engineering_processor`
         },
         {
@@ -52,13 +52,13 @@ ServerEvents.recipes((event) => {
                 { item: 'ae2:printed_engineering_processor' },
                 { item: 'ae2:printed_silicon' }
             ],
-            time: 300,
+            time: 160,
             id: `${id_prefix}engineering_processor`
         },
         {
             results: [{ id: 'advanced_ae:printed_quantum_processor', count: 2 }],
             ingredients: [{ tag: 'c:ingots/quantum_alloy' }],
-            time: 300,
+            time: 160,
             id: `${id_prefix}printed_quantum_processor`
         },
         {
@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
                 { item: 'advanced_ae:printed_quantum_processor' },
                 { item: 'ae2:printed_silicon' }
             ],
-            time: 300,
+            time: 160,
             id: `${id_prefix}quantum_processor`
         },
         {
@@ -79,13 +79,13 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:gems/certus_quartz' },
                 { tag: 'c:gems/certus_quartz' }
             ],
-            time: 300,
+            time: 160,
             id: `${id_prefix}flawless_budding_quartz`
         },
         {
             results: [{ id: 'appflux:printed_energy_processor', count: 2 }],
             ingredients: [{ item: 'appflux:charged_redstone' }],
-            time: 300,
+            time: 160,
             id: `${id_prefix}printed_energy_processor`
         },
         {
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
                 { item: 'appflux:printed_energy_processor' },
                 { item: 'ae2:printed_silicon' }
             ],
-            time: 300,
+            time: 160,
             id: `${id_prefix}energy_processor`
         }
     ];

@@ -55,6 +55,8 @@ ServerEvents.recipes((event) => {
         { id: 'actuallyadditions:tagged_sticky_piston' },
         { id: 'bigreactors:crafting/raw_yellorium_component_to_storage' },
         { id: 'bigreactors:crafting/yellorium_component_to_storage' },
+        { id: 'bigreactors:crafting/blutonium_storage_to_component' },
+        { id: 'bigreactors:crafting/blutonium_component_to_storage' },
         { id: 'bigreactors:reactor/reinforced/fuelrod_ingots_yellorium' },
         { id: 'bigreactors:reactor/reinforced/controller_ingots_yellorium' },
         { id: 'bigreactors:reactor/basic/fuelrod_ingots_yellorium' },
