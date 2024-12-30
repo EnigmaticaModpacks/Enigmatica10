@@ -213,7 +213,7 @@
     catalystBaseSouls: 50,
     catalystRFPerSoul: 20,
     catalystCostMultiplier: 2,
-    catalystHyperMultiplier: 2,
+    catalystHyperMultiplier: 7,
     spawnerCostMultiplier: 1,
     maxGateDist: 10,
     bendFactor: 3,
