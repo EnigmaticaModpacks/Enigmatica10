@@ -201,6 +201,8 @@
     safeMode: true,
     safeModeCooldown: 2400,
     maxSize: 64,
+    reactorMaxEnergyStored: 50000000,
+    reactorMaxEnergyOutput: 50000,
     rfPerPulse: 64,
     absorberRate: 16,
     ventBaseRate: 4,
