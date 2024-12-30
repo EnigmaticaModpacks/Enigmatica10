@@ -201,7 +201,7 @@
     safeMode: true,
     safeModeCooldown: 2400,
     maxSize: 64,
-    rfPerPulse: 64,
+    rfPerPulse: 1024,
     absorberRate: 16,
     ventBaseRate: 4,
     ventRelativeRate: 100,

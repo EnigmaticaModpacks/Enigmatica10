@@ -63,12 +63,6 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:ingots/adamant' }],
             time: 120,
             id: `oritech:pulverizer/dust/adamant`
-        },
-        {
-            results: [{ id: AlmostUnified.getTagTargetItem(`c:raw_materials/uranium`).getId(), count: 2 }],
-            ingredients: [{ tag: 'c:ingots/adamant' }],
-            time: 180,
-            id: `oritech:pulverizer/dust/uranium`
         }
     ];
 
@@ -91,7 +85,8 @@ ServerEvents.recipes((event) => {
         { primary: 'iesnium', secondary: 'silver' },
         { primary: 'silver', secondary: 'lead' },
         { primary: 'nickel', secondary: 'platinum' },
-        { primary: 'tin', secondary: 'iron' }
+        { primary: 'tin', secondary: 'iron' },
+        { primary: 'uranium', secondary: 'plutonium' }
     ];
     materials.forEach((material) => {
         recipes.push(

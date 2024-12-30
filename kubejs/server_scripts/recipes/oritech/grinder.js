@@ -94,12 +94,22 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [
-                { id: AlmostUnified.getTagTargetItem(`c:raw_materials/uranium`).getId(), count: 3 },
-                { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/plutonium`).getId(), count: 1 }
+                { id: AlmostUnified.getTagTargetItem(`c:raw_materials/uranium`).getId(), count: 2 },
+                { id: AlmostUnified.getTagTargetItem(`c:raw_materials/lead`).getId(), count: 1 }
             ],
             ingredients: [{ tag: `c:ores/uranium` }],
             time: 120,
-            id: `oritech:grinder/dust/uraniumore`
+            id: `${id_prefix}ore_uranium`
+        },
+        {
+            results: [
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/uranium`).getId(), count: 2 },
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/uranium`).getId(), count: 1 },
+                { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/plutonium`).getId(), count: 6 }
+            ],
+            ingredients: [{ tag: `c:raw_materials/uranium` }],
+            time: 120,
+            id: `${id_prefix}raw_uranium`
         }
     ];
 
