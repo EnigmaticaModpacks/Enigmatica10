@@ -26,7 +26,8 @@ ServerEvents.tags('item', (event) => {
         'shrink:shrink_bottle',
         'enderio:crafter',
         'enderio:vacuum_chest',
-        'toolbelt:belt'
+        'toolbelt:belt',
+        'oritech:small_tank_block'
     ];
 
     let exclusions = [
