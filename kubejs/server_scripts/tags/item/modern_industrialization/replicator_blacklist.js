@@ -13,6 +13,7 @@ ServerEvents.tags('item', (event) => {
         /occultism:ritual_satchel_t\d/,
         /occultism:(soul|trinity)_gem/,
         /enderio:(pressurized_)?fluid_tank/,
+        /oritech:small_(tank|storage)_block/,
         'ae2:view_cell',
         'occultism:storage_controller',
         'mekanism:cardboard_box',
@@ -26,8 +27,7 @@ ServerEvents.tags('item', (event) => {
         'shrink:shrink_bottle',
         'enderio:crafter',
         'enderio:vacuum_chest',
-        'toolbelt:belt',
-        'oritech:small_tank_block'
+        'toolbelt:belt'
     ];
 
     let exclusions = [

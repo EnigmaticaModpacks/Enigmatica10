@@ -425,6 +425,21 @@
 		"&a🛈 Tip: Sneak Right-Click these tools to"
 		"&a    open their options menu."
 	]
+	quest.0CD74FE194111D3E.quest_desc: [
+		"The Nuclear Reactor is a massive free form multiblock structure used to generate power from Uranium or Plutonium. "
+		""
+		"The structure itself is comprised of a hollow rectangular prism of Reactor Walls up to 64 blocks long on any side. "
+		""
+		"The various Ports will be installed in this shell along with a Control Panel while the inside will be filled with Fuel Rods and Cooling structures. Empty spaces inside are permitted and have no negative impact on the structure."
+		""
+		"Controlling the Reactor and keeping it cool is critical. If it overheats it will shut down for an extended period of time.  A Reactor Redstone Port can be used to monitor the internal temperature and disable the Reactor if it overheats. Keeping this below a signal of 9 should keep the Reactor in the safe zone. "
+		""
+		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/processing/reactor/introduction\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Nuclear Reactor\",\"underlined\":true},\" page on their wiki, which does an excellent job of describing how this system works. \"]"
+		""
+		""
+		"&6⚠ Note: Meltdowns have been disabled!"
+	]
+	quest.0CD74FE194111D3E.title: "Nuclear Reactor"
 	quest.0D236C298CFF8365.quest_desc: [
 		"Teleporters are a wonderful way to get around your world, or even your base. "
 		""
@@ -564,6 +579,13 @@
 	quest.0EF0F6D0012FB59E.title: "Lava Factory"
 	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
+	quest.0F97525097FA4573.quest_desc: [
+		"Looking for a fun way to transport items from remote locations? Perhaps to get your ores back from a remote Bedrock Extractor?"
+		""
+		"Look no further than a Drone Port. "
+		""
+		"You’ll need one at each end and they must be linked together by using a Target Designator. Once linked, they’ll transport items one way from source to destination at regular intervals. "
+	]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
 	quest.0FE11A739BA3623E.quest_desc: [
@@ -2132,6 +2154,7 @@
 		""
 		"OriTech uses the standard FE energy produced by many tech mods, so feel free to create your power wherever you like. Or use the beautifully animated options provided by the mod itself!"
 	]
+	quest.3FFF6EF85443852C.title: "Power Generation"
 	quest.4068ABB6B3C24FEC.quest_desc: [
 		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
 		""
@@ -3628,6 +3651,11 @@
 		"By killing a Spirit in this way, you’ll obtain some Vengeance Essence."
 	]
 	quest.66BC8A8EB33B0677.title: "Vengeance Essence"
+	quest.66C2FBA12D91F642.quest_desc: [
+		"The Exo Suit is an unbreakable suit of powered armor which provides moderate protection, night vision, and speed increases. "
+		""
+		"Upgraded versions of the Chestplate are also available to add Elytra or Jetpack flight!"
+	]
 	quest.66DAC6EC4232C44A.quest_desc: [
 		"Fun-loving denizens of the deeps, Sirens live in warm oceans and will happily join your menagerie if you give them a Sea Pickle. "
 		""
@@ -4072,6 +4100,7 @@
 		""
 		"By setting up Tachyon Absorbers in the vicinity, those high energy particles may be absorbed and turned into useful energy. "
 	]
+	quest.72591AAEA1E6DE38.title: "Black Hole Power"
 	quest.72BD11ED57B26EA2.quest_desc: [
 		"Using the various Wild Summons, some very special materials may be obtained, including Pottery Sherds, Smithing Templates, and all the items shown above. "
 		""
@@ -4598,6 +4627,7 @@
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
+	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.10DFCCF8FA5D5505.title: "Aura Generators"
 	task.10E9A412419B679A.title: "Disabled"
@@ -4702,6 +4732,7 @@
 	task.676C8DE6C246D422.title: "AE Power"
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"
+	task.6985D977D46566CD.title: "Any Machine Core"
 	task.6A62841DDEADB7A6.title: "heat"
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6D1A048396918DF0.title: "Fluids"
