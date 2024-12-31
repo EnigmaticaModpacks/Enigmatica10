@@ -11,7 +11,11 @@ ServerEvents.generateData('after_mods', (event) => {
     //     tag: 'minecraft:planks'
     // }
     const default_mapping = {
-        0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
+        0: {
+            type: 'modonomicon:tag',
+            display: 'occultism:golden_sacrificial_bowl',
+            tag: '#occultism:center_sacrificial_bowl'
+        },
         1: { type: 'modonomicon:tag', tag: '#minecraft:candles' },
         2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
         3: { type: 'modonomicon:block', block: 'occultism:spirit_attuned_crystal' },
@@ -41,7 +45,11 @@ ServerEvents.generateData('after_mods', (event) => {
     };
 
     const wild_mapping = {
-        0: { type: 'modonomicon:block', block: 'occultism:golden_sacrificial_bowl' },
+        0: {
+            type: 'modonomicon:tag',
+            display: 'occultism:golden_sacrificial_bowl',
+            tag: '#occultism:center_sacrificial_bowl'
+        },
         W: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_white' },
         A: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_light_blue' },
         E: {

@@ -1,9 +1,11 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        nickel: ['oritech:small_nickel_dust'],
+        plutonium: ['oritech:small_plutonium_dust'],
         platinum: ['oritech:small_platinum_dust'],
-        iron: ['oritech:small_iron_dust'],
+        uranium: ['oritech:small_uranium_dust'],
+        nickel: ['oritech:small_nickel_dust'],
         copper: ['oritech:small_copper_dust'],
+        iron: ['oritech:small_iron_dust'],
         gold: ['oritech:small_gold_dust']
     };
 

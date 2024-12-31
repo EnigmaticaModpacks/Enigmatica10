@@ -86,6 +86,8 @@
 		"&6⚠ Note: This ritual requires you "
 		"&6    to 'use' or throw a Trident after "
 		"&6    triggering the ritual."
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.0200E313AEB3A08A.title: "Marid Binding Chalk"
 	quest.0227D9EC391788D6.quest_desc: [
@@ -126,6 +128,8 @@
 		"Infusion Rituals generally are used for confining a spirit into an object, thus granting that object special powers. "
 		""
 		"All of these Rituals will need Purple Chalk as a base."
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.036036EA25034BE8.title: "Infusion Rituals: Purple Chalk"
 	quest.03DFAA759B4E653E.quest_desc: [
@@ -219,6 +223,13 @@
 		""
 		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
 	]
+	quest.0842BA3FA770788D.quest_desc: [
+		"Had enough of building out more and more Crafting CPUs to handle your ever-growing base? Switch to a Quantum Computer instead!"
+		""
+		"The Quantum Computer Core effectively replaces all your Crafting CPUs by spawning new virtual CPUs whenever a new craft is requested, each with 256M Bytes of storage capacity and 8 co-processors. "
+		""
+		"And if that still isn’t enough for you, the Core may be incorporated into a larger multiblock which grants more storage and co-processing capabilities. "
+	]
 	quest.089E7173573C5A8E.quest_desc: [
 		"You’ll find at first, you’re not able to cast spells for very long before you need to resort to whacking things with a chunk of metal again. Improving your Max Mana will give you a large pool to spend before running dry. "
 		""
@@ -293,6 +304,8 @@
 		"&n                                                  &r"
 		""
 		"Summon a Wither and find a way to get it to kill some animals, such as Chickens and Pigs."
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.09E62BC1615D5B9B.title: "Black Chalk"
 	quest.09E7D266A7724F09.quest_desc: [
@@ -359,6 +372,13 @@
 		"&a    renewable source of dyes!"
 	]
 	quest.0B27453EDEC089EB.title: "Pigments"
+	quest.0B9350ECD4D5EA14.quest_desc: [
+		"The Iesnium Anvil largely replaces a standard Anvil."
+		""
+		"It is unbreakable and reduces the cost of repairing or combining items. "
+		""
+		"It may also combine enchantments up to one level higher than normal, allowing you to make Fortune IV or Protection V books!"
+	]
 	quest.0BA9F73FFBAAB6E7.quest_desc: [
 		"As in previous tiers, our efforts have opened up new technology, this time in the form of advanced computer components. "
 		""
@@ -405,6 +425,21 @@
 		"&a🛈 Tip: Sneak Right-Click these tools to"
 		"&a    open their options menu."
 	]
+	quest.0CD74FE194111D3E.quest_desc: [
+		"The Nuclear Reactor is a massive free form multiblock structure used to generate power from Uranium or Plutonium. "
+		""
+		"The structure itself is comprised of a hollow rectangular prism of Reactor Walls up to 64 blocks long on any side. "
+		""
+		"The various Ports will be installed in this shell along with a Control Panel while the inside will be filled with Fuel Rods and Cooling structures. Empty spaces inside are permitted and have no negative impact on the structure."
+		""
+		"Controlling the Reactor and keeping it cool is critical. If it overheats it will shut down for an extended period of time.  A Reactor Redstone Port can be used to monitor the internal temperature and disable the Reactor if it overheats. Keeping this below a signal of 9 should keep the Reactor in the safe zone. "
+		""
+		"[\"There are a lot of moving parts here, so be sure to check out the \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://moddedmc.org/en/project/oritech/docs/processing/reactor/introduction\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Nuclear Reactor\",\"underlined\":true},\" page on their wiki, which does an excellent job of describing how this system works. \"]"
+		""
+		""
+		"&6⚠ Note: Meltdowns have been disabled!"
+	]
+	quest.0CD74FE194111D3E.title: "Nuclear Reactor"
 	quest.0D236C298CFF8365.quest_desc: [
 		"Teleporters are a wonderful way to get around your world, or even your base. "
 		""
@@ -544,6 +579,13 @@
 	quest.0EF0F6D0012FB59E.title: "Lava Factory"
 	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
+	quest.0F97525097FA4573.quest_desc: [
+		"Looking for a fun way to transport items from remote locations? Perhaps to get your ores back from a remote Bedrock Extractor?"
+		""
+		"Look no further than a Drone Port. "
+		""
+		"You’ll need one at each end and they must be linked together by using a Target Designator. Once linked, they’ll transport items one way from source to destination at regular intervals. "
+	]
 	quest.0FCC51B49080984E.quest_desc: ["The following are various forms of fluid storage, from single block tanks to massive multi-block structures."]
 	quest.0FCC51B49080984E.title: "Bulk Fluid Storage"
 	quest.0FE11A739BA3623E.quest_desc: [
@@ -557,6 +599,11 @@
 		"Place the Target Pedestal in your work area and Right-Click it with the Quartz Sulfur."
 		""
 		"&a🛈 Tip: The Sulfur may be extracted again via Right-Click."
+	]
+	quest.10131A9E07C7CE9E.quest_desc: [
+		"Ever wished you could perform rituals instantly? "
+		""
+		"With an Eldritch Chalice installed in place of your Sacrificial Bowl, now you can!"
 	]
 	quest.10762E4BB7F187BE.quest_desc: [
 		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
@@ -1032,6 +1079,7 @@
 		""
 		"The possibilities are quite endless!"
 	]
+	quest.204FC8B3C340DF4F.quest_desc: ["With an Iesnium Sacrificial Bowl installed in your Pentacles, the rituals will be performed at an accelerated rate. Be sure to upgrade them as soon as you can!"]
 	quest.205B821B10C6AC75.quest_desc: [
 		"The Coercion Deriver is used to convert FE or EU to Fortron, the energy used by Modular Forcefields. "
 		""
@@ -1095,6 +1143,12 @@
 		"From items and fluids to power and gas, the mods shown here will help move it."
 	]
 	quest.2150EE8D0B1474CE.title: "Logistics"
+	quest.21A7F863BCFB2177.quest_desc: [
+		"The Quantum Armor set is a powerful set of armor that is integrated into your AE system to provide such benefits as auto-feeding from your system and automatically requesting crafts for blocks you select."
+		""
+		"Of course, the benefits don’t end there as you’ll be nearly unkillable in the suit, be able to jump higher, run faster, swim longer, and even fly with appropriate upgrades. "
+	]
+	quest.21A7F863BCFB2177.title: "Quantum Armor"
 	quest.21C1CAA38D040AC8.quest_desc: [
 		"Functional Storage is an expandable storage solution capable of holding all of your items and liquids. "
 		""
@@ -1206,6 +1260,8 @@
 		"&n                                                  &r"
 		""
 		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.253C97A20FD517DC.title: "Djinni Binding Chalk"
 	quest.25770E9DCA5B4B1F.quest_desc: [
@@ -1510,6 +1566,13 @@
 		""
 		"A Burning GemStone can absorb that damage, instead causing you to lose some hunger. "
 	]
+	quest.31CACA407D4ADCA5.quest_desc: [
+		"FE Storage Cells allow you to turn your AE system into a power substation, providing not just recipe components to machines, but also the power to run them."
+		""
+		"You’ll need at least one FE Storage Cell installed in an ME drive and an Interface with an Induction Card installed to receive energy from your power generators. "
+		""
+		"The stored energy may then be accessed through a Flux Accessor to power machines. A Pattern Provider may also have an Induction Card installed in it to provide power to the machine it’s attached to!"
+	]
 	quest.3202466CAE3744A9.quest_desc: [
 		"The manipulation of Spirits is an important part of being Evil. You’ll need some tools to interact with them, however."
 		""
@@ -1531,6 +1594,17 @@
 		"Though no small feat to obtain, Tier 4 Dimensional Storage Stabilizers are well worth the effort. "
 		""
 		"Be prepared for a lot of exploration to get a full set! We’ll get you started with an extra to call your own, however. "
+	]
+	quest.342FED2B0AC5F1B2.quest_desc: [
+		"Many Mekanism machines require some form of Chemical to perform recipes such as Redstone in Chemical form to create Infused Alloys. "
+		""
+		"While this material can be provided in item form, such as with Enriched Redstone, it can also be provided in the Chemical form to simplify interfacing with the machine. "
+		""
+		"After all, the Item needs to go in the Yellow Extra slot, whereas the Chemical form can be inserted on the same side as the rest of your ingredients."
+		""
+		"&a🛈 Tip: Enriched Redstone and other "
+		"&a    items can be converted to Chemical "
+		"&a    form in a Chemical Oxidizer."
 	]
 	quest.3456EED039818662.quest_desc: [
 		"The Quantum Bridge is a multiblock used for expanding your network cross-dimensionally. It consists of a ring of eight Quantum Rings and a Quantum Link Chamber set in the center."
@@ -1628,6 +1702,20 @@
 		""
 		"It can commonly be found by mining between &6Y 45&r and &6Y -25&r."
 	]
+	quest.385AA10772560191.quest_desc: [
+		""
+		"By crafting these three Chalks, you’ll be able to finally contact the most ancient of denizens from the Otherworld; Eldritch Spirits."
+		""
+		"Worry not, the price for such a feat is just your sanity. You weren’t using it anyway, right?"
+		""
+		"&6⚠ Note: These rituals may requires a"
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the required mob "
+		"&6    near the pentacle. "
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
+	]
+	quest.385AA10772560191.title: "Eldritch Compulsion"
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
 		""
@@ -2066,6 +2154,7 @@
 		""
 		"OriTech uses the standard FE energy produced by many tech mods, so feel free to create your power wherever you like. Or use the beautifully animated options provided by the mod itself!"
 	]
+	quest.3FFF6EF85443852C.title: "Power Generation"
 	quest.4068ABB6B3C24FEC.quest_desc: [
 		"Energy Laser Relays act as a wireless power conduit. Simply place them against the machines you wish to power, and one on your power generator, then link them all together with the Laser Wrench. "
 		""
@@ -2169,6 +2258,25 @@
 		"A more potent form of crushing, the Fragment Forge will largely replace a Pulverizer while simultaneously increasing yields on many products. "
 		""
 		"Attaching a Machine Yield Addon will also increase the amount of secondary outputs from this machine."
+	]
+	quest.415D9A877B172BBC.quest_desc: [
+		"An advanced form of Pattern Provider is made available through the Advanced AE addon. This Pattern Provider offers two key features."
+		""
+		" 1. It may be configured to insert items "
+		"    into specific sides of a machine. "
+		"    One item may go in one side while "
+		"    the res may go in through the top, "
+		"    for instance. This is achieved by "
+		"    using an Advanced Pattern Encoder "
+		"    to set the direction for each item."
+		""
+		" 2. It can hold more Patterns, 36 to"
+		"    be precise, but be warned that "
+		"    consolidating all patterns into a "
+		"    single machine is not always helpful. "
+		"    Often it’s best to spread recipes "
+		"    across multiple machines for the "
+		"    sake of parallel processing."
 	]
 	quest.41614A924E5556EE.quest_desc: [
 		"Welcome to Ars Nouveau!"
@@ -2342,6 +2450,11 @@
 		"Need more of this golden fluff? "
 		""
 		"Right-Click a pollenated bee with a Water Bucket, Water Bottle, or a Wet Sponge to obtain the pollen on its back. Maybe consider building a small farm using Just Dire Things to fully automate the process!"
+	]
+	quest.45B1C10885F542A7.quest_desc: [
+		"Item Storage Cells handle any type of item. You’ll likely want quite a few of these to handle everything you have. "
+		""
+		"Start small, you can always upgrade to large cells later!"
 	]
 	quest.4613FE560EAC7695.quest_desc: [
 		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
@@ -3234,6 +3347,18 @@
 		""
 		"&a🛈 Tip: Requires a clear view of the sky."
 	]
+	quest.5DF0502B194247F9.quest_desc: [
+		"Ever wanted to transfer Source around your base through your AE system? Perhaps you’d like more Source storage than Source Jars can easily accommodate? "
+		""
+		"Source Storage Cells are the answer. "
+		""
+		"By combining these with an ME Source Jar you can import and export Source anywhere you need it while storing vast amounts of the stuff in your system for future use. "
+		""
+		"&a🛈 Tip: Place an ME Source Jar nearby "
+		"&a    where Source is needed, then "
+		"&a    transport it with a Relay to a "
+		"&a    regular Source Jar for use. "
+	]
 	quest.5DF2A3E977D4C11B.quest_desc: [
 		"Welcome to Occultism, a mod all about summoning Spirits through Ritual Pentacles for personal gain."
 		""
@@ -3493,6 +3618,8 @@
 		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
 		""
 		"We’ll need it for summoning up some friends."
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.66A24B8817411BBC.title: "Basic Pentacles"
 	quest.66AE19141D8F5604.quest_desc: [
@@ -3524,6 +3651,11 @@
 		"By killing a Spirit in this way, you’ll obtain some Vengeance Essence."
 	]
 	quest.66BC8A8EB33B0677.title: "Vengeance Essence"
+	quest.66C2FBA12D91F642.quest_desc: [
+		"The Exo Suit is an unbreakable suit of powered armor which provides moderate protection, night vision, and speed increases. "
+		""
+		"Upgraded versions of the Chestplate are also available to add Elytra or Jetpack flight!"
+	]
 	quest.66DAC6EC4232C44A.quest_desc: [
 		"Fun-loving denizens of the deeps, Sirens live in warm oceans and will happily join your menagerie if you give them a Sea Pickle. "
 		""
@@ -3551,6 +3683,8 @@
 		"&6    sacrifice. Trigger the ritual as"
 		"&6    usual, then kill the required mob "
 		"&6    near the pentacle. "
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.67835A69ECDC692D.title: "Afrit Binding Chalk"
 	quest.679DACB985517C55.quest_desc: [
@@ -3741,6 +3875,20 @@
 		"&a    machines that run constantly. "
 		"&a    Process large batches to make "
 		"&a    the most of them."
+	]
+	quest.6B966E04149C5962.quest_desc: [
+		"Looking for a bit of creative freedom? Rainbow Chalk can replace any other chalk mark in a Pentacle, allowing you to set the colors the way you wish."
+		""
+		"By default, the chalk mark will cycle through all the colors. Right-Click it with a Spirit Attuned Gem to make it stop. Then set the desired color by Right-Clicking again with a dye of your choice. "
+		""
+		"Upgrading to Void Chalk allows you to skip the cycling step, but otherwise functions the same. "
+		""
+		"&6⚠ Note: This ritual requires a"
+		"&6    sacrifice. Trigger the ritual as"
+		"&6    usual, then kill the required mob "
+		"&6    near the pentacle. "
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.6BDA1C1BE04D541A.quest_desc: [
 		"Crafting a Dimensional Storage system is a multi-step process involving several rituals, but it is well worth the effort. "
@@ -3952,6 +4100,7 @@
 		""
 		"By setting up Tachyon Absorbers in the vicinity, those high energy particles may be absorbed and turned into useful energy. "
 	]
+	quest.72591AAEA1E6DE38.title: "Black Hole Power"
 	quest.72BD11ED57B26EA2.quest_desc: [
 		"Using the various Wild Summons, some very special materials may be obtained, including Pottery Sherds, Smithing Templates, and all the items shown above. "
 		""
@@ -4030,6 +4179,8 @@
 		"&n                                                  &r"
 		""
 		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a small sample of it."
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.73F9A5F65B350A09.title: "Possession Rituals: Golden Chalk"
 	quest.7431B398FFDF3DCA.quest_desc: [
@@ -4141,6 +4292,8 @@
 		"&n                                                  &r"
 		""
 		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
+		""
+		"&a🛈 Tip: Newly crafted Chalk don't break!"
 	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
@@ -4349,6 +4502,11 @@
 		""
 		"Build them a little home and be sure to provide them with plenty of fresh Sand or Gravel and they’ll while away their days sifting through it for obscure artifacts. "
 	]
+	quest.7BEC7AF0176EA162.quest_desc: [
+		"Fluid Storage Cells are often best used by locking their type in a Cell Workbench and dedicating a cell to each fluid you wish to store. "
+		""
+		"For fluids that may be generating endlessly, such as Lava or Water, an Overflow Destruction Card can be a handy way to keep your Interfaces from clogging as any excess will simply be voided."
+	]
 	quest.7BEE7FAD21AFEB68.quest_desc: [
 		"With Silicon and Aluminum from the EBF, Electronic Circuits and MV Electronics open up to us. "
 		""
@@ -4403,6 +4561,11 @@
 		"For a full rundown of how to use these devices, remember to consult the Book of Natural Aura!"
 	]
 	quest.7F829A1BFED304D0.title: "Natural Devices"
+	quest.7F8B4427A8FFC0B7.quest_desc: [
+		"Invulnerable and ready to fight, Iesnium Golems are much like their Iron counterparts. "
+		""
+		"These make an excellent addition to any mob farm as they’ll quickly dispatch any mobs that spawn. Alternatively, leave a few around your base to chase off any creatures that happen to wander in. "
+	]
 	quest.7FAC3A637F82BFED.quest_desc: [
 		"These floaty little witch friends can be tasked with automating standard 3x3 Crafting Table crafts, Potion Brewing, and even the Enchanting Apparatus. "
 		""
@@ -4446,6 +4609,7 @@
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
+	task.011E5EACB5A34253.title: "Rainbow and Void Chalks"
 	task.0164AF75B5EA3F49.title: "Fluid Tanks"
 	task.01BD7546106B0EB9.title: "Magical Shards"
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
@@ -4453,14 +4617,17 @@
 	task.02EFB7B55C020448.title: "Chemicals and Gas"
 	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
+	task.066938F7CBA7C454.title: "Advanced Pattern Provider"
 	task.069760235257E581.title: "String Curtains"
 	task.073DDF6031485D23.title: "Covered Cables"
 	task.0767C8200D0389A6.title: "Essences"
+	task.077608276B306F47.title: "Chemical Storage"
 	task.07D8961C49D02845.title: "Archwood Saplings"
 	task.0A88D092C4C370AC.title: "Observe: Possessed Drowned"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
+	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
 	task.10DFCCF8FA5D5505.title: "Aura Generators"
 	task.10E9A412419B679A.title: "Disabled"
@@ -4481,12 +4648,14 @@
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
+	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E4DEB3FEE0D15CD.title: "Any Sapling"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
+	task.2F80CC8DB5818C3B.title: "Possess Iesnium Golem"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.328C56BA23A70B8F.title: "Power"
 	task.3300E2246181D0F7.title: "Any Scroll"
@@ -4521,6 +4690,7 @@
 	task.47D22C2E34E9A099.title: "Sourcelinks"
 	task.484FF1BEA9145D5F.title: "Puller Modules"
 	task.488180E25D5B815A.title: "Anti-Fields"
+	task.4927D2345C71AAA4.title: "Fluid Storage"
 	task.49C1EEBEED453B1C.title: "Mechanical Pipes"
 	task.4A93D708610D3523.title: "Kaleidite Tools"
 	task.4AAAB62A26960EFE.title: "Fluid Pipes"
@@ -4540,6 +4710,7 @@
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"
+	task.582472ED7BA0A212.title: "Item Storage"
 	task.5A1331B9ED5EB1BF.title: "Basic Tokens"
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
@@ -4561,6 +4732,7 @@
 	task.676C8DE6C246D422.title: "AE Power"
 	task.68EB8FBB7D914369.title: "Bee Treats"
 	task.695AC45D6E273032.title: "Energy Cells"
+	task.6985D977D46566CD.title: "Any Machine Core"
 	task.6A62841DDEADB7A6.title: "heat"
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6D1A048396918DF0.title: "Fluids"
@@ -4572,6 +4744,7 @@
 	task.73C57E2AF9A1F920.title: "Any Chipped Tool"
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
+	task.7431A946D23EA21C.title: "FE Storage"
 	task.75050C1ED68FA527.title: "Building Gadgets"
 	task.75934726B8EC6FC8.title: "Ritual Tablets"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"

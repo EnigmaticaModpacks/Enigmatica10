@@ -39,6 +39,30 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:sandstone/red_blocks' }],
             time: 180,
             id: `oritech:pulverizer/dust/red_sand`
+        },
+        {
+            results: [{ id: 'oritech:biosteel_dust', count: 1 }],
+            ingredients: [{ tag: 'c:ingots/biosteel' }],
+            time: 120,
+            id: `oritech:pulverizer/dust/biosteel`
+        },
+        {
+            results: [{ id: 'oritech:duratium_dust', count: 1 }],
+            ingredients: [{ tag: 'c:ingots/duratium' }],
+            time: 120,
+            id: `oritech:pulverizer/dust/duratium`
+        },
+        {
+            results: [{ id: 'oritech:energite_dust', count: 1 }],
+            ingredients: [{ tag: 'c:ingots/energite' }],
+            time: 120,
+            id: `oritech:pulverizer/dust/energite`
+        },
+        {
+            results: [{ id: 'oritech:adamant_dust', count: 1 }],
+            ingredients: [{ tag: 'c:ingots/adamant' }],
+            time: 120,
+            id: `oritech:pulverizer/dust/adamant`
         }
     ];
 
@@ -62,7 +86,7 @@ ServerEvents.recipes((event) => {
         { primary: 'silver', secondary: 'lead' },
         { primary: 'nickel', secondary: 'platinum' },
         { primary: 'tin', secondary: 'iron' },
-        { primary: 'uranium', secondary: 'lead' }
+        { primary: 'uranium', secondary: 'plutonium' }
     ];
     materials.forEach((material) => {
         recipes.push(

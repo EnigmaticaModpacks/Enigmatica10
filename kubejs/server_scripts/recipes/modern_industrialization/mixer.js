@@ -257,6 +257,17 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    ae_washables.forEach((washable) => {
+        recipes.push({
+            item_inputs: [{ tag: `ae2:${washable}_cable`, amount: 1 }],
+            fluid_inputs: [{ fluid: 'minecraft:water', amount: 100 }],
+            item_outputs: [{ item: `ae2:fluix_${washable}_cable`, amount: 1 }],
+            duration: 100,
+            eu: 2,
+            id: `${id_prefix}fluix_${washable}_cable_washing`
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'modern_industrialization:mixer';
         event.custom(recipe).id(recipe.id);

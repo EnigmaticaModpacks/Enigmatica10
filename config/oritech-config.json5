@@ -2,7 +2,7 @@
     processingMachines: {
         machineFrameMaxLength: 64,
         assemblerData: {
-            energyCapacity: 10000,
+            energyCapacity: 50000,
             maxEnergyInsertion: 1024,
             maxEnergyExtraction: 0,
             energyPerTick: 128
@@ -20,13 +20,19 @@
             tankSizeInBuckets: 8
         },
         foundryData: {
-            energyCapacity: 10000,
+            energyCapacity: 50000,
             maxEnergyInsertion: 1024,
             maxEnergyExtraction: 0,
             energyPerTick: 128
         },
+        coolerData: {
+            energyCapacity: 50000,
+            maxEnergyInsertion: 256,
+            maxEnergyExtraction: 0,
+            energyPerTick: 32
+        },
         fragmentForgeData: {
-            energyCapacity: 10000,
+            energyCapacity: 50000,
             maxEnergyInsertion: 2048,
             maxEnergyExtraction: 0,
             energyPerTick: 256
@@ -38,7 +44,7 @@
             speedMultiplier: 0.5
         },
         pulverizerData: {
-            energyCapacity: 10000,
+            energyCapacity: 25000,
             maxEnergyInsertion: 256,
             maxEnergyExtraction: 0,
             energyPerTick: 32
@@ -50,19 +56,19 @@
         basicGeneratorData: {
             energyCapacity: 50000,
             maxEnergyInsertion: 0,
-            maxEnergyExtraction: 512,
+            maxEnergyExtraction: 256,
             energyPerTick: 32
         },
         bioGeneratorData: {
             energyCapacity: 100000,
             maxEnergyInsertion: 0,
-            maxEnergyExtraction: 1024,
+            maxEnergyExtraction: 512,
             energyPerTick: 64
         },
         lavaGeneratorData: {
             energyCapacity: 100000,
             maxEnergyInsertion: 0,
-            maxEnergyExtraction: 1024,
+            maxEnergyExtraction: 512,
             energyPerTick: 64
         },
         fuelGeneratorData: {
@@ -80,13 +86,13 @@
         solarGeneratorData: {
             energyCapacity: 100000,
             maxEnergyInsertion: 0,
-            maxEnergyExtraction: 1024,
+            maxEnergyExtraction: 256,
             energyPerTick: 32
         }
     },
     laserArmConfig: {
         energyCapacity: 20000,
-        maxEnergyInsertion: 512,
+        maxEnergyInsertion: 1024,
         energyPerTick: 128,
         blockBreakEnergyBase: 1024,
         damageTickBase: 2.0,
@@ -118,14 +124,14 @@
     },
     smallEnergyStorage: {
         energyCapacity: 1000000,
-        maxEnergyInsertion: 1000,
-        maxEnergyExtraction: 1000,
+        maxEnergyInsertion: 5000,
+        maxEnergyExtraction: 5000,
         energyPerTick: 0
     },
     largeEnergyStorage: {
         energyCapacity: 20000000,
-        maxEnergyInsertion: 5000,
-        maxEnergyExtraction: 5000,
+        maxEnergyInsertion: 10000,
+        maxEnergyExtraction: 10000,
         energyPerTick: 0
     },
     portableTankCapacityBuckets: 256,
@@ -192,11 +198,22 @@
     },
     generateOres: true,
     easyFindFeatures: true,
+    safeMode: true,
+    safeModeCooldown: 2400,
+    maxSize: 64,
+    reactorMaxEnergyStored: 50000000,
+    reactorMaxEnergyOutput: 50000,
+    rfPerPulse: 64,
+    absorberRate: 16,
+    ventBaseRate: 4,
+    ventRelativeRate: 100,
+    maxHeat: 2000,
+    maxUnstableTicks: 400,
     enchanterCostMultiplier: 5,
     catalystBaseSouls: 50,
     catalystRFPerSoul: 20,
     catalystCostMultiplier: 2,
-    catalystHyperMultiplier: 2,
+    catalystHyperMultiplier: 7,
     spawnerCostMultiplier: 1,
     maxGateDist: 10,
     bendFactor: 3,

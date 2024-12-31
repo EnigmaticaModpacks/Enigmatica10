@@ -1,0 +1,2 @@
+#Enable random raids around players similar at how phantoms spawn
+ENABLE_RANDOM_RAIDS = false

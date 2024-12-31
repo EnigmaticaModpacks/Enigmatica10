@@ -4,13 +4,13 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'oritech:carbon_fibre_strands', count: 1 }],
             ingredients: [{ tag: 'c:dusts/charcoal' }],
-            time: 150,
+            time: 100,
             id: `${id_prefix}carbon_fibre_strands_from_charcoal`
         },
         {
             results: [{ id: 'oritech:carbon_fibre_strands', count: 1 }],
             ingredients: [{ tag: 'c:dusts/lignite_coal' }],
-            time: 150,
+            time: 100,
             id: `${id_prefix}carbon_fibre_strands_from_lignite_coal`
         }
     ];
