@@ -20,12 +20,69 @@ ServerEvents.generateData('after_mods', (event) => {
         2: { type: 'modonomicon:block', block: 'minecraft:skeleton_skull' },
         3: { type: 'modonomicon:block', block: 'occultism:spirit_attuned_crystal' },
         4: { type: 'modonomicon:block', block: 'minecraft:wither_skeleton_skull' },
-        Y: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_gold' },
-        X: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_purple' },
-        L: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_lime' },
-        O: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_orange' },
-        R: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_red' },
-        U: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_blue' },
+        5: { type: 'modonomicon:block', block: 'minecraft:sculk_catalyst' },
+        6: { type: 'modonomicon:block', block: 'minecraft:sculk' },
+        7: { type: 'modonomicon:block', block: 'minecraft:sculk_shrieker' },
+        8: { type: 'modonomicon:block', block: 'minecraft:sculk_sensor' },
+        Y: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_gold',
+            tag: '#occultism:glyphs_yellow'
+        },
+        X: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_purple',
+            tag: '#occultism:glyphs_purple'
+        },
+        L: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_lime',
+            tag: '#occultism:glyphs_lime'
+        },
+        O: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_orange',
+            tag: '#occultism:glyphs_orange'
+        },
+        R: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_red',
+            tag: '#occultism:glyphs_red'
+        },
+        U: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_blue',
+            tag: '#occultism:glyphs_blue'
+        },
+        A: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_light_blue',
+            tag: '#occultism:glyphs_light_blue'
+        },
+        E: {
+            type: 'modonomicon:block',
+            block: 'occultism:chalk_glyph_green'
+        },
+        P: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_pink',
+            tag: '#occultism:glyphs_pink'
+        },
+        N: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_brown',
+            tag: '#occultism:glyphs_brown'
+        },
+        C: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_cyan',
+            tag: '#occultism:glyphs_cyan'
+        },
+        M: {
+            type: 'modonomicon:tag',
+            display: 'occultism:chalk_glyph_magenta',
+            tag: '#occultism:glyphs_magenta'
+        },
         W: {
             type: 'modonomicon:tag',
             tag: '#occultism:foundation_glyphs_any',
@@ -41,32 +98,11 @@ ServerEvents.generateData('after_mods', (event) => {
             tag: '#occultism:foundation_glyphs_dark',
             display: 'occultism:chalk_glyph_gray'
         },
-        B: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_black' }
-    };
-
-    const wild_mapping = {
-        0: {
+        B: {
             type: 'modonomicon:tag',
-            display: 'occultism:golden_sacrificial_bowl',
-            tag: '#occultism:center_sacrificial_bowl'
-        },
-        W: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_white' },
-        A: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_light_blue' },
-        E: {
-            type: 'modonomicon:block',
-            block: 'occultism:chalk_glyph_green'
-        },
-        P: {
-            type: 'modonomicon:block',
-            block: 'occultism:chalk_glyph_pink'
-        },
-        N: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_brown' },
-        C: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_cyan' },
-        M: { type: 'modonomicon:block', block: 'occultism:chalk_glyph_magenta' },
-        5: { type: 'modonomicon:block', block: 'minecraft:sculk_catalyst' },
-        6: { type: 'modonomicon:block', block: 'minecraft:sculk' },
-        7: { type: 'modonomicon:block', block: 'minecraft:sculk_shrieker' },
-        8: { type: 'modonomicon:block', block: 'minecraft:sculk_sensor' }
+            display: 'occultism:chalk_glyph_black',
+            tag: '#occultism:glyphs_black'
+        }
     };
 
     let pentacles = [
@@ -498,7 +534,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'resurrect_spirit',
             override: true,
-            mapping: wild_mapping,
+            mapping: default_mapping,
             pattern: [
                 [
                     '___________________',
@@ -526,7 +562,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'contact_wild_spirit',
             override: true,
-            mapping: wild_mapping,
+            mapping: default_mapping,
             pattern: [
                 [
                     '___A___________A___',
@@ -554,7 +590,7 @@ ServerEvents.generateData('after_mods', (event) => {
         {
             name: 'contact_eldritch_spirit',
             override: true,
-            mapping: wild_mapping,
+            mapping: default_mapping,
             pattern: [
                 [
                     '___________________',
