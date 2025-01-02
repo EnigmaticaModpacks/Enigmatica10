@@ -157,11 +157,11 @@
 				item: { count: 1, id: "oritech:fragment_forge_block" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["20A3EA274A706343"]
+			dependencies: ["3FFF6EF85443852C"]
 			id: "2F28FE62872496C8"
 			rewards: [{
 				id: "64E82CEFB832E8C1"
@@ -176,8 +176,8 @@
 				item: { count: 1, id: "oritech:big_solar_panel_block" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3FFF6EF85443852C"]
@@ -206,8 +206,8 @@
 				item: { count: 1, id: "oritech:fuel_generator_block" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5DD76DB5C6220F40"]
@@ -223,8 +223,8 @@
 				item: { count: 1, id: "oritech:assembler_block" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -253,8 +253,8 @@
 				item: { count: 1, id: "oritech:laser_arm_block" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["75765D97E7ACC6FC"]
@@ -281,7 +281,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3B77FB0A8CFAAB97"]
@@ -297,7 +297,7 @@
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.5d
 			y: 5.5d
 		}
 		{
@@ -314,11 +314,11 @@
 				item: { count: 1, id: "oritech:deep_drill_block" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["03405336161EF1B5"]
+			dependencies: ["75765D97E7ACC6FC"]
 			id: "3FF8D40CD4CB33BB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -338,11 +338,11 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 3.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["4F19A0AECC129216"]
+			dependencies: ["685AA2A5C0C2C796"]
 			icon: {
 				id: "oritech:accelerator_controller"
 			}
@@ -383,7 +383,10 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["690FB1A43ED247CF"]
+			dependencies: [
+				"690FB1A43ED247CF"
+				"3FFF6EF85443852C"
+			]
 			id: "72591AAEA1E6DE38"
 			rewards: [{
 				count: 4
@@ -404,8 +407,172 @@
 				to_observe: "oritech:black_hole_block"
 				type: "observation"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3FFF6EF85443852C"]
+			icon: {
+				id: "oritech:reactor_controller"
+			}
+			id: "0CD74FE194111D3E"
+			rewards: [
+				{
+					count: 4
+					id: "24E7FC4CB08D03FA"
+					item: {
+						count: 1
+						id: "oritech:plutonium_pellet"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "108B8B4F162F44BC"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "293BB4009A1210EA"
+					item: { count: 1, id: "oritech:reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "0DB5297239EECEC9"
+					item: { components: { "ftbfiltersystem:filter": "or(item(oritech:reactor_rod)item(oritech:reactor_double_rod)item(oritech:reactor_quad_rod))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5524F2ED8C79A10F"
+					item: { count: 1, id: "oritech:reactor_fuel_port" }
+					type: "item"
+				}
+				{
+					id: "37963156BF60F5E0"
+					item: { count: 1, id: "oritech:reactor_condenser" }
+					type: "item"
+				}
+				{
+					id: "5A86C8BDB968E7B2"
+					item: { count: 1, id: "oritech:reactor_absorber_port" }
+					type: "item"
+				}
+				{
+					id: "50026E53569AF4A7"
+					item: { count: 1, id: "oritech:reactor_vent" }
+					type: "item"
+				}
+				{
+					id: "36C1BE7E18CAC8C5"
+					item: { count: 1, id: "oritech:reactor_reflector" }
+					type: "item"
+				}
+				{
+					id: "7F48FAEBDDD8F273"
+					item: { count: 1, id: "oritech:reactor_heat_pipe" }
+					type: "item"
+				}
+				{
+					id: "433E6307752B33FC"
+					item: { count: 1, id: "oritech:reactor_energy_port" }
+					type: "item"
+				}
+				{
+					id: "47ED3115CF08FA29"
+					item: { count: 1, id: "oritech:reactor_redstone_port" }
+					type: "item"
+				}
+				{
+					id: "1F26A5DC1A1E18F3"
+					item: { count: 1, id: "oritech:reactor_wall" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F19A0AECC129216"]
+			icon: {
+				id: "oritech:drone_port_block"
+			}
+			id: "0F97525097FA4573"
+			rewards: [
+				{
+					id: "4076594B1A9A2DEF"
+					item: {
+						count: 1
+						id: "oritech:drone_port_block"
+					}
+					type: "item"
+				}
+				{
+					count: 11
+					id: "65E34227DC327346"
+					item: {
+						count: 1
+						id: "oritech:machine_core_3"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F619880EB21FF70"
+					item: { count: 1, id: "oritech:drone_port_block" }
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "6985D977D46566CD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(oritech:machine_cores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["75765D97E7ACC6FC"]
+			icon: {
+				id: "oritech:exo_chestplate"
+			}
+			id: "66C2FBA12D91F642"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74EA8233178C4A4E"
+				table_id: 3480305820603047814L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "504D379255A4E578"
+					item: { count: 1, id: "oritech:exo_helmet" }
+					type: "item"
+				}
+				{
+					id: "25A3E7B85F5E15C9"
+					item: { count: 1, id: "oritech:exo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "277C71A4ABCBEF62"
+					item: { count: 1, id: "oritech:exo_leggings" }
+					type: "item"
+				}
+				{
+					id: "5E0CF6F60486829C"
+					item: { count: 1, id: "oritech:exo_boots" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
 		}
 	]
 }

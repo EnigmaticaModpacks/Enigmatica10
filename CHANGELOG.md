@@ -5,6 +5,11 @@
 -   Occultism quests now mention how to fortune Iesnium [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
 -   Occultism quests no longer promote chalk repair since it is unbreakable [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
 -   Royal Jelly is now more costly to craft [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
+-   Add new washing recipes for fluix cables [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Crude Oil has been unified [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Update UU replication blacklist [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Update Occultism quests [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Update AE2 quests [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 
 #### 🦟 Bugs Fixed
 
@@ -13,6 +18,7 @@
 -   Fix MI JDT fuel compat recipes [(\#310)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/310)
 -   Fix typo in MI quests [(\#312)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/312)
 -   Remove now redundant tooltips from Iron's equipment [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
+-   Combiner ore dupe loop has been closed [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 
 ---
 

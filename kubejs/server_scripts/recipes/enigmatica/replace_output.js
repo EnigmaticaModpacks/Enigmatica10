@@ -17,6 +17,11 @@ ServerEvents.recipes((event) => {
             filter: [{ type: 'occultism:spirit_fire' }],
             to_replace: `occultism:chalk_gold`,
             replace_with: `occultism:chalk_gold[unbreakable={}]`
+        },
+        {
+            filter: [{ type: 'occultism:ritual' }],
+            to_replace: `occultism:chalk_void`,
+            replace_with: `occultism:chalk_void[unbreakable={}]`
         }
     ];
 

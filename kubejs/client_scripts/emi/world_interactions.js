@@ -84,7 +84,12 @@ ClientEvents.generateAssets('before_mods', (event) => {
         },
         {
             left: 'item:minecraft:cauldron',
-            right: 'item:ars_nouveau:wixie_charm',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:wixie_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                amount: 1
+            },
             output: {
                 type: 'item',
                 id: 'ars_nouveau:wixie_cauldron',
@@ -93,24 +98,79 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'ars_nouveau:wixie_cauldron'
         },
         {
-            left: 'item:farmersdelight:cooking_pot',
-            right: 'item:ars_nouveau:wixie_charm',
-            output: {
+            left: 'item:ars_nouveau:enchanting_apparatus',
+            right: {
                 type: 'item',
-                id: 'starbunclemania:cooking_pot_wixie_cauldron',
+                id: 'ars_nouveau:wixie_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
                 amount: 1
             },
-            id: 'ars_nouveau:cooking_pot_wixie_cauldron'
-        },
-        {
-            left: 'item:ars_nouveau:enchanting_apparatus',
-            right: 'item:ars_nouveau:wixie_charm',
             output: {
                 type: 'item',
                 id: 'ars_additions:enchanting_wixie_cauldron',
                 amount: 1
             },
             id: 'ars_additions:enchanting_wixie_cauldron'
+        },
+        {
+            left: 'item:farmersdelight:cooking_pot',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:wixie_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'starbunclemania:cooking_pot_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:cooking_pot_wixie_cauldron'
+        },
+        {
+            left: 'item:minecraft:furnace',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:wixie_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'starbunclemania:smelting_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:smelting_wixie_cauldron'
+        },
+        {
+            left: 'item:minecraft:stonecutter',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:wixie_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'starbunclemania:stonecutting_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:stonecutting_wixie_cauldron'
+        },
+        {
+            left: 'item:farmersdelight:cutting_board',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:wixie_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'starbunclemania:cutting_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:cutting_wixie_cauldron'
         },
         {
             left: 'item:minecraft:mossy_cobblestone',

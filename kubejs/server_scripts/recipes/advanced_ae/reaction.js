@@ -3,6 +3,16 @@ ServerEvents.recipes((event) => {
 
     const recipes = [];
 
+    ae_washables.forEach((washable) => {
+        recipes.push({
+            input_items: [{ ingredient: { tag: `ae2:${washable}_cable` }, amount: 8 }],
+            input_fluid: { ingredient: { fluid: 'minecraft:water' }, amount: 1000 },
+            input_energy: 1000,
+            output: { id: `ae2:fluix_${washable}_cable`, '#': 8, '#t': 'ae2:i' },
+            id: `${id_prefix}fluix_${washable}_cable_washing`
+        });
+    });
+
     event.forEachRecipe({ type: 'advanced_ae:reaction' }, (r) => {
         let recipe = JSON.parse(r.json);
         let recipe_id = r.getId();
