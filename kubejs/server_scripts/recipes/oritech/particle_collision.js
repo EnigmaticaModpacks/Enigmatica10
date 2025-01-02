@@ -4,13 +4,13 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'ae2:singularity', count: 1 }],
             ingredients: [{ item: 'oritech:overcharged_crystal' }, { item: 'ae2:matter_ball' }],
-            time: 30000,
+            time: 15000,
             id: `${id_prefix}singularity`
         },
         {
             results: [{ id: 'mekanism:pellet_antimatter', count: 1 }],
             ingredients: [{ item: 'minecraft:dragon_egg' }, { item: 'ae2:singularity' }],
-            time: 30000,
+            time: 15000,
             id: `${id_prefix}pellet_antimatter`
         },
         {
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ id: 'the_bumblezone:royal_jelly_bottle', count: 1 }],
             ingredients: [{ item: 'minecraft:honey_bottle' }, { item: 'irons_spellbooks:arcane_essence' }],
-            time: 30000,
+            time: 15000,
             id: `${id_prefix}royal_jelly_bottle`
         },
         {
