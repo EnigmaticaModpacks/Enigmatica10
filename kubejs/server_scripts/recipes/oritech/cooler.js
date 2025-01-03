@@ -2,14 +2,6 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/cooler/';
     const recipes = [
         {
-            fluidInputVariant: 'oritech:still_steam',
-            fluidInputAmount: 81000,
-            ingredients: [],
-            results: [{ id: 'minecraft:snow_block', count: 3 }],
-            time: 200,
-            id: `${id_prefix}snow_block`
-        },
-        {
             fluidInputVariant: 'pneumaticcraft:plastic',
             fluidInputAmount: 81000,
             ingredients: [],
