@@ -49,6 +49,8 @@ ServerEvents.recipes((event) => {
         { id: /modern_industrialization:petrochem\/distillation\/crued_oil/ },
         { id: 'oritech:centrifuge/fluid/polymerresin' },
         { id: 'oritech:centrifuge/fluid/fuel' },
+        { id: 'oritech:grinder/dust/sand_from_sandstone' },
+        { id: 'oritech:grinder/dust/red_sand' },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },
