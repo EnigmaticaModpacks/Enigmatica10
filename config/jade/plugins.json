@@ -1,4 +1,7 @@
 {
+  "replication": {
+    "matter_tank": true
+  },
   "framedblocks": {
     "framed_item_frame": true,
     "framed_block_generic": true
@@ -91,9 +94,15 @@
     "block_properties": false,
     "mod_name": true
   },
+  "apotheosis": {
+    "adventure": true
+  },
   "modern_industrialization": {
     "overclock": true,
     "pipe": true
+  },
+  "apothic_enchanting": {
+    "ench": true
   },
   "functionalstorage": {
     "drawer": true
@@ -122,6 +131,9 @@
     "fluid": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "waystones": {
     "waystone": true

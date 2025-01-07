@@ -11,6 +11,8 @@
   "ae2:part_tooltip": null,
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
+  "apotheosis:adventure": null,
+  "apothic_enchanting:ench": null,
   "apothic_spawners:spawner": null,
   "ars_nouveau:mob_jar": null,
   "cookingforblockheads:fridge": null,
@@ -98,6 +100,10 @@
   "pneumaticcraft:redstone": null,
   "pneumaticcraft:semiblock": null,
   "pneumaticcraft:tube_module": null,
+  "replication:matter_tank": null,
+  "supplementaries:hat_stand": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
   "theurgy:mercury_flux": null,
   "waystones:waystone": null
 }
