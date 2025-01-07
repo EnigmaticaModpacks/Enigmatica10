@@ -43,7 +43,10 @@ ServerEvents.tags('block', (event) => {
         biomass: ['oritech:biomass_block'],
         plastic: ['oritech:plastic_block'],
         fluxite: ['oritech:fluxite_block'],
-        silicon: ['oritech:silicon_block']
+        silicon: ['oritech:silicon_block'],
+
+        replica: ['replication:replica_block'],
+        raw_replica: ['replication:raw_replica_block']
     };
 
     Object.keys(additions).forEach((tag) => {

@@ -1,6 +1,8 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        uranium: ['oritech:deepslate_uranium_ore']
+        uranium: ['oritech:deepslate_uranium_ore'],
+
+        replica: ['replication:deepslate_replica_ore']
     };
 
     Object.keys(additions).forEach((tag) => {
