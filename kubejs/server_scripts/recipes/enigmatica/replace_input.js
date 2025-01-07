@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
             to_replace: '#c:gems/diamond',
             replace_with: Ingredient.of([
                 '#evilcraft:gems/dark_power',
-                '#c:gems/source',
+                '#c:essences/manipulation',
                 '#c:ingots/arcane',
                 '#c:ingots/infused_iron'
             ])
