@@ -99,6 +99,27 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'oritech' }],
             to_replace: '#c:ingots/steel',
             replace_with: Ingredient.of(['#c:ingots/steel', '#c:ingots/biosteel'])
+        },
+        {
+            filter: [{ id: `replication:replicator` }],
+            to_replace: '#c:dusts/redstone',
+            replace_with: Ingredient.of([
+                'pneumaticcraft:printed_circuit_board',
+                'oritech:processing_unit',
+                '#c:circuits/ultimate',
+                'modern_industrialization:analog_circuit',
+                'enderio:z_logic_controller'
+            ])
+        },
+        {
+            filter: [{ id: `theurgy:crafting/shaped/reformation_target_pedestal` }],
+            to_replace: '#c:gems/diamond',
+            replace_with: Ingredient.of([
+                '#evilcraft:gems/dark_power',
+                '#c:essences/manipulation',
+                '#c:ingots/arcane',
+                '#c:ingots/infused_iron'
+            ])
         }
     ];
 

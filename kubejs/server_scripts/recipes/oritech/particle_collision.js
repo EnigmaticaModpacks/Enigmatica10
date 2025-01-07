@@ -36,6 +36,12 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:nuggets/neptunium' }, { item: 'minecraft:obsidian' }],
             time: 500,
             id: `${id_prefix}crying_obsidian`
+        },
+        {
+            results: [{ id: 'replication:raw_replica', count: 2 }],
+            ingredients: [{ tag: 'c:raw_materials/uraninite' }, { tag: 'c:raw_materials/tungsten' }],
+            time: 5000,
+            id: `${id_prefix}raw_replica`
         }
     ];
 
