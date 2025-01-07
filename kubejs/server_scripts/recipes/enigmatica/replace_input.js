@@ -107,7 +107,8 @@ ServerEvents.recipes((event) => {
                 'pneumaticcraft:printed_circuit_board',
                 'oritech:processing_unit',
                 '#c:circuits/ultimate',
-                'modern_industrialization:analog_circuit'
+                'modern_industrialization:analog_circuit',
+                'enderio:z_logic_controller'
             ])
         },
         {
