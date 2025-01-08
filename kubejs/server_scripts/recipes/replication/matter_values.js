@@ -399,7 +399,9 @@ ServerEvents.recipes((event) => {
         'deeperdarker:sculk_tendrils',
         'deeperdarker:sculk_vines',
         'deeperdarker:ice_lily',
-        'ars_nouveau:magebloom'
+        'ars_nouveau:magebloom',
+        'deeperdarker:blooming_moss_block',
+        'deeperdarker:sculk_gleam'
     ];
 
     basic_plant_materials.forEach((basic_plant_material) => {
