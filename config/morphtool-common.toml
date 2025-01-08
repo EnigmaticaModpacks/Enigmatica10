@@ -1,0 +1,6 @@
+allow_all_items = false
+offhand_morph = false
+whitelist_items = ["botania:twig_wand", "appliedenergistics2:network_tool", "immersiveengineering:tool", "buildersguides:mallet", "environmentaltech:tool_multiblock_assembler", "bloodmagic:ritual_reader", "draconicevolution:crystal_binder", "crossroads:omnimeter"]
+whitelist_names = ["wrench", "screwdriver", "hammer", "rotator", "configurator", "crowbar"]
+blacklist_mods = ["tconstruct", "intangible"]
+mod_aliasses = ["nautralpledge=botania", "thermalexpansion=thermalfoundation", "thermaldynamics=thermalfoundation", "thermalcultivation=thermalfoundation", "redstonearsenal=thermalfoundation", "rftoolsdim=rftools", "rftoolspower=rftools", "rftoolscontrol=rftools", "ae2stuff=appliedenergistics2", "animus=bloodmagic", "integrateddynamics=integratedtunnels", "mekanismgenerators=mekanism", "mekanismtools=mekanism", "deepresonance=rftools", "xnet=rftools", "buildcrafttransport=buildcraft", "buildcraftfactory=buildcraft", "buildcraftsilicon=buildcraft", "cabletiers=refinedstorage", "extrastorage=refinedstorage"]
