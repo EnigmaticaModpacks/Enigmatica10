@@ -27,6 +27,16 @@ ServerEvents.recipes((event) => {
             filter: [{ mod: 'akashictome' }],
             to_replace: `akashictome:tome`,
             replace_with: `akashictome:tome[akashictome:tool_content=${JSON.stringify(akashic_tomes)}]`
+        },
+        {
+            filter: [{ mod: 'morphtool' }],
+            to_replace: `morphtool:tool`,
+            replace_with: `morphtool:tool[morphtool:tool_content=${JSON.stringify(morph_tools)}]`
+        },
+        {
+            filter: [{ mod: 'oritech' }],
+            to_replace: `oritech:wrench`,
+            replace_with: `oritech:wrench[unbreakable={}]`
         }
     ];
 

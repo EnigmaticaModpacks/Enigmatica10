@@ -20,10 +20,10 @@
 			}
 			id: "2A83BC699BE18F3A"
 			rewards: [{
-				id: "73C30106B314D1D2"
+				id: "280D86E499B66664"
 				item: {
 					count: 1
-					id: "modern_industrialization:wrench"
+					id: "modern_industrialization:steel_hammer"
 				}
 				type: "item"
 			}]
@@ -40,10 +40,11 @@
 			hide_dependency_lines: true
 			id: "212EB5AFECD2A6E8"
 			rewards: [{
-				id: "0C8D1BBE7EDA50C2"
+				count: 9
+				id: "0C64611C8EF8FE5B"
 				item: {
 					count: 1
-					id: "modern_industrialization:steel_hammer"
+					id: "minecraft:raw_iron"
 				}
 				type: "item"
 			}]

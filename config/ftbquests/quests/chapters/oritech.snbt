@@ -19,10 +19,11 @@
 			}
 			id: "0EEFC631A67266B1"
 			rewards: [{
-				id: "47D66BAF647A20DF"
+				count: 4
+				id: "270E7ED104C0C8BC"
 				item: {
 					count: 1
-					id: "oritech:wrench"
+					id: "oritech:tech_lever"
 				}
 				type: "item"
 			}]

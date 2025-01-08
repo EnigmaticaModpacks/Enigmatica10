@@ -21,41 +21,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "74463B3FC2D297AC"
-			rewards: [
-				{
-					id: "17DAA816249E22A5"
-					item: {
-						components: {
-							"pneumaticcraft:air": 30000
-						}
-						count: 1
-						id: "pneumaticcraft:pneumatic_wrench"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "0FAB60DA7873E900"
+				item: {
+					count: 1
+					id: "pneumaticcraft:aphorism_tile"
 				}
-				{
-					id: "33DE894A6100814F"
-					item: {
-						components: {
-							"pneumaticcraft:air": 30000
-						}
-						count: 1
-						id: "pneumaticcraft:logistics_configurator"
-					}
-					type: "item"
-				}
-				{
-					id: "3E2DF7E996E4DA1B"
-					item: {
-						components: {
-							"pneumaticcraft:air": 30000
-						}
-						count: 1
-						id: "pneumaticcraft:camo_applicator"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "57B6DCE4CA8A91B3"
 				item: { count: 1, id: "minecraft:iron_ingot" }

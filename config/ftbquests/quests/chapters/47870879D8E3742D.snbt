@@ -234,6 +234,102 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0FEFE6B72E03D0F5"
+					item: {
+						components: {
+							"morphtool:is_morph_tool": 1b
+							"morphtool:tool_content": [
+								{
+									count: 1
+									id: "actuallyadditions:laser_wrench"
+								}
+								{
+									count: 1
+									id: "ae2:nether_quartz_wrench"
+								}
+								{
+									count: 1
+									id: "bigreactors:wrench"
+								}
+								{
+									count: 1
+									id: "cable_facades:facade_wrench"
+								}
+								{
+									count: 1
+									id: "enderio:yeta_wrench"
+								}
+								{
+									count: 1
+									id: "framedblocks:framed_wrench"
+								}
+								{
+									count: 1
+									id: "justdirethings:ferricore_wrench"
+								}
+								{
+									count: 1
+									id: "laserio:laser_wrench"
+								}
+								{
+									count: 1
+									id: "mekanism:configurator"
+								}
+								{
+									count: 1
+									id: "modern_industrialization:wrench"
+								}
+								{
+									components: {
+										"pneumaticcraft:air": 30000
+									}
+									count: 1
+									id: "pneumaticcraft:camo_applicator"
+								}
+								{
+									components: {
+										"pneumaticcraft:air": 30000
+									}
+									count: 1
+									id: "pneumaticcraft:logistics_configurator"
+								}
+								{
+									components: {
+										"pneumaticcraft:air": 30000
+									}
+									count: 1
+									id: "pneumaticcraft:pneumatic_wrench"
+								}
+								{
+									count: 1
+									id: "powah:wrench"
+								}
+								{
+									count: 1
+									id: "prettypipes:wrench"
+								}
+								{
+									count: 1
+									id: "supplementaries:wrench"
+								}
+								{
+									components: {
+										"minecraft:custom_name": "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Pipe Wrench\"}]}"
+										"minecraft:unbreakable": { }
+										"morphtool:is_morph_tool": 1b
+										"morphtool:og_display_name": "{\"translate\":\"item.oritech.wrench\"}"
+									}
+									count: 1
+									id: "oritech:wrench"
+								}
+							]
+						}
+						count: 1
+						id: "morphtool:tool"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				dimension: "minecraft:overworld"

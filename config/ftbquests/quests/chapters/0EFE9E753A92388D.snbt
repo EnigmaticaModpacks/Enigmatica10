@@ -37,27 +37,14 @@
 			dependencies: ["6AFCA9F187AE6EB2"]
 			hide_dependency_lines: true
 			id: "1D5616DFA428D46F"
-			rewards: [
-				{
-					id: "3766F951EB71EB36"
-					item: {
-						count: 1
-						id: "powah:battery_basic"
-					}
-					type: "item"
+			rewards: [{
+				id: "3766F951EB71EB36"
+				item: {
+					count: 1
+					id: "powah:battery_basic"
 				}
-				{
-					id: "29A50B01CD8B6B51"
-					item: {
-						components: {
-							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
-						}
-						count: 1
-						id: "patchouli:guide_book"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "75050C1ED68FA527"
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -292,15 +279,10 @@
 			dependencies: ["6AFCA9F187AE6EB2"]
 			id: "1272A1D0BD9934AE"
 			rewards: [{
-				id: "72813948A0F5A6D4"
-				item: {
-					components: {
-						"patchouli:book": "productivetrees:guide"
-					}
-					count: 1
-					id: "patchouli:guide_book"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "62A4A2BE8BB32905"
+				table_id: 167859363417192230L
+				type: "loot"
 			}]
 			tasks: [{
 				id: "2E4DEB3FEE0D15CD"
@@ -314,10 +296,11 @@
 			dependencies: ["6AFCA9F187AE6EB2"]
 			id: "7ADBC282C9692EDE"
 			rewards: [{
-				id: "0CDC476767402B42"
+				count: 16
+				id: "37FBFE1445866461"
 				item: {
 					count: 1
-					id: "cable_facades:facade_wrench"
+					id: "cable_facades:facade"
 				}
 				type: "item"
 			}]

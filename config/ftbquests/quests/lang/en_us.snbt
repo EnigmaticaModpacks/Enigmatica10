@@ -1134,7 +1134,7 @@
 		""
 		"Begin by crafting a Forge Hammer. This device functions much like a Stone Cutter, allowing you to manually re-shape materials, such as Ingots into Plates. It can also be used as rudimentary ore processing, converting Raw Ore and Ore into dusts."
 		""
-		"Using Forge Hammer Tools, such as an Iron Hammer can also make the process more efficient. For example, a Plate may cost two Ingots without a hammer, but only one Ingot with the hammer. Hammers have durability and do wear out rather quickly, however, so use them wisely. "
+		"Using Forge Hammer Tools, such as a Steel Hammer can also make the process more efficient!"
 	]
 	quest.213B163D0ED28802.quest_desc: ["A Chocobo Whistle is used to command a Chocobo to Stay, Follow, or Wander. Simply Right-Click it on a tamed Chocobo to toggle through the three options."]
 	quest.2150EE8D0B1474CE.quest_desc: [
@@ -1177,10 +1177,6 @@
 		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
 		""
 		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
-		""
-		"&a🛈 Tip: Right-Click Inserters and "
-		"&a    Extractors with a Mercurial Wand"
-		"&a    to set the side they work with."
 	]
 	quest.22ABFC3024E54FEA.title: "Mercurial Item Nodes"
 	quest.235AA993029F7277.quest_desc: [
@@ -3953,7 +3949,10 @@
 		"Welcome to &6Enigmatica 10&r! We hope you enjoy your time here! :D"
 		""
 		"It's dangerous to go alone. Take these to get you started!"
-		" "
+		""
+		"If you lose your Morphing Tool or Akashic Tome, worry not; a newly crafted one will come pre-filled. "
+		"&n                                                  &r"
+		""
 		"Quests are divided into two types:"
 		""
 		"{ \"text\": \"Discovering Enigmatica\", \"color\":\"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44BD4C393C59F1CB\" },\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} }"
@@ -4045,6 +4044,11 @@
 		"To power this machine, you’ll need to link Enderic Lasers to it. It won’t accept power any other way. "
 		""
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
+	]
+	quest.705C37F9694E6FEA.quest_desc: [
+		"Fluid Modules for Modular Routers allows a router to transfer chemicals bi-directionally."
+		""
+		"The router needs some kind of storage tank in its buffer to work, such as a Chemical Tank."
 	]
 	quest.70C8E621A4B76BD6.quest_desc: [
 		"With EV Energy Hatches, your Large Steam Turbines can be upgraded quite simply by swapping out the hatch. This will allow them to reach their full potential, and immediately double their output, assuming they have enough Steam."
@@ -4513,6 +4517,13 @@
 		"As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "
 	]
 	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
+	quest.7C27093E25633B9F.quest_desc: [
+		"The Mercurial Fluid transport system is a simple logistics network for moving, well, fluids."
+		""
+		"The Inserters and Extractors can be placed against machines or other inventories and then linked up with Mercurial Copper Wire. "
+		""
+		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
+	]
 	quest.7C27093E25633B9F.title: "Mercurial Fluid Nodes"
 	quest.7C3C0E6AC71F621B.quest_desc: ["The Item Distributor takes items from an inventory above it and evenly distributes them to inventories on each side. "]
 	quest.7C71090829F8748A.quest_desc: ["Energy Cards for LaserIO allow Laser Nodes to transport FE."]
@@ -4707,6 +4718,7 @@
 	task.5314260DF92C1856.title: "Observe a Wixie's Cauldron"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
+	task.568788431C366FF5.title: "Chemical Modules"
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
 	task.57BE29AB834A63FE.title: "Just Dire Armor"

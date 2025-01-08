@@ -19,24 +19,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4A05A84FBF5CCD21"
-			rewards: [
-				{
-					id: "24E5558CBC3356FC"
-					item: {
-						count: 1
-						id: "mekanism:configurator"
-					}
-					type: "item"
+			rewards: [{
+				id: "5C6F4648A95C0CD7"
+				item: {
+					count: 1
+					id: "mekanism:gauge_dropper"
 				}
-				{
-					id: "5C6F4648A95C0CD7"
-					item: {
-						count: 1
-						id: "mekanism:gauge_dropper"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D4421F5BDC35DFE"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
