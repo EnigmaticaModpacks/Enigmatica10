@@ -6,8 +6,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'ae2:certus_quartz_crystal' },
             matter: [
                 { type: 'replication:precious', amount: 1.0 },
-                { type: 'replication:earth', amount: 2.0 },
-                { type: 'replication:organic', amount: 2.0 }
+                { type: 'replication:earth', amount: 2.0 }
             ],
             id: `${id_prefix}certus_quartz_crystal`
         },
@@ -193,14 +192,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}nuts`
         },
         {
-            input: { item: 'ars_nouveau:magebloom' },
-            matter: [
-                { type: 'replication:organic', amount: 2.0 },
-                { type: 'replication:earth', amount: 2.0 }
-            ],
-            id: `${id_prefix}magebloom`
-        },
-        {
             input: { item: 'farmersdelight:straw' },
             matter: [{ type: 'replication:organic', amount: 1.0 }],
             id: `${id_prefix}straw`
@@ -253,44 +244,84 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}hardened_blood`
         },
         {
-            input: { item: 'ars_nouveau:mendosteen_pod' },
-            matter: [
-                { type: 'replication:organic', amount: 4.0 },
-                { type: 'replication:living', amount: 4.0 }
-            ],
-            id: `${id_prefix}mendosteen_pod`
+            input: { tag: 'c:silicon' },
+            matter: [{ type: 'replication:earth', amount: 2.0 }],
+            id: `${id_prefix}silicon`
         },
         {
-            input: { item: 'ars_nouveau:bastion_pod' },
+            input: { item: 'deeperdarker:soul_dust' },
             matter: [
                 { type: 'replication:organic', amount: 4.0 },
+                { type: 'replication:quantum', amount: 4.0 },
                 { type: 'replication:living', amount: 4.0 }
             ],
-            id: `${id_prefix}bastion_pod`
+            id: `${id_prefix}soul_dust`
         },
         {
-            input: { item: 'ars_nouveau:frostaya_pod' },
+            input: { item: 'deeperdarker:soul_crystal' },
             matter: [
                 { type: 'replication:organic', amount: 4.0 },
+                { type: 'replication:quantum', amount: 4.0 },
                 { type: 'replication:living', amount: 4.0 }
             ],
-            id: `${id_prefix}frostaya_pod`
+            id: `${id_prefix}soul_crystal`
         },
         {
-            input: { item: 'ars_nouveau:bombegranate_pod' },
+            input: { item: 'deeperdarker:resonarium' },
             matter: [
                 { type: 'replication:organic', amount: 4.0 },
+                { type: 'replication:quantum', amount: 4.0 },
                 { type: 'replication:living', amount: 4.0 }
             ],
-            id: `${id_prefix}bombegranate_pod`
+            id: `${id_prefix}resonarium`
         },
         {
-            input: { item: 'ars_elemental:flashpine_pod' },
+            input: { item: 'deeperdarker:sculk_bone' },
             matter: [
                 { type: 'replication:organic', amount: 4.0 },
+                { type: 'replication:quantum', amount: 4.0 },
                 { type: 'replication:living', amount: 4.0 }
             ],
-            id: `${id_prefix}flashpine_pod`
+            id: `${id_prefix}sculk_bone`
+        },
+        {
+            input: { item: 'deeperdarker:heart_of_the_deep' },
+            matter: [
+                { type: 'replication:organic', amount: 4.0 },
+                { type: 'replication:quantum', amount: 4.0 },
+                { type: 'replication:living', amount: 4.0 }
+            ],
+            id: `${id_prefix}heart_of_the_deep`
+        },
+        {
+            input: { item: 'deeperdarker:warden_carapace' },
+            matter: [
+                { type: 'replication:organic', amount: 16.0 },
+                { type: 'replication:quantum', amount: 54.0 },
+                { type: 'replication:living', amount: 16.0 }
+            ],
+            id: `${id_prefix}warden_carapace`
+        },
+        {
+            input: { item: 'deeperdarker:grime_ball' },
+            matter: [
+                { type: 'replication:quantum', amount: 2.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}grime_ball`
+        },
+        {
+            input: { item: 'irons_spellbooks:arcane_essence' },
+            matter: [{ type: 'replication:quantum', amount: 4.0 }],
+            id: `${id_prefix}arcane_essence`
+        },
+        {
+            input: { item: 'irons_spellbooks:lightning_bottle' },
+            matter: [
+                { type: 'replication:quantum', amount: 1.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}lightning_bottle`
         }
     ];
 
@@ -306,6 +337,81 @@ ServerEvents.recipes((event) => {
         ender
 
     */
+    const basic_living_materials = [
+        'occultism:tallow',
+        'ars_elemental:flashpine_pod',
+        'ars_nouveau:bombegranate_pod',
+        'ars_nouveau:frostaya_pod',
+        'ars_nouveau:bastion_pod',
+        'ars_nouveau:mendosteen_pod',
+        'aether:aechor_petal',
+        'the_bumblezone:bee_stinger',
+        'ars_nouveau:wilden_spike',
+        'ars_nouveau:wilden_horn',
+        'ars_nouveau:wilden_wing',
+        'aquaculture:jellyfish',
+        'evilcraft:poison_sac',
+        'aquaculture:atlantic_cod',
+        'aquaculture:blackfish',
+        'aquaculture:atlantic_halibut',
+        'aquaculture:atlantic_herring',
+        'aquaculture:pink_salmon',
+        'aquaculture:pollock',
+        'aquaculture:rainbow_trout',
+        'aquaculture:bayad',
+        'aquaculture:boulti',
+        'aquaculture:capitaine',
+        'aquaculture:smallmouth_bass',
+        'aquaculture:bluegill',
+        'aquaculture:brown_trout',
+        'aquaculture:carp',
+        'aquaculture:catfish',
+        'aquaculture:gar',
+        'aquaculture:minnow',
+        'aquaculture:muskellunge',
+        'aquaculture:perch',
+        'aquaculture:arapaima',
+        'aquaculture:piranha',
+        'aquaculture:tambaqui',
+        'aquaculture:red_grouper',
+        'aquaculture:tuna',
+        'irons_spellbooks:frozen_bone',
+        'deeperdarker:bloom_berries'
+    ];
+
+    basic_living_materials.forEach((basic_living_material) => {
+        recipes.push({
+            input: { item: basic_living_material },
+            matter: [
+                { type: 'replication:organic', amount: 4.0 },
+                { type: 'replication:living', amount: 4.0 }
+            ],
+            id: `${id_prefix}${basic_living_material.replace(':', '_')}`
+        });
+    });
+
+    const basic_plant_materials = [
+        'deeperdarker:glowing_flowers',
+        'deeperdarker:glowing_grass',
+        'deeperdarker:gloomy_grass',
+        'deeperdarker:gloomy_cactus',
+        'deeperdarker:glowing_roots',
+        'deeperdarker:sculk_tendrils',
+        'deeperdarker:sculk_vines',
+        'deeperdarker:ice_lily',
+        'ars_nouveau:magebloom'
+    ];
+
+    basic_plant_materials.forEach((basic_plant_material) => {
+        recipes.push({
+            input: { item: basic_plant_material },
+            matter: [
+                { type: 'replication:organic', amount: 2.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}${basic_plant_material.replace(':', '_')}`
+        });
+    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'replication:matter_value';
