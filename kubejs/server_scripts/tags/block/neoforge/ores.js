@@ -1,6 +1,8 @@
 ServerEvents.tags('block', (event) => {
     let additions = {
-        dark_gem: [/evilcraft:dark_ore/]
+        dark_gem: [/evilcraft:dark_ore/],
+
+        replica: ['replication:deepslate_replica_ore']
     };
 
     Object.keys(additions).forEach((tag) => {

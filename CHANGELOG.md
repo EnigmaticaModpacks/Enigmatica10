@@ -11,6 +11,8 @@
 -   Update Occultism quests [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 -   Update AE2 quests [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 -   Add the Dimensional Logistics tooltips to more items that deserve it [(\#328)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/328)
+-   Chainsaws may now behead monsters like other axes can [(\#331)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/331)
+-   Theurgy and Replication now require a small amount of progress in a Magic or Tech mod, respectively [(\#334)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/334)
 
 #### 🦟 Bugs Fixed
 

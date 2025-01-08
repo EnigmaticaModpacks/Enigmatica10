@@ -198,8 +198,8 @@ ServerEvents.recipes((event) => {
                 {
                     dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
                     biome_filter: { blacklist: [], whitelist: [] },
-                    depth_max: 7,
-                    depth_min: 117,
+                    depth_max: 117,
+                    depth_min: 7,
                     weight: 12
                 },
                 {
@@ -214,7 +214,7 @@ ServerEvents.recipes((event) => {
         },
         {
             catalyst: { item: 'industrialforegoing:cyan_laser_lens' },
-            output: { tag: 'c:ores/mithril' },
+            output: { tag: 'c:raw_materials/mithril' },
             rarity: [
                 {
                     dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
@@ -232,6 +232,27 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}mithril`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:green_laser_lens' },
+            output: { tag: 'c:raw_materials/replica' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 10,
+                    depth_min: 0,
+                    weight: 4
+                },
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}replica`
         }
     ];
 

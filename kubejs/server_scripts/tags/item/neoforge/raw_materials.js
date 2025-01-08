@@ -6,7 +6,9 @@ ServerEvents.tags('item', (event) => {
         uranium: ['bigreactors:raw_yellorium', 'oritech:raw_uranium'],
 
         nickel: ['oritech:raw_nickel'],
-        platinum: ['oritech:raw_platinum']
+        platinum: ['oritech:raw_platinum'],
+
+        replica: ['replication:raw_replica']
     };
 
     Object.keys(additions).forEach((tag) => {
