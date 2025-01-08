@@ -19,24 +19,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "7D82585D50D7207A"
-			rewards: [
-				{
-					id: "5F11EC36E648C2B9"
-					item: {
-						count: 1
-						id: "ae2:guide"
-					}
-					type: "item"
+			rewards: [{
+				id: "08A3A0E87CC9C2D6"
+				item: {
+					count: 1
+					id: "ae2:meteorite_compass"
 				}
-				{
-					id: "08A3A0E87CC9C2D6"
-					item: {
-						count: 1
-						id: "ae2:meteorite_compass"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "444ABF0F1DA7E34B"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

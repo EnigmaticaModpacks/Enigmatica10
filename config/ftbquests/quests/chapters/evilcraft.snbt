@@ -19,24 +19,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "717CCCD239144E0B"
-			rewards: [
-				{
-					id: "38A53B82EA047D18"
-					item: {
-						count: 1
-						id: "evilcraft:origins_of_darkness"
-					}
-					type: "item"
+			rewards: [{
+				id: "6F4A6D93C2DEF3DD"
+				item: {
+					count: 1
+					id: "minecraft:wet_sponge"
 				}
-				{
-					id: "6F4A6D93C2DEF3DD"
-					item: {
-						count: 1
-						id: "minecraft:wet_sponge"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B8A280C515F168E"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

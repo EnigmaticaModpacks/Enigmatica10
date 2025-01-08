@@ -22,35 +22,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "01E9BF979ED779AE"
-			rewards: [
-				{
-					id: "2936D7B921082E89"
-					item: {
-						components: {
-							"irons_spellbooks:spell_container": {
-								data: [ ]
-								maxSpells: 5
-								mustEquip: 1b
-								spellWheel: 1b
-							}
+			rewards: [{
+				id: "2936D7B921082E89"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
 						}
-						count: 1
-						id: "irons_spellbooks:copper_spell_book"
 					}
-					type: "item"
+					count: 1
+					id: "irons_spellbooks:copper_spell_book"
 				}
-				{
-					id: "089AF77048A97F37"
-					item: {
-						components: {
-							"patchouli:book": "irons_spellbooks:iss_guide_book"
-						}
-						count: 1
-						id: "patchouli:guide_book"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E7E348A13CC713C"
 				item: { count: 1, id: "minecraft:copper_ingot" }

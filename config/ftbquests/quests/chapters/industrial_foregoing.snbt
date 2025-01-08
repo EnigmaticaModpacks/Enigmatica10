@@ -22,13 +22,11 @@
 			}
 			id: "01C6F096606E3638"
 			rewards: [{
-				id: "222132706EAC72F9"
+				count: 2
+				id: "63C3E736FB4B24E7"
 				item: {
-					components: {
-						"patchouli:book": "industrialforegoing:industrial_foregoing"
-					}
 					count: 1
-					id: "patchouli:guide_book"
+					id: "industrialforegoing:item_transporter_type"
 				}
 				type: "item"
 			}]

@@ -22,27 +22,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4421EB35235888DF"
-			rewards: [
-				{
-					id: "0A6DCBF3D132FC21"
-					item: {
-						components: {
-							"patchouli:book": "naturesaura:book"
-						}
-						count: 1
-						id: "patchouli:guide_book"
-					}
-					type: "item"
+			rewards: [{
+				id: "6D9B4022737AC877"
+				item: {
+					count: 1
+					id: "minecraft:shears"
 				}
-				{
-					id: "6D9B4022737AC877"
-					item: {
-						count: 1
-						id: "minecraft:shears"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "049F4B63ED48F239"
 				item: { count: 1, id: "minecraft:gold_ingot" }

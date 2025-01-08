@@ -22,27 +22,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3EA53BBEBC32F813"
-			rewards: [
-				{
-					id: "725BDBD36A38F7A7"
-					item: {
-						count: 1
-						id: "geneticsresequenced:scraper"
-					}
-					type: "item"
+			rewards: [{
+				id: "725BDBD36A38F7A7"
+				item: {
+					count: 1
+					id: "geneticsresequenced:scraper"
 				}
-				{
-					id: "445399027F00C5BC"
-					item: {
-						components: {
-							"modonomicon:book_id": "geneticsresequenced:guide"
-						}
-						count: 1
-						id: "modonomicon:modonomicon"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "51472C5BD0C05E09"
 				stat: "minecraft:mob_kills"

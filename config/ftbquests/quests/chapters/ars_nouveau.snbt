@@ -21,14 +21,6 @@
 			id: "41614A924E5556EE"
 			rewards: [
 				{
-					id: "0F6C9D6ED1B29251"
-					item: {
-						count: 1
-						id: "ars_nouveau:worn_notebook"
-					}
-					type: "item"
-				}
-				{
 					id: "393D3E6B0F90FA3E"
 					item: {
 						count: 1

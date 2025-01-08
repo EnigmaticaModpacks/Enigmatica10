@@ -22,6 +22,11 @@ ServerEvents.recipes((event) => {
             filter: [{ type: 'occultism:ritual' }],
             to_replace: `occultism:chalk_void`,
             replace_with: `occultism:chalk_void[unbreakable={}]`
+        },
+        {
+            filter: [{ mod: 'akashictome' }],
+            to_replace: `akashictome:tome`,
+            replace_with: `akashictome:tome[akashictome:tool_content=${JSON.stringify(akashic_tomes)}]`
         }
     ];
 

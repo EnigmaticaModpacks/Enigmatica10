@@ -20,13 +20,10 @@
 			}
 			id: "3D9527EAA5944C17"
 			rewards: [{
-				id: "7E9F67E0C89AB749"
+				id: "7E4A1D4E6C56D77D"
 				item: {
-					components: {
-						"patchouli:book": "mffs:handbook"
-					}
 					count: 1
-					id: "patchouli:guide_book"
+					id: "mffs:frequency_card"
 				}
 				type: "item"
 			}]
@@ -41,22 +38,12 @@
 		{
 			dependencies: ["3D9527EAA5944C17"]
 			id: "205B821B10C6AC75"
-			rewards: [
-				{
-					id: "4834928E6651F52A"
-					item: {
-						count: 1
-						id: "mffs:frequency_card"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "728EBB6243076234"
-					table_id: 23658154196454858L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "728EBB6243076234"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "654CF29BB7D3A53D"
 				item: { count: 1, id: "mffs:coercion_deriver" }

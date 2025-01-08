@@ -19,10 +19,10 @@
 			}
 			id: "25770E9DCA5B4B1F"
 			rewards: [{
-				id: "7E871DADD8015F27"
+				id: "507C7AA3A6B68D7E"
 				item: {
 					count: 1
-					id: "actuallyadditions:booklet"
+					id: "actuallyadditions:travelers_sack"
 				}
 				type: "item"
 			}]

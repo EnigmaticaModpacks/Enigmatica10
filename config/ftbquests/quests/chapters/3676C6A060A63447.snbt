@@ -22,17 +22,6 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6538BD86D9419DD4"
-			rewards: [{
-				id: "221AAE9CFC496437"
-				item: {
-					components: {
-						"modonomicon:book_id": "theurgy:the_hermetica"
-					}
-					count: 1
-					id: "modonomicon:modonomicon"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2DF31416CB56A844"
 				item: { components: { "ftbfiltersystem:filter": "or(item(theurgy:sal_ammoniac_crystal)item(theurgy:sal_ammoniac_ore)item(theurgy:deepslate_sal_ammoniac_ore))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
