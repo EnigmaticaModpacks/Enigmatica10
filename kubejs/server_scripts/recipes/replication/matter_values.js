@@ -128,70 +128,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mithril`
         },
         {
-            input: { tag: 'c:crops/cabbage' },
-            matter: [
-                { type: 'replication:organic', amount: 2.0 },
-                { type: 'replication:earth', amount: 2.0 }
-            ],
-            id: `${id_prefix}cabbage`
-        },
-        {
-            input: { tag: 'c:crops/tomato' },
-            matter: [
-                { type: 'replication:organic', amount: 2.0 },
-                { type: 'replication:earth', amount: 2.0 }
-            ],
-            id: `${id_prefix}tomato`
-        },
-        {
-            input: { tag: 'c:crops/onion' },
-            matter: [
-                { type: 'replication:organic', amount: 2.0 },
-                { type: 'replication:earth', amount: 2.0 }
-            ],
-            id: `${id_prefix}onion`
-        },
-        {
-            input: { tag: 'c:crops/rice' },
-            matter: [
-                { type: 'replication:organic', amount: 2.0 },
-                { type: 'replication:earth', amount: 2.0 }
-            ],
-            id: `${id_prefix}rice`
-        },
-        {
-            input: { tag: 'c:foods/berry' },
-            matter: [
-                { type: 'replication:organic', amount: 4.0 },
-                { type: 'replication:living', amount: 4.0 }
-            ],
-            id: `${id_prefix}berry`
-        },
-        {
-            input: { tag: 'c:berries' },
-            matter: [
-                { type: 'replication:organic', amount: 4.0 },
-                { type: 'replication:living', amount: 4.0 }
-            ],
-            id: `${id_prefix}berries`
-        },
-        {
-            input: { tag: 'c:fruits' },
-            matter: [
-                { type: 'replication:organic', amount: 4.0 },
-                { type: 'replication:living', amount: 4.0 }
-            ],
-            id: `${id_prefix}fruits`
-        },
-        {
-            input: { tag: 'c:nuts' },
-            matter: [
-                { type: 'replication:organic', amount: 4.0 },
-                { type: 'replication:living', amount: 4.0 }
-            ],
-            id: `${id_prefix}nuts`
-        },
-        {
             input: { item: 'farmersdelight:straw' },
             matter: [{ type: 'replication:organic', amount: 1.0 }],
             id: `${id_prefix}straw`
@@ -200,22 +136,6 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:cork' },
             matter: [{ type: 'replication:organic', amount: 1.0 }],
             id: `${id_prefix}cork`
-        },
-        {
-            input: { tag: 'diet:ingredient' },
-            matter: [
-                { type: 'replication:organic', amount: 2.0 },
-                { type: 'replication:earth', amount: 2.0 }
-            ],
-            id: `${id_prefix}ingredient`
-        },
-        {
-            input: { tag: 'c:crops/flax' },
-            matter: [
-                { type: 'replication:organic', amount: 2.0 },
-                { type: 'replication:earth', amount: 2.0 }
-            ],
-            id: `${id_prefix}flax`
         },
         {
             input: { tag: 'c:gems/dark' },
@@ -338,6 +258,10 @@ ServerEvents.recipes((event) => {
 
     */
     const basic_living_materials = [
+        '#c:foods/berry',
+        '#c:berries',
+        '#c:fruits',
+        '#c:nuts',
         'occultism:tallow',
         'ars_elemental:flashpine_pod',
         'ars_nouveau:bombegranate_pod',
@@ -379,18 +303,24 @@ ServerEvents.recipes((event) => {
         'deeperdarker:bloom_berries'
     ];
 
-    basic_living_materials.forEach((basic_living_material) => {
+    basic_living_materials.forEach((material) => {
         recipes.push({
-            input: { item: basic_living_material },
+            input: material.charAt(0) == '#' ? { tag: material.slice(1) } : { item: material },
             matter: [
                 { type: 'replication:organic', amount: 4.0 },
                 { type: 'replication:living', amount: 4.0 }
             ],
-            id: `${id_prefix}${basic_living_material.replace(':', '_')}`
+            id: `${id_prefix}${material.replace('#', '').replace(':', '_')}`
         });
     });
 
     const basic_plant_materials = [
+        '#diet:ingredient',
+        '#c:crops/flax',
+        '#c:crops/cabbage',
+        '#c:crops/tomato',
+        '#c:crops/onion',
+        '#c:crops/rice',
         'deeperdarker:glowing_flowers',
         'deeperdarker:glowing_grass',
         'deeperdarker:gloomy_grass',
@@ -404,14 +334,14 @@ ServerEvents.recipes((event) => {
         'deeperdarker:sculk_gleam'
     ];
 
-    basic_plant_materials.forEach((basic_plant_material) => {
+    basic_plant_materials.forEach((material) => {
         recipes.push({
-            input: { item: basic_plant_material },
+            input: material.charAt(0) == '#' ? { tag: material.slice(1) } : { item: material },
             matter: [
                 { type: 'replication:organic', amount: 2.0 },
                 { type: 'replication:earth', amount: 2.0 }
             ],
-            id: `${id_prefix}${basic_plant_material.replace(':', '_')}`
+            id: `${id_prefix}${material.replace('#', '').replace(':', '_')}`
         });
     });
 
