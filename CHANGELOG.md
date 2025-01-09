@@ -13,6 +13,9 @@
 -   Add the Dimensional Logistics tooltips to more items that deserve it [(\#328)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/328)
 -   Chainsaws may now behead monsters like other axes can [(\#331)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/331)
 -   Theurgy and Replication now require a small amount of progress in a Magic or Tech mod, respectively [(\#334)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/334)
+-   Replication Quests! [(\#345)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/345)
+-   Apotheosis now requires substantial amounts of XP to upgrade or re-roll affixes in the Augmenting Table. Time to farm some mobs! [(\#345)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/345)
+-   Sushi Go Crafting plants are now available in the Market [(\#345)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/345)
 
 #### 🦟 Bugs Fixed
 
