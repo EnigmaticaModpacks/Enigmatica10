@@ -1,4 +1,5 @@
 {
+	hide_tooltip: true
 	icon: {
 		components: {
 			"ftbquests:icon": "kubejs:item/lootbox/epic"
@@ -17,14 +18,16 @@
 			auto: "invisible"
 			command: "/execute at @p run naaura add 100000"
 			elevate_perms: true
-			feedback_message: ""
+			feedback_message: "Aura Infusion"
 			icon: {
 				components: {
-					"ftbquests:icon": "naturesaura:block/aura_bloom"
+					"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/greater_heal.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
+			silent: true
 			type: "command"
 		}
 	]
+	use_title: true
 }

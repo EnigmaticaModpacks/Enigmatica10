@@ -167,7 +167,10 @@ ItemEvents.modifyTooltips((event) => {
                 'mekanism:qio_dashboard',
                 'mekanism:qio_drive_array',
                 'mekanism:portable_qio_dashboard',
-                'occultism:storage_remote'
+                'occultism:storage_remote',
+                'enderstorage:ender_pouch',
+                'enderstorage:ender_chest',
+                'enderstorage:ender_tank'
             ],
             text: [Text.of(`Cross-Dimensional Storage`).darkPurple()]
         },
