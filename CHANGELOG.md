@@ -1,5 +1,11 @@
 ### Enigmatica 10 1.16.0
 
+NeoForge-1.21.1-21.1.90 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.16.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.16.0.md)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
 #### ⭐ Improvements
 
 -   Occultism quests now mention how to fortune Iesnium [(\#313)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/313)
@@ -27,6 +33,13 @@
 -   Remove now redundant tooltips from Iron's equipment [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
 -   Combiner ore dupe loop has been closed [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
 -   Uranium may once again be used as a heat source for PNC [(\#348)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/348)
+-   Ars Nouveau Tier not showing in tool tip [(\#326)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/326)
+-   Crude oil products for sale in amadron tablet not unified [(\#315)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/315)
+-   Iron's Piglin Alchemist causes hard crash when JDT Creature Capturer is used on it [(\#295)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/295)
+-   oritech atomic forge and lasers - weird power issues and status/info of said power [(\#292)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/292)
+-   Jade no longer displays energy [(\#288)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/288)
+-   Genetics: Resequenced - crafting recipe for Antiplasmid not working [(\#283)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/283)
+-   Actuallyadditions:flax block has no tags [(\#282)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/282)
 
 ---
 

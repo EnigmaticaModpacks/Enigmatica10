@@ -16,7 +16,7 @@ install:
 
     # exact version of forge or fabric that is supposed to be used
     # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-    loaderVersion: 21.1.83
+    loaderVersion: 21.1.90
 
     # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
     # supports variables: {{@loaderversion@}} and {{@mcversion@}}
