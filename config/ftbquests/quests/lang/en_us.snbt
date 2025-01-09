@@ -1558,7 +1558,7 @@
 		""
 		"&7&nOn-Demand Mode&r"
 		""
-		"Any Replicator on the network that isn’t in Infinite Mode is available for On-Demand requests. Such requests are made at a Terminal and will automatically engage up to 16 Replicators to perform a job. "
+		"Any Replicator on the network that isn’t in Infinite Mode is available for On-Demand requests. Such requests are made at a Terminal and will automatically be balanced across available Replicators. "
 		""
 		"Making such a request will also require storing patterns on a Memory Chip."
 		""
