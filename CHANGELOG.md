@@ -16,6 +16,7 @@
 -   Replication Quests! [(\#345)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/345)
 -   Apotheosis now requires substantial amounts of XP to upgrade or re-roll affixes in the Augmenting Table. Time to farm some mobs! [(\#345)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/345)
 -   Sushi Go Crafting plants are now available in the Market [(\#345)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/345)
+-   More things now stack to 64, thanks Dravster! [(\#347)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/347)
 
 #### 🦟 Bugs Fixed
 
