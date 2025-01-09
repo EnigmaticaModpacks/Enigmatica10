@@ -100,7 +100,6 @@ ServerEvents.recipes((event) => {
             result: { count: 1, item: 'ars_nouveau:bombegranate_pod' },
             id: `${id_prefix}bombegranate_pod`
         },
-
         {
             category: 'farmingforblockheads:saplings',
             preset: 'enigmatica:source_gem',
@@ -132,6 +131,36 @@ ServerEvents.recipes((event) => {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'actuallyadditions:coffee_beans' },
             id: `${id_prefix}coffee_beans`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            result: { count: 1, item: 'sushigocrafting:avocado_sapling' },
+            id: `${id_prefix}avocado_sapling`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'sushigocrafting:sesame_seeds' },
+            id: `${id_prefix}sesame_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'sushigocrafting:rice_seeds' },
+            id: `${id_prefix}rice_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'sushigocrafting:cucumber_seeds' },
+            id: `${id_prefix}cucumber_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'sushigocrafting:soy_seeds' },
+            id: `${id_prefix}soy_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'sushigocrafting:wasabi_seeds' },
+            id: `${id_prefix}wasabi_seeds`
         }
     ];
 
