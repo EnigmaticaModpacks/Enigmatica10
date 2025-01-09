@@ -26,6 +26,7 @@
 -   Fix typo in MI quests [(\#312)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/312)
 -   Remove now redundant tooltips from Iron's equipment [(\#314)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/314)
 -   Combiner ore dupe loop has been closed [(\#317)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/317)
+-   Uranium may once again be used as a heat source for PNC [(\#348)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/348)
 
 ---
 
