@@ -30,7 +30,7 @@ ItemEvents.modification((event) => {
         /banner_pattern/,
         /actuallyadditions:.*_pattern$/,
         // minecarts
-        /minecraft:\w+_minecart/,
+        /minecraft:(\w+)?minecart/,
         // music discs
         /music_disc/
     ];
