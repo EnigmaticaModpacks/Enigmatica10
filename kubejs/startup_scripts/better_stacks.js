@@ -26,7 +26,9 @@ ItemEvents.modification((event) => {
         // beds
         /minecraft:\w+_bed/,
         // banners
-        /minecraft:\w+_banner(_pattern)?/,
+        /minecraft:\w+_banner/,
+        /banner_pattern/,
+        /actuallyadditions:.*_pattern$/,
         // minecarts
         /minecraft:\w+_minecart/,
         // music discs
