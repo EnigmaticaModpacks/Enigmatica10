@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replication"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "replication:raw_replica"
+	}
+	id: "13C15ACA23526F9E"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4FDF4919248BFC3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D14610EFE8B0C44"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0A6EACA2F3A79738"
+				item: { count: 1, id: "replication:replica_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F1A7E1B49FCC4C0"]
+			id: "307FEC610F0B542F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62B078C935A00BD1"
+				table_id: 167859363417192230L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "42BAEBC8968DA501"
+				item: { count: 1, id: "replication:replicator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["223BE2F1F8A5C87C"]
+			icon: {
+				id: "replication:identification_chamber"
+			}
+			id: "26B8DEFFA75B3944"
+			rewards: [{
+				id: "6708D1A1F2D3B0BA"
+				item: {
+					count: 1
+					id: "replication:memory_chip"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09946EECA2001D7D"
+					item: { count: 1, id: "replication:identification_chamber" }
+					type: "item"
+				}
+				{
+					id: "49D8FBBB74F64CCF"
+					item: { count: 1, id: "replication:chip_storage" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FDF4919248BFC3A"]
+			id: "6F1A7E1B49FCC4C0"
+			rewards: [
+				{
+					id: "4BA7C9A737BCB773"
+					item: {
+						count: 1
+						id: "replication:matter_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "191475FC9B7F9E9E"
+					item: {
+						count: 1
+						id: "replication:matter_network_pipe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A127950391395CF"
+				item: { count: 1, id: "replication:disintegrator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["307FEC610F0B542F"]
+			id: "223BE2F1F8A5C87C"
+			rewards: [{
+				count: 4
+				id: "64810CC8EB4893D2"
+				item: {
+					count: 1
+					id: "replication:matter_network_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69094CD454B1777F"
+				item: { count: 1, id: "replication:replication_terminal" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+}

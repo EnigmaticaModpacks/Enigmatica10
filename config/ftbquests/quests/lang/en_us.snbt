@@ -2,6 +2,7 @@
 	chapter.0095002B3E34FD9A.title: "Occultism"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.1514913DA64A98EB.title: "Ender IO"
 	chapter.1A29B498BD263BEF.title: "Redstone"
@@ -1160,6 +1161,11 @@
 	]
 	quest.21C1CAA38D040AC8.title: "Functional Drawers"
 	quest.21FA8A625A79BE61.quest_desc: ["Simple fluid pipes for getting fluid from one place to another."]
+	quest.223BE2F1F8A5C87C.quest_desc: [
+		"The Replication Terminal is used to request crafts from patterns stored on Memory Chips. "
+		""
+		"It also gives you an overview of the total amount of each Matter stored on the network and allows you to manage any ongoing requests. "
+	]
 	quest.225A626E79D7165F.quest_desc: ["Energy Hoppers effectively turn any inventory into a rapid charging station. They’ll charge any FE based equipment stored in the inventory they’re pointed at."]
 	quest.2285070A43A12190.quest_desc: [
 		"With a Scroll inserted into your Spell Book, you’re nearly ready to begin casting. You'll also want to equip your Spell Book in the corresponding Curios slot. "
@@ -1307,6 +1313,15 @@
 		"&6    laser, or both."
 	]
 	quest.267FEB0BB5D9B4D9.title: "Assembly Table"
+	quest.26B8DEFFA75B3944.quest_desc: [
+		"The Identification Chamber is used to scan and store patterns into Memory Chips. This process is destructive, so your input item will be lost. But that’s ok, right? You’ll soon have as many as you want. "
+		""
+		"Each Memory Chip can store up to 16 different patterns, and once installed in a Chip Storage will make those items requestable from the Terminal."
+		""
+		"&a🛈 Tip: Items may be piped into the "
+		"&a    Identification Chamber through"
+		"&a    the bottom."
+	]
 	quest.2850FCAFEEF5004C.quest_desc: [
 		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
 		""
@@ -1527,6 +1542,29 @@
 		"With all these Zombies and Skeletons walking around, is it really a surprise that Undeath has spread to the foliage as well?"
 		""
 		"Craft an Undead Sapling in your Blood Infuser and grow it to obtain Undead Wood. This special wood is an important resource for other crafts."
+	]
+	quest.307FEC610F0B542F.quest_desc: [
+		"The Replicator itself essentially has two modes of operation. "
+		""
+		"In either mode, it will automatically drawn required materials from Tanks attached to the network."
+		""
+		""
+		"&7&nInfinite Mode&r"
+		""
+		"To use this mode, simply place an item in the Infinite Mode slot. The Replicator will attempt to continually clone this item using material from the network. "
+		""
+		"This is generally best for things you’ll need a steady supply of. "
+		""
+		""
+		"&7&nOn-Demand Mode&r"
+		""
+		"Any Replicator on the network that isn’t in Infinite Mode is available for On-Demand requests. Such requests are made at a Terminal and will automatically engage up to 16 Replicators to perform a job. "
+		""
+		"Making such a request will also require storing patterns on a Memory Chip."
+		""
+		"&6⚠ Note: Items with extra data, such as "
+		"&6    batteries or inventories, will be"
+		"&6    cloned empty."
 	]
 	quest.309083107758B10C.quest_desc: [
 		"Now that you’ve got your first Spell Book, let’s see about adding some extra glyphs to spice things up."
@@ -2858,6 +2896,12 @@
 	]
 	quest.4F480CF26AB0F3CD.title: "Machine Upgrades"
 	quest.4F5E591110C0A372.quest_desc: ["Chemical Cards for LaserIO allow Laser Nodes to transport Mekanism Gases and Chemicals."]
+	quest.4FDF4919248BFC3A.quest_desc: [
+		"Welcome to Replication, a sci-fi inspired tech mod that breaks items down into their component parts in order to reconfigure them into more useful materials. "
+		""
+		"The following quests will help you understand how all the pieces work together."
+	]
+	quest.4FDF4919248BFC3A.title: "Replication"
 	quest.4FEA49AD05720ED7.quest_desc: [
 		"Ah, the simple joys of playing with chalk outside. "
 		""
@@ -3997,6 +4041,25 @@
 		""
 		"&a🛈 Tip: You need to stand very close to "
 		"&a    a mob to extract their blood."
+	]
+	quest.6F1A7E1B49FCC4C0.quest_desc: [
+		"Replication begins by breaking down material into their base components. "
+		""
+		"There are eight of these in total and materials may consist of more than one. You'll likely wish to start by looking for materials that are easy to farm to convert into the matter types you wish. "
+		""
+		"For instance, a mob farm can be an excellent renewable source for Living matter, while a crop farm might supply you with all of the Organic matter you'll need. "
+		"&n                                                  &r"
+		""
+		"Place the Disintegrator, then connect the provided Matter Pipes and Matter Tank to it. "
+		""
+		"Matter Tanks only connect to Pipes from the top and bottom faces. Tanks can also be stacked on top of each other and will still connect through to the network. "
+		""
+		"Replication also uses a fair amount of power and Matter Pipes may be used to transmit that power when connected to a source of FE. "
+		""
+		"Once everything is connected, toss some items in the Disintegrator. The matter will automatically flow out from this machine and be stored in the Matter Tank. From here, it's available to other machines for use. "
+		""
+		"&a🛈 Tip: Hold Shift over different items "
+		"&a    to see what matter they’re made of. "
 	]
 	quest.6F354A767B138CA3.quest_desc: [
 		"Want to make a nice stable for your Chocobos? Be sure to cover the floor in Straw and place a Cauldron full of Water nearby. "
