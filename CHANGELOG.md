@@ -1,3 +1,15 @@
+### Enigmatica 10 1.16.1
+
+NeoForge-1.21.1-21.1.90 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.16.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.16.1.md)
+
+#### ❌ Removed Mods
+* [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
+
+#### 🦟 Bugs Fixed
+-   Curios API 1.20.1 was added in 1.16.0 due to being marked as a dependency by a mod. This release removes Curios API 1.20.1, allowing the pack to launch 😅
+
+---
+
 ### Enigmatica 10 1.16.0
 
 NeoForge-1.21.1-21.1.90 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.16.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.16.0.md)
