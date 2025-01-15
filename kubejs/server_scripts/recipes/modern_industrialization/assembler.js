@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
             eu: 8,
             duration: 100,
             item_outputs: [{ item: 'modern_industrialization:analog_circuit_board', amount: 4 }],
-            id: `modern_industrialization:assembler_generated/electric_age/circuit/craft/analog_circuit_board`
+            id: `modern_industrialization:assembler_generated/electric_age/circuit/craft/lv_circuit_board`
         },
         {
             item_inputs: [
