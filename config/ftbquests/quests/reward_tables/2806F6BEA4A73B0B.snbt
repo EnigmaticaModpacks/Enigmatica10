@@ -12,6 +12,7 @@
 	rewards: [
 		{
 			count: 2
+			id: "0B4D4E0B6B51AD04"
 			item: {
 				count: 1
 				id: "occultism:spirit_lantern"
@@ -20,6 +21,7 @@
 		}
 		{
 			count: 4
+			id: "565A47998B96C86F"
 			item: {
 				count: 1
 				id: "occultism:large_candle"
@@ -28,6 +30,7 @@
 		}
 		{
 			count: 4
+			id: "0BD67E23961CA160"
 			item: {
 				count: 1
 				id: "occultism:book_of_binding_empty"
@@ -36,6 +39,7 @@
 		}
 		{
 			count: 2
+			id: "69BCDBD62F56E34D"
 			item: {
 				count: 1
 				id: "occultism:spirit_attuned_gem"
@@ -44,6 +48,7 @@
 		}
 		{
 			count: 16
+			id: "5F8C5848FD9DEAE1"
 			item: {
 				count: 1
 				id: "occultism:otherworld_log"

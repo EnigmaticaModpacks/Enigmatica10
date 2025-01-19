@@ -12,6 +12,7 @@
 	rewards: [
 		{
 			count: 2
+			id: "6687A2224534F202"
 			item: {
 				count: 1
 				id: "ars_additions:lost_codex_entry"
@@ -19,9 +20,30 @@
 			random_bonus: 2
 			weight: 50.0f
 		}
-		{ item: { count: 1, id: "ars_additions:exploration_warp_scroll" }, weight: 30.0f }
-		{ item: { count: 1, id: "ars_nouveau:drygmy_charm" }, weight: 10.0f }
-		{ item: { count: 1, id: "ars_nouveau:wixie_shards" }, weight: 10.0f }
+		{
+			id: "77E4E98F3C373708"
+			item: {
+				count: 1
+				id: "ars_additions:exploration_warp_scroll"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "1AC91A3C7A24815A"
+			item: {
+				count: 1
+				id: "ars_nouveau:drygmy_charm"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "14AF8125A109DB8E"
+			item: {
+				count: 1
+				id: "ars_nouveau:wixie_shards"
+			}
+			weight: 10.0f
+		}
 	]
 	use_title: true
 }

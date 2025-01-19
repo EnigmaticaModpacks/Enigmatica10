@@ -6,7 +6,6 @@
 	rewards: [{
 		command: "/execute at @p run loot spawn ~ ~1 ~ loot irons_spellbooks:magic_items/scroll_pouch"
 		elevate_perms: true
-		feedback_message: ""
 		icon: {
 			components: {
 				"irons_spellbooks:spell_container": {
@@ -23,6 +22,7 @@
 			}
 			id: "irons_spellbooks:scroll"
 		}
+		id: "3B234447FA754CE9"
 		type: "command"
 	}]
 	use_title: true

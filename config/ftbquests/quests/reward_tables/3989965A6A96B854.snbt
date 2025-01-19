@@ -10,11 +10,46 @@
 	loot_size: 2
 	order_index: 12
 	rewards: [
-		{ count: 8, item: { count: 1, id: "modern_industrialization:basic_upgrade" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:advanced_machine_hull" } }
-		{ count: 16, item: { count: 1, id: "modern_industrialization:cupronickel_cable" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:large_motor" } }
-		{ count: 16, item: { count: 1, id: "modern_industrialization:analog_circuit" } }
+		{
+			count: 8
+			id: "01BD1A1120889C09"
+			item: {
+				count: 1
+				id: "modern_industrialization:basic_upgrade"
+			}
+		}
+		{
+			count: 8
+			id: "6DAE882D8948D7B5"
+			item: {
+				count: 1
+				id: "modern_industrialization:advanced_machine_hull"
+			}
+		}
+		{
+			count: 16
+			id: "6E1E696D8F38EC91"
+			item: {
+				count: 1
+				id: "modern_industrialization:cupronickel_cable"
+			}
+		}
+		{
+			count: 8
+			id: "6827FAC5F0A516AF"
+			item: {
+				count: 1
+				id: "modern_industrialization:large_motor"
+			}
+		}
+		{
+			count: 16
+			id: "77D0A3D8031A1DC0"
+			item: {
+				count: 1
+				id: "modern_industrialization:analog_circuit"
+			}
+		}
 	]
 	use_title: true
 }

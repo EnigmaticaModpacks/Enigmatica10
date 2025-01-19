@@ -10,11 +10,46 @@
 	loot_size: 2
 	order_index: 8
 	rewards: [
-		{ count: 4, item: { count: 1, id: "modern_industrialization:bronze_machine_casing" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:fire_clay_bricks" } }
-		{ count: 16, item: { count: 1, id: "modern_industrialization:item_pipe" } }
-		{ count: 16, item: { count: 1, id: "modern_industrialization:fluid_pipe" } }
-		{ count: 32, item: { count: 1, id: "modern_industrialization:deepslate_lignite_coal_ore" } }
+		{
+			count: 4
+			id: "46047F4E8C0403FA"
+			item: {
+				count: 1
+				id: "modern_industrialization:bronze_machine_casing"
+			}
+		}
+		{
+			count: 8
+			id: "03653C686E3228DF"
+			item: {
+				count: 1
+				id: "modern_industrialization:fire_clay_bricks"
+			}
+		}
+		{
+			count: 16
+			id: "5AECD00BC030E4A6"
+			item: {
+				count: 1
+				id: "modern_industrialization:item_pipe"
+			}
+		}
+		{
+			count: 16
+			id: "4928920F25FE230B"
+			item: {
+				count: 1
+				id: "modern_industrialization:fluid_pipe"
+			}
+		}
+		{
+			count: 32
+			id: "023D5AFCDEC9A90A"
+			item: {
+				count: 1
+				id: "modern_industrialization:deepslate_lignite_coal_ore"
+			}
+		}
 	]
 	use_title: true
 }

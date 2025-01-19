@@ -11,6 +11,7 @@
 	order_index: 21
 	rewards: [{
 		count: 2
+		id: "0B1A9F4527D94E78"
 		item: {
 			count: 1
 			id: "ars_additions:ancient_codex_entry"

@@ -10,11 +10,46 @@
 	loot_size: 2
 	order_index: 14
 	rewards: [
-		{ count: 8, item: { count: 1, id: "modern_industrialization:highly_advanced_upgrade" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" } }
-		{ count: 16, item: { count: 1, id: "modern_industrialization:annealed_copper_cable" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:digital_circuit" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:large_advanced_motor" } }
+		{
+			count: 8
+			id: "0C0B23F5F5D44C0D"
+			item: {
+				count: 1
+				id: "modern_industrialization:highly_advanced_upgrade"
+			}
+		}
+		{
+			count: 8
+			id: "2BDC43835AF40D58"
+			item: {
+				count: 1
+				id: "modern_industrialization:highly_advanced_machine_hull"
+			}
+		}
+		{
+			count: 16
+			id: "589D9A1E7419CEC3"
+			item: {
+				count: 1
+				id: "modern_industrialization:annealed_copper_cable"
+			}
+		}
+		{
+			count: 8
+			id: "7B00236A749B1DA0"
+			item: {
+				count: 1
+				id: "modern_industrialization:digital_circuit"
+			}
+		}
+		{
+			count: 8
+			id: "38F77677E962F586"
+			item: {
+				count: 1
+				id: "modern_industrialization:large_advanced_motor"
+			}
+		}
 	]
 	use_title: true
 }

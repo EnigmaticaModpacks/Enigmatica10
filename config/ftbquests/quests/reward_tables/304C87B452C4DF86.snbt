@@ -10,10 +10,10 @@
 	loot_size: 2
 	order_index: 26
 	rewards: [
-		{ item: { count: 1, id: "oritech:machine_efficiency_addon" } }
-		{ item: { count: 1, id: "oritech:machine_capacitor_addon" } }
-		{ item: { count: 1, id: "oritech:machine_speed_addon" } }
-		{ item: { count: 1, id: "oritech:machine_yield_addon" } }
+		{ id: "59393A713905B9EF", item: { count: 1, id: "oritech:machine_efficiency_addon" } }
+		{ id: "2A14C682A2DA008B", item: { count: 1, id: "oritech:machine_capacitor_addon" } }
+		{ id: "0DE982F3BE7C5618", item: { count: 1, id: "oritech:machine_speed_addon" } }
+		{ id: "43BF0ED719B59662", item: { count: 1, id: "oritech:machine_yield_addon" } }
 	]
 	use_title: true
 }

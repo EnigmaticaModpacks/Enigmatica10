@@ -10,21 +10,57 @@
 	loot_size: 2
 	order_index: 6
 	rewards: [
-		{ count: 8, item: { count: 1, id: "mekanism:basic_control_circuit" } }
-		{ count: 4, item: { count: 1, id: "mekanism:advanced_control_circuit" } }
-		{ count: 4, item: { count: 1, id: "mekanism:hdpe_sheet" } }
-		{ count: 4, item: { count: 1, id: "mekanism:alloy_infused" } }
-		{ item: { count: 1, id: "mekanism:basic_tier_installer" }, weight: 2.0f }
+		{
+			count: 8
+			id: "5DE5AFE461F49267"
+			item: {
+				count: 1
+				id: "mekanism:basic_control_circuit"
+			}
+		}
 		{
 			count: 4
+			id: "5F610067520B52CE"
+			item: {
+				count: 1
+				id: "mekanism:advanced_control_circuit"
+			}
+		}
+		{
+			count: 4
+			id: "3E0D98F5D1ADCE2F"
+			item: {
+				count: 1
+				id: "mekanism:hdpe_sheet"
+			}
+		}
+		{
+			count: 4
+			id: "24560EA8456DD498"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+		}
+		{
+			id: "1259BB1067F78738"
+			item: {
+				count: 1
+				id: "mekanism:basic_tier_installer"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "0CCBB87D0E5ECB16"
 			item: {
 				count: 1
 				id: "mekanism:upgrade_energy"
 			}
 			weight: 2.0f
 		}
-		{ item: { count: 1, id: "mekanism:basic_chemical_tank" } }
-		{ item: { count: 1, id: "mekanism:basic_fluid_tank" } }
+		{ id: "2943C306F3F56232", item: { count: 1, id: "mekanism:basic_chemical_tank" } }
+		{ id: "17D375CE16AD081F", item: { count: 1, id: "mekanism:basic_fluid_tank" } }
 	]
 	use_title: true
 }

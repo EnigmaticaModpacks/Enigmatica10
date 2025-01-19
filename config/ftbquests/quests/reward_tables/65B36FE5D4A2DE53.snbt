@@ -4,21 +4,21 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ item: { count: 1, id: "minecraft:white_bed" } }
-		{ item: { count: 1, id: "minecraft:light_gray_bed" } }
-		{ item: { count: 1, id: "minecraft:gray_bed" } }
-		{ item: { count: 1, id: "minecraft:black_bed" } }
-		{ item: { count: 1, id: "minecraft:brown_bed" } }
-		{ item: { count: 1, id: "minecraft:red_bed" } }
-		{ item: { count: 1, id: "minecraft:orange_bed" } }
-		{ item: { count: 1, id: "minecraft:yellow_bed" } }
-		{ item: { count: 1, id: "minecraft:lime_bed" } }
-		{ item: { count: 1, id: "minecraft:green_bed" } }
-		{ item: { count: 1, id: "minecraft:cyan_bed" } }
-		{ item: { count: 1, id: "minecraft:blue_bed" } }
-		{ item: { count: 1, id: "minecraft:purple_bed" } }
-		{ item: { count: 1, id: "minecraft:magenta_bed" } }
-		{ item: { count: 1, id: "minecraft:pink_bed" } }
+		{ id: "186EF4C922AB38B7", item: { count: 1, id: "minecraft:white_bed" } }
+		{ id: "555AED1E9A8A10B1", item: { count: 1, id: "minecraft:light_gray_bed" } }
+		{ id: "04B8178D937F05CA", item: { count: 1, id: "minecraft:gray_bed" } }
+		{ id: "0B67CF3AE8E75E5B", item: { count: 1, id: "minecraft:black_bed" } }
+		{ id: "34E123452E5F10C2", item: { count: 1, id: "minecraft:brown_bed" } }
+		{ id: "204937523F41BB83", item: { count: 1, id: "minecraft:red_bed" } }
+		{ id: "19217943545450AD", item: { count: 1, id: "minecraft:orange_bed" } }
+		{ id: "0FC9A297C71FEC26", item: { count: 1, id: "minecraft:yellow_bed" } }
+		{ id: "10CF8C59ED604ED0", item: { count: 1, id: "minecraft:lime_bed" } }
+		{ id: "65650F7969873746", item: { count: 1, id: "minecraft:green_bed" } }
+		{ id: "3268157A1EAF581A", item: { count: 1, id: "minecraft:cyan_bed" } }
+		{ id: "3E0530BC689621D5", item: { count: 1, id: "minecraft:blue_bed" } }
+		{ id: "74E878821C5EBEC8", item: { count: 1, id: "minecraft:purple_bed" } }
+		{ id: "7E2196D62975B111", item: { count: 1, id: "minecraft:magenta_bed" } }
+		{ id: "3E3650646477C33B", item: { count: 1, id: "minecraft:pink_bed" } }
 	]
 	use_title: true
 }

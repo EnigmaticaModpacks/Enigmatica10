@@ -10,9 +10,10 @@
 	loot_size: 2
 	order_index: 17
 	rewards: [
-		{ item: { components: { "pneumaticcraft:main_tank": { amount: 32000, id: "pneumaticcraft:oil" } }, count: 1, id: "pneumaticcraft:medium_tank" } }
+		{ id: "2C03728A4DFF3CDC", item: { components: { "pneumaticcraft:main_tank": { amount: 32000, id: "pneumaticcraft:oil" } }, count: 1, id: "pneumaticcraft:medium_tank" } }
 		{
 			count: 4
+			id: "0D00BFF7897ADAB3"
 			item: {
 				count: 1
 				id: "pneumaticcraft:speed_upgrade"
@@ -21,6 +22,7 @@
 		}
 		{
 			count: 8
+			id: "373140F18529DDEA"
 			item: {
 				count: 1
 				id: "pneumaticcraft:volume_upgrade"
@@ -29,17 +31,61 @@
 		}
 		{
 			count: 4
+			id: "5A3BEED3B537E7FE"
 			item: {
 				count: 1
 				id: "pneumaticcraft:module_expansion_card"
 			}
 			random_bonus: 4
 		}
-		{ item: { count: 1, id: "pneumaticcraft:smart_chest_kit" } }
-		{ item: { components: { "pneumaticcraft:potion_ammo": [{ item: { components: { "minecraft:potion_contents": { potion: "kubejs:greater_instant_damage" } }, count: 1, id: "minecraft:potion" }, slot: 0 }] }, count: 1, id: "pneumaticcraft:gun_ammo" }, weight: 0.5f }
-		{ item: { components: { "pneumaticcraft:potion_ammo": [{ item: { components: { "minecraft:potion_contents": { potion: "minecraft:strong_slowness" } }, count: 1, id: "minecraft:potion" }, slot: 0 }] }, count: 1, id: "pneumaticcraft:gun_ammo" }, weight: 0.5f }
+		{ id: "301950889223F9E7", item: { count: 1, id: "pneumaticcraft:smart_chest_kit" } }
+		{
+			id: "2096292BF88A876F"
+			item: {
+				components: {
+					"pneumaticcraft:potion_ammo": [{
+						item: {
+							components: {
+								"minecraft:potion_contents": {
+									potion: "kubejs:greater_instant_damage"
+								}
+							}
+							count: 1
+							id: "minecraft:potion"
+						}
+						slot: 0
+					}]
+				}
+				count: 1
+				id: "pneumaticcraft:gun_ammo"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "029B6A7921071D2C"
+			item: {
+				components: {
+					"pneumaticcraft:potion_ammo": [{
+						item: {
+							components: {
+								"minecraft:potion_contents": {
+									potion: "minecraft:strong_slowness"
+								}
+							}
+							count: 1
+							id: "minecraft:potion"
+						}
+						slot: 0
+					}]
+				}
+				count: 1
+				id: "pneumaticcraft:gun_ammo"
+			}
+			weight: 0.5f
+		}
 		{
 			count: 8
+			id: "35B3981BF58BD698"
 			item: {
 				count: 1
 				id: "pneumaticcraft:reinforced_pressure_tube"
@@ -48,6 +94,7 @@
 		}
 		{
 			count: 4
+			id: "2C951AA644D51223"
 			item: {
 				count: 1
 				id: "pneumaticcraft:aphorism_tile"

@@ -12,6 +12,7 @@
 	rewards: [
 		{
 			count: 8
+			id: "3FE9E3B5A8BD66B1"
 			item: {
 				count: 1
 				id: "minecraft:iron_ore"
@@ -21,6 +22,7 @@
 		}
 		{
 			count: 16
+			id: "1EAA21EE7AA04646"
 			item: {
 				count: 1
 				id: "minecraft:coal_ore"
@@ -30,6 +32,7 @@
 		}
 		{
 			count: 8
+			id: "1799ED9AE31441FD"
 			item: {
 				count: 1
 				id: "minecraft:copper_ore"
@@ -39,6 +42,7 @@
 		}
 		{
 			count: 8
+			id: "6B6DC56DB8A35721"
 			item: {
 				count: 1
 				id: "minecraft:gold_ore"
@@ -48,6 +52,7 @@
 		}
 		{
 			count: 16
+			id: "7A46848069CE2282"
 			item: {
 				count: 1
 				id: "minecraft:redstone_ore"
@@ -57,6 +62,7 @@
 		}
 		{
 			count: 8
+			id: "3C29A5CBD403AC17"
 			item: {
 				count: 1
 				id: "minecraft:emerald_ore"
@@ -66,6 +72,7 @@
 		}
 		{
 			count: 16
+			id: "066F00CCD8696406"
 			item: {
 				count: 1
 				id: "minecraft:lapis_ore"
@@ -75,6 +82,7 @@
 		}
 		{
 			count: 8
+			id: "1ED5C6F280D6FC8E"
 			item: {
 				count: 1
 				id: "minecraft:diamond_ore"
@@ -84,6 +92,7 @@
 		}
 		{
 			count: 8
+			id: "37A4177995D6936E"
 			item: {
 				count: 1
 				id: "modern_industrialization:lead_ore"
@@ -93,6 +102,7 @@
 		}
 		{
 			count: 16
+			id: "7650A1A7F8E19C24"
 			item: {
 				count: 1
 				id: "modern_industrialization:lignite_coal_ore"
@@ -102,6 +112,7 @@
 		}
 		{
 			count: 8
+			id: "42B1EAD1600258FE"
 			item: {
 				count: 1
 				id: "modern_industrialization:nickel_ore"
@@ -111,6 +122,7 @@
 		}
 		{
 			count: 16
+			id: "35E8CE3CC865868A"
 			item: {
 				count: 1
 				id: "modern_industrialization:quartz_ore"
@@ -120,6 +132,7 @@
 		}
 		{
 			count: 8
+			id: "1E294C12034F1623"
 			item: {
 				count: 1
 				id: "modern_industrialization:tin_ore"

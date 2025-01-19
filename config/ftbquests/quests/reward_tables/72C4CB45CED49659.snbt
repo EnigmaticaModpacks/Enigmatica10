@@ -10,10 +10,31 @@
 	loot_size: 2
 	order_index: 23
 	rewards: [
-		{ item: { count: 1, id: "naturesaura:ancient_sapling" } }
-		{ count: 16, item: { count: 1, id: "naturesaura:infused_stone" } }
-		{ count: 16, item: { count: 1, id: "naturesaura:ancient_log" } }
-		{ count: 8, item: { count: 1, id: "naturesaura:gold_powder" } }
+		{ id: "2F28ABE5964C0A09", item: { count: 1, id: "naturesaura:ancient_sapling" } }
+		{
+			count: 16
+			id: "3B6D25706F71BB48"
+			item: {
+				count: 1
+				id: "naturesaura:infused_stone"
+			}
+		}
+		{
+			count: 16
+			id: "3C5058627FF69440"
+			item: {
+				count: 1
+				id: "naturesaura:ancient_log"
+			}
+		}
+		{
+			count: 8
+			id: "60F0843578F0BBE2"
+			item: {
+				count: 1
+				id: "naturesaura:gold_powder"
+			}
+		}
 		{
 			auto: "invisible"
 			command: "/execute at @p run naaura add 100000"
@@ -25,6 +46,7 @@
 				}
 				id: "ftbquests:custom_icon"
 			}
+			id: "5931110DE0F30EB7"
 			silent: true
 			type: "command"
 		}

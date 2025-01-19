@@ -10,18 +10,40 @@
 	loot_size: 2
 	order_index: 7
 	rewards: [
-		{ count: 4, item: { count: 1, id: "mekanism:elite_control_circuit" } }
-		{ item: { count: 1, id: "mekanism:advanced_tier_installer" }, weight: 2.0f }
-		{ count: 4, item: { count: 1, id: "mekanism:alloy_reinforced" } }
 		{
 			count: 4
+			id: "562B6DD6A298D141"
+			item: {
+				count: 1
+				id: "mekanism:elite_control_circuit"
+			}
+		}
+		{
+			id: "5F1E7B20C3EA1819"
+			item: {
+				count: 1
+				id: "mekanism:advanced_tier_installer"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "5EA97E1F8E0D4126"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+		}
+		{
+			count: 4
+			id: "32415C3BAC6F35A5"
 			item: {
 				count: 1
 				id: "mekanism:upgrade_speed"
 			}
 			weight: 2.0f
 		}
-		{ item: { count: 1, id: "mekanism:qio_drive_base" } }
+		{ id: "25C230BAF1C5554E", item: { count: 1, id: "mekanism:qio_drive_base" } }
 	]
 	use_title: true
 }

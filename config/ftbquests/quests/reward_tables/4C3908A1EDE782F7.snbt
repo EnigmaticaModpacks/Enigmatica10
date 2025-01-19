@@ -12,6 +12,7 @@
 	rewards: [
 		{
 			count: 8
+			id: "38A415CC64FFC6EA"
 			item: {
 				count: 1
 				id: "theurgy:mercury_shard"
@@ -20,6 +21,7 @@
 		}
 		{
 			count: 8
+			id: "23B87764D7F2DBB2"
 			item: {
 				count: 1
 				id: "theurgy:purified_gold"
@@ -28,6 +30,7 @@
 		}
 		{
 			count: 8
+			id: "7DDD49F39BC22FD8"
 			item: {
 				count: 1
 				id: "theurgy:fermentation_starter"
@@ -36,6 +39,7 @@
 		}
 		{
 			count: 8
+			id: "2ED1679A7E25366A"
 			item: {
 				count: 1
 				id: "theurgy:alchemical_salt_strata"
@@ -45,6 +49,7 @@
 		}
 		{
 			count: 8
+			id: "624F8F0B2B9F6DA1"
 			item: {
 				count: 1
 				id: "theurgy:alchemical_salt_mineral"
@@ -54,6 +59,7 @@
 		}
 		{
 			count: 8
+			id: "39B5EA11307FBF03"
 			item: {
 				count: 1
 				id: "theurgy:alchemical_salt_plant"
@@ -63,6 +69,7 @@
 		}
 		{
 			count: 8
+			id: "62E100A403DF7152"
 			item: {
 				count: 1
 				id: "theurgy:alchemical_salt_creature"
@@ -70,8 +77,8 @@
 			random_bonus: 8
 			weight: 0.25f
 		}
-		{ item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "ars_nouveau:spell_damage", "neoforge:cures": [ "protected_by_totem", "milk" ], show_icon: 1b }], potion: "kubejs:greater_mana_regen" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
-		{ item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "minecraft:regeneration", "neoforge:cures": [ "protected_by_totem", "milk" ], show_icon: 1b }], potion: "kubejs:greater_strength" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
+		{ id: "11FD9FD5CBE2FE0C", item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "ars_nouveau:spell_damage", "neoforge:cures": [ "milk", "protected_by_totem" ], show_icon: 1b }], potion: "kubejs:greater_mana_regen" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
+		{ id: "43B79964C7F120D4", item: { components: { "ars_nouveau:multi_potion": { charges: 8, contents: { custom_effects: [{ amplifier: 3b, duration: 3600, id: "minecraft:regeneration", "neoforge:cures": [ "milk", "protected_by_totem" ], show_icon: 1b }], potion: "kubejs:greater_strength" }, maxUses: 8 } }, count: 1, id: "ars_nouveau:potion_flask_extend_time" } }
 	]
 	use_title: true
 }

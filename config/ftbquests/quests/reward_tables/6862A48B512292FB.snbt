@@ -9,10 +9,10 @@
 	loot_size: 1
 	order_index: 24
 	rewards: [
-		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ball_lightning", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
-		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:firebolt", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
-		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:icicle", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
-		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wither_skull", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
-		{ item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magic_missile", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "236003E95E164966", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ball_lightning", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "0607E5C9D4D43F6B", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:firebolt", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "2B96875637B56A84", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:icicle", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "229F715C48FEEDE3", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wither_skull", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "31423975513ABB58", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magic_missile", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
 	]
 }

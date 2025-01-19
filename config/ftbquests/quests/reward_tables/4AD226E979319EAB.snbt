@@ -10,12 +10,54 @@
 	loot_size: 2
 	order_index: 9
 	rewards: [
-		{ count: 4, item: { count: 1, id: "modern_industrialization:steel_upgrade" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:steel_machine_casing" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:motor" } }
-		{ count: 8, item: { count: 1, id: "modern_industrialization:bronze_drill" } }
-		{ count: 16, item: { count: 1, id: "modern_industrialization:item_pipe" } }
-		{ count: 16, item: { count: 1, id: "modern_industrialization:fluid_pipe" } }
+		{
+			count: 4
+			id: "72C1C3500019B9A0"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_upgrade"
+			}
+		}
+		{
+			count: 8
+			id: "2E45DC5F5DE46064"
+			item: {
+				count: 1
+				id: "modern_industrialization:steel_machine_casing"
+			}
+		}
+		{
+			count: 8
+			id: "25068C7115ABC128"
+			item: {
+				count: 1
+				id: "modern_industrialization:motor"
+			}
+		}
+		{
+			count: 8
+			id: "6D44BE5FDFA93DBA"
+			item: {
+				count: 1
+				id: "modern_industrialization:bronze_drill"
+			}
+		}
+		{
+			count: 16
+			id: "495F87DC075FF923"
+			item: {
+				count: 1
+				id: "modern_industrialization:item_pipe"
+			}
+		}
+		{
+			count: 16
+			id: "6A3F07A26F13BBF2"
+			item: {
+				count: 1
+				id: "modern_industrialization:fluid_pipe"
+			}
+		}
 	]
 	use_title: true
 }

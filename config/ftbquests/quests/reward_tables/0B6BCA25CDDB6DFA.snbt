@@ -12,6 +12,7 @@
 	rewards: [
 		{
 			count: 4
+			id: "060FC2A61D4DED6E"
 			item: {
 				count: 1
 				id: "evilcraft:condensed_blood"
@@ -20,6 +21,7 @@
 		}
 		{
 			count: 4
+			id: "0E07E7474CA6FF10"
 			item: {
 				components: {
 					"evilcraft:weather_container_type": "CLEAR"
@@ -32,6 +34,7 @@
 		}
 		{
 			count: 4
+			id: "05DCA3B5DC9B9285"
 			item: {
 				components: {
 					"evilcraft:weather_container_type": "RAIN"
@@ -44,6 +47,7 @@
 		}
 		{
 			count: 4
+			id: "37D9AE0FE42AEA58"
 			item: {
 				components: {
 					"evilcraft:weather_container_type": "LIGHTNING"
@@ -54,9 +58,20 @@
 			}
 			random_bonus: 4
 		}
-		{ item: { components: { "cyclopscore:capacity": 16000 }, count: 1, id: "evilcraft:dark_tank" }, random_bonus: 1 }
+		{
+			id: "3091FCABFB4F9082"
+			item: {
+				components: {
+					"cyclopscore:capacity": 16000
+				}
+				count: 1
+				id: "evilcraft:dark_tank"
+			}
+			random_bonus: 1
+		}
 		{
 			count: 2
+			id: "20C57B20F2FCE809"
 			item: {
 				count: 1
 				id: "evilcraft:potentia_sphere"
@@ -65,6 +80,7 @@
 		}
 		{
 			count: 2
+			id: "2B05B111EBD3D62A"
 			item: {
 				count: 1
 				id: "evilcraft:ender_tear"
@@ -73,6 +89,7 @@
 		}
 		{
 			count: 8
+			id: "26CDFCFAAFB9A324"
 			item: {
 				count: 1
 				id: "evilcraft:dark_ore"

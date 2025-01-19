@@ -10,16 +10,86 @@
 	loot_size: 4
 	order_index: 1
 	rewards: [
-		{ count: 8, item: { count: 1, id: "minecraft:cooked_cod" } }
-		{ count: 8, item: { count: 1, id: "minecraft:cooked_salmon" } }
-		{ count: 8, item: { count: 1, id: "minecraft:bread" } }
-		{ count: 4, item: { count: 1, id: "minecraft:golden_carrot" } }
-		{ count: 8, item: { count: 1, id: "minecraft:baked_potato" } }
-		{ count: 4, item: { count: 1, id: "minecraft:cooked_beef" } }
-		{ count: 4, item: { count: 1, id: "minecraft:cooked_porkchop" } }
-		{ count: 4, item: { count: 1, id: "minecraft:cooked_mutton" } }
-		{ count: 4, item: { count: 1, id: "minecraft:cooked_chicken" } }
-		{ count: 4, item: { count: 1, id: "minecraft:cooked_rabbit" } }
+		{
+			count: 8
+			id: "6ED4EFAA32D87298"
+			item: {
+				count: 1
+				id: "minecraft:cooked_cod"
+			}
+		}
+		{
+			count: 8
+			id: "7A5C91F217F0315C"
+			item: {
+				count: 1
+				id: "minecraft:cooked_salmon"
+			}
+		}
+		{
+			count: 8
+			id: "048A63CCEA5CD0E0"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+		}
+		{
+			count: 4
+			id: "6ECD5A608B145A6C"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+		}
+		{
+			count: 8
+			id: "35D57C4305AB501B"
+			item: {
+				count: 1
+				id: "minecraft:baked_potato"
+			}
+		}
+		{
+			count: 4
+			id: "01651692C8F5ECBD"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			count: 4
+			id: "3A38FE42C6E3FB31"
+			item: {
+				count: 1
+				id: "minecraft:cooked_porkchop"
+			}
+		}
+		{
+			count: 4
+			id: "73ACBBCB6E200E5E"
+			item: {
+				count: 1
+				id: "minecraft:cooked_mutton"
+			}
+		}
+		{
+			count: 4
+			id: "0E4477C136D8A970"
+			item: {
+				count: 1
+				id: "minecraft:cooked_chicken"
+			}
+		}
+		{
+			count: 4
+			id: "38DD2DD04A6DE1AC"
+			item: {
+				count: 1
+				id: "minecraft:cooked_rabbit"
+			}
+		}
 	]
 	use_title: true
 }
