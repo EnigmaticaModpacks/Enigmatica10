@@ -115,7 +115,7 @@ ServerEvents.recipes((event) => {
         {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'actuallyadditions:rice_seeds' },
-            id: `${id_prefix}rice_seeds`
+            id: `${id_prefix}actuallyadditions_rice_seeds`
         },
         {
             category: 'farmingforblockheads:seeds',
@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
         {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'sushigocrafting:rice_seeds' },
-            id: `${id_prefix}rice_seeds`
+            id: `${id_prefix}sushigocrafting_rice_seeds`
         },
         {
             category: 'farmingforblockheads:seeds',
