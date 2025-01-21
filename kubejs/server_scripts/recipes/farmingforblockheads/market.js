@@ -115,7 +115,7 @@ ServerEvents.recipes((event) => {
         {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'actuallyadditions:rice_seeds' },
-            id: `${id_prefix}rice_seeds`
+            id: `${id_prefix}actuallyadditions_rice_seeds`
         },
         {
             category: 'farmingforblockheads:seeds',
@@ -145,7 +145,7 @@ ServerEvents.recipes((event) => {
         {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'sushigocrafting:rice_seeds' },
-            id: `${id_prefix}rice_seeds`
+            id: `${id_prefix}sushigocrafting_rice_seeds`
         },
         {
             category: 'farmingforblockheads:seeds',
@@ -161,6 +161,21 @@ ServerEvents.recipes((event) => {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'sushigocrafting:wasabi_seeds' },
             id: `${id_prefix}wasabi_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'farmersdelight:rice' },
+            id: `${id_prefix}farmersdelight_rice`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'farmersdelight:tomato_seeds' },
+            id: `${id_prefix}farmersdelight_tomato_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'farmersdelight:cabbage_seeds' },
+            id: `${id_prefix}farmersdelight_cabbage_seeds`
         }
     ];
 
