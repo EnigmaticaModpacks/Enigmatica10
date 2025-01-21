@@ -29,11 +29,11 @@ $MODPACK_NAME = "Enigmatica10"
 $CLIENT_NAME = "Enigmatica10"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.16.1"
+$MODPACK_VERSION = "1.17.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.16.0"
+$LAST_MODPACK_VERSION = "1.16.1"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -195,7 +195,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"clienttweaks-common.toml",
 	"cumulus_menus-client.toml",
 	"ars_controle-client.toml",
-	"emi.css"
+	"emi.css",
+	"ars_nouveau/doc_data.json"
 )
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @(
@@ -204,7 +205,8 @@ $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"local/ftbultimine", 
 	"local/ftbultimine-client.snbt", 
 	"resourcepacks",
-	"config/productivetrees/generated"
+	"config/productivetrees/generated",
+	"config/ars_nouveau/search_index"
 )
 
 

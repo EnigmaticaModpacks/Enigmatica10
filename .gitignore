@@ -217,3 +217,5 @@ config/clienttweaks-common.toml
 config/cumulus_menus-client.toml
 config/fabric/indigo-renderer.properties
 config/ars_controle-client.toml
+config/ars_nouveau/search_index
+config/ars_nouveau/doc_data.json
