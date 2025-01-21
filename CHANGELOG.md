@@ -1,3 +1,17 @@
+### Enigmatica 10 1.17.0
+
+NeoForge-1.21.1-21.1.95 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.17.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.17.0.md)
+
+#### ✔️ Added Mods
+
+* [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
+
+#### 🦟 Bugs Fixed
+
+-   when you stick it / plonk something with more than 4 items, it voids all items beyond 4 [(\#357)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/357)
+
+---
+
 ### Enigmatica 10 1.16.1
 
 NeoForge-1.21.1-21.1.90 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.16.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.16.1.md)
