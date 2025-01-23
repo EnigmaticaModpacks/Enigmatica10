@@ -2,7 +2,7 @@
 
 #### ⭐ Improvements
 
--   Add note to JDT quests about feeding goo [(\#a5e34437fb2a7e2fde72788a53d49ae69ae43dac)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a5e34437fb2a7e2fde72788a53d49ae69ae43dac)
+-   Add note to JDT quests about feeding goo [(\#a5e3443)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a5e34437fb2a7e2fde72788a53d49ae69ae43dac)
 
 ### Enigmatica 10 1.17.0
 
