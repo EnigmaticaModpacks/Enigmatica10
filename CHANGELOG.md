@@ -1,10 +1,16 @@
+### Enigmatica 10 1.18.0
+
+#### ⭐ Improvements
+
+-   Add note to JDT quests about feeding goo [(\#a5e34437fb2a7e2fde72788a53d49ae69ae43dac)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a5e34437fb2a7e2fde72788a53d49ae69ae43dac)
+
 ### Enigmatica 10 1.17.0
 
 NeoForge-1.21.1-21.1.95 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.17.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.17.0.md)
 
 #### ✔️ Added Mods
 
-* [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
+-   [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
 
 #### 🦟 Bugs Fixed
 
@@ -17,9 +23,11 @@ NeoForge-1.21.1-21.1.95 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 NeoForge-1.21.1-21.1.90 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.16.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.16.1.md)
 
 #### ❌ Removed Mods
-* [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
+
+-   [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
 
 #### 🦟 Bugs Fixed
+
 -   Curios API 1.20.1 was added in 1.16.0 due to being marked as a dependency by a mod. This release removes Curios API 1.20.1, allowing the pack to launch 😅
 
 ---
@@ -30,26 +38,26 @@ NeoForge-1.21.1-21.1.90 | [Mod Updates](https://github.com/EnigmaticaModpacks/En
 
 #### ✔️ Added Mods
 
-* [Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome) (by [Vazkii](https://www.curseforge.com/members/Vazkii/projects))
-* [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments) (by [plantspookable](https://www.curseforge.com/members/plantspookable/projects))
-* [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-* [Apothic Enchanting](https://www.curseforge.com/minecraft/mc-mods/apothic-enchanting) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
-* [CodeChicken Lib 1.8.+](https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8) (by [covers1624](https://www.curseforge.com/members/covers1624/projects))
-* [Construction Sticks](https://www.curseforge.com/minecraft/mc-mods/construction-sticks) (by [Mrbysco](https://www.curseforge.com/members/Mrbysco/projects))
-* [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
-* [Ender Storage 1.8.+](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8) (by [covers1624](https://www.curseforge.com/members/covers1624/projects))
-* [Hyperbox](https://www.curseforge.com/minecraft/mc-mods/hyperbox) (by [Commoble](https://www.curseforge.com/members/Commoble/projects))
-* [Mekanistic Routers](https://www.curseforge.com/minecraft/mc-mods/mekanistic-routers) (by [matyrobbrt](https://www.curseforge.com/members/matyrobbrt/projects))
-* [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
-* [Moonlight Lib](https://www.curseforge.com/minecraft/mc-mods/selene) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
-* [Morph-o-Tool](https://www.curseforge.com/minecraft/mc-mods/morph-o-tool) (by [Vazkii](https://www.curseforge.com/members/Vazkii/projects))
-* [NeoAuth](https://www.curseforge.com/minecraft/mc-mods/neoauth) (by [Mrbysco](https://www.curseforge.com/members/Mrbysco/projects))
-* [Replication](https://www.curseforge.com/minecraft/mc-mods/replication) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-* [Salem](https://www.curseforge.com/minecraft/mc-mods/salem) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-* [Soulplied Energistics](https://www.curseforge.com/minecraft/mc-mods/soulplied-energistics) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
-* [Stick It!](https://www.curseforge.com/minecraft/mc-mods/stick-it) (by [Project8gbDeRam](https://www.curseforge.com/members/Project8gbDeRam/projects))
-* [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
-* [Sushi Go Crafting](https://www.curseforge.com/minecraft/mc-mods/sushigocrafting) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome) (by [Vazkii](https://www.curseforge.com/members/Vazkii/projects))
+-   [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments) (by [plantspookable](https://www.curseforge.com/members/plantspookable/projects))
+-   [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [Apothic Enchanting](https://www.curseforge.com/minecraft/mc-mods/apothic-enchanting) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+-   [CodeChicken Lib 1.8.+](https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8) (by [covers1624](https://www.curseforge.com/members/covers1624/projects))
+-   [Construction Sticks](https://www.curseforge.com/minecraft/mc-mods/construction-sticks) (by [Mrbysco](https://www.curseforge.com/members/Mrbysco/projects))
+-   [Curios API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/curios) (by [TheIllusiveC4](https://www.curseforge.com/members/TheIllusiveC4/projects))
+-   [Ender Storage 1.8.+](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8) (by [covers1624](https://www.curseforge.com/members/covers1624/projects))
+-   [Hyperbox](https://www.curseforge.com/minecraft/mc-mods/hyperbox) (by [Commoble](https://www.curseforge.com/members/Commoble/projects))
+-   [Mekanistic Routers](https://www.curseforge.com/minecraft/mc-mods/mekanistic-routers) (by [matyrobbrt](https://www.curseforge.com/members/matyrobbrt/projects))
+-   [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
+-   [Moonlight Lib](https://www.curseforge.com/minecraft/mc-mods/selene) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
+-   [Morph-o-Tool](https://www.curseforge.com/minecraft/mc-mods/morph-o-tool) (by [Vazkii](https://www.curseforge.com/members/Vazkii/projects))
+-   [NeoAuth](https://www.curseforge.com/minecraft/mc-mods/neoauth) (by [Mrbysco](https://www.curseforge.com/members/Mrbysco/projects))
+-   [Replication](https://www.curseforge.com/minecraft/mc-mods/replication) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Salem](https://www.curseforge.com/minecraft/mc-mods/salem) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Soulplied Energistics](https://www.curseforge.com/minecraft/mc-mods/soulplied-energistics) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+-   [Stick It!](https://www.curseforge.com/minecraft/mc-mods/stick-it) (by [Project8gbDeRam](https://www.curseforge.com/members/Project8gbDeRam/projects))
+-   [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
+-   [Sushi Go Crafting](https://www.curseforge.com/minecraft/mc-mods/sushigocrafting) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
 
 #### ⭐ Improvements
 
