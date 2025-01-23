@@ -617,6 +617,13 @@
 		"We’ll begin by making some Ferricore and Primal Coal. To do so, place the Primogel Goo and then place either Coal Blocks or Iron Blocks on any of the six sides. Feel free to use all six at once."
 		""
 		"When the Coal and Iron are fully engulfed by the goo, they’ll be replaced by a crystal that can be broken to obtain the transmuted materials"
+		""
+		"&6⚠ Note: Goo is hungry and needs to be "
+		"&6    fed to work! "
+		""
+		"&6    Right-Click with items to activate it."
+		"&6    To find what items work, search "
+		"&3    #goo_revive_tier_1&r&6 in EMI!"
 	]
 	quest.11FE0DE653577AFB.quest_desc: ["A humble, but cheap, charging station. It will charge any FE based equipment inserted into it."]
 	quest.1272A1D0BD9934AE.quest_desc: [
@@ -1389,6 +1396,13 @@
 		"This tier’s coal is obtained with blocks of the previous tier’s coal, while Celestigems are transformed from Diamond Blocks."
 		""
 		"&a🛈 Tip: Higher tier Goos can do all of the lower tier’s recipes."
+		""
+		"&6⚠ Note: Goo is hungry and needs to be "
+		"&6    fed to work! "
+		""
+		"&6    Right-Click with items to activate it."
+		"&6    To find what items work, search "
+		"&3    #goo_revive_tier_3&r&6 in EMI!"
 	]
 	quest.296C31D4425DE534.quest_desc: [
 		"Flower Headwear can also be used to prevent Wrath of the Hive, allowing safer travels through a Cell Maze. "
@@ -4420,6 +4434,13 @@
 		""
 		"&a🛈 Tip: Higher tier Goos will do all of the "
 		"&a    lower tier’s recipes faster."
+		""
+		"&6⚠ Note: Goo is hungry and needs to be "
+		"&6    fed to work! "
+		""
+		"&6    Right-Click with items to activate it."
+		"&6    To find what items work, search "
+		"&3    #goo_revive_tier_2&r&6 in EMI!"
 	]
 	quest.770EE92EA4CF973C.quest_desc: [
 		"Upgrading to an Iesnium Pickaxe will allow us to obtain more Iesnium with less hassle compared to the Infused Pickaxe since it has greater durability and can also mine the hidden ores in the Nether."
@@ -4535,6 +4556,13 @@
 		""
 		"&a🛈 Tip: Higher tier Goos will do all of the "
 		"&a    lower tier’s recipes faster."
+		""
+		"&6⚠ Note: Goo is hungry and needs to be "
+		"&6    fed to work! "
+		""
+		"&6    Right-Click with items to activate it."
+		"&6    To find what items work, search "
+		"&3    #goo_revive_tier_4&r&6 in EMI!"
 	]
 	quest.79A6EED9C2D433F1.quest_desc: [
 		"Djinni Crushers are considerably more powerful than their Foliot cousins. "

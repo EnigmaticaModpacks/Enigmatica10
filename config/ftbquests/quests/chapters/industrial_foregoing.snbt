@@ -340,15 +340,18 @@
 		{
 			dependencies: ["68A0052D169BB6E4"]
 			id: "410225ED927857D4"
+			rewards: [{
+				id: "51BFA40D4F1F2E8B"
+				item: {
+					count: 1
+					id: "industrialforegoing:animal_baby_separator"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "70F2249949E43952"
 					item: { count: 1, id: "industrialforegoing:animal_feeder" }
-					type: "item"
-				}
-				{
-					id: "72CEF77455934643"
-					item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
 					type: "item"
 				}
 				{
