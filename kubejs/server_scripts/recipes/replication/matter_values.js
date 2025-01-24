@@ -242,6 +242,80 @@ ServerEvents.recipes((event) => {
                 { type: 'replication:earth', amount: 2.0 }
             ],
             id: `${id_prefix}lightning_bottle`
+        },
+        {
+            input: { item: 'occultism:otherworld_essence' },
+            matter: [
+                { type: 'replication:ender', amount: 1.0 },
+                { type: 'replication:organic', amount: 4.0 }
+            ],
+            id: `${id_prefix}otherworld_essence`
+        },
+        {
+            input: { item: 'occultism:otherstone' },
+            matter: [
+                { type: 'replication:quantum', amount: 1.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}otherstone`
+        },
+        {
+            input: { item: 'occultism:othercobblestone' },
+            matter: [
+                { type: 'replication:quantum', amount: 1.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}othercobblestone`
+        },
+        {
+            input: { item: 'occultism:spirit_attuned_gem' },
+            matter: [
+                { type: 'replication:quantum', amount: 8.0 },
+                { type: 'replication:precious', amount: 28.0 }
+            ],
+            id: `${id_prefix}spirit_attuned_gem`
+        },
+        {
+            input: { item: 'enderio:grains_of_infinity' },
+            matter: [
+                { type: 'replication:quantum', amount: 1.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}grains_of_infinity`
+        },
+        {
+            input: { item: 'actuallyadditions:black_quartz' },
+            matter: [
+                { type: 'replication:precious', amount: 1.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}black_quartz`
+        },
+        {
+            input: { item: 'oritech:fluxite' },
+            matter: [
+                { type: 'replication:precious', amount: 4.0 },
+                { type: 'replication:earth', amount: 1.0 },
+                { type: 'replication:quantum', amount: 2.0 }
+            ],
+            id: `${id_prefix}fluxite`
+        },
+        {
+            input: { item: 'modern_industrialization:lignite_coal' },
+            matter: [
+                { type: 'replication:earth', amount: 2.0 },
+                { type: 'replication:precious', amount: 0.3 },
+                { type: 'replication:organic', amount: 0.3 }
+            ],
+            id: `${id_prefix}lignite_coal`
+        },
+        {
+            input: { item: 'mekanism:fluorite_gem' },
+            matter: [
+                { type: 'replication:precious', amount: 4.0 },
+                { type: 'replication:earth', amount: 2.0 }
+            ],
+            id: `${id_prefix}fluorite_gem`
         }
     ];
 
