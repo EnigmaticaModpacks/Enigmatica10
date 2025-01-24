@@ -1,8 +1,9 @@
 {
 	chapter.0095002B3E34FD9A.title: "Occultism"
-	chapter.03ADECBF619A2E3A.title: "Occultism Testing"
+	chapter.03ADECBF619A2E3A.title: "Occultism Progression Rework"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.1514913DA64A98EB.title: "Ender IO"
@@ -23,6 +24,7 @@
 	chapter.603B06098A07350C.title: "EvilCraft"
 	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.60F666DD0AC6F03F.title: "Multiverse"
+	chapter.64212EEB7AF863D1.title: "Occultism Current Progression"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
@@ -139,6 +141,7 @@
 		""
 		"There are several uses for this, but when it comes to making Charms, there are two that are our focus; Amethyst Golems and Bookwyrms. The creation of both of these is detailed in the Tablet’s tooltip."
 	]
+	quest.04107677B244E672.title: "Abra's Open Conjure"
 	quest.04217403B704949B.quest_desc: [
 		"Tired of chalking out large pentacles by hand? Ritual Satchels make the process considerably easier."
 		""
@@ -206,6 +209,7 @@
 		"&a🛈 Tip: Starbuncles can be filtered with "
 		"&a    Allow/Deny Scrolls!"
 	]
+	quest.0672655E6A6E5502.title: "Abra's Open Commanding Conjure"
 	quest.06F1A8F15128C1D9.quest_desc: [
 		"While not part of EvilCraft, it’s worth a mention here that Mob Spawners can be moved with Silk Touch and even upgraded! "
 		""
@@ -226,6 +230,7 @@
 		""
 		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
 	]
+	quest.07EC9F9B878ABF01.title: "Fatma's Incentivized Attraction"
 	quest.0842BA3FA770788D.quest_desc: [
 		"Had enough of building out more and more Crafting CPUs to handle your ever-growing base? Switch to a Quantum Computer instead!"
 		""
@@ -994,6 +999,7 @@
 		""
 		"Greater range will cost more power!"
 	]
+	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
 	quest.1D3ECD980E15451B.quest_desc: [
 		"Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."
 		""
@@ -1485,6 +1491,7 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2BE4C2280C195282.title: "Abra's Conjure"
 	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
 	quest.2BF4F678812848FC.title: "Fermentation"
 	quest.2C1538BE243F0CB4.quest_desc: [
@@ -1543,6 +1550,7 @@
 		""
 		"Some scrolls will only be available with higher tier inks!"
 	]
+	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -1754,6 +1762,7 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.380D0C6385B6325C.quest_desc: [
 		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
 		""
@@ -2482,6 +2491,7 @@
 		"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
+	quest.45035128A978E189.title: "Sevira's Permanent Confinement"
 	quest.4510A825D259CA86.title: "Abra's Open Commanding Conjure"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
 	quest.4537806144939A6B.quest_desc: [
@@ -2861,6 +2871,7 @@
 		"&a    Logistics, such as Mercurial "
 		"&a    Item Nodes!"
 	]
+	quest.4DA846036F3B01C3.title: "Strigeor's Higher Binding"
 	quest.4DE1B1045507C72C.quest_desc: [
 		"Dark Sticks, apart from being a useful crafting component, also serve to point the way to a special type of structure, the Dark Temple. "
 		""
@@ -2953,6 +2964,7 @@
 		""
 		"When coupled with an Adept Hopper, it can be filtered to specific items."
 	]
+	quest.503E9805EC687D70.title: "Eziveus' Spectral Compulsion"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
 	quest.5078D0CBD8AB602E.quest_desc: [
@@ -3163,6 +3175,7 @@
 		""
 		"This is generally most useful when paired with a Generator, allowing you to turn it on or off as needed."
 	]
+	quest.5711C54FA99AF486.title: "Ronaza's Contact"
 	quest.574555F24035E48A.quest_desc: [
 		"This collection of blocks do pretty much what their name implies; placing and picking up blocks or fluid."
 		""
@@ -3344,6 +3357,7 @@
 		"&a🛈 Tip: Buy an Otherworld Sapling from "
 		"&a    the Market to fast-track this step."
 	]
+	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
 	quest.5BD04F0109CB6704.quest_desc: [
 		"With a bit of chalk and some other paraphernalia we can reach out to the Otherworld more directly, and bring some helpers to our world. "
 		""
@@ -3438,6 +3452,7 @@
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
+	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
 	quest.5E60A0AF20C146CA.quest_desc: [
 		"Our next step will take us into Djinni territory with Lime Chalk. However, to get there we’re going to need some Bottes o’ Enchanting."
 		""
@@ -3478,6 +3493,7 @@
 		""
 		"Various filters and priority modules exist to help ensure the items are going to the correct place. "
 	]
+	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.6026FB490B591788.quest_desc: [
 		"With the Arcane Forge you can begin upgrading your equipment and spell scrolls. "
 		""
@@ -4139,6 +4155,7 @@
 		""
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
 	]
+	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
 	quest.705C37F9694E6FEA.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer chemicals bi-directionally."
 		""
@@ -4628,6 +4645,7 @@
 	]
 	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
 	quest.7BF8A53EADB35F49.title: "Abra's Conjure"
+	quest.7C0E7547D266C45D.title: "Abra's Commanding Conjure"
 	quest.7C27093E25633B9F.quest_desc: [
 		"The Mercurial Fluid transport system is a simple logistics network for moving, well, fluids."
 		""
