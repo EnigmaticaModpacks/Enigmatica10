@@ -1,5 +1,6 @@
 {
 	chapter.0095002B3E34FD9A.title: "Occultism"
+	chapter.03ADECBF619A2E3A.title: "Occultism Testing"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.13C15ACA23526F9E.title: "Replication"
@@ -184,6 +185,7 @@
 		"This will require two Interface blocks, one Valve, and a good amount of Pressure Chamber Walls; Pressure Chamber Glass is optional, but recommended to see what's happening inside."
 	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
+	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
 		""
@@ -397,6 +399,7 @@
 		"&a    Helix in EMI to see what mobs it "
 		"&a    comes from!"
 	]
+	quest.0BFD22A98E0F4ACF.title: "Xovrenth Adjure"
 	quest.0C1DCD8850E6857C.quest_desc: ["The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."]
 	quest.0C1DCD8850E6857C.title: "Repairs"
 	quest.0CBCE3A0D149AED0.quest_desc: [
@@ -606,6 +609,7 @@
 		""
 		"With an Eldritch Chalice installed in place of your Sacrificial Bowl, now you can!"
 	]
+	quest.105622B089F794C8.title: "Ronaza's Contact"
 	quest.10762E4BB7F187BE.quest_desc: [
 		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
 		""
@@ -902,6 +906,7 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.1957E93789E69D3E.title: "Uphyxes Inverted Tower"
 	quest.195BD5456B6E674D.quest_desc: [
 		"Iron’s Spellbooks adds several structures to the world which will undoubtedly prove very useful."
 		""
@@ -1073,6 +1078,8 @@
 		""
 		"You’ll need some Etching Acid in the Tank as well. Normally this isn’t consumed, but if heat is applied to the Tank it will speed up the process and slowly consume the Acid."
 	]
+	quest.1ED9BF551B4E2420.title: "Marid Crusher"
+	quest.1F228F2C10A89232.title: "Hedyrin's Lure"
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
 	quest.1FDA97FE562A2C4D.quest_desc: [
@@ -1231,6 +1238,7 @@
 		"&a    the structure or valid places "
 		"&a    for hatches."
 	]
+	quest.247C63F94533E40D.title: "Djinni Crusher"
 	quest.24A4BA42A83A20D0.quest_desc: [
 		"After crafting your first few Dark Steel Ingots, the Alloy Smelter might seem like the logical next step. "
 		""
@@ -1458,6 +1466,7 @@
 		""
 		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you and manage your XP. The sky's the limit!"
 	]
+	quest.2ADF5DBA3B09712B.title: "Osorin's Unbound Calling"
 	quest.2AF1CE73E140D685.quest_desc: [
 		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained."
 		""
@@ -2167,6 +2176,7 @@
 		"&a    create custom shops to trade "
 		"&a    with each other!"
 	]
+	quest.3F2E1099BB66AFEB.title: "Abra's Fortified Conjure"
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
 		"The Fluidic Plenisher can be an excellent way to fill an area with fluid. Simply pipe in fluids and supply power to quickly make a lake of anything you like!"
@@ -2472,6 +2482,7 @@
 		"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
+	quest.4510A825D259CA86.title: "Abra's Open Commanding Conjure"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
 	quest.4537806144939A6B.quest_desc: [
 		"An animate block of Amethyst, these golems will automatically create, grow, and harves budding blocks. "
@@ -2504,6 +2515,7 @@
 		""
 		"Start small, you can always upgrade to large cells later!"
 	]
+	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
 	quest.4613FE560EAC7695.quest_desc: [
 		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
 		""
@@ -2699,6 +2711,7 @@
 		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of knowledge, especially concerning their multi-block structures.\"]"
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
+	quest.4A60707DB5548805.title: "Ophyx's Calling"
 	quest.4A8EF3D657CEAED5.quest_desc: [
 		"All those batteries are looking pretty costly by now. With no Lead or Antimony from the Steam Quarry, you’re probably back to manual mining again, right?"
 		""
@@ -3076,6 +3089,7 @@
 		"&a    further along the network!"
 	]
 	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
+	quest.538CE12C982D950E.title: "Strigeor's Higher Binding"
 	quest.55065F1D9C6716C1.quest_desc: [
 		"The Advanced Sensor gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
 		""
@@ -3107,6 +3121,7 @@
 		""
 		"Be sure to keep a stock of Liquid Latex, however, as it is used in many crafting recipes directly. "
 	]
+	quest.55785C260809F141.title: "Foliot Crusher"
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
 		""
@@ -3128,6 +3143,7 @@
 		""
 		"They can also be inserted into an Ender Cell to increase it's capacity."
 	]
+	quest.56D926386FC532B2.title: "Ihagan's Enthrallment"
 	quest.56DDD2327724F715.quest_desc: [
 		"Cables come in a variety of sizes and colors to suit your needs. "
 		""
@@ -3957,6 +3973,7 @@
 		"&a    floating above the Actuator. "
 	]
 	quest.6BDA1C1BE04D541A.title: "Dimensional Storage"
+	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CC9CDCCDE1426AC.quest_desc: [
 		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
 		""
@@ -4182,6 +4199,7 @@
 		"By setting up Tachyon Absorbers in the vicinity, those high energy particles may be absorbed and turned into useful energy. "
 	]
 	quest.72591AAEA1E6DE38.title: "Black Hole Power"
+	quest.7259D617AAFEF85B.title: "Eziveus' Spectral Compulsion"
 	quest.72BD11ED57B26EA2.quest_desc: [
 		"Using the various Wild Summons, some very special materials may be obtained, including Pottery Sherds, Smithing Templates, and all the items shown above. "
 		""
@@ -4235,6 +4253,7 @@
 		"Another unconfigured pipe segment is needed for the Terminal to retrieve the craft."
 	]
 	quest.7327D905FE8B38FC.title: "Pretty Pipes"
+	quest.73430E6390B7D125.title: "Sevira's Permanent Confinement"
 	quest.73A71BBB9D9168B0.quest_desc: [
 		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
 		""
@@ -4608,6 +4627,7 @@
 		"As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "
 	]
 	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
+	quest.7BF8A53EADB35F49.title: "Abra's Conjure"
 	quest.7C27093E25633B9F.quest_desc: [
 		"The Mercurial Fluid transport system is a simple logistics network for moving, well, fluids."
 		""
@@ -4841,6 +4861,7 @@
 	task.6D1A048396918DF0.title: "Fluids"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
 	task.6F72D2074543BF23.title: "Bins"
+	task.6FCC45D51EF8A73E.title: "Aviar's Circle"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
 	task.72396A76EEA759CF.title: "Books of Binding"
