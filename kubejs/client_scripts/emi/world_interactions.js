@@ -354,6 +354,30 @@ ClientEvents.generateAssets('before_mods', (event) => {
                 amount: 1
             },
             id: 'minecraft:armadillo_scute'
+        },
+        {
+            left: '#item:justdirethings:goo_revive_tier_1',
+            right: 'item:justdirethings:gooblock_tier1',
+            output: 'item:justdirethings:gooblock_tier1',
+            id: 'justdirethings:goo_revive_tier_1'
+        },
+        {
+            left: '#item:justdirethings:goo_revive_tier_2',
+            right: 'item:justdirethings:gooblock_tier2',
+            output: 'item:justdirethings:gooblock_tier2',
+            id: 'justdirethings:goo_revive_tier_2'
+        },
+        {
+            left: '#item:justdirethings:goo_revive_tier_3',
+            right: 'item:justdirethings:gooblock_tier3',
+            output: 'item:justdirethings:gooblock_tier3',
+            id: 'justdirethings:goo_revive_tier_3'
+        },
+        {
+            left: '#item:justdirethings:goo_revive_tier_4',
+            right: 'item:justdirethings:gooblock_tier4',
+            output: 'item:justdirethings:gooblock_tier4',
+            id: 'justdirethings:goo_revive_tier_4'
         }
     ];
 
