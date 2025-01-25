@@ -49,7 +49,7 @@
 				item: { count: 1, id: "occultism:spawn_egg/foliot" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -122,11 +122,14 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["29C247BDD82A7F58"]
+			dependencies: [
+				"29C247BDD82A7F58"
+				"457E8A8B676ACB7F"
+			]
 			id: "5B9DCAEFEBD21F75"
 			tasks: [{
 				id: "0C97786D4BFEDA90"
@@ -166,6 +169,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["452ED64EC0E9171E"]
 			id: "503E9805EC687D70"
 			tasks: [{
 				id: "2D607FB0089C4193"
@@ -177,7 +181,6 @@
 		}
 		{
 			dependencies: [
-				"356670417C9A6BB8"
 				"503E9805EC687D70"
 				"57CED2818BEDB966"
 			]
@@ -194,7 +197,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -227,8 +230,8 @@
 				item: { count: 1, id: "occultism:chalk_lime_impure" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0D2BCB25F6464E5C"]
@@ -238,8 +241,8 @@
 				item: { count: 1, id: "occultism:chalk_lime" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["46A7DE6EEF2D3B4E"]
@@ -249,8 +252,8 @@
 				item: { count: 1, id: "occultism:chalk_light_gray_impure" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["356670417C9A6BB8"]
@@ -272,8 +275,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 3.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["457E8A8B676ACB7F"]
@@ -284,22 +287,18 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.5d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"274E486FE7295808"
-				"4614AC0053EB5F04"
-				"54BE4C0306DC817C"
-			]
+			dependencies: ["54BE4C0306DC817C"]
 			id: "600770CC14587E1B"
 			tasks: [{
 				id: "5A753B774FFB27D2"
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_summon" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1C87FB78BA245285"]
@@ -310,7 +309,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["79E422DF36F35AA3"]
@@ -320,8 +319,8 @@
 				item: { count: 1, id: "minecraft:skeleton_skull" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: -1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -334,8 +333,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_possess" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -348,8 +347,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_craft" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2EF8D2BD30779E56"]
@@ -359,8 +358,8 @@
 				item: { count: 1, id: "occultism:spawn_egg/possessed_bee" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.5d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1D4A3288564D1E3B"]
@@ -370,8 +369,8 @@
 				item: { count: 1, id: "occultism:cursed_honey" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.5d
+			x: 8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4DA846036F3B01C3"]
@@ -381,22 +380,19 @@
 				item: { count: 1, id: "occultism:gray_paste" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 8.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
-			dependencies: [
-				"2207DF79EED4F1F1"
-				"1CBDBA43FCF77614"
-			]
+			dependencies: ["0AFE00A8C7F3B76A"]
 			id: "04107677B244E672"
 			tasks: [{
 				id: "273539089B2B0482"
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_summon" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.5d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["115E11F10565207F"]
@@ -406,8 +402,8 @@
 				item: { count: 1, id: "occultism:chalk_orange_impure" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.5d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["12E4F73EEDC27340"]
@@ -417,8 +413,8 @@
 				item: { count: 1, id: "occultism:chalk_orange" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: 10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0207EA17FAE6CD88"]
@@ -428,8 +424,8 @@
 				item: { count: 1, id: "occultism:chalk_gray_impure" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 9.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["27F49AB5C43D5DD4"]
@@ -439,22 +435,19 @@
 				item: { count: 1, id: "occultism:chalk_gray" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 10.5d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
-			dependencies: [
-				"04107677B244E672"
-				"6B403DAD7FD6598B"
-			]
+			dependencies: ["0AFE00A8C7F3B76A"]
 			id: "0672655E6A6E5502"
 			tasks: [{
 				id: "359B3F133CD7E893"
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_possess" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.5d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0672655E6A6E5502"]
@@ -464,8 +457,8 @@
 				item: { count: 1, id: "occultism:spawn_egg/possessed_zombie_piglin" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2D4F7572D14ADBC1"]
@@ -475,8 +468,8 @@
 				item: { count: 1, id: "occultism:demonic_meat" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.5d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["04107677B244E672"]
@@ -486,8 +479,8 @@
 				item: { count: 1, id: "occultism:spawn_egg/afrit_unbound" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.5d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["74AFAAC552629DBD"]
@@ -497,30 +490,8 @@
 				item: { count: 1, id: "occultism:afrit_essence" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["646FBDE0F15D2C6B"]
-			id: "2EB97BC7CD1BE9B6"
-			tasks: [{
-				id: "37D3D47894A5BB4F"
-				item: { count: 1, id: "occultism:chalk_pink_impure" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["2EB97BC7CD1BE9B6"]
-			id: "3C6CE7267E68985A"
-			tasks: [{
-				id: "7C4F2320F6E4A563"
-				item: { count: 1, id: "occultism:chalk_pink" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 14.5d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["503238A22FFE414D"]
@@ -530,8 +501,8 @@
 				item: { count: 1, id: "occultism:chalk_light_blue_impure" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.5d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["33C2540E78B84DE2"]
@@ -541,8 +512,8 @@
 				item: { count: 1, id: "occultism:chalk_light_blue" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.5d
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["600770CC14587E1B"]
@@ -553,7 +524,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3DFBC78C0646A5B5"]
@@ -575,8 +546,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 12.5d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C0421B8C013193F"]
@@ -586,8 +557,8 @@
 				item: { count: 1, id: "occultism:chalk_green_impure" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 13.5d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5EBB4A6CE6A6FAF1"]
@@ -597,8 +568,8 @@
 				item: { count: 1, id: "occultism:chalk_green" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 14.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["503E9805EC687D70"]
@@ -613,9 +584,10 @@
 		}
 		{
 			dependencies: [
-				"3C6CE7267E68985A"
-				"05A687898DC15A75"
-				"44F1C1208E0EBBF2"
+				"26C85D3C2E640624"
+				"1D59E5143D96DEC8"
+				"1806443AB8779A43"
+				"14A792ED81CA1A0B"
 			]
 			id: "61090C5F8E435E7A"
 			tasks: [{
@@ -623,19 +595,23 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_misc" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 15.5d
+			x: 3.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["7CEC5100A45D467E"]
+			dependencies: [
+				"7CEC5100A45D467E"
+				"646FBDE0F15D2C6B"
+				"27F49AB5C43D5DD4"
+			]
 			id: "4171A270337CDE94"
 			tasks: [{
 				id: "637798637B5EB166"
 				item: { count: 1, id: "occultism:chalk_red_impure" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 13.5d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4171A270337CDE94"]
@@ -645,8 +621,8 @@
 				item: { count: 1, id: "occultism:chalk_red" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.5d
+			x: 4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -659,8 +635,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_summon" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.5d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -673,8 +649,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_possess" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.5d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -687,8 +663,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_craft" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 17.5d
+			x: 5.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["61090C5F8E435E7A"]
@@ -698,8 +674,8 @@
 				item: { count: 1, id: "occultism:spawn_egg/wild_hunt_wither_skeleton" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 16.5d
+			x: 1.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["15114937E3571822"]
@@ -709,8 +685,8 @@
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 17.5d
+			x: 1.5d
+			y: 12.0d
 		}
 		{
 			id: "786AC1E8D6570067"
@@ -719,18 +695,8 @@
 				item: { count: 1, id: "occultism:spirit_attuned_crystal" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 16.5d
-		}
-		{
-			id: "6B403DAD7FD6598B"
-			tasks: [{
-				id: "7C68294E405D5CC1"
-				item: { count: 1, id: "occultism:spirit_attuned_crystal" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.5d
+			x: 4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["324C2253BA04F8E0"]
@@ -741,7 +707,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 17.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["55D058D256A13199"]
@@ -752,7 +718,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 17.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["45035128A978E189"]
@@ -762,22 +728,19 @@
 				item: { count: 1, id: "occultism:witherite_dust" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 17.5d
+			x: 4.0d
+			y: 13.0d
 		}
 		{
-			dependencies: [
-				"39141A73D24FE452"
-				"0533E2D3D87D3287"
-			]
+			dependencies: ["39141A73D24FE452"]
 			id: "5B39C22D132CB376"
 			tasks: [{
 				id: "29620D40DEB97EE4"
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_summon" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 18.5d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5B39C22D132CB376"]
@@ -787,8 +750,8 @@
 				item: { count: 1, id: "occultism:spawn_egg/marid_unbound" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 18.5d
+			x: 3.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["18FA5FC8BFD214DD"]
@@ -798,8 +761,8 @@
 				item: { count: 1, id: "occultism:marid_essence" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 18.5d
+			x: 3.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["1EBFD8E4B713B298"]
@@ -809,19 +772,23 @@
 				item: { count: 1, id: "occultism:chalk_blue" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 20.5d
+			x: 4.0d
+			y: 16.5d
 		}
 		{
-			dependencies: ["1E66AAAF116D4B90"]
+			dependencies: [
+				"1E66AAAF116D4B90"
+				"55D058D256A13199"
+				"7C174D5E3A7084B6"
+			]
 			id: "1EBFD8E4B713B298"
 			tasks: [{
 				id: "5D2A396B799F57E4"
 				item: { count: 1, id: "occultism:chalk_blue_impure" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 19.5d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["37E7BF5AC26A8B5A"]
@@ -831,8 +798,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_summon" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 21.5d
+			x: 4.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["07EC9F9B878ABF01"]
@@ -842,8 +809,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_possess" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 22.5d
+			x: 4.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["07EC9F9B878ABF01"]
@@ -853,8 +820,8 @@
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_craft" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 23.5d
+			x: 4.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["6131DAC744B61626"]
@@ -865,7 +832,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 24.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["4E854CD83782B942"]
@@ -875,8 +842,8 @@
 				item: { count: 1, id: "occultism:chalk_magenta" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 25.5d
+			x: 10.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["3D2D2D9D2B426495"]
@@ -886,8 +853,8 @@
 				item: { count: 1, id: "occultism:chalk_brown_impure" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 24.5d
+			x: 9.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["730602674F04B803"]
@@ -898,7 +865,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 25.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["7C174D5E3A7084B6"]
@@ -908,8 +875,8 @@
 				item: { count: 1, id: "occultism:chalk_cyan_impure" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 24.5d
+			x: 9.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["40A3BB43F9B25015"]
@@ -919,8 +886,8 @@
 				item: { count: 1, id: "occultism:chalk_cyan" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 25.5d
+			x: 10.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["702F469E14D94B63"]
@@ -930,24 +897,24 @@
 				item: { count: 1, id: "occultism:dragonyst_dust" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 23.5d
+			x: 8.0d
+			y: 19.5d
 		}
 		{
-			dependencies: ["37D7B78BDD5F420B"]
+			dependencies: ["5A10494C3AAB07C8"]
 			id: "3D2D2D9D2B426495"
 			tasks: [{
 				id: "23E02EF59F9955E8"
 				item: { count: 1, id: "occultism:cruelty_essence" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 22.5d
+			x: 8.0d
+			y: 18.5d
 		}
 		{
 			dependencies: [
 				"3C429E8C35C45556"
-				"5EB38424DEF4E8E9"
+				"300AE428F98F97AF"
 			]
 			id: "7C174D5E3A7084B6"
 			tasks: [{
@@ -955,8 +922,8 @@
 				item: { count: 1, id: "occultism:echo_dust" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 21.5d
+			x: 6.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["35FCF93CCFFFE3F4"]
@@ -966,8 +933,8 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 21.5d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7C0E7547D266C45D"]
@@ -977,8 +944,8 @@
 				item: { count: 1, id: "occultism:spawn_egg/possessed_warden" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 16.5d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["07EC9F9B878ABF01"]
@@ -988,23 +955,147 @@
 				item: { count: 1, id: "occultism:spawn_egg/marid" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 21.5d
+			x: 5.0d
+			y: 17.5d
 		}
 		{
-			dependencies: [
-				"2B63B78A4D4197D8"
-				"6ECF0FFD8A12C9C7"
-				"02F16B6D598D5E0C"
-			]
 			id: "5711C54FA99AF486"
 			tasks: [{
 				id: "4552B95B72448371"
 				item: { count: 1, id: "occultism:ritual_dummy/custom_ritual_misc" }
 				type: "item"
 			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["299E7A2679522C1D"]
+			id: "1FC45862126DC511"
+			tasks: [{
+				id: "7E3FEBB1802FBAB4"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:acupuncture", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["115E11F10565207F"]
+			id: "4F127FD7A683F3BE"
+			tasks: [{
+				id: "7394FBDB73B42B52"
+				item: { count: 1, id: "the_bumblezone:bee_queen_spawn_egg" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["59111C2154EFECED"]
+			id: "0AFE00A8C7F3B76A"
+			tasks: [{
+				id: "36BA258C39587F91"
+				item: { count: 1, id: "occultism:iesnium_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4DA846036F3B01C3"]
+			id: "59111C2154EFECED"
+			tasks: [{
+				id: "6029BFA5DB561386"
+				item: { count: 1, id: "occultism:infused_pickaxe" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2BE4C2280C195282"]
+			id: "300AE428F98F97AF"
+			tasks: [{
+				id: "455E8E8EB39EB06D"
+				item: { count: 1, id: "occultism:spawn_egg/afrit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["646FBDE0F15D2C6B"]
+			id: "7D97D26A7B6A4D1B"
+			tasks: [{
+				id: "62C325781E121EE8"
+				item: { count: 1, id: "occultism:chalk_pink_impure" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D97D26A7B6A4D1B"]
+			id: "7A8A6580B1DF4D98"
+			tasks: [{
+				id: "3944D924D0F338DE"
+				item: { count: 1, id: "occultism:chalk_pink" }
+				type: "item"
+			}]
 			x: 10.0d
-			y: 26.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6131DAC744B61626"]
+			id: "2138D680C14CC495"
+			tasks: [{
+				id: "6AC9660B27AD620B"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:dragonskin_spell_book" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["37D7B78BDD5F420B"]
+			id: "5A10494C3AAB07C8"
+			tasks: [{
+				id: "2BB69788542BD41E"
+				item: { count: 1, id: "occultism:spawn_egg/possessed_goat" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 18.5d
+		}
+		{
+			id: "1D59E5143D96DEC8"
+			tasks: [{
+				id: "2685BFCDCF67F429"
+				item: { count: 1, id: "occultism:chalk_purple" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			id: "14A792ED81CA1A0B"
+			tasks: [{
+				id: "005295636E5D5CC7"
+				item: { count: 1, id: "occultism:chalk_gold" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			id: "1806443AB8779A43"
+			tasks: [{
+				id: "0582818BC3F9A46B"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
 		}
 	]
 }

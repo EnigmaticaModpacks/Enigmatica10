@@ -1086,6 +1086,7 @@
 	]
 	quest.1ED9BF551B4E2420.title: "Marid Crusher"
 	quest.1F228F2C10A89232.title: "Hedyrin's Lure"
+	quest.1FC45862126DC511.quest_desc: ["add iron's spell scrolls to witches, or otherwise make the research fragment useful in obtaining spells from Ars and Iron's"]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
 	quest.1FDA97FE562A2C4D.quest_desc: [
@@ -1574,6 +1575,7 @@
 		""
 		"Craft an Undead Sapling in your Blood Infuser and grow it to obtain Undead Wood. This special wood is an important resource for other crafts."
 	]
+	quest.300AE428F98F97AF.title: "Afrit Crusher"
 	quest.307FEC610F0B542F.quest_desc: [
 		"The Replicator itself essentially has two modes of operation. "
 		""
@@ -1717,6 +1719,7 @@
 		"&a    you to see local Aura levels!"
 	]
 	quest.34FFE863EB846035.title: "Ritual of the Forest"
+	quest.356670417C9A6BB8.title: "Foliot Crusher"
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
 	quest.358A62846D6B0004.quest_desc: [
 		"The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining. "
@@ -2062,6 +2065,7 @@
 		"These quests will help you discover this mod, which is largely centered around base defense, though offers some building aids as well."
 	]
 	quest.3D9527EAA5944C17.title: "Modular Force Fields"
+	quest.3DFBC78C0646A5B5.title: "Djinni Crusher"
 	quest.3E622F93756E9BFA.quest_desc: [
 		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
 		""
@@ -2919,6 +2923,7 @@
 		"Refer to the Book of Natural Aura for more information."
 	]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
 	quest.4F19A0AECC129216.quest_desc: [
 		"The Atomic Forge is an advanced crafting device which uses Enderic Lasers to operate. "
 		""
@@ -3473,6 +3478,7 @@
 		""
 		"Obtaining Canola Oil will require a small amount of power first to operate the Canola Press. So, begin with the Coal Generator, or obtain some power from another mod. "
 	]
+	quest.5EB38424DEF4E8E9.title: "Marid Crusher"
 	quest.5F0523F799DA720C.quest_desc: [
 		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
 		""
@@ -3517,6 +3523,7 @@
 	]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
+	quest.61090C5F8E435E7A.title: "Osorin's Unbound Calling"
 	quest.6118F241A056954F.quest_desc: [
 		"The Sponge Module is perfect for clearing fluids in a large area, whether it be to make a lava free area in the Nether or to clear water from an Ocean Monument. "
 		""
