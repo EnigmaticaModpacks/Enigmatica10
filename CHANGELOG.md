@@ -2,7 +2,9 @@
 
 **Note**
 
-We've made changes to Occultism's pentacles. Consider clearing out any current pentacles before updating. Right-Clicking an Artisinal Ritual Satchel on an existing valid pentacle will remove the entire thing, but this won't work on an old pentacle after the update because they'll no longer be seen as valid.
+We've made changes to Occultism's pentacles.
+
+Consider clearing out any current pentacles before updating. Right-Clicking an Artisinal Ritual Satchel on an existing valid pentacle will remove the entire thing, but this won't work on an old pentacle after the update because they'll no longer be seen as valid.
 
 #### ⭐ Improvements
 
