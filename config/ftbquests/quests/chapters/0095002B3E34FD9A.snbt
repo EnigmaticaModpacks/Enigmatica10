@@ -600,6 +600,11 @@
 					item: { count: 1, id: "minecraft:sniffer_egg" }
 					type: "item"
 				}
+				{
+					id: "774D4D3217CF4283"
+					item: { count: 1, id: "minecraft:wither_rose" }
+					type: "item"
+				}
 			]
 			x: 4.5d
 			y: 4.0d
