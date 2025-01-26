@@ -21,7 +21,7 @@ ServerEvents.tags('block', (event) => {
 
     // Marid tier pentacle blocks
     event.get('occultism:bricks/tier_4').add(['minecraft:prismarine_bricks']);
-    event.get('occultism:accents/tier_4').add([/minecraft:.*copper_bulb/]);
+    event.get('occultism:accents/tier_4').add(['minecraft:dark_prismarine']);
     event.get('occultism:skulls/tier_4').add(['minecraft:conduit']);
     event.get('occultism:moderators/tier_4').add(['#c:storage_blocks/iesnium']);
     event.get('occultism:glyphs_red').add(['#occultism:glyphs_blue']);

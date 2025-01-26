@@ -155,7 +155,7 @@ ServerEvents.generateData('after_mods', (event) => {
         },
         A: {
             type: 'modonomicon:tag',
-            display: 'minecraft:waxed_copper_bulb',
+            display: 'minecraft:dark_prismarine',
             tag: '#occultism:accents/tier_4'
         },
         S: {
@@ -177,7 +177,7 @@ ServerEvents.generateData('after_mods', (event) => {
         },
         A: {
             type: 'modonomicon:tag',
-            display: 'minecraft:waxed_copper_bulb',
+            display: 'minecraft:dark_prismarine',
             tag: '#occultism:accents/tier_4'
         },
         S: {
