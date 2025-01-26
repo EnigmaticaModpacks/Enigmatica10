@@ -44,6 +44,13 @@ ServerEvents.generateData('before_mods', (event) => {
                 { item: { id: 'relics:shadow_glaive', count: 1 }, xp_reward: 10, weight: 10, required: true },
                 { item: { id: 'relics:infinity_ham', count: 1 }, xp_reward: 10, weight: 10, required: true }
             ]
+        },
+        {
+            id: 'cursed_honey_reward',
+            wants: [{ id: 'occultism:cursed_honey', required: true }],
+            possible_rewards: [
+                { item: { id: 'the_bumblezone:windy_air', count: 3 }, xp_reward: 10, weight: 100, required: true }
+            ]
         }
     ];
 
