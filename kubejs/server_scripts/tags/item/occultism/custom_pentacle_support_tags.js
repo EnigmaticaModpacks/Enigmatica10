@@ -1,4 +1,4 @@
-ServerEvents.tags('block', (event) => {
+ServerEvents.tags('item', (event) => {
     // Foliot tier pentacle blocks
     event.get('occultism:bricks/tier_1').add(['#occultism:bricks/tier_2']);
     event.get('occultism:accents/tier_1').add(['#occultism:accents/tier_2']);

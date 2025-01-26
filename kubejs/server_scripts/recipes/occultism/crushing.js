@@ -21,6 +21,17 @@ ServerEvents.recipes((event) => {
                 count: 2
             },
             id: `${id_prefix}black_quartz`
+        },
+        {
+            ingredient: { item: 'minecraft:echo_shard' },
+            ignore_crushing_multiplier: true,
+            min_tier: 3,
+            result: {
+                type: 'occultism:tag',
+                tag: 'c:dusts/echo',
+                count: 1
+            },
+            id: `occultism:crushing/echo_dust`
         }
     ];
 

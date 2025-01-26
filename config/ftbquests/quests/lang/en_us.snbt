@@ -1492,6 +1492,7 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2BE4C2280C195282.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.2BE4C2280C195282.title: "Abra's Conjure"
 	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
 	quest.2BF4F678812848FC.title: "Fermentation"
@@ -2495,6 +2496,7 @@
 		"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
+	quest.45035128A978E189.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.45035128A978E189.title: "Sevira's Permanent Confinement"
 	quest.4510A825D259CA86.title: "Abra's Open Commanding Conjure"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
@@ -3362,6 +3364,7 @@
 		"&a🛈 Tip: Buy an Otherworld Sapling from "
 		"&a    the Market to fast-track this step."
 	]
+	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
 	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
 	quest.5BD04F0109CB6704.quest_desc: [
 		"With a bit of chalk and some other paraphernalia we can reach out to the Otherworld more directly, and bring some helpers to our world. "
@@ -3523,6 +3526,18 @@
 	]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
+	quest.61090C5F8E435E7A.quest_desc: [
+		"Chalks"
+		""
+		"White"
+		"Yellow"
+		"Purple"
+		"Red"
+		""
+		"Paraphernalia"
+		""
+		"None"
+	]
 	quest.61090C5F8E435E7A.title: "Osorin's Unbound Calling"
 	quest.6118F241A056954F.quest_desc: [
 		"The Sponge Module is perfect for clearing fluids in a large area, whether it be to make a lava free area in the Nether or to clear water from an Ocean Monument. "
@@ -4652,7 +4667,9 @@
 	]
 	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
 	quest.7BF8A53EADB35F49.title: "Abra's Conjure"
+	quest.7C0E7547D266C45D.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.7C0E7547D266C45D.title: "Abra's Commanding Conjure"
+	quest.7C174D5E3A7084B6.quest_desc: ["Move to Afrit Crusher"]
 	quest.7C27093E25633B9F.quest_desc: [
 		"The Mercurial Fluid transport system is a simple logistics network for moving, well, fluids."
 		""
