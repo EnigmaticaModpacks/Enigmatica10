@@ -1,5 +1,9 @@
 ### Enigmatica 10 1.18.0
 
+**Note**
+
+We've made changes to Occultism's pentacles. Consider clearing out any current pentacles before updating. Right-Clicking an Artisinal Ritual Satchel on an existing valid pentacle will remove the entire thing, but this won't work on an old pentacle after the update because they'll no longer be seen as valid.
+
 #### ⭐ Improvements
 
 -   Add note to JDT quests about feeding goo [(\a5e3443)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a5e34437fb2a7e2fde72788a53d49ae69ae43dac)
