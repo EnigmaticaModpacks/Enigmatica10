@@ -452,7 +452,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -484,7 +484,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -606,7 +606,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -635,7 +635,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -700,7 +700,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -780,7 +780,7 @@
 				item: { count: 1, id: "occultism:iesnium_sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -843,7 +843,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 	]
