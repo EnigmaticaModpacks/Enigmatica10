@@ -58,6 +58,48 @@ ServerEvents.recipes((event) => {
                 'minecraft:glow_ink_sac'
             ],
             id: `occultism:crafting/chalk_blue_impure`
+        },
+
+        // Non progression chalks
+        {
+            output: 'occultism:chalk_green_impure',
+            inputs: ['occultism:chalk_yellow_impure', '#c:dyes/blue'],
+            id: `occultism:crafting/chalk_green_impure`
+        },
+        {
+            output: 'occultism:chalk_lime_impure',
+            inputs: ['occultism:chalk_yellow_impure', '#c:dyes/blue', '#c:dyes/white'],
+            id: `occultism:crafting/chalk_lime_impure`
+        },
+        {
+            output: 'occultism:chalk_pink_impure',
+            inputs: ['occultism:chalk_purple_impure', '#c:dyes/pink', '#c:dyes/white'],
+            id: `occultism:crafting/chalk_pink_impure`
+        },
+        {
+            output: 'occultism:chalk_magenta_impure',
+            inputs: ['occultism:chalk_purple_impure', '#c:dyes/red', '#c:dyes/white'],
+            id: `occultism:crafting/chalk_magenta_impure`
+        },
+        {
+            output: 'occultism:chalk_brown_impure',
+            inputs: ['occultism:chalk_red_impure', '#c:dyes/green'],
+            id: `occultism:crafting/chalk_brown_impure`
+        },
+        {
+            output: 'occultism:chalk_orange_impure',
+            inputs: ['occultism:chalk_red_impure', '#c:dyes/yellow'],
+            id: `occultism:crafting/chalk_orange_impure`
+        },
+        {
+            output: 'occultism:chalk_cyan_impure',
+            inputs: ['occultism:chalk_blue_impure', '#c:dyes/green'],
+            id: `occultism:crafting/chalk_cyan_impure`
+        },
+        {
+            output: 'occultism:chalk_light_blue_impure',
+            inputs: ['occultism:chalk_blue_impure', '#c:dyes/white'],
+            id: `occultism:crafting/chalk_light_blue_impure`
         }
     ];
 

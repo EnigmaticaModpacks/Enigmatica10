@@ -24,7 +24,15 @@ ServerEvents.tags('item', (event) => {
     event.get('occultism:accents/tier_4').add(['minecraft:dark_prismarine']);
     event.get('occultism:skulls/tier_4').add(['minecraft:conduit']);
     event.get('occultism:moderators/tier_4').add(['#c:storage_blocks/iesnium']);
-    event.get('occultism:glyphs_red').add(['#occultism:glyphs_blue']);
+
+    // Chalk Combos
+
+    event.get('occultism:glyphs_yellow').add(['#occultism:glyphs_green', '#occultism:glyphs_lime']);
+    event.get('occultism:glyphs_purple').add(['#occultism:glyphs_pink', '#occultism:glyphs_magenta']);
+    event
+        .get('occultism:glyphs_red')
+        .add(['#occultism:glyphs_blue', '#occultism:glyphs_orange', '#occultism:glyphs_brown']);
+    event.get('occultism:glyphs_blue').add(['#occultism:glyphs_cyan', '#occultism:glyphs_light_blue']);
 
     // Add everything to pentacle materials for placement by Ritual Satchels
     event
