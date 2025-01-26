@@ -314,6 +314,14 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: ['occultism:chalk_blue', 'occultism:chalk_orange', 'occultism:chalk_brown'],
             text: [Text.of(`May replace Red Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_rainbow'],
+            text: [Text.of(`May replace any Color Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_void'],
+            text: [Text.of(`May replace any Chalk in any pentacle`).gold()]
         }
     ];
 
