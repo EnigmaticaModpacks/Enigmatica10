@@ -333,6 +333,12 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
+	quest.09F3415422E4A274.quest_desc: [
+		"Higher tier pentacles require more potent structures to help contain and control the spirits being called. "
+		""
+		"Worry not, however, these enhancements do not impede the pentacle from performing lower tier rituals. Each upgrade keeps adding functionality, never removing it."
+	]
+	quest.09F3415422E4A274.title: "Empowering Rituals"
 	quest.0A0D539C1285F40F.quest_desc: [
 		"Getting started with Nature’s Aura will require using some Brilliant Fibers on leaves. "
 		""

@@ -429,7 +429,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3AA1319E962A47C0"]
+			dependencies: ["09F3415422E4A274"]
 			icon: {
 				id: "occultism:chalk_red"
 			}
@@ -452,7 +452,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -484,7 +484,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -606,7 +606,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -635,7 +635,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -662,7 +662,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 7.5d
 			y: 1.0d
 		}
 		{
@@ -700,7 +700,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -743,7 +743,7 @@
 				item: { count: 1, id: "occultism:iesnium_anvil" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -769,7 +769,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -780,7 +780,7 @@
 				item: { count: 1, id: "occultism:iesnium_sacrificial_bowl" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -797,7 +797,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:chalk_rainbow)item(occultism:chalk_void))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -814,8 +814,37 @@
 				item: { count: 1, id: "occultism:eldritch_chalice" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3AA1319E962A47C0"]
+			id: "09F3415422E4A274"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "785F6AE91FBEA19A"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "67A31438AA13875B"
+					item: { count: 1, id: "occultism:iesnium_block" }
+					type: "item"
+				}
+				{
+					id: "0FE1DB4F30836CDF"
+					item: { count: 1, id: "minecraft:red_nether_bricks" }
+					type: "item"
+				}
+				{
+					id: "4D96F6E8B408A5CE"
+					item: { count: 1, id: "minecraft:chiseled_nether_bricks" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
 		}
 	]
 }
