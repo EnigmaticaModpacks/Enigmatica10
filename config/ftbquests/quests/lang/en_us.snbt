@@ -1,6 +1,5 @@
 {
 	chapter.0095002B3E34FD9A.title: "Occultism"
-	chapter.03ADECBF619A2E3A.title: "Occultism Progression Rework"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
@@ -24,7 +23,6 @@
 	chapter.603B06098A07350C.title: "EvilCraft"
 	chapter.60E3192C798C2841.title: "OriTech"
 	chapter.60F666DD0AC6F03F.title: "Multiverse"
-	chapter.64212EEB7AF863D1.title: "Occultism Current Progression"
 	chapter.6DB48898896BFFC9.title: "Bumblezone"
 	chapter.70FCD34EEFA2F001.title: "Nature's Aura"
 	chapter.777EE0C4949DFE12.title: "Applied Energistics"
@@ -91,7 +89,7 @@
 		"&6    to 'use' or throw a Trident after "
 		"&6    triggering the ritual."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.0200E313AEB3A08A.title: "Marid Binding Chalk"
 	quest.0227D9EC391788D6.quest_desc: [
@@ -133,7 +131,7 @@
 		""
 		"All of these Rituals will need Purple Chalk as a base."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.036036EA25034BE8.title: "Infusion Rituals: Purple Chalk"
 	quest.03DFAA759B4E653E.quest_desc: [
@@ -303,19 +301,6 @@
 		"&a🛈 Tip: Source is optional!"
 	]
 	quest.09C3C5173499DF7C.title: "Essences"
-	quest.09E62BC1615D5B9B.quest_desc: [
-		"The final Foundation Chalk, Black Chalk is required for controlling some of the most powerful spirits; Marids. "
-		""
-		"One particularly notable ingredient in this wicked chalk is the highly dangerous Wither Rose. "
-		""
-		"Obtaining these is quite simple once you know the trick; you simply need to sacrifice some livestock to a Wither."
-		"&n                                                  &r"
-		""
-		"Summon a Wither and find a way to get it to kill some animals, such as Chickens and Pigs."
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
-	quest.09E62BC1615D5B9B.title: "Black Chalk"
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -873,12 +858,6 @@
 		"&6    near the pentacle. "
 	]
 	quest.16F69571092CAB9A.title: "Uncommon Materials"
-	quest.1729DEB43163CC9D.quest_desc: [
-		"With these three chalks, a very special pentacle may be formed: Osirin’s Unbound Calling. "
-		""
-		"This pentacle will allow you to call forth hordes of wild creatures intent on your destruction. Best them and you’ll receive some very special rewards!"
-	]
-	quest.1729DEB43163CC9D.title: "Wild Spirits"
 	quest.176DAF596793D4FF.quest_desc: [
 		"While Nuclear Waste can be stored and safely disposed of in Waste Barrels, it is better off being re-processed into Polonium or Plutonium."
 		""
@@ -1275,19 +1254,6 @@
 		"&a🛈 Tip: The Drill will never dry up with a"
 		"&a    Water Bucket in your inventory!"
 	]
-	quest.253C97A20FD517DC.quest_desc: [
-		"With Lime and Light Gray Chalk in our possession, we’ll be able to upgrade each of our pentacles to handle Djinni. "
-		""
-		"Remember that higher tier pentacles may still be used for lower tier crafts. "
-		""
-		"So, while these pentacles will grow in size, you won’t need dozens of different ones scattered around to handle future rituals. "
-		"&n                                                  &r"
-		""
-		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
-	quest.253C97A20FD517DC.title: "Djinni Binding Chalk"
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
@@ -1772,20 +1738,6 @@
 		""
 		"It can commonly be found by mining between &6Y 45&r and &6Y -25&r."
 	]
-	quest.385AA10772560191.quest_desc: [
-		""
-		"By crafting these three Chalks, you’ll be able to finally contact the most ancient of denizens from the Otherworld; Eldritch Spirits."
-		""
-		"Worry not, the price for such a feat is just your sanity. You weren’t using it anyway, right?"
-		""
-		"&6⚠ Note: These rituals may requires a"
-		"&6    sacrifice. Trigger the ritual as"
-		"&6    usual, then kill the required mob "
-		"&6    near the pentacle. "
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
-	quest.385AA10772560191.title: "Eldritch Compulsion"
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
 		""
@@ -3040,26 +2992,6 @@
 		""
 		"&a🛈 Tip: The Generators automatically power adjacent blocks."
 	]
-	quest.522F51F7AC6DAB52.quest_desc: [
-		"Our next step will take us into Djinni territory with Lime Chalk. However, to get there we’re going to need some Bottes o’ Enchanting."
-		""
-		"Using Ihagan's Enthrallment, we’re able to call forth a Djinni to possess a Bee. This Possessed Bee is the only known source for a particularly cursed honey. "
-		""
-		"Maybe don't eat it."
-		"&n                                                  &r"
-		""
-		"Find Ihagan's Enthrallment in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
-		""
-		"&a🛈 Tip: The shape of individual chalk "
-		"&a    marks is random and doesn’t "
-		"&a    affect the ritual!"
-		""
-		"&6⚠ Note: This ritual requires a"
-		"&6    sacrifice. Trigger the ritual as"
-		"&6    usual, then kill the required mob "
-		"&6    near the pentacle. "
-	]
-	quest.522F51F7AC6DAB52.title: "Possession: Bee"
 	quest.526BF0840C65855F.quest_desc: [
 		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
 		""
@@ -3386,6 +3318,11 @@
 		""
 		"&a🛈 Tip: Items can be piped into the "
 		"&a    bowls too!"
+		""
+		"&6⚠ Note: The Copper Blocks used in "
+		"&6    pentacles may be replaced with "
+		"&6    waxed or corroded variants "
+		"&6    without impacting the pentacle."
 	]
 	quest.5BD04F0109CB6704.title: "Summon: Foliot Crusher"
 	quest.5C9FD202A4E641D1.quest_desc: ["The Item Grounder is a simple Anti-Pickup device. Items in its range cannot be picked up by the player unless they are sneaking. "]
@@ -3461,19 +3398,6 @@
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
 	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
-	quest.5E60A0AF20C146CA.quest_desc: [
-		"Our next step will take us into Djinni territory with Lime Chalk. However, to get there we’re going to need some Bottes o’ Enchanting."
-		""
-		"Returning to Hedyrin’s Lure, we’re able to call forth a Foliot to possess a Witch. This Possessed Witch will drop the bottles we're after when killed. "
-		"&n                                                  &r"
-		""
-		"Find Hedyrin’s Lure in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
-		""
-		"&a🛈 Tip: The shape of individual chalk "
-		"&a    marks is random and doesn’t "
-		"&a    affect the ritual!"
-	]
-	quest.5E60A0AF20C146CA.title: "Possession: Witch"
 	quest.5E84329A59955F29.quest_desc: [
 		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
 		""
@@ -3718,16 +3642,18 @@
 		"&a    more connections!"
 	]
 	quest.66A24B8817411BBC.quest_desc: [
-		"Occultism has several Foundation Chalks that are used as the basis for each tier of pentacle; these consist of White, Light Gray, Gray, and Black. "
+		"The Pentacles included in Enigmatica 10 are custom creations designed to enhance Occultism’s player experience. "
 		""
-		"As you get into more powerful rituals, you’ll be obliged to use the darker shades. For now, however, you will want to start with White, the simplest and lowest tier Foundation Chalk."
+		"This includes reducing the number of required chalks down from sixteen to only five and a number of recipe changes to streamline progression through the mod."
+		""
+		"As a result of these changes, some information in the Dictionary of Spirits may be incorrect. "
 		"&n                                                  &r"
 		""
 		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
 		""
 		"We’ll need it for summoning up some friends."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.66A24B8817411BBC.title: "Basic Pentacles"
 	quest.66AE19141D8F5604.quest_desc: [
@@ -3792,7 +3718,7 @@
 		"&6    usual, then kill the required mob "
 		"&6    near the pentacle. "
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.67835A69ECDC692D.title: "Afrit Binding Chalk"
 	quest.679DACB985517C55.quest_desc: [
@@ -4319,7 +4245,7 @@
 		""
 		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a small sample of it."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.73F9A5F65B350A09.title: "Possession Rituals: Golden Chalk"
 	quest.7431B398FFDF3DCA.quest_desc: [
@@ -4424,16 +4350,6 @@
 		"  • Devil: Fire Resistance"
 	]
 	quest.750FEAA1A27892FF.title: "Familiars"
-	quest.75208FCBFF1CFB5F.quest_desc: [
-		"This Orange Chalk is particularly good at attracting Afrit, but utterly incapable of binding them. We’ll need some of their essence before we can get to that.  "
-		""
-		"With this and some Gray Chalk, we’re ready to expand our pentacles once more and begin summoning ever more powerful spirits!"
-		"&n                                                  &r"
-		""
-		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
 	quest.752DB3D467FFB259.quest_desc: [
@@ -4793,6 +4709,7 @@
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.10648F2DE8CD75D4.title: "Impossible"
 	task.10DFCCF8FA5D5505.title: "Aura Generators"
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
@@ -4831,6 +4748,7 @@
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
+	task.3935AF387C2EA352.title: "Impossible"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
