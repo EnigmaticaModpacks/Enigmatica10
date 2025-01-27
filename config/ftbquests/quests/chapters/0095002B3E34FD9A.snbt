@@ -775,6 +775,12 @@
 		{
 			dependencies: ["67835A69ECDC692D"]
 			id: "204FC8B3C340DF4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34FC8C16147A73C2"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6E94B9A1607A10DA"
 				item: { count: 1, id: "occultism:iesnium_sacrificial_bowl" }
