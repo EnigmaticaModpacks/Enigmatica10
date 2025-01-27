@@ -2,6 +2,7 @@
 	chapter.0095002B3E34FD9A.title: "Occultism"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
+	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.1514913DA64A98EB.title: "Ender IO"
@@ -88,7 +89,7 @@
 		"&6    to 'use' or throw a Trident after "
 		"&6    triggering the ritual."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.0200E313AEB3A08A.title: "Marid Binding Chalk"
 	quest.0227D9EC391788D6.quest_desc: [
@@ -130,7 +131,7 @@
 		""
 		"All of these Rituals will need Purple Chalk as a base."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.036036EA25034BE8.title: "Infusion Rituals: Purple Chalk"
 	quest.03DFAA759B4E653E.quest_desc: [
@@ -138,6 +139,7 @@
 		""
 		"There are several uses for this, but when it comes to making Charms, there are two that are our focus; Amethyst Golems and Bookwyrms. The creation of both of these is detailed in the Tablet’s tooltip."
 	]
+	quest.04107677B244E672.title: "Abra's Open Conjure"
 	quest.04217403B704949B.quest_desc: [
 		"Tired of chalking out large pentacles by hand? Ritual Satchels make the process considerably easier."
 		""
@@ -184,6 +186,7 @@
 		"This will require two Interface blocks, one Valve, and a good amount of Pressure Chamber Walls; Pressure Chamber Glass is optional, but recommended to see what's happening inside."
 	]
 	quest.0554264AE11578D2.title: "Pressure Chamber"
+	quest.0557460C1A1C6525.title: "Abra's Open Conjure"
 	quest.062BB5F675CF9F45.quest_desc: [
 		"Welcome to Just Dire Things!"
 		""
@@ -204,6 +207,7 @@
 		"&a🛈 Tip: Starbuncles can be filtered with "
 		"&a    Allow/Deny Scrolls!"
 	]
+	quest.0672655E6A6E5502.title: "Abra's Open Commanding Conjure"
 	quest.06F1A8F15128C1D9.quest_desc: [
 		"While not part of EvilCraft, it’s worth a mention here that Mob Spawners can be moved with Silk Touch and even upgraded! "
 		""
@@ -224,6 +228,7 @@
 		""
 		"You can share your Glyph knowledge with one another using an Annotated Codex. Right-Click to record them and your friend can Right-Click to learn them."
 	]
+	quest.07EC9F9B878ABF01.title: "Fatma's Incentivized Attraction"
 	quest.0842BA3FA770788D.quest_desc: [
 		"Had enough of building out more and more Crafting CPUs to handle your ever-growing base? Switch to a Quantum Computer instead!"
 		""
@@ -296,19 +301,6 @@
 		"&a🛈 Tip: Source is optional!"
 	]
 	quest.09C3C5173499DF7C.title: "Essences"
-	quest.09E62BC1615D5B9B.quest_desc: [
-		"The final Foundation Chalk, Black Chalk is required for controlling some of the most powerful spirits; Marids. "
-		""
-		"One particularly notable ingredient in this wicked chalk is the highly dangerous Wither Rose. "
-		""
-		"Obtaining these is quite simple once you know the trick; you simply need to sacrifice some livestock to a Wither."
-		"&n                                                  &r"
-		""
-		"Summon a Wither and find a way to get it to kill some animals, such as Chickens and Pigs."
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
-	quest.09E62BC1615D5B9B.title: "Black Chalk"
 	quest.09E7D266A7724F09.quest_desc: [
 		"Fluid pipes that double as limited storage, keeping a buffer of fluid in each block space. "
 		""
@@ -341,6 +333,14 @@
 		""
 		"If you inserted the Sulfurs already, the process should begin immediately and light effects will flow from the Emitter through each Pedestal."
 	]
+	quest.09F3415422E4A274.quest_desc: [
+		"Higher tier pentacles require more potent structures to help contain and control the spirits being called. "
+		""
+		"Worry not, however, these enhancements do not impede the pentacle from performing lower tier rituals. "
+		""
+		"Each upgrade keeps adding functionality, never removing it."
+	]
+	quest.09F3415422E4A274.title: "Empowering Rituals"
 	quest.0A0D539C1285F40F.quest_desc: [
 		"Getting started with Nature’s Aura will require using some Brilliant Fibers on leaves. "
 		""
@@ -397,6 +397,7 @@
 		"&a    Helix in EMI to see what mobs it "
 		"&a    comes from!"
 	]
+	quest.0BFD22A98E0F4ACF.title: "Xovrenth Adjure"
 	quest.0C1DCD8850E6857C.quest_desc: ["The Blood Chest is an excellent tool to have around any home. Supply it with Blood and bathe your worn-out tools in it to slowly mend them back to their original state."]
 	quest.0C1DCD8850E6857C.title: "Repairs"
 	quest.0CBCE3A0D149AED0.quest_desc: [
@@ -606,6 +607,7 @@
 		""
 		"With an Eldritch Chalice installed in place of your Sacrificial Bowl, now you can!"
 	]
+	quest.105622B089F794C8.title: "Ronaza's Contact"
 	quest.10762E4BB7F187BE.quest_desc: [
 		"Waiting for Chicobos to grow can be a tad time consuming. Nobody wants that, right?"
 		""
@@ -864,12 +866,6 @@
 		"&6    near the pentacle. "
 	]
 	quest.16F69571092CAB9A.title: "Uncommon Materials"
-	quest.1729DEB43163CC9D.quest_desc: [
-		"With these three chalks, a very special pentacle may be formed: Osirin’s Unbound Calling. "
-		""
-		"This pentacle will allow you to call forth hordes of wild creatures intent on your destruction. Best them and you’ll receive some very special rewards!"
-	]
-	quest.1729DEB43163CC9D.title: "Wild Spirits"
 	quest.176DAF596793D4FF.quest_desc: [
 		"While Nuclear Waste can be stored and safely disposed of in Waste Barrels, it is better off being re-processed into Polonium or Plutonium."
 		""
@@ -902,6 +898,7 @@
 		"&6    separate so they aren't limited by"
 		"&6    the max transfer rate."
 	]
+	quest.1957E93789E69D3E.title: "Uphyxes Inverted Tower"
 	quest.195BD5456B6E674D.quest_desc: [
 		"Iron’s Spellbooks adds several structures to the world which will undoubtedly prove very useful."
 		""
@@ -989,6 +986,7 @@
 		""
 		"Greater range will cost more power!"
 	]
+	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
 	quest.1D3ECD980E15451B.quest_desc: [
 		"Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."
 		""
@@ -1073,6 +1071,9 @@
 		""
 		"You’ll need some Etching Acid in the Tank as well. Normally this isn’t consumed, but if heat is applied to the Tank it will speed up the process and slowly consume the Acid."
 	]
+	quest.1ED9BF551B4E2420.title: "Marid Crusher"
+	quest.1F228F2C10A89232.title: "Hedyrin's Lure"
+	quest.1FC45862126DC511.quest_desc: ["add iron's spell scrolls to witches, or otherwise make the research fragment useful in obtaining spells from Ars and Iron's"]
 	quest.1FC58B7D325A1AC7.quest_desc: ["Somewhere deep in the Cell Maze you'll uncover a special Honey Compass which leads to the Throne Pillar. Grab it and follow it, as it will lead you directly to the Queen Bee herself!"]
 	quest.1FC58B7D325A1AC7.title: "Finding the Queen"
 	quest.1FDA97FE562A2C4D.quest_desc: [
@@ -1231,6 +1232,7 @@
 		"&a    the structure or valid places "
 		"&a    for hatches."
 	]
+	quest.247C63F94533E40D.title: "Djinni Crusher"
 	quest.24A4BA42A83A20D0.quest_desc: [
 		"After crafting your first few Dark Steel Ingots, the Alloy Smelter might seem like the logical next step. "
 		""
@@ -1260,19 +1262,6 @@
 		"&a🛈 Tip: The Drill will never dry up with a"
 		"&a    Water Bucket in your inventory!"
 	]
-	quest.253C97A20FD517DC.quest_desc: [
-		"With Lime and Light Gray Chalk in our possession, we’ll be able to upgrade each of our pentacles to handle Djinni. "
-		""
-		"Remember that higher tier pentacles may still be used for lower tier crafts. "
-		""
-		"So, while these pentacles will grow in size, you won’t need dozens of different ones scattered around to handle future rituals. "
-		"&n                                                  &r"
-		""
-		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
-	quest.253C97A20FD517DC.title: "Djinni Binding Chalk"
 	quest.25770E9DCA5B4B1F.quest_desc: [
 		"Welcome to Actually Additions! "
 		""
@@ -1458,6 +1447,7 @@
 		""
 		"This can be used to charge pneumatic equipment, auto stock or extract items, and even auto feed you and manage your XP. The sky's the limit!"
 	]
+	quest.2ADF5DBA3B09712B.title: "Osorin's Unbound Calling"
 	quest.2AF1CE73E140D685.quest_desc: [
 		"Though it only occurs naturally in meteorites, Certus Quartz is quite easily farmed once obtained."
 		""
@@ -1476,6 +1466,8 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2BE4C2280C195282.quest_desc: ["Plus Spirit Attuned Gems"]
+	quest.2BE4C2280C195282.title: "Abra's Conjure"
 	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
 	quest.2BF4F678812848FC.title: "Fermentation"
 	quest.2C1538BE243F0CB4.quest_desc: [
@@ -1534,6 +1526,7 @@
 		""
 		"Some scrolls will only be available with higher tier inks!"
 	]
+	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
 		"Not so easy to come by as Steel, Aluminum can be very time consuming to extract in quantities sufficient to work with. The first step towards obtaining it will be to set up an Electric Blast Furnace, or EBF for short."
@@ -1557,6 +1550,7 @@
 		""
 		"Craft an Undead Sapling in your Blood Infuser and grow it to obtain Undead Wood. This special wood is an important resource for other crafts."
 	]
+	quest.300AE428F98F97AF.title: "Afrit Crusher"
 	quest.307FEC610F0B542F.quest_desc: [
 		"The Replicator itself essentially has two modes of operation. "
 		""
@@ -1700,6 +1694,7 @@
 		"&a    you to see local Aura levels!"
 	]
 	quest.34FFE863EB846035.title: "Ritual of the Forest"
+	quest.356670417C9A6BB8.title: "Foliot Crusher"
 	quest.35700C5AA357B012.quest_desc: ["Quantum computing represents the pinnacle of computing technology. With the computational power brought to bear by these incredible processors, you’ll be able to harness the very power of the sun and build your own personal Fusion Reactor."]
 	quest.358A62846D6B0004.quest_desc: [
 		"The Thermopneumatic Processing Plant, or TPP for short, is very useful for getting more out of oil refining. "
@@ -1745,25 +1740,12 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.380D0C6385B6325C.quest_desc: [
 		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
 		""
 		"It can commonly be found by mining between &6Y 45&r and &6Y -25&r."
 	]
-	quest.385AA10772560191.quest_desc: [
-		""
-		"By crafting these three Chalks, you’ll be able to finally contact the most ancient of denizens from the Otherworld; Eldritch Spirits."
-		""
-		"Worry not, the price for such a feat is just your sanity. You weren’t using it anyway, right?"
-		""
-		"&6⚠ Note: These rituals may requires a"
-		"&6    sacrifice. Trigger the ritual as"
-		"&6    usual, then kill the required mob "
-		"&6    near the pentacle. "
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
-	quest.385AA10772560191.title: "Eldritch Compulsion"
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
 		""
@@ -2044,6 +2026,7 @@
 		"These quests will help you discover this mod, which is largely centered around base defense, though offers some building aids as well."
 	]
 	quest.3D9527EAA5944C17.title: "Modular Force Fields"
+	quest.3DFBC78C0646A5B5.title: "Djinni Crusher"
 	quest.3E622F93756E9BFA.quest_desc: [
 		"The first step to building a massive supercomputer capable of storing, crafting, and transferring all the various bits-n-bobs you could ever hope for, starts with a crystal."
 		""
@@ -2167,6 +2150,7 @@
 		"&a    create custom shops to trade "
 		"&a    with each other!"
 	]
+	quest.3F2E1099BB66AFEB.title: "Abra's Fortified Conjure"
 	quest.3F30CC32709BE5DD.quest_desc: ["A close second behind the Polarizer, making an Assembler will drastically reduce the cost of making electric components. "]
 	quest.3F815BF9AC5DD212.quest_desc: [
 		"The Fluidic Plenisher can be an excellent way to fill an area with fluid. Simply pipe in fluids and supply power to quickly make a lake of anything you like!"
@@ -2378,7 +2362,7 @@
 		"Maybe eating it wasn’t the best approach after-all. Smoke it?"
 		"&n                                                  &r"
 		""
-		"Burn some Demon’s Dream Fruit with a Flint and Steel. "
+		"Throw a Demon’s Dream Fruit on the ground and burn it with a Flint and Steel. "
 		""
 		"&a🛈 Tip: Burn it on Soul Sand for a fire "
 		"&a    that never goes out!"
@@ -2472,6 +2456,9 @@
 		"These chapters are a great place to start if you're new to modded Minecraft or if you're in the need for inspiration."
 	]
 	quest.44BD4C393C59F1CB.title: "Discovering Enigmatica"
+	quest.45035128A978E189.quest_desc: ["Plus Spirit Attuned Gems"]
+	quest.45035128A978E189.title: "Sevira's Permanent Confinement"
+	quest.4510A825D259CA86.title: "Abra's Open Commanding Conjure"
 	quest.45121907B7F8DFD1.quest_desc: ["Simple power cables to get energy from one place to another."]
 	quest.4537806144939A6B.quest_desc: [
 		"An animate block of Amethyst, these golems will automatically create, grow, and harves budding blocks. "
@@ -2504,6 +2491,7 @@
 		""
 		"Start small, you can always upgrade to large cells later!"
 	]
+	quest.45D91E57A507473D.title: "Abra's Commanding Conjure"
 	quest.4613FE560EAC7695.quest_desc: [
 		"Combine the Purified Blood with a filled Plasmid in the Plasmid Injector to set the trait in the blood sample. "
 		""
@@ -2699,6 +2687,7 @@
 		"[\"Be sure to check out their online \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.aidancbrady.com\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"Wiki\",\"underlined\":true},\" which is an excellent source of knowledge, especially concerning their multi-block structures.\"]"
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
+	quest.4A60707DB5548805.title: "Ophyx's Calling"
 	quest.4A8EF3D657CEAED5.quest_desc: [
 		"All those batteries are looking pretty costly by now. With no Lead or Antimony from the Steam Quarry, you’re probably back to manual mining again, right?"
 		""
@@ -2848,6 +2837,7 @@
 		"&a    Logistics, such as Mercurial "
 		"&a    Item Nodes!"
 	]
+	quest.4DA846036F3B01C3.title: "Strigeor's Higher Binding"
 	quest.4DE1B1045507C72C.quest_desc: [
 		"Dark Sticks, apart from being a useful crafting component, also serve to point the way to a special type of structure, the Dark Temple. "
 		""
@@ -2895,6 +2885,7 @@
 		"Refer to the Book of Natural Aura for more information."
 	]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
+	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
 	quest.4F19A0AECC129216.quest_desc: [
 		"The Atomic Forge is an advanced crafting device which uses Enderic Lasers to operate. "
 		""
@@ -2940,6 +2931,7 @@
 		""
 		"When coupled with an Adept Hopper, it can be filtered to specific items."
 	]
+	quest.503E9805EC687D70.title: "Eziveus' Spectral Compulsion"
 	quest.5047A6F1EF472407.quest_desc: ["The following are bulk storage units capable of holding more than a simple chest."]
 	quest.5047A6F1EF472407.title: "Bulk Item Storage"
 	quest.5078D0CBD8AB602E.quest_desc: [
@@ -3008,26 +3000,6 @@
 		""
 		"&a🛈 Tip: The Generators automatically power adjacent blocks."
 	]
-	quest.522F51F7AC6DAB52.quest_desc: [
-		"Our next step will take us into Djinni territory with Lime Chalk. However, to get there we’re going to need some Bottes o’ Enchanting."
-		""
-		"Using Ihagan's Enthrallment, we’re able to call forth a Djinni to possess a Bee. This Possessed Bee is the only known source for a particularly cursed honey. "
-		""
-		"Maybe don't eat it."
-		"&n                                                  &r"
-		""
-		"Find Ihagan's Enthrallment in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
-		""
-		"&a🛈 Tip: The shape of individual chalk "
-		"&a    marks is random and doesn’t "
-		"&a    affect the ritual!"
-		""
-		"&6⚠ Note: This ritual requires a"
-		"&6    sacrifice. Trigger the ritual as"
-		"&6    usual, then kill the required mob "
-		"&6    near the pentacle. "
-	]
-	quest.522F51F7AC6DAB52.title: "Possession: Bee"
 	quest.526BF0840C65855F.quest_desc: [
 		"Looking to improve the yields you’re getting from your mining efforts? Try washing your Raw Ore in some Liquid Meat and fermenting it!"
 		""
@@ -3076,6 +3048,7 @@
 		"&a    further along the network!"
 	]
 	quest.5386C6E2FDA6BA50.title: "Logistics Upgrades"
+	quest.538CE12C982D950E.title: "Strigeor's Higher Binding"
 	quest.55065F1D9C6716C1.quest_desc: [
 		"The Advanced Sensor gets an area upgrade over its Simple counterpart, allowing it to interact with things in a larger area. "
 		""
@@ -3107,6 +3080,7 @@
 		""
 		"Be sure to keep a stock of Liquid Latex, however, as it is used in many crafting recipes directly. "
 	]
+	quest.55785C260809F141.title: "Foliot Crusher"
 	quest.55AFB2B88341FAB5.quest_desc: [
 		"Steel in particular is a very important resource in Mekanism with advanced machines generally using a Steel Casing. "
 		""
@@ -3128,6 +3102,7 @@
 		""
 		"They can also be inserted into an Ender Cell to increase it's capacity."
 	]
+	quest.56D926386FC532B2.title: "Ihagan's Enthrallment"
 	quest.56DDD2327724F715.quest_desc: [
 		"Cables come in a variety of sizes and colors to suit your needs. "
 		""
@@ -3147,6 +3122,7 @@
 		""
 		"This is generally most useful when paired with a Generator, allowing you to turn it on or off as needed."
 	]
+	quest.5711C54FA99AF486.title: "Ronaza's Contact"
 	quest.574555F24035E48A.quest_desc: [
 		"This collection of blocks do pretty much what their name implies; placing and picking up blocks or fluid."
 		""
@@ -3328,6 +3304,8 @@
 		"&a🛈 Tip: Buy an Otherworld Sapling from "
 		"&a    the Market to fast-track this step."
 	]
+	quest.5B39C22D132CB376.quest_desc: ["Plus Wither Skulls"]
+	quest.5B39C22D132CB376.title: "Abra's Fortified Conjure"
 	quest.5BD04F0109CB6704.quest_desc: [
 		"With a bit of chalk and some other paraphernalia we can reach out to the Otherworld more directly, and bring some helpers to our world. "
 		""
@@ -3348,6 +3326,11 @@
 		""
 		"&a🛈 Tip: Items can be piped into the "
 		"&a    bowls too!"
+		""
+		"&6⚠ Note: The Copper Blocks used in "
+		"&6    pentacles may be replaced with "
+		"&6    waxed or corroded variants "
+		"&6    without impacting the pentacle."
 	]
 	quest.5BD04F0109CB6704.title: "Summon: Foliot Crusher"
 	quest.5C9FD202A4E641D1.quest_desc: ["The Item Grounder is a simple Anti-Pickup device. Items in its range cannot be picked up by the player unless they are sneaking. "]
@@ -3422,19 +3405,7 @@
 	]
 	quest.5DF2A3E977D4C11B.title: "Occultism"
 	quest.5E32D9117B3994E0.quest_desc: ["The Everlasting Spring will generate water at the cost of Aura which may be piped out with any form of fluid logistics. "]
-	quest.5E60A0AF20C146CA.quest_desc: [
-		"Our next step will take us into Djinni territory with Lime Chalk. However, to get there we’re going to need some Bottes o’ Enchanting."
-		""
-		"Returning to Hedyrin’s Lure, we’re able to call forth a Foliot to possess a Witch. This Possessed Witch will drop the bottles we're after when killed. "
-		"&n                                                  &r"
-		""
-		"Find Hedyrin’s Lure in the Dictionary of Spirits and click the 👁 in the preview to visualize it in-world."
-		""
-		"&a🛈 Tip: The shape of individual chalk "
-		"&a    marks is random and doesn’t "
-		"&a    affect the ritual!"
-	]
-	quest.5E60A0AF20C146CA.title: "Possession: Witch"
+	quest.5E54A325CBBFCF54.title: "Aviar's Circle"
 	quest.5E84329A59955F29.quest_desc: [
 		"While AA is compatible with any source of FE, it does offer a few methods of generating energy itself. "
 		""
@@ -3442,6 +3413,7 @@
 		""
 		"Obtaining Canola Oil will require a small amount of power first to operate the Canola Press. So, begin with the Coal Generator, or obtain some power from another mod. "
 	]
+	quest.5EB38424DEF4E8E9.title: "Marid Crusher"
 	quest.5F0523F799DA720C.quest_desc: [
 		"When used at an Environmental Accumulator, the Weather Container will be filled with a sample of the local weather. "
 		""
@@ -3462,6 +3434,7 @@
 		""
 		"Various filters and priority modules exist to help ensure the items are going to the correct place. "
 	]
+	quest.600770CC14587E1B.title: "Ophyx's Calling"
 	quest.6026FB490B591788.quest_desc: [
 		"With the Arcane Forge you can begin upgrading your equipment and spell scrolls. "
 		""
@@ -3485,6 +3458,19 @@
 	]
 	quest.60EECBF540C75C09.quest_desc: ["Modern Industrialization offers a variety of tanks of all sizes to fit your needs. "]
 	quest.60EECBF540C75C09.title: "Tanks"
+	quest.61090C5F8E435E7A.quest_desc: [
+		"Chalks"
+		""
+		"White"
+		"Yellow"
+		"Purple"
+		"Red"
+		""
+		"Paraphernalia"
+		""
+		"None"
+	]
+	quest.61090C5F8E435E7A.title: "Osorin's Unbound Calling"
 	quest.6118F241A056954F.quest_desc: [
 		"The Sponge Module is perfect for clearing fluids in a large area, whether it be to make a lava free area in the Nether or to clear water from an Ocean Monument. "
 		""
@@ -3664,16 +3650,20 @@
 		"&a    more connections!"
 	]
 	quest.66A24B8817411BBC.quest_desc: [
-		"Occultism has several Foundation Chalks that are used as the basis for each tier of pentacle; these consist of White, Light Gray, Gray, and Black. "
+		"The Pentacles included in Enigmatica 10 are custom creations designed to enhance Occultism’s player experience. "
 		""
-		"As you get into more powerful rituals, you’ll be obliged to use the darker shades. For now, however, you will want to start with White, the simplest and lowest tier Foundation Chalk."
+		"In particular, the number of required chalks has been reduced from sixteen to only five; &fwhite&r, &eyellow&r, &5purple&r, &cred&r, and &9blue&r. The impure form of the colorless chalks will still show up in some crafts, however, and the other colors are still craftable if you wish."
+		""
+		"A number of recipes have similarly been changed to streamline progression through the mod."
+		""
+		"As a result of all of this, some entries in the Dictionary of Spirits may be incorrect. These quests should guide you through the pentacle progression instead."
 		"&n                                                  &r"
 		""
 		"Craft up some Impure White Chalk and toss it in the Spirit Fire to have it purified for use. "
 		""
-		"We’ll need it for summoning up some friends."
+		"We’ll need it for summoning a friend or two."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.66A24B8817411BBC.title: "Basic Pentacles"
 	quest.66AE19141D8F5604.quest_desc: [
@@ -3738,7 +3728,7 @@
 		"&6    usual, then kill the required mob "
 		"&6    near the pentacle. "
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.67835A69ECDC692D.title: "Afrit Binding Chalk"
 	quest.679DACB985517C55.quest_desc: [
@@ -3957,6 +3947,7 @@
 		"&a    floating above the Actuator. "
 	]
 	quest.6BDA1C1BE04D541A.title: "Dimensional Storage"
+	quest.6C662D615D3A1911.title: "Fatma's Incentivized Attraction"
 	quest.6CC9CDCCDE1426AC.quest_desc: [
 		"These modules are used in an Interdiction Matrix to prevent certain creatures or behaviors. "
 		""
@@ -4122,6 +4113,7 @@
 		""
 		"Items may only be accessed by pipe or other logistics. There’s a round slot on the front for this purpose. "
 	]
+	quest.702F469E14D94B63.title: "Uphyxes Inverted Tower"
 	quest.705C37F9694E6FEA.quest_desc: [
 		"Fluid Modules for Modular Routers allows a router to transfer chemicals bi-directionally."
 		""
@@ -4182,10 +4174,11 @@
 		"By setting up Tachyon Absorbers in the vicinity, those high energy particles may be absorbed and turned into useful energy. "
 	]
 	quest.72591AAEA1E6DE38.title: "Black Hole Power"
+	quest.7259D617AAFEF85B.title: "Eziveus' Spectral Compulsion"
 	quest.72BD11ED57B26EA2.quest_desc: [
 		"Using the various Wild Summons, some very special materials may be obtained, including Pottery Sherds, Smithing Templates, and all the items shown above. "
 		""
-		"Need Wither Skulls? Call forth the Wild Hunt!"
+		"Need Wither Skulls or Wither Roses? Call forth the Wild Hunt!"
 		""
 		"Totems of Undying? Summon a miniature Illager Raid!"
 		""
@@ -4235,6 +4228,7 @@
 		"Another unconfigured pipe segment is needed for the Terminal to retrieve the craft."
 	]
 	quest.7327D905FE8B38FC.title: "Pretty Pipes"
+	quest.73430E6390B7D125.title: "Sevira's Permanent Confinement"
 	quest.73A71BBB9D9168B0.quest_desc: [
 		"Pairing nicely with Apothic Spawners, the Spirit Reanimator can be used to produce Spawn Eggs for various mobs."
 		""
@@ -4261,7 +4255,7 @@
 		""
 		"Some Glowstone may be found around the Overworld, however it is likely easiest to simply pop into The Nether for a small sample of it."
 		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
+		"&a🛈 Tip: Newly crafted Chalk won't break!"
 	]
 	quest.73F9A5F65B350A09.title: "Possession Rituals: Golden Chalk"
 	quest.7431B398FFDF3DCA.quest_desc: [
@@ -4366,16 +4360,6 @@
 		"  • Devil: Fire Resistance"
 	]
 	quest.750FEAA1A27892FF.title: "Familiars"
-	quest.75208FCBFF1CFB5F.quest_desc: [
-		"This Orange Chalk is particularly good at attracting Afrit, but utterly incapable of binding them. We’ll need some of their essence before we can get to that.  "
-		""
-		"With this and some Gray Chalk, we’re ready to expand our pentacles once more and begin summoning ever more powerful spirits!"
-		"&n                                                  &r"
-		""
-		"Refer to the Dictionary of Spirits to see how to upgrade each pentacle."
-		""
-		"&a🛈 Tip: Newly crafted Chalk don't break!"
-	]
 	quest.752888EAF2861EB4.quest_desc: ["The following are various forms of item transfer options available in Enigmatica 10."]
 	quest.752888EAF2861EB4.title: "Items"
 	quest.752DB3D467FFB259.quest_desc: [
@@ -4608,6 +4592,10 @@
 		"As with the Analog Circuits, the components here are somewhat costly to make manually, however upgraded options will soon become available. "
 	]
 	quest.7BEE7FAD21AFEB68.title: "Electronic Circuitry"
+	quest.7BF8A53EADB35F49.title: "Abra's Conjure"
+	quest.7C0E7547D266C45D.quest_desc: ["Plus Spirit Attuned Gems"]
+	quest.7C0E7547D266C45D.title: "Abra's Commanding Conjure"
+	quest.7C174D5E3A7084B6.quest_desc: ["Move to Afrit Crusher"]
 	quest.7C27093E25633B9F.quest_desc: [
 		"The Mercurial Fluid transport system is a simple logistics network for moving, well, fluids."
 		""
@@ -4731,6 +4719,7 @@
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.10648F2DE8CD75D4.title: "Impossible"
 	task.10DFCCF8FA5D5505.title: "Aura Generators"
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
@@ -4769,6 +4758,7 @@
 	task.3745AFEF378D7217.title: "Steel or Energized Steel"
 	task.37CDC8E9B9004A0D.title: "Crafting Storage"
 	task.3898E7E189555B8C.title: "Arcane Platforms"
+	task.3935AF387C2EA352.title: "Impossible"
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
@@ -4841,6 +4831,7 @@
 	task.6D1A048396918DF0.title: "Fluids"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
 	task.6F72D2074543BF23.title: "Bins"
+	task.6FCC45D51EF8A73E.title: "Aviar's Circle"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
 	task.72396A76EEA759CF.title: "Books of Binding"

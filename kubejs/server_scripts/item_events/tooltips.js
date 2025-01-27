@@ -294,6 +294,34 @@ ItemEvents.modifyTooltips((event) => {
         {
             items: ['irons_spellbooks:expulsion_ring'],
             text: [Text.of(`When attacked, emit an expulsive burst of air`).gold()]
+        },
+        {
+            items: ['occultism:chalk_light_gray', 'occultism:chalk_gray', 'occultism:chalk_black'],
+            text: [Text.of(`May replace White Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_pink', 'occultism:chalk_magenta'],
+            text: [Text.of(`May replace Purple Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_green', 'occultism:chalk_lime'],
+            text: [Text.of(`May replace Yellow Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_light_blue', 'occultism:chalk_cyan'],
+            text: [Text.of(`May replace Blue or Red Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_blue', 'occultism:chalk_orange', 'occultism:chalk_brown'],
+            text: [Text.of(`May replace Red Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_rainbow'],
+            text: [Text.of(`May replace any Color Chalk in any pentacle`).gold()]
+        },
+        {
+            items: ['occultism:chalk_void'],
+            text: [Text.of(`May replace any Chalk in any pentacle`).gold()]
         }
     ];
 

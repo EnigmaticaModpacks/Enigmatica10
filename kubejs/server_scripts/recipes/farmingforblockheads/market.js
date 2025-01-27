@@ -120,17 +120,17 @@ ServerEvents.recipes((event) => {
         {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'actuallyadditions:canola_seeds' },
-            id: `${id_prefix}canola_seeds`
+            id: `${id_prefix}actuallyadditions_canola_seeds`
         },
         {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'actuallyadditions:flax_seeds' },
-            id: `${id_prefix}flax_seeds`
+            id: `${id_prefix}actuallyadditions_flax_seeds`
         },
         {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'actuallyadditions:coffee_beans' },
-            id: `${id_prefix}coffee_beans`
+            id: `${id_prefix}actuallyadditions_coffee_beans`
         },
         {
             category: 'farmingforblockheads:saplings',
@@ -176,6 +176,16 @@ ServerEvents.recipes((event) => {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'farmersdelight:cabbage_seeds' },
             id: `${id_prefix}farmersdelight_cabbage_seeds`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'farmersdelight:onion' },
+            id: `${id_prefix}farmersdelight_onion`
+        },
+        {
+            category: 'farmingforblockheads:seeds',
+            result: { count: 1, item: 'supplementaries:flax_seeds' },
+            id: `${id_prefix}supplementaries_flax_seeds`
         }
     ];
 
