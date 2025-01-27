@@ -752,6 +752,12 @@
 				id: "occultism:spawn_egg/iesnium_golem"
 			}
 			id: "7F8B4427A8FFC0B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4454ED36F38141BD"
+				table_id: 2884263910044023563L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					advancement: "occultism:occultism/possess_iesnium_golem"
