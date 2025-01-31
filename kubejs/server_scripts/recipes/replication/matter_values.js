@@ -316,6 +316,15 @@ ServerEvents.recipes((event) => {
                 { type: 'replication:earth', amount: 2.0 }
             ],
             id: `${id_prefix}fluorite_gem`
+        },
+        {
+            input: { item: 'irons_spellbooks:cinder_essence' },
+            matter: [
+                { type: 'replication:living', amount: 1.0 },
+                { type: 'replication:organic', amount: 1.0 },
+                { type: 'replication:nether', amount: 1.0 }
+            ],
+            id: `${id_prefix}cinder_essence`
         }
     ];
 
@@ -374,7 +383,8 @@ ServerEvents.recipes((event) => {
         'aquaculture:red_grouper',
         'aquaculture:tuna',
         'irons_spellbooks:frozen_bone',
-        'deeperdarker:bloom_berries'
+        'deeperdarker:bloom_berries',
+        'chococraft:chocobo_drumstick_raw'
     ];
 
     basic_living_materials.forEach((material) => {

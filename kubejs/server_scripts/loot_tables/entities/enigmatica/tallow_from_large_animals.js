@@ -27,7 +27,7 @@ LootJS.lootTables((event) => {
         event.getLootTable(table).createPool((pool) => {
             pool.addEntry(
                 LootEntry.of('occultism:tallow')
-                    .matchMainHand('#occultism:tools/knives')
+                    .matchMainHand('#occultism:tools/knife')
                     .setCount([0, 2])
                     .applyEnchantmentBonus([0, 1])
             );
