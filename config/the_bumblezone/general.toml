@@ -317,3 +317,8 @@
 	# Default: 48000
 	# Range: 0 ~ 1000000
 	continuityEssenceCooldown = 48000
+	#----------------------------
+	#
+	# Whether the Blue Arena in Sempiternal Sanctum has the moving bubble block mechanic.
+	#
+	blueArenaBubblesMechanic = true

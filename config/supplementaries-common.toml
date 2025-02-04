@@ -339,8 +339,8 @@
 	[building.pedestal]
 		enabled = true
 		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
-		# Default: 3
-		# Range: 0 ~ 100
+		# Default: 3.0
+		# Range: 0.0 ~ 100.0
 		crystal_enchanting = 3
 
 	[building.ash]
@@ -714,3 +714,7 @@
 		# Default: 0.15
 		# Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
+
+	[tweaks.dragon_banner_pattern]
+		#Adds dragon banner pattern made from dragon head
+		enabled = true
