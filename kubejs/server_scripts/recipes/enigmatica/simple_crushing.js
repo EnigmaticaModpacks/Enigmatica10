@@ -558,6 +558,17 @@ ServerEvents.recipes((event) => {
             ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'glowstone_dust_from_glow_berries'
+        },
+        {
+            input: { tag: 'c:storage_blocks/redstone' },
+            outputs: [{ id: 'fluxnetworks:flux_block', count: 1 }],
+            multiply: 'none',
+            exclusions: [],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            na: { aura: 5000, time: 20 },
+            id_suffix: 'flux_block'
         }
     ];
 
