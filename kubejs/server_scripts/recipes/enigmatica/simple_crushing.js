@@ -561,14 +561,14 @@ ServerEvents.recipes((event) => {
         },
         {
             input: { tag: 'c:storage_blocks/redstone' },
-            outputs: [{ id: 'fluxnetworks:flux_block', count: 1 }],
+            outputs: [{ id: 'fluxnetworks:flux_dust', count: 9 }],
             multiply: 'none',
             exclusions: [],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
-            id_suffix: 'flux_block'
+            id_suffix: 'flux_dust'
         }
     ];
 
