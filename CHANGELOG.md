@@ -1,3 +1,11 @@
+### Enigmatica 10 1.19.0
+
+#### 🦟 Bugs Fixed
+
+-   Remove a duplicate blaze crushing recipe [(\#368)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/368)
+
+---
+
 ### Enigmatica 10 1.18.0
 
 **Note**
@@ -10,6 +18,8 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 
 -   Add note to JDT quests about feeding goo [(\a5e3443)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a5e34437fb2a7e2fde72788a53d49ae69ae43dac)
 -   Occultism Progression and pentacles have been changed. You will need to rebuild all of your pentacles. For full details see Github [(\#359)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/359)
+
+---
 
 ### Enigmatica 10 1.17.0
 
