@@ -14,6 +14,7 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 #### 🦟 Bugs Fixed
 
 -   Remove a duplicate blaze crushing recipe [(\#368)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/368)
+-   Remove conflicting Modern Industrialization Cutting Machine Cable Anchor recipe [\#371](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/371)
 
 ---
 
