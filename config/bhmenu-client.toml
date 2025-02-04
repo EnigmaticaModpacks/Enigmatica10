@@ -4,7 +4,7 @@
 partner_id = "2214"
 #The id of this modpack.
 #(This is BH internal pack id; Find the id here: https://www.bisecthosting.com/partners/console.php)
-pack_id = ""
+pack_id = "25151"
 #Set this to false to disable pack config screen and enable user configs instead.
 #This should always be done by the pack author once they are done with configuring the pack.
 #To re-enable Pack Edit Mode, please edit the config file.
