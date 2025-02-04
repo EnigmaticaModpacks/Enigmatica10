@@ -698,5 +698,31 @@
 			x: 5.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["235D7EF41916E480"]
+			id: "7FFAF0F11AF6D406"
+			rewards: [{
+				id: "2AB17F56214E9004"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_configurator"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4089E2E33D77166B"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+				{
+					id: "7115210F69594ED2"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -2.5d
+		}
 	]
 }
