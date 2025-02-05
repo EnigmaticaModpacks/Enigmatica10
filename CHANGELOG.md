@@ -10,6 +10,7 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 
 -   Add note to JDT quests about feeding goo [(\a5e3443)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a5e34437fb2a7e2fde72788a53d49ae69ae43dac)
 -   Occultism Progression and pentacles have been changed. You will need to rebuild all of your pentacles. For full details see Github [(\#359)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/359)
+-   Allow blocks of raw ore to be smelted directly [(\#373)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/373)
 
 #### 🦟 Bugs Fixed
 
