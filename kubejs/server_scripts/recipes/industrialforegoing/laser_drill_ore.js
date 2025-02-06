@@ -253,6 +253,48 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}replica`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:white_laser_lens' },
+            output: { item: 'rftoolsbase:dimensionalshard_overworld' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: [], whitelist: ['minecraft:overworld'] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 20,
+                    depth_min: 1,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}dimensionalshard_overworld`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:white_laser_lens' },
+            output: { item: 'rftoolsbase:dimensionalshard_nether' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: [], whitelist: ['minecraft:the_nether'] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 20,
+                    depth_min: 1,
+                    weight: 4
+                }
+            ],
+            id: `${id_prefix}dimensionalshard_nether`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:white_laser_lens' },
+            output: { item: 'rftoolsbase:dimensionalshard_end' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: [], whitelist: ['minecraft:the_end'] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 16
+                }
+            ],
+            id: `${id_prefix}dimensionalshard_end`
         }
     ];
 

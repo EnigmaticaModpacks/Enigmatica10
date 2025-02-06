@@ -33,6 +33,16 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}fluorite`
         },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:ores/replica',
+                count: 1,
+                weight: 50
+            },
+            id: `${id_prefix}replica`
+        },
 
         // Eldritch Miner
         {
@@ -158,6 +168,16 @@ ServerEvents.recipes((event) => {
                 weight: 90
             },
             id: `${id_prefix}mithril_raw`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:storage_blocks/raw_replica',
+                count: 1,
+                weight: 90
+            },
+            id: `${id_prefix}replica_block`
         }
     ];
 
