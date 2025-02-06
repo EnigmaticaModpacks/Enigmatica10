@@ -8,6 +8,21 @@ We've made changes to Occultism's pentacles.
 
 Consider clearing out any current pentacles before updating. Right-Clicking an Artisinal Ritual Satchel on an existing valid pentacle will remove the entire thing, but this won't work on an old pentacle after the update because they'll no longer be seen as valid.
 
+#### ✔️ Added Mods
+
+* [Blue Flame Burning](https://www.curseforge.com/minecraft/mc-mods/blueflame) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
+* [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) (by [OfekN_](https://www.curseforge.com/members/OfekN_/projects))
+* [CreeperHost Presents Steve's Carts](https://www.curseforge.com/minecraft/mc-mods/creeperhost-presents-steves-carts) (by [Official_CreeperHost](https://www.curseforge.com/members/Official_CreeperHost/projects))
+* [Custom Window Title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) (by [chylex](https://www.curseforge.com/members/chylex/projects))
+* [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium) (by [FiniteReality](https://www.curseforge.com/members/FiniteReality/projects))
+* [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks) (by [sonar_sonic](https://www.curseforge.com/members/sonar_sonic/projects))
+* [GuideME](https://www.curseforge.com/minecraft/mc-mods/guideme) (by [shartte](https://www.curseforge.com/members/shartte/projects))
+* [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) (by [McJty](https://www.curseforge.com/members/McJty/projects))
+* [Model Gap Fix](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
+* [Monocle](https://www.curseforge.com/minecraft/mc-mods/monocle) (by [Ferri_Arnus](https://www.curseforge.com/members/Ferri_Arnus/projects))
+* [RFTools Base](https://www.curseforge.com/minecraft/mc-mods/rftools-base) (by [McJty](https://www.curseforge.com/members/McJty/projects))
+* [RFTools Builder](https://www.curseforge.com/minecraft/mc-mods/rftools-builder) (by [McJty](https://www.curseforge.com/members/McJty/projects))
+
 #### ⭐ Improvements
 
 -   Add note to JDT quests about feeding goo [(\a5e3443)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a5e34437fb2a7e2fde72788a53d49ae69ae43dac)
@@ -21,6 +36,10 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 -   Remove a duplicate blaze crushing recipe [(\#368)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/368)
 -   Remove conflicting Modern Industrialization Cutting Machine Cable Anchor recipe [\#371](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/371)
 -   Ender IO Alloy Smelter does not smelt many recipes [(\#352)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/352)
+
+#### ❌ Removed Mods
+
+* [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
 
 ---
 
