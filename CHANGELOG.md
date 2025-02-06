@@ -1,5 +1,7 @@
 ### Enigmatica 10 1.18.0
 
+NeoForge-1.21.1-21.1.115 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.18.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.18.0.md)
+
 **Note**
 
 We've made changes to Occultism's pentacles.
@@ -18,6 +20,7 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 
 -   Remove a duplicate blaze crushing recipe [(\#368)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/368)
 -   Remove conflicting Modern Industrialization Cutting Machine Cable Anchor recipe [\#371](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/371)
+-   Ender IO Alloy Smelter does not smelt many recipes [(\#352)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/352)
 
 ---
 
