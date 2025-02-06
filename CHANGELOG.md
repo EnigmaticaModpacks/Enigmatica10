@@ -12,6 +12,7 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 -   Occultism Progression and pentacles have been changed. You will need to rebuild all of your pentacles. For full details see Github [(\#359)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/359)
 -   Allow blocks of raw ore to be smelted directly [(\#373)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/373)
 -   Replica ore may be obtained from Occultism miners [(\#374)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/374)
+-   Many new ores have been added to the Lens of the Miner [(\a1b3770)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/a1b3770b482fec26e3565f911e915b9392962746)
 
 #### 🦟 Bugs Fixed
 
