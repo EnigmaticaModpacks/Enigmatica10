@@ -170,7 +170,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}mithril_raw`
         },
         {
-            ingredient: { tag: 'occultism:miners/ores' },
+            ingredient: { tag: 'occultism:miners/eldritch' },
             result: {
                 type: 'occultism:weighted_tag',
                 tag: 'c:storage_blocks/raw_replica',
