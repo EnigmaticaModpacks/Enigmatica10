@@ -196,17 +196,17 @@
 			tasks: [
 				{
 					id: "40BF2920569F9751"
-					item: { components: { "titanium:augments": { Speed: 2.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_1" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:speed_addon_tier_1)item(industrialforegoing:speed_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "62742836108A45A3"
-					item: { components: { "titanium:augments": { Efficiency: 0.9f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_1" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:efficiency_addon_tier_1)item(industrialforegoing:efficiency_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "5887027FAE29F371"
-					item: { components: { "titanium:augments": { Processing: 2.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_1" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(industrialforegoing:processing_addon_tier_1)item(industrialforegoing:processing_addon_tier_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
