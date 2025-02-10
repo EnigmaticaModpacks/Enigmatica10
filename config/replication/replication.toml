@@ -10,6 +10,10 @@
 		# Default: 50
 		# Range: > 1
 		MAX_VISITED_RECIPES = 50
+		#Setting this to 0 will disable the recipe calculation
+		# Default: 11
+		# Range: > 0
+		MAX_RECIPE_DEPTH = 11
 
 	[ReplicationConfig.MatterPipe]
 		# Default: 2560

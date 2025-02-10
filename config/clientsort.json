@@ -9,6 +9,13 @@
     "shiftSortModeStr": "quantity",
     "ctrlSortModeStr": "alphabet",
     "altSortModeStr": "raw_id",
-    "optimizedCreativeSorting": true
+    "optimizedCreativeSorting": true,
+    "soundEnabled": false,
+    "sortSound": "minecraft:block.note_block.xylophone",
+    "soundRate": 1,
+    "soundMinPitch": 0.5,
+    "soundMaxPitch": 2.0,
+    "soundVolume": 0.2,
+    "soundAllowOverlap": true
   }
 }

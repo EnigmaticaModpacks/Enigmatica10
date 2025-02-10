@@ -14,7 +14,7 @@
 	chocoboPackSizeMax = 3
 
 #Chocobo configuration
-[Chocobo]
+[chocobo]
 	#This multiplier controls the tame chance per gysahl used, so .15 results in 15% chance to tame [Default: 0.15]
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0
@@ -27,7 +27,7 @@
 	kwehIntervalLimit = 100
 
 #Naming configuration
-[Naming]
+[naming]
 	#If taming a chocobo will provide them with a name (unless already named) [Default: true]
 	nameTamedChocobos = true
 	#The list of male names it can choose from if 'nameTamedChocobos' is enabled
