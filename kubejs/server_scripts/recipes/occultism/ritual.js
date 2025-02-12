@@ -87,10 +87,52 @@ ServerEvents.recipes((event) => {
             case 'occultism:ritual/possess_goat':
             case 'occultism:ritual/possess_witch':
             case 'occultism:ritual/possess_bee':
-            case 'occultism:ritual/wild_breeze':
+                recipe.entity_to_sacrifice = sacrifice.chicken;
+                recipe.id = recipe_id;
+                break;
             case 'occultism:ritual/wild_weak_breeze':
+                recipe.entity_to_sacrifice = sacrifice.chicken;
+                recipe.ingredients = [
+                    { tag: 'c:storage_blocks/copper' },
+                    { tag: 'c:storage_blocks/copper' },
+                    { tag: 'c:storage_blocks/copper' },
+                    { tag: 'c:storage_blocks/copper' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/wild_breeze':
+                recipe.entity_to_sacrifice = sacrifice.chicken;
+                recipe.ingredients = [
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' }
+                ];
+                recipe.id = recipe_id;
+                break;
             case 'occultism:ritual/wild_strong_breeze':
                 recipe.entity_to_sacrifice = sacrifice.chicken;
+                recipe.ingredients = [
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:copper_bulb' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:tuff_bricks' },
+                    { item: 'minecraft:breeze_rod' },
+                    { item: 'minecraft:breeze_rod' },
+                    { item: 'minecraft:ominous_bottle' }
+                ];
                 recipe.id = recipe_id;
                 break;
             case 'occultism:ritual/possess_warden':
@@ -157,6 +199,108 @@ ServerEvents.recipes((event) => {
             case 'occultism:ritual/craft_ritual_satchel_t1':
                 recipe.activation_item = { item: 'occultism:book_of_binding_bound_foliot' };
                 recipe.pentacle_id = 'occultism:craft_foliot';
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/craft_witherite_dust':
+                recipe.ingredients = [
+                    { tag: 'c:dusts/netherite' },
+                    { tag: 'c:dusts/blackstone' },
+                    { item: 'minecraft:wither_rose' },
+                    { tag: 'c:dusts/blackstone' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/possess_elder_guardian':
+                recipe.ingredients = [
+                    { item: 'minecraft:prismarine_bricks' },
+                    { item: 'minecraft:dark_prismarine' },
+                    { item: 'minecraft:prismarine_bricks' },
+                    { item: 'minecraft:dark_prismarine' },
+                    { item: 'minecraft:sea_lantern' },
+                    { item: 'minecraft:sea_lantern' },
+                    { item: 'minecraft:sea_lantern' },
+                    { item: 'minecraft:sea_lantern' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/possess_weak_shulker':
+                recipe.ingredients = [
+                    { tag: 'c:ender_pearls' },
+                    { item: 'minecraft:purple_concrete' },
+                    { tag: 'c:end_stones' },
+                    { item: 'minecraft:purple_concrete' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/possess_shulker':
+                recipe.ingredients = [
+                    { item: 'minecraft:dragon_breath' },
+                    { item: 'minecraft:purple_concrete' },
+                    { tag: 'c:end_stones' },
+                    { item: 'minecraft:purple_concrete' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/familiar_dragon':
+                recipe.ingredients = [
+                    { item: 'minecraft:lava_bucket' },
+                    { item: 'minecraft:flint_and_steel' },
+                    { tag: 'minecraft:coals' },
+                    { item: 'minecraft:quartz_block' },
+                    { tag: 'c:storage_blocks/gold' },
+                    { tag: 'c:gunpowders' },
+                    { item: 'minecraft:obsidian' },
+                    { item: 'minecraft:obsidian' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/wild_silverfish':
+                recipe.ingredients = [
+                    { item: 'minecraft:sand' },
+                    { tag: 'minecraft:terracotta' },
+                    { item: 'minecraft:gravel' },
+                    { tag: 'minecraft:terracotta' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/summon_foliot_crusher':
+                recipe.ingredients = [
+                    { tag: 'c:ingots/iron' },
+                    { tag: 'c:ingots/gold' },
+                    { tag: 'c:ingots/copper' },
+                    { tag: 'c:ingots/silver' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/possess_unbound_otherworld_bird':
+                recipe.ingredients = [
+                    { tag: 'minecraft:leaves' },
+                    { tag: 'c:feathers' },
+                    { item: 'minecraft:egg' },
+                    { tag: 'c:feathers' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/craft_miner_foliot_unspecialized':
+                recipe.ingredients = [
+                    { item: 'occultism:magic_lamp_empty' },
+                    { item: 'occultism:iesnium_pickaxe' },
+                    { tag: 'c:ingots/iron' },
+                    { tag: 'c:gravels' }
+                ];
+                recipe.id = recipe_id;
+                break;
+            case 'occultism:ritual/wild_creeper':
+                recipe.ingredients = [
+                    { item: 'minecraft:moss_block' },
+                    { item: 'minecraft:moss_block' },
+                    { item: 'minecraft:moss_block' },
+                    { item: 'minecraft:moss_block' },
+                    { tag: 'minecraft:leaves' },
+                    { tag: 'minecraft:leaves' },
+                    { tag: 'minecraft:leaves' },
+                    { tag: 'minecraft:leaves' }
+                ];
                 recipe.id = recipe_id;
                 break;
         }
