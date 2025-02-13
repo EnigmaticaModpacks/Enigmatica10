@@ -1,5 +1,5 @@
 #Disabled timed crafting
-disableTimedCrafting = false
+disableTimedCrafting = true
 #The max amount of dynamites that can be held
 maxDynamites = 50
 #Max drill size
