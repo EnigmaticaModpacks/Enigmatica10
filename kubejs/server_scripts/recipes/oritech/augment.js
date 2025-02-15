@@ -9,7 +9,6 @@ ServerEvents.recipes((event) => {
 
         let containers = ['applyCost', 'researchCost'];
 
-        unifyTags(recipe);
         containers.forEach((container) => {
             recipe[container].forEach((input) => {
                 if (input.ingredient.tag && AlmostUnified.getTagTargetItem(input.ingredient.tag) != null) {
