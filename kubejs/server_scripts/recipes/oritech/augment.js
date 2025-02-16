@@ -15,6 +15,10 @@ ServerEvents.recipes((event) => {
                     input.ingredient = { item: AlmostUnified.getTagTargetItem(input.ingredient.tag).getId() };
                     recipe.id = recipe_id;
                 }
+
+                if (input.ingredient.item == 'oritech:small_uranium_dust') {
+                    input.ingredient = { item: AlmostUnified.getTagTargetItem('c:tiny_dusts/uranium').getId() };
+                }
             });
         });
 
