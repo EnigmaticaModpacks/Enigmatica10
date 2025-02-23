@@ -1,3 +1,15 @@
+### Enigmatica 10 1.19.0
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+#### ⭐ Improvements
+
+-   Steve's Carts no longer has a construction time in the assembler [(\f5b7d48)](https://github.com/EnigmaticaModpacks/Enigmatica10/commit/f5b7d489ab7f2429679e8d6f976d6e6b60620178)
+
+---
+
 ### Enigmatica 10 1.18.0
 
 NeoForge-1.21.1-21.1.115 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.18.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.18.0.md)
