@@ -1,6 +1,6 @@
 #General settings
 [general]
-	#The CurseForge project ID for the modpack
+	#modpackProjectID is now deprecated and will be removed soon
 	# Default: 0
 	# Range: > 0
 	modpackProjectID = 1038391

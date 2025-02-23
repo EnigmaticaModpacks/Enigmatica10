@@ -22,18 +22,18 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 
 #### ✔️ Added Mods
 
-* [Blue Flame Burning](https://www.curseforge.com/minecraft/mc-mods/blueflame) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
-* [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) (by [OfekN_](https://www.curseforge.com/members/OfekN_/projects))
-* [CreeperHost Presents Steve's Carts](https://www.curseforge.com/minecraft/mc-mods/creeperhost-presents-steves-carts) (by [Official_CreeperHost](https://www.curseforge.com/members/Official_CreeperHost/projects))
-* [Custom Window Title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) (by [chylex](https://www.curseforge.com/members/chylex/projects))
-* [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium) (by [FiniteReality](https://www.curseforge.com/members/FiniteReality/projects))
-* [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks) (by [sonar_sonic](https://www.curseforge.com/members/sonar_sonic/projects))
-* [GuideME](https://www.curseforge.com/minecraft/mc-mods/guideme) (by [shartte](https://www.curseforge.com/members/shartte/projects))
-* [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) (by [McJty](https://www.curseforge.com/members/McJty/projects))
-* [Model Gap Fix](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
-* [Monocle](https://www.curseforge.com/minecraft/mc-mods/monocle) (by [Ferri_Arnus](https://www.curseforge.com/members/Ferri_Arnus/projects))
-* [RFTools Base](https://www.curseforge.com/minecraft/mc-mods/rftools-base) (by [McJty](https://www.curseforge.com/members/McJty/projects))
-* [RFTools Builder](https://www.curseforge.com/minecraft/mc-mods/rftools-builder) (by [McJty](https://www.curseforge.com/members/McJty/projects))
+-   [Blue Flame Burning](https://www.curseforge.com/minecraft/mc-mods/blueflame) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
+-   [Crafting on a stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) (by [OfekN\_](https://www.curseforge.com/members/OfekN_/projects))
+-   [CreeperHost Presents Steve's Carts](https://www.curseforge.com/minecraft/mc-mods/creeperhost-presents-steves-carts) (by [Official_CreeperHost](https://www.curseforge.com/members/Official_CreeperHost/projects))
+-   [Custom Window Title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) (by [chylex](https://www.curseforge.com/members/chylex/projects))
+-   [Embeddium](https://www.curseforge.com/minecraft/mc-mods/embeddium) (by [FiniteReality](https://www.curseforge.com/members/FiniteReality/projects))
+-   [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks) (by [sonar_sonic](https://www.curseforge.com/members/sonar_sonic/projects))
+-   [GuideME](https://www.curseforge.com/minecraft/mc-mods/guideme) (by [shartte](https://www.curseforge.com/members/shartte/projects))
+-   [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) (by [McJty](https://www.curseforge.com/members/McJty/projects))
+-   [Model Gap Fix](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
+-   [Monocle](https://www.curseforge.com/minecraft/mc-mods/monocle) (by [Ferri_Arnus](https://www.curseforge.com/members/Ferri_Arnus/projects))
+-   [RFTools Base](https://www.curseforge.com/minecraft/mc-mods/rftools-base) (by [McJty](https://www.curseforge.com/members/McJty/projects))
+-   [RFTools Builder](https://www.curseforge.com/minecraft/mc-mods/rftools-builder) (by [McJty](https://www.curseforge.com/members/McJty/projects))
 
 #### ⭐ Improvements
 
@@ -51,7 +51,7 @@ Consider clearing out any current pentacles before updating. Right-Clicking an A
 
 #### ❌ Removed Mods
 
-* [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
+-   [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (by [JellySquid](https://www.curseforge.com/members/JellySquid/projects))
 
 ---
 
