@@ -470,6 +470,10 @@
 			lifetime = 1200
 			#Can bubble break when touched on?
 			break_when_touched = true
+			#Max number of charges a bubble blower can hold
+			# Default: 200
+			# Range: 1 ~ 1000000
+			max_charges = 200
 
 	[tools.wrench]
 		enabled = true

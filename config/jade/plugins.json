@@ -104,6 +104,9 @@
   "apothic_enchanting": {
     "ench": true
   },
+  "balm": {
+    "jade": true
+  },
   "functionalstorage": {
     "drawer": true
   },
