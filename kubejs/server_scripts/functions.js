@@ -63,3 +63,20 @@ function generatePentacleEntry(ritual_name, x_placement, y_placement, parents) {
 
     return entry;
 }
+
+function bigReactorsIngredient(item) {
+    let ingredient = {
+        type: 'neoforge:components',
+        items: item,
+        strict: true,
+        components: {
+            'minecraft:attribute_modifiers': { modifiers: [] },
+            'minecraft:enchantments': { levels: {} },
+            'minecraft:lore': [],
+            'minecraft:max_stack_size': 64,
+            'minecraft:rarity': 'common',
+            'minecraft:repair_cost': 0
+        }
+    };
+    return ingredient;
+}

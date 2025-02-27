@@ -20,6 +20,7 @@ ServerEvents.tags('block', (event) => {
 
         uranium: ['bigreactors:yellorium_block'],
         raw_uranium: ['bigreactors:raw_yellorium_block'],
+        plutonium: ['bigreactors:blutonium_block'],
 
         infused_iron: ['naturesaura:infused_iron_block'],
         tainted_gold: ['naturesaura:tainted_gold_block'],
