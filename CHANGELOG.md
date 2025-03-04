@@ -1,15 +1,23 @@
+### Enigmatica 10 1.20.0
+
+#### 🦟 Bugs Fixed
+
+-   Re-add missing Extreme Reactors recipes [(\#392)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/392)
+
+---
+
 ### Enigmatica 10 1.19.0
 
 NeoForge-1.21.1-21.1.115 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.19.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.19.0.md)
 
 #### ✔️ Added Mods
 
-* [Showcase Item](https://www.curseforge.com/minecraft/mc-mods/showcase-item) (by [Ultramegaaa](https://www.curseforge.com/members/Ultramegaaa/projects))
-* [TooManyRecipeViewers (TMRV)](https://www.curseforge.com/minecraft/mc-mods/tmrv) (by [HiAmAK](https://www.curseforge.com/members/HiAmAK/projects))
+-   [Showcase Item](https://www.curseforge.com/minecraft/mc-mods/showcase-item) (by [Ultramegaaa](https://www.curseforge.com/members/Ultramegaaa/projects))
+-   [TooManyRecipeViewers (TMRV)](https://www.curseforge.com/minecraft/mc-mods/tmrv) (by [HiAmAK](https://www.curseforge.com/members/HiAmAK/projects))
 
 #### ❌ Removed Mods
 
-* [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) (by [mezz](https://www.curseforge.com/members/mezz/projects))
+-   [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) (by [mezz](https://www.curseforge.com/members/mezz/projects))
 
 #### ⭐ Improvements
 
