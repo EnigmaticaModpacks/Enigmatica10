@@ -108,6 +108,7 @@ function New-ClientFiles {
             Copy-Item -Path $_ -Destination "$overridesFolder/$_" -Recurse
         }
 
+        Add-ThirdPartyMods
         Remove-BlacklistedFiles
 
         # Zipping up the newly created overrides folder and $manifest
@@ -167,6 +168,31 @@ function New-ManifestJson {
     $outfile = "$INSTANCE_ROOT/$manifest"
     [System.IO.File]::WriteAllLines($outfile, $jsonString)
     Write-Host "$manifest created!" -ForegroundColor Green
+}
+
+function Add-ThirdPartyMods {
+    $FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES | ForEach-Object {
+        $matchedFiles = Get-ChildItem -Path $sourceRoot -Recurse -File | 
+        Where-Object { $_.FullName -match $_ }
+    
+        if ($matchedFiles.Count -eq 0) {
+            Write-Warning "No file found matching regex pattern: $_"
+            continue
+        }
+        
+        if ($matchedFiles.Count -gt 1) {
+            Write-Warning "Multiple files found matching regex pattern: $_ - Using first match"
+        }
+    
+        $fileToCopy = $matchedFiles[0]
+        $fileName = $fileToCopy.Name
+    
+        Write-Host "Adding " -ForegroundColor Cyan -NoNewline
+        Write-Host $fileName -ForegroundColor Blue -NoNewline
+        Write-Host " to the mods folder in the client files." -ForegroundColor Cyan
+        
+        Copy-Item -Path $fileToCopy.FullName -Destination "$overridesFolder/mods/$fileName" -Recurse
+    }
 }
 
 function Remove-BlacklistedFiles {

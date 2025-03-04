@@ -199,6 +199,10 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"ars_nouveau/doc_data.json"
 )
 
+# Example: 
+# $FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES = @("mods/Apotheosis-1.19.2-6.2.1.jar", "mods/create-1.19.2-0.5.1.b.jar")
+$FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES = @("mods/cc-tweaked-1.21.1.*", "AE2DarkMode-V1.0.6.zip")
+
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"local/ftbutilities", 
 	"local/ftbchunks/data", 
