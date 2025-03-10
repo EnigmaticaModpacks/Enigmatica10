@@ -1,3 +1,14 @@
+### Enigmatica 10 1.20.1
+
+#### ⭐ Improvements
+
+-   Create stones are added to Cobblegens. Enjoy the free resources [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
+-   IE Bauxite processing has been added to more machines [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
+-   Oritech now produces Raw Bauxite instead of MI's Crushed Bauxite [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
+-   MI Bauxite Ore now drops Raw Bauxite when mined instead of Bauxite Dust [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
+
+---
+
 ### Enigmatica 10 1.20.0
 
 #### ✔️ Added Mods
