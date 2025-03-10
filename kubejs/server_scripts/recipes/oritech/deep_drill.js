@@ -10,12 +10,12 @@ ServerEvents.recipes((event) => {
         },
         {
             ingredients: [{ item: 'kubejs:resource_node_tin' }],
-            results: [{ id: 'modern_industrialization:raw_tin', count: 1 }],
+            results: [{ id: AlmostUnified.getTagTargetItem(`c:raw_materials/tin`).getId(), count: 1 }],
             id: `${id_prefix}tin`
         },
         {
             ingredients: [{ item: 'kubejs:resource_node_lead' }],
-            results: [{ id: 'modern_industrialization:raw_lead', count: 1 }],
+            results: [{ id: AlmostUnified.getTagTargetItem(`c:raw_materials/lead`).getId(), count: 1 }],
             id: `${id_prefix}lead`
         },
         {
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
         },
         {
             ingredients: [{ item: 'kubejs:resource_node_bauxite' }],
-            results: [{ id: 'modern_industrialization:bauxite_dust', count: 1 }],
+            results: [{ id: AlmostUnified.getTagTargetItem(`c:raw_materials/aluminum`).getId(), count: 1 }],
             id: `${id_prefix}bauxite`
         },
         {
