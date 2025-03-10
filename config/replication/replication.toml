@@ -5,6 +5,9 @@
 		# Default: 1500
 		# Range: > 1
 		POWER_USAGE = 1500
+		# Default: 16000
+		# Range: > 1
+		TANK_CAPACITY = 16000
 
 	[ReplicationConfig.RecipeCalculation]
 		# Default: 50
@@ -14,6 +17,8 @@
 		# Default: 11
 		# Range: > 0
 		MAX_RECIPE_DEPTH = 11
+		#If enabled, values of items that have a crafting remaining item like milk buckets in the cake recipe, will subtract their remaining item matter value from the calculation
+		SUBTRACT_CRAFTING_REMAINING_ITEM = true
 
 	[ReplicationConfig.MatterPipe]
 		# Default: 2560
@@ -28,6 +33,9 @@
 		# Default: 5000
 		# Range: > 1
 		POWER_USAGE = 5000
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		IDENTIFICATION_PROGRESS = 0.5
 
 	[ReplicationConfig.Replicator]
 		#The progress shown in game will be double
@@ -37,3 +45,12 @@
 		# Default: 80
 		# Range: > 1
 		POWER_TICK = 80
+
+	[ReplicationConfig.MatterTank]
+		# Default: 256000
+		# Range: > 1
+		CAPACITY = 256000
+
+	[ReplicationConfig.Client]
+		SHOW_PRESS_SHIFT_TEXT = true
+		SHOW_MATTER_TOOLTIP_VALUES_OUTSIDE_TERMINAL = true
