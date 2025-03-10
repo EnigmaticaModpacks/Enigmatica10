@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
         stoneworks[type].forEach((block) => {
             recipes.push({
                 result: { id: block, count: 1 },
-                left: { id: 'minecraft:water', consume: block == false },
+                left: { id: 'minecraft:water', consume: false },
                 right: { id: 'minecraft:lava', consume: false },
                 bottom: block,
                 id: `${id_prefix}${block.replace(':', '_')}`

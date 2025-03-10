@@ -23,7 +23,15 @@ const stoneworks = {
     cobblestones: [
         'minecraft:cobblestone',
         'minecraft:cobbled_deepslate',
+
         'deeperdarker:cobbled_sculk_stone',
-        'deeperdarker:cobbled_gloomslate'
+        'deeperdarker:cobbled_gloomslate',
+
+        'create:crimsite',
+        'create:asurine',
+        'create:ochrum',
+        'create:veridium',
+        'create:scorchia',
+        'create:scoria'
     ]
 };
