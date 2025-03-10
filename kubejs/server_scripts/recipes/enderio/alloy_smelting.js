@@ -182,6 +182,16 @@ ServerEvents.recipes((event) => {
             energy: 6400,
             experience: 0.3,
             id: `${id_prefix}netherite_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:ingots/zinc', count: 1 },
+                { tag: 'c:ingots/copper', count: 1 }
+            ],
+            output: { id: 'create:brass_ingot', count: 2 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}brass_ingot`
         }
     ];
 

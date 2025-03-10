@@ -12,7 +12,8 @@
         "utilitarian",
         "justdirethings",
         "bigreactors",
-        "immersiveengineering"
+        "immersiveengineering",
+        "create"
     ],
     "priority_overrides": {},
     "stone_variants": ["stone", "andesite", "deepslate", "diorite", "granite", "nether"],
@@ -36,7 +37,7 @@
     ],
     "ignored_tags": [],
     "ignored_items": [],
-    "ignored_recipe_types": ["cucumber:shaped_tag"],
+    "ignored_recipe_types": ["cucumber:shaped_tag", "create:crushing"],
     "ignored_recipe_ids": [],
     "recipe_viewer_hiding": true,
     "loot_unification": true,
