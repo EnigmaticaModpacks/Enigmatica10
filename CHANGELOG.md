@@ -1,5 +1,11 @@
 ### Enigmatica 10 1.20.0
 
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+#### ⭐ Improvements
+
 #### 🦟 Bugs Fixed
 
 -   Re-add missing Extreme Reactors recipes [(\#392)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/392)
