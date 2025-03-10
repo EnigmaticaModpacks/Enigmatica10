@@ -8,6 +8,13 @@ ServerEvents.recipes((event) => {
             eu: 2,
             duration: 800,
             id: `${id_prefix}plutonium_dust`
+        },
+        {
+            item_inputs: { tag: 'c:raw_materials/aluminum', amount: 1 },
+            item_outputs: { item: 'modern_industrialization:bauxite_crushed_dust', amount: 1 },
+            eu: 2,
+            duration: 50,
+            id: `${id_prefix}bauxite_crushed_dust`
         }
     ];
 
