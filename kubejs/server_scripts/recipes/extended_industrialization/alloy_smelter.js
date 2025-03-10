@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:storage_blocks/zinc', amount: 1 },
                 { tag: 'c:storage_blocks/copper', amount: 1 }
             ],
-            item_outputs: [{ item: 'create:brass_block', amount: 2 }],
+            item_outputs: [{ item: AlmostUnified.getTagTargetItem(`c:storage_blocks/brass`).getId(), amount: 2 }],
             eu: 4,
             duration: 1800,
             id: `${id_prefix}brass_block`
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:ingots/zinc', amount: 1 },
                 { tag: 'c:ingots/copper', amount: 1 }
             ],
-            item_outputs: [{ item: 'create:brass_ingot', amount: 2 }],
+            item_outputs: [{ item: AlmostUnified.getTagTargetItem(`c:ingots/brass`).getId(), amount: 2 }],
             eu: 4,
             duration: 200,
             id: `${id_prefix}brass_ingot`
