@@ -6,6 +6,7 @@
 -   IE Bauxite processing has been added to more machines [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
 -   Oritech now produces Raw Bauxite instead of MI's Crushed Bauxite [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
 -   MI Bauxite Ore now drops Raw Bauxite when mined instead of Bauxite Dust [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
+-   Occultism quests now mention Tuff Bricks as a requirement for Aviar's [(\#399)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/399)
 
 ---
 
