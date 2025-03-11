@@ -38,7 +38,6 @@
 		{
 			auto: "invisible"
 			command: "/execute at @p run naaura add 100000"
-			elevate_perms: true
 			feedback_message: "Aura Infusion"
 			icon: {
 				components: {
@@ -47,6 +46,7 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5931110DE0F30EB7"
+			permission_level: 2
 			silent: true
 			type: "command"
 		}

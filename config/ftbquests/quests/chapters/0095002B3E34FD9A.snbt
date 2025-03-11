@@ -145,6 +145,21 @@
 					item: { count: 1, id: "occultism:sacrificial_bowl" }
 					type: "item"
 				}
+				{
+					id: "49644C42CCE73D34"
+					item: { count: 1, id: "minecraft:tuff_bricks" }
+					type: "item"
+				}
+				{
+					id: "0AAF471617D323D7"
+					item: { count: 1, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					id: "59C8928CE8B2F356"
+					item: { count: 1, id: "minecraft:copper_block" }
+					type: "item"
+				}
 			]
 			x: -0.5d
 			y: 1.0d
