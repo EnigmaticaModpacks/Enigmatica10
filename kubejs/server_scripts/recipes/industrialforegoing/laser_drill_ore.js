@@ -192,6 +192,27 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}antimony`
         },
         {
+            catalyst: { item: 'industrialforegoing:gray_laser_lens' },
+            output: { tag: 'c:raw_materials/zinc' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 70,
+                    depth_min: 30,
+                    weight: 5
+                },
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}zinc`
+        },
+        {
             catalyst: { item: 'industrialforegoing:black_laser_lens' },
             output: { tag: 'c:ores/black_quartz' },
             rarity: [

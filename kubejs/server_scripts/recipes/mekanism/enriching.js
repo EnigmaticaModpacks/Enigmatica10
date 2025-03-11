@@ -16,6 +16,11 @@ ServerEvents.recipes((event) => {
             input: { count: 1, tag: 'c:ores/black_quartz' },
             output: { count: 2, id: 'actuallyadditions:black_quartz' },
             id: `${id_prefix}black_quartz`
+        },
+        {
+            input: { count: 3, tag: 'c:raw_materials/aluminum' },
+            output: { count: 4, id: AlmostUnified.getTagTargetItem('c:dusts/aluminum').getId() },
+            id: `${id_prefix}aluminum`
         }
     ];
 

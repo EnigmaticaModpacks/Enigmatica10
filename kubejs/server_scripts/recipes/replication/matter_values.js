@@ -19,6 +19,11 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}osmium`
         },
         {
+            input: { tag: 'c:ingots/zinc' },
+            matter: [{ type: 'replication:metallic', amount: 9.0 }],
+            id: `${id_prefix}zinc`
+        },
+        {
             input: { tag: 'c:ingots/aluminum' },
             matter: [
                 { type: 'replication:metallic', amount: 9.0 },
