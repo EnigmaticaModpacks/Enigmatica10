@@ -1,6 +1,6 @@
 ## Enigmatica10 - 1.19.0 -> 1.20.0
 
-### neoforge - 21.1.115 -> 21.1.132
+### neoforge - 21.1.115 -> 21.1.133
 
 ### Added
 
@@ -61,9 +61,9 @@
   * [logprot-1.21-3.4.jar](https://www.curseforge.com/minecraft/mc-mods/login-protection/files/5559306) -> [logprot-1.21-3.5.jar](https://www.curseforge.com/minecraft/mc-mods/login-protection/files/6293744)
   * [lootr-neoforge-1.21-1.10.34.88.jar](https://www.curseforge.com/minecraft/mc-mods/lootr/files/6108640) -> [lootr-neoforge-1.21-1.10.35.90.jar](https://www.curseforge.com/minecraft/mc-mods/lootr/files/6294335)
   * [mcw-paths-1.0.5-1.21.1neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings/files/5635678) -> [mcw-paths-1.1.0neoforge-mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings/files/6244049)
-  * [Mekanism-1.21.1-10.7.8.70.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6018306) -> [Mekanism-1.21.1-10.7.10.73.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6242484)
-  * [MekanismGenerators-1.21.1-10.7.8.70.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6018309) -> [MekanismGenerators-1.21.1-10.7.10.73.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6242487)
-  * [MekanismTools-1.21.1-10.7.8.70.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools/files/6018310) -> [MekanismTools-1.21.1-10.7.10.73.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools/files/6242488)
+  * [Mekanism-1.21.1-10.7.8.70.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6018306) -> [Mekanism-1.21.1-10.7.11.76.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism/files/6297061)
+  * [MekanismGenerators-1.21.1-10.7.8.70.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6018309) -> [MekanismGenerators-1.21.1-10.7.11.76.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/6297064)
+  * [MekanismTools-1.21.1-10.7.8.70.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools/files/6018310) -> [MekanismTools-1.21.1-10.7.11.76.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools/files/6297065)
   * [dummmmmmy-1.21-2.0.6-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm/files/5779508) -> [dummmmmmy-1.21-2.0.7-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm/files/6237115)
   * [modonomicon-1.21.1-neoforge-1.112.2.jar](https://www.curseforge.com/minecraft/mc-mods/modonomicon/files/6182122) -> [modonomicon-1.21.1-neoforge-1.114.0.jar](https://www.curseforge.com/minecraft/mc-mods/modonomicon/files/6280617)
   * [moonlight-1.21-2.17.30-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/6224057) -> [moonlight-1.21-2.17.34-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/6285008)
