@@ -1,0 +1,24 @@
+# Client-specific configuration for FTB Chunks
+# Modpack defaults should be defined in <instance>/config/ftbchunks-client.snbt
+#   (may be overwritten on modpack update)
+# Players may locally override this by copying into <instance>/local/ftbchunks-client.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+    minimap: {
+		# Enable minimap
+		# Default: false
+		enabled: false
+	}
+     waypoints: {
+		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)
+		# Default: 0
+		# Range: 0 ~ 2147483647
+		death_waypoint_autoremove_distance: 5
+		
+		# Enables creation of death waypoints
+		# Default: true
+		death_waypoints: false
+		
+	}
+}

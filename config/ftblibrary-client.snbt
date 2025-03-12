@@ -1,5 +1,4 @@
-# Default config file that will be copied to local\ftblibrary-client.snbt if it doesn't exist!
-# Just copy any values you wish to override in here!
+# Client-specific configuration for FTB Library
 
 {
 	colorselector: {
@@ -85,4 +84,3 @@
 		item_modname: false
 	}
 }
-
