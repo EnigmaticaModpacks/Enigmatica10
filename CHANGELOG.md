@@ -12,6 +12,8 @@
 
 ### Enigmatica 10 1.20.0
 
+NeoForge-1.21.1-21.1.132 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.20.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.20.0.md)
+
 #### ✔️ Added Mods
 
 #### ❌ Removed Mods
@@ -21,6 +23,10 @@
 #### 🦟 Bugs Fixed
 
 -   Re-add missing Extreme Reactors recipes [(\#392)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/392)
+-   Extended Industrialization Crashes game when trying to till farmland [(\#393)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/393)
+-   Game crashing after using Modern Industrialization Fluid pipes with Oritech tank [(\#391)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/391)
+-   Plutonium not working with the reprocessor from Extreme Reactor + Recipes missing from Extreme Reactor [(\#390)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/390)
+-   X Error when booting in Linux [(\#385)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/385)
 
 ---
 

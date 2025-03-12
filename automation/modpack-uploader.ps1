@@ -171,10 +171,15 @@ function New-ManifestJson {
 }
 
 function Add-ThirdPartyMods {
+    if ($FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES.Count -gt 0) {
+        New-Item -ItemType Directory -Name "$overridesFolder/mods"
+    }
     $FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES | ForEach-Object {
-        $matchedFiles = Get-ChildItem -Path $sourceRoot -Recurse -File | 
-        Where-Object { $_.FullName -match $_ }
-    
+
+        $fileFilter = $_
+
+        $matchedFiles = Get-ChildItem -Path $INSTANCE_ROOT -Recurse -File | Where-Object { $_.Name -match $fileFilter }
+        
         if ($matchedFiles.Count -eq 0) {
             Write-Warning "No file found matching regex pattern: $_"
             continue
