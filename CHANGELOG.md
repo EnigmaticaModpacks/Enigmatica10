@@ -11,8 +11,6 @@ NeoForge-1.21.1-21.1.132 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 * [JinxedLib](https://www.curseforge.com/minecraft/mc-mods/jinxedlib) (by [KekeCreations](https://www.curseforge.com/members/KekeCreations/projects))
 * [Oracle Index](https://www.curseforge.com/minecraft/mc-mods/oracle-index) (by [rearth](https://www.curseforge.com/members/rearth/projects))
 
-#### ❌ Removed Mods
-
 #### ⭐ Improvements
 
 -   Create stones are added to Cobblegens. Enjoy the free resources [(\#397)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/397)
