@@ -34,6 +34,10 @@
 	manaRegenMultiplier = 1.0
 	#Whether merging scrolls with ink to upgrade them in the Arcane Anvil is enabled.
 	scrollMerging = true
+	#Whether mana is required in creative mode. Default: false
+	creativeMana = false
+	#Whether cooldowns are respected in creative mode. Default: false
+	creativeCooldowns = false
 
 ["Upgrade Overrides"]
 	#Use these lists to change what items can interact with the Arcane Anvil's upgrade system. This can also be done via datapack.
@@ -1132,3 +1136,56 @@
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 40.0
 		AllowCrafting = true
+
+	[Spells."irons_spellbooks:fire_arrow"]
+		Enabled = true
+		School = "irons_spellbooks:fire"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 8.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:raise_hell"]
+		Enabled = true
+		School = "irons_spellbooks:fire"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 25.0
+		AllowCrafting = false
+
+	[Spells."irons_spellbooks:touch_dig"]
+		Enabled = true
+		School = "irons_spellbooks:nature"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 0.5
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:summon_swords"]
+		Enabled = true
+		School = "irons_spellbooks:ender"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 150.0
+		AllowCrafting = true
+
+	#Configure Boss Stats
+	["Boss Config".Tyros]
+		#Additional Health
+		additionalHealth = 0.0
+		#Additional Melee Attack Damage
+		additionalAttackDamage = 0.0
+		#Additional Spell Power (additive percent)
+		additionalSpellPower = 0.0
