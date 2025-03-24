@@ -18,7 +18,6 @@ LootJS.lootTables((event) => {
             'mangrove_hut/hidden_potion_storage',
             'catacombs/coffin_loot',
             'battleground/piglin_camp',
-            'citadel/wall_loot',
             'impaled_icebreaker/captain_quarters',
             'evoker_fort',
             'magic_bookshelf_loot',
