@@ -4,6 +4,8 @@ NeoForge-1.21.1-21.1.139 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ✔️ Added Mods
 
+-   [FastSuite](https://www.curseforge.com/minecraft/mc-mods/fastsuite) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+
 #### 🦟 Bugs Fixed
 
 -   Severe Crash with Iron's Armour Piles. [(\#403)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/403)
