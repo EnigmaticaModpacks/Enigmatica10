@@ -1,3 +1,13 @@
+### Enigmatica 10 1.22.0
+
+#### ✔️ Added Mods
+
+#### 🦟 Bugs Fixed
+
+-   Fix Archwood bark recipes. [(\#407)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/407)
+
+---
+
 ### Enigmatica 10 1.21.0
 
 NeoForge-1.21.1-21.1.139 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.21.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.21.0.md)
@@ -18,12 +28,12 @@ NeoForge-1.21.1-21.1.133 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ✔️ Added Mods
 
-* [Ars Creo](https://www.curseforge.com/minecraft/mc-mods/ars-creo) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
-* [Create](https://www.curseforge.com/minecraft/mc-mods/create) (by [simibubi](https://www.curseforge.com/members/simibubi/projects))
-* [Cryonic Config](https://www.curseforge.com/minecraft/mc-mods/cryonicconfig) (by [slainlite](https://www.curseforge.com/members/slainlite/projects))
-* [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (by [BluSunrize](https://www.curseforge.com/members/BluSunrize/projects))
-* [JinxedLib](https://www.curseforge.com/minecraft/mc-mods/jinxedlib) (by [KekeCreations](https://www.curseforge.com/members/KekeCreations/projects))
-* [Oracle Index](https://www.curseforge.com/minecraft/mc-mods/oracle-index) (by [rearth](https://www.curseforge.com/members/rearth/projects))
+-   [Ars Creo](https://www.curseforge.com/minecraft/mc-mods/ars-creo) (by [baileyholl2](https://www.curseforge.com/members/baileyholl2/projects))
+-   [Create](https://www.curseforge.com/minecraft/mc-mods/create) (by [simibubi](https://www.curseforge.com/members/simibubi/projects))
+-   [Cryonic Config](https://www.curseforge.com/minecraft/mc-mods/cryonicconfig) (by [slainlite](https://www.curseforge.com/members/slainlite/projects))
+-   [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (by [BluSunrize](https://www.curseforge.com/members/BluSunrize/projects))
+-   [JinxedLib](https://www.curseforge.com/minecraft/mc-mods/jinxedlib) (by [KekeCreations](https://www.curseforge.com/members/KekeCreations/projects))
+-   [Oracle Index](https://www.curseforge.com/minecraft/mc-mods/oracle-index) (by [rearth](https://www.curseforge.com/members/rearth/projects))
 
 #### ⭐ Improvements
 
