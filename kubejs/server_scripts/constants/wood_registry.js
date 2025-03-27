@@ -2,8 +2,8 @@
 const wood_registry = [];
 
 let wood_types = {
-    ars_elemental: ['yellow_archwood'],
-    ars_nouveau: ['blue_archwood', 'green_archwood', 'purple_archwood', 'red_archwood'],
+    // ars_elemental: ['yellow_archwood'],
+    // ars_nouveau: ['blue_archwood', 'green_archwood', 'purple_archwood', 'red_archwood'],
     arts_and_crafts: ['cork'],
     evilcraft: ['undead'],
     deeperdarker: ['echo'],
