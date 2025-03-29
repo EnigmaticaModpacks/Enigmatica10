@@ -101,6 +101,10 @@
     "overclock": true,
     "pipe": true
   },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
+  },
   "apothic_enchanting": {
     "ench": true
   },
