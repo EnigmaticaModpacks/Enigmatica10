@@ -1,10 +1,12 @@
 ### Enigmatica 10 1.22.0
 
-#### ✔️ Added Mods
+NeoForge-1.21.1-21.1.139 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.22.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.22.0.md)
 
 #### 🦟 Bugs Fixed
 
 -   Fix Archwood bark recipes. [(\#407)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/407)
+-   Update Structure Essentials as it breaks Bumblezone [(\#410)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/410)
+-   No way to obtain Cascading / Vexing bark [(\#407)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/407)
 
 ---
 
