@@ -1,4 +1,3 @@
-#Other Configuration
 [Misc]
 	#rarityConfig array values must sum to 1: [COMMON, UNCOMMON, RARE, EPIC, LEGENDARY]. Default: [.3d, .25d, .2d, .15d, .1d]
 	rarityConfig = [0.3, 0.25, 0.2, 0.15, 0.1]
@@ -1189,3 +1188,10 @@
 		additionalAttackDamage = 0.0
 		#Additional Spell Power (additive percent)
 		additionalSpellPower = 0.0
+
+#Other Configuration
+[Blocks]
+	#Whether Portal Frames can only be dyed by the block's owner. Default: true
+	portalFrameRestrictDye = true
+	#Whether Portal Frames can only be destroyed by the block's owner. Default: false
+	portalFrameRestrictBreaking = false
