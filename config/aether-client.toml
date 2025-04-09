@@ -11,8 +11,6 @@
 	"Disables Aether's clouds" = false
 
 [Gui]
-	#Adds random trivia and tips to the bottom of loading screens
-	"Enables random trivia" = true
 	#Makes the extra hearts given by life shards display as silver colored
 	"Enables silver life shard hearts" = true
 	#Disables the Aether's accessories button from appearing in GUIs
