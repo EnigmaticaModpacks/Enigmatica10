@@ -1,3 +1,16 @@
+### Enigmatica 10 1.23.0
+
+NeoForge-1.21.1-21.1.148 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.23.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.23.0.md)
+
+#### 🦟 Bugs Fixed
+
+-   Soul Gems completely break Alakarkinos. [(\#414)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/414)
+-   Exception caught during firing event: Empty ItemStack not allowed [(\#413)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/413)
+-   PolyLib extreme log spam. [(\#412)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/412)
+-   Incorrect interaction of Chainsaw ecnhantment with Occultism trees [(\#381)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/381)
+
+---
+
 ### Enigmatica 10 1.22.0
 
 NeoForge-1.21.1-21.1.139 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.22.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.22.0.md)
