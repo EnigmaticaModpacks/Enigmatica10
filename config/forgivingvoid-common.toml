@@ -1,14 +1,8 @@
 #The distance to the minimum y level at which Forgiving Void should forgive the player and send them towards the sky.
-# Default: 32
-# Range: > -2147483648
 triggerAtDistanceBelow = 32
 #The amount of damage applied to the player when they land.
-# Default: 19.0
-# Range: -3.4028234663852886E38 ~ 3.4028234663852886E38
-damageOnFall = 19
+damageOnFall = 19.0
 #The height from which the player will be falling after falling through the void.
-# Default: 300
-# Range: > -2147483648
 fallingHeight = 300
 #Prevent death on void fall (limits damage to leave at least 0.5 hearts)
 preventDeath = false
