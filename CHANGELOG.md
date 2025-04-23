@@ -1,16 +1,24 @@
+### Enigmatica 10 1.24.0
+
+#### 🦟 Bugs Fixed
+
+-   Fix Extreme Reactors Fluidizer recipes [(\#419)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/419)
+
+---
+
 ### Enigmatica 10 1.23.0
 
 NeoForge-1.21.1-21.1.148 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.23.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.23.0.md)
 
 #### ✔️ Added Mods
 
-* [Ars Technica](https://www.curseforge.com/minecraft/mc-mods/ars-technica) (by [zerobuncle](https://www.curseforge.com/members/zerobuncle/projects))
-* [Save Loot Tables](https://www.curseforge.com/minecraft/mc-mods/save-loot-tables) (by [Noobanidus](https://www.curseforge.com/members/Noobanidus/projects))
+-   [Ars Technica](https://www.curseforge.com/minecraft/mc-mods/ars-technica) (by [zerobuncle](https://www.curseforge.com/members/zerobuncle/projects))
+-   [Save Loot Tables](https://www.curseforge.com/minecraft/mc-mods/save-loot-tables) (by [Noobanidus](https://www.curseforge.com/members/Noobanidus/projects))
 
 #### ❌ Removed Mods
 
-* [Adorned (Curios) [Discontinued]](https://www.curseforge.com/minecraft/mc-mods/adorned) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
-* [Curios API Continuation [Frozen]](https://www.curseforge.com/minecraft/mc-mods/curios-continuation) (by [SSKirillSS](https://www.curseforge.com/members/SSKirillSS/projects))
+-   [Adorned (Curios) [Discontinued]](https://www.curseforge.com/minecraft/mc-mods/adorned) (by [LobsterJonn](https://www.curseforge.com/members/LobsterJonn/projects))
+-   [Curios API Continuation [Frozen]](https://www.curseforge.com/minecraft/mc-mods/curios-continuation) (by [SSKirillSS](https://www.curseforge.com/members/SSKirillSS/projects))
 
 #### 🦟 Bugs Fixed
 
