@@ -3,6 +3,7 @@
 #### 🦟 Bugs Fixed
 
 -   Fix Extreme Reactors Fluidizer recipes [(\#419)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/419)
+-   Fix SNAD recipe [(\#420)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/420)
 
 ---
 
