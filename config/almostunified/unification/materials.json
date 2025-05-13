@@ -19,6 +19,7 @@
     "stone_variants": ["stone", "andesite", "deepslate", "diorite", "granite", "nether"],
     "tags": [
         "c:dusts/{material}",
+        "c:clumps/{material}",
         "c:tiny_dusts/{material}",
         "c:gears/{material}",
         "c:gems/{material}",

@@ -35,6 +35,12 @@ ServerEvents.recipes((event) => {
         { id: /oritech:atomicforge\/dust\/(copper|nickel|iron|gold|platinum)/ },
         { id: /oritech:pulverizer\/dust\/(blaze|iron|copper|gold|nickel|platinum|uranium)/ },
         { id: /oritech:grinder\/dust\/(iron|copper|gold|nickel|platinum|uranium)/ },
+        { id: /oritech:grinder\/compat\/(mekanism|ae2)/ },
+        { id: /oritech:pulverizer\/compat\/(mekanism|ae2)/ },
+        { id: /oritech:centrifuge\/compat\/(mekanism|create)/ },
+        { id: /oritech:centrifuge\/fluid\/compat\/(mekanism|create)/ },
+        { id: /oritech:centrifuge\/clump/ },
+        { id: /oritech:centrifuge\/fluid\/clump/ },
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
         { id: 'advanced_ae:certuscharger' },
         { id: 'advanced_ae:chargedredstone' },
@@ -51,6 +57,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:centrifuge/fluid/fuel' },
         { id: 'oritech:grinder/dust/sand_from_sandstone' },
         { id: 'oritech:grinder/dust/red_sand' },
+        { id: 'oritech:cooler/compat/pneumaticcraft/plastic' },
         { id: `utilitarian:utility/green_dye` },
 
         // Duplicates detected by polymorph
