@@ -268,6 +268,19 @@ ServerEvents.recipes((event) => {
         });
     });
 
+    copper_types.forEach((type) => {
+        oxides.forEach((oxide) => {
+            recipes.push({
+                item_inputs: [{ item: `create:${oxide}${type}`, amount: 1 }],
+                fluid_inputs: [{ tag: 'c:honey', amount: 1 }],
+                item_outputs: [{ item: `create:waxed_${oxide}${type}`, amount: 1 }],
+                duration: 100,
+                eu: 2,
+                id: `${id_prefix}waxed_${oxide}${type}`
+            });
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'modern_industrialization:mixer';
         event.custom(recipe).id(recipe.id);
