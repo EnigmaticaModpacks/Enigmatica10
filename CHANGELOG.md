@@ -1,5 +1,9 @@
 ### Enigmatica 10 1.24.0
 
+#### ⭐ Improvements
+
+-   Adds Create Copper recipe support to Mek, MI, and IE [(\#435)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/435)
+
 #### 🦟 Bugs Fixed
 
 -   Fix Extreme Reactors Fluidizer recipes [(\#419)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/419)
