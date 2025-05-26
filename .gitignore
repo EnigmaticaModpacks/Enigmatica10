@@ -219,3 +219,5 @@ config/fabric/indigo-renderer.properties
 config/ars_controle-client.toml
 config/ars_nouveau/search_index
 config/ars_nouveau/doc_data.json
+waypoints/WaypointData.dat
+config/ftbchunks-client.snbt

@@ -196,7 +196,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"cumulus_menus-client.toml",
 	"ars_controle-client.toml",
 	"emi.css",
-	"ars_nouveau/doc_data.json"
+	"ars_nouveau/doc_data.json",
+	"ftbchunks-client.snbt"
 )
 
 # Example: 

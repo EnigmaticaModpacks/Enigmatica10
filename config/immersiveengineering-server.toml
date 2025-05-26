@@ -130,6 +130,18 @@
 	# Default: 128
 	# Range: > 1
 	radio_tower_consumption = 128
+	#The Flux the Resonanz Observer will consume per tick to remain active
+	# Default: 128
+	# Range: > 1
+	resonanz_observer_consumption = 128
+	#The duration in seconds that a single piece of paper will fuel the Resonanz Observer for
+	# Default: 60
+	# Range: > 1
+	resonanz_observer_paper_duration = 60
+	#The radius in blocks the Resonanz Observer will cover. The actual loaded chunks may extend beyond this radius.
+	# Default: 32
+	# Range: > 1
+	resonanz_observer_radius = 32
 
 		#Configuration for the low voltage capacitor
 		[machines.capacitors.lv]
