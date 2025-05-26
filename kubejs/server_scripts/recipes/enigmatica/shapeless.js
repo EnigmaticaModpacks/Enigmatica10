@@ -81,6 +81,16 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    copper_types.forEach((type) => {
+        oxides.forEach((oxide) => {
+            recipes.push({
+                output: `create:waxed_${oxide}${type}`,
+                inputs: [`create:${oxide}${type}`, 'modern_industrialization:wax'],
+                id: `${id_prefix}${oxide}${type}`
+            });
+        });
+    });
+
     recipes.forEach((recipe) => {
         let r = event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
         if (recipe.damage) r.damageIngredient(recipe.damage.item, recipe.damage.amount);

@@ -35,6 +35,31 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    copper_types.forEach((type) => {
+        oxides.forEach((oxide, index) => {
+            if (index < oxides.length - 1) {
+                recipes.push({
+                    item_inputs: [{ item: `create:${oxide}${type}`, amount: 1 }],
+                    fluid_inputs: [{ fluid: 'modern_industrialization:oxygen', amount: 100 }],
+                    item_outputs: { item: `create:${oxides[index + 1]}${type}`, amount: 1 },
+                    duration: 100,
+                    eu: 8,
+                    id: `${id_prefix}${oxides[index + 1]}${type}`
+                });
+            }
+            recipes.push({
+                item_inputs: [
+                    { item: `create:${oxide}${type}`, amount: 1 },
+                    { item: 'modern_industrialization:wax', amount: 1 }
+                ],
+                item_outputs: { item: `create:waxed_${oxide}${type}`, amount: 1 },
+                duration: 100,
+                eu: 8,
+                id: `${id_prefix}waxed_${oxide}${type}`
+            });
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'modern_industrialization:chemical_reactor';
         event.custom(recipe).id(recipe.id);
