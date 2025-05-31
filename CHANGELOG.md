@@ -8,6 +8,7 @@
 
 -   Fix Extreme Reactors Fluidizer recipes [(\#419)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/419)
 -   Fix SNAD recipe [(\#420)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/420)
+-   Fix issue with curios getting lost in hidden accessories slots [(\#438)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/438)
 
 ---
 
