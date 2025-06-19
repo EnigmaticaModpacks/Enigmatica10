@@ -42,7 +42,7 @@
     ],
     "ignored_tags": [],
     "ignored_items": [],
-    "ignored_recipe_types": ["cucumber:shaped_tag", "create:crushing"],
+    "ignored_recipe_types": ["cucumber:shaped_tag"],
     "ignored_recipe_ids": [],
     "recipe_viewer_hiding": false,
     "loot_unification": true,

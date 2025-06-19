@@ -4,15 +4,16 @@ ServerEvents.tags('item', (event) => {
         nickel: ['oritech:nickel_clump'],
         iron: ['oritech:iron_clump'],
         copper: ['oritech:copper_clump'],
-        gold: ['oritech:gold_clump'],
-        silver: ['oritech:silver_clump'],
-        tin: ['oritech:tin_clump'],
-        lead: ['oritech:lead_clump'],
-        aluminum: ['oritech:aluminum_clump']
+        gold: ['oritech:gold_clump']
     };
 
     Object.keys(additions).forEach((tag) => {
         event.get(`c:clumps/${tag}`).add(additions[tag]);
         event.get('c:clumps').add(additions[tag]);
+    });
+
+    metals.forEach((metal) => {
+        event.get(`c:clumps/${metal}`).add(`create:crushed_raw_${metal}`);
+        event.get(`c:clumps`).add(`create:crushed_raw_${metal}`);
     });
 });

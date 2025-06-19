@@ -13,6 +13,8 @@ const metals = [
     'aluminum',
     'copper',
     'gold',
+    'iesnium',
+    'iridium',
     'iron',
     'lead',
     'nickel',

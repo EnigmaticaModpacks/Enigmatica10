@@ -4,6 +4,8 @@ StartupEvents.registry('item', (event) => {
         'aluminum',
         'copper',
         'gold',
+        'iesnium',
+        'iridium',
         'iron',
         'lead',
         'nickel',
