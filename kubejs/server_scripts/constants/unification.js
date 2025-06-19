@@ -8,3 +8,20 @@ const oil_types = [
     'modern_industrialization:shale_oil',
     'pneumaticcraft:oil'
 ];
+
+const metals = [
+    'aluminum',
+    'copper',
+    'gold',
+    'iron',
+    'lead',
+    'nickel',
+    'osmium',
+    'platinum',
+    'silver',
+    'tin',
+    'uranium',
+    'zinc'
+];
+
+const metal_types = ['clump', 'crystal', 'dirty_dust', 'shard'];
