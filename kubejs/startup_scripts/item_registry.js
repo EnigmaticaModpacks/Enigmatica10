@@ -1,5 +1,28 @@
 //priority: 900
 StartupEvents.registry('item', (event) => {
+    const metals = [
+        'aluminum',
+        'copper',
+        'gold',
+        'iron',
+        'lead',
+        'nickel',
+        'osmium',
+        'platinum',
+        'silver',
+        'tin',
+        'uranium',
+        'zinc'
+    ];
+
+    const metal_types = ['clump', 'crystal', 'dirty_dust', 'shard'];
+
+    metal_types.forEach((type) => {
+        metals.forEach((metal) => {
+            event.create(`emendatusenigmatica:${metal}_${type}`);
+        });
+    });
+
     const ritualDummies = [
         {
             id: 'occultism:ritual_dummy/misc_eldritch_manuscript',
