@@ -19,7 +19,7 @@ StartupEvents.registry('item', (event) => {
 
     metal_types.forEach((type) => {
         metals.forEach((metal) => {
-            event.create(`emendatusenigmatica:${metal}_${type}`);
+            event.create(`emendatusenigmatica:${metal}_${type}`).texture(`emendatusenigmatica:item/${metal}_${type}`);
         });
     });
 
