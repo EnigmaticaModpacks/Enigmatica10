@@ -43,7 +43,8 @@ ServerEvents.recipes((event) => {
         { primary: 'tin' },
         { primary: 'aluminum' },
         { primary: 'platinum' },
-        { primary: 'uranium' }
+        { primary: 'uranium' },
+        { primary: 'zinc' }
     ];
 
     materials.forEach((material) => {
