@@ -8,6 +8,7 @@ ServerEvents.recipes((event) => {
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iron`).getId(), count: 1 }],
             multiply: 'none',
             exclusions: [
+                'immersiveengineering',
                 'create:milling',
                 'create:crushing',
                 'mekanism',
@@ -28,6 +29,7 @@ ServerEvents.recipes((event) => {
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/copper`).getId(), count: 1 }],
             multiply: 'none',
             exclusions: [
+                'immersiveengineering',
                 'create:milling',
                 'create:crushing',
                 'mekanism',
@@ -47,6 +49,7 @@ ServerEvents.recipes((event) => {
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/gold`).getId(), count: 1 }],
             multiply: 'none',
             exclusions: [
+                'immersiveengineering',
                 'create:milling',
                 'create:crushing',
                 'mekanism',
@@ -66,7 +69,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/osmium` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/osmium`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'mekanism',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -78,7 +88,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/lead` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/lead`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'mekanism',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -90,7 +107,13 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/silver` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/silver`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -102,7 +125,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/nickel` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/nickel`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'create:crushing',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -114,7 +144,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/tin` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/tin`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'mekanism',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -126,7 +163,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/uranium` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/uranium`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'mekanism', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'mekanism',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -138,7 +182,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/platinum` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/platinum`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'create:crushing', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'create:crushing',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -150,7 +201,13 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/aluminum` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/aluminum`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -162,7 +219,7 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/zinc` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/zinc`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism'],
+            exclusions: ['immersiveengineering', 'create:milling', 'occultism'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -211,7 +268,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/steel` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/steel`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism', 'mekanism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'occultism',
+                'mekanism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -223,7 +287,13 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/electrum` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/electrum`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -235,7 +305,14 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/bronze` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/bronze`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism', 'mekanism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'occultism',
+                'mekanism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -247,7 +324,13 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/invar` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/invar`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -259,7 +342,13 @@ ServerEvents.recipes((event) => {
             input: { tag: `c:ingots/tungsten` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/tungsten`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'occultism', 'modern_industrialization', 'naturesaura'],
+            exclusions: [
+                'immersiveengineering',
+                'create:milling',
+                'occultism',
+                'modern_industrialization',
+                'naturesaura'
+            ],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -428,6 +517,7 @@ ServerEvents.recipes((event) => {
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 }],
             multiply: 'none',
             exclusions: [
+                'immersiveengineering',
                 'create:milling',
                 'modern_industrialization',
                 'oritech:pulverizer',
@@ -445,7 +535,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:gems/charcoal' },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/charcoal`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'naturesaura'],
+            exclusions: ['immersiveengineering', 'create:milling', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -481,7 +571,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:gems/lapis' },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/lapis`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'modern_industrialization', 'naturesaura'],
+            exclusions: ['immersiveengineering', 'create:milling', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -537,6 +627,7 @@ ServerEvents.recipes((event) => {
             outputs: [{ id: 'minecraft:blaze_powder', count: 4 }],
             multiply: 'none',
             exclusions: [
+                'immersiveengineering',
                 'create:milling',
                 'create:crushing',
                 'modern_industrialization',
@@ -602,7 +693,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:prismarine' },
             outputs: [{ id: 'minecraft:prismarine_shard', count: 4 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'mekanism', 'occultism'],
+            exclusions: ['immersiveengineering', 'create:milling', 'mekanism', 'occultism'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -614,7 +705,7 @@ ServerEvents.recipes((event) => {
             input: { item: 'minecraft:prismarine_bricks' },
             outputs: [{ id: 'minecraft:prismarine_shard', count: 9 }],
             multiply: 'none',
-            exclusions: ['create:milling', 'mekanism', 'occultism'],
+            exclusions: ['immersiveengineering', 'create:milling', 'mekanism', 'occultism'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -846,6 +937,26 @@ ServerEvents.recipes((event) => {
                 results: recipe.outputs,
                 processing_time: recipe.create.time.milling
             };
+            event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
+        }
+
+        // Immersive Engineering Crusher
+        if (!recipe.exclusions.includes('immersiveengineering')) {
+            let r = {
+                type: 'immersiveengineering:crusher',
+                energy: recipe.fe,
+                input: recipe.input,
+                result: { basePredicate: { item: recipe.outputs[0].id }, count: recipe.outputs[0].count }
+            };
+
+            if (recipe.outputs.length > 1) {
+                r.secondaries = [];
+                for (let i = 1; i < recipe.outputs.length; i++) {
+                    r.secondaries.push({
+                        output: { basePredicate: { item: recipe.outputs[i].id }, count: recipe.outputs[i].count }
+                    });
+                }
+            }
             event.custom(r).id(`${id_prefix}${r.type.replace(':', '/')}/${recipe.id_suffix}`);
         }
     });

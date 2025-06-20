@@ -65,6 +65,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:cooler/compat/pneumaticcraft/plastic' },
         { id: 'oritech:centrifuge/fluid/compat/pneumaticcraft/fuel' },
         { id: `utilitarian:utility/green_dye` },
+        { id: `immersiveengineering:crusher/dark_prismarine` },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },
