@@ -48,28 +48,6 @@ ServerEvents.recipes((event) => {
             id_suffix: 'osmium_dust_from_osmium'
         },
         {
-            input: { tag: `c:ingots/iesnium` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iesnium`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['occultism', 'naturesaura'],
-            fe: 2400,
-            eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 120, grinder: 60 } },
-            na: { aura: 5000, time: 20 },
-            id_suffix: 'iesnium_dust_from_iesnium'
-        },
-        {
-            input: { tag: `c:ingots/iridium` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iridium`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['occultism', 'occultism', 'modern_industrialization', 'naturesaura'],
-            fe: 2400,
-            eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 120, grinder: 60 } },
-            na: { aura: 5000, time: 20 },
-            id_suffix: 'iridium_dust_from_iridium'
-        },
-        {
             input: { tag: `c:ingots/lead` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/lead`).getId(), count: 1 }],
             multiply: 'none',
@@ -136,6 +114,40 @@ ServerEvents.recipes((event) => {
             id_suffix: 'platinum_dust_from_platinum'
         },
         {
+            input: { tag: `c:ingots/aluminum` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/aluminum`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            na: { aura: 5000, time: 20 },
+            id_suffix: 'aluminum_dust_from_aluminum'
+        },
+
+        {
+            input: { tag: `c:ingots/iesnium` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iesnium`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'naturesaura'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            na: { aura: 5000, time: 20 },
+            id_suffix: 'iesnium_dust_from_iesnium'
+        },
+        {
+            input: { tag: `c:ingots/iridium` },
+            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/iridium`).getId(), count: 1 }],
+            multiply: 'none',
+            exclusions: ['occultism', 'occultism', 'modern_industrialization', 'naturesaura'],
+            fe: 2400,
+            eu: { cost: 2, duration: 5 },
+            ori: { time: { pulverizer: 120, grinder: 60 } },
+            na: { aura: 5000, time: 20 },
+            id_suffix: 'iridium_dust_from_iridium'
+        },
+        {
             input: { tag: `c:ingots/netherite` },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/netherite`).getId(), count: 1 }],
             multiply: 'none',
@@ -189,17 +201,6 @@ ServerEvents.recipes((event) => {
             ori: { time: { pulverizer: 120, grinder: 60 } },
             na: { aura: 5000, time: 20 },
             id_suffix: 'invar_dust_from_invar'
-        },
-        {
-            input: { tag: `c:ingots/aluminum` },
-            outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/aluminum`).getId(), count: 1 }],
-            multiply: 'none',
-            exclusions: ['occultism', 'modern_industrialization', 'naturesaura'],
-            fe: 2400,
-            eu: { cost: 2, duration: 5 },
-            ori: { time: { pulverizer: 120, grinder: 60 } },
-            na: { aura: 5000, time: 20 },
-            id_suffix: 'aluminum_dust_from_aluminum'
         },
         {
             input: { tag: `c:ingots/tungsten` },

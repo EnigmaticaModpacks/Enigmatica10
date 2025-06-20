@@ -11,4 +11,9 @@ ServerEvents.tags('item', (event) => {
         event.get(`c:clumps/${tag}`).add(additions[tag]);
         event.get('c:clumps').add(additions[tag]);
     });
+
+    metals.forEach((metal) => {
+        event.get(`c:clumps/${metal}`).add(`create:crushed_raw_${metal}`);
+        event.get(`c:clumps`).add(`create:crushed_raw_${metal}`);
+    });
 });

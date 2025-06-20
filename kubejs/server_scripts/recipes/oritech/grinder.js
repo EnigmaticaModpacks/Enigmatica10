@@ -151,9 +151,9 @@ ServerEvents.recipes((event) => {
             },
             {
                 results: [
-                    { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 2 },
-                    { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
-                    { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 6 }
+                    { id: AlmostUnified.getTagTargetItem(`c:clumps/${material.primary}`).getId(), count: 1 },
+                    { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.primary}`).getId(), count: 3 },
+                    { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.secondary}`).getId(), count: 3 }
                 ],
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
                 time: 120,
