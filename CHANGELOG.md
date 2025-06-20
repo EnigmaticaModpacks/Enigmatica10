@@ -5,6 +5,7 @@
 -   Adds Create Copper recipe support to Mek, MI, and IE [(\#435)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/435)
 -   Increase max power output of Oritech Reactors. [(\#441)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/441)
 -   Increase Oritech Reactor's maxUnstableTicks setting to match default. [(\#441)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/441)
+-   Expanded Oritech, Mekanism, and Create ore processing to cover previously missing materials [(\#444)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/444)
 
 #### 🦟 Bugs Fixed
 
