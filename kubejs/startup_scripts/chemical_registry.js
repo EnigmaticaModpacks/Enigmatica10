@@ -8,7 +8,8 @@ StartupEvents.registry('mekanism:chemical', (event) => {
         { name: 'iridium', clean: 0xc0e4e4, dirty: 0x76c4c4 },
         { name: 'nickel', clean: 0xb0a075, dirty: 0x8c7c50 },
         { name: 'silver', clean: 0xc9d3dc, dirty: 0x899fb3 },
-        { name: 'zinc', clean: 0xb7e6bf, dirty: 0x6acb7b }
+        { name: 'zinc', clean: 0xb7e6bf, dirty: 0x6acb7b },
+        { name: 'platinum', clean: 0x6c9c9c, dirty: 0x507676 }
     ];
     metals.forEach((metal) => {
         event.createCustom(

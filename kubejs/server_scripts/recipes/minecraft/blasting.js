@@ -28,6 +28,17 @@ ServerEvents.recipes((event) => {
         });
     });
 
+    materials = ['iesnium', 'iridium', 'platinum'];
+    materials.forEach((material) => {
+        recipes.push({
+            input: `#c:clumps/${material}`,
+            output: AlmostUnified.getTagTargetItem(`c:ingots/${material}`).getId(),
+            xp: 0.1,
+            duration: 5,
+            id: `${id_prefix}${material}_ingot_from_clump`
+        });
+    });
+
     recipes.forEach((recipe) => {
         event.blasting(recipe.output, recipe.input, recipe.xp, recipe.duration * 20).id(recipe.id);
     });

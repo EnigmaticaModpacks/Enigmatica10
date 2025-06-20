@@ -44,6 +44,7 @@ ServerEvents.recipes((event) => {
         { id: /oritech:centrifuge\/compat\/clump/ },
         { id: /oritech:centrifuge\/fluid\/clump/ },
         { id: /oritech:centrifuge\/fluid\/compat\/(mekanism|create)/ },
+        { id: /oritech:(splashing|blasting)\/compat\/create/ },
 
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
         { id: 'advanced_ae:certuscharger' },
