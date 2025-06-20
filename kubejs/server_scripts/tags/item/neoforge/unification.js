@@ -1,8 +1,17 @@
 ServerEvents.tags('item', (event) => {
+    const metal_types = ['clump', 'crystal', 'dirty_dust', 'shard'];
+
     metals.forEach((metal) => {
-        metal_types.forEach((type) => {
-            event.get(`c:${type}s/${metal}`).add(`emendatusenigmatica:${metal}_${type}`);
-            event.get(`c:${type}s`).add(`emendatusenigmatica:${metal}_${type}`);
-        });
+        event.get(`c:clumps/${metal}`).add(`emendatusenigmatica:${metal}_clump`);
+        event.get(`c:clumps`).add(`emendatusenigmatica:${metal}_clump`);
+
+        event.get(`c:crystals/${metal}`).add(`emendatusenigmatica:${metal}_crystal`);
+        event.get(`c:crystals`).add(`emendatusenigmatica:${metal}_crystal`);
+
+        event.get(`c:dirty_dusts/${metal}`).add(`emendatusenigmatica:diryt_${metal}_dust`);
+        event.get(`c:dirty_dusts`).add(`emendatusenigmatica:diryt_${metal}_dust`);
+
+        event.get(`c:shards/${metal}`).add(`emendatusenigmatica:${metal}_shard`);
+        event.get(`c:shards`).add(`emendatusenigmatica:${metal}_shard`);
     });
 });

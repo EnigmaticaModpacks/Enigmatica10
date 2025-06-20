@@ -25,5 +25,3 @@ const metals = [
     'uranium',
     'zinc'
 ];
-
-const metal_types = ['clump', 'crystal', 'dirty_dust', 'shard'];

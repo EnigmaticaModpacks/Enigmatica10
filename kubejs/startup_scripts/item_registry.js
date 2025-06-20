@@ -17,12 +17,11 @@ StartupEvents.registry('item', (event) => {
         'zinc'
     ];
 
-    const metal_types = ['clump', 'crystal', 'dirty_dust', 'shard'];
-
-    metal_types.forEach((type) => {
-        metals.forEach((metal) => {
-            event.create(`emendatusenigmatica:${metal}_${type}`).texture(`emendatusenigmatica:item/${metal}_${type}`);
-        });
+    metals.forEach((metal) => {
+        event.create(`emendatusenigmatica:${metal}_clump`).texture(`emendatusenigmatica:item/${metal}_clump`);
+        event.create(`emendatusenigmatica:${metal}_crystal`).texture(`emendatusenigmatica:item/${metal}_crystal`);
+        event.create(`emendatusenigmatica:dirty_${metal}_dust`).texture(`emendatusenigmatica:item/dirty_${metal}_dust`);
+        event.create(`emendatusenigmatica:${metal}_shard`).texture(`emendatusenigmatica:item/${metal}_shard`);
     });
 
     const ritualDummies = [

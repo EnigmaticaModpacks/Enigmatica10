@@ -16,13 +16,35 @@ ServerEvents.recipes((event) => {
             input: { count: 1, tag: 'c:ores/black_quartz' },
             output: { count: 2, id: 'actuallyadditions:black_quartz' },
             id: `${id_prefix}black_quartz`
-        },
-        {
-            input: { count: 3, tag: 'c:raw_materials/aluminum' },
-            output: { count: 4, id: AlmostUnified.getTagTargetItem('c:dusts/aluminum').getId() },
-            id: `${id_prefix}aluminum`
         }
     ];
+
+    let materials = ['aluminum', 'iesnium', 'iridium', 'nickel', 'silver', 'zinc'];
+
+    materials.forEach((material) => {
+        recipes.push(
+            {
+                input: { tag: `c:dirty_dusts/${material}`, count: 1 },
+                output: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 1 },
+                id: `${id_prefix}dust_from_dirty_${material}_dust`
+            },
+            {
+                input: { tag: `c:ores/${material}`, count: 1 },
+                output: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 2 },
+                id: `${id_prefix}dust_from_${material}_ore`
+            },
+            {
+                input: { tag: `c:storage_blocks/raw_${material}`, count: 1 },
+                output: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 12 },
+                id: `${id_prefix}dust_from_raw_${material}_block`
+            },
+            {
+                input: { tag: `c:raw_materials/${material}`, count: 3 },
+                output: { id: AlmostUnified.getTagTargetItem(`c:dusts/${material}`).getId(), count: 4 },
+                id: `${id_prefix}dust_from_raw_${material}_ore`
+            }
+        );
+    });
 
     recipes.forEach((recipe) => {
         recipe.type = 'mekanism:enriching';
