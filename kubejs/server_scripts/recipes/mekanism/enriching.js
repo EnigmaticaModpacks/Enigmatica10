@@ -19,8 +19,7 @@ ServerEvents.recipes((event) => {
         }
     ];
 
-    let materials = ['aluminum', 'iesnium', 'iridium', 'nickel', 'silver', 'zinc'];
-
+    let materials = ['aluminum', 'iesnium', 'iridium', 'nickel', 'silver', 'zinc', 'platinum'];
     materials.forEach((material) => {
         recipes.push(
             {
