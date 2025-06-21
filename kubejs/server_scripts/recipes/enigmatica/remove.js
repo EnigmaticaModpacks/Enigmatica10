@@ -35,12 +35,12 @@ ServerEvents.recipes((event) => {
         { id: /oritech:atomicforge\/dust\/(copper|nickel|iron|gold|platinum)/ },
         { id: /oritech:pulverizer\/dust\/(blaze|iron|copper|gold|nickel|platinum|uranium)/ },
         { id: /oritech:(pulverizer|grinder)\/(raw|ore)\/(copper|nickel|iron|gold|platinum)/ },
+        { id: /oritech:pulverizer\/compat\/(mekanism|ae2|immersiveengineering|create)/ },
         { id: /oritech:grinder\/dust\/(iron|copper|gold|nickel|platinum|uranium)/ },
         { id: /oritech:grinder\/compat\/(mekanism|ae2|immersiveengineering)/ },
-        { id: /oritech:pulverizer\/compat\/(mekanism|ae2|immersiveengineering)/ },
         { id: /oritech:refinery\/compat\/(mekanism|ae2|immersiveengineering)\/rawsheol/ },
         { id: /oritech:centrifuge\/clump/ },
-        { id: /oritech:centrifuge\/compat\/(mekanism|immersiveengineering)\/clump/ },
+        { id: /oritech:centrifuge\/compat\/(mekanism|immersiveengineering|create)\/clump/ },
         { id: /oritech:centrifuge\/compat\/clump/ },
         { id: /oritech:centrifuge\/fluid\/clump/ },
         { id: /oritech:centrifuge\/fluid\/compat\/(mekanism|create)/ },
@@ -65,6 +65,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:cooler/compat/pneumaticcraft/plastic' },
         { id: 'oritech:centrifuge/fluid/compat/pneumaticcraft/fuel' },
         { id: `utilitarian:utility/green_dye` },
+        { id: `immersiveengineering:crusher/dark_prismarine` },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },
