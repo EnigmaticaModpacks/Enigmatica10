@@ -1,0 +1,19 @@
+{
+    "id": "lignite_coal",
+    "source": "modded",
+    "localizedName": "Lignite Coal",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "gem",
+        "harvestLevel": 1
+    },
+    "oreDrop": {
+        "drop": "modern_industrialization:lignite_coal"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

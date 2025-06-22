@@ -1,0 +1,24 @@
+{
+    "id": "dimensional",
+    "source": "modded",
+    "localizedName": "Dimensional Shard",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "gem",
+        "harvestLevel": 2,
+        "isEmissive": true
+    },
+    "oreDrop": {
+        "drop": "rftoolsbase:dimensionalshard",
+        "min": 4,
+        "max": 5
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate",
+        "minecraft_netherrack",
+        "minecraft_end_stone"
+    ]
+}

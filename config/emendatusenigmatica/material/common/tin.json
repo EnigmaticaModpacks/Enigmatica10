@@ -1,0 +1,17 @@
+{
+    "id": "tin",
+    "source": "modded",
+    "localizedName": "Tin",
+    "processedTypes": [
+        "ore",
+        "raw"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 1
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

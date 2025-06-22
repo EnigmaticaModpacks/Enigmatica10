@@ -1,0 +1,21 @@
+{
+    "id": "fluorite",
+    "source": "modded",
+    "localizedName": "Fluorite",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "gem",
+        "harvestLevel": 1
+    },
+    "oreDrop": {
+        "drop": "mekanism:fluorite_gem",
+        "min": 2,
+        "max": 4
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

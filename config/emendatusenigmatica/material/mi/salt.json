@@ -1,0 +1,19 @@
+{
+    "id": "salt",
+    "source": "modded",
+    "localizedName": "Salt",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "gem",
+        "harvestLevel": 1
+    },
+    "oreDrop": {
+        "drop": "modern_industrialization:salt_dust"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}
