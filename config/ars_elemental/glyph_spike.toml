@@ -31,3 +31,7 @@
 	# Default: 2.5
 	# Range: 0.0 ~ 2.147483647E9
 	amplify = 2.5
+	#The maximum damage a thrown spike can deal to a single entity. The damage from thrown spikes scales with the height difference.
+	# Default: 40
+	# Range: > 0
+	maxFallDamage = 40

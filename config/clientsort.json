@@ -1,28 +1,74 @@
 {
   "options": {
-    "interactionRateServer": 10,
-    "interactionRateClient": 1,
-    "serverAcceleratedSorting": true,
-    "optimizedCreativeSorting": true,
+    "interactionInterval": 10,
+    "useServerAcceleration": true,
+    "optimizeCreativeSorting": true,
     "hotbarScope": "NONE",
     "extraSlotScope": "EXTRA",
-    "lmbBundle": false,
+    "bundlesUseLeftClick": false,
     "sortOrderStr": "creative",
     "shiftSortOrderStr": "quantity",
     "ctrlSortOrderStr": "alphabet",
     "altSortOrderStr": "raw_id",
-    "soundEnabled": false,
-    "sortSound": "minecraft:block.note_block.xylophone",
-    "soundRate": 1,
-    "soundMinPitch": 0.5,
-    "soundMaxPitch": 2.0,
+    "playSoundSort": false,
+    "playSoundOther": false,
+    "interactionSound": "minecraft:block.note_block.xylophone",
+    "soundInterval": 1,
+    "soundPitchMin": 0.5,
+    "soundPitchMax": 2.0,
     "soundVolume": 0.2,
-    "soundAllowOverlap": true,
-    "hotbarMode": "HARD",
-    "extraSlotMode": "NONE",
-    "sortModeStr": "creative",
-    "shiftSortModeStr": "quantity",
-    "ctrlSortModeStr": "alphabet",
-    "altSortModeStr": "rawId"
+    "allowSoundOverlap": true,
+    "showButtons": false,
+    "firstButton": "SORT",
+    "secondButton": "STACK_FILL",
+    "thirdButton": "TRANSFER",
+    "buttonDefaultOffset": {
+      "x": -4,
+      "y": 0
+    },
+    "buttonLayouts": {
+      "net.minecraft.world.entity.player.Inventory": {
+        "className": "net.minecraft.world.entity.player.Inventory",
+        "sortEnabled": true,
+        "stackFillEnabled": true,
+        "transferEnabled": true
+      },
+      "net.minecraft.world.inventory.ChestMenu": {
+        "className": "net.minecraft.world.inventory.ChestMenu",
+        "sortEnabled": true,
+        "stackFillEnabled": true,
+        "transferEnabled": true
+      },
+      "net.minecraft.world.inventory.HopperMenu": {
+        "className": "net.minecraft.world.inventory.HopperMenu",
+        "sortEnabled": false,
+        "stackFillEnabled": false,
+        "transferEnabled": true
+      },
+      "net.minecraft.world.inventory.HorseInventoryMenu": {
+        "className": "net.minecraft.world.inventory.HorseInventoryMenu",
+        "sortEnabled": true,
+        "stackFillEnabled": true,
+        "transferEnabled": true
+      },
+      "net.minecraft.world.inventory.PlayerEnderChestContainer": {
+        "className": "net.minecraft.world.inventory.PlayerEnderChestContainer",
+        "sortEnabled": true,
+        "stackFillEnabled": true,
+        "transferEnabled": true
+      },
+      "net.minecraft.world.inventory.ShulkerBoxMenu": {
+        "className": "net.minecraft.world.inventory.ShulkerBoxMenu",
+        "sortEnabled": true,
+        "stackFillEnabled": true,
+        "transferEnabled": true
+      },
+      "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity": {
+        "className": "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity",
+        "sortEnabled": true,
+        "stackFillEnabled": true,
+        "transferEnabled": true
+      }
+    }
   }
 }
