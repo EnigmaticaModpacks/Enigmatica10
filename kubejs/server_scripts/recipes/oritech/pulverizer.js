@@ -87,7 +87,8 @@ ServerEvents.recipes((event) => {
         { primary: 'nickel', secondary: 'platinum' },
         { primary: 'tin', secondary: 'iron' },
         { primary: 'uranium', secondary: 'plutonium' },
-        { primary: 'aluminum', secondary: 'aluminum' }
+        { primary: 'aluminum', secondary: 'aluminum' },
+        { primary: 'zinc', secondary: 'silver' }
     ];
     materials.forEach((material) => {
         recipes.push(
@@ -102,7 +103,7 @@ ServerEvents.recipes((event) => {
             {
                 results: [
                     { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
-                    { id: AlmostUnified.getTagTargetItem(`c:tiny_dusts/${material.secondary}`).getId(), count: 3 }
+                    { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.secondary}`).getId(), count: 3 }
                 ],
                 ingredients: [{ tag: `c:raw_materials/${material.primary}` }],
                 time: 180,

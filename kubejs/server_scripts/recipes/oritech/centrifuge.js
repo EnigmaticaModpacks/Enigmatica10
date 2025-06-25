@@ -15,6 +15,34 @@ ServerEvents.recipes((event) => {
         }
     ];
 
+    let materials = [
+        { primary: 'iron', secondary: 'nickel' },
+        { primary: 'copper', secondary: 'gold' },
+        { primary: 'gold', secondary: 'copper' },
+        { primary: 'osmium', secondary: 'silver' },
+        { primary: 'iesnium', secondary: 'silver' },
+        { primary: 'iridium', secondary: 'platinum' },
+        { primary: 'lead', secondary: 'silver' },
+        { primary: 'silver', secondary: 'lead' },
+        { primary: 'nickel', secondary: 'platinum' },
+        { primary: 'tin', secondary: 'iron' },
+        { primary: 'aluminum', secondary: 'aluminum' },
+        { primary: 'platinum', secondary: 'osmium' },
+        { primary: 'uranium', secondary: 'plutonium' },
+        { primary: 'zinc', secondary: 'silver' }
+    ];
+    materials.forEach((material) => {
+        recipes.push({
+            results: [
+                { id: AlmostUnified.getTagTargetItem(`c:dusts/${material.primary}`).getId(), count: 1 },
+                { id: AlmostUnified.getTagTargetItem(`c:nuggets/${material.secondary}`).getId(), count: 3 }
+            ],
+            ingredients: [{ tag: `c:clumps/${material.primary}` }],
+            time: 200,
+            id: `${id_prefix}clump_${material.primary}`
+        });
+    });
+
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:centrifuge';
 
