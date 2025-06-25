@@ -467,6 +467,11 @@
 		"Distributor Modules can pull from or send to a maximum of up to 8 inventories per module, making them perfect for distributed crafts or collecting from many machines."
 	]
 	quest.0D65061DFD04B301.title: "Item Modules"
+	quest.0D7299047145F61C.quest_desc: [
+		"Early on, most of the Creosote Oil you produce will likely be spent making Treated Wood as it will be used in many recipes. "
+		""
+		"Crafting it by hand can be a chore, so be sure to look into some form of automated crafting to help you out!"
+	]
 	quest.0D7B7B9CF7362FD8.quest_desc: [
 		"Have a trait you don’t want anymore? You can remove them by crafting an Anti-Plasmid. "
 		""
@@ -1319,6 +1324,19 @@
 		"&a    Identification Chamber through"
 		"&a    the bottom."
 	]
+	quest.27B747DE574CF261.quest_desc: [
+		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 3x3x3 cube of Blast Bricks. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the center block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.2850FCAFEEF5004C.quest_desc: [
 		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
 		""
@@ -1512,6 +1530,19 @@
 		"Modular Routers is a catch all logistics mod capable of many things. "
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
+	]
+	quest.2D4B890D1BE63327.quest_desc: [
+		"Considering the Crude Blast Furnace cannot be automated in any way, you’ll want to spend the first Steel Ingots you make on upgrading it to an Improved Blast Furnace. "
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 3x3x3 cube of Reinforced Blast Bricks and a Hopper on top. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the center block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.2D5820091B6B2315.quest_desc: [
 		"Latex and Rubber are two of the most fundamental resources required for Industrial Foregoing beyond other such basics as stone, metals, and wood. "
@@ -2991,7 +3022,9 @@
 		""
 		"This structure is very simple to build and consists of a 3x3x3 cube of Coke Bricks. "
 		""
-		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. In this case, Right-Click the center block on any side of the structure. "
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the center block on any side of the structure. "
 		""
 		"&a🛈 Tip: The Engineer’s Manual highlights "
 		"&a    the formation block in &cred&r&a. "
@@ -3439,6 +3472,11 @@
 		"As before, this represents a significant upgrade in both burn time and production per tick. "
 	]
 	quest.5F50024F403D28D0.title: "Empowered Oil Production"
+	quest.5FBC1038ACB861CE.quest_desc: [
+		"The Assembler is a powerful auto crafting machine which can handle any Crafting Table recipe, including those that require fluids. "
+		""
+		"It can be an excellent way to automate the creation of Treated Wood!"
+	]
 	quest.5FD8F4BE050D55B2.quest_desc: [
 		"Pretty Pipes are a simple item logistics and sorting system with some powerful features. "
 		""
@@ -4786,7 +4824,7 @@
 	task.328C56BA23A70B8F.title: "Power"
 	task.3300E2246181D0F7.title: "Any Scroll"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
-	task.346A4A537019E6C5.title: "Blast Furnace"
+	task.346A4A537019E6C5.title: "Crude Blast Furnace"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
 	task.350C549315B84B13.title: "Diesel Generator"
 	task.35B971D8A6CCBC94.title: "EU Cables"
@@ -4808,6 +4846,7 @@
 	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
 	task.40BF2920569F9751.title: "Addon: Speed"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
+	task.41360E57DF841209.title: "Assembler"
 	task.418BC399B733818A.title: "Archwood"
 	task.422388D0F93A85E5.title: "Metal Press"
 	task.42E9F9AE06C46A76.title: "Any Pickaxe"

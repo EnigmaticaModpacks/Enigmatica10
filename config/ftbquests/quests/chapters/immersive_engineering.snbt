@@ -79,8 +79,8 @@
 				id: "4D321FE097FE5692"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["51AF97CE4E91A2D9"]
@@ -88,6 +88,15 @@
 				id: "immersiveengineering:blast_furnace"
 			}
 			id: "27B747DE574CF261"
+			rewards: [{
+				count: 16
+				id: "3083FDEC150C3F56"
+				item: {
+					count: 1
+					id: "modern_industrialization:steel_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "immersiveengineering:main/mb_blastfurnace"
@@ -102,7 +111,7 @@
 				}
 			]
 			x: 2.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			icon: {
@@ -169,14 +178,26 @@
 				id: "immersiveengineering:advanced_blast_furnace"
 			}
 			id: "2D4B890D1BE63327"
-			tasks: [{
-				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
-				criterion: ""
-				id: "0F19417AE6661F06"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+					criterion: ""
+					id: "0F19417AE6661F06"
+					type: "advancement"
+				}
+				{
+					id: "0195BA5A2BC5A5F0"
+					item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					id: "02CC256143179493"
+					item: { count: 1, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
 			x: 2.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["10021117D89C531F"]
@@ -268,6 +289,42 @@
 			]
 			x: -1.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["51AF97CE4E91A2D9"]
+			id: "0D7299047145F61C"
+			rewards: [{
+				count: 32
+				id: "0C18795E35CBE3F1"
+				item: {
+					count: 1
+					id: "immersiveengineering:treated_wood_horizontal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B4B63408E894957"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D7299047145F61C"]
+			id: "5FBC1038ACB861CE"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:assembler"
+				}
+				id: "41360E57DF841209"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:assembler"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 2.0d
 		}
 	]
 }
