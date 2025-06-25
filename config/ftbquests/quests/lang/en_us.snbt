@@ -6,6 +6,7 @@
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.1514913DA64A98EB.title: "Ender IO"
+	chapter.16F2291ADE5A3FAC.title: "Immersive Engineering"
 	chapter.1A29B498BD263BEF.title: "Redstone"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.24DC8C08564BB550.title: "Actually Additions"
@@ -3532,6 +3533,17 @@
 		"&6    have been disabled!"
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
+	quest.62CD365A54A0DE47.quest_desc: [
+		"Welcome to Immersive Engineering!"
+		""
+		"This chapter is currently a work in progress. "
+		""
+		"You will find Schematics for all IE's multiblock structures in Create's Schematicannon, just open the Schematic Table to select them."
+		""
+		"[\"They are also available on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" and are easily imported that way!\"]"
+		""
+		"[\"Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Menu Key\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the BlockPrints Menu.\"]"
+	]
 	quest.62E2DEBF71698376.quest_desc: [
 		"Import, Export, and Storage Buses are your primary interface with the network. "
 		""
@@ -4769,6 +4781,7 @@
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
+	task.3D57DD90FCCC08FC.title: "Immersive Engineering"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"

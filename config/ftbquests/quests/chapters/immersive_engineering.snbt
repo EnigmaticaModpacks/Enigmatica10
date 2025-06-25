@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "264B8D62983BEFB4"
+	icon: {
+		id: "immersiveengineering:manual"
+	}
+	id: "16F2291ADE5A3FAC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "immersiveengineering:manual"
+		}
+		id: "62CD365A54A0DE47"
+		rewards: [{
+			id: "0883D21D87B3506A"
+			item: {
+				count: 1
+				id: "immersiveengineering:robot_wolf"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "3D57DD90FCCC08FC"
+			type: "checkmark"
+		}]
+		x: 1.5d
+		y: -0.5d
+	}]
+}
