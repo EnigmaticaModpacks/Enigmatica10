@@ -9,24 +9,164 @@
 	id: "16F2291ADE5A3FAC"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			id: "immersiveengineering:manual"
-		}
-		id: "62CD365A54A0DE47"
-		rewards: [{
-			id: "0883D21D87B3506A"
-			item: {
-				count: 1
-				id: "immersiveengineering:robot_wolf"
+	quests: [
+		{
+			icon: {
+				id: "immersiveengineering:manual"
 			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "3D57DD90FCCC08FC"
-			type: "checkmark"
-		}]
-		x: 1.5d
-		y: -0.5d
-	}]
+			id: "62CD365A54A0DE47"
+			rewards: [{
+				id: "0883D21D87B3506A"
+				item: {
+					count: 1
+					id: "immersiveengineering:robot_wolf"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D57DD90FCCC08FC"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "7AA55D33A2BD1E6E"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_squeezer"
+				criterion: ""
+				id: "55F6D93F95C9E9B1"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "4A80ADB324E4A6CA"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "422388D0F93A85E5"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4EB2FB91070CD11F"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "4D321FE097FE5692"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51AF97CE4E91A2D9"]
+			id: "27B747DE574CF261"
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_blastfurnace"
+				criterion: ""
+				id: "346A4A537019E6C5"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "180610F8982DB0C3"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+				id: "0A6B7C2DD1294121"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["471735A69C5C3339"]
+			id: "134D69D38C983AE2"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+				id: "350C549315B84B13"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "4689338CF3688902"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "18C2AC93B4E7D144"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AA55D33A2BD1E6E"]
+			id: "10021117D89C531F"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "2AAC3DCFDCAB9E89"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["27B747DE574CF261"]
+			id: "2D4B890D1BE63327"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+				criterion: ""
+				id: "0F19417AE6661F06"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10021117D89C531F"]
+			id: "433DD2ED590790F8"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_mixer"
+				criterion: ""
+				id: "18CE5385D80E1C50"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10021117D89C531F"]
+			id: "471735A69C5C3339"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+				id: "4648E821F02A741D"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "51AF97CE4E91A2D9"
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+				id: "5CA2448AD3D03768"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
 }
