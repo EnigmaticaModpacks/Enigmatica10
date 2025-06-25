@@ -2983,6 +2983,19 @@
 		"&6    signal or click the Torch button in "
 		"&6    the interface."
 	]
+	quest.51AF97CE4E91A2D9.quest_desc: [
+		"Getting started with Immersive Engineering involves a few key machines and resources; perhaps the most important of which is the Coke Oven. "
+		""
+		"The Coal Coke and Creosote produced with this machine will be vital for further endeavors."
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 3x3x3 cube of Coke Bricks. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. In this case, Right-Click the center block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.51F25D35F62B37BA.quest_desc: [
 		"The Mercurial Logistics system is a simple network for moving Items and Fluids."
 		""

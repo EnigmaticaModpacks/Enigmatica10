@@ -15,14 +15,24 @@
 				id: "immersiveengineering:manual"
 			}
 			id: "62CD365A54A0DE47"
-			rewards: [{
-				id: "0883D21D87B3506A"
-				item: {
-					count: 1
-					id: "immersiveengineering:robot_wolf"
+			rewards: [
+				{
+					id: "0883D21D87B3506A"
+					item: {
+						count: 1
+						id: "immersiveengineering:robot_wolf"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5C5D0EDC690C2E9E"
+					item: {
+						count: 1
+						id: "immersiveengineering:hammer"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3D57DD90FCCC08FC"
 				type: "checkmark"
@@ -31,6 +41,9 @@
 			y: -2.0d
 		}
 		{
+			icon: {
+				id: "immersiveengineering:squeezer"
+			}
 			id: "7AA55D33A2BD1E6E"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_squeezer"
@@ -38,10 +51,13 @@
 				id: "55F6D93F95C9E9B1"
 				type: "advancement"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
+			icon: {
+				id: "immersiveengineering:metal_press"
+			}
 			id: "4A80ADB324E4A6CA"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_metalpress"
@@ -49,10 +65,13 @@
 				id: "422388D0F93A85E5"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
+			icon: {
+				id: "immersiveengineering:arc_furnace"
+			}
 			id: "4EB2FB91070CD11F"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
@@ -60,22 +79,35 @@
 				id: "4D321FE097FE5692"
 				type: "advancement"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51AF97CE4E91A2D9"]
+			icon: {
+				id: "immersiveengineering:blast_furnace"
+			}
 			id: "27B747DE574CF261"
-			tasks: [{
-				advancement: "immersiveengineering:main/mb_blastfurnace"
-				criterion: ""
-				id: "346A4A537019E6C5"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: 1.0d
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "346A4A537019E6C5"
+					type: "advancement"
+				}
+				{
+					id: "31C439108CE3142C"
+					item: { count: 1, id: "immersiveengineering:blastbrick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
 		}
 		{
+			icon: {
+				id: "immersiveengineering:crusher"
+			}
 			id: "180610F8982DB0C3"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_crusher"
@@ -83,11 +115,14 @@
 				id: "0A6B7C2DD1294121"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["471735A69C5C3339"]
+			icon: {
+				id: "immersiveengineering:diesel_generator"
+			}
 			id: "134D69D38C983AE2"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
@@ -95,10 +130,14 @@
 				id: "350C549315B84B13"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1D2BB7149630A9E2"]
+			icon: {
+				id: "immersiveengineering:excavator"
+			}
 			id: "4689338CF3688902"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_excavator"
@@ -106,11 +145,14 @@
 				id: "18C2AC93B4E7D144"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7AA55D33A2BD1E6E"]
+			icon: {
+				id: "immersiveengineering:fermenter"
+			}
 			id: "10021117D89C531F"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_fermenter"
@@ -118,11 +160,14 @@
 				id: "2AAC3DCFDCAB9E89"
 				type: "advancement"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["27B747DE574CF261"]
+			icon: {
+				id: "immersiveengineering:advanced_blast_furnace"
+			}
 			id: "2D4B890D1BE63327"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
@@ -130,11 +175,14 @@
 				id: "0F19417AE6661F06"
 				type: "advancement"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["10021117D89C531F"]
+			icon: {
+				id: "immersiveengineering:mixer"
+			}
 			id: "433DD2ED590790F8"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_mixer"
@@ -142,11 +190,14 @@
 				id: "18CE5385D80E1C50"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["10021117D89C531F"]
+			icon: {
+				id: "immersiveengineering:refinery"
+			}
 			id: "471735A69C5C3339"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_refinery"
@@ -154,19 +205,69 @@
 				id: "4648E821F02A741D"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["62CD365A54A0DE47"]
+			icon: {
+				id: "immersiveengineering:coke_oven"
+			}
 			id: "51AF97CE4E91A2D9"
-			tasks: [{
-				advancement: "immersiveengineering:main/mb_cokeoven"
-				criterion: ""
-				id: "5CA2448AD3D03768"
-				type: "advancement"
-			}]
-			x: 5.0d
+			rewards: [
+				{
+					id: "5C404B68D5B7679A"
+					item: {
+						count: 1
+						id: "utilitarian:fluid_hopper"
+					}
+					type: "item"
+				}
+				{
+					id: "480FE8B295427A91"
+					item: {
+						count: 1
+						id: "pneumaticcraft:small_tank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "5CA2448AD3D03768"
+					type: "advancement"
+				}
+				{
+					id: "00EFA455545F7976"
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["180610F8982DB0C3"]
+			icon: {
+				id: "immersiveengineering:survey_tools"
+			}
+			id: "1D2BB7149630A9E2"
+			tasks: [
+				{
+					id: "0546CFC934B61BEF"
+					item: { count: 1, id: "immersiveengineering:survey_tools" }
+					type: "item"
+				}
+				{
+					id: "417546F50C619538"
+					item: { count: 1, id: "immersiveengineering:sample_drill" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
 		}
 	]
 }
