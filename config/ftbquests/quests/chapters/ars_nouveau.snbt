@@ -5,7 +5,7 @@
 	filename: "ars_nouveau"
 	group: "440488E780593120"
 	icon: {
-		id: "ars_nouveau:worn_notebook"
+		id: "ars_nouveau:archmage_spell_book"
 	}
 	id: "5C2F675CD8139E11"
 	order_index: 0

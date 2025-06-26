@@ -58,6 +58,13 @@ const akashic_tomes = [
     },
     {
         components: {
+            'akashictome:defined_mod': 'immersiveengineering'
+        },
+        count: 1,
+        id: 'immersiveengineering:manual'
+    },
+    {
+        components: {
             'akashictome:defined_mod': 'industrialforegoing',
             'patchouli:book': 'industrialforegoing:industrial_foregoing'
         },
