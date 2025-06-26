@@ -592,6 +592,11 @@
 	quest.0EF0F6D0012FB59E.title: "Lava Factory"
 	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
+	quest.0F185E80D0EFF772.quest_desc: [
+		"Each tier of electrical wire has its own pros and cons detailed in the Engineer’s Manual. Briefly, HV is best for long distance transmission, but in many cases it’s best to step down to MV or LV before connecting to a machine. "
+		""
+		"To facilitate this, Transformers may be used to step down from an HV trunk line down to safer, more suitable voltage levels before running down to a group of machines. "
+	]
 	quest.0F97525097FA4573.quest_desc: [
 		"Looking for a fun way to transport items from remote locations? Perhaps to get your ores back from a remote Bedrock Extractor?"
 		""
@@ -1195,6 +1200,11 @@
 		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
 	]
 	quest.20C038E5D70CDB52.title: "Wixie Cauldron"
+	quest.20EBCCCAA99AC19A.quest_desc: [
+		"The Garden Cloche is useful for automating the growth of certain crops, like Hemp, which are used heavily throughout the mod. "
+		""
+		"Consider feeding it excess Slag or Bone Meal as fertilizer to speed things along until better fertilizers can be made. "
+	]
 	quest.211E0844F3ACD244.quest_desc: [
 		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
 		""
@@ -1257,6 +1267,17 @@
 		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 	]
 	quest.22ABFC3024E54FEA.title: "Mercurial Item Nodes"
+	quest.22FBFA5E2F891021.quest_desc: [
+		"Looking to get a little extra value from your trees? Consider cutting them into planks with a Sawmill for a boost in output!"
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.235AA993029F7277.quest_desc: [
 		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
 		""
@@ -1853,6 +1874,11 @@
 		"Relays can have multiple wires connected, while Connectors only permit one connection. Right-Click from one block to another with a Wire Coil to make a connection."
 		""
 		"Connections may be snipped with Wire Cutters."
+		""
+		"&a🛈 Tip: Only the start and end "
+		"&a    Connectors need to be loaded, so "
+		"&a    wires can be run through "
+		"&a    unloaded chunks!"
 		""
 		"&c⚠ Warning: Uninsulated wiring is deadly!"
 	]
@@ -5053,6 +5079,7 @@
 	task.4648E821F02A741D.title: "Refinery"
 	task.4775BC243353527B.title: "Any Mining Gadget"
 	task.47D22C2E34E9A099.title: "Sourcelinks"
+	task.47FABFA3F238464E.title: "Sawmill"
 	task.484FF1BEA9145D5F.title: "Puller Modules"
 	task.488180E25D5B815A.title: "Anti-Fields"
 	task.4927D2345C71AAA4.title: "Fluid Storage"
