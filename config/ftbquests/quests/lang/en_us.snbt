@@ -2873,6 +2873,7 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48B6E6CDBFFD77A7.quest_desc: ["make a brooch to get rune slots, then equip runes"]
 	quest.48B6E6CDBFFD77A7.title: "Runeworking"
 	quest.48F3D3784D8CE545.quest_desc: [
 		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
@@ -5104,6 +5105,7 @@
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
+	task.1291CAC439E06D6C.title: "Rune"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
