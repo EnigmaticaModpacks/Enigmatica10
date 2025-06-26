@@ -3755,9 +3755,9 @@
 	quest.62CD365A54A0DE47.quest_desc: [
 		"Welcome to Immersive Engineering!"
 		""
-		"This chapter is currently a work in progress. "
+		"Technology with a strong teslapunk theme, Immersive Engineering has a lot to offer the prospective engineer."
 		""
-		"You will find Schematics for all IE's multiblock structures in Create's Schematicannon, just open the Schematic Table to select them."
+		"The mod has a heavy focus on large multiblock machines. As such, you will find Schematics for all IE's multiblock structures in Create's Schematicannon, just open the Schematic Table to select them."
 		""
 		"[\"They are also available on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" and are easily imported that way!\"]"
 		""
