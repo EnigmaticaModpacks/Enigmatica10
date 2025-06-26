@@ -93,6 +93,11 @@ const akashic_tomes = [
         id: 'patchouli:guide_book'
     },
     {
+        components: { 'akashictome:defined_mod': 'malum' },
+        count: 1,
+        id: 'malum:encyclopedia_arcana'
+    },
+    {
         components: { 'akashictome:defined_mod': 'modern_industrialization' },
         count: 1,
         id: 'modern_industrialization:guidebook'
