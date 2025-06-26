@@ -261,10 +261,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"471735A69C5C3339"
-				"384024534B512211"
-			]
+			dependencies: ["384024534B512211"]
 			icon: {
 				id: "immersiveengineering:diesel_generator"
 			}
@@ -431,7 +428,7 @@
 				id: "18CE5385D80E1C50"
 				type: "advancement"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 4.5d
 		}
 		{
@@ -446,7 +443,7 @@
 				id: "4648E821F02A741D"
 				type: "advancement"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 4.5d
 		}
 		{
@@ -518,6 +515,7 @@
 		}
 		{
 			dependencies: ["51AF97CE4E91A2D9"]
+			hide_dependency_lines: true
 			id: "0D7299047145F61C"
 			rewards: [{
 				count: 32
@@ -533,8 +531,8 @@
 				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D7299047145F61C"]
@@ -549,8 +547,8 @@
 				to_observe: "immersiveengineering:assembler"
 				type: "observation"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["51AF97CE4E91A2D9"]
@@ -675,8 +673,8 @@
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0D7299047145F61C"]
@@ -686,8 +684,8 @@
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6E86B32C7ADE873D"]
@@ -737,8 +735,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 1.5d
+			x: 3.5d
+			y: 2.0d
 		}
 	]
 }
