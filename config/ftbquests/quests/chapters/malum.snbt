@@ -19,8 +19,9 @@
 			}
 			id: "25B779319401405B"
 			tasks: [{
-				id: "3D94DD777B4EB397"
-				type: "checkmark"
+				id: "121F1EBA0AF05D9A"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
 			}]
 			x: -3.5d
 			y: 0.5d
@@ -39,6 +40,14 @@
 		{
 			dependencies: ["3BF1CB7CDDA99856"]
 			id: "58A275DB77CDF7F8"
+			rewards: [{
+				id: "11C29F9E8C65824F"
+				item: {
+					count: 1
+					id: "malum:soulwoven_pouch"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "malum:crude_scythe"
@@ -56,6 +65,14 @@
 				id: "malum:spirit_altar"
 			}
 			id: "359562022532BAE1"
+			rewards: [{
+				id: "210DDBC5BFE7D9E0"
+				item: {
+					count: 1
+					id: "malum:block_of_soul_stained_steel"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0A850556620B0740"
@@ -67,19 +84,13 @@
 					item: { components: { "ftbfiltersystem:filter": "or(item(malum:runewood_item_stand)item(malum:runewood_item_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
+				{
+					id: "6E8E1014FC37D0F0"
+					item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+					type: "item"
+				}
 			]
 			x: -0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["359562022532BAE1"]
-			id: "12172FE2BEB83505"
-			tasks: [{
-				id: "1213CE883D6DD1B4"
-				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
-				type: "item"
-			}]
-			x: 0.5d
 			y: 0.5d
 		}
 		{

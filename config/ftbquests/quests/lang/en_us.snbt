@@ -1355,10 +1355,11 @@
 	]
 	quest.25770E9DCA5B4B1F.title: "Actually Additions"
 	quest.25B779319401405B.quest_desc: [
-		"Welcome to Malum!"
+		"Welcome to Malum, a magic mod designed around the manipulation of spirits to invoke powerful rituals."
 		""
 		"This quest section is a work in progress, please refer to the Encyclopedia Arcana for a guide on using this mod."
 	]
+	quest.25B779319401405B.title: "Malum"
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
 		"&n                                                 &r"
@@ -1377,6 +1378,15 @@
 		"When placed, all Stone or Netherrack in an area will be slowly converted to random ores at the cost of Aura. "
 		""
 		"This requires extremely high Aura to begin functioning and has an ongoing cost. You’ll need a Creational Catalyst to even begin, and you’ll very likely want a strong Aura Generator, like a Shooting Mark, to cover the operational cost. "
+	]
+	quest.26115C1BB363EF58.quest_desc: [
+		"These materials are obtained by killing the appropriate mobs with a Soul Shattering Weapon:"
+		""
+		"    • Breeze - Wind Nucleus"
+		"    • Endermen - Warp Flux"
+		"    • Skeleton - Grim Talc"
+		"    • Phantom - Astral Weave "
+		"    • Zombie - Rotting Essence"
 	]
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
@@ -1831,6 +1841,21 @@
 		"&a    Heat Frame, granting better yields!"
 	]
 	quest.358A62846D6B0004.title: "Plastic"
+	quest.359562022532BAE1.quest_desc: [
+		"Spirit Infusion is used to enhance items and materials, granting them greater potency. "
+		"&n                                                   &r"
+		"To begin, let’s make some Soulstained Steel. "
+		""
+		"When viewing Spirit Altar recipes in EMI, the central item and the Spirits shown to the left should be insterted onto the Altar itself. "
+		""
+		"Any items shown on the right must be instered into a nearby Item Pedestal or Item Stand. "
+		""
+		"Items may be piped into the these blocks, or otherwise Right-Clicked into place when crafting by hand."
+		""
+		"&6⚠ Note: Item Stands and Pedestals "
+		"&6    must be within four blocks of "
+		"&6    the Altar."
+	]
 	quest.35A8CEA408114638.quest_desc: [
 		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
 		""
@@ -2006,6 +2031,11 @@
 		""
 		"&a🛈 Tip: Micromissiles may be restored "
 		"&a    with TNT in an Anvil!"
+	]
+	quest.3BF1CB7CDDA99856.quest_desc: [
+		"Working with spirits is a dirty business, both physically and mentally. You’ll need proper materials to have any hope of mastering this magic, and that all starts with Soulstone. "
+		""
+		"We’ll learn ways to further refine this later. For now, start digging and locate some Soulstone Ore. You’ll need to smelt this to obtain Refined Soulstone."
 	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
@@ -3482,6 +3512,10 @@
 		"Malum adds several special drops from mobs that are only obtainable with an appropriate weapon. "
 		""
 		"Normally, you will want to start by crafting a Crude Scythe, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
+		""
+		"&a🛈 Tip: A Soulwoven Pouch will "
+		"&a    auto-collect these drops, keeping "
+		"&a    your inventory clean!"
 	]
 	quest.59293885E5C9E8A3.quest_desc: [
 		"A simple machine used for crushing ores and other materials. "
@@ -3524,6 +3558,13 @@
 		"&n                                                  &r"
 		""
 		"Craft some Otherworld Goggles. These grant Spirit sight and allow you to see Iesnium Ore."
+	]
+	quest.5A74D7EFD6AD1EAC.quest_desc: [
+		"Slaughtering mobs with a Soul Shattering Weapon will often result in Spirit Aspects dropping. These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
+		""
+		"Many mobs are associated with different Spirit Aspects. For example, Zombies are a good source of Earthen and Wicked Spirits."
+		""
+		"Finding the right mob for the Aspect you need will require some experimentation."
 	]
 	quest.5AD1A273F3714FAF.quest_desc: [
 		"It’s probably about time we started thinking about power. "
@@ -5038,7 +5079,7 @@
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
-	task.2404D63C45135601.title: "Spirits"
+	task.2404D63C45135601.title: "Spirit Aspects"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
@@ -5074,7 +5115,6 @@
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
-	task.3D94DD777B4EB397.title: "Malum"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
