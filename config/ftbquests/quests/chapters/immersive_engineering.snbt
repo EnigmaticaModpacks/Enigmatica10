@@ -345,6 +345,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2D2F450D806D37C6"
+					item: {
+						count: 1
+						id: "immersiveengineering:capacitor_hv"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -384,7 +392,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -451,15 +459,23 @@
 				id: "immersiveengineering:fermenter"
 			}
 			id: "10021117D89C531F"
-			rewards: [{
-				count: 16
-				id: "273AA1A83BCEF203"
-				item: {
-					count: 1
-					id: "minecraft:glow_berries"
+			rewards: [
+				{
+					count: 16
+					id: "273AA1A83BCEF203"
+					item: {
+						count: 1
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "657246700910309E"
+					table_id: 23658154196454858L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_fermenter"
@@ -507,15 +523,23 @@
 				id: "immersiveengineering:advanced_blast_furnace"
 			}
 			id: "2D4B890D1BE63327"
-			rewards: [{
-				count: 10
-				id: "4D49CA47466F7A8E"
-				item: {
-					count: 1
-					id: "modern_industrialization:coke_block"
+			rewards: [
+				{
+					count: 10
+					id: "4D49CA47466F7A8E"
+					item: {
+						count: 1
+						id: "modern_industrialization:coke_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0971B30A6D1B3494"
+					table_id: 23658154196454858L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
@@ -732,7 +756,7 @@
 				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -741,6 +765,12 @@
 				id: "immersiveengineering:assembler"
 			}
 			id: "5FBC1038ACB861CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AB95067AF9F99FD"
+				table_id: 23658154196454858L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					icon: {
@@ -783,7 +813,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -810,6 +840,12 @@
 						id: "immersiveengineering:ingot_constantan"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33CF19B3E882C171"
+					table_id: 23658154196454858L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -870,7 +906,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
@@ -911,27 +947,37 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["384024534B512211"]
 			id: "2DFAEB81548A578A"
-			rewards: [{
-				count: 2
-				id: "6D2F3D200D835A92"
-				item: {
-					count: 1
-					id: "minecraft:blue_ice"
+			rewards: [
+				{
+					count: 2
+					id: "6D2F3D200D835A92"
+					item: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "507D2FF5D54BF953"
+					item: {
+						count: 1
+						id: "immersiveengineering:capacitor_lv"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2779708A88FEBC88"
 				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -978,21 +1024,29 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E86B32C7ADE873D"]
 			id: "20EBCCCAA99AC19A"
-			rewards: [{
-				count: 32
-				id: "70B5B48E387B8E54"
-				item: {
-					count: 1
-					id: "immersiveengineering:seed"
+			rewards: [
+				{
+					count: 32
+					id: "70B5B48E387B8E54"
+					item: {
+						count: 1
+						id: "immersiveengineering:seed"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "44E393D037A057B8"
+					table_id: 23658154196454858L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0ED4154252CA208D"
 				item: { count: 1, id: "immersiveengineering:cloche" }
@@ -1040,7 +1094,7 @@
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -1179,7 +1233,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -3.5d
 			y: 1.0d
 		}
 	]
