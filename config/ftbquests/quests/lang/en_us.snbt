@@ -4977,6 +4977,11 @@
 		""
 		"A few of these should keep your machines running without issue. "
 	]
+	quest.7F445C22C528AC1F.quest_desc: [
+		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "
+		""
+		"As many as four Obelisks may be used to speed up crafting, with each one reducing the total crafting time. "
+	]
 	quest.7F829A1BFED304D0.quest_desc: [
 		"What’s magic without some functional devices powered by it? "
 		""

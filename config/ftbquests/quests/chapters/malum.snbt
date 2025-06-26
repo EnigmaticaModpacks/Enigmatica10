@@ -115,5 +115,16 @@
 			x: -1.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["359562022532BAE1"]
+			id: "7F445C22C528AC1F"
+			tasks: [{
+				id: "1FE62D15B0D367EE"
+				item: { count: 1, id: "malum:runewood_obelisk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
 	]
 }
