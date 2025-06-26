@@ -533,8 +533,8 @@
 				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0D7299047145F61C"]
@@ -549,8 +549,8 @@
 				to_observe: "immersiveengineering:assembler"
 				type: "observation"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51AF97CE4E91A2D9"]
@@ -666,6 +666,79 @@
 			]
 			x: -3.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["6E86B32C7ADE873D"]
+			id: "20EBCCCAA99AC19A"
+			tasks: [{
+				id: "0ED4154252CA208D"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D7299047145F61C"]
+			id: "6E86B32C7ADE873D"
+			tasks: [{
+				id: "32D7D0A71F725C9C"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E86B32C7ADE873D"]
+			icon: {
+				id: "immersiveengineering:auto_workbench"
+			}
+			id: "4EAB5A6CCD5CFEFB"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:auto_workbench"
+					}
+					id: "1A13433A611626BD"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:auto_workbench"
+					type: "observation"
+				}
+				{
+					id: "32DCEB819F19D7D0"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "597EF4BAF4DB3F93"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "51C83CB470BC8625"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "06858CFD9C6B4DE6"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "022B748B9B52F4BE"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "218B731AC6E7EBFE"
+					item: { count: 1, id: "immersiveengineering:slab_treated_wood_horizontal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 }

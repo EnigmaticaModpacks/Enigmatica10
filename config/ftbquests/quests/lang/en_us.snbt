@@ -614,8 +614,7 @@
 		"&a🛈 Tip: The Sulfur may be extracted again via Right-Click."
 	]
 	quest.10021117D89C531F.quest_desc: [
-		""
-		""
+		"A vital component in any factory, the Fermenter converts sugars into Ethanol used in Biodiesel and Duroplast production. "
 		"&n                                                  "
 		""
 		"A guide to building this structure may be found in the Engineer’s Manual. "
@@ -2501,8 +2500,7 @@
 		"They have the ability to auto input and output, as well as to void excess. "
 	]
 	quest.433DD2ED590790F8.quest_desc: [
-		""
-		""
+		"Used for mixing Concrete, Potions, and other materials, the Mixer is a vital part of any factory."
 		"&n                                                  "
 		""
 		"A guide to building this structure may be found in the Engineer’s Manual. "
@@ -2680,8 +2678,9 @@
 		"&a    String to extend it downwards."
 	]
 	quest.471735A69C5C3339.quest_desc: [
+		"An advanced machine for mixing and refining fluids, the Refinery is used both for making fuels and advanced materials. "
 		""
-		""
+		"Note that the Item based inputs used by this machine are catalysts and are not consumed. They may only be inserted or removed by hand, so you may need multiple Refineries."
 		"&n                                                  "
 		""
 		"A guide to building this structure may be found in the Engineer’s Manual. "
@@ -3052,6 +3051,19 @@
 		"Or, if you’re really in need of rain or a thunderstorm, it’ll do that too, given the right objects. "
 		""
 		"Refer to the Book of Natural Aura for more information."
+	]
+	quest.4EAB5A6CCD5CFEFB.quest_desc: [
+		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
+		""
+		"This machine can be programmed to perform any recipe from the Engineer’s Workbench. Each one will only perform one recipe at a time, so you will need multiple to cover all of the recipes you might wish to craft."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.4EB2FB91070CD11F.quest_desc: [
 		"An Arc Furnace may be used to create alloys considerably more easily than an Alloy Kiln, allowing automated inputs and outputs. "
@@ -4257,6 +4269,7 @@
 		""
 		"Mekanism’s Energy Cells and Induction Matrices can also charge items, but they don’t beat the convenience of the Chargepad."
 	]
+	quest.6E86B32C7ADE873D.quest_desc: ["A simple workstation allowing you to craft certain components more efficiently. In some cases, such as with Electronic Components, it is the only way to craft the components. "]
 	quest.6E9C0B091D9F258A.quest_desc: [
 		"Material costs getting you down? Now would be a great time to set up some simple ore processing. Crush twice, smelt once. "
 		""
@@ -4978,6 +4991,7 @@
 	task.14C95C2344B5DC59.title: "Catalysts"
 	task.18C2AC93B4E7D144.title: "Excavator"
 	task.18CE5385D80E1C50.title: "Mixer"
+	task.1A13433A611626BD.title: "Engineer's Automated Workbench"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
