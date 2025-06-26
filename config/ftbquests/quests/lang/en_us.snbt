@@ -1,5 +1,6 @@
 {
 	chapter.0095002B3E34FD9A.title: "Occultism"
+	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
@@ -1353,6 +1354,7 @@
 		"This mod is a collection of eclectic features meant to make life easier, offering machines to help with farming, new potion brewing mechanics, mining tools and much more. "
 	]
 	quest.25770E9DCA5B4B1F.title: "Actually Additions"
+	quest.25B779319401405B.quest_desc: ["WIP"]
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
 		"&n                                                 &r"
@@ -3801,6 +3803,7 @@
 		""
 		"[\"Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Menu Key\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the BlockPrints Menu.\"]"
 	]
+	quest.62CD365A54A0DE47.title: "Immersive Engineering"
 	quest.62E2DEBF71698376.quest_desc: [
 		"Import, Export, and Storage Buses are your primary interface with the network. "
 		""
@@ -5030,6 +5033,7 @@
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
+	task.26CFE1DCF255EEE8.title: "Any Pickaxe"
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2AAC3DCFDCAB9E89.title: "Industrial Fermenter"
@@ -5058,7 +5062,7 @@
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
-	task.3D57DD90FCCC08FC.title: "Immersive Engineering"
+	task.3D94DD777B4EB397.title: "Malum"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"

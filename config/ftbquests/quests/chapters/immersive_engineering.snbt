@@ -50,8 +50,9 @@
 				}
 			]
 			tasks: [{
-				id: "3D57DD90FCCC08FC"
-				type: "checkmark"
+				id: "26CFE1DCF255EEE8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 0.5d
 			y: -1.5d
