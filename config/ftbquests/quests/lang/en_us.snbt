@@ -1087,6 +1087,7 @@
 		"But what if you could make your own friends? Cute, lovable, huggable friends that would spark joy just by being around? "
 	]
 	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
+	quest.1E0B03155C2CAEE7.title: "Spirit Focusing"
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
 		""
@@ -1550,6 +1551,28 @@
 		"&a    roof or floor of the dimension."
 	]
 	quest.2A2D51206676A83C.title: "The Bumblezone"
+	quest.2A7455D9EE649BA4.quest_desc: [
+		"Totemic Magic allows the intrepid sorcerer to create effects in an area and can produce some rather unique effects. "
+		""
+		"For example, the Rite of Sapping allows Dripstone to work more quickly, while the Rite of the Seas enhances one’s fishing abilities while standing in the area."
+		"&n                                                             "
+		""
+		"Setting up a totem is a straightforward endeavor. Simply place a Runewood Totem Base and then place a number of Runewood logs atop it in a column. The number of logs required will depend on the specific ritual."
+		""
+		"Encoding the glyphs requires you to Right-Click the logs with the appropriate Spirit. "
+		""
+		"For the Rite of Sapping we would need four logs. Right-Click each log from top to bottom with &9Aqueous&r, &9Aqueous&r, &dArcane&r, and &5Eldritch&r. "
+		""
+		"Finally, Right-Click the base to activate the ritual."
+		""
+		"These rituals, once activated, require no maintenance nor upkeep. "
+		""
+		"Check the Encyclopedia Arcana for an in depth description of each rite and a list of the glyphs required to encode it. "
+		""
+		"&a🛈 Tip: A Totemic Staff will display a "
+		"&a    totem's working area when held."
+	]
+	quest.2A7455D9EE649BA4.title: "Totemic Magic"
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Welcome to Modern Industrialization!"
 		""
@@ -1924,6 +1947,16 @@
 		""
 		"&a🛈 Tip: The Jar can be toggled at any "
 		"&a    time by Sneak + Right-Clicking with it. "
+	]
+	quest.391AE516AF1C26D6.quest_desc: [
+		"Obtaining Soulwood will involve performing an Undirected Rite. "
+		""
+		"Build a totem with five Runewood Logs atop a Runewood Base, then create an Arcane glyph on each of the logs. "
+		""
+		"Once activated, the surrounding land will be blighted, and Soulwood Saplings will appear."
+		""
+		"&6⚠ Note: Consider doing this away "
+		"&6    from your home. "
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.397D4765002935F2.quest_desc: [
@@ -2840,6 +2873,7 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48B6E6CDBFFD77A7.title: "Runeworking"
 	quest.48F3D3784D8CE545.quest_desc: [
 		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
 		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
