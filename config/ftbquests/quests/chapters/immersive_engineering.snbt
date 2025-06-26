@@ -62,6 +62,15 @@
 				id: "immersiveengineering:squeezer"
 			}
 			id: "7AA55D33A2BD1E6E"
+			rewards: [{
+				count: 10
+				id: "62F35A6E07388DE4"
+				item: {
+					count: 1
+					id: "modern_industrialization:coke_block"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_squeezer"
@@ -114,6 +123,17 @@
 				id: "immersiveengineering:metal_press"
 			}
 			id: "4A80ADB324E4A6CA"
+			rewards: [{
+				id: "5262D45A201A503E"
+				item: {
+					components: {
+						"immersiveengineering:blueprint": "molds"
+					}
+					count: 1
+					id: "immersiveengineering:blueprint"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_metalpress"
@@ -156,18 +176,21 @@
 				id: "immersiveengineering:arc_furnace"
 			}
 			id: "4EB2FB91070CD11F"
+			rewards: [{
+				count: 3
+				id: "7308116117644FBF"
+				item: {
+					count: 1
+					id: "immersiveengineering:graphite_electrode"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
 					criterion: ""
 					id: "4D321FE097FE5692"
 					type: "advancement"
-				}
-				{
-					count: 3L
-					id: "5C82A8B07B31D548"
-					item: { count: 3, id: "immersiveengineering:graphite_electrode" }
-					type: "item"
 				}
 				{
 					id: "42D26477E432FA58"
@@ -303,6 +326,26 @@
 				id: "immersiveengineering:diesel_generator"
 			}
 			id: "134D69D38C983AE2"
+			rewards: [
+				{
+					count: 4
+					id: "0A4E811F6AFCF6B4"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DE68D2DAA440880"
+					item: {
+						count: 1
+						id: "immersiveengineering:connector_hv"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_dieselgen"
@@ -408,6 +451,15 @@
 				id: "immersiveengineering:fermenter"
 			}
 			id: "10021117D89C531F"
+			rewards: [{
+				count: 16
+				id: "273AA1A83BCEF203"
+				item: {
+					count: 1
+					id: "minecraft:glow_berries"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_fermenter"
@@ -491,6 +543,14 @@
 				id: "immersiveengineering:mixer"
 			}
 			id: "433DD2ED590790F8"
+			rewards: [{
+				id: "2D0E1B1D9A4A8913"
+				item: {
+					count: 1
+					id: "pneumaticcraft:small_tank"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_mixer"
@@ -538,6 +598,14 @@
 				id: "immersiveengineering:refinery"
 			}
 			id: "471735A69C5C3339"
+			rewards: [{
+				id: "344DBC8861E6767D"
+				item: {
+					count: 1
+					id: "pneumaticcraft:small_tank"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					advancement: "immersiveengineering:multiblocks/mb_refinery"
@@ -724,6 +792,26 @@
 				id: "immersiveengineering:alloy_smelter"
 			}
 			id: "5312467FB51C5B36"
+			rewards: [
+				{
+					count: 8
+					id: "0BAAFF36CDE4FC1B"
+					item: {
+						count: 1
+						id: "modern_industrialization:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "379836E93D95586D"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_constantan"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					icon: {
@@ -750,6 +838,26 @@
 				id: "immersiveengineering:watermill"
 			}
 			id: "0A170AE8092145FA"
+			rewards: [
+				{
+					count: 4
+					id: "6FDAFC2451DF87BA"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper_ins"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "698FCBD450583F29"
+					item: {
+						count: 1
+						id: "immersiveengineering:connector_lv"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5721F767DD4D21DE"
@@ -771,6 +879,26 @@
 				id: "immersiveengineering:windmill"
 			}
 			id: "47C5F9198615E0D5"
+			rewards: [
+				{
+					count: 4
+					id: "706AC6DA038C41D1"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper_ins"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "422B42CBED52EE97"
+					item: {
+						count: 1
+						id: "immersiveengineering:connector_lv"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6F6B9B941638C6EE"
@@ -813,15 +941,26 @@
 				id: "immersiveengineering:wirecoil_copper"
 			}
 			id: "384024534B512211"
-			rewards: [{
-				count: 4
-				id: "28BED1444076E9F3"
-				item: {
-					count: 1
-					id: "immersiveengineering:electric_lantern"
+			rewards: [
+				{
+					count: 4
+					id: "28BED1444076E9F3"
+					item: {
+						count: 1
+						id: "immersiveengineering:electric_lantern"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "46F76A6B5F504FB9"
+					item: {
+						count: 1
+						id: "immersiveengineering:capacitor_lv"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "25AF75054F90B037"
@@ -865,6 +1004,37 @@
 		{
 			dependencies: ["0D7299047145F61C"]
 			id: "6E86B32C7ADE873D"
+			rewards: [
+				{
+					count: 8
+					id: "70D892F30CCCD020"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "55CD7E79AFC734F0"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "0E151E00432E9CA8"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "components"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "32D7D0A71F725C9C"
 				item: { count: 1, id: "immersiveengineering:workbench" }
@@ -879,6 +1049,17 @@
 				id: "immersiveengineering:auto_workbench"
 			}
 			id: "4EAB5A6CCD5CFEFB"
+			rewards: [{
+				id: "70B3783C9E74CBC3"
+				item: {
+					components: {
+						"immersiveengineering:blueprint": "specialBullet"
+					}
+					count: 1
+					id: "immersiveengineering:blueprint"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					icon: {
