@@ -62,12 +62,49 @@
 				id: "immersiveengineering:squeezer"
 			}
 			id: "7AA55D33A2BD1E6E"
-			tasks: [{
-				advancement: "immersiveengineering:multiblocks/mb_squeezer"
-				criterion: ""
-				id: "55F6D93F95C9E9B1"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_squeezer"
+					criterion: ""
+					id: "55F6D93F95C9E9B1"
+					type: "advancement"
+				}
+				{
+					id: "736541830967A475"
+					item: { count: 1, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+				{
+					id: "5018BA9D5A5AC1C8"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "793866649BA1524B"
+					item: { count: 1, id: "minecraft:piston" }
+					type: "item"
+				}
+				{
+					id: "4A3CC2CA7C5E09C5"
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					id: "45C4D71DB0755C69"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "4019F16C040F79B5"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "114A84956055FA67"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.5d
 		}
@@ -371,12 +408,44 @@
 				id: "immersiveengineering:fermenter"
 			}
 			id: "10021117D89C531F"
-			tasks: [{
-				advancement: "immersiveengineering:multiblocks/mb_fermenter"
-				criterion: ""
-				id: "2AAC3DCFDCAB9E89"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_fermenter"
+					criterion: ""
+					id: "2AAC3DCFDCAB9E89"
+					type: "advancement"
+				}
+				{
+					id: "7EA3FC960E13CCC7"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "1A8B421741A3F3B7"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					id: "5730052BC4582AF9"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "5BAC23196FD61194"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "094A0B4C7C8AA968"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "06166DAEE0929280"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 3.5d
 		}
@@ -422,12 +491,44 @@
 				id: "immersiveengineering:mixer"
 			}
 			id: "433DD2ED590790F8"
-			tasks: [{
-				advancement: "immersiveengineering:multiblocks/mb_mixer"
-				criterion: ""
-				id: "18CE5385D80E1C50"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_mixer"
+					criterion: ""
+					id: "18CE5385D80E1C50"
+					type: "advancement"
+				}
+				{
+					id: "62031A37EE30FF50"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "0D8A763174F2CCBC"
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					id: "6896439751CED128"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "00359A4D6F33C156"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "67E4A6EBC894EAFF"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "4299834CBD61A707"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 4.5d
 		}
@@ -437,12 +538,44 @@
 				id: "immersiveengineering:refinery"
 			}
 			id: "471735A69C5C3339"
-			tasks: [{
-				advancement: "immersiveengineering:multiblocks/mb_refinery"
-				criterion: ""
-				id: "4648E821F02A741D"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_refinery"
+					criterion: ""
+					id: "4648E821F02A741D"
+					type: "advancement"
+				}
+				{
+					id: "597B168702F7B2A7"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "61269DFC0D934179"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "650C5E0227D6C78E"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "5D6218392888E7AF"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "3A2AF746E8C728C4"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "3C79A70E82D61968"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 4.5d
 		}
@@ -531,24 +664,59 @@
 				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0D7299047145F61C"]
+			icon: {
+				id: "immersiveengineering:assembler"
+			}
 			id: "5FBC1038ACB861CE"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:assembler"
+			tasks: [
+				{
+					icon: {
+						id: "immersiveengineering:assembler"
+					}
+					id: "41360E57DF841209"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:assembler"
+					type: "observation"
 				}
-				id: "41360E57DF841209"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:assembler"
-				type: "observation"
-			}]
+				{
+					id: "37053B0CFD3B045B"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "692BC8256A40CF54"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "683D6312A820D16F"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "5384235B4A8D49AE"
+					item: { count: 1, id: "immersiveengineering:slab_sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "365D993BBB5C3AC4"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "743C33CA4B200EE6"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
 			x: 5.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["51AF97CE4E91A2D9"]
