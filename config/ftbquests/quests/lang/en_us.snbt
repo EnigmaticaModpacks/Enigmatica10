@@ -352,6 +352,11 @@
 		"So, consider leaving a few un-broken so they can spread to new leaves. "
 	]
 	quest.0A0D539C1285F40F.title: "Gold Leaf"
+	quest.0A170AE8092145FA.quest_desc: [
+		"A basic power option, Water Wheels need flowing water to push them, causing them to rotate. "
+		""
+		"Up to three Water Wheels may be connected to the same Kinetic Dynamo."
+	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -608,6 +613,18 @@
 		""
 		"&a🛈 Tip: The Sulfur may be extracted again via Right-Click."
 	]
+	quest.10021117D89C531F.quest_desc: [
+		""
+		""
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.10131A9E07C7CE9E.quest_desc: [
 		"Ever wished you could perform rituals instantly? "
 		""
@@ -692,6 +709,21 @@
 		""
 		"&a🛈 Tip: You can use more than four "
 		"&a    Laser Drills on a Laser Base!"
+	]
+	quest.134D69D38C983AE2.quest_desc: [
+		"The Diesel Generator is a robust power source that should be capable of covering most energy costs in Immersive Engineering. "
+		""
+		"It will consume fuel rapidly, so keeping up with production will be the most important aspect of operating the device."
+		""
+		"Refer to the Engineer’s Manual for a list of valid fuels."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.1386A595D84FE6FC.quest_desc: [
 		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
@@ -884,6 +916,19 @@
 		"&a    use."
 	]
 	quest.176DAF596793D4FF.title: "Waste Management"
+	quest.180610F8982DB0C3.quest_desc: [
+		"Looking to stretch your ores a bit further? Consider processing your Raw Ores through a Crusher."
+		""
+		"Be careful with what you put inside of it, however, as it tends to destroy items that it cannot process."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.1824109EF4F096A1.quest_desc: [
 		"Power requirements are going to rapidly increase in this stage. Setting up some extra boilers in advance will save you trouble down the road. "
 		""
@@ -993,6 +1038,20 @@
 		"Greater range will cost more power!"
 	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
+	quest.1D2BB7149630A9E2.quest_desc: [
+		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
+		""
+		"Mineral Deposits are generated in roughly circular areas, can be several chunks wide, and may even overlap each other. "
+		""
+		"Their resources will be mineable anywhere in that area, but they are densest in the center. Therefore, it’s worthwhile locating the center and building the Excavator there for faster extraction."
+		"&n                                                  "
+		""
+		"Begin your search by using the Survey Tools. To operate them, hold them in your hand and point at a block such as Grass or Stone. Click and Hold the Right Mouse Button until the animation finishes. If a Mineral Deposit is nearby, you will be notified near the bottom of the screen."
+		""
+		"Once you’ve gotten within a few blocks of the center, a Core Sample Drill can be useful for pinpointing the exact location where the Saturation is 100%. "
+		""
+		"This is where you'll want to set up an Excavator."
+	]
 	quest.1D3ECD980E15451B.quest_desc: [
 		"Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."
 		""
@@ -1558,6 +1617,13 @@
 		""
 		"Some scrolls will only be available with higher tier inks!"
 	]
+	quest.2DFAEB81548A578A.quest_desc: [
+		"Thermoelectric Generators are low power solid-state power generators. You will need a hot and a cold block placed on opposing sides for it to work. "
+		""
+		"For example, Blue Ice on one side, and Uranium on the other will generate the most power. "
+		""
+		"Refer to the Engineer’s Manual for a full list of compatible blocks."
+	]
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
 	quest.2F797BC2E447F9BF.quest_desc: [
@@ -1777,6 +1843,19 @@
 		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
 		""
 		"It can commonly be found by mining between &6Y 45&r and &6Y -25&r."
+	]
+	quest.384024534B512211.quest_desc: [
+		"Like most other Technology mods, Immersive Engineering is compatible with FE. You may choose to use the mod’s own power options, or those from other mods."
+		""
+		"For most machines, you can simply run any power cable to the energy port. A few blocks, like Powered Lanterns, can only be powered with IE wire, however."
+		""
+		"To use IE’s wiring, you’ll need a Connector at both ends with Relays used to extend a wire's reach. "
+		""
+		"Relays can have multiple wires connected, while Connectors only permit one connection. Right-Click from one block to another with a Wire Coil to make a connection."
+		""
+		"Connections may be snipped with Wire Cutters."
+		""
+		"&c⚠ Warning: Uninsulated wiring is deadly!"
 	]
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
@@ -2421,6 +2500,18 @@
 		""
 		"They have the ability to auto input and output, as well as to void excess. "
 	]
+	quest.433DD2ED590790F8.quest_desc: [
+		""
+		""
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.434D90BB00EE7F7C.quest_desc: [
 		"After Tier Installers, Upgrade cards are the best way to enhance a machine. These can all be installed into machines by Sneak Right-Clicking them onto a machine. Alternatively, open the GUI and insert them directly in the Upgrade window."
 		""
@@ -2562,6 +2653,22 @@
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
 	]
+	quest.4689338CF3688902.quest_desc: [
+		"Once a Resource Node has been located, you’ll need to build an Excavator on site to extract ores. "
+		""
+		"Resource Nodes have been enhanced in &6Enigmatica 10&r. As a result, each node should last you a good long while. "
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+		""
+		"&6⚠ Note: The structure will accept "
+		"&6    any Steel Block. "
+	]
 	quest.471571E3E382B404.quest_desc: [
 		"String Curtains are a wonderful way to decorate your home, but they can also be quite functional!"
 		""
@@ -2572,6 +2679,18 @@
 		"&a🛈 Tip: Right-Click the Curtain with"
 		"&a    String to extend it downwards."
 	]
+	quest.471735A69C5C3339.quest_desc: [
+		""
+		""
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.472936F50BC28EBF.quest_desc: [
 		"Sophisticated Storage offers a wide range of inventories to suit your needs, all of which may be connected through a Storage Controller for centralized access to everything in the network. "
 		""
@@ -2580,6 +2699,11 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
+	quest.47C5F9198615E0D5.quest_desc: [
+		"Windmills are the earliest form of power in Immersive Engineering. "
+		""
+		"Simply place a Kinetic Dynamo somewhere in the open and install a Windmill on the front to begin generating some basic power."
+	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
 		""
@@ -2720,6 +2844,19 @@
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
 	quest.4A60707DB5548805.title: "Ophyx's Calling"
+	quest.4A80ADB324E4A6CA.quest_desc: [
+		"Crafting Rods, Plates, Wires, and Gears will become much simpler with a Metal Press, so consider setting one up soon to assist with those crafts. "
+		""
+		"It’s best to set one up for each type of craft since the Press Mold’s can only be swapped by hand."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.4A8EF3D657CEAED5.quest_desc: [
 		"All those batteries are looking pretty costly by now. With no Lead or Antimony from the Steam Quarry, you’re probably back to manual mining again, right?"
 		""
@@ -2916,6 +3053,22 @@
 		""
 		"Refer to the Book of Natural Aura for more information."
 	]
+	quest.4EB2FB91070CD11F.quest_desc: [
+		"An Arc Furnace may be used to create alloys considerably more easily than an Alloy Kiln, allowing automated inputs and outputs. "
+		""
+		"This device does need Graphite Electrodes to operate and these must be inserted by hand, however a set of them will last through tens of thousands of crafts."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+		""
+		"&6⚠ Note: The structure will accept "
+		"&6    any Steel Block. "
+	]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
 	quest.4F19A0AECC129216.quest_desc: [
@@ -3079,6 +3232,21 @@
 		""
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
+	]
+	quest.5312467FB51C5B36.quest_desc: [
+		"An Alloy Kiln is a particularly basic machine that requires manual operation. It can help you get started with some necessary alloys, but you should consider replacing it as soon as possible. "
+		""
+		"For many alloys, you’ll be able to simply grind the component metals to dust and mix them to create a blend that can be smelted into the alloy instead."
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 2x2x2 cube of Kiln Bricks. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the top-right block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.5362D855D207F79A.quest_desc: [
 		"With a Distillery up and running, it should be possible to offset some energy costs by running some Diesel Generators. "
@@ -4623,6 +4791,17 @@
 		""
 		"Place the block in an area where you don’t want to be sucking up items randomly. Or carry the orb with you to enable and disable the trait at will. Just Right-Click it to toggle the feature."
 	]
+	quest.7AA55D33A2BD1E6E.quest_desc: [
+		"The Industrial Squeezer is primarily used for obtaining Plant Oil, it’s also the only source of HOP Graphite used in advanced crafts. "
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.7ADBC282C9692EDE.quest_desc: ["Cable Façades are a universal façade that you can use to cover just about any pipe! "]
 	quest.7ADBC282C9692EDE.title: "Cable Facades"
 	quest.7B5EB5D6F749520F.quest_desc: [
@@ -4902,6 +5081,7 @@
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.62742836108A45A3.title: "Addon: Efficiency"
+	task.630138BF6B3E58AA.title: "Industrial Squeezer"
 	task.6434DA9DBF54356B.title: "Ender Gates"
 	task.64C50D306E73EA0A.title: "Tier Installers"
 	task.6614885B79D0A53B.title: "Observe a Beehive or Bee Nest"
@@ -4924,6 +5104,7 @@
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
 	task.7431A946D23EA21C.title: "FE Storage"
+	task.74FDE36B1D6613C4.title: "Alloy Kiln"
 	task.75050C1ED68FA527.title: "Building Gadgets"
 	task.75934726B8EC6FC8.title: "Ritual Tablets"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
