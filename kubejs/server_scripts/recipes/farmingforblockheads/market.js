@@ -186,6 +186,18 @@ ServerEvents.recipes((event) => {
             category: 'farmingforblockheads:seeds',
             result: { count: 1, item: 'supplementaries:flax_seeds' },
             id: `${id_prefix}supplementaries_flax_seeds`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            preset: 'enigmatica:refined_soulstone',
+            result: { count: 1, item: 'malum:runewood_sapling' },
+            id: `${id_prefix}runewood_sapling`
+        },
+        {
+            category: 'farmingforblockheads:saplings',
+            preset: 'enigmatica:refined_soulstone',
+            result: { count: 1, item: 'malum:azure_runewood_sapling' },
+            id: `${id_prefix}azure_runewood_sapling`
         }
     ];
 

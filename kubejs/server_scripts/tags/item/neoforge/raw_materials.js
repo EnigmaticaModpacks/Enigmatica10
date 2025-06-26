@@ -8,7 +8,8 @@ ServerEvents.tags('item', (event) => {
         nickel: ['oritech:raw_nickel'],
         platinum: ['oritech:raw_platinum'],
 
-        replica: ['replication:raw_replica']
+        replica: ['replication:raw_replica'],
+        soulstone: ['malum:raw_soulstone']
     };
 
     Object.keys(additions).forEach((tag) => {

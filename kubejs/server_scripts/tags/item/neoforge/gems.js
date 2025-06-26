@@ -25,7 +25,11 @@ ServerEvents.tags('item', (event) => {
         gold: ['oritech:gold_gem'],
         fluxite: ['oritech:fluxite'],
         overcharged_crystal: ['oritech:overcharged_crystal'],
-        enderic: ['oritech:enderic_compound']
+        enderic: ['oritech:enderic_compound'],
+        soulstone: ['malum:refined_soulstone'],
+        brilliant: ['malum:refined_brilliance'],
+        blazing_quartz: ['malum:blazing_quartz'],
+        arcane_charcoal: ['malum:arcane_charcoal']
     };
 
     Object.keys(additions).forEach((tag) => {

@@ -3478,6 +3478,11 @@
 		"&6    uncontrollable. This is best used "
 		"&6    for crafting items."
 	]
+	quest.58A275DB77CDF7F8.quest_desc: [
+		"Malum adds several special drops from mobs that are only obtainable with an appropriate weapon. "
+		""
+		"Normally, you will want to start by crafting a Crude Scythe, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
+	]
 	quest.59293885E5C9E8A3.quest_desc: [
 		"A simple machine used for crushing ores and other materials. "
 		""
@@ -5033,10 +5038,12 @@
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
+	task.2404D63C45135601.title: "Spirits"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
+	task.26180CD75616C6C3.title: "Esoteric Mob Drops"
 	task.26CFE1DCF255EEE8.title: "Any Pickaxe"
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
@@ -5048,6 +5055,7 @@
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
 	task.2F80CC8DB5818C3B.title: "Possess Iesnium Golem"
 	task.3153DDF073D649E4.title: "Divination Rods"
+	task.31B1D4D0DBFCDCD6.title: "Runewood Pedestals"
 	task.328C56BA23A70B8F.title: "Power"
 	task.3300E2246181D0F7.title: "Any Scroll"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
@@ -5083,6 +5091,7 @@
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
 	task.446D6081668C30D2.title: "Ritual Satchels"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
+	task.456BBAC38A4A3719.title: "Soul Shattering Weapons"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4648E821F02A741D.title: "Refinery"
 	task.4775BC243353527B.title: "Any Mining Gadget"
