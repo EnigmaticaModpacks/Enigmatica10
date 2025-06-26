@@ -1354,7 +1354,11 @@
 		"This mod is a collection of eclectic features meant to make life easier, offering machines to help with farming, new potion brewing mechanics, mining tools and much more. "
 	]
 	quest.25770E9DCA5B4B1F.title: "Actually Additions"
-	quest.25B779319401405B.quest_desc: ["WIP"]
+	quest.25B779319401405B.quest_desc: [
+		"Welcome to Malum!"
+		""
+		"This quest section is a work in progress, please refer to the Encyclopedia Arcana for a guide on using this mod."
+	]
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
 		"&n                                                 &r"

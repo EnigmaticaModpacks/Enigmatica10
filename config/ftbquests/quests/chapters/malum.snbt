@@ -9,13 +9,65 @@
 	id: "0C0D9C8007301C03"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "25B779319401405B"
-		tasks: [{
-			id: "3D94DD777B4EB397"
-			type: "checkmark"
-		}]
-		x: 2.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "malum:textures/gui/book/icons/umbral_shard.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "25B779319401405B"
+			tasks: [{
+				id: "3D94DD777B4EB397"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25B779319401405B"]
+			id: "3BF1CB7CDDA99856"
+			tasks: [{
+				id: "025E3A85A644BF38"
+				item: { count: 1, id: "malum:refined_soulstone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3BF1CB7CDDA99856"]
+			id: "58A275DB77CDF7F8"
+			tasks: [{
+				id: "456BBAC38A4A3719"
+				item: { count: 1, id: "malum:crude_scythe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58A275DB77CDF7F8"]
+			id: "359562022532BAE1"
+			tasks: [{
+				id: "0A850556620B0740"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			id: "12172FE2BEB83505"
+			tasks: [{
+				id: "1213CE883D6DD1B4"
+				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
 }
