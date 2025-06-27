@@ -165,7 +165,7 @@
 				item: { count: 1, id: "malum:spirit_crucible" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -176,8 +176,8 @@
 				item: { count: 1, id: "malum:spirit_catalyzer" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1E0B03155C2CAEE7"]
@@ -187,18 +187,26 @@
 				item: { count: 1, id: "malum:repair_pylon" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1E0B03155C2CAEE7"]
 			id: "369D0F2CC8D028D2"
-			tasks: [{
-				id: "1696F5F99C744933"
-				item: { count: 1, id: "malum:tuning_fork" }
+			rewards: [{
+				id: "57103CFC2BDFE0C3"
+				item: {
+					count: 1
+					id: "malum:tuning_fork"
+				}
 				type: "item"
 			}]
-			x: 1.5d
+			tasks: [{
+				id: "2F65A10B08073D6D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:augments)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -224,8 +232,61 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 0.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			id: "710D7615763E9945"
+			rewards: [{
+				count: 16
+				id: "2AF87D4959ADA1B5"
+				item: {
+					count: 1
+					id: "malum:ether"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "398A2AE8E3130FAD"
+				item: { count: 1, id: "malum:soulbinding_brazier" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1C83B47F599B117A"
+			rewards: [{
+				id: "798FEE6B05E87056"
+				item: {
+					count: 1
+					id: "ars_nouveau:stable_warp_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7001E329BB1CB543"
+				item: { count: 1, id: "malum:encyclopedia_esoterica" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C83B47F599B117A"]
+			hide_until_deps_complete: true
+			id: "01D2F67E2543155E"
+			tasks: [{
+				id: "2D92956F1FC2B3EF"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(malum:hidden_items/void)item_tag(malum:materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
 		}
 	]
 }

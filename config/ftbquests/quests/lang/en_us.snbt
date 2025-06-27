@@ -69,6 +69,13 @@
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
+	quest.01D2F67E2543155E.quest_desc: [
+		"These materials are obtained at the Weeping Well by throwing in some sacrificial item. "
+		""
+		"Explore this new chapter in the Encyclopedia to discover all the new possibilities that have opened to you. "
+		""
+		"Be sure to make note of this location as you’ll need it to obtain these powerful components for advanced crafts."
+	]
 	quest.01E9BF979ED779AE.quest_desc: [
 		"Welcome to Iron’s Spells and Spellbooks!"
 		""
@@ -664,6 +671,16 @@
 		"Working with the mod is straightforward but be sure to check out the Guidebook for an in-depth walkthrough on cross-pollination. "
 	]
 	quest.1272A1D0BD9934AE.title: "Productive Trees"
+	quest.128449F277949E31.quest_desc: [
+		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
+		""
+		"The Repair Pylon will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
+		""
+		"For such items, you’ll want to place them in an Item Stand or Item Pedestal nearby."
+		""
+		"&6⚠ Note: Only the Spirits are consumed "
+		"&6    by this process."
+	]
 	quest.128669F9F6431E0A.quest_desc: [
 		"The Bio Reactor is a more advanced generator which produces more FE per tick based on the number of items it is burning. "
 		""
@@ -1042,7 +1059,22 @@
 		""
 		"Greater range will cost more power!"
 	]
+	quest.1C83B47F599B117A.quest_desc: [
+		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
+		"&n                                                  "
+		""
+		"Locate a Weeping Well deep underground and throw your Encyclopedia Arcana into it to obtain the necessary knowledge. "
+		""
+		"This is easier said than done, of course, but you can use a Wayfinder to help you locate the structure. "
+		""
+		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
+	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
+	quest.1CF0D1E63C34AE6E.quest_desc: [
+		"Spirit Catalyzers help speed up the Spirit Crucible. Simply place them nearby and fill them with your choice of furnace fuel."
+		""
+		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
+	]
 	quest.1D2BB7149630A9E2.quest_desc: [
 		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
 		""
@@ -1087,6 +1119,13 @@
 		"But what if you could make your own friends? Cute, lovable, huggable friends that would spark joy just by being around? "
 	]
 	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
+	quest.1E0B03155C2CAEE7.quest_desc: [
+		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
+		""
+		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials; Arcane for Redstone, Infernal for Glowstone, and more. "
+		""
+		"The Impetus will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
+	]
 	quest.1E0B03155C2CAEE7.title: "Spirit Focusing"
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
@@ -1911,6 +1950,17 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.369D0F2CC8D028D2.quest_desc: [
+		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment."
+		""
+		"The same augment may be used more than once, however it may be best to mix and match different augments to achieve the best results. "
+		""
+		"Holding a Tuning Fork in your hand will display the total effect of all installed augments. "
+		""
+		"Right-Clicking the Crucible with the Tuning Fork will also allow you to select a modifier for an even greater boost."
+		""
+		"Experiment with them to see what you like best!"
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.380D0C6385B6325C.quest_desc: [
@@ -2873,7 +2923,13 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
-	quest.48B6E6CDBFFD77A7.quest_desc: ["make a brooch to get rune slots, then equip runes"]
+	quest.48B6E6CDBFFD77A7.quest_desc: [
+		"Runes may be imbued with powerful effects that become active when worn. Equipping them, however, requires an appropriate receptacle. "
+		""
+		"Begin by crafting a Runic Brooch. Once equipped, it will allow you to equip two Runes of your choice. "
+		""
+		"Runes themselves are crafted on the Runic Workbench. This is done easily enough by clicking the central recipe item onto the Workbench, followed by the required Spirits."
+	]
 	quest.48B6E6CDBFFD77A7.title: "Runeworking"
 	quest.48F3D3784D8CE545.quest_desc: [
 		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
@@ -4488,6 +4544,19 @@
 		"&6⚠ Note: Machines simply do not run if"
 		"&6    given the wrong tier of power."
 	]
+	quest.710D7615763E9945.quest_desc: [
+		"Oaths and vows have power, though they come at a cost. "
+		""
+		"The Soulbinding Brazier is used to enter in to such a pact, the details of which may be found within the Encyclopedia Arcana. "
+		""
+		"Choose carefully, as breaking your pact is not done easily. "
+		"&n                                                  "
+		""
+		"To start the ritual, place the central item in the brazier, followed by all the items listed around it in the recipe. If done correctly, all the items will go from circling around the brazier to circling above it. "
+		""
+		"Once the items are ready, ignite the brazier by Right-Clicking with Ether. Finally, Right-Click the brazier one final time and wait for the animation to finish. "
+	]
+	quest.710D7615763E9945.title: "Geasa"
 	quest.7163E7EBDB861D72.quest_desc: [
 		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
 		""
@@ -5125,16 +5194,18 @@
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
-	task.26180CD75616C6C3.title: "Esoteric Mob Drops"
+	task.26180CD75616C6C3.title: "Esoteric Materials"
 	task.26CFE1DCF255EEE8.title: "Any Pickaxe"
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2AAC3DCFDCAB9E89.title: "Industrial Fermenter"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
+	task.2D92956F1FC2B3EF.title: "Void Materials"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E4DEB3FEE0D15CD.title: "Any Sapling"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
+	task.2F65A10B08073D6D.title: "Spirit Crucible Augments"
 	task.2F80CC8DB5818C3B.title: "Possess Iesnium Golem"
 	task.3153DDF073D649E4.title: "Divination Rods"
 	task.31B1D4D0DBFCDCD6.title: "Runewood Pedestals"

@@ -1,6 +1,7 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        hallowed_gold: ['malum:hallowed_gold_nugget']
+        hallowed_gold: ['malum:hallowed_gold_nugget'],
+        malginant_pewter: ['malum:malginant_pewter_nugget']
     };
 
     Object.keys(additions).forEach((tag) => {
