@@ -1608,6 +1608,8 @@
 		""
 		"Check the Encyclopedia Arcana for an in depth description of each rite and a list of the glyphs required to encode it. "
 		""
+		"Setting up Wicked Rites can be an excellent way to help farm more Spirits."
+		""
 		"&a🛈 Tip: A Totemic Staff will display a "
 		"&a    totem's working area when held."
 	]
@@ -5144,6 +5146,7 @@
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
 	reward_table.6862A48B512292FB.title: "Iron's Starter Scroll"
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
+	reward_table.6F5C02ACE833C527.title: "Malum Lootbox"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
