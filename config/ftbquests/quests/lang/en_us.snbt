@@ -1121,6 +1121,7 @@
 	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
 	quest.1E0B03155C2CAEE7.quest_desc: [
 		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
+		"&n                                                  "
 		""
 		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials; Arcane for Redstone, Infernal for Glowstone, and more. "
 		""
@@ -1397,7 +1398,7 @@
 	quest.25B779319401405B.quest_desc: [
 		"Welcome to Malum, a magic mod designed around the manipulation of spirits to invoke powerful rituals."
 		""
-		"This quest section is a work in progress, please refer to the Encyclopedia Arcana for a guide on using this mod."
+		"This quest section covers the basics of using the mod. For more in-depth explanations, please refer to the Encyclopedia Arcana."
 	]
 	quest.25B779319401405B.title: "Malum"
 	quest.25D327DB56E51DA5.quest_desc: [
@@ -1610,8 +1611,8 @@
 		""
 		"Setting up Wicked Rites can be an excellent way to help farm more Spirits."
 		""
-		"&a🛈 Tip: A Totemic Staff will display a "
-		"&a    totem's working area when held."
+		"&a🛈 Tip: A Totemic Staff will display a totem's "
+		"&a    working area when held."
 	]
 	quest.2A7455D9EE649BA4.title: "Totemic Magic"
 	quest.2A83BC699BE18F3A.quest_desc: [
@@ -2118,9 +2119,14 @@
 		"&a    with TNT in an Anvil!"
 	]
 	quest.3BF1CB7CDDA99856.quest_desc: [
-		"Working with spirits is a dirty business, both physically and mentally. You’ll need proper materials to have any hope of mastering this magic, and that all starts with Soulstone. "
+		"Working with spirits is a messy business, both physically and mentally. "
 		""
-		"We’ll learn ways to further refine this later. For now, start digging and locate some Soulstone Ore. You’ll need to smelt this to obtain Refined Soulstone."
+		"You’ll need proper materials to have any hope of mastering this magic, and that all starts with Soulstone. "
+		"&n                                                  "
+		""
+		"We’ll learn ways to further refine this later. "
+		""
+		"For now, start digging and locate some Soulstone Ore. You’ll need to smelt this to obtain Refined Soulstone."
 	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
@@ -2927,6 +2933,7 @@
 	quest.487C1E9850772F38.title: "Steel Upgrades"
 	quest.48B6E6CDBFFD77A7.quest_desc: [
 		"Runes may be imbued with powerful effects that become active when worn. Equipping them, however, requires an appropriate receptacle. "
+		"&n                                                  "
 		""
 		"Begin by crafting a Runic Brooch. Once equipped, it will allow you to equip two Runes of your choice. "
 		""

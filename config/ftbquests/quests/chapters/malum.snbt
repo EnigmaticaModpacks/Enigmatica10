@@ -104,6 +104,12 @@
 		{
 			dependencies: ["58A275DB77CDF7F8"]
 			id: "5A74D7EFD6AD1EAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "677E36E33B7D19E9"
+				table_id: 8024291577720718631L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2404D63C45135601"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:spirits)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -115,6 +121,12 @@
 		{
 			dependencies: ["58A275DB77CDF7F8"]
 			id: "26115C1BB363EF58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C29C5D7B8E020EA"
+				table_id: 8024291577720718631L
+				type: "random"
+			}]
 			tasks: [{
 				id: "26180CD75616C6C3"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(malum:materials)item_tag(malum:mob_drops)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -369,8 +381,8 @@
 				item: { count: 1, id: "malum:encyclopedia_esoterica" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1C83B47F599B117A"]
@@ -387,8 +399,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(malum:hidden_items/void)item_tag(malum:materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.0d
+			x: -0.5d
+			y: 3.5d
 		}
 	]
 }
