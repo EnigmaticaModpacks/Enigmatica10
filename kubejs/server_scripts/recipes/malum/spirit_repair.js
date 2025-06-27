@@ -116,6 +116,16 @@ ServerEvents.recipes((event) => {
         },
         {
             inputs: [],
+            itemIdRegex: `valkyrie_.+`,
+            repairMaterial: { tag: `c:ingots/iron`, count: 2 },
+            spirits: [
+                { type: 'sacred', count: 8 },
+                { type: 'arcane', count: 8 }
+            ],
+            id: `${id_prefix}valkyrie`
+        },
+        {
+            inputs: [],
             itemIdRegex: `obsidian_.+`,
             repairMaterial: { tag: `c:obsidians/normal`, count: 1 },
             spirits: [
@@ -188,10 +198,7 @@ ServerEvents.recipes((event) => {
                 'irons_spellbooks:pumpkin_helmet'
             ],
             repairMaterial: { item: 'irons_spellbooks:magic_cloth', count: 2 },
-            spirits: [
-                { type: 'arcane', count: 8 },
-                { type: 'earthen', count: 8 }
-            ],
+            spirits: [{ type: 'arcane', count: 16 }],
             id: `${id_prefix}magic_cloth`
         },
         {
