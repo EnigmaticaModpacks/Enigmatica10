@@ -177,7 +177,15 @@ ServerEvents.recipes((event) => {
                 'irons_spellbooks:pyromancer_boots',
                 'irons_spellbooks:pyromancer_leggings',
                 'irons_spellbooks:pyromancer_chestplate',
-                'irons_spellbooks:pyromancer_helmet'
+                'irons_spellbooks:pyromancer_helmet',
+                'irons_spellbooks:wandering_magician_boots',
+                'irons_spellbooks:wandering_magician_leggings',
+                'irons_spellbooks:wandering_magician_chestplate',
+                'irons_spellbooks:wandering_magician_helmet',
+                'irons_spellbooks:pumpkin_boots',
+                'irons_spellbooks:pumpkin_leggings',
+                'irons_spellbooks:pumpkin_chestplate',
+                'irons_spellbooks:pumpkin_helmet'
             ],
             repairMaterial: { item: 'irons_spellbooks:magic_cloth', count: 2 },
             spirits: [
@@ -227,28 +235,6 @@ ServerEvents.recipes((event) => {
                 { type: 'arcane', count: 8 }
             ],
             id: `${id_prefix}netherite`
-        },
-        {
-            inputs: [
-                'irons_spellbooks:wandering_magician_boots',
-                'irons_spellbooks:wandering_magician_leggings',
-                'irons_spellbooks:wandering_magician_chestplate',
-                'irons_spellbooks:wandering_magician_helmet'
-            ],
-            repairMaterial: { tag: 'c:leathers', count: 1 },
-            spirits: [{ type: 'earthen', count: 4 }],
-            id: `${id_prefix}leather`
-        },
-        {
-            inputs: [
-                'irons_spellbooks:pumpkin_boots',
-                'irons_spellbooks:pumpkin_leggings',
-                'irons_spellbooks:pumpkin_chestplate',
-                'irons_spellbooks:pumpkin_helmet'
-            ],
-            repairMaterial: { item: 'minecraft:hay_block', count: 1 },
-            spirits: [{ type: 'earthen', count: 2 }],
-            id: `${id_prefix}hay_block`
         }
     ];
 
