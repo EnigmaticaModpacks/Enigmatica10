@@ -12,12 +12,25 @@
 	quests: [
 		{
 			icon: {
-				components: {
-					"ftbquests:icon": "malum:textures/gui/book/icons/umbral_shard.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "malum:umbral_spirit"
 			}
 			id: "25B779319401405B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18F724BA0F00CF8F"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					id: "6E6FCDA31E8A87FD"
+					item: {
+						count: 1
+						id: "malum:runewood_sapling"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "121F1EBA0AF05D9A"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -29,6 +42,15 @@
 		{
 			dependencies: ["25B779319401405B"]
 			id: "3BF1CB7CDDA99856"
+			rewards: [{
+				count: 16
+				id: "3CD3E537BCCBACD2"
+				item: {
+					count: 1
+					id: "malum:refined_soulstone"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "025E3A85A644BF38"
 				item: { count: 1, id: "malum:refined_soulstone" }
