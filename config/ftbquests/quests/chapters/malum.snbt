@@ -104,12 +104,22 @@
 		{
 			dependencies: ["58A275DB77CDF7F8"]
 			id: "5A74D7EFD6AD1EAC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "677E36E33B7D19E9"
-				table_id: 8024291577720718631L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "677E36E33B7D19E9"
+					table_id: 8024291577720718631L
+					type: "random"
+				}
+				{
+					id: "3F39516CE484523A"
+					item: {
+						count: 1
+						id: "malum:spirit_jar"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2404D63C45135601"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:spirits)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
