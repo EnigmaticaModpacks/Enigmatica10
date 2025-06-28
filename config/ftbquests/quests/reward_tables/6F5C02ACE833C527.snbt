@@ -1,0 +1,119 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "kubejs:item/lootbox/epic"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6F5C02ACE833C527"
+	loot_size: 2
+	order_index: 27
+	rewards: [
+		{
+			id: "28E4F7EB984CEB1E"
+			item: {
+				count: 1
+				id: "malum:sacred_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "6ED4CBEF7FD1CC26"
+			item: {
+				count: 1
+				id: "malum:infernal_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "005F81156D94631E"
+			item: {
+				count: 1
+				id: "malum:aerial_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "33E427AA6BDE4D4E"
+			item: {
+				count: 1
+				id: "malum:eldritch_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "03FF5BCAAA443B1C"
+			item: {
+				count: 1
+				id: "malum:aqueous_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "1234BFF2A5096775"
+			item: {
+				count: 1
+				id: "malum:earthen_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "54A05E5AA94D3341"
+			item: {
+				count: 1
+				id: "malum:wicked_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "31DA16C0D10C340C"
+			item: {
+				count: 1
+				id: "malum:arcane_spirit"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "6DF2BF160C06C713"
+			item: {
+				count: 1
+				id: "malum:warp_flux"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "6C43A19A3C3B65E2"
+			item: {
+				count: 1
+				id: "malum:grim_talc"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "1B19A32810BE49B4"
+			item: {
+				count: 1
+				id: "malum:astral_weave"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "20E7D1D6C32582A8"
+			item: {
+				count: 1
+				id: "malum:rotting_essence"
+			}
+			random_bonus: 8
+		}
+		{
+			id: "690664A698BE9BF0"
+			item: {
+				count: 1
+				id: "malum:wind_nucleus"
+			}
+			random_bonus: 8
+		}
+	]
+	use_title: true
+}

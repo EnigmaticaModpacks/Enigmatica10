@@ -46,6 +46,8 @@ ServerEvents.recipes((event) => {
         { id: /oritech:centrifuge\/fluid\/compat\/(mekanism|create)/ },
         { id: /oritech:(splashing|blasting)\/compat\/create/ },
 
+        { id: /malum:malum\/spirit_crucible\/repair\/occultism/ },
+
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
         { id: 'advanced_ae:certuscharger' },
         { id: 'advanced_ae:chargedredstone' },

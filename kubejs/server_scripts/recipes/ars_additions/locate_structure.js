@@ -3,9 +3,9 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            augments: [{ key: 'minecraft:ender_eye' }],
-            structure: { key: 'minecraft:stronghold' },
-            id: `${id_prefix}stronghold`
+            augments: [{ key: 'naturesaura:token_grief' }],
+            structure: { key: 'malum:weeping_well' },
+            id: `${id_prefix}weeping_well`
         },
         {
             augments: [{ key: 'evilcraft:dark_gem' }],

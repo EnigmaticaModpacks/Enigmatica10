@@ -1,5 +1,6 @@
 {
 	chapter.0095002B3E34FD9A.title: "Occultism"
+	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
@@ -68,6 +69,13 @@
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
+	quest.01D2F67E2543155E.quest_desc: [
+		"These materials are obtained at the Weeping Well by throwing in some sacrificial item. "
+		""
+		"Explore this new chapter in the Encyclopedia to discover all the new possibilities that have opened to you. "
+		""
+		"Be sure to make note of this location as you’ll need it to obtain these powerful components for advanced crafts."
+	]
 	quest.01E9BF979ED779AE.quest_desc: [
 		"Welcome to Iron’s Spells and Spellbooks!"
 		""
@@ -663,6 +671,16 @@
 		"Working with the mod is straightforward but be sure to check out the Guidebook for an in-depth walkthrough on cross-pollination. "
 	]
 	quest.1272A1D0BD9934AE.title: "Productive Trees"
+	quest.128449F277949E31.quest_desc: [
+		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
+		""
+		"The Repair Pylon will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
+		""
+		"For such items, you’ll want to place them in an Item Stand or Item Pedestal nearby."
+		""
+		"&6⚠ Note: Only the Spirits are consumed "
+		"&6    by this process."
+	]
 	quest.128669F9F6431E0A.quest_desc: [
 		"The Bio Reactor is a more advanced generator which produces more FE per tick based on the number of items it is burning. "
 		""
@@ -1041,7 +1059,22 @@
 		""
 		"Greater range will cost more power!"
 	]
+	quest.1C83B47F599B117A.quest_desc: [
+		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
+		"&n                                                  "
+		""
+		"Locate a Weeping Well deep underground and throw your Encyclopedia Arcana into it to obtain the necessary knowledge. "
+		""
+		"This is easier said than done, of course, but you can use a Wayfinder to help you locate the structure. "
+		""
+		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
+	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
+	quest.1CF0D1E63C34AE6E.quest_desc: [
+		"Spirit Catalyzers help speed up the Spirit Crucible. Simply place them nearby and fill them with your choice of furnace fuel."
+		""
+		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
+	]
 	quest.1D2BB7149630A9E2.quest_desc: [
 		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
 		""
@@ -1086,6 +1119,15 @@
 		"But what if you could make your own friends? Cute, lovable, huggable friends that would spark joy just by being around? "
 	]
 	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
+	quest.1E0B03155C2CAEE7.quest_desc: [
+		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
+		"&n                                                  "
+		""
+		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials; Arcane for Redstone, Infernal for Glowstone, and more. "
+		""
+		"The Impetus will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
+	]
+	quest.1E0B03155C2CAEE7.title: "Spirit Focusing"
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
 		""
@@ -1353,6 +1395,12 @@
 		"This mod is a collection of eclectic features meant to make life easier, offering machines to help with farming, new potion brewing mechanics, mining tools and much more. "
 	]
 	quest.25770E9DCA5B4B1F.title: "Actually Additions"
+	quest.25B779319401405B.quest_desc: [
+		"Welcome to Malum, a magic mod designed around the manipulation of spirits to invoke powerful rituals."
+		""
+		"This quest section covers the basics of using the mod. For more in-depth explanations, please refer to the Encyclopedia Arcana."
+	]
+	quest.25B779319401405B.title: "Malum"
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
 		"&n                                                 &r"
@@ -1371,6 +1419,15 @@
 		"When placed, all Stone or Netherrack in an area will be slowly converted to random ores at the cost of Aura. "
 		""
 		"This requires extremely high Aura to begin functioning and has an ongoing cost. You’ll need a Creational Catalyst to even begin, and you’ll very likely want a strong Aura Generator, like a Shooting Mark, to cover the operational cost. "
+	]
+	quest.26115C1BB363EF58.quest_desc: [
+		"These materials are obtained by killing the appropriate mobs with a Soul Shattering Weapon:"
+		""
+		"    • Breeze - Wind Nucleus"
+		"    • Endermen - Warp Flux"
+		"    • Skeleton - Grim Talc"
+		"    • Phantom - Astral Weave "
+		"    • Zombie - Rotting Essence"
 	]
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
@@ -1534,6 +1591,30 @@
 		"&a    roof or floor of the dimension."
 	]
 	quest.2A2D51206676A83C.title: "The Bumblezone"
+	quest.2A7455D9EE649BA4.quest_desc: [
+		"Totemic Magic allows the intrepid sorcerer to create effects in an area and can produce some rather unique effects. "
+		""
+		"For example, the Rite of Sapping allows Dripstone to work more quickly, while the Rite of the Seas enhances one’s fishing abilities while standing in the area."
+		"&n                                                             "
+		""
+		"Setting up a totem is a straightforward endeavor. Simply place a Runewood Totem Base and then place a number of Runewood logs atop it in a column. The number of logs required will depend on the specific ritual."
+		""
+		"Encoding the glyphs requires you to Right-Click the logs with the appropriate Spirit. "
+		""
+		"For the Rite of Sapping we would need four logs. Right-Click each log from top to bottom with &9Aqueous&r, &9Aqueous&r, &dArcane&r, and &5Eldritch&r. "
+		""
+		"Finally, Right-Click the base to activate the ritual."
+		""
+		"These rituals, once activated, require no maintenance nor upkeep. "
+		""
+		"Check the Encyclopedia Arcana for an in depth description of each rite and a list of the glyphs required to encode it. "
+		""
+		"Setting up Wicked Rites can be an excellent way to help farm more Spirits."
+		""
+		"&a🛈 Tip: A Totemic Staff will display a totem's "
+		"&a    working area when held."
+	]
+	quest.2A7455D9EE649BA4.title: "Totemic Magic"
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Welcome to Modern Industrialization!"
 		""
@@ -1825,6 +1906,21 @@
 		"&a    Heat Frame, granting better yields!"
 	]
 	quest.358A62846D6B0004.title: "Plastic"
+	quest.359562022532BAE1.quest_desc: [
+		"Spirit Infusion is used to enhance items and materials, granting them greater potency. "
+		"&n                                                   &r"
+		"To begin, let’s make some Soulstained Steel. "
+		""
+		"When viewing Spirit Altar recipes in EMI, the central item and the Spirits shown to the left should be insterted onto the Altar itself. "
+		""
+		"Any items shown on the right must be instered into a nearby Item Pedestal or Item Stand. "
+		""
+		"Items may be piped into the these blocks, or otherwise Right-Clicked into place when crafting by hand."
+		""
+		"&6⚠ Note: Item Stands and Pedestals "
+		"&6    must be within four blocks of "
+		"&6    the Altar."
+	]
 	quest.35A8CEA408114638.quest_desc: [
 		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
 		""
@@ -1857,6 +1953,17 @@
 		"&a    hold a Wrench or Hatch to see the "
 		"&a    structure or valid places for "
 		"&a    hatches."
+	]
+	quest.369D0F2CC8D028D2.quest_desc: [
+		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment."
+		""
+		"The same augment may be used more than once, however it may be best to mix and match different augments to achieve the best results. "
+		""
+		"Holding a Tuning Fork in your hand will display the total effect of all installed augments. "
+		""
+		"Right-Clicking the Crucible with the Tuning Fork will also allow you to select a modifier for an even greater boost."
+		""
+		"Experiment with them to see what you like best!"
 	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.380D0C6385B6325C.quest_desc: [
@@ -1893,6 +2000,16 @@
 		""
 		"&a🛈 Tip: The Jar can be toggled at any "
 		"&a    time by Sneak + Right-Clicking with it. "
+	]
+	quest.391AE516AF1C26D6.quest_desc: [
+		"Obtaining Soulwood will involve performing an Undirected Rite. "
+		""
+		"Build a totem with five Runewood Logs atop a Runewood Base, then create an Arcane glyph on each of the logs. "
+		""
+		"Once activated, the surrounding land will be blighted, and Soulwood Saplings will appear."
+		""
+		"&6⚠ Note: Consider doing this away "
+		"&6    from your home. "
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.397D4765002935F2.quest_desc: [
@@ -2000,6 +2117,16 @@
 		""
 		"&a🛈 Tip: Micromissiles may be restored "
 		"&a    with TNT in an Anvil!"
+	]
+	quest.3BF1CB7CDDA99856.quest_desc: [
+		"Working with spirits is a messy business, both physically and mentally. "
+		""
+		"You’ll need proper materials to have any hope of mastering this magic, and that all starts with Soulstone. "
+		"&n                                                  "
+		""
+		"We’ll learn ways to further refine this later. "
+		""
+		"For now, start digging and locate some Soulstone Ore. You’ll need to smelt this to obtain Refined Soulstone."
 	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
@@ -2804,6 +2931,15 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48B6E6CDBFFD77A7.quest_desc: [
+		"Runes may be imbued with powerful effects that become active when worn. Equipping them, however, requires an appropriate receptacle. "
+		"&n                                                  "
+		""
+		"Begin by crafting a Runic Brooch. Once equipped, it will allow you to equip two Runes of your choice. "
+		""
+		"Runes themselves are crafted on the Runic Workbench. This is done easily enough by clicking the central recipe item onto the Workbench, followed by the required Spirits."
+	]
+	quest.48B6E6CDBFFD77A7.title: "Runeworking"
 	quest.48F3D3784D8CE545.quest_desc: [
 		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
 		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
@@ -3472,6 +3608,15 @@
 		"&6    uncontrollable. This is best used "
 		"&6    for crafting items."
 	]
+	quest.58A275DB77CDF7F8.quest_desc: [
+		"Malum adds several special drops from mobs that are only obtainable with an appropriate weapon. "
+		""
+		"Normally, you will want to start by crafting a Crude Scythe, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
+		""
+		"&a🛈 Tip: A Soulwoven Pouch will "
+		"&a    auto-collect these drops, keeping "
+		"&a    your inventory clean!"
+	]
 	quest.59293885E5C9E8A3.quest_desc: [
 		"A simple machine used for crushing ores and other materials. "
 		""
@@ -3513,6 +3658,16 @@
 		"&n                                                  &r"
 		""
 		"Craft some Otherworld Goggles. These grant Spirit sight and allow you to see Iesnium Ore."
+	]
+	quest.5A74D7EFD6AD1EAC.quest_desc: [
+		"Slaughtering mobs with a Soul Shattering Weapon will often result in Spirit Aspects dropping. These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
+		""
+		"Many mobs are associated with different Spirit Aspects. For example, Zombies are a good source of Earthen and Wicked Spirits."
+		""
+		"Finding the right mob for the Aspect you need will require some experimentation."
+		""
+		"&a🛈 Tip: Spirit Jars can hold an "
+		"&a    enormous number of Spirits!"
 	]
 	quest.5AD1A273F3714FAF.quest_desc: [
 		"It’s probably about time we started thinking about power. "
@@ -3801,6 +3956,7 @@
 		""
 		"[\"Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Menu Key\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the BlockPrints Menu.\"]"
 	]
+	quest.62CD365A54A0DE47.title: "Immersive Engineering"
 	quest.62E2DEBF71698376.quest_desc: [
 		"Import, Export, and Storage Buses are your primary interface with the network. "
 		""
@@ -4400,6 +4556,19 @@
 		"&6⚠ Note: Machines simply do not run if"
 		"&6    given the wrong tier of power."
 	]
+	quest.710D7615763E9945.quest_desc: [
+		"Oaths and vows have power, though they come at a cost. "
+		""
+		"The Soulbinding Brazier is used to enter in to such a pact, the details of which may be found within the Encyclopedia Arcana. "
+		""
+		"Choose carefully, as breaking your pact is not done easily. "
+		"&n                                                  "
+		""
+		"To start the ritual, place the central item in the brazier, followed by all the items listed around it in the recipe. If done correctly, all the items will go from circling around the brazier to circling above it. "
+		""
+		"Once the items are ready, ignite the brazier by Right-Clicking with Ether. Finally, Right-Click the brazier one final time and wait for the animation to finish. "
+	]
+	quest.710D7615763E9945.title: "Geasa"
 	quest.7163E7EBDB861D72.quest_desc: [
 		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
 		""
@@ -4924,6 +5093,11 @@
 		""
 		"A few of these should keep your machines running without issue. "
 	]
+	quest.7F445C22C528AC1F.quest_desc: [
+		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "
+		""
+		"As many as four Obelisks may be used to speed up crafting, with each one reducing the total crafting time. "
+	]
 	quest.7F829A1BFED304D0.quest_desc: [
 		"What’s magic without some functional devices powered by it? "
 		""
@@ -4982,6 +5156,7 @@
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
 	reward_table.6862A48B512292FB.title: "Iron's Starter Scroll"
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
+	reward_table.6F5C02ACE833C527.title: "Malum Lootbox"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
@@ -5012,6 +5187,7 @@
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
+	task.1291CAC439E06D6C.title: "Rune"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
@@ -5026,20 +5202,26 @@
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
+	task.2404D63C45135601.title: "Spirit Aspects"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
+	task.26180CD75616C6C3.title: "Esoteric Materials"
+	task.26CFE1DCF255EEE8.title: "Any Pickaxe"
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
 	task.2AAC3DCFDCAB9E89.title: "Industrial Fermenter"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
+	task.2D92956F1FC2B3EF.title: "Void Materials"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E4DEB3FEE0D15CD.title: "Any Sapling"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
+	task.2F65A10B08073D6D.title: "Spirit Crucible Augments"
 	task.2F80CC8DB5818C3B.title: "Possess Iesnium Golem"
 	task.3153DDF073D649E4.title: "Divination Rods"
+	task.31B1D4D0DBFCDCD6.title: "Runewood Pedestals"
 	task.328C56BA23A70B8F.title: "Power"
 	task.3300E2246181D0F7.title: "Any Scroll"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
@@ -5058,7 +5240,6 @@
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
-	task.3D57DD90FCCC08FC.title: "Immersive Engineering"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
 	task.3EAFB384DAB520FD.title: "Any &3Arts and Crafts&r Item"
@@ -5075,6 +5256,7 @@
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
 	task.446D6081668C30D2.title: "Ritual Satchels"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
+	task.456BBAC38A4A3719.title: "Soul Shattering Weapons"
 	task.45BEB4E841507571.title: "Budding Certus"
 	task.4648E821F02A741D.title: "Refinery"
 	task.4775BC243353527B.title: "Any Mining Gadget"

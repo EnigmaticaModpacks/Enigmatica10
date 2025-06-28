@@ -166,6 +166,13 @@
 								}
 								{
 									components: {
+										"akashictome:defined_mod": "malum"
+									}
+									count: 1
+									id: "malum:encyclopedia_arcana"
+								}
+								{
+									components: {
 										"akashictome:defined_mod": "modern_industrialization"
 									}
 									count: 1

@@ -29,6 +29,16 @@ ServerEvents.generateData('before_mods', (event) => {
                 },
                 count: 1
             }
+        },
+        {
+            name: 'refined_soulstone',
+            enabled: true,
+            payment: {
+                ingredient: {
+                    item: 'malum:refined_soulstone'
+                },
+                count: 1
+            }
         }
     ];
 

@@ -316,6 +316,69 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}dimensionalshard_end`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:purple_laser_lens' },
+            output: { item: 'malum:soulstone_ore' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end', 'minecraft:the_nether'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 32,
+                    depth_min: 16,
+                    weight: 3
+                },
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end', 'minecraft:the_nether'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}soulstone_ore`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:yellow_laser_lens' },
+            output: { item: 'malum:cthonic_gold_ore' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end', 'minecraft:the_nether'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 16,
+                    depth_min: 5,
+                    weight: 2
+                },
+                {
+                    dimension_filter: { blacklist: ['minecraft:the_end', 'minecraft:the_nether'], whitelist: [] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}cthonic_gold_ore`
+        },
+        {
+            catalyst: { item: 'industrialforegoing:orange_laser_lens' },
+            output: { item: 'malum:blazing_quartz_ore' },
+            rarity: [
+                {
+                    dimension_filter: { blacklist: [], whitelist: ['minecraft:the_nether'] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 48,
+                    depth_min: 32,
+                    weight: 3
+                },
+                {
+                    dimension_filter: { blacklist: [], whitelist: ['minecraft:the_nether'] },
+                    biome_filter: { blacklist: [], whitelist: [] },
+                    depth_max: 255,
+                    depth_min: 0,
+                    weight: 1
+                }
+            ],
+            id: `${id_prefix}blazing_quartz_ore`
         }
     ];
 

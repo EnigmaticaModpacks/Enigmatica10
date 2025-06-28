@@ -38,4 +38,4 @@
 
 [codex]
 	#If set to true, one of the first undead enemies a player slays will drop the encyclopedia arcana.
-	enableCodexDrop = true
+	enableCodexDrop = false

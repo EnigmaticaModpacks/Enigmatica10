@@ -1,0 +1,438 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "malum"
+	group: "440488E780593120"
+	icon: {
+		id: "malum:encyclopedia_arcana"
+	}
+	id: "0C0D9C8007301C03"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "malum:umbral_spirit"
+			}
+			id: "25B779319401405B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18F724BA0F00CF8F"
+					table_id: 167859363417192230L
+					type: "loot"
+				}
+				{
+					id: "6E6FCDA31E8A87FD"
+					item: {
+						count: 1
+						id: "malum:runewood_sapling"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "121F1EBA0AF05D9A"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25B779319401405B"]
+			id: "3BF1CB7CDDA99856"
+			rewards: [{
+				count: 16
+				id: "3CD3E537BCCBACD2"
+				item: {
+					count: 1
+					id: "malum:refined_soulstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "025E3A85A644BF38"
+				item: { count: 1, id: "malum:refined_soulstone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3BF1CB7CDDA99856"]
+			id: "58A275DB77CDF7F8"
+			rewards: [{
+				id: "11C29F9E8C65824F"
+				item: {
+					count: 1
+					id: "malum:soulwoven_pouch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "malum:crude_scythe"
+				}
+				id: "456BBAC38A4A3719"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:soul_shatter_capable_weapons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58A275DB77CDF7F8"]
+			icon: {
+				id: "malum:spirit_altar"
+			}
+			id: "359562022532BAE1"
+			rewards: [
+				{
+					id: "210DDBC5BFE7D9E0"
+					item: {
+						count: 1
+						id: "malum:block_of_soul_stained_steel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65A0CC5B161F25D4"
+					table_id: 8024291577720718631L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0A850556620B0740"
+					item: { count: 1, id: "malum:spirit_altar" }
+					type: "item"
+				}
+				{
+					id: "31B1D4D0DBFCDCD6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(malum:runewood_item_stand)item(malum:runewood_item_pedestal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6E8E1014FC37D0F0"
+					item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58A275DB77CDF7F8"]
+			id: "5A74D7EFD6AD1EAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "677E36E33B7D19E9"
+					table_id: 8024291577720718631L
+					type: "random"
+				}
+				{
+					id: "3F39516CE484523A"
+					item: {
+						count: 1
+						id: "malum:spirit_jar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2404D63C45135601"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:spirits)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58A275DB77CDF7F8"]
+			id: "26115C1BB363EF58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C29C5D7B8E020EA"
+				table_id: 8024291577720718631L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26180CD75616C6C3"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(malum:materials)item_tag(malum:mob_drops)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			id: "7F445C22C528AC1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DBEAB14C2AE2E4D"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FE62D15B0D367EE"
+				item: { count: 1, id: "malum:runewood_obelisk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			id: "2A7455D9EE649BA4"
+			min_width: 250
+			rewards: [
+				{
+					id: "3F721B95F3F1F302"
+					item: {
+						count: 1
+						id: "malum:totemic_staff"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41C9EA6CC0833904"
+					table_id: 8024291577720718631L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "71D8345639BE8874"
+				item: { count: 1, id: "malum:runewood_totem_base" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A7455D9EE649BA4"]
+			id: "391AE516AF1C26D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "081053B819951EFD"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0C654CCCAF799498"
+				item: { count: 1, id: "malum:soulwood_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			icon: {
+				id: "malum:spirit_crucible"
+			}
+			id: "1E0B03155C2CAEE7"
+			rewards: [
+				{
+					id: "50EAC4B1C86FC1F2"
+					item: {
+						count: 1
+						id: "malum:copper_impetus"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E2CE21A44621630"
+					table_id: 8024291577720718631L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "73301B88B2AB26DD"
+					item: { count: 1, id: "malum:spirit_crucible" }
+					type: "item"
+				}
+				{
+					id: "2692A03FD6DFEC2D"
+					item: { count: 1, id: "malum:alchemical_impetus" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E0B03155C2CAEE7"]
+			id: "1CF0D1E63C34AE6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BC3B5882F9CAA1E"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "03318F5FC24F7BCE"
+				item: { count: 1, id: "malum:spirit_catalyzer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E0B03155C2CAEE7"]
+			id: "128449F277949E31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E7A6FC97399BBEF"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72BDBC4CCA8929E4"
+				item: { count: 1, id: "malum:repair_pylon" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E0B03155C2CAEE7"]
+			id: "369D0F2CC8D028D2"
+			rewards: [
+				{
+					id: "57103CFC2BDFE0C3"
+					item: {
+						count: 1
+						id: "malum:tuning_fork"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "568278CB9948E0DD"
+					table_id: 8024291577720718631L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2F65A10B08073D6D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:augments)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			icon: {
+				id: "malum:runic_workbench"
+			}
+			id: "48B6E6CDBFFD77A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35DC88F9900ED72B"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1E60049ACF1191C7"
+					item: { count: 1, id: "malum:runic_workbench" }
+					type: "item"
+				}
+				{
+					id: "12935188B0679C12"
+					item: { count: 1, id: "malum:runic_brooch" }
+					type: "item"
+				}
+				{
+					id: "1291CAC439E06D6C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:rune)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			id: "710D7615763E9945"
+			rewards: [
+				{
+					count: 16
+					id: "2AF87D4959ADA1B5"
+					item: {
+						count: 1
+						id: "malum:ether"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13337F6B052200D5"
+					table_id: 8024291577720718631L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "398A2AE8E3130FAD"
+				item: { count: 1, id: "malum:soulbinding_brazier" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["359562022532BAE1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1C83B47F599B117A"
+			rewards: [
+				{
+					id: "798FEE6B05E87056"
+					item: {
+						count: 1
+						id: "ars_nouveau:stable_warp_scroll"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FCE4B7C136A6037"
+					table_id: 8024291577720718631L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7001E329BB1CB543"
+				item: { count: 1, id: "malum:encyclopedia_esoterica" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C83B47F599B117A"]
+			hide_until_deps_complete: true
+			id: "01D2F67E2543155E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FC2401B12325BC5"
+				table_id: 8024291577720718631L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D92956F1FC2B3EF"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(malum:hidden_items/void)item_tag(malum:materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+}
