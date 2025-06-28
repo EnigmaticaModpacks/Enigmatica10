@@ -43,13 +43,13 @@ ServerEvents.generateData('after_mods', (event) => {
         'occultism:wild_bogged',
         'occultism:wild_skeleton'
     ];
-
     skeletons.forEach((skeleton) => {
         recipes.push({
             registry_name: skeleton,
             drops: [{ ingredient: { item: 'malum:grim_talc' }, chance: '0.2', min: '2', max: '4' }]
         });
     });
+
     let breezes = [
         'occultism:possessed_weak_breeze',
         'occultism:possessed_strong_breeze',
