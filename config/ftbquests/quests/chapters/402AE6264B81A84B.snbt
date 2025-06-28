@@ -724,5 +724,45 @@
 			x: 10.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["04CE3E8B1DF8B441"]
+			id: "2B0DDF8003305DB6"
+			rewards: [{
+				count: 8
+				id: "2CA2A3FF02BC744C"
+				item: {
+					count: 1
+					id: "transfer_labels:fluidstack_extract_transfer_label"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D17C42035FE93C1"
+				item: { components: { "ftbfiltersystem:filter": "or(item(transfer_labels:fluidstack_insert_transfer_label)item(transfer_labels:fluidstack_extract_transfer_label))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["752888EAF2861EB4"]
+			id: "1CEDA28FD4CB759E"
+			rewards: [{
+				count: 8
+				id: "494D41BA1F516C23"
+				item: {
+					count: 1
+					id: "transfer_labels:itemstack_extract_transfer_label"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71EFA0C693ACD330"
+				item: { components: { "ftbfiltersystem:filter": "or(item(transfer_labels:itemstack_insert_transfer_label)item(transfer_labels:itemstack_extract_transfer_label))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
 	]
 }
