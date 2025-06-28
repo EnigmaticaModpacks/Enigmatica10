@@ -1070,6 +1070,15 @@
 		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
 	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
+	quest.1CEDA28FD4CB759E.quest_desc: [
+		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
+		""
+		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a Label Accessor. "
+		""
+		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
+		""
+		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+	]
 	quest.1CF0D1E63C34AE6E.quest_desc: [
 		"Spirit Catalyzers help speed up the Spirit Crucible. Simply place them nearby and fill them with your choice of furnace fuel."
 		""
@@ -1645,6 +1654,15 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2B0DDF8003305DB6.quest_desc: [
+		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
+		""
+		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a Label Accessor. "
+		""
+		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
+		""
+		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+	]
 	quest.2BE4C2280C195282.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.2BE4C2280C195282.title: "Abra's Conjure"
 	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
@@ -5239,6 +5257,7 @@
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
+	task.3D17C42035FE93C1.title: "Fluid Transfer Labels"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
@@ -5322,6 +5341,7 @@
 	task.6FCC45D51EF8A73E.title: "Aviar's Circle"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
+	task.71EFA0C693ACD330.title: "Item Transfer Labels"
 	task.72396A76EEA759CF.title: "Books of Binding"
 	task.73C57E2AF9A1F920.title: "Any Chipped Tool"
 	task.73D7073169A23821.title: "WIP"
