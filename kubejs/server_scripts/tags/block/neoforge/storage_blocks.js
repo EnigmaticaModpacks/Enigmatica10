@@ -49,7 +49,8 @@ ServerEvents.tags('block', (event) => {
         replica: ['replication:replica_block'],
         raw_replica: ['replication:raw_replica_block'],
 
-        hallowed_gold: ['malum:block_of_hallowed_gold']
+        hallowed_gold: ['malum:block_of_hallowed_gold'],
+        coke: ['immersiveengineering:cokebrick']
     };
 
     Object.keys(additions).forEach((tag) => {
