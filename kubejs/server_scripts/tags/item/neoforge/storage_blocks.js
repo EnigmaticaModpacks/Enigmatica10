@@ -52,7 +52,7 @@ ServerEvents.tags('item', (event) => {
         raw_replica: ['replication:raw_replica_block'],
 
         hallowed_gold: ['malum:block_of_hallowed_gold'],
-        coke: ['immersiveengineering:cokebrick']
+        coke: ['immersiveengineering:coke']
     };
 
     Object.keys(additions).forEach((tag) => {
