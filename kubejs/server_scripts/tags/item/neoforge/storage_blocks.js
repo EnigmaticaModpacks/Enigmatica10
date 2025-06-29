@@ -51,7 +51,30 @@ ServerEvents.tags('item', (event) => {
         replica: ['replication:replica_block'],
         raw_replica: ['replication:raw_replica_block'],
 
-        hallowed_gold: ['malum:block_of_hallowed_gold']
+        hallowed_gold: ['malum:block_of_hallowed_gold'],
+        malignant_pewter: ['malum:block_of_malignant_pewter'],
+        soul_stained_steel: ['malum:block_of_soul_stained_steel'],
+        raw_malignant_lead: ['malum:block_of_malignant_lead'],
+        raw_cthonic_gold: ['malum:block_of_cthonic_gold'],
+        raw_soulstone: ['malum:block_of_raw_soulstone'],
+        soulstone: ['malum:block_of_soulstone'],
+        arcane_charcoal: ['malum:block_of_arcane_charcoal'],
+        mnemonic_fragment: ['malum:block_of_mnemonic_fragment'],
+        raw_brilliance: ['malum:block_of_brilliance'],
+        auric_embers: ['malum:block_of_auric_embers'],
+        blazing_quartz: ['malum:block_of_blazing_quartz'],
+        astral_weave: ['malum:block_of_astral_weave'],
+        warp_flux: ['malum:block_of_warp_flux'],
+        grim_talc: ['malum:block_of_grim_talc'],
+        hex_ash: ['malum:block_of_hex_ash'],
+        null_slate: ['malum:block_of_null_slate'],
+        alchemical_calx: ['malum:block_of_alchemical_calx'],
+        living_flesh: ['malum:block_of_living_flesh'],
+        rotting_essence: ['malum:block_of_rotting_essence'],
+        void_salts: ['malum:block_of_void_salts'],
+        blighted_gunk: ['malum:mass_of_blighted_gunk'],
+
+        coke: ['immersiveengineering:coke']
     };
 
     Object.keys(additions).forEach((tag) => {

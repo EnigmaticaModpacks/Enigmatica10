@@ -5,7 +5,8 @@ ServerEvents.tags('item', (event) => {
         quartz: ['kubejs:deepslate_quartz_ore'],
         cthonic_gold: ['malum:cthonic_gold_ore'],
         blazing_quartz: ['malum:blazing_quartz_ore'],
-        brilliant: ['malum:brilliant_stone', 'malum:brilliant_deepslate'],
+
+        brilliance: ['malum:brilliant_stone', 'malum:brilliant_deepslate'],
         soulstone: ['malum:deepslate_soulstone_ore', 'malum:soulstone_ore']
     };
 

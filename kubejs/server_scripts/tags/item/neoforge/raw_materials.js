@@ -9,6 +9,7 @@ ServerEvents.tags('item', (event) => {
         platinum: ['oritech:raw_platinum'],
 
         replica: ['replication:raw_replica'],
+
         soulstone: ['malum:raw_soulstone']
     };
 
