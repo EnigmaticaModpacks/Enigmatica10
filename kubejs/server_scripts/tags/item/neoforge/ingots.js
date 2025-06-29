@@ -25,7 +25,8 @@ ServerEvents.tags('item', (event) => {
         arcane: ['irons_spellbooks:arcane_ingot'],
 
         hallowed_gold: ['malum:hallowed_gold_ingot'],
-        malginant_pewter: ['malum:malginant_pewter_ingot']
+        malginant_pewter: ['malum:malginant_pewter_ingot'],
+        soul_stained_steel: ['malum:soul_stained_steel_ingot']
     };
 
     Object.keys(additions).forEach((tag) => {
