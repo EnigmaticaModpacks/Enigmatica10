@@ -229,6 +229,15 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}amethyst`
         },
         {
+            inputs: ['irons_spellbooks:boreal_blade'],
+            repairMaterial: { tag: 'c:ices/ice', count: 1 },
+            spirits: [
+                { type: 'arcane', count: 16 },
+                { type: 'earthen', count: 16 }
+            ],
+            id: `${id_prefix}ice`
+        },
+        {
             inputs: [
                 'irons_spellbooks:keeper_flamberge',
                 'irons_spellbooks:legionnaire_flamberge',
