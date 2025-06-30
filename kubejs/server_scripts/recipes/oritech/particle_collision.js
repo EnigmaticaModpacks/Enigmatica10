@@ -43,12 +43,6 @@ ServerEvents.recipes((event) => {
             time: 5000,
             id: `${id_prefix}raw_replica`
         }
-        // {
-        //     results: [{ id: 'immersiveengineering:graphite_electrode', count: 1 }],
-        //     ingredients: [{ item: 'immersiveengineering:graphite_electrode' }, { item: 'minecraft:echo_shard' }],
-        //     time: 500,
-        //     id: `${id_prefix}graphite_electrode_unbreakable`
-        // }
     ];
 
     recipes.forEach((recipe) => {
