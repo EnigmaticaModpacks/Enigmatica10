@@ -175,6 +175,14 @@ RecipeViewerEvents.addInformation('item', (event) => {
         {
             filter: ['malum:warp_flux'],
             text: [`Occasionally dropped by Endermen slain with a Soul Shattering Weapon.`]
+        },
+        {
+            filter: ['immersiveengineering:blueprint[immersiveengineering:blueprint="automatons"]'],
+            text: [`Can be find in Trial Chambers.`]
+        },
+        {
+            filter: ['immersiveengineering:blueprint[immersiveengineering:blueprint="specialBullet"]'],
+            text: [`Can be purchased from a Gunsmith Villager.`]
         }
     ];
 
