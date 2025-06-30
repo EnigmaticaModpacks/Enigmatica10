@@ -3,8 +3,7 @@ ServerEvents.tags('item', (event) => {
         durability: [
             /vanillaplustools:.*(hammer|shovel)/,
             'geneticsresequenced:scraper',
-            /justdirethings:bow_(ferricore|blazegold)/,
-            'immersiveengineering:graphite_electrode'
+            /justdirethings:bow_(ferricore|blazegold)/
         ],
         mining: [/vanillaplustools:.*(hammer|shovel)/],
         mining_loot: [/vanillaplustools:.*(hammer|shovel)/],
