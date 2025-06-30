@@ -178,7 +178,7 @@ RecipeViewerEvents.addInformation('item', (event) => {
         },
         {
             filter: ['immersiveengineering:blueprint[immersiveengineering:blueprint="automatons"]'],
-            text: [`Can be find in Trial Chambers.`]
+            text: [`Can be found in Trial Chambers.`]
         },
         {
             filter: ['immersiveengineering:blueprint[immersiveengineering:blueprint="specialBullet"]'],
