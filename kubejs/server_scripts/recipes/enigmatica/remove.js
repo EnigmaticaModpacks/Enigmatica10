@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
         { id: /oritech:centrifuge\/fluid\/clump/ },
         { id: /oritech:centrifuge\/fluid\/compat\/(mekanism|create)/ },
         { id: /oritech:(splashing|blasting)\/compat\/create/ },
-        { id: /create:crushing\/(deepslate|nether)/ },
+        { id: /create:crushing\/(deepslate|nether_gold)/ },
         { id: /malum:malum\/spirit_crucible\/repair\/occultism/ },
 
         { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
