@@ -3,6 +3,30 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
+            results: [{ id: 'create:precision_mechanism' }],
+            ingredient: { tag: 'c:plates/gold' },
+            sequence: [
+                {
+                    type: 'create:deploying',
+                    ingredients: [{ item: 'create:incomplete_precision_mechanism' }, { item: 'create:cogwheel' }],
+                    results: [{ id: 'create:incomplete_precision_mechanism' }]
+                },
+                {
+                    type: 'create:deploying',
+                    ingredients: [{ item: 'create:incomplete_precision_mechanism' }, { item: 'create:large_cogwheel' }],
+                    results: [{ id: 'create:incomplete_precision_mechanism' }]
+                },
+                {
+                    type: 'create:deploying',
+                    ingredients: [{ item: 'create:incomplete_precision_mechanism' }, { tag: 'c:nuggets/iron' }],
+                    results: [{ id: 'create:incomplete_precision_mechanism' }]
+                }
+            ],
+            loops: 5,
+            transitional_item: { id: 'create:incomplete_precision_mechanism' },
+            id: 'create:sequenced_assembly/precision_mechanism'
+        },
+        {
             results: [{ id: 'ae2:logic_processor' }],
             ingredient: { item: 'ae2:printed_silicon' },
             sequence: [
