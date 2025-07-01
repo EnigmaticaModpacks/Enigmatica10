@@ -7,6 +7,8 @@
 -   Increase Oritech Reactor's maxUnstableTicks setting to match default. [(\#441)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/441)
 -   Expanded Oritech, Mekanism, and Create ore processing to cover previously missing materials [(\#444)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/444)
 -   IE and Create can now craft AE2 processors [(\#456)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/456)
+-   Create now has more parity with IE plate pressing [(\#459)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/459)
+-   Added new recipes for Andesite Alloy and Rose Quartz [(\#459)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/459)
 
 #### 🦟 Bugs Fixed
 
