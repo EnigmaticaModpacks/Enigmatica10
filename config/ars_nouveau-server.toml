@@ -67,4 +67,4 @@
 	#Only used if infinite spells is true, increases or decreases the spell length limit in spellbooks..
 	# Default: 30
 	# Range: -9 ~ 1000
-	infiniteSpellLimit = 30
+	infiniteSpellLimit = 20
