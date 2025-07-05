@@ -1,5 +1,9 @@
 ### Enigmatica 10 1.24.0
 
+NeoForge-1.21.1-21.1.170 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.24.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.24.0.md)
+
+#### ✔️ Added Mods
+
 #### ⭐ Improvements
 
 -   Adds Create Copper recipe support to Mek, MI, and IE [(\#435)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/435)
@@ -17,6 +21,14 @@
 -   Fix Extreme Reactors Fluidizer recipes [(\#419)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/419)
 -   Fix SNAD recipe [(\#420)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/420)
 -   Fix issue with curios getting lost in hidden accessories slots [(\#438)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/438)
+-   Create Crushing Wheels turns Raw Platinum into unusable Crushed Platinum [(\#442)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/442)
+-   Entering the Deep and Darker dimensions hangs the game [(\#436)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/436)
+-   Persistent Blindness Effect on spawn [(\#425)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/425)
+-   Book recipe is unable to be crafted [(\#421)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/421)
+-   Oritech augments stripped when traveling between dimensions [(\#417)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/417)
+-   Oritech pump doesn't work on pneumaticraft crude oil [(\#411)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/411)
+-   Pretty Pipe Fluid Extractor [(\#406)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/406)
+-   Cant trade with red merchant [(\#383)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/383)
 
 ---
 
