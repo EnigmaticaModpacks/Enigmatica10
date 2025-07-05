@@ -28,6 +28,17 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}netherite_scrap`
+        },
+        {
+            input: { tag: 'c:ices/ice' },
+            output: [
+                {
+                    stack: { id: 'minecraft:snow_block', count: 1 },
+                    chance: 1.0,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}snow_block`
         }
     ];
 
