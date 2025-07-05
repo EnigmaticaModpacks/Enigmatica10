@@ -186,7 +186,9 @@ function Add-ThirdPartyMods {
         }
         
         if ($matchedFiles.Count -gt 1) {
-            Write-Warning "Multiple files found matching regex pattern: $_ - Using first match"
+            Write-Warning "Multiple files found matching regex pattern: $_ - Using first match. "
+            Write-Host "Press any key to continue"
+            pause
         }
     
         $fileToCopy = $matchedFiles[0]
