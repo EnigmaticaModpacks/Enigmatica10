@@ -4,6 +4,19 @@ NeoForge-1.21.1-21.1.170 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ✔️ Added Mods
 
+-   [BaguetteLib](https://www.curseforge.com/minecraft/mc-mods/baguettelib) (by [Project8gbDeRam](https://www.curseforge.com/members/Project8gbDeRam/projects))
+-   [Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant) (by [KostromDan](https://www.curseforge.com/members/KostromDan/projects))
+-   [Create: Hypertubes](https://www.curseforge.com/minecraft/mc-mods/hypertubes) (by [Rokzin](https://www.curseforge.com/members/Rokzin/projects))
+-   [Lodestone](https://www.curseforge.com/minecraft/mc-mods/lodestone) (by [sammysemicolon](https://www.curseforge.com/members/sammysemicolon/projects))
+-   [Luminax](https://www.curseforge.com/minecraft/mc-mods/luminax) (by [Satherov](https://www.curseforge.com/members/Satherov/projects))
+-   [Macaw's Stairs](https://www.curseforge.com/minecraft/mc-mods/macaws-stairs) (by [sketch_macaw](https://www.curseforge.com/members/sketch_macaw/projects))
+-   [Malum](https://www.curseforge.com/minecraft/mc-mods/malum) (by [sammysemicolon](https://www.curseforge.com/members/sammysemicolon/projects))
+-   [Simple Conveyor Belts](https://www.curseforge.com/minecraft/mc-mods/simple-conveyor-belts) (by [rearth](https://www.curseforge.com/members/rearth/projects))
+-   [Sophisticated Backpacks Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-create-integration) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+-   [Sophisticated Storage Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration) (by [P3pp3rF1y](https://www.curseforge.com/members/P3pp3rF1y/projects))
+-   [Tempad](https://www.curseforge.com/minecraft/mc-mods/tempad) (by [terrariumearth](https://www.curseforge.com/members/terrariumearth/projects))
+-   [Transfer Labels](https://www.curseforge.com/minecraft/mc-mods/transfer-labels) (by [Buuz135](https://www.curseforge.com/members/Buuz135/projects))
+
 #### ⭐ Improvements
 
 -   Adds Create Copper recipe support to Mek, MI, and IE [(\#435)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/435)
