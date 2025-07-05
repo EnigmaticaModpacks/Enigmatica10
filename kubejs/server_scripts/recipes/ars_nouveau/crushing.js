@@ -12,6 +12,22 @@ ServerEvents.recipes((event) => {
                 }
             ],
             id: `${id_prefix}black_dye`
+        },
+        {
+            input: { tag: 'c:ores/netherite_scrap' },
+            output: [
+                {
+                    stack: { id: 'minecraft:netherite_scrap', count: 2 },
+                    chance: 1.0,
+                    maxRange: 1
+                },
+                {
+                    stack: { id: 'minecraft:netherite_scrap', count: 1 },
+                    chance: 0.1,
+                    maxRange: 1
+                }
+            ],
+            id: `${id_prefix}netherite_scrap`
         }
     ];
 
@@ -28,7 +44,8 @@ ServerEvents.recipes((event) => {
         { primary: 'tin', secondary: 'iron' },
         { primary: 'uranium', secondary: 'lead' },
         { primary: 'platinum', secondary: 'iridium' },
-        { primary: 'aluminum', secondary: 'aluminum' }
+        { primary: 'aluminum', secondary: 'aluminum' },
+        { primary: 'zinc', secondary: 'silver' }
     ];
     materials.forEach((material) => {
         recipes.push({
