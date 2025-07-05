@@ -113,6 +113,12 @@
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
+  "tempad:anchor": null,
+  "tempad:chronon": null,
+  "tempad:metronome": null,
+  "tempad:rudimentary": null,
+  "tempad:timedoor": null,
+  "tempad:workstation": null,
   "theurgy:mercury_flux": null,
   "waystones:waystone": null
 }
