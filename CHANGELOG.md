@@ -10,6 +10,7 @@
 -   Create now has more parity with IE plate pressing [(\#459)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/459)
 -   Added new recipes for Andesite Alloy and Rose Quartz [(\#459)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/459)
 -   Precision Mechanism no longer has a chance of failure [(\#460)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/460)
+-   Ars Nouveau can now make Snow [(\#465)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/460)
 
 #### 🦟 Bugs Fixed
 
