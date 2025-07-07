@@ -1,5 +1,9 @@
 ### Enigmatica 10 1.24.1
 
+#### ⭐ Improvements
+
+-   Canvas may be crafted from hemp [(\#468)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/468)
+
 #### 🦟 Bugs Fixed
 
 -   Fix missing Steel smelting recipes [(\#467)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/467)
