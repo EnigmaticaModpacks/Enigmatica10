@@ -2,7 +2,7 @@
 
 #### ⭐ Improvements
 
--   Canvas may be crafted from hemp [(\#435)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/435)
+-   Canvas may be crafted from hemp [(\#468)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/468)
 
 #### 🦟 Bugs Fixed
 
