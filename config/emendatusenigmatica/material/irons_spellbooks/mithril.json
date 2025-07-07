@@ -1,0 +1,17 @@
+{
+    "id": "mithril",
+    "source": "modded",
+    "localizedName": "Mithril",
+    "processedTypes": [
+        "ore",
+        "raw"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 4
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

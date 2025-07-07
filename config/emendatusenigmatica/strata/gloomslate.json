@@ -1,0 +1,11 @@
+{
+    "id": "deeperdarker_gloomslate",
+    "baseTexture": "deeperdarker:block/gloomslate",
+    "suffix": "gloomslate",
+    "fillerType": "deeperdarker:gloomslate",
+    "localizedName": "Gloomslate",
+    "harvestTool": "pickaxe",
+    "hardness": 2.5,
+    "resistance": 4.5,
+    "sampleStrata": true
+}

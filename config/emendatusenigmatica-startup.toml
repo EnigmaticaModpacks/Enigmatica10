@@ -1,0 +1,5 @@
+[Debug]
+	#Whether Emendatus Enigmatica should generate a Validation Summary in the configuration directory.
+	generateSummary = true
+	#Whether Emendatus Enigmatica should silently skip empty JSON files (Either 0 Bytes or empty root object) instead of including them on the summary.
+	skipEmptyJsons = true

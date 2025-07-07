@@ -1,0 +1,25 @@
+{
+    "id": "zinc",
+    "source": "modded",
+    "localizedName": "Zinc",
+    "processedTypes": [
+        "ore",
+        "raw",
+        "slurry",
+        "crystal",
+        "shard",
+        "clump",
+        "dirty_dust"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 2
+    },
+    "colors": {
+        "chemicalColor": "b7e6bf"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": "sal_ammoniac",
+    "source": "modded",
+    "localizedName": "Sal Ammoniac",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "gem",
+        "harvestLevel": 1
+    },
+    "oreDrop": {
+        "drop": "theurgy:sal_ammoniac_crystal"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}
