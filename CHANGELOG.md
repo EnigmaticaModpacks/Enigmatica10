@@ -1,3 +1,11 @@
+### Enigmatica 10 1.24.1
+
+#### 🦟 Bugs Fixed
+
+-   Fix missing Steel smelting recipes [(\#467)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/467)
+
+---
+
 ### Enigmatica 10 1.24.0
 
 NeoForge-1.21.1-21.1.170 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.24.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.24.0.md)
