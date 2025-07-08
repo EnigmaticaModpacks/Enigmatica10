@@ -222,3 +222,4 @@ config/ars_nouveau/doc_data.json
 waypoints/WaypointData.dat
 waypoints/backup/WaypointData.dat
 config/ftbchunks-client.snbt
+config/crash_assistant/lang
