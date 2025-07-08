@@ -1,5 +1,7 @@
 ### Enigmatica 10 1.24.1
 
+NeoForge-1.21.1-21.1.170 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.24.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.24.1.md)
+
 #### ⭐ Improvements
 
 -   Canvas may be crafted from hemp [(\#468)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/468)
