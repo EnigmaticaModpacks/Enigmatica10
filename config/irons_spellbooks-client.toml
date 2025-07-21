@@ -67,3 +67,9 @@
 [Misc]
 	#Whether shield spells can collide with particles. Can affect performance. Default: true
 	shieldParticleCollisions = true
+
+[Summons]
+	#Whether owned summons appear glowing to yourself. Default: true
+	ownedSummonsGlow = true
+	#Hex Color Value of owned summons glow outline. Default: 0xAAFFAA
+	summonGlowColor = "0xAAFFAA"
