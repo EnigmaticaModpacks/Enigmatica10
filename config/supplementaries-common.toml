@@ -455,6 +455,8 @@
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same explosionType
 		quiver_pickup = true
+		#If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
+		quiver_skeleton_spawn_depend_on_global_difficulty = true
 
 	[tools.lunch_basket]
 		enabled = true
@@ -516,6 +518,8 @@
 		# Default: 64
 		# Range: 0 ~ 500
 		bound_distance = 64
+		#Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
+		unbound = false
 
 	[tools.bomb]
 		enabled = true

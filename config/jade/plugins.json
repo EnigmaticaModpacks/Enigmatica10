@@ -66,6 +66,9 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
   },

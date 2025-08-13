@@ -1215,6 +1215,17 @@
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
+	[Spells."irons_spellbooks:volt_strike"]
+		Enabled = true
+		School = "irons_spellbooks:lightning"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 10.0
+		AllowCrafting = true
+
 	#Configure Boss Stats
 	["Boss Config".Tyros]
 		#Additional Health
