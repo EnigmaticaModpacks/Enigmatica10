@@ -59,6 +59,10 @@
 	# Default: 30
 	# Range: > 1
 	lecternLinkRange = 30
+	#Maximum range of the decor blossom
+	# Default: 30
+	# Range: > 1
+	decorBlossomRange = 30
 
 #Infinite Spells Mode
 [spell_length]
