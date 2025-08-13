@@ -14,6 +14,14 @@ ServerEvents.recipes((event) => {
         });
     });
 
+    recipes.push({
+            output: AlmostUnified.getTagTargetItem('c:ingots/nickel').getId(),
+            input: '#c:raw_materials/nickel',
+            xp: 0.7,
+            cookingTime: 200,
+            id: `${id_prefix}nickel_ingot_from_raw_materials`
+    });
+
     recipes.forEach((recipe) => {
         event.blasting(recipe.output, recipe.input, recipe.xp, recipe.cookingTime).id(recipe.id);
     });
