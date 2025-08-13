@@ -1,3 +1,13 @@
+### Enigmatica 10 1.25.0
+
+NeoForge-1.21.1-21.1.193 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.25.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.25.0.md)
+
+#### ✔️ Added Mods
+
+#### 🦟 Bugs Fixed
+
+-   Fix missing Raw Nickel smelting recipes [(\#473)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/473)
+
 ### Enigmatica 10 1.24.1
 
 NeoForge-1.21.1-21.1.170 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.24.1.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.24.1.md)
