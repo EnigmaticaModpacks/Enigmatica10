@@ -4,6 +4,9 @@ NeoForge-1.21.1-21.1.193 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ✔️ Added Mods
 
+-   [CreativeCore](https://www.curseforge.com/minecraft/mc-mods/creativecore) (by [CreativeMD](https://www.curseforge.com/members/CreativeMD/projects))
+-   [LittleTiles](https://www.curseforge.com/minecraft/mc-mods/littletiles) (by [CreativeMD](https://www.curseforge.com/members/CreativeMD/projects))
+
 #### 🦟 Bugs Fixed
 
 -   Fix missing Raw Nickel smelting recipes [(\#473)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/473)
