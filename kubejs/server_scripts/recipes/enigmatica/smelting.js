@@ -22,13 +22,18 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}nickel_ingot_from_raw_materials`
     });
 
-    recipes.push({
-            output: AlmostUnified.getTagTargetItem('c:ingots/platinum').getId(),
-            input: '#c:clumps/platinum',
-            xp: 0.1,
-            cookingTime: 200,
-            id: `${id_prefix}platinum_ingot_from_clumps`
+    const materialsMissingSmeltingRecipes = ['platinum', 'iesnium', 'iridium']
+    
+    materialsMissingSmeltingRecipes.forEach((material) => {
+        recipes.push({
+                output: AlmostUnified.getTagTargetItem(`c:ingots/${material}`).getId(),
+                input: `#c:clumps/${material}`,
+                xp: 0.1,
+                cookingTime: 200,
+                id: `${id_prefix}${material}_ingot_from_clumps`
+        });
     });
+
 
     recipes.forEach((recipe) => {
         event.smelting(recipe.output, recipe.input, recipe.xp, recipe.cookingTime).id(recipe.id);
