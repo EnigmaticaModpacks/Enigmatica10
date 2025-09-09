@@ -22,6 +22,14 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}nickel_ingot_from_raw_materials`
     });
 
+    recipes.push({
+            output: AlmostUnified.getTagTargetItem('c:ingots/platinum').getId(),
+            input: '#c:clumps/platinum',
+            xp: 0.1,
+            cookingTime: 200,
+            id: `${id_prefix}platinum_ingot_from_clumps`
+    });
+
     recipes.forEach((recipe) => {
         event.smelting(recipe.output, recipe.input, recipe.xp, recipe.cookingTime).id(recipe.id);
     });
