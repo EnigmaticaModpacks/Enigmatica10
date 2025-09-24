@@ -3,13 +3,13 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            inputs: { fluid: { tag: 'c:fuels/diesel', amount: 1000 }, item: { tag: 'c:dusts/redstone' } },
+            inputs: { fluid: { tag: 'c:diesel', amount: 1000 }, item: { tag: 'c:dusts/redstone' } },
             outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 1000 } },
             temperature: { min: 373 },
             id: `pneumaticcraft:thermo_plant/lubricant_from_diesel`
         },
         {
-            inputs: { fluid: { tag: 'c:fuels/biodiesel', amount: 1000 }, item: { tag: 'c:dusts/redstone' } },
+            inputs: { fluid: { tag: 'c:biodiesel', amount: 1000 }, item: { tag: 'c:dusts/redstone' } },
             outputs: { fluid_output: { id: 'modern_industrialization:lubricant', amount: 1000 } },
             temperature: { min: 373 },
             id: `pneumaticcraft:thermo_plant/lubricant_from_biodiesel`

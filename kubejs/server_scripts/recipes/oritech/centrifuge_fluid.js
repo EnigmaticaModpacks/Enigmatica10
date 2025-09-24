@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
         {
             results: [],
             ingredients: [{ item: 'oritech:fluxite' }],
-            fluidInput: { fluid: '#c:fuels/crude_oil', amount: 1000 },
+            fluidInput: { fluid: '#c:crude_oil', amount: 1000 },
             fluidOutputs: [{ fluid: 'oritech:still_fuel', amount: 1000 }],
             time: 200,
             id: `${id_prefix}still_fuel_from_oil`
@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
         {
             results: [{ count: 1, id: 'oritech:polymer_resin' }],
             ingredients: [{ tag: 'minecraft:sand' }],
-            fluidInput: { fluid: '#c:fuels/crude_oil', amount: 1000 },
+            fluidInput: { fluid: '#c:crude_oil', amount: 1000 },
             fluidOutputs: [],
             time: 200,
             id: `${id_prefix}polymer_resin_from_oil`
