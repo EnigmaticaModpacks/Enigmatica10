@@ -58,6 +58,8 @@
 	priestHouseWeight = 4
 	#Whether to prevent aquifers from intersecting designated underground structures. May affect performance. Default: true
 	aquiferDetection = true
+	#Whether to enabled Ice Spider patrols in snowy biomes during snowy weather. Default: true
+	iceSpiderPatrols = true
 
 #Individual Spell Configuration
 [Spells]
