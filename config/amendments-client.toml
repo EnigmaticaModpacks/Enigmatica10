@@ -90,9 +90,33 @@
 	handle_holder_item_size = 0.625
 	#Makes Torch and Lantern holding animation be fixed, not changing with player facing
 	fixed_holding_animations = false
+	#Prevents campfire smoke from rendering if there is a solid block above it
+	campfire_smoke_through_blocks = false
+
+[sign]
+	#Gives signs a pixel consistent model and texture. Also affects other mods. This also makes them use a Block Model, making them render much much much faster than as block entities
+	pixel_consistent = true
 	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
 	# Default: 1.2
 	# Range: 0.0 ~ 5.0
-	sign_text_color_multiplier = 1.2
-	#Prevents campfire smoke from rendering if there is a solid block above it
-	campfire_smoke_through_blocks = false
+	text_color_multiplier = 1.2
+
+[projectiles]
+	#Makes snowballs render in 3D
+	snowball_3d = true
+	#Makes slimeballs render in 3D (supplementaries only)
+	slimeball_3d = true
+	#Makes ghast & blazes fireballs render in 3D
+	fireball_3d = true
+	#Makes ghast & blazes fireballs leave a trail of particles when moving
+	ghast_fireball_trail = true
+	#Makes dragon fireballs leave a trail of particles when moving
+	dragon_fireball_trail = true
+	#Makes 3D charges tumble in the air when moving
+	charges_tumble = true
+	#Makes 3D snowballs and slimeballs (supp compat) tumble in the air when moving
+	projectiles_tumble = false
+
+	[projectiles.dragon_fireball]
+		#Makes dragon's breath particles emissive to better match new visuals
+		dragon_breath_emissive = true
