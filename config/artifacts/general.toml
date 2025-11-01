@@ -31,3 +31,25 @@ entityEquipmentChance = 0.0015
 	#Whether to use wooden chests from other mods when generating campsites
 	#Allowed Values: true, false
 	useModdedChests = true
+
+[slots]
+	#When enabled, adds a separate slot for the Snorkel and Night Vision Goggles
+	#(Trinkets only, currently not compatible with Curios or Accessories)
+	#Allowed Values: true, false
+	addFaceSlot = false
+	#Whether Artifacts should add slots to the Accessories menu,
+	#and allow artifacts to be equipped in them
+	#Allowed Values: true, false
+	enableAccessoriesCompat = true
+	#Whether Artifacts should add slots to the Curios menu,
+	#and allow artifacts to be equipped in them
+	#Allowed Values: true, false
+	enableCuriosCompat = true
+	#Whether Artifacts should add slots to the Trinket menu,
+	#and allow artifacts to be equipped in them
+	#Allowed Values: true, false
+	enableTrinketsCompat = true
+	#When enabled, allows any artifact to be equipped in any slot
+	#(Requires Curios or Trinkets, currently not compatible with Accessories)
+	#Allowed Values: true, false
+	removeSlotRestrictions = false
