@@ -41,11 +41,13 @@ ServerEvents.recipes((event) => {
     ];
 
     colors.forEach((color) => {
-        recipes.push({
-            filter: [{ type: 'occultism:spirit_fire' }],
-            to_replace: `occultism:chalk_${color}`,
-            replace_with: `occultism:chalk_${color}[unbreakable={}]`
-        });
+        if (color != 'yellow') {
+            recipes.push({
+                filter: [{ type: 'occultism:spirit_fire' }],
+                to_replace: `occultism:chalk_${color}`,
+                replace_with: `occultism:chalk_${color}[unbreakable={}]`
+            });
+        }
     });
 
     const compressors = [

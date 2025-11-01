@@ -1256,13 +1256,6 @@
 		""
 		"Consider feeding it excess Slag or Bone Meal as fertilizer to speed things along until better fertilizers can be made. "
 	]
-	quest.211E0844F3ACD244.quest_desc: [
-		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
-		""
-		"We’ll have to start with the Primitive version, which runs on standard Furnace fuels. "
-		""
-		"Once we get going, however, we’ll be able to upgrade to powered machines."
-	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
 		""
@@ -1339,7 +1332,9 @@
 	quest.23703A535469A7F3.quest_desc: [
 		"Welcome to Ender IO. "
 		""
-		"This mod is in early alpha and things are changing fast! Quests are similarly a work in progress."
+		"This mod is in early alpha and things are changing fast! "
+		""
+		"Quests are similarly a work in progress."
 	]
 	quest.23703A535469A7F3.title: "Ender IO"
 	quest.23BC0F0C51F64721.quest_desc: [
@@ -4246,7 +4241,7 @@
 	]
 	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
 	quest.6968F7CB58754783.quest_desc: [
-		"With power secured, replacing that Primitive Alloy Smelter should get things running more smoothly. "
+		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
 		""
 		"This machine also doubles as a regular Furnace."
 		""

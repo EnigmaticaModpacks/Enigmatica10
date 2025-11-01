@@ -345,7 +345,7 @@
 				}
 				{
 					id: "701146CFFD6D94CA"
-					item: { count: 32, id: "modern_industrialization:fire_clay_bricks" }
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 					type: "item"
 				}
 				{
@@ -450,7 +450,7 @@
 				}
 				{
 					id: "028E8345B00CE757"
-					item: { count: 4, id: "minecraft:chain" }
+					item: { count: 1, id: "minecraft:chain" }
 					type: "item"
 				}
 				{
@@ -460,7 +460,7 @@
 				}
 				{
 					id: "2EAD95D10A763D23"
-					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
 					type: "item"
 				}
 			]
@@ -763,7 +763,7 @@
 				}
 				{
 					id: "2E58816C65120488"
-					item: { count: 16, id: "modern_industrialization:cupronickel_coil" }
+					item: { count: 1, id: "modern_industrialization:cupronickel_coil" }
 					type: "item"
 				}
 				{

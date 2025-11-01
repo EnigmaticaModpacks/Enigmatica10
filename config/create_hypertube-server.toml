@@ -8,3 +8,14 @@
 	# Default: 1.0
 	# Range: 0.5 ~ 99.0
 	speedMultiplier = 1.0
+
+#Stress Settings
+["Stress Settings"]
+	#Stress impact of the Hyper Entrance block.
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	entranceStressImpact = 4.0
+	#Stress impact of the Hyper Accelerator block.
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	acceleratorStressImpact = 4.0

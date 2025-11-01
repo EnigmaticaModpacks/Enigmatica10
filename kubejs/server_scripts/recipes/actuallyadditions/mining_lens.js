@@ -81,12 +81,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}iridium_ore`
         },
         {
-            ingredient: { tag: 'actuallyadditions:deepslate_ore_replaceables' },
-            result: { id: 'modern_industrialization:deepslate_iridium_ore', count: 1 },
-            weight: 200,
-            id: `${id_prefix}deepslate_iridium_ore`
-        },
-        {
             ingredient: { tag: 'actuallyadditions:stone_ore_replaceables' },
             result: { id: 'modern_industrialization:bauxite_ore', count: 1 },
             weight: 1000,

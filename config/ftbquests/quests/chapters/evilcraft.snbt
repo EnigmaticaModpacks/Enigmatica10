@@ -192,7 +192,7 @@
 				{
 					count: 25L
 					id: "4FAB6D115849A2D7"
-					item: { count: 25, id: "evilcraft:dark_blood_brick" }
+					item: { count: 1, id: "evilcraft:dark_blood_brick" }
 					type: "item"
 				}
 			]

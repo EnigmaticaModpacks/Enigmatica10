@@ -273,7 +273,10 @@
 		{
 			dependencies: ["036036EA25034BE8"]
 			icon: {
-				id: "occultism:wormhole_frame"
+				components: {
+					"ftbquests:missing_item": "occultism:wormhole_frame"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "6BDA1C1BE04D541A"
 			rewards: [
