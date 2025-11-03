@@ -519,6 +519,7 @@ ServerEvents.recipes((event) => {
             exclusions: [
                 'immersiveengineering',
                 'create:milling',
+                'create:crushing',
                 'modern_industrialization',
                 'oritech:pulverizer',
                 'oritech:grinder',
