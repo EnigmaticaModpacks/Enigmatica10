@@ -48,6 +48,9 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:grinder/uranium' },
         { id: 'oritech:pulverizer/uranium' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
+        { id: 'oritech:crushing/compat/create/coal' },
+        { id: 'oritech:pulverizer/coal' },
+        { id: 'oritech:grinder/coal' },
         { id: /create:crushing\/(deepslate|nether_gold)/ },
         { id: /malum:malum\/spirit_crucible\/repair\/occultism/ },
 
