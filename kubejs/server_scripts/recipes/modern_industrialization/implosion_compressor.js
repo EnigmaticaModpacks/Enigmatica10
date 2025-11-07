@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
                 { tag: 'c:dusts/blaze', amount: 4 },
                 { item: 'modern_industrialization:industrial_tnt', amount: 1 }
             ],
-            item_outputs: { item: 'minecraft:blaze_rod', amount: 1 },
+            item_outputs: [{ item: 'minecraft:blaze_rod', amount: 1 }],
             eu: 1,
             duration: 10,
             id: `${id_prefix}blaze_rod`

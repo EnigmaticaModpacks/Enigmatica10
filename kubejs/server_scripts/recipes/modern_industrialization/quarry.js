@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            item_inputs: { item: 'modern_industrialization:bronze_drill', probability: 0.04 },
+            item_inputs: [{ item: 'modern_industrialization:bronze_drill', probability: 0.04 }],
             duration: 600,
             eu: 4,
             item_outputs: [

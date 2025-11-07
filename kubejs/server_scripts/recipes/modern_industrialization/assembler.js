@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
                 { item: 'modern_industrialization:large_pump', amount: 1 },
                 { item: 'modern_industrialization:electronic_circuit_board', amount: 1 }
             ],
-            fluid_inputs: { fluid: 'modern_industrialization:polyethylene', amount: 1000 },
+            fluid_inputs: [{ fluid: 'modern_industrialization:polyethylene', amount: 1000 }],
             item_outputs: [{ item: 'modern_industrialization:advanced_upgrade', amount: 4 }],
             eu: 8,
             duration: 400,
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
             ],
             eu: 16,
             duration: 400,
-            fluid_inputs: { fluid: 'modern_industrialization:polyvinyl_chloride', amount: 1000 },
+            fluid_inputs: [{ fluid: 'modern_industrialization:polyvinyl_chloride', amount: 1000 }],
             item_outputs: [{ item: 'modern_industrialization:turbo_upgrade', amount: 4 }],
             id: 'modern_industrialization:electric_age/upgrades/turbo'
         },
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
             ],
             eu: 32,
             duration: 400,
-            fluid_inputs: { fluid: 'modern_industrialization:polyvinyl_chloride', amount: 2500 },
+            fluid_inputs: [{ fluid: 'modern_industrialization:polyvinyl_chloride', amount: 2500 }],
             item_outputs: [{ item: 'modern_industrialization:highly_advanced_upgrade', amount: 4 }],
             id: 'modern_industrialization:electric_age/upgrades/highly_advanced'
         },

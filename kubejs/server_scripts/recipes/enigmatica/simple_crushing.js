@@ -854,7 +854,7 @@ ServerEvents.recipes((event) => {
         if (!recipe.exclusions.includes('modern_industrialization')) {
             let r = {
                 type: 'modern_industrialization:macerator',
-                item_inputs: recipe.input,
+                item_inputs: [recipe.input],
                 item_outputs: [{ item: recipe.outputs[0].id, amount: recipe.outputs[0].count }],
                 eu: recipe.eu.cost,
                 duration: recipe.eu.duration * 20
