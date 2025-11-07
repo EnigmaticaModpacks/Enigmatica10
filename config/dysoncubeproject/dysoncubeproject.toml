@@ -1,0 +1,31 @@
+[Config]
+	#The maximum number of solar panels the Dyson Sphere can have
+	# Default: 50000000
+	# Range: > 1
+	MAX_SOLAR_PANELS = 50000000
+	#How many solar panels each beam can support
+	# Default: 6
+	# Range: > 1
+	BEAM_TO_SOLAR_PANEL_RATIO = 6
+	#The amount of power generated per sail
+	# Default: 20
+	# Range: > 0
+	POWER_PER_SAIL = 20
+	#Always show sphere at max progress
+	SHOW_AT_MAX_PROGRESS = false
+	#The power that the ray receiver can extract from the sphere every tick
+	# Default: 50000000
+	# Range: > 1
+	RAY_RECEIVER_EXTRACT_POWER = 50000000
+	#The power that the ray receiver buffer has
+	# Default: 100000000
+	# Range: > 1
+	RAY_RECEIVER_POWER_BUFFER = 100000000
+	#The power that the em railejector buffer has
+	# Default: 400000
+	# Range: > 1
+	RAIL_EJECTOR_POWER_BUFFER = 400000
+	#The power that the em railejector consumes each tick per sent item
+	# Default: 40
+	# Range: > 1
+	RAIL_EJECTOR_CONSUME = 40
