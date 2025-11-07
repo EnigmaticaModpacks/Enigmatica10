@@ -588,8 +588,6 @@
 	creative_tab = false
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 	dispensers = true
-	#Creates a creative tab full of filled jars
-	jar_tab = false
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
 	sanity_checks_messages = true
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
@@ -598,6 +596,8 @@
 	red_merchant_spawn_multiplier = 1.0
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
+	#Creates a creative tab full of filled jars
+	jar_tab = false
 
 #Vanilla tweaks
 [tweaks]

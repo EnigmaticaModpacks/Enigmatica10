@@ -54,26 +54,6 @@
 		}
 		{
 			dependencies: ["6F7A76841E49C6BD"]
-			id: "211E0844F3ACD244"
-			rewards: [{
-				count: 8
-				id: "2D2EE7114EEEAE86"
-				item: {
-					count: 1
-					id: "minecraft:coal_ore"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5BDA0DB38EBB2D68"
-				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["211E0844F3ACD244"]
 			id: "6968F7CB58754783"
 			rewards: [{
 				count: 9
@@ -93,7 +73,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6968F7CB58754783"]
@@ -116,7 +96,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["211E0844F3ACD244"]
+			dependencies: ["6F7A76841E49C6BD"]
 			id: "24A4BA42A83A20D0"
 			rewards: [{
 				id: "739572A260D5E739"

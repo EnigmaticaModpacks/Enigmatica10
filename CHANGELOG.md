@@ -1,3 +1,19 @@
+### Enigmatica 10 1.26.0
+
+#### ❌ Removed Mods
+
+-   [Theurgy KubeJS](https://www.curseforge.com/minecraft/mc-mods/theurgy-kubejs) (by [kli_kli](https://www.curseforge.com/members/kli_kli/projects))
+
+#### ⭐ Improvements
+
+-   Added Limestone to stoneworks [(\#486)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/486)
+
+#### 🦟 Bugs Fixed
+
+-   Fix Overlapping Uranium recipe [(\#488)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/488)
+
+---
+
 ### Enigmatica 10 1.25.1
 
 #### 🦟 Bugs Fixed
