@@ -596,8 +596,6 @@
 	red_merchant_spawn_multiplier = 1.0
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
-	#Creates a creative tab full of filled jars
-	jar_tab = false
 
 #Vanilla tweaks
 [tweaks]
