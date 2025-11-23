@@ -15,6 +15,7 @@ NeoForge-1.21.1-21.1.209 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 #### ⭐ Improvements
 
 -   Added Limestone to stoneworks [(\#486)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/486)
+-   Relics has been overhauled, many items no longer exist. Removed them from our Wandering Trader custom trades [(\#490)](https://github.com/EnigmaticaModpacks/Enigmatica10/pull/490)
 
 #### 🦟 Bugs Fixed
 
