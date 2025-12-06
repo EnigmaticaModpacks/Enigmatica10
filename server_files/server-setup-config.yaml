@@ -217,3 +217,4 @@ launch:
         - '-Daikars.new.flags=true'
         - '-Dfml.readTimeout=180' # servertimeout
         - '-Dfml.queryResult=confirm' # auto /fmlconfirm
+        - '-Djava.awt.headless=true'
