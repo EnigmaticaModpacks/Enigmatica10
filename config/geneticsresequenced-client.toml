@@ -2,9 +2,21 @@
 woolyRemovesCape = true
 #Disables the narrator when a player with the Parrot gene speaks.
 disableParrotNarrator = false
-#Disables the change to LOLCAT language when you get the Cringe gene. This comes with a resource-reload, which may cause lag.
-disableCringeLangChange = false
 #Enable to render the base Slime model for Support Slime entities.
 supportSlimeRenderDebug = false
 #Show that an item is in the Item Magnet's blacklist in its tooltip.
 itemMagnetBlacklistTooltip = true
+
+[cringe]
+	#Disables the change to LOLCAT language when you get the Cringe gene. This comes with a resource-reload, which may cause lag.
+	disableCringeLangChange = false
+	#Enable or disable the shaking effect caused by the Cringe gene.
+	doesCringeShake = true
+	#Sets the amplitude of the shaking effect caused by the Cringe gene.
+	# Default: 0.03
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cringeShakeAmplitude = 0.03
+	#Sets the speed of the shaking effect caused by the Cringe gene.
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cringeShakeSpeed = 5.0

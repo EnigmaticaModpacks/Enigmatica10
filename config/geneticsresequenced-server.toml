@@ -110,10 +110,6 @@ antifieldBlockRadius = 25
 	# Default: 32.0
 	# Range: 1.0 ~ 1.7976931348623157E308
 	mobSightRadius = 32.0
-	#How often should the Mob Sight gene check for entities (in ticks)
-	# Default: 20
-	# Range: > 1
-	mobSightCooldown = 20
 	#How often should the No Hunger gene check to reset hunger (in ticks)
 	# Default: 80
 	# Range: > 1
@@ -190,3 +186,11 @@ antifieldBlockRadius = 25
 	# Default: 0.5
 	# Range: 0.0 ~ 1.7976931348623157E308
 	photosynthesisSaturationAmount = 0.5
+	#How long should webs placed by the Web Defense gene last (in ticks)
+	# Default: 80
+	# Range: > 1
+	webDefenseDuration = 80
+	#What probability should the Web Defense gene have
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	webDefenseChance = 0.05

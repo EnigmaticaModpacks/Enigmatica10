@@ -40,12 +40,20 @@
 	# Default: 256000
 	# Range: 0 ~ 9223372036854775807
 	controllerMaxTotalItemCount = 256000
-	#True to use the configured controllerStackSize for all items, instead of the stack sizes provided by item type (such as 16 for ender pearls, 64 for iron ingot). WARNING: Setting this to false may have a negative impact on performance.
+	#True to unlink the wormhole when break (so it doesn't function as a cheaper Storage Accessor).
 	unlinkWormholeOnBreak = false
-	#The amount of stabilizers tier 4 in the stabilized storage actuator. (Don't auto change the recipe)
-	# Default: 7
+	#The amount of stabilizers tier 5 in the stabilized storage actuator. (Don't auto change the recipe)
+	# Default: 8
 	# Range: > 0
 	stabilizedControllerStabilizers = 7
+	#The amount of slots the storage stabilizer tier 5 provides.
+	# Default: 1024
+	# Range: > 0
+	stabilizerTier5AdditionalMaxItemTypes = 1024
+	#The amount by which the stabilizer increases the maximum total item count the controller can hold. This is not per slot but the total amount of all items combined.
+	# Default: 8192000
+	# Range: 0 ~ 9223372036854775807
+	stabilizerTier5AdditionalMaxTotalItemCount = 8192000
 
 #Spirit Job Settings
 [spirit_job]
@@ -185,6 +193,54 @@
 	# Default: 60
 	# Range: > 0
 	crystallizerResultPickupDelay = 60
+	#Max number of recipes that Tier 1 (Foliot) Crusher Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier1CrusherOperationCount = 1
+	#Max number of recipes that Tier 2 (Djinni) Crusher Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier2CrusherOperationCount = 1
+	#Max number of recipes that Tier 3 (Afrit) Crusher Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier3CrusherOperationCount = 1
+	#Max number of recipes that Tier 4 (Marid) Crusher Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier4CrusherOperationCount = 1
+	#Max number of recipes that Tier 1 (Foliot) Crystallizer Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier1CrystallizerOperationCount = 1
+	#Max number of recipes that Tier 2 (Djinni) Crystallizer Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier2CrystallizerOperationCount = 1
+	#Max number of recipes that Tier 3 (Afrit) Crystallizer Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier3CrystallizerOperationCount = 1
+	#Max number of recipes that Tier 4 (Marid) Crystallizer Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier4CrystallizerOperationCount = 1
+	#Max number of recipes that Tier 1 (Foliot) Smelter Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier1SmelterOperationCount = 1
+	#Max number of recipes that Tier 2 (Djinni) Smelter Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier2SmelterOperationCount = 1
+	#Max number of recipes that Tier 3 (Afrit) Smelter Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier3SmelterOperationCount = 1
+	#Max number of recipes that Tier 4 (Marid) Smelter Spirits make per operation.
+	# Default: 1
+	# Range: 1 ~ 64
+	tier4SmelterOperationCount = 1
 
 #Ritual Settings
 [rituals]

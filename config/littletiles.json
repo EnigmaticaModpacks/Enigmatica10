@@ -3,15 +3,15 @@
     "highest": 32
   },
   "general": {
-    "allowFlowingWater": true,
-    "allowFlowingLava": true,
-    "storagePerPixel": 1.0,
-    "enableBed": true,
+    "storagePerPixel": 1,
     "enableAnimationCollision": true,
     "enableCollisionMotion": true,
+    "alphaBlockVolume": 255,
     "dyeVolume": 2.0,
     "maxAllowedDensity": 2048,
     "maxDoorDistance": 512,
+    "maxDoorRotation": 1440,
+    "maxParticlesPerSecond": 200,
     "messageStructureLength": 4098
   },
   "build": {
@@ -39,7 +39,8 @@
         "enabled": false,
         "content": 32
       },
-      "defaultGrid": 16
+      "defaultGrid": 16,
+      "placeTransformableBoxes": true
     },
     "survival": {
       "harvestLevelBlock": "STONE",
@@ -65,7 +66,8 @@
         "enabled": false,
         "content": 32
       },
-      "defaultGrid": 16
+      "defaultGrid": 16,
+      "placeTransformableBoxes": true
     },
     "creative": {
       "harvestLevelBlock": "DIAMOND",
@@ -91,7 +93,23 @@
         "enabled": false,
         "content": 32
       },
-      "defaultGrid": 16
+      "defaultGrid": 16,
+      "placeTransformableBoxes": true
+    }
+  },
+  "interact": {
+    "default": {
+      "interactWithStructure": true,
+      "useBed": true,
+      "storageGui": true,
+      "blankomaticGui": true,
+      "particleGui": true,
+      "itemHolderGui": true,
+      "structureBuilderGui": true,
+      "workbenchGui": true,
+      "wrenchEditSignal": true,
+      "allowFlowingWater": true,
+      "allowFlowingLava": true
     }
   },
   "signal": {
@@ -108,6 +126,12 @@
     "addDuration": 0.5,
     "subDuration": 0.5,
     "mulDuration": 0.5,
-    "divDuration": 5
+    "divDuration": 5,
+    "greater": 0.5,
+    "greaterEquals": 0.5,
+    "smaller": 0.5,
+    "smallerEquals": 0.5,
+    "gate": 0.01,
+    "nGate": 0.01
   }
 }
