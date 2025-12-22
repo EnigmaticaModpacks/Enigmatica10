@@ -3,52 +3,22 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            inputs: [],
-            itemIdRegex: `osmium_.+`,
-            repairMaterial: { item: AlmostUnified.getTagTargetItem(`c:ingots/osmium`).getId(), count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}osmium`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `bronze_.+`,
-            repairMaterial: { item: AlmostUnified.getTagTargetItem(`c:ingots/bronze`).getId(), count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}bronze`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `lapis_.+`,
-            repairMaterial: { tag: `c:gems/lapis`, count: 2 },
-            spirits: [
-                { type: 'earthen', count: 8 },
-                { type: 'arcane', count: 8 }
+            validItems: [
+                'pneumaticcraft:compressed_iron_helmet',
+                'pneumaticcraft:compressed_iron_chestplate',
+                'pneumaticcraft:compressed_iron_leggings',
+                'pneumaticcraft:compressed_iron_boots'
             ],
-            id: `${id_prefix}lapis`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `refined_glowstone_.+`,
-            repairMaterial: { tag: `c:ingots/refined_glowstone`, count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}refined_glowstone`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `refined_obsidian_.+`,
-            repairMaterial: { tag: `c:ingots/refined_obsidian`, count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
-            id: `${id_prefix}refined_obsidian`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `compressed_iron_.+`,
+            regex: { itemIdRegex: `compressed_iron_.+` },
             repairMaterial: { tag: `c:ingots/compressed_iron`, count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
+            spirits: [
+                { type: 'malum:aerial', count: 8 },
+                { type: 'malum:earthen', count: 8 }
+            ],
             id: `${id_prefix}compressed_iron`
         },
         {
-            inputs: [
+            validItems: [
                 'immersiveengineering:pickaxe_steel',
                 'immersiveengineering:shovel_steel',
                 'immersiveengineering:axe_steel',
@@ -59,103 +29,133 @@ ServerEvents.recipes((event) => {
                 'immersiveengineering:armor_steel_leggings',
                 'immersiveengineering:armor_steel_boots'
             ],
-            itemIdRegex: `steel_.+`,
             repairMaterial: { item: AlmostUnified.getTagTargetItem(`c:ingots/steel`).getId(), count: 2 },
-            spirits: [{ type: 'earthen', count: 8 }],
+            spirits: [{ type: 'malum:earthen', count: 8 }],
             id: `${id_prefix}steel`
         },
         {
-            inputs: [],
-            itemIdRegex: `zanite_.+`,
+            validItems: [
+                'aether:zanite_sword',
+                'aether:zanite_shovel',
+                'aether:zanite_pickaxe',
+                'aether:zanite_axe',
+                'aether:zanite_hoe',
+                'aether:zanite_helmet',
+                'aether:zanite_chestplate',
+                'aether:zanite_leggings',
+                'aether:zanite_boots',
+                'aether:zanite_gloves'
+            ],
+            regex: { itemIdRegex: `zanite_.+` },
             repairMaterial: { tag: `aether:gems/zanite`, count: 2 },
             spirits: [
-                { type: 'earthen', count: 8 },
-                { type: 'arcane', count: 8 }
+                { type: 'malum:earthen', count: 8 },
+                { type: 'malum:arcane', count: 8 }
             ],
             id: `${id_prefix}zanite`
         },
         {
-            inputs: [],
-            itemIdRegex: `neptune_.+`,
-            repairMaterial: { tag: `c:ingots/iron`, count: 2 },
+            validItems: [
+                'aether:neptune_helmet',
+                'aether:neptune_chestplate',
+                'aether:neptune_leggings',
+                'aether:neptune_boots',
+                'aether:neptune_gloves'
+            ],
+            regex: { itemIdRegex: `neptune_.+` },
+            repairMaterial: { tag: `c:essences/water`, count: 1 },
             spirits: [
-                { type: 'aqueous', count: 8 },
-                { type: 'arcane', count: 8 }
+                { type: 'malum:aqueous', count: 8 },
+                { type: 'malum:arcane', count: 8 }
             ],
             id: `${id_prefix}neptune`
         },
         {
-            inputs: [],
-            itemIdRegex: `neptunium_.+`,
-            repairMaterial: { tag: `c:ingots/neptunium`, count: 1 },
-            spirits: [
-                { type: 'aqueous', count: 8 },
-                { type: 'arcane', count: 8 }
+            validItems: [
+                'aether:gravitite_sword',
+                'aether:gravitite_shovel',
+                'aether:gravitite_pickaxe',
+                'aether:gravitite_axe',
+                'aether:gravitite_hoe',
+                'aether:gravitite_helmet',
+                'aether:gravitite_chestplate',
+                'aether:gravitite_leggings',
+                'aether:gravitite_boots',
+                'aether:gravitite_gloves'
             ],
-            id: `${id_prefix}neptunium`
-        },
-        {
-            inputs: [],
-            itemIdRegex: `gravitite_.+`,
+            regex: { itemIdRegex: `gravitite_.+` },
             repairMaterial: { tag: 'aether:gravitite_repairing', count: 1 },
             spirits: [
-                { type: 'aerial', count: 8 },
-                { type: 'arcane', count: 8 }
+                { type: 'malum:aerial', count: 8 },
+                { type: 'malum:arcane', count: 8 }
             ],
             id: `${id_prefix}gravitite`
         },
         {
-            inputs: [],
-            itemIdRegex: `phoenix_.+`,
-            repairMaterial: { tag: `c:ingots/iron`, count: 2 },
+            validItems: [
+                'aether:phoenix_bow',
+                'aether:phoenix_helmet',
+                'aether:phoenix_chestplate',
+                'aether:phoenix_leggings',
+                'aether:phoenix_boots',
+                'aether:phoenix_gloves'
+            ],
+            regex: { itemIdRegex: `phoenix_.+` },
+            repairMaterial: { tag: `c:essences/fire`, count: 1 },
             spirits: [
-                { type: 'infernal', count: 8 },
-                { type: 'arcane', count: 8 }
+                { type: 'malum:infernal', count: 8 },
+                { type: 'malum:arcane', count: 8 }
             ],
             id: `${id_prefix}phoenix`
         },
         {
-            inputs: [],
-            itemIdRegex: `valkyrie_.+`,
-            repairMaterial: { tag: `c:ingots/iron`, count: 2 },
+            validItems: [
+                'aether:valkyrie_lance',
+                'aether:valkyrie_pickaxe',
+                'aether:valkyrie_axe',
+                'aether:valkyrie_hoe',
+                'aether:valkyrie_shovel',
+                'aether:valkyrie_helmet',
+                'aether:valkyrie_chestplate',
+                'aether:valkyrie_leggings',
+                'aether:valkyrie_boots',
+                'aether:valkyrie_gloves'
+            ],
+            regex: { itemIdRegex: `valkyrie_.+` },
+            repairMaterial: { tag: `c:ingots/iridium`, count: 2 },
             spirits: [
-                { type: 'sacred', count: 8 },
-                { type: 'arcane', count: 8 }
+                { type: 'malum:sacred', count: 8 },
+                { type: 'malum:arcane', count: 8 }
             ],
             id: `${id_prefix}valkyrie`
         },
         {
-            inputs: [],
-            itemIdRegex: `obsidian_.+`,
+            validItems: [
+                'aether:obsidian_helmet',
+                'aether:obsidian_chestplate',
+                'aether:obsidian_leggings',
+                'aether:obsidian_boots',
+                'aether:obsidian_gloves'
+            ],
+            regex: { itemIdRegex: `obsidian_.+` },
             repairMaterial: { tag: `c:obsidians/normal`, count: 1 },
             spirits: [
-                { type: 'infernal', count: 8 },
-                { type: 'arcane', count: 8 }
+                { type: 'malum:infernal', count: 8 },
+                { type: 'malum:arcane', count: 8 }
             ],
             id: `${id_prefix}obsidian`
         },
         {
-            inputs: [],
-            itemIdRegex: `warden_.+`,
-            repairMaterial: { item: 'deeperdarker:reinforced_echo_shard', count: 1 },
-            spirits: [
-                { type: 'eldritch', count: 16 },
-                { type: 'wicked', count: 16 },
-                { type: 'earthen', count: 16 }
-            ],
-            id: `${id_prefix}warden`
-        },
-        {
-            inputs: ['irons_spellbooks:paladin_chestplate', 'irons_spellbooks:speed_boots'],
+            validItems: ['irons_spellbooks:paladin_chestplate', 'irons_spellbooks:speed_boots'],
             repairMaterial: { tag: 'c:ingots/mithril', count: 1 },
             spirits: [
-                { type: 'arcane', count: 16 },
-                { type: 'earthen', count: 16 }
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:earthen', count: 16 }
             ],
             id: `${id_prefix}mithril`
         },
         {
-            inputs: [
+            validItems: [
                 'irons_spellbooks:plagued_boots',
                 'irons_spellbooks:plagued_leggings',
                 'irons_spellbooks:plagued_chestplate',
@@ -198,47 +198,47 @@ ServerEvents.recipes((event) => {
                 'irons_spellbooks:pumpkin_helmet'
             ],
             repairMaterial: { item: 'irons_spellbooks:magic_cloth', count: 2 },
-            spirits: [{ type: 'arcane', count: 16 }],
+            spirits: [{ type: 'malum:arcane', count: 16 }],
             id: `${id_prefix}magic_cloth`
         },
         {
-            inputs: ['irons_spellbooks:magehunter'],
+            validItems: ['irons_spellbooks:magehunter'],
             repairMaterial: { tag: 'c:ingots/arcane', count: 1 },
             spirits: [
-                { type: 'arcane', count: 16 },
-                { type: 'earthen', count: 16 }
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:earthen', count: 16 }
             ],
             id: `${id_prefix}arcane`
         },
         {
-            inputs: ['irons_spellbooks:spellbreaker'],
+            validItems: ['irons_spellbooks:spellbreaker'],
             repairMaterial: { tag: 'c:gems/diamond', count: 2 },
             spirits: [
-                { type: 'arcane', count: 16 },
-                { type: 'earthen', count: 16 }
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:earthen', count: 16 }
             ],
             id: `${id_prefix}diamond`
         },
         {
-            inputs: ['irons_spellbooks:amethyst_rapier'],
+            validItems: ['irons_spellbooks:amethyst_rapier'],
             repairMaterial: { tag: 'c:gems/amethyst', count: 1 },
             spirits: [
-                { type: 'arcane', count: 16 },
-                { type: 'earthen', count: 16 }
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:earthen', count: 16 }
             ],
             id: `${id_prefix}amethyst`
         },
         {
-            inputs: ['irons_spellbooks:boreal_blade'],
+            validItems: ['irons_spellbooks:boreal_blade'],
             repairMaterial: { tag: 'c:ices/ice', count: 1 },
             spirits: [
-                { type: 'arcane', count: 16 },
-                { type: 'earthen', count: 16 }
+                { type: 'malum:arcane', count: 16 },
+                { type: 'malum:earthen', count: 16 }
             ],
             id: `${id_prefix}ice`
         },
         {
-            inputs: [
+            validItems: [
                 'irons_spellbooks:keeper_flamberge',
                 'irons_spellbooks:legionnaire_flamberge',
                 'irons_spellbooks:decrepit_scythe',
@@ -246,9 +246,9 @@ ServerEvents.recipes((event) => {
             ],
             repairMaterial: { item: 'minecraft:netherite_scrap', count: 1 },
             spirits: [
-                { type: 'infernal', count: 8 },
-                { type: 'earthen', count: 8 },
-                { type: 'arcane', count: 8 }
+                { type: 'malum:infernal', count: 8 },
+                { type: 'malum:earthen', count: 8 },
+                { type: 'malum:arcane', count: 8 }
             ],
             id: `${id_prefix}netherite`
         }
