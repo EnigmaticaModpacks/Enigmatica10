@@ -1,3 +1,13 @@
+### Enigmatica 10 1.27.0
+
+NeoForge-1.21.1-21.1.209 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.27.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.27.0.md)
+
+#### 🦟 Bugs Fixed
+
+-   Supplimenties Causing Crash [(\#501)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/501)
+
+---
+
 ### Enigmatica 10 1.26.0
 
 NeoForge-1.21.1-21.1.209 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.26.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.26.0.md)
