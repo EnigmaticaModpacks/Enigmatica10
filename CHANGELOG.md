@@ -2,6 +2,10 @@
 
 NeoForge-1.21.1-21.1.209 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.27.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.27.0.md)
 
+#### ✔️ Added Mods
+
+-   [Aaron](https://www.curseforge.com/minecraft/mc-mods/aaron) (by [aaronhowser1](https://www.curseforge.com/members/aaronhowser1/projects))
+
 #### 🦟 Bugs Fixed
 
 -   Supplimenties Causing Crash [(\#501)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/501)
