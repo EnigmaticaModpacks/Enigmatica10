@@ -75,7 +75,7 @@
 					id: "malum:crude_scythe"
 				}
 				id: "456BBAC38A4A3719"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:soul_shatter_capable_weapons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:soul_shatter_capable_weapon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.5d

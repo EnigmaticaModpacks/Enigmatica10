@@ -9,5 +9,8 @@ ServerEvents.tags('item', (event) => {
         'irons_spellbooks:boreal_blade'
     ];
 
-    event.get('malum:soul_shatter_capable_weapons').add(additions);
+    event.get('malum:soul_shatter_capable_weapon').add(additions);
+    event.get('malum:enchantable/spirit_plunder').add(additions);
+    event.get('malum:enchantable/animated').add(additions);
+    event.get('malum:enchantable/haunted').add(additions);
 });
