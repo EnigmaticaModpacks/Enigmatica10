@@ -233,21 +233,21 @@ ServerEvents.recipes((event) => {
             ingredient: { tag: 'occultism:miners/eldritch' },
             result: {
                 type: 'occultism:weighted_tag',
-                tag: 'c:storage_blocks/cthonic_gold',
+                tag: 'c:storage_blocks/raw_cthonic_gold',
                 count: 1,
                 weight: 90
             },
-            id: `${id_prefix}cthonic_gold_block`
+            id: `${id_prefix}raw_cthonic_gold_block`
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
             result: {
                 type: 'occultism:weighted_tag',
-                tag: 'c:storage_blocks/brilliance',
+                tag: 'c:storage_blocks/raw_brilliance',
                 count: 1,
                 weight: 90
             },
-            id: `${id_prefix}brilliance_block`
+            id: `${id_prefix}raw_brilliance_block`
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
