@@ -1486,7 +1486,7 @@ ServerEvents.generateData('after_mods', (event) => {
                     '___BP_____PB___',
                     '__BB1PPPPP1BB__',
                     '__BABBBCBBBAB__',
-                    '__BBB_FFF__BB__',
+                    '__BBB_FFF_BBB__',
                     '_F___________F_',
                     '_______________'
                 ]
