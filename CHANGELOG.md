@@ -8,6 +8,7 @@ NeoForge-1.21.1-21.1.218 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ❌ Removed Mods
 
+- [Noisium (archived)](https://www.curseforge.com/minecraft/mc-mods/noisium) (by [Steveplays28](https://www.curseforge.com/members/Steveplays28/projects))
 - [TooManyRecipeViewers (TMRV)](https://www.curseforge.com/minecraft/mc-mods/tmrv) (by [HiAmAK](https://www.curseforge.com/members/HiAmAK/projects))
 
 #### 🦟 Bugs Fixed

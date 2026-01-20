@@ -8,6 +8,7 @@
 
 ### Removed
 
+  * [Noisium (archived)](https://www.curseforge.com/minecraft/mc-mods/noisium) (by [Steveplays28](https://www.curseforge.com/members/Steveplays28/projects))
   * [TooManyRecipeViewers (TMRV)](https://www.curseforge.com/minecraft/mc-mods/tmrv) (by [HiAmAK](https://www.curseforge.com/members/HiAmAK/projects))
 
 ### Changed

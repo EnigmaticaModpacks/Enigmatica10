@@ -209,7 +209,6 @@
   * [NeoAuth-1.21.1-1.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/neoauth/files/7069504) (by [Mrbysco](https://www.curseforge.com/members/Mrbysco/projects))
   * [netherportalfix-neoforge-1.21.1-21.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/netherportalfix/files/5623547) (by [BlayTheNinth](https://www.curseforge.com/members/BlayTheNinth/projects))
   * [NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports/files/5885735) (by [Aizistral](https://www.curseforge.com/members/Aizistral/projects))
-  * [noisium-neoforge-2.3.0+mc1.21-1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/noisium/files/5650508) (by [Steveplays28](https://www.curseforge.com/members/Steveplays28/projects))
   * [not_enough_glyphs-1.21.1-4.2.4.jar](https://www.curseforge.com/minecraft/mc-mods/not-enough-glyphs/files/7442375) (by [Alexth99](https://www.curseforge.com/members/Alexth99/projects))
   * [Notes-1.21.1-3.0.1-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/notes/files/5696107) (by [Chaosyr](https://www.curseforge.com/members/Chaosyr/projects))
   * [Nullscape_1.21.x_v1.2.14.jar](https://www.curseforge.com/minecraft/mc-mods/nullscape/files/7078265) (by [Starmute](https://www.curseforge.com/members/Starmute/projects))
