@@ -178,7 +178,7 @@ function Add-ThirdPartyMods {
 
         $fileFilter = $_
 
-        $matchedFiles = Get-ChildItem -Path $INSTANCE_ROOT -Recurse -File | Where-Object { $_.Name -match $fileFilter }
+        $matchedFiles = Get-ChildItem -Path $INSTANCE_ROOT -Recurse -File | Where-Object { $_.Name -match $fileFilter -and $_.Extension -eq ".jar" }
         
         if ($matchedFiles.Count -eq 0) {
             Write-Warning "No file found matching regex pattern: $_"
