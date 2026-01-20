@@ -1,3 +1,19 @@
+### Enigmatica 10 1.28.0
+
+NeoForge-1.21.1-21.1.218 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.28.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.28.0.md)
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+#### 🦟 Bugs Fixed
+
+- Malum Quest (Soul Shattering Weapons) [(\#513)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/513)
+- FTBTeams crashes server [(\#512)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/512)
+- Enabling Fake players crashes game [(\#511)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/511)
+
+---
+
 ### Enigmatica 10 1.27.1
 
 #### 🦟 Bugs Fixed
