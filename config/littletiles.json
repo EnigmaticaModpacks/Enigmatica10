@@ -12,7 +12,8 @@
     "maxDoorDistance": 512,
     "maxDoorRotation": 1440,
     "maxParticlesPerSecond": 200,
-    "messageStructureLength": 4098
+    "messageStructureLength": 4098,
+    "checkCollisionListenerForAnimations": true
   },
   "build": {
     "default": {
