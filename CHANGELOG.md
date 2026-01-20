@@ -4,7 +4,11 @@ NeoForge-1.21.1-21.1.218 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ✔️ Added Mods
 
+- [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) (by [mezz](https://www.curseforge.com/members/mezz/projects))
+
 #### ❌ Removed Mods
+
+- [TooManyRecipeViewers (TMRV)](https://www.curseforge.com/minecraft/mc-mods/tmrv) (by [HiAmAK](https://www.curseforge.com/members/HiAmAK/projects))
 
 #### 🦟 Bugs Fixed
 
