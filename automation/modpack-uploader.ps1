@@ -335,11 +335,11 @@ function New-ServerManifestJson {
 
     $mods = [System.Collections.ArrayList]@()
     foreach ($addon in $minecraftInstanceJson.installedAddons) {
-        $mods.Add(@{
-                required    = $true
-                projectID   = $addon.addonID
-                fileID      = $addon.installedFile.id
-                downloadUrl = $addon.installedFile.downloadUrl
+        $mods.Add([ordered]@{
+                projectID = $addon.addonID
+                fileID    = $addon.installedFile.id
+                required  = $true
+                isLocked  = $false
             }) > $null
     }
 
@@ -352,10 +352,10 @@ function New-ServerManifestJson {
         $modloaderId = $splitModloaderId[0] + "-" + $splitModloaderId[1]
     }
 
-    $jsonOutput = @{
-        minecraft       = @{
+    $jsonOutput = [ordered]@{
+        minecraft       = [ordered]@{
             version    = $minecraftInstanceJson.baseModLoader.minecraftVersion
-            modLoaders = @(@{
+            modLoaders = @([ordered]@{
                     id      = $modloaderId
                     primary = $true
                 })
@@ -371,8 +371,10 @@ function New-ServerManifestJson {
 
     $serverManifest = "server-manifest.json"
     Remove-Item $serverManifest -Force -Recurse -ErrorAction SilentlyContinue
-    $jsonString = $jsonOutput | ConvertTo-Json -Depth 3
     $outfile = "$INSTANCE_ROOT/$serverManifest"
+    $jsonOptions = [System.Text.Json.JsonSerializerOptions]::new()
+    $jsonOptions.WriteIndented = $true
+    $jsonString = [System.Text.Json.JsonSerializer]::Serialize($jsonOutput, $jsonOptions)
     [System.IO.File]::WriteAllLines($outfile, $jsonString)
     Write-Host "Server $serverManifest created!" -ForegroundColor Green
     return $serverManifest
