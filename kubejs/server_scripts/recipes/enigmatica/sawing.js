@@ -36,6 +36,18 @@ ServerEvents.recipes((event) => {
             output: 'naturesaura:ancient_planks',
             output_count: 6,
             id: 'ancient_planks'
+        },
+        {
+            input: 'malum:runewood_logs',
+            output: 'malum:runewood_planks',
+            output_count: 6,
+            id: 'runewood_planks'
+        },
+        {
+            input: 'malum:soulwood_logs',
+            output: 'malum:soulwood_planks',
+            output_count: 6,
+            id: 'soulwood_planks'
         }
     ];
 
