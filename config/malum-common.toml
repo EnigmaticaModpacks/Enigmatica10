@@ -20,7 +20,7 @@
 
 [spirit]
 	#If set to true, any spirits dropped will simply take the form of an item.
-	noFancySpirits = false
+	noFancySpirits = true
 
 	[spirit.spawner]
 		#If set to true, mob spawners will create soulless mobs instead.
