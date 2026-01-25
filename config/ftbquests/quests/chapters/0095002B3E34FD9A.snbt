@@ -89,7 +89,7 @@
 			tasks: [
 				{
 					id: "733914EFB5DCE0A0"
-					item: { count: 1, id: "occultism:otherstone" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:otherrock)item(occultism:otherstone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -136,13 +136,13 @@
 				}
 				{
 					id: "7C03AA0EAA201AD2"
-					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:golden_sacrificial_bowl)item(occultism:dark_golden_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0E1C0207A6C2127A"
-					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:sacrificial_bowl)item(occultism:copper_sacrificial_bowl)item(occultism:silver_sacrificial_bowl)item(occultism:dark_sacrificial_bowl)item(occultism:dark_copper_sacrificial_bowl)item(occultism:dark_silver_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -273,10 +273,7 @@
 		{
 			dependencies: ["036036EA25034BE8"]
 			icon: {
-				components: {
-					"ftbquests:missing_item": "occultism:wormhole_frame"
-				}
-				id: "ftbquests:missing_item"
+				id: "occultism:stable_wormhole"
 			}
 			id: "6BDA1C1BE04D541A"
 			rewards: [
@@ -300,12 +297,12 @@
 			tasks: [
 				{
 					id: "2AAB10A32D2093A0"
-					item: { count: 1, id: "occultism:storage_controller" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:storage_controller)item(occultism:storage_controller_dark))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "1047800DF510BBDF"
-					item: { count: 1, id: "occultism:storage_stabilizer_tier1" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier0)item(occultism:storage_stabilizer_tier0_dark))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -552,7 +549,7 @@
 			}]
 			tasks: [{
 				id: "7C7682AB99930DAF"
-				item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier4)item(occultism:storage_stabilizer_tier4_dark))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -807,7 +804,7 @@
 			}]
 			tasks: [{
 				id: "6E94B9A1607A10DA"
-				item: { count: 1, id: "occultism:iesnium_sacrificial_bowl" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:iesnium_sacrificial_bowl)item(occultism:dark_iesnium_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -841,7 +838,7 @@
 			}]
 			tasks: [{
 				id: "3CB618B0034E61BD"
-				item: { count: 1, id: "occultism:eldritch_chalice" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:celestial_chalice)item(occultism:eldritch_chalice))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 7.5d

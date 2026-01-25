@@ -4,6 +4,7 @@
 
 - Fix missing tags on Lignite [(\#520)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/520)
 - Fix loot for Chipped quest [(\#517)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/517)
+- Occultism Quests should now accept the light/dark version of various blocks [(\#519)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/519)
 
 ---
 
