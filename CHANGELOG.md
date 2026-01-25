@@ -3,6 +3,7 @@
 #### 🦟 Bugs Fixed
 
 - Fix missing tags on Lignite [(\#520)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/520)
+- Fix loot for Chipped quest [(\#517)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/517)
 
 ---
 
