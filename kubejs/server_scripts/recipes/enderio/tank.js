@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
 
     experience_fluids.forEach((fluid) => {
         recipes.push({
-            fluid: { id: fluid, amount: 250 },
+            fluid: { fluid: fluid, amount: 250 },
             input: { item: 'minecraft:glass_bottle' },
             output: { id: 'minecraft:experience_bottle', count: 1 },
             mode: 'fill',
