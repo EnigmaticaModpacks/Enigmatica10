@@ -226,3 +226,4 @@ config/crash_assistant/lang
 
 dynamic-resource-pack-cache/
 dynamic-data-pack-cache/
+.claude/settings.local.json
