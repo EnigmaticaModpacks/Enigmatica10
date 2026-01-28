@@ -123,7 +123,7 @@ ServerEvents.recipes((event) => {
                 count: 1,
                 weight: 90
             },
-            id: `${id_prefix}fluorite_block`
+            id: 'occultism:miner/eldritch/fluorite'
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
@@ -133,7 +133,7 @@ ServerEvents.recipes((event) => {
                 count: 1,
                 weight: 90
             },
-            id: `${id_prefix}dark_block`
+            id: 'occultism:miner/eldritch/dark'
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
@@ -152,7 +152,7 @@ ServerEvents.recipes((event) => {
                 stack: { id: 'minecraft:clay', count: 3 },
                 weight: 90
             },
-            id: `${id_prefix}clay`
+            id: 'occultism:miner/eldritch/clay'
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
