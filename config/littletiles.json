@@ -108,6 +108,7 @@
       "itemHolderGui": true,
       "structureBuilderGui": true,
       "workbenchGui": true,
+      "printer3dGui": true,
       "wrenchEditSignal": true,
       "allowFlowingWater": true,
       "allowFlowingLava": true

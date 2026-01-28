@@ -213,16 +213,6 @@
 		# Range: > 1
 		chargeRate = 60
 
-	[energy.farm]
-		#The base energy capacity in uI.
-		# Default: 64000
-		# Range: > 1
-		capacity = 64000
-		#The base energy consumption in uI/t.
-		# Default: 10
-		# Range: > 1
-		usage = 10
-
 	[energy.attractor]
 		#The base energy capacity in uI.
 		# Default: 64000
@@ -232,6 +222,26 @@
 		# Default: 20
 		# Range: > 1
 		usage = 20
+
+	[energy.niard]
+		#The base energy capacity in uI.
+		# Default: 64000
+		# Range: > 1
+		capacity = 64000
+		#The base energy consumption in uI/t.
+		# Default: 10
+		# Range: > 1
+		usage = 10
+
+	[energy.farmingStation]
+		#The base energy capacity in uI.
+		# Default: 64000
+		# Range: > 1
+		capacity = 64000
+		#The base energy consumption in uI/t.
+		# Default: 40
+		# Range: > 1
+		usage = 40
 
 [enchanter]
 	#The lapis cost is enchant level multiplied by this value.
