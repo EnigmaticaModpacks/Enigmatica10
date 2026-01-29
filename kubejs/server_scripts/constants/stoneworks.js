@@ -32,6 +32,7 @@ const stoneworks = {
         'create:ochrum',
         'create:veridium',
         'create:scorchia',
-        'create:scoria'
+        'create:scoria',
+        'create:limestone'
     ]
 };

@@ -1,7 +1,8 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
-        charcoal: ['actuallyadditions:tiny_charcoal', 'utilitarian:tiny_charcoal'],
-        coal: ['actuallyadditions:tiny_coal', 'utilitarian:tiny_coal']
+        charcoal: ['actuallyadditions:tiny_charcoal', 'utilitarian:tiny_charcoal', 'malum:charcoal_fragment'],
+        coal: ['actuallyadditions:tiny_coal', 'utilitarian:tiny_coal', 'malum:coal_fragment'],
+        arcane_charcoal: ['malum:arcane_charcoal_fragment']
     };
 
     Object.keys(additions).forEach((tag) => {

@@ -516,14 +516,7 @@ ServerEvents.recipes((event) => {
             input: { tag: 'c:gems/coal' },
             outputs: [{ id: AlmostUnified.getTagTargetItem(`c:dusts/coal`).getId(), count: 1 }],
             multiply: 'none',
-            exclusions: [
-                'immersiveengineering',
-                'create:milling',
-                'modern_industrialization',
-                'oritech:pulverizer',
-                'oritech:grinder',
-                'naturesaura'
-            ],
+            exclusions: ['immersiveengineering', 'create:milling', 'modern_industrialization', 'naturesaura'],
             fe: 2400,
             eu: { cost: 2, duration: 5 },
             ori: { time: { pulverizer: 120, grinder: 60 } },
@@ -861,7 +854,7 @@ ServerEvents.recipes((event) => {
         if (!recipe.exclusions.includes('modern_industrialization')) {
             let r = {
                 type: 'modern_industrialization:macerator',
-                item_inputs: recipe.input,
+                item_inputs: [recipe.input],
                 item_outputs: [{ item: recipe.outputs[0].id, amount: recipe.outputs[0].count }],
                 eu: recipe.eu.cost,
                 duration: recipe.eu.duration * 20

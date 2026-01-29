@@ -29,6 +29,15 @@ ServerEvents.recipes((event) => {
             ],
             energy: 2400,
             id: `enderio:sag_milling/sand`
+        },
+        {
+            input: { item: 'create:rose_quartz' },
+            outputs: [
+                { item: { id: 'create:polished_rose_quartz', count: 1 } },
+                { item: { id: 'create:polished_rose_quartz', count: 1 }, chance: 0.15 }
+            ],
+            energy: 2400,
+            id: `${id_prefix}polished_rose_quartz`
         }
     ];
 

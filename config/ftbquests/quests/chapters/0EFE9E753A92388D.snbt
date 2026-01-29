@@ -255,9 +255,9 @@
 			id: "3263757C9A240C70"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0426863809A1E6F4"
+				id: "381AD0631B7B21D6"
 				table_id: 167859363417192230L
-				type: "choice"
+				type: "loot"
 			}]
 			tasks: [
 				{

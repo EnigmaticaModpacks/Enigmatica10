@@ -15,3 +15,6 @@ showTooltips = true
 #Whether mimics can use textures from Lootr or Quark
 #Allowed Values: true, false
 useModdedMimicTextures = true
+#Controls the vertical position of the Helium Flamingo's charge meter
+#Range: -2147483648 ~ 2147483647
+heliumFlamingoOverlayOffset = 0

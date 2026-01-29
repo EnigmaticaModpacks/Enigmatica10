@@ -13,6 +13,12 @@
 	relocatorRangeColor = "8B0000"
 	#The color of the range box of the Aversion Obelisk
 	aversionRangeColor = "8B0000"
+	#The color of the range box of the Attractor Obelisk
+	attractorRangeColor = "8B0000"
+	#The color of the range box of the Wireless Charger
+	wirelessChargerRangeColor = "C7CC2A"
+	#The color of the range box of the Niard
+	niardRangeColor = "FFA500"
 
 [ioconfig]
 	#Neighbour Transparency [0-1]

@@ -16,6 +16,11 @@ ServerEvents.recipes((event) => {
             input: { count: 1, tag: 'c:ores/black_quartz' },
             output: { count: 2, id: 'actuallyadditions:black_quartz' },
             id: `${id_prefix}black_quartz`
+        },
+        {
+            input: { count: 1, item: 'create:rose_quartz' },
+            output: { count: 1, id: 'create:polished_rose_quartz' },
+            id: `${id_prefix}polished_rose_quartz`
         }
     ];
 

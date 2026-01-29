@@ -11,7 +11,8 @@ $CLIENT_MODS_TO_REMOVE_FROM_SERVER_FILES = @(
 	"BetterF3",
 	"lighty",
 	"sodium",
-	"iris"
+	"iris",
+	"smithingtemplateviewer"
 )
 
 $InstanceRoot = ("$PSScriptRoot/.." | Resolve-Path)

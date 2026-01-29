@@ -192,6 +192,36 @@ ServerEvents.recipes((event) => {
             energy: 6400,
             experience: 0.3,
             id: `${id_prefix}brass_ingot`
+        },
+        {
+            inputs: [
+                { tag: 'c:nuggets/zinc', count: 1 },
+                { item: 'minecraft:andesite', count: 1 }
+            ],
+            output: { id: 'create:andesite_alloy', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}andesite_alloy_from_zinc`
+        },
+        {
+            inputs: [
+                { tag: 'c:nuggets/iron', count: 1 },
+                { item: 'minecraft:andesite', count: 1 }
+            ],
+            output: { id: 'create:andesite_alloy', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}andesite_alloy_from_iron`
+        },
+        {
+            inputs: [
+                { tag: 'c:dusts/redstone', count: 4 },
+                { tag: 'c:gems/quartz', count: 1 }
+            ],
+            output: { id: 'create:rose_quartz', count: 1 },
+            energy: 6400,
+            experience: 0.3,
+            id: `${id_prefix}rose_quartz`
         }
     ];
 

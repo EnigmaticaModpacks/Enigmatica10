@@ -9,9 +9,9 @@
 	# Default: 250000
 	# Range: > 1
 	max_programming_area = 250000
-	#Fluids at least as hot as this temperature (Kelvin) will be auto-registered as Liquid Compressor fuels, the quality being dependent on fluid temperature.
+	#Fluids at least as hot as this temperature (Kelvin) will be auto-registered as Liquid Compressor fuels, the quality being dependent on fluid temperature. Setting this to -1 completely disables hot fluids from being usable as fuels.
 	# Default: 373
-	# Range: > 0
+	# Range: > -1
 	min_fluid_fuel_temperature = 373
 	#Should dyes be used up when coloring things (Drones, Logistics Modules, Redstone Modules)?
 	use_up_dyes_when_coloring = false
@@ -38,7 +38,7 @@
 	#Oil worldgen whitelist by dimension ID: add dimension ID's to this list if you want oil lake worldgen to happen ONLY in those dimensions. You can wildcard the path; e.g 'modid:*' whitelists ALL dimensions of namespace 'modid'. If this is empty, it is ignored, and 'oil_world_gen_dimension_blacklist' will be checked instead.
 	oil_world_gen_dimension_whitelist = []
 	#Oil worldgen blacklist by dimension ID: add dimension ID's to this list if you don't want oil lake worldgen to happen there. You can wildcard this; e.g 'modid:*' blacklists ALL dimensions of namespace 'modid'.
-	oil_world_gen_dimension_blacklist = ['minecraft:*']
+	oil_world_gen_dimension_blacklist = ["minecraft:*"]
 
 [machines]
 	#Aerial Interface backwards compat: allow pre-0.8.0 behaviour of getting player's armor inventory from top face, even with Dispenser Upgrade installed
@@ -169,6 +169,10 @@
 	# Default: 0.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	scuba_air_usage_per_block_depth = 0.0
+	#Jetboots height limit before cutting out, relative to world max build height
+	# Default: 64
+	# Range: > -2147483648
+	jet_boots_height_limit = 64
 
 [advanced]
 	#When set to true, the Kerosene Lamp's fake air blocks won't be registered and therefore removed from the world. Useful if this causes trouble (it shouldn't though)

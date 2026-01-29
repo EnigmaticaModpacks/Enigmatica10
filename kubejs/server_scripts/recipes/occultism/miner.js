@@ -43,6 +43,46 @@ ServerEvents.recipes((event) => {
             },
             id: `${id_prefix}replica`
         },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:ores/blazing_quartz',
+                count: 1,
+                weight: 50
+            },
+            id: `${id_prefix}blazing_quartz`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:ores/cthonic_gold',
+                count: 1,
+                weight: 50
+            },
+            id: `${id_prefix}cthonic_gold`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:ores/brilliance',
+                count: 1,
+                weight: 50
+            },
+            id: `${id_prefix}brilliance`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/ores' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:ores/soulstone',
+                count: 1,
+                weight: 150
+            },
+            id: `${id_prefix}soulstone`
+        },
 
         // Eldritch Miner
         {
@@ -83,7 +123,7 @@ ServerEvents.recipes((event) => {
                 count: 1,
                 weight: 90
             },
-            id: `${id_prefix}fluorite_block`
+            id: 'occultism:miner/eldritch/fluorite'
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
@@ -93,7 +133,7 @@ ServerEvents.recipes((event) => {
                 count: 1,
                 weight: 90
             },
-            id: `${id_prefix}dark_block`
+            id: 'occultism:miner/eldritch/dark'
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
@@ -112,7 +152,7 @@ ServerEvents.recipes((event) => {
                 stack: { id: 'minecraft:clay', count: 3 },
                 weight: 90
             },
-            id: `${id_prefix}clay`
+            id: 'occultism:miner/eldritch/clay'
         },
         {
             ingredient: { tag: 'occultism:miners/eldritch' },
@@ -178,6 +218,46 @@ ServerEvents.recipes((event) => {
                 weight: 90
             },
             id: `${id_prefix}replica_block`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/eldritch' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:storage_blocks/blazing_quartz',
+                count: 1,
+                weight: 90
+            },
+            id: `${id_prefix}blazing_quartz_block`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/eldritch' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:storage_blocks/raw_cthonic_gold',
+                count: 1,
+                weight: 90
+            },
+            id: `${id_prefix}raw_cthonic_gold_block`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/eldritch' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:storage_blocks/raw_brilliance',
+                count: 1,
+                weight: 90
+            },
+            id: `${id_prefix}raw_brilliance_block`
+        },
+        {
+            ingredient: { tag: 'occultism:miners/eldritch' },
+            result: {
+                type: 'occultism:weighted_tag',
+                tag: 'c:storage_blocks/raw_soulstone',
+                count: 1,
+                weight: 90
+            },
+            id: `${id_prefix}raw_soulstone`
         }
     ];
 

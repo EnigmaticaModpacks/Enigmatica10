@@ -22,7 +22,13 @@ ServerEvents.tags('item', (event) => {
         quantum_alloy: ['advanced_ae:quantum_alloy'],
 
         replica: ['replication:replica_ingot'],
-        arcane: ['irons_spellbooks:arcane_ingot']
+        arcane: ['irons_spellbooks:arcane_ingot'],
+
+        hallowed_gold: ['malum:hallowed_gold_ingot'],
+        malginant_pewter: ['malum:malginant_pewter_ingot'],
+        soul_stained_steel: ['malum:soul_stained_steel_ingot'],
+
+        andesite_alloy: ['create:andesite_alloy']
     };
 
     Object.keys(additions).forEach((tag) => {

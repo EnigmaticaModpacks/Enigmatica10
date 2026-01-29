@@ -151,6 +151,38 @@ RecipeViewerEvents.addInformation('item', (event) => {
                 `● Shulker Bullet`,
                 `● Trident`
             ]
+        },
+        {
+            filter: [Ingredient.of('#malum:soul_shatter_capable_weapons')],
+            text: [`Capable of obtaining Malum Spirits.`]
+        },
+        {
+            filter: ['malum:rotting_essence'],
+            text: [`Occasionally dropped by Zombies slain with a Soul Shattering Weapon.`]
+        },
+        {
+            filter: ['malum:grim_talc'],
+            text: [`Occasionally dropped by Skeletons slain with a Soul Shattering Weapon.`]
+        },
+        {
+            filter: ['malum:astral_weave'],
+            text: [`Occasionally dropped by Phantoms slain with a Soul Shattering Weapon.`]
+        },
+        {
+            filter: ['malum:wind_nucleus'],
+            text: [`Occasionally dropped by Breeze slain with a Soul Shattering Weapon.`]
+        },
+        {
+            filter: ['malum:warp_flux'],
+            text: [`Occasionally dropped by Endermen slain with a Soul Shattering Weapon.`]
+        },
+        {
+            filter: ['immersiveengineering:blueprint[immersiveengineering:blueprint="automatons"]'],
+            text: [`Can be found in Trial Chambers.`]
+        },
+        {
+            filter: ['immersiveengineering:blueprint[immersiveengineering:blueprint="specialBullet"]'],
+            text: [`Can be purchased from a Gunsmith Villager.`]
         }
     ];
 

@@ -29,11 +29,11 @@ $MODPACK_NAME = "Enigmatica10"
 $CLIENT_NAME = "Enigmatica10"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.23.0"
+$MODPACK_VERSION = "1.29.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.22.0"
+$LAST_MODPACK_VERSION = "1.28.0"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -202,7 +202,7 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 
 # Example: 
 # $FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES = @("mods/Apotheosis-1.19.2-6.2.1.jar", "mods/create-1.19.2-0.5.1.b.jar")
-$FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES = @("cc-tweaked-1.21.1.*")
+$FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES = @("cc-tweaked-1.21.1.*.jar")
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"local/ftbutilities", 

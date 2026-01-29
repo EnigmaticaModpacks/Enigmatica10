@@ -1,11 +1,4 @@
 {
-  "replication": {
-    "matter_tank": true
-  },
-  "framedblocks": {
-    "framed_item_frame": true,
-    "framed_block_generic": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -59,11 +52,77 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "tempad": {
+    "chronon": true,
+    "rudimentary": true,
+    "anchor": true,
+    "metronome": true,
+    "workstation": true,
+    "timedoor": true
+  },
   "apothic_spawners": {
     "spawner": true
   },
   "entangled": {
     "entangled_block_component": true
+  },
+  "ftbquests": {
+    "barrier": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "replication": {
+    "matter_tank": true
+  },
+  "evilcraft": {
+    "box_of_eternal_closure": true,
+    "broom": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
   },
   "jade_access": {
     "held_item": true,
@@ -82,20 +141,6 @@
     "redstone": true,
     "camo": true,
     "semiblock": true
-  },
-  "immersiveengineering": {
-    "multiblock_icon": true
-  },
-  "jade": {
-    "coordinates.rel": false,
-    "registry_name.special": false,
-    "block_states": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "block_properties": false,
-    "mod_name": true
   },
   "apotheosis": {
     "adventure": true
@@ -118,46 +163,16 @@
     "armory": true,
     "drawer": true
   },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
   "modularrouters": {
     "router": true
   },
   "ars_nouveau": {
     "mob_jar": true
   },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
   "supplementaries": {
     "hat_stand": true
   },
-  "waystones": {
-    "waystone": true
-  },
   "corpse": {
     "corpse": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
   }
 }

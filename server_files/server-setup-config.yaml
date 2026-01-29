@@ -16,7 +16,7 @@ install:
 
     # exact version of forge or fabric that is supposed to be used
     # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-    loaderVersion: 21.1.148
+    loaderVersion: 21.1.218
 
     # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
     # supports variables: {{@loaderversion@}} and {{@mcversion@}}
@@ -47,7 +47,7 @@ install:
 
     # Link to where the file where the modpack can be distributed
     # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-    modpackUrl: https://edge.forgecdn.net/files/6432/389/Enigmatica10-1.23.0.zip
+    modpackUrl: https://edge.forgecdn.net/files/7496/661/Enigmatica10-1.28.0.zip
 
     # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
     # current supported formats:
@@ -77,6 +77,7 @@ install:
             - 986380 # Lighty https://www.curseforge.com/minecraft/mc-mods/lighty
             - 394468 # Sodium https://www.curseforge.com/minecraft/mc-mods/sodium
             - 455508 # Iris https://www.curseforge.com/minecraft/mc-mods/irisshaders
+            - 1133580 # Smithing Template Viewer https://www.curseforge.com/minecraft/mc-mods/smithing-template-viewer
 
     # The base path where the server should be installed to, ~ for current path
     baseInstallPath: ~

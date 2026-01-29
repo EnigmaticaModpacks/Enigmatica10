@@ -5,7 +5,7 @@
 	filename: "multiverse"
 	group: "440488E780593120"
 	id: "60F666DD0AC6F03F"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [{
 		id: "0F04956D59A78393"

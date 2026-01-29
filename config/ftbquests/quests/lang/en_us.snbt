@@ -1,11 +1,13 @@
 {
 	chapter.0095002B3E34FD9A.title: "Occultism"
+	chapter.0C0D9C8007301C03.title: "Malum"
 	chapter.0E9796448AFA83CD.title: "Storage"
 	chapter.0EFE9E753A92388D.title: "Building and Tools"
 	chapter.125FC520ED54494B.title: "Occultism Rework"
 	chapter.13C15ACA23526F9E.title: "Replication"
 	chapter.13D3BD9B8A839B2E.title: "Industrial Foregoing"
 	chapter.1514913DA64A98EB.title: "Ender IO"
+	chapter.16F2291ADE5A3FAC.title: "Immersive Engineering"
 	chapter.1A29B498BD263BEF.title: "Redstone"
 	chapter.1B26EF5BA11434F8.title: "ChocoCraft"
 	chapter.24DC8C08564BB550.title: "Actually Additions"
@@ -67,6 +69,13 @@
 		"This mod covers such diverse needs such as crop farming, animal husbandry, and monster manipulation. It’ll even process your ores and power your base. "
 	]
 	quest.01C6F096606E3638.title: "Industrial Foregoing"
+	quest.01D2F67E2543155E.quest_desc: [
+		"These materials are obtained at the Weeping Well by throwing in some sacrificial item. "
+		""
+		"Explore this new chapter in the Encyclopedia to discover all the new possibilities that have opened to you. "
+		""
+		"Be sure to make note of this location as you’ll need it to obtain these powerful components for advanced crafts."
+	]
 	quest.01E9BF979ED779AE.quest_desc: [
 		"Welcome to Iron’s Spells and Spellbooks!"
 		""
@@ -83,7 +92,7 @@
 		"Like Afrit, we’ll need a chalk that has been specially infused with their essence."
 		"&n                                                  &r"
 		""
-		"Set up Abra’s Fortified Conjure to summon an Unbound Marid, then defeat it in combat to obtain its essence."
+		"Set up Tibira's Attraction to summon an Unbound Marid, then defeat it in combat to obtain its essence."
 		""
 		"&6⚠ Note: This ritual requires you "
 		"&6    to 'use' or throw a Trident after "
@@ -351,6 +360,11 @@
 		"So, consider leaving a few un-broken so they can spread to new leaves. "
 	]
 	quest.0A0D539C1285F40F.title: "Gold Leaf"
+	quest.0A170AE8092145FA.quest_desc: [
+		"A basic power option, Water Wheels need flowing water to push them, causing them to rotate. "
+		""
+		"Up to three Water Wheels may be connected to the same Kinetic Dynamo."
+	]
 	quest.0AEF5FB6530F4D65.quest_desc: ["With Spectral Glasses equipped, non-hostile Spirits will completely ignore your presence, so long as you remain polite."]
 	quest.0B04BC5F88746182.quest_desc: ["The following are full-blown storage systems that hold many types of items and present them in a single easy-to-browse and searchable interface. "]
 	quest.0B04BC5F88746182.title: "Storage Systems"
@@ -466,6 +480,11 @@
 		"Distributor Modules can pull from or send to a maximum of up to 8 inventories per module, making them perfect for distributed crafts or collecting from many machines."
 	]
 	quest.0D65061DFD04B301.title: "Item Modules"
+	quest.0D7299047145F61C.quest_desc: [
+		"Early on, most of the Creosote Oil you produce will likely be spent making Treated Wood as it will be used in many recipes. "
+		""
+		"Crafting it by hand can be a chore, so be sure to look into some form of automated crafting to help you out!"
+	]
 	quest.0D7B7B9CF7362FD8.quest_desc: [
 		"Have a trait you don’t want anymore? You can remove them by crafting an Anti-Plasmid. "
 		""
@@ -581,6 +600,11 @@
 	quest.0EF0F6D0012FB59E.title: "Lava Factory"
 	quest.0F04956D59A78393.quest_desc: [""]
 	quest.0F04956D59A78393.title: "Multiverse"
+	quest.0F185E80D0EFF772.quest_desc: [
+		"Each tier of electrical wire has its own pros and cons detailed in the Engineer’s Manual. Briefly, HV is best for long distance transmission, but in many cases it’s best to step down to MV or LV before connecting to a machine. "
+		""
+		"To facilitate this, Transformers may be used to step down from an HV trunk line down to safer, more suitable voltage levels before running down to a group of machines. "
+	]
 	quest.0F97525097FA4573.quest_desc: [
 		"Looking for a fun way to transport items from remote locations? Perhaps to get your ores back from a remote Bedrock Extractor?"
 		""
@@ -601,6 +625,17 @@
 		"Place the Target Pedestal in your work area and Right-Click it with the Quartz Sulfur."
 		""
 		"&a🛈 Tip: The Sulfur may be extracted again via Right-Click."
+	]
+	quest.10021117D89C531F.quest_desc: [
+		"A vital component in any factory, the Fermenter converts sugars into Ethanol used in Biodiesel and Duroplast production. "
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.10131A9E07C7CE9E.quest_desc: [
 		"Ever wished you could perform rituals instantly? "
@@ -636,6 +671,16 @@
 		"Working with the mod is straightforward but be sure to check out the Guidebook for an in-depth walkthrough on cross-pollination. "
 	]
 	quest.1272A1D0BD9934AE.title: "Productive Trees"
+	quest.128449F277949E31.quest_desc: [
+		"Placing a Repair Pylon near an active Spirit Crucible will allow you to keep the Impetus repaired and working at it’s best. "
+		""
+		"The Repair Pylon will need appropriate materials, of course, which are detailed in EMI. It can equally be used to repair many items you might otherwise repair on an Anvil. "
+		""
+		"For such items, you’ll want to place them in an Item Stand or Item Pedestal nearby."
+		""
+		"&6⚠ Note: Only the Spirits are consumed "
+		"&6    by this process."
+	]
 	quest.128669F9F6431E0A.quest_desc: [
 		"The Bio Reactor is a more advanced generator which produces more FE per tick based on the number of items it is burning. "
 		""
@@ -686,6 +731,21 @@
 		""
 		"&a🛈 Tip: You can use more than four "
 		"&a    Laser Drills on a Laser Base!"
+	]
+	quest.134D69D38C983AE2.quest_desc: [
+		"The Diesel Generator is a robust power source that should be capable of covering most energy costs in Immersive Engineering. "
+		""
+		"It will consume fuel rapidly, so keeping up with production will be the most important aspect of operating the device."
+		""
+		"Refer to the Engineer’s Manual for a list of valid fuels."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.1386A595D84FE6FC.quest_desc: [
 		"The Centrifuge will enable access to a number of new materials, such as Carbon Dust for cheaper Steel, as well as a host of minerals used for advanced technology. "
@@ -878,6 +938,19 @@
 		"&a    use."
 	]
 	quest.176DAF596793D4FF.title: "Waste Management"
+	quest.180610F8982DB0C3.quest_desc: [
+		"Looking to stretch your ores a bit further? Consider processing your Raw Ores through a Crusher."
+		""
+		"Be careful with what you put inside of it, however, as it tends to destroy items that it cannot process."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.1824109EF4F096A1.quest_desc: [
 		"Power requirements are going to rapidly increase in this stage. Setting up some extra boilers in advance will save you trouble down the road. "
 		""
@@ -986,7 +1059,45 @@
 		""
 		"Greater range will cost more power!"
 	]
+	quest.1C83B47F599B117A.quest_desc: [
+		"So far, we’ve dabbled with magics of the Soul. To delve deeper, we will need to stare into the void itself."
+		"&n                                                  "
+		""
+		"Locate a Weeping Well deep underground and throw your Encyclopedia Arcana into it to obtain the necessary knowledge. "
+		""
+		"This is easier said than done, of course, but you can use a Wayfinder to help you locate the structure. "
+		""
+		"Once you've transformed your Encyclopedia, you'll find a new chapter listed within: &dThe Chronicles of the Void&r"
+	]
 	quest.1C87FB78BA245285.title: "Hedyrin's Lure"
+	quest.1CEDA28FD4CB759E.quest_desc: [
+		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
+		""
+		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a Label Accessor. "
+		""
+		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
+		""
+		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+	]
+	quest.1CF0D1E63C34AE6E.quest_desc: [
+		"Spirit Catalyzers help speed up the Spirit Crucible. Simply place them nearby and fill them with your choice of furnace fuel."
+		""
+		"Speeding up the Crucible in this way will cause the Impetus to take damage faster as well, but the trade-off is well worth the risk."
+	]
+	quest.1D2BB7149630A9E2.quest_desc: [
+		"Survey Tools are used to locate Mineral Deposits which are special resource nodes that will allow you to extract large amounts of different materials using an Excavator. "
+		""
+		"Mineral Deposits are generated in roughly circular areas, can be several chunks wide, and may even overlap each other. "
+		""
+		"Their resources will be mineable anywhere in that area, but they are densest in the center. Therefore, it’s worthwhile locating the center and building the Excavator there for faster extraction."
+		"&n                                                  "
+		""
+		"Begin your search by using the Survey Tools. To operate them, hold them in your hand and point at a block such as Grass or Stone. Click and Hold the Right Mouse Button until the animation finishes. If a Mineral Deposit is nearby, you will be notified near the bottom of the screen."
+		""
+		"Once you’ve gotten within a few blocks of the center, a Core Sample Drill can be useful for pinpointing the exact location where the Saturation is 100%. "
+		""
+		"This is where you'll want to set up an Excavator."
+	]
 	quest.1D3ECD980E15451B.quest_desc: [
 		"Gas pipes that double as limited storage, keeping a buffer of the gas in each block space. The more there are in a network, the more gas they can transfer per tick."
 		""
@@ -1017,6 +1128,15 @@
 		"But what if you could make your own friends? Cute, lovable, huggable friends that would spark joy just by being around? "
 	]
 	quest.1DA29F3B45DEFB4B.title: "Magical Friends"
+	quest.1E0B03155C2CAEE7.quest_desc: [
+		"Spirit Focusing is an alchemical art whereby a catalyst item, or impetus, is infused with Spirits to generate new materials. "
+		"&n                                                  "
+		""
+		"For a start, craft an Alchemical Impetus and slot it into the Crucible. Depending on the Spirits inserted alongside the Impetus, you will begin to generate new materials; Arcane for Redstone, Infernal for Glowstone, and more. "
+		""
+		"The Impetus will be damaged in the process and will eventually fracture, however there are ways to repair them to keep this process going indefinitely."
+	]
+	quest.1E0B03155C2CAEE7.title: "Spirit Focusing"
 	quest.1E2327FB6801D209.quest_desc: [
 		"Early on, the Electrolytic Separator and Pressurized Reaction Chamber can be used to produce Ethene. This is a fairly simple process to set up and can produce a fair bit more energy from Biofuel than burning it outright."
 		""
@@ -1088,7 +1208,7 @@
 		""
 		"The possibilities are quite endless!"
 	]
-	quest.204FC8B3C340DF4F.quest_desc: ["With an Iesnium Sacrificial Bowl installed in your Pentacles, the rituals will be performed at an accelerated rate. Be sure to upgrade them as soon as you can!"]
+	quest.204FC8B3C340DF4F.quest_desc: ["With an Iesnium Ritual Bowl installed in your Pentacles, the rituals will be performed at an accelerated rate. Be sure to upgrade them as soon as you can!"]
 	quest.205B821B10C6AC75.quest_desc: [
 		"The Coercion Deriver is used to convert FE or EU to Fortron, the energy used by Modular Forcefields. "
 		""
@@ -1131,12 +1251,10 @@
 		"She’ll automatically pull items from a linked storage to do her crafting and can be instructed what to craft by placing the items on an adjacent Arcane Pedestal. "
 	]
 	quest.20C038E5D70CDB52.title: "Wixie Cauldron"
-	quest.211E0844F3ACD244.quest_desc: [
-		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
+	quest.20EBCCCAA99AC19A.quest_desc: [
+		"The Garden Cloche is useful for automating the growth of certain crops, like Hemp, which are used heavily throughout the mod. "
 		""
-		"We’ll have to start with the Primitive version, which runs on standard Furnace fuels. "
-		""
-		"Once we get going, however, we’ll be able to upgrade to powered machines."
+		"Consider feeding it excess Slag or Bone Meal as fertilizer to speed things along until better fertilizers can be made. "
 	]
 	quest.212EB5AFECD2A6E8.quest_desc: [
 		"Industry starts at the forge; where a strong arm is as important as a strong mind. "
@@ -1193,6 +1311,17 @@
 		"Mercurial Connection Nodes allow multiple wires to come together to form a broader network, as well as to extend the reach of individual wires."
 	]
 	quest.22ABFC3024E54FEA.title: "Mercurial Item Nodes"
+	quest.22FBFA5E2F891021.quest_desc: [
+		"Looking to get a little extra value from your trees? Consider cutting them into planks with a Sawmill for a boost in output!"
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.235AA993029F7277.quest_desc: [
 		"Rubber is an important insulator for electrical components, as the next step will be making such components, now is a good time to set up some rubber production. "
 		""
@@ -1203,7 +1332,9 @@
 	quest.23703A535469A7F3.quest_desc: [
 		"Welcome to Ender IO. "
 		""
-		"This mod is in early alpha and things are changing fast! Quests are similarly a work in progress."
+		"This mod is in early alpha and things are changing fast! "
+		""
+		"Quests are similarly a work in progress."
 	]
 	quest.23703A535469A7F3.title: "Ender IO"
 	quest.23BC0F0C51F64721.quest_desc: [
@@ -1268,6 +1399,12 @@
 		"This mod is a collection of eclectic features meant to make life easier, offering machines to help with farming, new potion brewing mechanics, mining tools and much more. "
 	]
 	quest.25770E9DCA5B4B1F.title: "Actually Additions"
+	quest.25B779319401405B.quest_desc: [
+		"Welcome to Malum, a magic mod designed around the manipulation of spirits to invoke powerful rituals."
+		""
+		"This quest section covers the basics of using the mod. For more in-depth explanations, please refer to the Encyclopedia Arcana."
+	]
+	quest.25B779319401405B.title: "Malum"
 	quest.25D327DB56E51DA5.quest_desc: [
 		"The pinnacle of energy production, the Fusion Reactor uses Deuterium and Tritium to produce an absurd amount of power. Some of this is accessible directly from the Reactor itself, but far more can be harnessed by using the Reactor to produce steam for Turbines."
 		"&n                                                 &r"
@@ -1286,6 +1423,15 @@
 		"When placed, all Stone or Netherrack in an area will be slowly converted to random ores at the cost of Aura. "
 		""
 		"This requires extremely high Aura to begin functioning and has an ongoing cost. You’ll need a Creational Catalyst to even begin, and you’ll very likely want a strong Aura Generator, like a Shooting Mark, to cover the operational cost. "
+	]
+	quest.26115C1BB363EF58.quest_desc: [
+		"These materials are obtained by killing the appropriate mobs with a Soul Shattering Weapon:"
+		""
+		"    • Breeze - Wind Nucleus"
+		"    • Endermen - Warp Flux"
+		"    • Skeleton - Grim Talc"
+		"    • Phantom - Astral Weave "
+		"    • Zombie - Rotting Essence"
 	]
 	quest.264783EF292A494B.quest_desc: [
 		"The Simple Clicker can automate a number of interactions, such as shearing sheep or killing mobs that pass in front of it. "
@@ -1317,6 +1463,19 @@
 		"&a🛈 Tip: Items may be piped into the "
 		"&a    Identification Chamber through"
 		"&a    the bottom."
+	]
+	quest.27B747DE574CF261.quest_desc: [
+		"The next most important resource used by Immersive Engineering is, of course, Steel. IE uses it extensively and it appears in nearly all of it's machines. Given the importance of this material, you'll want to get some cooking sooner rather than later. "
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 3x3x3 cube of Blast Bricks. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the center block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.2850FCAFEEF5004C.quest_desc: [
 		"Some traits, such as Efficiency, may be leveled up through a process known as Mutation."
@@ -1436,6 +1595,30 @@
 		"&a    roof or floor of the dimension."
 	]
 	quest.2A2D51206676A83C.title: "The Bumblezone"
+	quest.2A7455D9EE649BA4.quest_desc: [
+		"Totemic Magic allows the intrepid sorcerer to create effects in an area and can produce some rather unique effects. "
+		""
+		"For example, the Rite of Sapping allows Dripstone to work more quickly, while the Rite of the Seas enhances one’s fishing abilities while standing in the area."
+		"&n                                                             "
+		""
+		"Setting up a totem is a straightforward endeavor. Simply place a Runewood Totem Base and then place a number of Runewood logs atop it in a column. The number of logs required will depend on the specific ritual."
+		""
+		"Encoding the glyphs requires you to Right-Click the logs with the appropriate Spirit. "
+		""
+		"For the Rite of Sapping we would need four logs. Right-Click each log from top to bottom with &9Aqueous&r, &9Aqueous&r, &dArcane&r, and &5Eldritch&r. "
+		""
+		"Finally, Right-Click the base to activate the ritual."
+		""
+		"These rituals, once activated, require no maintenance nor upkeep. "
+		""
+		"Check the Encyclopedia Arcana for an in depth description of each rite and a list of the glyphs required to encode it. "
+		""
+		"Setting up Wicked Rites can be an excellent way to help farm more Spirits."
+		""
+		"&a🛈 Tip: A Totemic Staff will display a totem's "
+		"&a    working area when held."
+	]
+	quest.2A7455D9EE649BA4.title: "Totemic Magic"
 	quest.2A83BC699BE18F3A.quest_desc: [
 		"Welcome to Modern Industrialization!"
 		""
@@ -1466,6 +1649,15 @@
 		"&6    Flawless Budding Certus Quartz."
 	]
 	quest.2AF1CE73E140D685.title: "Farming Certus"
+	quest.2B0DDF8003305DB6.quest_desc: [
+		"Transfer Labels slip between blocks to enable block-to-block transfer without a pipe. "
+		""
+		"Sneak + Right-Click to install one on the side of a block. Once installed, the label may be configured by Right-Clicking either with another label or with a Label Accessor. "
+		""
+		"While in the Configuration screen, you may add more labels to control the quantity and speed of transfer, as well as set filters."
+		""
+		"The label may be removed by Left-Clicking it with another label or with a Label Accessor."
+	]
 	quest.2BE4C2280C195282.quest_desc: ["Plus Spirit Attuned Gems"]
 	quest.2BE4C2280C195282.title: "Abra's Conjure"
 	quest.2BF4F678812848FC.quest_desc: ["[\"To start, we’ll need to \", { \"text\": \"Ferment\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C7267F92822D2C1\" },\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]} },\" our Iron Sulfur into Common Metal Niter. \"]"]
@@ -1512,6 +1704,19 @@
 		""
 		"Check out the guidebook for more information on how to use it to your advantage!"
 	]
+	quest.2D4B890D1BE63327.quest_desc: [
+		"Considering the Crude Blast Furnace cannot be automated in any way, you’ll want to spend the first Steel Ingots you make on upgrading it to an Improved Blast Furnace. "
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 3x3x3 cube of Reinforced Blast Bricks and a Hopper on top. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the center block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.2D5820091B6B2315.quest_desc: [
 		"Latex and Rubber are two of the most fundamental resources required for Industrial Foregoing beyond other such basics as stone, metals, and wood. "
 		""
@@ -1525,6 +1730,13 @@
 		"Providing some paper, ink, and a ‘key’ item will allow you to craft any scroll you wish. Just insert the necessary ingredients and pick the spell you want."
 		""
 		"Some scrolls will only be available with higher tier inks!"
+	]
+	quest.2DFAEB81548A578A.quest_desc: [
+		"Thermoelectric Generators are low power solid-state power generators. You will need a hot and a cold block placed on opposing sides for it to work. "
+		""
+		"For example, Blue Ice on one side, and Uranium on the other will generate the most power. "
+		""
+		"Refer to the Engineer’s Manual for a full list of compatible blocks."
 	]
 	quest.2EF8D2BD30779E56.title: "Ihagan's Enthrallment"
 	quest.2F28FE62872496C8.quest_desc: ["A staple of energy generation, Solar Panels create energy passively during the day. Try to bank enough power to make it through the night, however!"]
@@ -1707,6 +1919,21 @@
 		"&a    Heat Frame, granting better yields!"
 	]
 	quest.358A62846D6B0004.title: "Plastic"
+	quest.359562022532BAE1.quest_desc: [
+		"Spirit Infusion is used to enhance items and materials, granting them greater potency. "
+		"&n                                                   &r"
+		"To begin, let’s make some Soulstained Steel. "
+		""
+		"When viewing Spirit Altar recipes in EMI, the central item and the Spirits shown to the left should be insterted onto the Altar itself. "
+		""
+		"Any items shown on the right must be instered into a nearby Item Pedestal or Item Stand. "
+		""
+		"Items may be piped into the these blocks, or otherwise Right-Clicked into place when crafting by hand."
+		""
+		"&6⚠ Note: Item Stands and Pedestals "
+		"&6    must be within four blocks of "
+		"&6    the Altar."
+	]
 	quest.35A8CEA408114638.quest_desc: [
 		"As mentioned, Aura is a finite resource that needs to be maintained. Fortunately, there are multiple generators available for doing so. "
 		""
@@ -1740,11 +1967,40 @@
 		"&a    structure or valid places for "
 		"&a    hatches."
 	]
+	quest.369D0F2CC8D028D2.quest_desc: [
+		"The Spirit Crucible may be further augmented by placing up to four Augments on it and one Core Augment."
+		""
+		"The same augment may be used more than once, however it may be best to mix and match different augments to achieve the best results. "
+		""
+		"Holding a Tuning Fork in your hand will display the total effect of all installed augments. "
+		""
+		"Right-Clicking the Crucible with the Tuning Fork will also allow you to select a modifier for an even greater boost."
+		""
+		"Experiment with them to see what you like best!"
+	]
 	quest.37D7B78BDD5F420B.title: "Xovrenth Adjure"
 	quest.380D0C6385B6325C.quest_desc: [
 		"Black Quartz is a basic resource used throughout Actually Additions and will be required to get started. "
 		""
 		"It can commonly be found by mining between &6Y 45&r and &6Y -25&r."
+	]
+	quest.384024534B512211.quest_desc: [
+		"Like most other Technology mods, Immersive Engineering is compatible with FE. You may choose to use the mod’s own power options, or those from other mods."
+		""
+		"For most machines, you can simply run any power cable to the energy port. A few blocks, like Powered Lanterns, can only be powered with IE wire, however."
+		""
+		"To use IE’s wiring, you’ll need a Connector at both ends with Relays used to extend a wire's reach. "
+		""
+		"Relays can have multiple wires connected, while Connectors only permit one connection. Right-Click from one block to another with a Wire Coil to make a connection."
+		""
+		"Connections may be snipped with Wire Cutters."
+		""
+		"&a🛈 Tip: Only the start and end "
+		"&a    Connectors need to be loaded, so "
+		"&a    wires can be run through "
+		"&a    unloaded chunks!"
+		""
+		"&c⚠ Warning: Uninsulated wiring is deadly!"
 	]
 	quest.3895E1D9DE518B3F.quest_desc: [
 		"Casting all these spells will take its toll on your mana bar, especially if you’re trying to use a Spell Book as your primary mining tool"
@@ -1757,6 +2013,16 @@
 		""
 		"&a🛈 Tip: The Jar can be toggled at any "
 		"&a    time by Sneak + Right-Clicking with it. "
+	]
+	quest.391AE516AF1C26D6.quest_desc: [
+		"Obtaining Soulwood will involve performing an Undirected Rite. "
+		""
+		"Build a totem with five Runewood Logs atop a Runewood Base, then create an Arcane glyph on each of the logs. "
+		""
+		"Once activated, the surrounding land will be blighted, and Soulwood Saplings will appear."
+		""
+		"&6⚠ Note: Consider doing this away "
+		"&6    from your home. "
 	]
 	quest.3954AC8D791145CE.quest_desc: ["Wandering Trader keeps ding-dong-ditching your house? Let this say hello instead!"]
 	quest.397D4765002935F2.quest_desc: [
@@ -1864,6 +2130,16 @@
 		""
 		"&a🛈 Tip: Micromissiles may be restored "
 		"&a    with TNT in an Anvil!"
+	]
+	quest.3BF1CB7CDDA99856.quest_desc: [
+		"Working with spirits is a messy business, both physically and mentally. "
+		""
+		"You’ll need proper materials to have any hope of mastering this magic, and that all starts with Soulstone. "
+		"&n                                                  "
+		""
+		"We’ll learn ways to further refine this later. "
+		""
+		"For now, start digging and locate some Soulstone Ore. You’ll need to smelt this to obtain Refined Soulstone."
 	]
 	quest.3C169A2002B47DC5.quest_desc: [
 		"Running Crude Oil through a Distillery got us this far, but it’s time to move on. Building a Distillation Tower will allow us to maximize the by-products we receive from Crude Oil."
@@ -2389,6 +2665,17 @@
 		""
 		"They have the ability to auto input and output, as well as to void excess. "
 	]
+	quest.433DD2ED590790F8.quest_desc: [
+		"Used for mixing Concrete, Potions, and other materials, the Mixer is a vital part of any factory."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.434D90BB00EE7F7C.quest_desc: [
 		"After Tier Installers, Upgrade cards are the best way to enhance a machine. These can all be installed into machines by Sneak Right-Clicking them onto a machine. Alternatively, open the GUI and insert them directly in the Upgrade window."
 		""
@@ -2530,6 +2817,22 @@
 		"&a    machines with Gunpowder will briefly"
 		"&a    speed them up."
 	]
+	quest.4689338CF3688902.quest_desc: [
+		"Once a Resource Node has been located, you’ll need to build an Excavator on site to extract ores. "
+		""
+		"Resource Nodes have been enhanced in &6Enigmatica 10&r. As a result, each node should last you a good long while. "
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+		""
+		"&6⚠ Note: The structure will accept "
+		"&6    any Steel Block. "
+	]
 	quest.471571E3E382B404.quest_desc: [
 		"String Curtains are a wonderful way to decorate your home, but they can also be quite functional!"
 		""
@@ -2540,6 +2843,19 @@
 		"&a🛈 Tip: Right-Click the Curtain with"
 		"&a    String to extend it downwards."
 	]
+	quest.471735A69C5C3339.quest_desc: [
+		"An advanced machine for mixing and refining fluids, the Refinery is used both for making fuels and advanced materials. "
+		""
+		"Note that the Item based inputs used by this machine are catalysts and are not consumed. They may only be inserted or removed by hand, so you may need multiple Refineries."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.472936F50BC28EBF.quest_desc: [
 		"Sophisticated Storage offers a wide range of inventories to suit your needs, all of which may be connected through a Storage Controller for centralized access to everything in the network. "
 		""
@@ -2548,6 +2864,11 @@
 		"It’s not possible to manually access the Storage Controller, so you’ll likely want to pair this with something else that allows you access the items. An Ad Hoc AE2 network, Pretty Pipes, or an Ars nouveau Storage Lectern are all excellent options."
 	]
 	quest.472936F50BC28EBF.title: "Sophisticated Storage"
+	quest.47C5F9198615E0D5.quest_desc: [
+		"Windmills are the earliest form of power in Immersive Engineering. "
+		""
+		"Simply place a Kinetic Dynamo somewhere in the open and install a Windmill on the front to begin generating some basic power."
+	]
 	quest.4800EBB1FB34B26C.quest_desc: [
 		"Is it really a factory without steam?"
 		""
@@ -2623,6 +2944,15 @@
 		"&a    than their Bronze counterparts."
 	]
 	quest.487C1E9850772F38.title: "Steel Upgrades"
+	quest.48B6E6CDBFFD77A7.quest_desc: [
+		"Runes may be imbued with powerful effects that become active when worn. Equipping them, however, requires an appropriate receptacle. "
+		"&n                                                  "
+		""
+		"Begin by crafting a Runic Brooch. Once equipped, it will allow you to equip two Runes of your choice. "
+		""
+		"Runes themselves are crafted on the Runic Workbench. This is done easily enough by clicking the central recipe item onto the Workbench, followed by the required Spirits."
+	]
+	quest.48B6E6CDBFFD77A7.title: "Runeworking"
 	quest.48F3D3784D8CE545.quest_desc: [
 		"The Plant Gatherer and Plant Sower are two machines that go hand in hand. "
 		"By default, when the Plant Gatherer harvests a crop, it breaks it, leaving an empty plot. Therefore, the Sower is used in tandem to re-plant those plots and keep the whole system running. "
@@ -2688,6 +3018,19 @@
 	]
 	quest.4A05A84FBF5CCD21.title: "Mekanism"
 	quest.4A60707DB5548805.title: "Ophyx's Calling"
+	quest.4A80ADB324E4A6CA.quest_desc: [
+		"Crafting Rods, Plates, Wires, and Gears will become much simpler with a Metal Press, so consider setting one up soon to assist with those crafts. "
+		""
+		"It’s best to set one up for each type of craft since the Press Mold’s can only be swapped by hand."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.4A8EF3D657CEAED5.quest_desc: [
 		"All those batteries are looking pretty costly by now. With no Lead or Antimony from the Steam Quarry, you’re probably back to manual mining again, right?"
 		""
@@ -2884,6 +3227,35 @@
 		""
 		"Refer to the Book of Natural Aura for more information."
 	]
+	quest.4EAB5A6CCD5CFEFB.quest_desc: [
+		"You’ll undoubtedly want to automate some of the repetitive crafts you’ve been doing on the Engineer’s Workbench. With an Automated Workbench, you’ll be able to do just that."
+		""
+		"This machine can be programmed to perform any recipe from the Engineer’s Workbench. Each one will only perform one recipe at a time, so you will need multiple to cover all of the recipes you might wish to craft."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
+	quest.4EB2FB91070CD11F.quest_desc: [
+		"An Arc Furnace may be used to create alloys considerably more easily than an Alloy Kiln, allowing automated inputs and outputs. "
+		""
+		"This device does need Graphite Electrodes to operate and these must be inserted by hand, however a set of them will last through tens of thousands of crafts."
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+		""
+		"&6⚠ Note: The structure will accept "
+		"&6    any Steel Block. "
+	]
 	quest.4EC7DD1B35F0B6B5.quest_desc: ["The Chemical Reactor opens doors to chemical engineering and a whole new world of advanced processing as we prepare for the HV tier of power and material sciences."]
 	quest.4F127FD7A683F3BE.quest_desc: ["add trade for honey to get some goods from queen"]
 	quest.4F19A0AECC129216.quest_desc: [
@@ -2982,6 +3354,21 @@
 		"&6    signal or click the Torch button in "
 		"&6    the interface."
 	]
+	quest.51AF97CE4E91A2D9.quest_desc: [
+		"Getting started with Immersive Engineering involves a few key machines and resources; perhaps the most important of which is the Coke Oven. "
+		""
+		"The Coal Coke and Creosote produced with this machine will be vital for further endeavors."
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 3x3x3 cube of Coke Bricks. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the center block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.51F25D35F62B37BA.quest_desc: [
 		"The Mercurial Logistics system is a simple network for moving Items and Fluids."
 		""
@@ -3032,6 +3419,21 @@
 		""
 		"&a🛈 Tip: Cable Subparts cannot be "
 		"&a    placed on Dense Cables."
+	]
+	quest.5312467FB51C5B36.quest_desc: [
+		"An Alloy Kiln is a particularly basic machine that requires manual operation. It can help you get started with some necessary alloys, but you should consider replacing it as soon as possible. "
+		""
+		"For many alloys, you’ll be able to simply grind the component metals to dust and mix them to create a blend that can be smelted into the alloy instead."
+		"&n                                                  "
+		""
+		"This structure is very simple to build and consists of a 2x2x2 cube of Kiln Bricks. "
+		""
+		"IE multiblocks are always formed by Right-Clicking on a formation block with the Engineer’s Hammer. "
+		""
+		"In this case, Right-Click the top-right block on any side of the structure. "
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
 	]
 	quest.5362D855D207F79A.quest_desc: [
 		"With a Distillery up and running, it should be possible to offset some energy costs by running some Diesel Generators. "
@@ -3219,6 +3621,15 @@
 		"&6    uncontrollable. This is best used "
 		"&6    for crafting items."
 	]
+	quest.58A275DB77CDF7F8.quest_desc: [
+		"Malum adds several special drops from mobs that are only obtainable with an appropriate weapon. "
+		""
+		"Normally, you will want to start by crafting a Crude Scythe, however if you’ve already progressed in some other mods, you may find that you’ve already got a weapon capable of harvesting these materials. "
+		""
+		"&a🛈 Tip: A Soulwoven Pouch will "
+		"&a    auto-collect these drops, keeping "
+		"&a    your inventory clean!"
+	]
 	quest.59293885E5C9E8A3.quest_desc: [
 		"A simple machine used for crushing ores and other materials. "
 		""
@@ -3260,6 +3671,16 @@
 		"&n                                                  &r"
 		""
 		"Craft some Otherworld Goggles. These grant Spirit sight and allow you to see Iesnium Ore."
+	]
+	quest.5A74D7EFD6AD1EAC.quest_desc: [
+		"Slaughtering mobs with a Soul Shattering Weapon will often result in Spirit Aspects dropping. These are useful for many crafts in Malum, so pay attention to what mobs drop which Spirit Aspects."
+		""
+		"Many mobs are associated with different Spirit Aspects. For example, Zombies are a good source of Earthen and Wicked Spirits."
+		""
+		"Finding the right mob for the Aspect you need will require some experimentation."
+		""
+		"&a🛈 Tip: Spirit Jars can hold an "
+		"&a    enormous number of Spirits!"
 	]
 	quest.5AD1A273F3714FAF.quest_desc: [
 		"It’s probably about time we started thinking about power. "
@@ -3322,7 +3743,7 @@
 		""
 		"Next, put the ingredients in the Sacrificial Bowls, as shown in EMI; their relative position do not matter, they can go in any bowl."
 		""
-		"The item in the Golden Sacrificial Bowl will go last and will trigger the ritual."
+		"The item in the Golden Ritual Bowl will go last and will trigger the ritual."
 		""
 		"&a🛈 Tip: Items can be piped into the "
 		"&a    bowls too!"
@@ -3425,6 +3846,11 @@
 		"As before, this represents a significant upgrade in both burn time and production per tick. "
 	]
 	quest.5F50024F403D28D0.title: "Empowered Oil Production"
+	quest.5FBC1038ACB861CE.quest_desc: [
+		"The Assembler is a powerful auto crafting machine which can handle any Crafting Table recipe, including those that require fluids. "
+		""
+		"It can be an excellent way to automate the creation of Treated Wood!"
+	]
 	quest.5FD8F4BE050D55B2.quest_desc: [
 		"Pretty Pipes are a simple item logistics and sorting system with some powerful features. "
 		""
@@ -3532,6 +3958,18 @@
 		"&6    have been disabled!"
 	]
 	quest.62BDFBDD13019EFB.quest_desc: ["Technically the same size as a regular Chest, the Configurable Chest is notable in that each slot can be filtered to hold specific amounts of items. "]
+	quest.62CD365A54A0DE47.quest_desc: [
+		"Welcome to Immersive Engineering!"
+		""
+		"Technology with a strong teslapunk theme, Immersive Engineering has a lot to offer the prospective engineer."
+		""
+		"The mod has a heavy focus on large multiblock machines. As such, you will find Schematics for all IE's multiblock structures in Create's Schematicannon, just open the Schematic Table to select them."
+		""
+		"[\"They are also available on \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" and are easily imported that way!\"]"
+		""
+		"[\"Press (\",{\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Menu Key\"}]},\"keybind\":\"key.blockprints.open_menu\"},\") to open the BlockPrints Menu.\"]"
+	]
+	quest.62CD365A54A0DE47.title: "Immersive Engineering"
 	quest.62E2DEBF71698376.quest_desc: [
 		"Import, Export, and Storage Buses are your primary interface with the network. "
 		""
@@ -3624,7 +4062,7 @@
 		""
 		"This exciting mod delves into the arts of Alchemy, allowing you to convert Lead to Gold, or just about any other material for that matter. "
 		""
-		"Be sure to refer to the guidebook as it is full of excellent examples and suggestions for automation!"
+		"Be sure to refer to The Hermetica, the mod's guidebook, as it is full of excellent examples and suggestions for automation!"
 	]
 	quest.6538BD86D9419DD4.title: "Theurgy"
 	quest.653E696688BBBB12.quest_desc: [
@@ -3721,7 +4159,7 @@
 		"Red Chalk is infused with the very essence of the Afrit, granting it sufficient power to bind Afrit and lesser spirits."
 		"&n                                                  &r"
 		""
-		"Set up Abra’s Open Conjure to summon an Unbound Afrit, then defeat it in combat to obtain its essence."
+		"Set up Kandar’s Open Conjure to summon an Unbound Afrit, then defeat it in combat to obtain its essence."
 		""
 		"&6⚠ Note: This ritual requires a"
 		"&6    sacrifice. Trigger the ritual as"
@@ -3803,7 +4241,7 @@
 	]
 	quest.692EDEAEC3F4A2AD.title: "Simple Swapper"
 	quest.6968F7CB58754783.quest_desc: [
-		"With power secured, replacing that Primitive Alloy Smelter should get things running more smoothly. "
+		"Ender IO has a host of important alloys, making the Alloy Smelter one of the most important basic machines to craft. "
 		""
 		"This machine also doubles as a regular Furnace."
 		""
@@ -4026,6 +4464,7 @@
 		""
 		"Mekanism’s Energy Cells and Induction Matrices can also charge items, but they don’t beat the convenience of the Chargepad."
 	]
+	quest.6E86B32C7ADE873D.quest_desc: ["A simple workstation allowing you to craft certain components more efficiently. In some cases, such as with Electronic Components, it is the only way to craft the components. "]
 	quest.6E9C0B091D9F258A.quest_desc: [
 		"Material costs getting you down? Now would be a great time to set up some simple ore processing. Crush twice, smelt once. "
 		""
@@ -4130,6 +4569,19 @@
 		"&6⚠ Note: Machines simply do not run if"
 		"&6    given the wrong tier of power."
 	]
+	quest.710D7615763E9945.quest_desc: [
+		"Oaths and vows have power, though they come at a cost. "
+		""
+		"The Soulbinding Brazier is used to enter in to such a pact, the details of which may be found within the Encyclopedia Arcana. "
+		""
+		"Choose carefully, as breaking your pact is not done easily. "
+		"&n                                                  "
+		""
+		"To start the ritual, place the central item in the brazier, followed by all the items listed around it in the recipe. If done correctly, all the items will go from circling around the brazier to circling above it. "
+		""
+		"Once the items are ready, ignite the brazier by Right-Clicking with Ether. Finally, Right-Click the brazier one final time and wait for the animation to finish. "
+	]
+	quest.710D7615763E9945.title: "Geasa"
 	quest.7163E7EBDB861D72.quest_desc: [
 		"There is no advanced version of the Item Collector, instead tools at this tier all have the ability to teleport items to a bound block."
 		""
@@ -4560,6 +5012,17 @@
 		""
 		"Place the block in an area where you don’t want to be sucking up items randomly. Or carry the orb with you to enable and disable the trait at will. Just Right-Click it to toggle the feature."
 	]
+	quest.7AA55D33A2BD1E6E.quest_desc: [
+		"The Industrial Squeezer is primarily used for obtaining Plant Oil, it’s also the only source of HOP Graphite used in advanced crafts. "
+		"&n                                                  "
+		""
+		"A guide to building this structure may be found in the Engineer’s Manual. "
+		""
+		"[\"Alternatively, check out the Schematic Table from Create or \",{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://blockprints.io/user/MuteTiefling\"},\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click Here\"}]},\"text\":\"BlockPrints\",\"underlined\":true},\" for better build guides.\"]"
+		""
+		"&a🛈 Tip: The Engineer’s Manual highlights "
+		"&a    the formation block in &cred&r&a. "
+	]
 	quest.7ADBC282C9692EDE.quest_desc: ["Cable Façades are a universal façade that you can use to cover just about any pipe! "]
 	quest.7ADBC282C9692EDE.title: "Cable Facades"
 	quest.7B5EB5D6F749520F.quest_desc: [
@@ -4643,6 +5106,11 @@
 		""
 		"A few of these should keep your machines running without issue. "
 	]
+	quest.7F445C22C528AC1F.quest_desc: [
+		"Runewood Obelisks are used to accelerate the Spirit Altar, so crafting a few should be a high priority. "
+		""
+		"As many as four Obelisks may be used to speed up crafting, with each one reducing the total crafting time. "
+	]
 	quest.7F829A1BFED304D0.quest_desc: [
 		"What’s magic without some functional devices powered by it? "
 		""
@@ -4701,6 +5169,7 @@
 	reward_table.65B36FE5D4A2DE53.title: "Bed"
 	reward_table.6862A48B512292FB.title: "Iron's Starter Scroll"
 	reward_table.6C6D0A33A13CE96A.title: "Mekanism Lootbox: Epic"
+	reward_table.6F5C02ACE833C527.title: "Malum Lootbox"
 	reward_table.72C4CB45CED49659.title: "Nature's Aura Lootbox"
 	reward_table.73BCB0998B70644B.title: "MI Lootbox: Bronze Tier"
 	reward_table.77FB07B0CC8EAE79.title: "Ars Nouveau Lootbox: Rare"
@@ -4718,20 +5187,28 @@
 	task.0767C8200D0389A6.title: "Essences"
 	task.077608276B306F47.title: "Chemical Storage"
 	task.07D8961C49D02845.title: "Archwood Saplings"
+	task.0A6B7C2DD1294121.title: "Crusher"
 	task.0A88D092C4C370AC.title: "Observe: Possessed Drowned"
 	task.0C66972E31440AAF.title: "Ender Cells"
 	task.0CB92589AF70B557.title: "Any &3Handcrafted&r Item"
 	task.0DAE4E6D7B7DC9FB.title: "Summon: Foliot Crusher"
 	task.0DB5297239EECEC9.title: "Reactor Fuel Rods"
 	task.0DE0A9A5505F1850.title: "Discovering Enigmatica"
+	task.0E1C0207A6C2127A.title: "Sacrificial Bowl"
+	task.0F19417AE6661F06.title: "Improved Blast Furnace"
+	task.1047800DF510BBDF.title: "Dimensional Storage Stabilizer"
 	task.10648F2DE8CD75D4.title: "Impossible"
 	task.10DFCCF8FA5D5505.title: "Aura Generators"
 	task.10E9A412419B679A.title: "Disabled"
 	task.1167BDBCAFA50D7E.title: "Energy Laser Relays"
 	task.116CBCF6CA77E71A.title: "Syringe"
+	task.1291CAC439E06D6C.title: "Rune"
 	task.12BDDFD0C2267B6C.title: "Pressure Mechanic"
 	task.14C031FA14C3CD89.title: "Environmental Accumulator"
 	task.14C95C2344B5DC59.title: "Catalysts"
+	task.18C2AC93B4E7D144.title: "Excavator"
+	task.18CE5385D80E1C50.title: "Mixer"
+	task.1A13433A611626BD.title: "Engineer's Automated Workbench"
 	task.1B81285E0D45A226.title: "Any Tool"
 	task.1B9EA0EB538823C6.title: "Observe a Chocobo!"
 	task.1BB7766A92FC514C.title: "Building Gadgets"
@@ -4740,23 +5217,33 @@
 	task.1E437E1BEE76E5FF.title: "Terminals"
 	task.213012F4279A21AF.title: "Chemical Tanks"
 	task.23F893300571CCAF.title: "Summon: Djinni Crusher"
+	task.2404D63C45135601.title: "Spirit Aspects"
 	task.2443C92B985E88B2.title: "Ender Cells"
 	task.24FDDE2CC71EBC7A.title: "Logistics"
 	task.256E76CA796C354E.title: "Steel Dust"
 	task.25D4C3BAE7BD10AB.title: "Ink"
+	task.26180CD75616C6C3.title: "Esoteric Materials"
+	task.26CFE1DCF255EEE8.title: "Any Pickaxe"
 	task.2900F7E8CBB5DD74.title: "Source Storage"
 	task.2914EFBE380196D0.title: "Dense Smart Cables"
+	task.2AAB10A32D2093A0.title: "Dimensional Storage Actuator"
+	task.2AAC3DCFDCAB9E89.title: "Industrial Fermenter"
 	task.2BEFCB331D1564CF.title: "Any Basic Sophisticated Storage Chest or Barrel"
 	task.2D436B66D664DACD.title: "Visit The End"
+	task.2D92956F1FC2B3EF.title: "Void Materials"
 	task.2DF31416CB56A844.title: "Sal Ammoniac"
 	task.2E4DEB3FEE0D15CD.title: "Any Sapling"
 	task.2E84D0BE1079BF3C.title: "Energy Cubes"
+	task.2F65A10B08073D6D.title: "Spirit Crucible Augments"
 	task.2F80CC8DB5818C3B.title: "Possess Iesnium Golem"
 	task.3153DDF073D649E4.title: "Divination Rods"
+	task.31B1D4D0DBFCDCD6.title: "Runewood Pedestals"
 	task.328C56BA23A70B8F.title: "Power"
 	task.3300E2246181D0F7.title: "Any Scroll"
 	task.33A6A08CB5499DE2.title: "Observe a Villager"
+	task.346A4A537019E6C5.title: "Crude Blast Furnace"
 	task.34E6ED3A221ADB0E.title: "Just Dire Tools"
+	task.350C549315B84B13.title: "Diesel Generator"
 	task.35B971D8A6CCBC94.title: "EU Cables"
 	task.35F8589774CE48D9.title: "Arcane Pedestals"
 	task.36D658D637E5D847.title: "Storage Systems"
@@ -4767,7 +5254,9 @@
 	task.3ABA48B70D4EF83A.title: "Bulk Energy Storage"
 	task.3C67917BD9C0810C.title: "Observe: Possessed Bee"
 	task.3C9F8F7D407AC253.title: "Sender Modules"
+	task.3CB618B0034E61BD.title: "Eldritch Chalice"
 	task.3CD59ACD6E31D647.title: "Phantomfaces"
+	task.3D17C42035FE93C1.title: "Fluid Transfer Labels"
 	task.3D1A362E43EE4BED.title: "Other Compressors"
 	task.3DED6DAEE4419675.title: "Any Chipped Workbench"
 	task.3E77920F150C9F9A.title: "Any Pickaxe"
@@ -4775,7 +5264,9 @@
 	task.3FAF9DE9DBBA6228.title: "Celestigem Tools"
 	task.40BF2920569F9751.title: "Addon: Speed"
 	task.40F7F5B9E57315CB.title: "Energy Cables"
+	task.41360E57DF841209.title: "Assembler"
 	task.418BC399B733818A.title: "Archwood"
+	task.422388D0F93A85E5.title: "Metal Press"
 	task.42E9F9AE06C46A76.title: "Any Pickaxe"
 	task.42EE7B1C5F75BCAF.title: "Welcome!"
 	task.4315ED9269099C81.title: "Any Chest"
@@ -4783,9 +5274,12 @@
 	task.444ABF0F1DA7E34B.title: "Any Pickaxe"
 	task.446D6081668C30D2.title: "Ritual Satchels"
 	task.44956BC067ED019C.title: "Pressurized Tubes"
+	task.456BBAC38A4A3719.title: "Soul Shattering Weapons"
 	task.45BEB4E841507571.title: "Budding Certus"
+	task.4648E821F02A741D.title: "Refinery"
 	task.4775BC243353527B.title: "Any Mining Gadget"
 	task.47D22C2E34E9A099.title: "Sourcelinks"
+	task.47FABFA3F238464E.title: "Sawmill"
 	task.484FF1BEA9145D5F.title: "Puller Modules"
 	task.488180E25D5B815A.title: "Anti-Fields"
 	task.4927D2345C71AAA4.title: "Fluid Storage"
@@ -4794,6 +5288,7 @@
 	task.4AAAB62A26960EFE.title: "Fluid Pipes"
 	task.4AC93DA4181794FF.title: "Bulk Fluid Storage"
 	task.4B71487A3383C439.title: "Bulk Item Storage"
+	task.4D321FE097FE5692.title: "Arc Furnace"
 	task.4D3445BCDA8E459B.title: "BumbleZone"
 	task.4D45C5166D0700F8.title: "Item Pipes"
 	task.4D5563ABAA54713A.title: "Beacon Equipment"
@@ -4805,6 +5300,7 @@
 	task.5314260DF92C1856.title: "Observe a Wixie's Cauldron"
 	task.53537003380689AB.title: "Universal Cables"
 	task.53EE7D896F7103FA.title: "Any Candle"
+	task.55F6D93F95C9E9B1.title: "Industrial Squeezer"
 	task.568788431C366FF5.title: "Chemical Modules"
 	task.5726FC2C852F6F2B.title: "Energy Chargers"
 	task.576CB5FB3B8A46A6.title: "Smart Cables"
@@ -4815,6 +5311,7 @@
 	task.5A4465B1F1B8673A.title: "Any Machine Addons"
 	task.5AB2F86A6AC8271E.title: "Any &3Vanilla Plus&r Tool"
 	task.5B601A86609CEDFF.title: "Energy Hoppers"
+	task.5CA2448AD3D03768.title: "Coke Oven"
 	task.5CE5C1A8B02B037B.title: "Cable Facades"
 	task.5D8E35699FF69418.title: "Interfaces"
 	task.5DC14CAF06A7DB89.title: "Observe: Possessed Endermite"
@@ -4825,6 +5322,7 @@
 	task.60BB29288D966B49.title: "Any &3Macaw's&r Item"
 	task.625CF3D84E78B9F0.title: "Time in a Bottle"
 	task.62742836108A45A3.title: "Addon: Efficiency"
+	task.630138BF6B3E58AA.title: "Industrial Squeezer"
 	task.6434DA9DBF54356B.title: "Ender Gates"
 	task.64C50D306E73EA0A.title: "Tier Installers"
 	task.6614885B79D0A53B.title: "Observe a Beehive or Bee Nest"
@@ -4838,15 +5336,19 @@
 	task.6B400826247EBFB3.title: "Raw Materials"
 	task.6D1A048396918DF0.title: "Fluids"
 	task.6E9489894DF5FFF4.title: "Interdiction Upgrades"
+	task.6E94B9A1607A10DA.title: "Iesnium Ritual Bowl"
 	task.6F72D2074543BF23.title: "Bins"
 	task.6FCC45D51EF8A73E.title: "Aviar's Circle"
 	task.700A9968FA0DA65E.title: "Player Transmitters"
 	task.70531464F6943384.title: "Pattern Terminals"
+	task.71EFA0C693ACD330.title: "Item Transfer Labels"
 	task.72396A76EEA759CF.title: "Books of Binding"
+	task.733914EFB5DCE0A0.title: "Otherstone"
 	task.73C57E2AF9A1F920.title: "Any Chipped Tool"
 	task.73D7073169A23821.title: "WIP"
 	task.741114ACD8AABEF6.title: "Demon's Dream"
 	task.7431A946D23EA21C.title: "FE Storage"
+	task.74FDE36B1D6613C4.title: "Alloy Kiln"
 	task.75050C1ED68FA527.title: "Building Gadgets"
 	task.75934726B8EC6FC8.title: "Ritual Tablets"
 	task.7618EFB44BB18F63.title: "Observe a Wixie's Enchanting Apparatus"
@@ -4855,7 +5357,9 @@
 	task.78B7FE2EA6D6F0D7.title: "Advanced Tokens"
 	task.7A9E6782E73FF106.title: "Batteries"
 	task.7B8A280C515F168E.title: "Any Pickaxe"
+	task.7C03AA0EAA201AD2.title: "Ritual Bowl"
 	task.7C0E5A805AE1132B.title: "Learning Mods"
+	task.7C7682AB99930DAF.title: "Tier 4 Dimensional Storage Stabilizer"
 	task.7D4421F5BDC35DFE.title: "Any Pickaxe"
 	task.7E422D4A867340A6.title: "Any Functional Storage Drawer"
 	task.7E47FB0D32A9C1AC.title: "Any Modern Industrialization Tank"

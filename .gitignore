@@ -222,4 +222,9 @@ config/ars_nouveau/doc_data.json
 waypoints/WaypointData.dat
 waypoints/backup/WaypointData.dat
 config/ftbchunks-client.snbt
+config/crash_assistant/lang
+
+dynamic-resource-pack-cache/
+dynamic-data-pack-cache/
+.claude/settings.local.json
 config/emendatusenigmatica/Validation Results.md

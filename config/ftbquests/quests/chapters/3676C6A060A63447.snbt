@@ -11,7 +11,7 @@
 		id: "modonomicon:modonomicon"
 	}
 	id: "3676C6A060A63447"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -390,7 +390,7 @@
 				{
 					count: 2L
 					id: "3C3833B64912C3C4"
-					item: { count: 2, id: "theurgy:alchemical_sulfur_quartz" }
+					item: { count: 1, id: "theurgy:alchemical_sulfur_quartz" }
 					type: "item"
 				}
 			]
@@ -546,7 +546,7 @@
 				{
 					count: 4L
 					id: "06A339EAE3110376"
-					item: { count: 4, id: "theurgy:alchemical_sulfur_iron" }
+					item: { count: 1, id: "theurgy:alchemical_sulfur_iron" }
 					type: "item"
 				}
 				{

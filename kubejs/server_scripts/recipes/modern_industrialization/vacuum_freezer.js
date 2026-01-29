@@ -3,14 +3,14 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            fluid_inputs: {
+            fluid_inputs: [{
                 fluid: 'pneumaticcraft:plastic',
                 amount: 1000
-            },
-            item_outputs: {
+            }],
+            item_outputs: [{
                 item: 'pneumaticcraft:plastic',
                 amount: 2
-            },
+            }],
             eu: 2,
             duration: 200,
             id: `${id_prefix}plastic`

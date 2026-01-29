@@ -1,0 +1,18 @@
+{
+  "options": {
+    "validationActiveSingleplayer": false,
+    "validationActiveServer": true,
+    "validateItemType": true,
+    "validateStackSize": true,
+    "validateStackSizeThreshold": 32,
+    "alwaysLogUnexpectedResults": true,
+    "classPolicies": {
+      "com.simibubi.create.content.equipment.toolbox.ToolboxMenu": {
+        "className": "com.simibubi.create.content.equipment.toolbox.ToolboxMenu",
+        "sortEnabled": false,
+        "stackFillEnabled": false,
+        "transferEnabled": false
+      }
+    }
+  }
+}

@@ -2,14 +2,27 @@
   "options": {
     "interactionInterval": 10,
     "useServerAcceleration": true,
+    "useClientFallback": false,
     "optimizeCreativeSorting": true,
+    "autoOpDelayPlayer": 2,
+    "autoOpDelayContainer": 2,
     "hotbarScope": "NONE",
     "extraSlotScope": "EXTRA",
     "bundlesUseLeftClick": false,
+    "alwaysMatchByType": false,
+    "typeMatchTags": [
+      "enchantable/weapon",
+      "enchantable/mining",
+      "enchantable/armor"
+    ],
     "sortOrderStr": "creative",
     "shiftSortOrderStr": "quantity",
     "ctrlSortOrderStr": "alphabet",
-    "altSortOrderStr": "raw_id",
+    "altSortOrderStr": "rawId",
+    "useStartOverrides": true,
+    "startOverrideItems": [],
+    "useEndOverrides": true,
+    "endOverrideItems": [],
     "playSoundSort": false,
     "playSoundOther": false,
     "interactionSound": "minecraft:block.note_block.xylophone",
@@ -18,56 +31,118 @@
     "soundPitchMax": 2.0,
     "soundVolume": 0.2,
     "allowSoundOverlap": true,
+    "isolateKeybinds": true,
     "showButtons": false,
-    "firstButton": "SORT",
-    "secondButton": "STACK_FILL",
-    "thirdButton": "TRANSFER",
-    "buttonDefaultOffset": {
+    "showButtonTooltips": false,
+    "anchorButtonsLeft": false,
+    "firstButtonOp": "SORT",
+    "secondButtonOp": "STACK_FILL",
+    "thirdButtonOp": "MATCH_TRANSFER",
+    "fourthButtonOp": "TRANSFER",
+    "layoutOffset": {
       "x": -4,
       "y": 0
     },
-    "buttonLayouts": {
+    "classPolicies": {
+      "com.simibubi.create.content.equipment.toolbox.ToolboxMenu": {
+        "className": "com.simibubi.create.content.equipment.toolbox.ToolboxMenu",
+        "sortPolicy": "NONE",
+        "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "NONE",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
       "net.minecraft.world.entity.player.Inventory": {
         "className": "net.minecraft.world.entity.player.Inventory",
-        "sortEnabled": true,
-        "stackFillEnabled": true,
-        "transferEnabled": true
+        "buttonOffset": {
+          "x": -4,
+          "y": 0
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
       },
       "net.minecraft.world.inventory.ChestMenu": {
         "className": "net.minecraft.world.inventory.ChestMenu",
-        "sortEnabled": true,
-        "stackFillEnabled": true,
-        "transferEnabled": true
+        "buttonOffset": {
+          "x": -4,
+          "y": 0
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
       },
       "net.minecraft.world.inventory.HopperMenu": {
         "className": "net.minecraft.world.inventory.HopperMenu",
-        "sortEnabled": false,
-        "stackFillEnabled": false,
-        "transferEnabled": true
+        "buttonOffset": {
+          "x": -4,
+          "y": 0
+        },
+        "sortPolicy": "KEYBIND",
+        "stackFillPolicy": "KEYBIND",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
       },
       "net.minecraft.world.inventory.HorseInventoryMenu": {
         "className": "net.minecraft.world.inventory.HorseInventoryMenu",
-        "sortEnabled": true,
-        "stackFillEnabled": true,
-        "transferEnabled": true
+        "buttonOffset": {
+          "x": -4,
+          "y": 0
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
       },
       "net.minecraft.world.inventory.PlayerEnderChestContainer": {
         "className": "net.minecraft.world.inventory.PlayerEnderChestContainer",
-        "sortEnabled": true,
-        "stackFillEnabled": true,
-        "transferEnabled": true
+        "buttonOffset": {
+          "x": -4,
+          "y": 0
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
       },
       "net.minecraft.world.inventory.ShulkerBoxMenu": {
         "className": "net.minecraft.world.inventory.ShulkerBoxMenu",
-        "sortEnabled": true,
-        "stackFillEnabled": true,
-        "transferEnabled": true
+        "buttonOffset": {
+          "x": -4,
+          "y": 0
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
       },
       "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity": {
         "className": "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity",
-        "sortEnabled": true,
-        "stackFillEnabled": true,
-        "transferEnabled": true
+        "buttonOffset": {
+          "x": -4,
+          "y": 0
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
       }
     }
   }

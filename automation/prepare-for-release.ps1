@@ -101,7 +101,7 @@ function Close-FixedIssues {
 
 }
 function Merge-DevelopIntoMasterPrompt {
-    Write-Host "Please Merge Develop into Master, and then Master into Develop"
+    Write-Host "Please Merge Develop into Master"
     pause
 }
 

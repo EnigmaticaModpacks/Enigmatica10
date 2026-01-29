@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     const id_prefix = 'enigmatica:oritech/refinery/';
     const recipes = [
         {
-            fluidInput: { fluid: '#c:fuels/crude_oil', amount: 1000 },
+            fluidInput: { fluid: '#c:crude_oil', amount: 1000 },
             fluidOutputs: [
                 { fluid: 'oritech:still_diesel', amount: 500 },
                 { fluid: 'oritech:still_naphtha', amount: 500 },
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
             id: 'oritech:refinery/oilalt'
         },
         {
-            fluidInput: { fluid: '#c:fuels/crude_oil', amount: 1000 },
+            fluidInput: { fluid: '#c:crude_oil', amount: 1000 },
             fluidOutputs: [
                 { fluid: 'oritech:still_diesel', amount: 250 },
                 { fluid: 'oritech:still_naphtha', amount: 250 },

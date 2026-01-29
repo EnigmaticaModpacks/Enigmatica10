@@ -29,6 +29,13 @@ ServerEvents.recipes((event) => {
             chemical_input: { amount: 80, tag: 'mekanism:gold' },
             per_tick_usage: false,
             id: `${id_prefix}golden_apple`
+        },
+        {
+            output: { id: 'create:rose_quartz', count: 1 },
+            item_input: { tag: 'c:gems/quartz', count: 1 },
+            chemical_input: { amount: 80, tag: 'mekanism:redstone' },
+            per_tick_usage: false,
+            id: `${id_prefix}rose_quartz`
         }
     ];
 

@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             item_inputs: [{ tag: 'c:foods/raw_meat', amount: 1 }],
             fluid_inputs: [{ fluid: 'modern_industrialization:hydrochloric_acid', amount: 10 }],
-            item_outputs: { item: 'minecraft:rotten_flesh', amount: 1 },
+            item_outputs: [{ item: 'minecraft:rotten_flesh', amount: 1 }],
             eu: 4,
             duration: 100,
             id: `${id_prefix}rotten_flesh`
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
                 recipes.push({
                     item_inputs: [{ item: `create:${oxide}${type}`, amount: 1 }],
                     fluid_inputs: [{ fluid: 'modern_industrialization:oxygen', amount: 100 }],
-                    item_outputs: { item: `create:${oxides[index + 1]}${type}`, amount: 1 },
+                    item_outputs: [{ item: `create:${oxides[index + 1]}${type}`, amount: 1 }],
                     duration: 100,
                     eu: 8,
                     id: `${id_prefix}${oxides[index + 1]}${type}`
@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
                     { item: `create:${oxide}${type}`, amount: 1 },
                     { item: 'modern_industrialization:wax', amount: 1 }
                 ],
-                item_outputs: { item: `create:waxed_${oxide}${type}`, amount: 1 },
+                item_outputs: [{ item: `create:waxed_${oxide}${type}`, amount: 1 }],
                 duration: 100,
                 eu: 8,
                 id: `${id_prefix}waxed_${oxide}${type}`

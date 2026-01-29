@@ -173,6 +173,21 @@ ClientEvents.generateAssets('before_mods', (event) => {
             id: 'starbunclemania:cutting_wixie_cauldron'
         },
         {
+            left: 'item:starbunclemania:fluid_jar',
+            right: {
+                type: 'item',
+                id: 'ars_nouveau:wixie_charm',
+                nbt: '{"minecraft:lore":[\u0027{"color":"green","text":"Sneak Right-Click on the block to convert."}\u0027]}',
+                amount: 1
+            },
+            output: {
+                type: 'item',
+                id: 'starbunclemania:mixer_wixie_cauldron',
+                amount: 1
+            },
+            id: 'starbunclemania:mixer_wixie_cauldron'
+        },
+        {
             left: 'item:minecraft:mossy_cobblestone',
             right: 'item:ars_nouveau:drygmy_charm',
             output: {

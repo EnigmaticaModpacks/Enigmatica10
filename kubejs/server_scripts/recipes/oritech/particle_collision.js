@@ -47,16 +47,6 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:particle_collision';
-
-        if (!recipe.fluidInputVariant) {
-            recipe.fluidInputVariant = 'minecraft:empty';
-            recipe.fluidInputAmount = 0;
-        }
-        if (!recipe.fluidOutputVariant) {
-            recipe.fluidOutputVariant = 'minecraft:empty';
-            recipe.fluidOutputAmount = 0;
-        }
-
         event.custom(recipe).id(recipe.id);
     });
 });

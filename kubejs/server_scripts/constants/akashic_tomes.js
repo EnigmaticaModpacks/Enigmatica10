@@ -58,6 +58,13 @@ const akashic_tomes = [
     },
     {
         components: {
+            'akashictome:defined_mod': 'immersiveengineering'
+        },
+        count: 1,
+        id: 'immersiveengineering:manual'
+    },
+    {
+        components: {
             'akashictome:defined_mod': 'industrialforegoing',
             'patchouli:book': 'industrialforegoing:industrial_foregoing'
         },
@@ -84,6 +91,11 @@ const akashic_tomes = [
         components: { 'akashictome:defined_mod': 'laserio', 'patchouli:book': 'laserio:laseriobook' },
         count: 1,
         id: 'patchouli:guide_book'
+    },
+    {
+        components: { 'akashictome:defined_mod': 'malum' },
+        count: 1,
+        id: 'malum:encyclopedia_arcana'
     },
     {
         components: { 'akashictome:defined_mod': 'modern_industrialization' },

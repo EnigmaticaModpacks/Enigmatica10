@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         {
             catalyst: { item: 'industrialforegoing:red_laser_lens' },
             entity: 'minecraft:villager',
-            output: { amount: 100, id: 'evilcraft:blood' },
+            output: { fluid: 'evilcraft:blood', amount: 100 },
             rarity: [
                 {
                     dimension_filter: { blacklist: [], whitelist: [] },
@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
         },
         {
             catalyst: { item: 'industrialforegoing:black_laser_lens' },
-            output: { amount: 100, id: 'pneumaticcraft:oil' },
+            output: { fluid: 'pneumaticcraft:oil', amount: 100 },
             rarity: [
                 {
                     dimension_filter: { blacklist: [], whitelist: ['minecraft:overworld'] },
