@@ -1,0 +1,11 @@
+{
+	auto_kill_ticking_entities: false,
+	handle_ticking_block_entities: true,
+	handle_ticking_block_states: true,
+	handle_ticking_entities: true,
+	handle_ticking_item_stacks: true,
+	handle_ticking_players: true,
+	min_permission_level_for_commands: 2,
+	min_permission_level_for_messages: 0,
+	ticking_exception_threshold: 10
+}
