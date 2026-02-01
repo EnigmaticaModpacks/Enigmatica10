@@ -1,10 +1,17 @@
 ### Enigmatica 10 1.29.0
 
+NeoForge-1.21.1-21.1.218 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.29.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.29.0.md)
+
+#### ✔️ Added Mods
+
+-
+
 #### 🦟 Bugs Fixed
 
 - Fix missing tags on Lignite [(\#520)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/520)
 - Fix loot for Chipped quest [(\#517)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/517)
 - Occultism Quests should now accept the light/dark version of various blocks [(\#519)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/519)
+- Eldritch miner duplicate recipes [(\#523)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/523)
 
 ---
 
