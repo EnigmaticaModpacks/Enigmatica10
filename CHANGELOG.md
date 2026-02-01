@@ -4,7 +4,9 @@ NeoForge-1.21.1-21.1.218 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 
 #### ✔️ Added Mods
 
--
+- [Configurable](https://www.curseforge.com/minecraft/mc-mods/configurable) (by [bawnorton](https://www.curseforge.com/members/bawnorton/projects))
+- [ConnectedTexturesMod](https://www.curseforge.com/minecraft/mc-mods/ctm) (by [tterrag1098](https://www.curseforge.com/members/tterrag1098/projects))
+- [Neruina - Ticking Entity Fixer](https://www.curseforge.com/minecraft/mc-mods/neruina) (by [bawnorton](https://www.curseforge.com/members/bawnorton/projects))
 
 #### 🦟 Bugs Fixed
 

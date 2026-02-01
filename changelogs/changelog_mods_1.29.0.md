@@ -1,0 +1,48 @@
+## Enigmatica10 - 1.28.0 -> 1.29.0
+
+### Added
+
+  * [Configurable](https://www.curseforge.com/minecraft/mc-mods/configurable) (by [bawnorton](https://www.curseforge.com/members/bawnorton/projects))
+  * [ConnectedTexturesMod](https://www.curseforge.com/minecraft/mc-mods/ctm) (by [tterrag1098](https://www.curseforge.com/members/tterrag1098/projects))
+  * [Neruina - Ticking Entity Fixer](https://www.curseforge.com/minecraft/mc-mods/neruina) (by [bawnorton](https://www.curseforge.com/members/bawnorton/projects))
+
+### Changed
+
+  * [ae2importexportcard-1.21.1-1.4.1.jar](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card/files/7203365) -> [ae2importexportcard-1.21.1-1.4.2.jar](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card/files/7562106)
+  * [ApothicSpawners-1.21.1-1.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/apothic-spawners/files/7445124) -> [ApothicSpawners-1.21.1-1.3.4.jar](https://www.curseforge.com/minecraft/mc-mods/apothic-spawners/files/7492121)
+  * [appleskin-neoforge-mc1.21-3.0.7.jar](https://www.curseforge.com/minecraft/mc-mods/appleskin/files/6616291) -> [appleskin-neoforge-mc1.21-3.0.8.jar](https://www.curseforge.com/minecraft/mc-mods/appleskin/files/7517379)
+  * [Aquaculture-1.21.1-2.7.17.jar](https://www.curseforge.com/minecraft/mc-mods/aquaculture/files/7331325) -> [Aquaculture-1.21.1-2.7.18.jar](https://www.curseforge.com/minecraft/mc-mods/aquaculture/files/7521541)
+  * [ars_controle-1.21.1-1.6.14.jar](https://www.curseforge.com/minecraft/mc-mods/ars-controle/files/7377556) -> [ars_controle-1.21.1-1.6.15.jar](https://www.curseforge.com/minecraft/mc-mods/ars-controle/files/7534518)
+  * [ars_creo-1.21.1-5.1.0.jar](https://www.curseforge.com/minecraft/mc-mods/ars-creo/files/6279953) -> [ars_creo-1.21.1-5.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/ars-creo/files/7528185)
+  * [ars_technica-1.21.1-2.5.0.jar](https://www.curseforge.com/minecraft/mc-mods/ars-technica/files/7395581) -> [ars_technica-1.21.1-2.6.1.jar](https://www.curseforge.com/minecraft/mc-mods/ars-technica/files/7517735)
+  * [baguettelib-1.21.1-NeoForge-1.1.5.jar](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/7287507) -> [baguettelib-1.21.1-NeoForge-1.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/baguettelib/files/7544787)
+  * [comforts-neoforge-9.0.4+1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/comforts/files/6559909) -> [comforts-neoforge-9.0.5+1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/comforts/files/7515858)
+  * [craftingtweaks-neoforge-1.21.1-21.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks/files/6784518) -> [craftingtweaks-neoforge-1.21.1-21.1.7.jar](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks/files/7530379)
+  * [CreativeCore_NEOFORGE_v2.13.25_mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/creativecore/files/7454037) -> [CreativeCore_NEOFORGE_v2.13.26_mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/creativecore/files/7535729)
+  * [enderio-8.0.7-alpha.jar](https://www.curseforge.com/minecraft/mc-mods/ender-io/files/7204349) -> [enderio-8.1.1-beta.jar](https://www.curseforge.com/minecraft/mc-mods/ender-io/files/7548278)
+  * [extended-industrialization-1.15.25-1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/extended-industrialization/files/7313864) -> [extended-industrialization-1.15.27-1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/extended-industrialization/files/7561310)
+  * [FastSuite-1.21.1-6.0.6.jar](https://www.curseforge.com/minecraft/mc-mods/fastsuite/files/7428334) -> [FastSuite-1.21.1-6.0.7.jar](https://www.curseforge.com/minecraft/mc-mods/fastsuite/files/7527945)
+  * [ferritecore-7.0.2-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/ferritecore/files/5850121) -> [ferritecore-7.0.3-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/ferritecore/files/7524151)
+  * [fzzy_config-0.7.4+1.21+neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/fzzy-config/files/7331235) -> [fzzy_config-0.7.5+1.21+neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/fzzy-config/files/7489462)
+  * [Glassential-renewed-1.21.1-3.4.0.jar](https://www.curseforge.com/minecraft/mc-mods/glassential-renewed/files/7451901) -> [Glassential-renewed-1.21.1-3.4.1.jar](https://www.curseforge.com/minecraft/mc-mods/glassential-renewed/files/7534929)
+  * [irons_spellbooks-1.21.1-3.15.0.jar](https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks/files/7402503) -> [irons_spellbooks-1.21.1-3.15.2.jar](https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks/files/7552914)
+  * [Jade-1.21.1-NeoForge-15.10.4.jar](https://www.curseforge.com/minecraft/mc-mods/jade/files/7428884) -> [Jade-1.21.1-NeoForge-15.10.5.jar](https://www.curseforge.com/minecraft/mc-mods/jade/files/7545219)
+  * [LittleTiles_BETA_v1.6.0-pre200_mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/littletiles/files/7454977) -> [LittleTiles_BETA_v1.6.0-pre202_mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/littletiles/files/7546224)
+  * [lootr-neoforge-1.21.1-1.11.36.111.jar](https://www.curseforge.com/minecraft/mc-mods/lootr/files/7486983) -> [lootr-neoforge-1.21.1-1.11.36.114.jar](https://www.curseforge.com/minecraft/mc-mods/lootr/files/7528375)
+  * [mekanisticrouters-1.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/mekanistic-routers/files/5942235) -> [mekanisticrouters-1.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/mekanistic-routers/files/7511369)
+  * [modernfix-neoforge-5.25.1+mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/7200212) -> [modernfix-neoforge-5.26.1+mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/7509726)
+  * [modular-routers-13.2.3+mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/modular-routers/files/6840170) -> [modular-routers-13.2.4+mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/modular-routers/files/7525002)
+  * [moonlight-1.21-2.29.11-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/7473045) -> [moonlight-1.21-2.29.16-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/7522321)
+  * [occultism-1.21.1-neoforge-1.203.0.jar](https://www.curseforge.com/minecraft/mc-mods/occultism/files/7454309) -> [occultism-1.21.1-neoforge-1.205.0.jar](https://www.curseforge.com/minecraft/mc-mods/occultism/files/7554225)
+  * [oritech-neoforge-1.21.1-1.0.0-rc2.jar](https://www.curseforge.com/minecraft/mc-mods/oritech/files/7465437) -> [oritech-neoforge-1.21.1-1.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/oritech/files/7555534)
+  * [pneumaticcraft-repressurized-8.2.15+mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7408234) -> [pneumaticcraft-repressurized-8.2.16+mc1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/7535029)
+  * [Powah-6.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/7269384) -> [Powah-6.2.8.jar](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/7503293)
+  * [relics-1.21.1-0.11.6.jar](https://www.curseforge.com/minecraft/mc-mods/relics-mod/files/7431675) -> [relics-1.21.1-0.10.7.7.jar](https://www.curseforge.com/minecraft/mc-mods/relics-mod/files/7533442)
+  * [rightclickharvest-neoforge-4.6.0+1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/rightclickharvest/files/7025545) -> [rightclickharvest-neoforge-4.6.1+1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/rightclickharvest/files/7508749)
+  * [sophisticatedcore-1.21.1-1.3.102.1368.jar](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7455018) -> [sophisticatedcore-1.21.1-1.4.1.1459.jar](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core/files/7552275)
+  * [sophisticatedstorage-1.21.1-1.5.20.1422.jar](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage/files/7436697) -> [sophisticatedstorage-1.21.1-1.5.25.1467.jar](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage/files/7560714)
+  * [supermartijn642corelib-1.1.19-neoforge-mc1.21.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/7426634) -> [supermartijn642corelib-1.1.20-neoforge-mc1.21.jar](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/7521894)
+  * [supplementaries-1.21-3.5.16-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/7387814) -> [supplementaries-1.21-3.5.17-neoforge.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/7511735)
+  * [tesseract-api-neoforge-1.11.3-1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/tesseract-api-neoforge/files/7448472) -> [tesseract-api-neoforge-1.11.7-1.21.1.jar](https://www.curseforge.com/minecraft/mc-mods/tesseract-api-neoforge/files/7561282)
+  * [tiab-neoforge-6.5.3.jar](https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-universal/files/7356966) -> [tiab-neoforge-6.5.4.jar](https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-universal/files/7555622)
+
