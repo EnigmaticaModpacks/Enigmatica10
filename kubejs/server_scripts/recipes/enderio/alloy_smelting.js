@@ -14,16 +14,6 @@ ServerEvents.recipes((event) => {
         },
         {
             inputs: [
-                { tag: 'c:ingots/iron', count: 1 },
-                { tag: 'c:dusts/coal', count: 1 }
-            ],
-            output: { id: AlmostUnified.getTagTargetItem('c:ingots/steel').getId(), count: 1 },
-            energy: 6400,
-            experience: 0.3,
-            id: `${id_prefix}steel_ingot_from_coal_dust`
-        },
-        {
-            inputs: [
                 { tag: 'c:ingots/steel', count: 1 },
                 { tag: 'c:obsidians', count: 1 }
             ],
