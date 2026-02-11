@@ -1,0 +1,21 @@
+{
+    "id": "uraninite",
+    "source": "modded",
+    "localizedName": "Uraninite",
+    "processedTypes": [
+        "ore",
+        "raw"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 2
+    },
+    "oreDrop": {
+        "min": 2,
+        "max": 2
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": "black_quartz",
+    "source": "modded",
+    "localizedName": "Black Quartz",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "gem",
+        "harvestLevel": 1
+    },
+    "oreDrop": {
+        "drop": "actuallyadditions:black_quartz"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "uranium",
+    "source": "modded",
+    "localizedName": "Uranium",
+    "processedTypes": [
+        "ore",
+        "raw"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 1
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

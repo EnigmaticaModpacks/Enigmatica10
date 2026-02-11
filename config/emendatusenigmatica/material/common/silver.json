@@ -1,0 +1,17 @@
+{
+    "id": "silver",
+    "source": "modded",
+    "localizedName": "Silver",
+    "processedTypes": [
+        "ore",
+        "raw"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 2
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

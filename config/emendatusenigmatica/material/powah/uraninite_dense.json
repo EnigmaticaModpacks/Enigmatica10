@@ -1,0 +1,21 @@
+{
+    "id": "uraninite_dense",
+    "source": "modded",
+    "localizedName": "Uraninite (Dense)",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 2
+    },
+    "oreDrop": {
+        "drop": "emendatusenigmatica:raw_uraninite",
+        "min": 4,
+        "max": 4
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}
