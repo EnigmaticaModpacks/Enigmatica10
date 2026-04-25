@@ -13,6 +13,8 @@
 		dieWithoutAnyReason = false
 		#The Y offset for the blood gui overlay.
 		bloodGuiOverlayPositionOffsetY = -5
+		#If the broom smash modifier should be enabled to allow breaking blocks.
+		broomSmashEnabled = true
 
 	[general.weather_container]
 		#If shapeless crafting of the higher tiers of weather containers should be enabled.
@@ -51,6 +53,10 @@
 	[block.gem_stone_torch]
 		#The radius that will be kept spirit-proof.
 		area = 15
+
+	[block.eternal_water]
+		#If the Eternal Water Block should auto-output water to adjacent blocks by default.
+		autoOutputDefault = true
 
 	[machine.blood_chest]
 		#The amount of ticks required for repairing one damage value.

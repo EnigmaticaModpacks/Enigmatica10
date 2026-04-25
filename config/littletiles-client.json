@@ -1,5 +1,31 @@
 {
   "building": {
+    "buildingMode": {
+      "proportional": {
+        "key": {
+          "key": 71,
+          "scan": -1,
+          "modifier": 3
+        },
+        "defaultValue": false
+      },
+      "zoom": {
+        "levels": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ]
+      },
+      "grid": {
+        "key": {
+          "key": 86,
+          "scan": -1,
+          "modifier": 3
+        }
+      }
+    },
     "invertStickToGrid": false,
     "maxSavedActions": 32,
     "useALTForEverything": false,
