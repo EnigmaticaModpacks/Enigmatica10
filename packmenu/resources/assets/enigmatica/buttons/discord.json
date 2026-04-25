@@ -5,7 +5,7 @@
     "height": 20,
     "action": {
         "type": "packmenu:open_url",
-        "url": "https://discord.gg/enigmatica"
+        "url": "https://discord.gg/hadkPsTkje"
     },
     "icon": {
         "texture": "enigmatica:icon/discord",
