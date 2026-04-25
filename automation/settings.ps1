@@ -1,4 +1,4 @@
-# Settings for the ModpackUploader
+﻿# Settings for the ModpackUploader
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 # The main modpack folder
