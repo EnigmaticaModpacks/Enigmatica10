@@ -1,0 +1,85 @@
+{
+  "item.emendatusenigmatica.aluminum_clump": "Алюминиевый комок",
+  "item.emendatusenigmatica.aluminum_crystal": "Алюминиевый кристалл",
+  "item.emendatusenigmatica.dirty_aluminum_dust": "Грязная алюминиевая пыль",
+  "item.emendatusenigmatica.aluminum_shard": "Алюминиевый осколок",
+  "item.emendatusenigmatica.aluminum_dust": "Алюминиевая пыль",
+
+  "item.emendatusenigmatica.copper_clump": "Медный комок",
+  "item.emendatusenigmatica.copper_crystal": "Медный кристалл",
+  "item.emendatusenigmatica.dirty_copper_dust": "Грязная медная пыль",
+  "item.emendatusenigmatica.copper_shard": "Медный осколок",
+  "item.emendatusenigmatica.copper_dust": "Медная пыль",
+
+  "item.emendatusenigmatica.gold_clump": "Золотой комок",
+  "item.emendatusenigmatica.gold_crystal": "Золотой кристалл",
+  "item.emendatusenigmatica.dirty_gold_dust": "Грязная золотая пыль",
+  "item.emendatusenigmatica.gold_shard": "Золотой осколок",
+  "item.emendatusenigmatica.gold_dust": "Золотая пыль",
+
+  "item.emendatusenigmatica.iesnium_clump": "Айзниевый комок",
+  "item.emendatusenigmatica.iesnium_crystal": "Айзниевый кристалл",
+  "item.emendatusenigmatica.dirty_iesnium_dust": "Грязная Айзниевая пыль",
+  "item.emendatusenigmatica.iesnium_shard": "Айзниевый осколок",
+  "item.emendatusenigmatica.iesnium_dust": "Айзниевый пыль",
+
+  "item.emendatusenigmatica.iridium_clump": "Иридиевый комок",
+  "item.emendatusenigmatica.iridium_crystal": "Иридиевый кристалл",
+  "item.emendatusenigmatica.dirty_iridium_dust": "Грязная иридиевая пыль",
+  "item.emendatusenigmatica.iridium_shard": "Иридиевый осколок",
+  "item.emendatusenigmatica.iridium_dust": "Иридиевая пыль",
+
+  "item.emendatusenigmatica.iron_clump": "Железный комок",
+  "item.emendatusenigmatica.iron_crystal": "Железный кристалл",
+  "item.emendatusenigmatica.dirty_iron_dust": "Грязная железная пыль",
+  "item.emendatusenigmatica.iron_shard": "Железный осколок",
+  "item.emendatusenigmatica.iron_dust": "Железная пыль",
+
+  "item.emendatusenigmatica.lead_clump": "Свинцовый комок",
+  "item.emendatusenigmatica.lead_crystal": "Свинцовый кристалл",
+  "item.emendatusenigmatica.dirty_lead_dust": "Грязная свинцовая пыль",
+  "item.emendatusenigmatica.lead_shard": "Свинцовый осколок",
+  "item.emendatusenigmatica.lead_dust": "Свинцовая пыль",
+
+  "item.emendatusenigmatica.nickel_clump": "Никелевый комок",
+  "item.emendatusenigmatica.nickel_crystal": "Никелевый кристалл",
+  "item.emendatusenigmatica.dirty_nickel_dust": "Грязная никелевая пыль",
+  "item.emendatusenigmatica.nickel_shard": "Никелевый осколок",
+  "item.emendatusenigmatica.nickel_dust": "Никелевая пыль",
+
+  "item.emendatusenigmatica.osmium_clump": "Осмиевый комок",
+  "item.emendatusenigmatica.osmium_crystal": "Осмиевый кристалл",
+  "item.emendatusenigmatica.dirty_osmium_dust": "Грязная осмиевая пыль",
+  "item.emendatusenigmatica.osmium_shard": "Осмиевый осколок",
+  "item.emendatusenigmatica.osmium_dust": "Осмиевая пыль",
+
+  "item.emendatusenigmatica.platinum_clump": "Платиновый комок",
+  "item.emendatusenigmatica.platinum_crystal": "Платиновый кристалл",
+  "item.emendatusenigmatica.dirty_platinum_dust": "Грязная платиновая пыль",
+  "item.emendatusenigmatica.platinum_shard": "Платиновый осколок",
+  "item.emendatusenigmatica.platinum_dust": "Платиновая пыль",
+
+  "item.emendatusenigmatica.silver_clump": "Серебряный комок",
+  "item.emendatusenigmatica.silver_crystal": "Серебряный кристалл",
+  "item.emendatusenigmatica.dirty_silver_dust": "Грязная серебряная пыль",
+  "item.emendatusenigmatica.silver_shard": "Серебряный осколок",
+  "item.emendatusenigmatica.silver_dust": "Серебряная пыль",
+
+  "item.emendatusenigmatica.tin_clump": "Оловянный комок",
+  "item.emendatusenigmatica.tin_crystal": "Оловянный кристалл",
+  "item.emendatusenigmatica.dirty_tin_dust": "Грязная оловянная пыль",
+  "item.emendatusenigmatica.tin_shard": "Оловянный осколок",
+  "item.emendatusenigmatica.tin_dust": "Оловянная пыль",
+
+  "item.emendatusenigmatica.uranium_clump": "Урановый комок",
+  "item.emendatusenigmatica.uranium_crystal": "Урановый кристалл",
+  "item.emendatusenigmatica.dirty_uranium_dust": "Грязная урановая пыль",
+  "item.emendatusenigmatica.uranium_shard": "Урановый осколок",
+  "item.emendatusenigmatica.uranium_dust": "Урановая пыль",
+
+  "item.emendatusenigmatica.zinc_clump": "Цинковый комок",
+  "item.emendatusenigmatica.zinc_crystal": "Цинковый кристалл",
+  "item.emendatusenigmatica.dirty_zinc_dust": "Грязная цинковая пыль",
+  "item.emendatusenigmatica.zinc_shard": "Цинковый осколок",
+  "item.emendatusenigmatica.zinc_dust": "Цинковая пыль"
+}
