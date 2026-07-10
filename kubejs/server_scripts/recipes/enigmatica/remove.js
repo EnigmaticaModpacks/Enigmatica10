@@ -51,6 +51,7 @@ ServerEvents.recipes((event) => {
         { id: 'oritech:crushing/compat/create/coal' },
         { id: 'oritech:pulverizer/coal' },
         { id: 'oritech:grinder/coal' },
+        { id: 'oritech:foundry/alloy/electrum' },
         { id: /create:crushing\/(deepslate|nether_gold)/ },
         { id: /malum:malum\/spirit_crucible\/repair\/occultism/ },
 
