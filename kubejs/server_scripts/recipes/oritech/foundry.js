@@ -5,13 +5,7 @@ ServerEvents.recipes((event) => {
             results: [{ id: AlmostUnified.getTagTargetItem(`c:ingots/electrum`).getId(), count: 2 }],
             ingredients: [{ tag: 'c:ingots/gold' }, { tag: 'c:ingots/silver' }],
             time: 200,
-            id: 'oritech:foundry/alloy/electrum'
-        },
-        {
-            results: [{ id: AlmostUnified.getTagTargetItem(`c:ingots/electrum`).getId(), count: 2 }],
-            ingredients: [{ tag: 'c:ingots/silver' }, { tag: 'c:ingots/gold' }],
-            time: 200,
-            id: 'oritech:foundry/alloy/inverse/electrum'
+            id: `${id_prefix}electrum`
         },
         {
             results: [{ id: AlmostUnified.getTagTargetItem(`c:ingots/steel`).getId(), count: 1 }],
@@ -20,10 +14,16 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}steel_from_coal`
         },
         {
-            results: [{ id: AlmostUnified.getTagTargetItem(`c:ingots/steel`).getId(), count: 1 }],
-            ingredients: [{ tag: 'c:gems/coal' }, { tag: 'c:ingots/iron' }],
-            time: 300,
-            id: `${id_prefix}steel_from_coal_inverse`
+            results: [{ id: 'create:andesite_alloy', count: 1 }],
+            ingredients: [{ item: 'minecraft:andesite' }, { tag: 'c:nuggets/iron' }],
+            time: 80,
+            id: `${id_prefix}andesite_alloy_from_iron`
+        },
+        {
+            results: [{ id: 'create:andesite_alloy', count: 1 }],
+            ingredients: [{ item: 'minecraft:andesite' }, { tag: 'c:nuggets/zinc' }],
+            time: 80,
+            id: `${id_prefix}andesite_alloy_from_zinc`
         }
     ];
 

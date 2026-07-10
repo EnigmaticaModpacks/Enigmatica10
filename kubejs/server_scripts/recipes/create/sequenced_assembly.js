@@ -28,97 +28,97 @@ ServerEvents.recipes((event) => {
         },
         {
             results: [{ id: 'ae2:logic_processor' }],
-            ingredient: { item: 'ae2:printed_silicon' },
+            ingredient: { item: 'ae2:printed_logic_processor' },
             sequence: [
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { tag: 'c:dusts/redstone' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'ae2:printed_logic_processor' }, { tag: 'c:dusts/redstone' }],
+                    results: [{ id: 'ae2:printed_logic_processor' }]
                 },
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { item: 'ae2:printed_logic_processor' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'ae2:printed_logic_processor' }, { item: 'ae2:printed_silicon' }],
+                    results: [{ id: 'ae2:printed_logic_processor' }]
                 }
             ],
             loops: 1,
-            transitional_item: { id: 'ae2:printed_silicon' },
+            transitional_item: { id: 'ae2:printed_logic_processor' },
             id: `${id_prefix}logic_processor`
         },
         {
             results: [{ id: 'ae2:calculation_processor' }],
-            ingredient: { item: 'ae2:printed_silicon' },
+            ingredient: { item: 'ae2:printed_calculation_processor' },
             sequence: [
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { tag: 'c:dusts/redstone' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'ae2:printed_calculation_processor' }, { tag: 'c:dusts/redstone' }],
+                    results: [{ id: 'ae2:printed_calculation_processor' }]
                 },
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { item: 'ae2:printed_calculation_processor' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'ae2:printed_calculation_processor' }, { item: 'ae2:printed_silicon' }],
+                    results: [{ id: 'ae2:printed_calculation_processor' }]
                 }
             ],
             loops: 1,
-            transitional_item: { id: 'ae2:printed_silicon' },
+            transitional_item: { id: 'ae2:printed_calculation_processor' },
             id: `${id_prefix}calculation_processor`
         },
         {
             results: [{ id: 'ae2:engineering_processor' }],
-            ingredient: { item: 'ae2:printed_silicon' },
+            ingredient: { item: 'ae2:printed_engineering_processor' },
             sequence: [
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { tag: 'c:dusts/redstone' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'ae2:printed_engineering_processor' }, { tag: 'c:dusts/redstone' }],
+                    results: [{ id: 'ae2:printed_engineering_processor' }]
                 },
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { item: 'ae2:printed_engineering_processor' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'ae2:printed_engineering_processor' }, { item: 'ae2:printed_silicon' }],
+                    results: [{ id: 'ae2:printed_engineering_processor' }]
                 }
             ],
             loops: 1,
-            transitional_item: { id: 'ae2:printed_silicon' },
+            transitional_item: { id: 'ae2:printed_engineering_processor' },
             id: `${id_prefix}engineering_processor`
         },
         {
             results: [{ id: 'appflux:energy_processor' }],
-            ingredient: { item: 'ae2:printed_silicon' },
+            ingredient: { item: 'appflux:printed_energy_processor' },
             sequence: [
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { tag: 'c:dusts/redstone' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'appflux:printed_energy_processor' }, { tag: 'c:dusts/redstone' }],
+                    results: [{ id: 'appflux:printed_energy_processor' }]
                 },
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { item: 'appflux:printed_energy_processor' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'appflux:printed_energy_processor' }, { item: 'ae2:printed_silicon' }],
+                    results: [{ id: 'appflux:printed_energy_processor' }]
                 }
             ],
             loops: 1,
-            transitional_item: { id: 'ae2:printed_silicon' },
+            transitional_item: { id: 'appflux:printed_energy_processor' },
             id: `${id_prefix}energy_processor`
         },
         {
             results: [{ id: 'advanced_ae:quantum_processor' }],
-            ingredient: { item: 'ae2:printed_silicon' },
+            ingredient: { item: 'advanced_ae:printed_quantum_processor' },
             sequence: [
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { tag: 'c:dusts/redstone' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'advanced_ae:printed_quantum_processor' }, { tag: 'c:dusts/redstone' }],
+                    results: [{ id: 'advanced_ae:printed_quantum_processor' }]
                 },
                 {
                     type: 'create:deploying',
-                    ingredients: [{ item: 'ae2:printed_silicon' }, { item: 'advanced_ae:printed_quantum_processor' }],
-                    results: [{ id: 'ae2:printed_silicon' }]
+                    ingredients: [{ item: 'advanced_ae:printed_quantum_processor' }, { item: 'ae2:printed_silicon' }],
+                    results: [{ id: 'advanced_ae:printed_quantum_processor' }]
                 }
             ],
             loops: 1,
-            transitional_item: { id: 'ae2:printed_silicon' },
+            transitional_item: { id: 'advanced_ae:printed_quantum_processor' },
             id: `${id_prefix}quantum_processor`
         }
     ];
