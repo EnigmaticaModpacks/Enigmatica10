@@ -83,6 +83,8 @@
 		maxPotionEffectDuration = 6000
 		#Item that can not be disenchanted. Regular expressions are allowed.
 		disenchantBlacklist = ["tetra:.*"]
+		#Enchantments to be disqualified from disenchantment, or curses disallowed from purification. Regular expressions are allowed.
+		enchantmentIdBlacklist = []
 
 	[machine.spirit_furnace]
 		#How much mB per tick this furnace should consume.
@@ -309,6 +311,8 @@
 		alwaysVisibleInCreative = false
 		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
 		spawnLimit = 0
+		#If vengeance spirits should also spawn when entities are killed by non-player damage sources.
+		spawnOnNonPlayerKills = false
 
 	[mob.werewolf]
 		#If villagers struck by lightning should have a 50% chance of becoming a werewolf villager

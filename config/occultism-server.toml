@@ -379,6 +379,18 @@
 	maxTryRTP = 99
 	#Allow miners enchanted with silk touch to has a chance of multiply results each operation
 	minerSilk = true
+	#Chance of damaging the weapon with each advance on the dimensional battlefield.
+	# Default: 0.03999999910593033
+	# Range: 0.0 ~ 1.0
+	butcherHurtChance = 0.03999999910593033
+	#Entity life multiplier when calculating processing time in the dimensional battlefield.
+	# Default: 20
+	# Range: > 1
+	butcherLifeMultiplier = 20
+	#Chance per level of the Fracture Soul enchantment to drop a Shattered Soul.
+	# Default: 0.17000000178813934
+	# Range: 0.0 ~ 1.0
+	shatteredSoulChance = 0.17000000178813934
 
 #Familiar Settings
 [familiar]

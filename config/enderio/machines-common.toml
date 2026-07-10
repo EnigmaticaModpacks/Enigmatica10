@@ -241,10 +241,16 @@
 
 [enchanter]
 	#The lapis cost is enchant level multiplied by this value.
+	# Default: 3.0
+	# Range: 1.0 ~ 1.7976931348623157E308
 	lapisCostFactor = 3.0
 	#The final XP cost for an enchantment is multiplied by this value. To halve costs set to 0.5, to double them set it to 2.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.7976931348623157E308
 	levelCostFactor = 0.75
 	#Base level cost added to all recipes in the enchanter.
+	# Default: 2
+	# Range: > 0
 	baseLevelCost = 2
 
 [poweredSpawner]
@@ -276,16 +282,26 @@
 
 [wirelessCharger]
 	#Base range
+	# Default: 16
+	# Range: > 0
 	baseRange = 16
 
 [obelisks]
 	#Attractor Obelisk base range
+	# Default: 8
+	# Range: > 0
 	attractorRange = 8
 	#Attractor Obelisk attracts bosses
 	attractorAttractBosses = false
 	#Inhibitor Obelisk base range
+	# Default: 16
+	# Range: > 0
 	inhibitorRange = 16
 	#Aversion Obelisk base range
+	# Default: 16
+	# Range: > 0
 	aversionRange = 16
 	#Relocator Obelisk base range
+	# Default: 16
+	# Range: > 0
 	relocatorRange = 16

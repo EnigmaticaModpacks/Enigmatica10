@@ -14,3 +14,7 @@
 	mode = "DEFAULT"
 	#Add mod ids here of mods that you wish to disable Crafting Tweaks support for.
 	disabledAddons = []
+	#Offset from the right when repositioning the vanilla recipe book button.
+	vanillaCraftingGuideOffsetX = -25
+	#Offset from the top when repositioning the vanilla recipe book button.
+	vanillaCraftingGuideOffsetY = 5

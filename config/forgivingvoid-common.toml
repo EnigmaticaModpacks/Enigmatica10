@@ -25,3 +25,7 @@ entityAllowList = ["minecraft:player"]
 #Set to ABSOLUTE for absolute fall damage in half hearts, RELATIVE_CURRENT for a percentage of their current health, or RELATIVE_MAX for a percentage of their max health.
 #Allowed Values: ABSOLUTE, RELATIVE_CURRENT, RELATIVE_MAX
 damageOnFallMode = "ABSOLUTE"
+#Set to true to make Forgiving Void return the player to the sky above their last grounded position instead of their current position. Prevents players from using Forgiving Void to fly across larger distances.
+returnToLastGrounded = true
+#Effects applied to a player when they fall through the void, in the format "effect|duration|amplifier"
+fallThroughVoidEffects = ["minecraft:blindness|60|3"]

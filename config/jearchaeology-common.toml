@@ -2,4 +2,7 @@
 atm_compat = true
 #Enable compatibility with Better Archeology
 betterarcheology_compat = true
-
+#Enable compatibility with Cobblemon
+cobblemon_compat = true
+#Enable compatibility with Cobblemon: Mega Showdown
+mega_showdown_compat = true

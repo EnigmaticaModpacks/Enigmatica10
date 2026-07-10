@@ -1,0 +1,117 @@
+{
+  "minecraft:cat": {
+    "scale": -6.5,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:zoglin": {
+    "scale": -3.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:witch": {
+    "scale": -0.5,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:donkey": {
+    "scale": -3.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:fox": {
+    "scale": -17.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:pig": {
+    "scale": -6.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:allay": {
+    "scale": -6.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:turtle": {
+    "scale": -15.5,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:frog": {
+    "scale": -26.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:mule": {
+    "scale": -1.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:sniffer": {
+    "scale": -3.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:hoglin": {
+    "scale": -5.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:mooshroom": {
+    "scale": -3.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:strider": {
+    "scale": 0.5,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:ocelot": {
+    "scale": -2.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:goat": {
+    "scale": 0.5,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:chicken": {
+    "scale": -3.5,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:wolf": {
+    "scale": -4.5,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:panda": {
+    "scale": -4.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:horse": {
+    "scale": -4.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:rabbit": {
+    "scale": -6.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:bee": {
+    "scale": -18.0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "minecraft:axolotl": {
+    "scale": -12.0,
+    "x": 0.0,
+    "y": 0.0
+  }
+}

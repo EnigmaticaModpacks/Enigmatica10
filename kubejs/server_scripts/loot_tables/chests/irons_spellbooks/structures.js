@@ -5,7 +5,7 @@ LootJS.lootTables((event) => {
             'pyromancer_tower/pyromancer_basic_storage',
             'mountain_tower/mountain_tower',
             'mangrove_hut',
-            'catacombs/crypt_loot',
+            'catacombs/dead_king_vault',
             'priest_house',
             'component_storage',
             'bookshelf_loot',

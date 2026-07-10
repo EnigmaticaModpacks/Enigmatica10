@@ -95,6 +95,9 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "enderio": {
+    "soul_bound": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,

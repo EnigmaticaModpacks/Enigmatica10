@@ -1,0 +1,4 @@
+#A list of NBT keys that will be removed by `AaronUtil#cleanEntityNbt`.
+cleanEntityNbtKeys = ["HurtByTimestamp", "Sitting", "FallFlying", "PortalCooldown", "FallDistance", "InLove", "DeathTime", "ForcedAge", "Motion", "Air", "OnGround", "Rotation", "Pos", "HurtTime"]
+#A list of NBT keys that will be removed by `AaronUtil#cleanEntityNbt` when `stripUniqueness` is set to true.
+cleanEntityNbtKeysStripUniqueness = ["id", "UUID", "Owner", "Age"]

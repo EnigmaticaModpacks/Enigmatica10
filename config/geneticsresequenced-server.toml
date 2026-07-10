@@ -5,8 +5,8 @@ keepGenesOnDeath = true
 # Range: > 1
 minimumCooldownForNotification = 1200
 #How far should the Antifield Block prevent Item/XP Magnet Genes from working (in blocks)
-# Default: 25
-# Range: > 1
+# Default: 25.0
+# Range: 1.0 ~ 1.7976931348623157E308
 antifieldBlockRadius = 25
 
 [machines]
@@ -194,3 +194,7 @@ antifieldBlockRadius = 25
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	webDefenseChance = 0.05
+	#How much damage should the Dragon Health Crystal be able to take before it breaks
+	# Default: 1000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	dragonHealthCrystalMaxDamage = 1000.0

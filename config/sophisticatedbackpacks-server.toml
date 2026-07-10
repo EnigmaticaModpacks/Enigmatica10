@@ -99,6 +99,10 @@
 		# Default: 3
 		# Range: 1 ~ 6
 		slotsInRow = 3
+		#List of additional crafting shapes compacting and compression upgrades will try when checking if items can be compacted. Shapes are expected as rows of 1s and 0s separated by / where 1 means the tested item is present and 0 means the slot is empty. Example: "111/101/111" checks a hollow 3x3 shape with 8 items.
+		additionalCompactingShapes = ["111/101/111"]
+		#List of item-specific additional crafting shapes compacting and compression upgrades will try when checking if items can be compacted. Entries are expected in format of "mod:item=shape", for example "some_mod:tiny_coal=111/101/111".
+		additionalCompactingShapeOverrides = []
 
 	#Advanced Compacting Upgrade Settings
 	[server.advancedCompactingUpgrade]
@@ -495,7 +499,7 @@
 		buffWithPotionEffects = true
 		#Turns on/off buffing the entity that wears backpack with additional health. Health is scaled based on backpack tier the mob wears.
 		buffHealth = true
-		#Turns on/off equiping the entity that wears backpack with armor. What armor material and how enchanted is scaled based on backpack tier the mob wears.
+		#Turns on/off equipping the entity that wears backpack with armor. What armor material and how enchanted it is scales based on backpack tier the mob wears.
 		equipWithArmor = true
 		#Map of entities that can spawn with backpack and related loot tables (if adding a loot is enabled) in format of "EntityRegistryName|LootTableName"
 		entityLootTableList = ["minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
@@ -588,3 +592,30 @@
 		# Default: 8
 		# Range: 1 ~ 20
 		filterSlots = 8
+
+	#Mob Catcher Upgrade Settings
+	[server.mobCatcherUpgrade]
+		#Maximum slot cost a mob may have to be captured by the basic mob catcher. This is a hard limit, not a clamp.
+		# Default: 18
+		# Range: 1 ~ 120
+		basicMaxSlotCost = 18
+		#Maximum slot cost a mob may have to be captured by the advanced mob catcher. This is a hard limit, not a clamp.
+		# Default: 72
+		# Range: 1 ~ 120
+		advancedMaxSlotCost = 72
+		#Multiplier applied to animal mob slot cost.
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		animalMultiplier = 1.0
+		#Multiplier applied to hostile mob slot cost.
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		hostileMultiplier = 2.0
+		#When true, mobs that expose inventories or container menus are not capturable.
+		disallowInventoryEntities = false
+		#Entity types or entity tags prefixed with # that cannot be captured.
+		entityBlockList = []
+		#Entity types or entity tags prefixed with # treated as hostile by mob catcher slot cost and tier rules.
+		hostileOverrides = []
+		#Entity types or entity tags prefixed with # treated as passive by mob catcher slot cost and tier rules.
+		passiveOverrides = []
