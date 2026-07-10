@@ -1,3 +1,16 @@
+### Enigmatica 10 1.30.0
+
+NeoForge-1.21.1-21.1.235 |
+
+#### ✔️ Added Mods
+
+#### 🦟 Bugs Fixed
+
+- Add andesite alloy to foundry [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
+- AE2 Processors should now be craftable again on Sequenced Assembly [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
+
+---
+
 ### Enigmatica 10 1.29.0
 
 NeoForge-1.21.1-21.1.218 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.29.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.29.0.md)
