@@ -860,6 +860,14 @@
     "curseForgeHash": 3059085441,
     "modrinthHash": "5b5fc717242a9eb2d8b4a5e57ea1a38446722864"
   },
+  "energymeter-neoforge-1.21.1-0.4.1.jar": {
+    "jarName": "energymeter-neoforge-1.21.1-0.4.1.jar",
+    "modId": "energymeter",
+    "name": "Energy Meter",
+    "version": "1.21.1-0.4.1",
+    "curseForgeHash": 131978321,
+    "modrinthHash": "a0da62682f28ea5550483b6be7c46698a98b1a6a"
+  },
   "enigmaticunity-2.2.jar": {
     "jarName": "enigmaticunity-2.2.jar",
     "modId": "enigmaticunity",

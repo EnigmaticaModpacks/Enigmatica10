@@ -1,0 +1,19 @@
+[meter]
+	#Default values for the meter interval and zero tolerance.
+	#These values can be changed in the GUI for each meter individually.
+	# Default: 5
+	# Range: 5 ~ 200
+	default_interval = 5
+	#Whether or not meters can connect to each other.
+	#Keep in mind that allowing meter connections can cause performance issues and allow players to abuse them as infinite cables.
+	allow_meter_connections = false
+
+[monitor]
+	#Max width of monitor.
+	# Default: 32
+	# Range: 1 ~ 128
+	max_width = 32
+	#Max height of monitor.
+	# Default: 18
+	# Range: 1 ~ 128
+	max_height = 18
