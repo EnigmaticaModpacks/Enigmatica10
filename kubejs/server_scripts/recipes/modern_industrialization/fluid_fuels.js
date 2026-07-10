@@ -4,11 +4,8 @@ ServerEvents.generateData('before_mods', (event) => {
         values: {
             'modern_industrialization:boosted_diesel': { eu_per_mb: 800 },
             'modern_industrialization:diesel': { eu_per_mb: 400 },
-            // 'modern_industrialization:biodiesel': { eu_per_mb: 250 },
             'modern_industrialization:biodiesel': { eu_per_mb: 400 },
-            // 'modern_industrialization:heavy_fuel': { eu_per_mb: 240 },
             'modern_industrialization:heavy_fuel': { eu_per_mb: 600 },
-            // 'modern_industrialization:light_fuel': { eu_per_mb: 160 },
             'modern_industrialization:light_fuel': { eu_per_mb: 720 },
             'modern_industrialization:creosote': { eu_per_mb: 160 },
             'modern_industrialization:naphtha': { eu_per_mb: 80 },
@@ -36,7 +33,9 @@ ServerEvents.generateData('before_mods', (event) => {
             'actuallyadditions:empowered_oil': { eu_per_mb: 960 },
 
             'oritech:still_oil': { eu_per_mb: 16 },
-            'oritech:still_fuel': { eu_per_mb: 1300 }
+            'oritech:still_fuel': { eu_per_mb: 1300 },
+
+            'industrialengineering:high_power_diesel': { eu_per_mb: 1300 }
         }
     };
 

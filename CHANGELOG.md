@@ -2,7 +2,13 @@
 
 NeoForge-1.21.1-21.1.235 |
 
+#### ⭐ Improvements
+
+- IE Diesel Generator can now burn most liquid fuels [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
+
 #### ✔️ Added Mods
+
+- [Energy Meter](https://www.curseforge.com/minecraft/mc-mods/energymeter) (by [Relentless](https://www.curseforge.com/members/relentless/projects))
 
 #### 🦟 Bugs Fixed
 

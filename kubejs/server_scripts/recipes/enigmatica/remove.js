@@ -11,6 +11,7 @@ ServerEvents.recipes((event) => {
         { type: 'evilcraft:special/minecraft_dead_bush' },
         { type: 'oritech:fuel_generator' },
         { type: 'mekanism:combining', id: /.*(from_raw|to_ore|to_deepslate_ore|to_ancient_debris)/ },
+        { type: 'immersiveengineering:generator_fuel' },
         { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ },
         { id: /advanced_ae:.*budding/ },
         { id: /ae2:inscriber\/(ender|fluix|certus_quartz|sky_stone)_dust/ },
