@@ -5,6 +5,7 @@ NeoForge-1.21.1-21.1.235 |
 #### ⭐ Improvements
 
 - IE Diesel Generator can now burn most liquid fuels [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
+- Add andesite alloy to foundry [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
 
 #### ✔️ Added Mods
 
@@ -13,7 +14,6 @@ NeoForge-1.21.1-21.1.235 |
 
 #### 🦟 Bugs Fixed
 
-- Add andesite alloy to foundry [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
 - AE2 Processors should now be craftable again on Sequenced Assembly [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
 
 ---
