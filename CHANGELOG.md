@@ -9,6 +9,7 @@ NeoForge-1.21.1-21.1.235 |
 #### ✔️ Added Mods
 
 - [Energy Meter](https://www.curseforge.com/minecraft/mc-mods/energymeter) (by [Relentless](https://www.curseforge.com/members/relentless/projects))
+- [Applied Replicatics](https://www.curseforge.com/minecraft/mc-mods/applied-replicatics) (by [Lapipi](https://www.curseforge.com/members/lapipi/projects))
 
 #### 🦟 Bugs Fixed
 
