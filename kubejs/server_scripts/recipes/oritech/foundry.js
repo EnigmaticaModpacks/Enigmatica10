@@ -24,6 +24,12 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'minecraft:andesite' }, { tag: 'c:nuggets/zinc' }],
             time: 80,
             id: `${id_prefix}andesite_alloy_from_zinc`
+        },
+        {
+            results: [{ id: 'mekanism:alloy_infused', count: 1 }],
+            ingredients: [{ tag: 'mekanism:enriched/redstone' }, { tag: 'c:ingots/copper' }],
+            time: 80,
+            id: `${id_prefix}alloy_infused`
         }
     ];
 

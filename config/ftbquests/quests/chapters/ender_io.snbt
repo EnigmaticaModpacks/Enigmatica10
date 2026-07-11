@@ -83,7 +83,7 @@
 				id: "0D6C65F9C4CE0695"
 				item: {
 					count: 1
-					id: "enderio:copper_alloy_grinding_ball"
+					id: "enderio:conductive_alloy_grinding_ball"
 				}
 				type: "item"
 			}]

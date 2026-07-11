@@ -451,6 +451,7 @@
 						id: "evilcraft:environmental_accumulator"
 					}
 					id: "14C031FA14C3CD89"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "evilcraft:environmental_accumulator"

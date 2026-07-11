@@ -72,25 +72,25 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'oritech:biosteel_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/biosteel' }],
             time: 60,
-            id: `oritech:grinder/dust/biosteel`
+            id: `${id_prefix}biosteel_dust`
         },
         {
             results: [{ id: 'oritech:duratium_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/duratium' }],
             time: 60,
-            id: `oritech:grinder/dust/duratium`
+            id: `${id_prefix}duratium_dust`
         },
         {
             results: [{ id: 'oritech:energite_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/energite' }],
             time: 60,
-            id: `oritech:grinder/dust/energite`
+            id: `${id_prefix}energite_dust`
         },
         {
             results: [{ id: 'oritech:adamant_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/adamant' }],
             time: 60,
-            id: `oritech:grinder/dust/adamant`
+            id: `${id_prefix}adamant_dust`
         },
         {
             results: [
@@ -164,16 +164,6 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:grinder';
-
-        if (!recipe.fluidInputVariant) {
-            recipe.fluidInputVariant = 'minecraft:empty';
-            recipe.fluidInputAmount = 0;
-        }
-        if (!recipe.fluidOutputVariant) {
-            recipe.fluidOutputVariant = 'minecraft:empty';
-            recipe.fluidOutputAmount = 0;
-        }
-
         event.custom(recipe).id(recipe.id);
     });
 });

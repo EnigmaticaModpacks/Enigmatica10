@@ -29,6 +29,7 @@
 					id: "minecraft:bee_nest"
 				}
 				id: "6614885B79D0A53B"
+				observation_type: "block_tag"
 				observe_type: 1
 				timer: 0L
 				to_observe: "enigmatica:hives"

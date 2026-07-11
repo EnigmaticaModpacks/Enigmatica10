@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
             ingredients: [{ item: 'oritech:clay_catalyst_beads' }],
             results: [],
             time: 120,
-            id: 'oritech:refinery/oilalt'
+            id: `${id_prefix}crude_oil_refining_with_catalyst`
         },
         {
             fluidInput: { fluid: '#c:crude_oil', amount: 1000 },
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
             ingredients: [],
             results: [],
             time: 120,
-            id: 'oritech:refinery/oilbase'
+            id: `${id_prefix}crude_oil_refining`
         }
     ];
 

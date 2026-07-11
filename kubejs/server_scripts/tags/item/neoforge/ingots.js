@@ -28,6 +28,8 @@ ServerEvents.tags('item', (event) => {
         malginant_pewter: ['malum:malginant_pewter_ingot'],
         soul_stained_steel: ['malum:soul_stained_steel_ingot'],
 
+        silicon: ['#c:silicon'],
+
         andesite_alloy: ['create:andesite_alloy']
     };
 

@@ -120,6 +120,41 @@ ServerEvents.recipes((event) => {
                 '#c:ingots/arcane',
                 '#c:ingots/infused_iron'
             ])
+        },
+        {
+            filter: [{ id: 'malum:runic_twisted_rock_bricks_wall' }],
+            to_replace: `malum:twisted_rock_bricks`,
+            replace_with: `malum:runic_twisted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_small_twisted_rock_bricks_wall' }],
+            to_replace: `malum:small_twisted_rock_bricks`,
+            replace_with: `malum:runic_small_twisted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_tainted_rock_bricks_wall' }],
+            to_replace: `malum:tainted_rock_bricks`,
+            replace_with: `malum:runic_tainted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_small_tainted_rock_bricks_wall' }],
+            to_replace: `malum:small_tainted_rock_bricks`,
+            replace_with: `malum:runic_small_tainted_rock_bricks`
+        },
+        {
+            filter: [{ id: 'malum:runic_twisted_rock_tiles_wall' }],
+            to_replace: `malum:twisted_rock_tiles`,
+            replace_with: `malum:runic_twisted_rock_tiles`
+        },
+        {
+            filter: [{ id: 'malum:runic_tainted_rock_tiles_wall' }],
+            to_replace: `malum:tainted_rock_tiles`,
+            replace_with: `malum:runic_tainted_rock_tiles`
+        },
+        {
+            filter: [{ id: 'mcwwindows:bamboo_shutter' }],
+            to_replace: `minecraft:bamboo`,
+            replace_with: `minecraft:bamboo_trapdoor`
         }
     ];
 

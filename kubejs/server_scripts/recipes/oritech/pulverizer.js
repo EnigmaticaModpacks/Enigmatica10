@@ -32,37 +32,37 @@ ServerEvents.recipes((event) => {
             results: [{ id: 'minecraft:sand', count: 4 }],
             ingredients: [{ tag: 'c:sandstone/uncolored_blocks' }],
             time: 180,
-            id: `oritech:pulverizer/dust/sand_from_sandstone`
+            id: `${id_prefix}sand_from_sandstone`
         },
         {
             results: [{ id: 'minecraft:red_sand', count: 4 }],
             ingredients: [{ tag: 'c:sandstone/red_blocks' }],
             time: 180,
-            id: `oritech:pulverizer/dust/red_sand`
+            id: `${id_prefix}red_sand_from_red_sandstone`
         },
         {
             results: [{ id: 'oritech:biosteel_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/biosteel' }],
             time: 120,
-            id: `oritech:pulverizer/dust/biosteel`
+            id: `${id_prefix}biosteel_dust`
         },
         {
             results: [{ id: 'oritech:duratium_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/duratium' }],
             time: 120,
-            id: `oritech:pulverizer/dust/duratium`
+            id: `${id_prefix}duratium_dust`
         },
         {
             results: [{ id: 'oritech:energite_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/energite' }],
             time: 120,
-            id: `oritech:pulverizer/dust/energite`
+            id: `${id_prefix}energite_dust`
         },
         {
             results: [{ id: 'oritech:adamant_dust', count: 1 }],
             ingredients: [{ tag: 'c:ingots/adamant' }],
             time: 120,
-            id: `oritech:pulverizer/dust/adamant`
+            id: `${id_prefix}adamant_dust`
         }
     ];
 
@@ -114,16 +114,6 @@ ServerEvents.recipes((event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'oritech:pulverizer';
-
-        if (!recipe.fluidInputVariant) {
-            recipe.fluidInputVariant = 'minecraft:empty';
-            recipe.fluidInputAmount = 0;
-        }
-        if (!recipe.fluidOutputVariant) {
-            recipe.fluidOutputVariant = 'minecraft:empty';
-            recipe.fluidOutputAmount = 0;
-        }
-
         event.custom(recipe).id(recipe.id);
     });
 });

@@ -8,24 +8,63 @@ ServerEvents.recipes((event) => {
         //     id: 'sample'
         // }
         { mod: 'cobblegengalore' },
-        { type: 'evilcraft:special/minecraft_dead_bush' },
+        { mod: 'ironchest' },
+
         { type: 'oritech:fuel_generator' },
         { type: 'mekanism:combining', id: /.*(from_raw|to_ore|to_deepslate_ore|to_ancient_debris)/ },
         { type: 'immersiveengineering:generator_fuel' },
+
         { id: /actuallyadditions:crushing\/(copper|iron|gold)_ore/ },
-        { id: /advanced_ae:.*budding/ },
+
+        { id: 'aether:moa_egg_pumpkin_pie' },
+
         { id: /ae2:inscriber\/(ender|fluix|certus_quartz|sky_stone)_dust/ },
+        { id: /advanced_ae:.*budding/ },
+        { id: 'advanced_ae:certuscharger' },
+        { id: 'advanced_ae:chargedredstone' },
+        { id: 'advanced_ae:quantum_infused_dust' },
+        { id: 'advanced_ae:quantum_infused_dust_crushed' },
         { id: /appflux:inscriber\/crush_(diamond|emerald)/ },
+
+        { id: 'ars_elemental:blaze_powder' },
+
+        { id: /arts_and_crafts:dye_.*_with_bleached_(wool|bed|carpet)/ },
+
+        { id: /create:crushing\/(deepslate|nether_gold)/ },
+
         { id: /enderio:smelting\/oritech\/(copper|nickel|iron|gold|platinum)_ingot/ },
         { id: /enderio:sag_milling\/(lapis|coal|quartz)/ },
+        { id: `enderio:sag_milling/blaze_powder` },
+        { id: `enderio:tank_fill/experience_bottle` },
+
+        { id: 'evilcraft:special/minecraft_dead_bush' },
+
+        { id: 'handcrafted:terracotta_thin_pot' },
+        { id: 'handcrafted:wood_plate' },
+
+        { id: `immersiveengineering:crusher/dark_prismarine` },
+        { id: `immersiveengineering:blastfurnace/fuel_coke_block` },
+        { id: 'immersiveengineering:crafting/coke_to_coal_coke' },
+
         { id: /industrialforegoing:laser_drill_ore.*yellor(ite|ium)/ },
+        { id: `industrialforegoing:dissolution_chamber/xp_bottles` },
+
+        { id: /malum:malum\/spirit_crucible\/repair\/occultism/ },
+
         { id: /mekanism:processing\/(quartz|coal|diamond|emerald|lapis_lazuli|fluorite)\/to_dust/ },
         { id: /mekanism:compat\/ae2\/(fluix_crystal|certus_crystal|ender_pearl|sky_stone)_to_dust/ },
         { id: /mekanism:crushing\/(charcoal_dust|obsidian_to_dust|breeze_rod|blaze_rod)/ },
+        { id: `mekanism:sulfur_dye` },
+
         { id: /modern_industrialization:compat\/ae2\/macerator\// },
         { id: /modern_industrialization:petrochem\/distillation\/crued_oil/ },
+
         { id: /mffs:steel_(ingot|compound)$/ },
+
         { id: /occultism:crushing\/(emerald|certus_quartz|quartz|fluix|coal|diamond|lapis|fluorite)_dust_from_gem/ },
+        { id: `occultism:crushing/blaze_powder_from_rod` },
+        { id: `occultism:crushing/obsidian_dust` },
+
         { id: /oritech:crafting\/alloy\/(steel|adamant|electrum)/ },
         { id: /oritech:pulverizer\/dust\/dyes/ },
         { id: /oritech:(iron|gold|copper|nickel)_(ingot|dust)/ },
@@ -46,43 +85,52 @@ ServerEvents.recipes((event) => {
         { id: /oritech:centrifuge\/fluid\/clump/ },
         { id: /oritech:centrifuge\/fluid\/compat\/(mekanism|create)/ },
         { id: /oritech:(splashing|blasting)\/compat\/create/ },
-        { id: 'oritech:grinder/uranium' },
-        { id: 'oritech:pulverizer/uranium' },
         { id: 'oritech:centrifuge/fluid/compat/clumpwet/crushed_uranium' },
-        { id: 'oritech:crushing/compat/create/coal' },
-        { id: 'oritech:pulverizer/coal' },
-        { id: 'oritech:grinder/coal' },
-        { id: 'oritech:foundry/alloy/electrum' },
-        { id: /create:crushing\/(deepslate|nether_gold)/ },
-        { id: /malum:malum\/spirit_crucible\/repair\/occultism/ },
-
-        { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
-        { id: 'advanced_ae:certuscharger' },
-        { id: 'advanced_ae:chargedredstone' },
-        { id: 'advanced_ae:quantum_infused_dust' },
-        { id: 'advanced_ae:quantum_infused_dust_crushed' },
-        { id: 'ars_elemental:blaze_powder' },
-        { id: `enderio:sag_milling/blaze_powder` },
-        { id: `enderio:tank_fill/experience_bottle` },
-        { id: `industrialforegoing:dissolution_chamber/xp_bottles` },
-        { id: `mekanism:sulfur_dye` },
-        { id: `occultism:crushing/blaze_powder_from_rod` },
-        { id: `occultism:crushing/obsidian_dust` },
-        { id: 'oritech:centrifuge/fluid/polymerresin' },
-        { id: 'oritech:centrifuge/fluid/fuel' },
-        { id: 'oritech:grinder/dust/sand_from_sandstone' },
-        { id: 'oritech:grinder/dust/red_sand' },
-        { id: 'oritech:cooler/compat/pneumaticcraft/plastic' },
         { id: 'oritech:centrifuge/fluid/compat/pneumaticcraft/fuel' },
-        { id: 'oritech:compat/mekanism/infusing/electrum_dust' },
+        { id: 'oritech:centrifuge/fluid/fuel' },
+        { id: 'oritech:centrifuge/fluid/polymerresin' },
+        { id: 'oritech:centrifuge/redstoneuran' },
         { id: 'oritech:compat/immersiveengineering/alloying/electrum' },
         { id: 'oritech:compat/immersiveengineering/arcalloying/electrum' },
-        { id: 'oritech:mixing/compat/create/electrum' },
-        { id: 'oritech:pulverizer/electrum' },
+        { id: 'oritech:compat/mekanism/infusing/electrum_dust' },
+        { id: 'oritech:cooler/compat/pneumaticcraft/plastic' },
+        { id: 'oritech:crushing/compat/create/coal' },
+        { id: 'oritech:foundry/alloy/compat/mekanism/infused_alloy' },
+        { id: 'oritech:foundry/alloy/electrum' },
+        { id: 'oritech:grinder/coal' },
+        { id: 'oritech:grinder/dust/adamant' },
+        { id: 'oritech:grinder/dust/biosteel' },
+        { id: 'oritech:grinder/dust/duratium' },
+        { id: 'oritech:grinder/dust/energite' },
+        { id: 'oritech:grinder/dust/red_sand' },
+        { id: 'oritech:grinder/dust/sand_from_sandstone' },
         { id: 'oritech:grinder/electrum' },
+        { id: 'oritech:grinder/sand_from_sandstone' },
+        { id: 'oritech:grinder/uranium' },
+        { id: 'oritech:mixing/compat/create/electrum' },
+        { id: 'oritech:pulverizer/coal' },
+        { id: 'oritech:pulverizer/dust/adamant' },
+        { id: 'oritech:pulverizer/dust/biosteel' },
+        { id: 'oritech:pulverizer/dust/duratium' },
+        { id: 'oritech:pulverizer/dust/energite' },
+        { id: 'oritech:pulverizer/dust/red_sand' },
+        { id: 'oritech:pulverizer/dust/sand_from_sandstone' },
+        { id: 'oritech:pulverizer/electrum' },
+        { id: 'oritech:pulverizer/sand_from_sandstone' },
+        { id: 'oritech:pulverizer/uranium' },
+        { id: 'oritech:refinery/oilalt' },
+        { id: 'oritech:refinery/oilbase' },
+        { id: 'oritech:silicon_blockblock' },
+        { id: 'oritech:platinum_ingot' },
+        { id: 'oritech:crafting/techdoor' },
+
+        { id: /powah:crafting\/cable_(basic|hardened|blazing|niotic|spirited|nitro)$/ },
+
+        { output: 'utilitarian:soul_snad' },
+        { output: 'utilitarian:drit' },
+        { output: 'utilitarian:grrass' },
         { id: `utilitarian:utility/green_dye` },
-        { id: `immersiveengineering:crusher/dark_prismarine` },
-        { id: `immersiveengineering:blastfurnace/fuel_coke_block` },
+        { id: /utilitarian:utility\/redying/ },
 
         // Duplicates detected by polymorph
         { id: 'minecraft:cake' },
@@ -109,7 +157,10 @@ ServerEvents.recipes((event) => {
         { id: /deeperdarker:(coal|diamond|lapis_lazuli|emerald)_from_(blasting|smelting)_gloomslate_.*_ore/ },
         { id: /oritech:(steel|electrum)_ingot_from_(blasting|smelting)/ },
         { id: /oritech:(gold|nickel|copper|iron)_nugget_from_(blasting|smelting)/ },
-        { id: 'aether:moa_egg_cake' }
+        { id: 'aether:moa_egg_cake' },
+        { id: 'oritech:platinum_dust' },
+        { id: 'immersiveengineering:crafting/coal_coke_to_coke' },
+        { id: 'immersiveengineering:crafting/coke_to_coal_coke' }
     ];
 
     recipes.forEach((recipe) => {

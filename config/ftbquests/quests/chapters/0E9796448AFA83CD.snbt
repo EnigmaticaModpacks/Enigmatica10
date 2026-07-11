@@ -339,26 +339,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5047A6F1EF472407"]
-			icon: {
-				id: "ironchest:iron_chest"
-			}
-			id: "44037DC8E8D493BC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "44620265EBF9E7EF"
-				table_id: 167859363417192230L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "0459BF27966A67E4"
-				item: { components: { "ftbfiltersystem:filter": "mod(ironchest)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["4B66ECA9D6797B80"]
 			icon: {
 				id: "minecraft:redstone_block"
