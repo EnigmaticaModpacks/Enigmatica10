@@ -16,7 +16,7 @@ NeoForge-1.21.1-21.1.235 |
 #### 🦟 Bugs Fixed
 
 - AE2 Processors should now be craftable again on Sequenced Assembly [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
-- Assembler Recipes adjusted to 4 inputs each to prevent them breaking [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
+- Assembler Recipes adjusted to 4 inputs each to prevent them breaking [(\#544)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/544)
 
 ---
 
