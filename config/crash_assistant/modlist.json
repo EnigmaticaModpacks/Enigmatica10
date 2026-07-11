@@ -1609,6 +1609,14 @@
     "curseForgeHash": 4270843424,
     "modrinthHash": "b0a801e9b7af930da5f58176156d58c26f6232b1"
   },
+  "mesoulcard-1.1.1.jar": {
+    "jarName": "mesoulcard-1.1.1.jar",
+    "modId": "mesoulcard",
+    "name": "ME Soul Card",
+    "version": "1.1.1",
+    "curseForgeHash": 2950848263,
+    "modrinthHash": "5eb6cc86e48a7ece169d9e5d1ce00f6c8871e099"
+  },
   "mffs-5.4.27.jar": {
     "jarName": "mffs-5.4.27.jar",
     "modId": "mffs",

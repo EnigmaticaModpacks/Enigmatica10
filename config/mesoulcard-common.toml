@@ -1,0 +1,4 @@
+#Enable acceleration lock to prevent multiple AE2 machines from accelerating the same block simultaneously.
+#When enabled, only one machine can apply acceleration to a block at a time.
+#Default: true
+enableAccelerationLock = true
