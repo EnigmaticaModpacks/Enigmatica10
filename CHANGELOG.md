@@ -11,6 +11,7 @@ NeoForge-1.21.1-21.1.235 |
 
 - [Energy Meter](https://www.curseforge.com/minecraft/mc-mods/energymeter) (by [Relentless](https://www.curseforge.com/members/relentless/projects))
 - [Applied Replicatics](https://www.curseforge.com/minecraft/mc-mods/applied-replicatics) (by [Lapipi](https://www.curseforge.com/members/lapipi/projects))
+- [ME Soul Card](https://www.curseforge.com/minecraft/mc-mods/me-soul-card) (by [yrley](https://www.curseforge.com/members/yrley/projects))
 
 #### 🦟 Bugs Fixed
 
