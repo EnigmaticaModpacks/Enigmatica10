@@ -12,6 +12,42 @@ ServerEvents.recipes((event) => {
             ingredients: [{ tag: 'c:dusts/lignite_coal' }],
             time: 100,
             id: `${id_prefix}carbon_fibre_strands_from_lignite_coal`
+        },
+        {
+            results: [{ id: 'mekanism:enriched_redstone', count: 1 }],
+            ingredients: [{ tag: 'c:dusts/redstone' }],
+            time: 100,
+            id: `${id_prefix}enriched_redstone`
+        },
+        {
+            results: [{ id: 'mekanism:enriched_carbon', count: 1 }],
+            ingredients: [{ tag: 'minecraft:coals' }],
+            time: 100,
+            id: `${id_prefix}enriched_carbon`
+        },
+        {
+            results: [{ id: 'mekanism:enriched_diamond', count: 1 }],
+            ingredients: [{ tag: 'c:gems/diamond' }],
+            time: 100,
+            id: `${id_prefix}enriched_diamond`
+        },
+        {
+            results: [{ id: 'mekanism:enriched_refined_obsidian', count: 1 }],
+            ingredients: [{ tag: 'c:dusts/refined_obsidian' }],
+            time: 100,
+            id: `${id_prefix}enriched_refined_obsidian`
+        },
+        {
+            results: [{ id: 'mekanism:enriched_gold', count: 1 }],
+            ingredients: [{ tag: 'c:dusts/gold' }],
+            time: 100,
+            id: `${id_prefix}enriched_gold`
+        },
+        {
+            results: [{ id: 'mekanism:enriched_tin', count: 1 }],
+            ingredients: [{ tag: 'c:dusts/tin' }],
+            time: 100,
+            id: `${id_prefix}enriched_tin`
         }
     ];
 

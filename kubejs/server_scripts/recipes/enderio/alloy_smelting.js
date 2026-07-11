@@ -86,9 +86,9 @@ ServerEvents.recipes((event) => {
         {
             inputs: [
                 { tag: 'mekanism:enriched/redstone', count: 1 },
-                { tag: 'c:ingots/copper', count: 8 }
+                { tag: 'c:ingots/copper', count: 1 }
             ],
-            output: { id: 'mekanism:alloy_infused', count: 8 },
+            output: { id: 'mekanism:alloy_infused', count: 1 },
             energy: 6400,
             experience: 0.3,
             id: `${id_prefix}alloy_infused_from_enriched`

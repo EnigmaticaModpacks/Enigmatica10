@@ -127,6 +127,17 @@ ServerEvents.recipes((event) => {
             ],
             time: 200,
             id: `${id_prefix}energy_processor`
+        },
+        {
+            results: [{ id: 'laserio:logic_chip', count: 4 }],
+            ingredients: [
+                { tag: 'c:nuggets/gold' },
+                { tag: 'c:tiny_dusts/redstone' },
+                { tag: 'c:tiny_dusts/redstone' },
+                { item: 'ae2:printed_silicon' }
+            ],
+            time: 200,
+            id: `${id_prefix}logic_chip`
         }
     ];
 
