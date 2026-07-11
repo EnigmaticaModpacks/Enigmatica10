@@ -1,5 +1,6 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
+        coal_coke: ['modern_industrialization:coke_dust'],
         adamant: ['oritech:adamant_dust'],
         biosteel: ['oritech:biosteel_dust'],
         duratium: ['oritech:duratium_dust'],

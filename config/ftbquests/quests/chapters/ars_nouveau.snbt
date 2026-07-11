@@ -647,6 +647,7 @@
 					id: "ars_nouveau:wixie_cauldron"
 				}
 				id: "5314260DF92C1856"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "ars_nouveau:wixie_cauldron"
@@ -669,6 +670,7 @@
 					id: "ars_additions:enchanting_wixie_cauldron"
 				}
 				id: "7618EFB44BB18F63"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "ars_additions:enchanting_wixie_cauldron"

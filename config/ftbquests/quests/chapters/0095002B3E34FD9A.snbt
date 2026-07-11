@@ -69,6 +69,7 @@
 					id: "occultism:spirit_fire"
 				}
 				id: "04A7890742B7519E"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "occultism:spirit_fire"
@@ -212,6 +213,7 @@
 						id: "occultism:ritual_dummy/possess_endermite"
 					}
 					id: "5DC14CAF06A7DB89"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "occultism:possessed_endermite"

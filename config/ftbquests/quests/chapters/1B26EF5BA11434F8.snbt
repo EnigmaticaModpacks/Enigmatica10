@@ -58,6 +58,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "1B9EA0EB538823C6"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "chococraft:chocobo"

@@ -8,7 +8,15 @@ ServerEvents.recipes((event) => {
             key: {
                 A: 'minecraft:terracotta'
             },
-            id: 'handcrafted:terracotta_thin_pot'
+            id: `${id_prefix}terracotta_thin_pot`
+        },
+        {
+            output: '6x handcrafted:wood_plate',
+            pattern: ['AAA', 'AAA'],
+            key: {
+                A: '#minecraft:wooden_slabs'
+            },
+            id: `${id_prefix}wood_plate`
         }
     ];
 

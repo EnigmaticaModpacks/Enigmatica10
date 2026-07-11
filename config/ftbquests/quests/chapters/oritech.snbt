@@ -403,6 +403,7 @@
 					id: "oritech:black_hole_block"
 				}
 				id: "4DBE23AE12CB9448"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "oritech:black_hole_block"

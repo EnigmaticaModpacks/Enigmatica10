@@ -502,6 +502,7 @@
 						id: "minecraft:emerald"
 					}
 					id: "12BDDFD0C2267B6C"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "minecraft:villager"

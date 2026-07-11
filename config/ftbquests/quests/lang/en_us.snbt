@@ -2711,15 +2711,6 @@
 		"&a🛈 Tip: The Rod can be re-attuned to a"
 		"&a    new material at any time."
 	]
-	quest.44037DC8E8D493BC.quest_desc: [
-		"Despite the name, Iron Chests offers more than just Iron Chests. "
-		""
-		"In fact, it has multiple tiers of chests, each bigger than the last. "
-		""
-		"&a🛈 Tip: Install upgrades by Right-"
-		"&a    Clicking them onto chests."
-	]
-	quest.44037DC8E8D493BC.title: "Iron Chests"
 	quest.441562EC913D1043.quest_desc: [
 		"The Shock Module causes mobs in contact with the field to take damage. "
 		""
@@ -5179,7 +5170,6 @@
 	task.0219421FBD8DB647.title: "Just Dire Upgrades"
 	task.0271A5B9C85AB38D.title: "Any Small Flowers"
 	task.02EFB7B55C020448.title: "Chemicals and Gas"
-	task.0459BF27966A67E4.title: "Iron Chests"
 	task.04A7890742B7519E.title: "Observe: Spirit Fire"
 	task.066938F7CBA7C454.title: "Advanced Pattern Provider"
 	task.069760235257E581.title: "String Curtains"

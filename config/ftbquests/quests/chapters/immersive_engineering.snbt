@@ -778,6 +778,7 @@
 						id: "immersiveengineering:assembler"
 					}
 					id: "41360E57DF841209"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:assembler"
@@ -855,6 +856,7 @@
 						id: "immersiveengineering:alloy_smelter"
 					}
 					id: "74FDE36B1D6613C4"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:alloy_smelter"
@@ -1121,6 +1123,7 @@
 						id: "immersiveengineering:auto_workbench"
 					}
 					id: "1A13433A611626BD"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:auto_workbench"
@@ -1180,6 +1183,7 @@
 						id: "immersiveengineering:sawmill"
 					}
 					id: "47FABFA3F238464E"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:sawmill"

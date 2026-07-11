@@ -1,6 +1,7 @@
 ServerEvents.tags('item', (event) => {
     let additions = {
         coal: ['minecraft:coal'],
+        coal_coke: ['modern_industrialization:coke'],
         charcoal: ['minecraft:charcoal'],
         charged_certus: ['ae2:charged_certus_quartz_crystal'],
 
