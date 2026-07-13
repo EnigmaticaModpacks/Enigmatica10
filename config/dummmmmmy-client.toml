@@ -1,6 +1,4 @@
-#lots of cosmetic stuff in here
 [visuals]
-	#To edit the damage numbers color you'll have to edit the config file manually
 	#How much the dummy swings in degrees with respect to the damage dealt. default=0.75
 	# Default: 0.75
 	# Range: 0.0 ~ 2.0

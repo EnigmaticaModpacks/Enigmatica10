@@ -40,7 +40,6 @@
 		# Default: 5.0
 		# Range: 0.0 ~ 64.0
 		base_velocity_scaling = 5.0
-		#maximum range
 		#note that it will still only keep alive the two fire blocks closer to it
 		# Default: 5
 		# Range: 0 ~ 16
@@ -312,6 +311,8 @@
 	candle_holder = true
 	fire_pit = true
 	wicker_fence = true
+	brittlestone = true
+	brittlestone_bricks = true
 
 	[building.sconce]
 		enabled = true
@@ -631,7 +632,6 @@
 	[tools.antique_ink]
 		enabled = true
 
-#General settings
 [general]
 	#Enable Creative Tab
 	creative_tab = false
@@ -643,11 +643,9 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
+	#General settings
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
-
-#Vanilla tweaks
-[tweaks]
 
 	[tweaks.golden_apple_disenchant]
 		enabled = true

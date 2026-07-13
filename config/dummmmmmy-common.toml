@@ -1,5 +1,4 @@
 [scarecrow]
-	#Equip a dummy with a pumpkin to make hit act as a scarecrow
 	#All animal entities will be scared. add here additional ones that are not included
 	mobs_whitelist = [""]
 	#Animal entities that will not be scared
