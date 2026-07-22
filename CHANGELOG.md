@@ -1,6 +1,6 @@
 ### Enigmatica 10 1.30.0
 
-NeoForge-1.21.1-21.1.235 |
+NeoForge-1.21.1-21.1.235 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.30.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.30.0.md)
 
 #### ⭐ Improvements
 
@@ -18,6 +18,13 @@ NeoForge-1.21.1-21.1.235 |
 - AE2 Processors should now be craftable again on Sequenced Assembly [(\#542)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/542)
 - Assembler Recipes adjusted to 4 inputs each to prevent them breaking [(\#544)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/544)
 - Fixed many recipe conflicts [(\#544)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/544)
+- Duplicate Recipes in Alloy Smelter, similar to [(\#525)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/525) [(\#536)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/536)
+- Immersive Engineering Diesel Generator doesn't work with Oritech Diesel [(\#534)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/534)
+- Server crash when certain structure loaded [(\#527)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/527)
+- possibly duplicate recipes [(\#525)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/525)
+- Modular Routers crashing with new FTB Filter versions [(\#522)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/522)
+- occultism possessed elder guardian ritual crashes you to desktop [(\#521)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/521)
+- Andesite alloy missing Oritech Foundry recipe [(\#493)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/493)
 
 ---
 
