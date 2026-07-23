@@ -47,19 +47,19 @@ $CLIENT_CHANGELOG_TYPE = "html"
 # Must be a single string.
 $CLIENT_CHANGELOG = @"
 <div style="font-family:sans-serif;text-align:center;max-width:480px;margin:0 auto;">
-  <img src="https://raw.githubusercontent.com/EnigmaticaModpacks/Enigmatica10/main/packmenu/resources/assets/enigmatica/textures/logo.png"
-       alt="Enigmatic Skies" style="width:80%;margin-bottom:16px;" />
+  <img src="https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/packmenu/resources/assets/enigmatica/textures/logo.png?raw=true"
+       alt="Enigmatica 10 Logo" style="width:80%;margin-bottom:16px;" />
 
   <p style="font-size:15px;margin:8px 0;">
-    <a href="https://github.com/EnigmaticaModpacks/Enigmatica10/blob/main/changelogs/changelog_mods_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">🔧 Mod Updates</a>
+    <a href="https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">🔧 Mod Updates</a>
     <span style="color:#ccc;">&nbsp;|&nbsp;</span>
-    <a href="https://github.com/EnigmaticaModpacks/Enigmatica10/blob/main/changelogs/modlist_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">📋 Modlist</a>
+    <a href="https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_$MODPACK_VERSION.md" target="_blank" style="color:#a8d8d0;text-decoration:none;">📋 Modlist</a>
     <span style="color:#ccc;">&nbsp;|&nbsp;</span>
     <a href="https://www.bisecthosting.com/enigmatica" target="_blank" style="color:#a8d8d0;text-decoration:none;">🖥️ Get a Server</a>
   </p>
 
   <p style="font-size:12px;margin:4px 0;">
-    <a href="https://github.com/EnigmaticaModpacks/Enigmatica10/blob/main/CHANGELOG.md" target="_blank" style="color:#bbb;text-decoration:none;">See the full changelog on GitHub</a>
+    <a href="https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/CHANGELOG.md" target="_blank" style="color:#bbb;text-decoration:none;">See the full changelog on GitHub</a>
   </p>
 </div>
 "@
