@@ -7,6 +7,7 @@
 		id: "replication:raw_replica"
 	}
 	id: "13C15ACA23526F9E"
+	images: [ ]
 	order_index: 12
 	quest_links: [ ]
 	quests: [

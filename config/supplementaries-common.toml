@@ -312,7 +312,6 @@
 	fire_pit = true
 	wicker_fence = true
 	brittlestone = true
-	brittlestone_bricks = true
 
 	[building.sconce]
 		enabled = true
@@ -643,7 +642,6 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
-	#General settings
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 

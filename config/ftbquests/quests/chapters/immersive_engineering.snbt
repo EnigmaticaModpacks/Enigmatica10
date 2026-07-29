@@ -7,6 +7,7 @@
 		id: "immersiveengineering:manual"
 	}
 	id: "16F2291ADE5A3FAC"
+	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             results: [{ id: 'ae2:printed_silicon', count: 2 }],
-            ingredients: [{ tag: 'c:silicon' }, { item: 'ae2:silicon_press' }],
+            ingredients: [{ tag: 'c:ingots/silicon' }, { item: 'ae2:silicon_press' }],
             keep_held_item: true,
             id: `${id_prefix}printed_silicon`
         },
