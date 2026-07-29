@@ -1,3 +1,17 @@
+### Enigmatica 10 1.30.1
+
+NeoForge-1.21.1-21.1.235
+
+#### ⭐ Improvements
+
+#### ✔️ Added Mods
+
+#### 🦟 Bugs Fixed
+
+- Fix missing Printed Silicon recipes [(\#493)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/493)
+
+---
+
 ### Enigmatica 10 1.30.0
 
 NeoForge-1.21.1-21.1.235 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.30.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.30.0.md)
