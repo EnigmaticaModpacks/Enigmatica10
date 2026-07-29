@@ -7,6 +7,7 @@
 		id: "enderio:ender_resonator"
 	}
 	id: "1514913DA64A98EB"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
