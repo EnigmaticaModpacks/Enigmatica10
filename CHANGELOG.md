@@ -1,6 +1,6 @@
-### Enigmatica 10 1.30.1
+### Enigmatica 10 1.31.0
 
-NeoForge-1.21.1-21.1.235
+NeoForge-1.21.1-21.1.244
 
 #### ⭐ Improvements
 
