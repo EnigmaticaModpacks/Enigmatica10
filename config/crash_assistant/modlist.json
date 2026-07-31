@@ -948,6 +948,14 @@
     "curseForgeHash": 1474752946,
     "modrinthHash": "7343b63ded70c0546811c768118d16d3a86418ee"
   },
+  "Feature-Recycler-neoforge-2.0.0.jar": {
+    "jarName": "Feature-Recycler-neoforge-2.0.0.jar",
+    "modId": "featurerecycler",
+    "name": "Feature Recycler",
+    "version": "2.0.0",
+    "curseForgeHash": 453509189,
+    "modrinthHash": "1c14b70c4e1341d1b92b51da684529644c0ab5cb"
+  },
   "ferritecore-7.0.3-neoforge.jar": {
     "jarName": "ferritecore-7.0.3-neoforge.jar",
     "modId": "ferritecore",
@@ -987,14 +995,6 @@
     "version": "21.1.6",
     "curseForgeHash": 858109102,
     "modrinthHash": "14f2dd9f43254b8c06af04b6f0c8ae5192f658b5"
-  },
-  "forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar": {
-    "jarName": "forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar",
-    "modId": "fabric_api",
-    "name": "Forgified Fabric API",
-    "version": "0.116.15+2.3.1+1.21.1",
-    "curseForgeHash": 342527820,
-    "modrinthHash": "4fe8b0c2110bc3228bbe4dfec38092a7dcabe028"
   },
   "forgivingvoid-neoforge-1.21.1-21.1.7.jar": {
     "jarName": "forgivingvoid-neoforge-1.21.1-21.1.7.jar",
@@ -1300,13 +1300,13 @@
     "curseForgeHash": 2727815281,
     "modrinthHash": "385e4937144b20c6cbf103945a73066f8dc1bc74"
   },
-  "jei-1.21.1-neoforge-19.42.0.388.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.42.0.388.jar",
+  "jei-1.21.1-neoforge-19.43.0.390.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.43.0.390.jar",
     "modId": "jei",
     "name": "Just Enough Items",
-    "version": "19.42.0.388",
-    "curseForgeHash": 1663927115,
-    "modrinthHash": "30d5c4bf62031ee63ddde7426bc7f7f161879805"
+    "version": "19.43.0.390",
+    "curseForgeHash": 1162097717,
+    "modrinthHash": "fb25d43125b80a8456433c3eb8b132e6f24e9c8c"
   },
   "jinxedlib-neoforge-1.21.1-1.0.4.jar": {
     "jarName": "jinxedlib-neoforge-1.21.1-1.0.4.jar",
@@ -2313,13 +2313,13 @@
     "curseForgeHash": 3362236386,
     "modrinthHash": "b91a7915bdd4def97aaa1040b690e71858a766b3"
   },
-  "the_bumblezone-7.15.2+1.21.1-neoforge.jar": {
-    "jarName": "the_bumblezone-7.15.2+1.21.1-neoforge.jar",
+  "the_bumblezone-7.15.3+1.21.1-neoforge.jar": {
+    "jarName": "the_bumblezone-7.15.3+1.21.1-neoforge.jar",
     "modId": "the_bumblezone",
     "name": "The Bumblezone",
-    "version": "7.15.2+1.21.1-neoforge",
-    "curseForgeHash": 96566241,
-    "modrinthHash": "984eb10b67d5df7fe9911224d1bdcc818b2325d7"
+    "version": "7.15.3+1.21.1-neoforge",
+    "curseForgeHash": 1051098325,
+    "modrinthHash": "d15559a5a29b2976d8f7f29aecf1a6b75ebe7c7d"
   },
   "theurgy-1.21.1-neoforge-1.76.0.jar": {
     "jarName": "theurgy-1.21.1-neoforge-1.76.0.jar",
