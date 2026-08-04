@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             results: [{ id: 'ae2:printed_silicon', count: 2 }],
-            ingredients: [{ tag: 'c:silicon' }],
+            ingredients: [{ tag: 'c:ingots/silicon' }],
             time: 5,
             id: `${id_prefix}printed_silicon`
         },

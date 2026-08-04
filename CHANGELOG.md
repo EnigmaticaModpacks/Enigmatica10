@@ -1,3 +1,23 @@
+### Enigmatica 10 1.31.0
+
+NeoForge-1.21.1-21.1.244
+
+#### ⭐ Improvements
+
+#### ✔️ Added Mods
+
+- [Feature Recycler](https://www.curseforge.com/minecraft/mc-mods/feature-recycler) (by [Corgi_Taco](https://www.curseforge.com/members/corgi_taco/projects))
+
+#### ❌ Removed Mods
+
+- [Forgified Fabric API](https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api) (by [Su5eD](https://www.curseforge.com/members/su5ed/projects))
+
+#### 🦟 Bugs Fixed
+
+- Fix missing Printed Silicon recipes [(\#493)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/493)
+
+---
+
 ### Enigmatica 10 1.30.0
 
 NeoForge-1.21.1-21.1.235 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.30.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.30.0.md)

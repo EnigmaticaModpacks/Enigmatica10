@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}printed_logic_processor`
         },
         {
-            input: { tag: 'c:silicon', count: 9 },
+            input: { tag: 'c:ingots/silicon', count: 9 },
             result: { id: 'ae2:printed_silicon', count: 18 },
             program: 'drill',
             id: `${id_prefix}printed_silicon`

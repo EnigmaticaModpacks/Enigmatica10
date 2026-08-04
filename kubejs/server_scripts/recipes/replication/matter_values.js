@@ -169,7 +169,7 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}hardened_blood`
         },
         {
-            input: { tag: 'c:silicon' },
+            input: { tag: 'c:ingots/silicon' },
             matter: [{ type: 'replication:earth', amount: 2.0 }],
             id: `${id_prefix}silicon`
         },

@@ -7,6 +7,7 @@
 		id: "chococraft:chocopedia"
 	}
 	id: "7CFAC3316D718D25"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

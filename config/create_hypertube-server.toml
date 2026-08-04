@@ -28,3 +28,13 @@
 	# Default: 4.0
 	# Range: 0.0 ~ 100.0
 	acceleratorStressImpact = 4.0
+
+#Collision Settings
+["Collision Settings"]
+	#Whether hypertubes have solid collision along their curved path.
+	#When true,entities collide with it
+	#(you can stand on it, mobs can't pass through); travelers still pass through freely.
+	#When false, tubes are visual-only with no collision along the curve.
+	#Note: disabling only stops NEW tubes from gaining collision - existing tubes keep theirs
+	#until they are reconnected.
+	tubeCollision = true

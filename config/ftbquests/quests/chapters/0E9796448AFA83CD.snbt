@@ -8,6 +8,7 @@
 		id: "minecraft:plenty_pottery_sherd"
 	}
 	id: "0E9796448AFA83CD"
+	images: [ ]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
