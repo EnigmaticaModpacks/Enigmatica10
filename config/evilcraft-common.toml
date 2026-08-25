@@ -284,6 +284,14 @@
 		#If creative versions for all variants should be added to the creative tab.
 		creativeTabVariants = false
 
+	[item.mace_of_distortion]
+		#The attack speed modifier of this mace, which is added to the default player attack speed of 4.
+		attackSpeed = -2.4
+
+	[item.mace_of_destruction]
+		#The attack speed modifier of this mace, which is added to the default player attack speed of 4.
+		attackSpeed = -3.0
+
 	[mob.kineticator]
 		#The blacklisted items which should not be influenced by the Kineticator, by unique item/blockState name.
 		kineticateBlacklist = ["appliedenergistics2:item.ItemCrystalSeed"]
