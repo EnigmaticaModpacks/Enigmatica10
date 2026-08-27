@@ -1,6 +1,6 @@
 ### Enigmatica 10 1.32.0
 
-NeoForge-1.21.1-21.1.244
+NeoForge-1.21.1-21.1.244 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.31.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.31.0.md)
 
 #### ⭐ Improvements
 
