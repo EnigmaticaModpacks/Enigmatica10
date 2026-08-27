@@ -1,6 +1,6 @@
 ### Enigmatica 10 1.32.0
 
-NeoForge-1.21.1-21.1.244 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.31.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.31.0.md)
+NeoForge-1.21.1-21.1.248 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.32.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.32.0.md)
 
 #### ⭐ Improvements
 
@@ -11,6 +11,7 @@ NeoForge-1.21.1-21.1.244 | [Mod Updates](https://github.com/EnigmaticaModpacks/E
 #### 🦟 Bugs Fixed
 
 - Fix missing Insulating Resin recipe [(\#555)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/555)
+- Server files contain client-only mod "Dark Mode Everywhere" [(\#551)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/551)
 
 ---
 
