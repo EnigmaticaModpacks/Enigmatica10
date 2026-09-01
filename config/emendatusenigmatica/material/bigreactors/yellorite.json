@@ -1,0 +1,24 @@
+{
+    "id": "yellorite",
+    "source": "modded",
+    "localizedName": "Yellorite",
+    "processedTypes": [
+        "ore",
+        "raw",
+        "slurry",
+        "crystal",
+        "shard",
+        "clump",
+        "dirty_dust"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 2
+    },
+    "colors": {
+        "chemicalColor": "a2a8ab"
+    },
+    "strata": [
+        "minecraft_deepslate"
+    ]
+}

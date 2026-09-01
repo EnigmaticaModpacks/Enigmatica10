@@ -1,0 +1,19 @@
+{
+    "id": "uraninite_poor",
+    "source": "modded",
+    "localizedName": "Uraninite (Poor)",
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 2
+    },
+    "oreDrop": {
+        "drop": "emendatusenigmatica:raw_uraninite"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "redstone",
+    "source": "vanilla",
+    "localizedName": "Redstone",
+    "disableDefaultOre": true,
+    "processedTypes": [
+        "ore"
+    ],
+    "properties": {
+        "materialType": "gem",
+        "harvestLevel": 2,
+        "hasParticles": true,
+        "isEmissive": true
+    },
+    "oreDrop": {
+        "drop": "minecraft:redstone",
+        "min": 3,
+        "max": 9
+    },
+    "colors": {
+        "particlesColor": "ff0000"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate",
+        "minecraft_netherrack",
+        "minecraft_end_stone"
+    ]
+}

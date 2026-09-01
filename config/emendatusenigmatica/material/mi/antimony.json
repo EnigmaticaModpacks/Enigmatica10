@@ -1,0 +1,25 @@
+{
+    "id": "antimony",
+    "source": "modded",
+    "localizedName": "Antimony",
+    "processedTypes": [
+        "ore",
+        "raw",
+        "slurry",
+        "crystal",
+        "shard",
+        "clump",
+        "dirty_dust"
+    ],
+    "properties": {
+        "materialType": "metal",
+        "harvestLevel": 1
+    },
+    "colors": {
+        "chemicalColor": "a2a8ab"
+    },
+    "strata": [
+        "minecraft_stone",
+        "minecraft_deepslate"
+    ]
+}
