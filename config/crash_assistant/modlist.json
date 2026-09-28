@@ -237,13 +237,13 @@
     "curseForgeHash": 360998666,
     "modrinthHash": "22a6afd4fbe76354acc9c1ba076c89a94d120d94"
   },
-  "ars_elemental-1.21.1-0.7.10.1.jar": {
-    "jarName": "ars_elemental-1.21.1-0.7.10.1.jar",
+  "ars_elemental-1.21.1-0.7.10.3.jar": {
+    "jarName": "ars_elemental-1.21.1-0.7.10.3.jar",
     "modId": "ars_elemental",
     "name": "Ars Elemental",
-    "version": "0.7.10.1",
-    "curseForgeHash": 709864394,
-    "modrinthHash": "a1e4021177aae0e16c1f7c6487a82f0b68bbade3"
+    "version": "0.7.10.3",
+    "curseForgeHash": 3989596967,
+    "modrinthHash": "bc172365493accea932d18a7fcf28ef176cf102f"
   },
   "ars_nouveau-1.21.1-5.13.2.jar": {
     "jarName": "ars_nouveau-1.21.1-5.13.2.jar",
@@ -1364,13 +1364,13 @@
     "curseForgeHash": 900519501,
     "modrinthHash": "9b2bfac5e7aa0952dfb3da18936c0ece4beeae21"
   },
-  "JustEnoughMekanismMultiblocks-1.21.1-7.21.jar": {
-    "jarName": "JustEnoughMekanismMultiblocks-1.21.1-7.21.jar",
+  "JustEnoughMekanismMultiblocks-1.21.1-7.22.jar": {
+    "jarName": "JustEnoughMekanismMultiblocks-1.21.1-7.22.jar",
     "modId": "jei_mekanism_multiblocks",
     "name": "Just Enough Mekanism Multiblocks",
-    "version": "7.21",
-    "curseForgeHash": 3977309165,
-    "modrinthHash": "9e10e0368b7808a82c624c3f11b23669de675d21"
+    "version": "7.22",
+    "curseForgeHash": 1663678980,
+    "modrinthHash": "84885d19618b04d713bab836915724e97d84a106"
   },
   "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar": {
     "jarName": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
