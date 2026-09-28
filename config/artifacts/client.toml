@@ -18,3 +18,7 @@ useModdedMimicTextures = true
 #Controls the vertical position of the Helium Flamingo's charge meter
 #Range: -2147483648 ~ 2147483647
 heliumFlamingoOverlayOffset = 0
+#Whether worn artifacts should be displayed on players
+#This config option is purely client-side, it does not change what other players see
+#Allowed Values: true, false
+showArtifactsOnPlayers = true
