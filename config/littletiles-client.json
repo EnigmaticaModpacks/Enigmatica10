@@ -24,6 +24,42 @@
           "scan": -1,
           "modifier": 3
         }
+      },
+      "measures": {
+        "key": {
+          "key": 78,
+          "scan": -1,
+          "modifier": 3
+        },
+        "defaultValue": false,
+        "measureTapeColors": [
+          -214525,
+          -3305472,
+          -5151232,
+          -6338304,
+          -8307968,
+          -10344448
+        ]
+      },
+      "cycle_measures": {
+        "key": {
+          "key": 71,
+          "scan": -1,
+          "modifier": 3
+        }
+      },
+      "rules": {
+        "key": {
+          "key": 82,
+          "scan": -1,
+          "modifier": 3
+        }
+      },
+      "include": {
+        "color": -16711936
+      },
+      "exclude": {
+        "color": -65536
       }
     },
     "invertStickToGrid": false,
@@ -33,7 +69,6 @@
     "lowResolutionBoxCount": 2000
   },
   "rendering": {
-    "useQuadCache": false,
     "useCubeCache": true,
     "renderingThreadCount": 2,
     "highlightStructureBox": true,

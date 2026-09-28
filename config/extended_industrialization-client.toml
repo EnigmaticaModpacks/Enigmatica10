@@ -5,3 +5,7 @@
 tesla_animations_render_distance = 0
 #Whether tesla animations should be rendered or not
 render_tesla_animations = true
+#The distance (in blocks) for the tesla linked overlay to render within
+# Default: 32
+# Range: > 0
+tesla_linked_overlay_render_distance = 32

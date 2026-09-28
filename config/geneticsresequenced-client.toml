@@ -2,8 +2,6 @@
 woolyRemovesCape = true
 #Disables the narrator when a player with the Parrot gene speaks.
 disableParrotNarrator = false
-#Enable to render the base Slime model for Support Slime entities.
-supportSlimeRenderDebug = false
 #Show that an item is in the Item Magnet's blacklist in its tooltip.
 itemMagnetBlacklistTooltip = true
 

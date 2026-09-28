@@ -1,18 +1,25 @@
 {
   "verticalScaling": {
-    // The amount by which the chunk render distance sphere is stretched vertically. default:2.0, min 0.5, max 10
+    // The amount by which the chunk render distance sphere is stretched vertically. 
+    // Default:2.0, min 0.5, max 10
     "verticalScaling": 2.0
   },
+
   "horizontalScaling": {
-    // The amount by which the chunk render distance sphere is stretched horizontally. default:1.0, min 0.05, max 2
+    // The amount by which the chunk render distance sphere is stretched horizontally. 
+    // Default:1.0, min 0.05, max 2
     "horizontalScaling": 1.1
   },
+
   "affectEntities": {
-    // Enables the distance stretch to also affect entity rendering, default = true
+    // Enables the distance stretch to also affect entity rendering, 
+    // Default = true
     "affectEntities": true
   },
+
   "debugMode": {
-    // Enables debug mode, which displays how many sections are being hidden(A section is an area of 16x16x16 blocks) default:false
+    // Enables debug mode, which displays how many sections are being hidden(A section is an area of 16x16x16 blocks) 
+    // Default:false
     "debugMode": false
   }
 }

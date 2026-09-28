@@ -32,6 +32,9 @@
 		# Valid values: "file", "chapter"
 		auto_pin_follows: "chapter"
 		
+		# Default: true
+		pinned_exclude_flexible: true
+		
 		# Default: 2
 		# Range: -∞ ~ +∞
 		pinned_quests_inset_x: 2
@@ -47,6 +50,10 @@
 		# Default: 0.75
 		# Range: 0.25 ~ 2.0
 		pinned_quests_scale: 0.75d
+		
+		# Default: "all"
+		# Valid values: "all", "quests_only", "hidden"
+		pinned_visibility: "all"
 	}
 	ui: {
 		# Default: true

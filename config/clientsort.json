@@ -155,6 +155,9 @@
         "autoOpOther": false,
         "ignoredSlots": []
       }
-    }
+    },
+    "screenClassBlacklist": [
+      "com.simibubi.create.content.logistics.stockTicker.StockKeeperCategoryScreen"
+    ]
   }
 }

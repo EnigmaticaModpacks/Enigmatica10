@@ -1,3 +1,19 @@
+### Enigmatica 10 1.33.0
+
+NeoForge-1.21.1-21.1.252 |
+
+#### ⭐ Improvements
+
+#### ✔️ Added Mods
+
+#### ❌ Removed Mods
+
+#### 🦟 Bugs Fixed
+
+- Fix more broken silicon recipes [(\#559)](https://github.com/EnigmaticaModpacks/Enigmatica10/issues/559)
+
+---
+
 ### Enigmatica 10 1.32.0
 
 NeoForge-1.21.1-21.1.248 | [Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/changelog_mods_1.32.0.md) | [Modlist](https://github.com/EnigmaticaModpacks/Enigmatica10/blob/master/changelogs/modlist_1.32.0.md)
