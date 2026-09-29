@@ -133,13 +133,13 @@
     "curseForgeHash": 767859163,
     "modrinthHash": "2d8b59070a221bcc2e3ea08b3b48cbf034b77c71"
   },
-  "ApothicAttributes-1.21.1-2.10.1.jar": {
-    "jarName": "ApothicAttributes-1.21.1-2.10.1.jar",
+  "ApothicAttributes-1.21.1-2.11.0.jar": {
+    "jarName": "ApothicAttributes-1.21.1-2.11.0.jar",
     "modId": "apothic_attributes",
     "name": "Apothic Attributes",
-    "version": "2.10.1",
-    "curseForgeHash": 185200915,
-    "modrinthHash": "6a6b84d09801621df5cc2c8a68f35bd93a6cda0f"
+    "version": "2.11.0",
+    "curseForgeHash": 1999915051,
+    "modrinthHash": "7ff0e452e10cb582c188626a413037e63db9ca04"
   },
   "ApothicEnchanting-1.21.1-1.6.2.jar": {
     "jarName": "ApothicEnchanting-1.21.1-1.6.2.jar",
@@ -572,13 +572,13 @@
     "curseForgeHash": 3174804230,
     "modrinthHash": "0a44c13d6744e0eeec5bf38f58756a8e86e96f55"
   },
-  "connectivity-1.21.1-7.6.jar": {
-    "jarName": "connectivity-1.21.1-7.6.jar",
+  "connectivity-1.21.1-7.7.jar": {
+    "jarName": "connectivity-1.21.1-7.7.jar",
     "modId": "connectivity",
     "name": "Connectivity Mod",
-    "version": "7.6",
-    "curseForgeHash": 1642034907,
-    "modrinthHash": "6adebe84f745dec8fa33bc3982383bc1cc24d49e"
+    "version": "7.7",
+    "curseForgeHash": 396013338,
+    "modrinthHash": "b4900c9a46123e2c7d6bfd653abbced92aab560b"
   },
   "ConstructionSticks-1.21.1-1.5.0.jar": {
     "jarName": "ConstructionSticks-1.21.1-1.5.0.jar",
@@ -1052,13 +1052,13 @@
     "curseForgeHash": 1958225968,
     "modrinthHash": "a48e54edeacc59aaba29a1b627799c052112ee0b"
   },
-  "ftb-library-neoforge-2101.1.36.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.36.jar",
+  "ftb-library-neoforge-2101.1.37.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.37.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "2101.1.36",
-    "curseForgeHash": 1604733704,
-    "modrinthHash": "07b5bf1c6ac5160a6cfe1b39ed8c1465dc151b00"
+    "version": "2101.1.37",
+    "curseForgeHash": 4074313308,
+    "modrinthHash": "b6e503587afcd678ec257e4abdc6362ff18c2fef"
   },
   "ftb-quests-neoforge-2101.1.36.jar": {
     "jarName": "ftb-quests-neoforge-2101.1.36.jar",
@@ -1308,13 +1308,13 @@
     "curseForgeHash": 2727815281,
     "modrinthHash": "385e4937144b20c6cbf103945a73066f8dc1bc74"
   },
-  "jei-1.21.1-neoforge-19.57.0.449.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.57.0.449.jar",
+  "jei-1.21.1-neoforge-19.57.0.450.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.57.0.450.jar",
     "modId": "jei",
     "name": "Just Enough Items",
-    "version": "19.57.0.449",
-    "curseForgeHash": 1851267821,
-    "modrinthHash": "e93a639ccaf91f5f59be8e65ee8c66db31ef474f"
+    "version": "19.57.0.450",
+    "curseForgeHash": 3813678732,
+    "modrinthHash": "129a0aa982cd520ef8a35abddf592dc4d5655bd9"
   },
   "jinxedlib-neoforge-1.21.1-1.0.4.jar": {
     "jarName": "jinxedlib-neoforge-1.21.1-1.0.4.jar",
@@ -2153,13 +2153,13 @@
     "curseForgeHash": 2270201149,
     "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
   },
-  "sophisticatedbackpacks-1.21.1-3.26.5.2171.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.26.5.2171.jar",
+  "sophisticatedbackpacks-1.21.1-3.26.6.2174.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.26.6.2174.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.26.5",
-    "curseForgeHash": 170298832,
-    "modrinthHash": "dbe77825620ff12169800cc222993ed99c11964d"
+    "version": "3.26.6",
+    "curseForgeHash": 851657912,
+    "modrinthHash": "796a0bd5df9eb03b518e0c07e9b82bf1f837fd95"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.2.1.171.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.2.1.171.jar",
